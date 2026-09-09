@@ -1,10 +1,10 @@
 {
-  "version": "20260909031809",
-  "generatedAt": "2026-09-09T03:18:09.293Z",
+  "version": "20260909075644",
+  "generatedAt": "2026-09-09T07:56:44.024Z",
   "schemaVersion": 1,
   "books": {
     "mocks_basic": {
-      "version": 1,
+      "version": 2,
       "titleKey": "bookshelf.mocksBasic",
       "descKey": "bookshelf.mockSeriesDesc",
       "subjects": [
@@ -26,13 +26,13 @@
       "tier": "free",
       "publicDownload": true,
       "kind": "series",
-      "coverUrl": "https://raw.githubusercontent.com/dddogwang/ejuone-public-books/main/mocks_basic/cover.png?v=881e9b6d",
+      "coverUrl": "https://raw.githubusercontent.com/dddogwang/ejuone-public-books/main/mocks_basic/cover.png?v=a981698f",
       "spineColor": "#3f5f7a",
       "bandColor": "#5b8db8",
       "icon": "reader",
       "questionCount": 1190,
       "setsCount": 10,
-      "releasedAt": "2026-09-09T03:18:09.186Z",
+      "releasedAt": "2026-09-09T07:56:43.920Z",
       "files": {
         "comprehensive/2013-1.json": {
           "sha256": "a020d2e21e863a0dfb3af88ad878e95ceede8bdcdc950e07c2b56c1734db0415",
@@ -323,13 +323,14 @@
           "bytes": 227445
         },
         "cover.png": {
-          "sha256": "881e9b6dc9451fc1bb82eb398cb0f695d9e00a10a92f4e12a93b5523ac4446f5",
-          "bytes": 257225
+          "sha256": "a981698fcd013394b4d07afd891c68f412eb38e15577fa928fdf3da2a55e7ce2",
+          "bytes": 101161
         }
-      }
+      },
+      "changelog": "更新 EJU One 题库封面"
     },
     "mocks_plus": {
-      "version": 1,
+      "version": 2,
       "titleKey": "bookshelf.mocksPlus",
       "descKey": "bookshelf.mocksPlusDesc",
       "subjects": [
@@ -351,13 +352,13 @@
       "tier": "free",
       "publicDownload": true,
       "kind": "series",
-      "coverUrl": "https://raw.githubusercontent.com/dddogwang/ejuone-public-books/main/mocks_plus/cover.png?v=db338d12",
+      "coverUrl": "https://raw.githubusercontent.com/dddogwang/ejuone-public-books/main/mocks_plus/cover.png?v=1398317a",
       "spineColor": "#3f5f7a",
       "bandColor": "#5b8db8",
       "icon": "library",
       "questionCount": 1204,
       "setsCount": 10,
-      "releasedAt": "2026-09-09T03:18:09.232Z",
+      "releasedAt": "2026-09-09T07:56:43.965Z",
       "files": {
         "comprehensive/2018-1.json": {
           "sha256": "78a69766a9b88a7afc72e33f66a7a33fbb6311ad5d32356a99b9b4f17667e439",
@@ -648,14 +649,15 @@
           "bytes": 223325
         },
         "cover.png": {
-          "sha256": "db338d129bbda37c597947c7a2ec2242faf06e3b2a370f9429c58dbb56d12f06",
-          "bytes": 280113
+          "sha256": "1398317a9ffa30d5f9975a558704784628de2c6da16258325afc16a52ed1b211",
+          "bytes": 100635
         }
       },
-      "logoUrl": "https://raw.githubusercontent.com/dddogwang/ejuone-public-books/main/_logos/eju_one.png"
+      "logoUrl": "https://raw.githubusercontent.com/dddogwang/ejuone-public-books/main/_logos/eju_one.png",
+      "changelog": "更新 EJU One 题库封面"
     },
     "mock_japanese": {
-      "version": 1,
+      "version": 2,
       "titleKey": "bookshelf.mocksJapanese",
       "descKey": "bookshelf.mocksJapaneseDesc",
       "subjects": [
@@ -669,13 +671,13 @@
       "tier": "free",
       "publicDownload": true,
       "kind": "subject",
-      "coverUrl": "https://raw.githubusercontent.com/dddogwang/ejuone-public-books/main/mock_japanese/cover.png?v=35591a31",
+      "coverUrl": "https://raw.githubusercontent.com/dddogwang/ejuone-public-books/main/mock_japanese/cover.png?v=fdaf87f9",
       "spineColor": "#3f5f7a",
       "bandColor": "#5b8db8",
       "icon": "language",
       "questionCount": 350,
       "setsCount": 10,
-      "releasedAt": "2026-09-09T03:18:09.252Z",
+      "releasedAt": "2026-09-09T07:56:43.987Z",
       "files": {
         "japanese/listening/2008-1.json": {
           "sha256": "90c67be0e7075a388d4a6c806a98ddfdbd9ad77f80535f61035da1fbbcf5aa01",
@@ -806,14 +808,15 @@
           "bytes": 54022
         },
         "cover.png": {
-          "sha256": "35591a310fca598515a757f45ca81c3dfa422d449dcd7d29d024003f5aeef7af",
-          "bytes": 259997
+          "sha256": "fdaf87f9c67ee99f56c13233c4b10738602ab4f939e1d5f2397661ce4f88a8b2",
+          "bytes": 94880
         }
       },
-      "logoUrl": "https://raw.githubusercontent.com/dddogwang/ejuone-public-books/main/_logos/eju_one.png"
+      "logoUrl": "https://raw.githubusercontent.com/dddogwang/ejuone-public-books/main/_logos/eju_one.png",
+      "changelog": "更新 EJU One 题库封面"
     },
     "mock_comprehensive": {
-      "version": 1,
+      "version": 2,
       "titleKey": "bookshelf.mockComprehensive",
       "descKey": "bookshelf.mockSubjectDesc",
       "subjects": [
@@ -826,13 +829,13 @@
       "tier": "free",
       "publicDownload": true,
       "kind": "subject",
-      "coverUrl": "https://raw.githubusercontent.com/dddogwang/ejuone-public-books/main/mock_comprehensive/cover.png?v=c841cfb3",
+      "coverUrl": "https://raw.githubusercontent.com/dddogwang/ejuone-public-books/main/mock_comprehensive/cover.png?v=8ccb500b",
       "spineColor": "#a87a3a",
       "bandColor": "#c4953a",
       "icon": "earth",
       "questionCount": 291,
       "setsCount": 10,
-      "releasedAt": "2026-09-09T03:18:09.268Z",
+      "releasedAt": "2026-09-09T07:56:44.022Z",
       "files": {
         "comprehensive/2008-1.json": {
           "sha256": "f7627416dd277c44bce359d94ec9103b7f4b81f15e4308ed1259cc3856a70fdb",
@@ -883,14 +886,15 @@
           "bytes": 54945
         },
         "cover.png": {
-          "sha256": "c841cfb373da1c669fed5f77f3e6a8c8ca3f1e0303363e787e2b1a5aa818a4e2",
-          "bytes": 260973
+          "sha256": "8ccb500b9f6ba06e3c65a18c9c2cbf5f346982dde685fdef750384666db6bf3b",
+          "bytes": 101854
         }
       },
-      "logoUrl": "https://raw.githubusercontent.com/dddogwang/ejuone-public-books/main/_logos/eju_one.png"
+      "logoUrl": "https://raw.githubusercontent.com/dddogwang/ejuone-public-books/main/_logos/eju_one.png",
+      "changelog": "更新 EJU One 题库封面"
     },
     "mock_physics": {
-      "version": 1,
+      "version": 2,
       "titleKey": "bookshelf.mockPhysics",
       "descKey": "bookshelf.mockSubjectDesc",
       "subjects": [
@@ -903,13 +907,13 @@
       "tier": "free",
       "publicDownload": true,
       "kind": "subject",
-      "coverUrl": "https://raw.githubusercontent.com/dddogwang/ejuone-public-books/main/mock_physics/cover.png?v=e138fbf3",
+      "coverUrl": "https://raw.githubusercontent.com/dddogwang/ejuone-public-books/main/mock_physics/cover.png?v=b635d6d5",
       "spineColor": "#7a6aa8",
       "bandColor": "#a37fc4",
       "icon": "magnet",
       "questionCount": 184,
       "setsCount": 10,
-      "releasedAt": "2026-09-09T03:18:09.276Z",
+      "releasedAt": "2026-09-09T07:56:43.997Z",
       "files": {
         "science/physics/2008-1.json": {
           "sha256": "72e41b4a0d8593c6103cc4a9de2298de53c80e7338d5d7459462b09ddab65196",
@@ -960,14 +964,15 @@
           "bytes": 36906
         },
         "cover.png": {
-          "sha256": "e138fbf3ea849d0a13e647b0f6c05d0da0e538f247ad436bc4b244280e309c86",
-          "bytes": 241288
+          "sha256": "b635d6d562b0ed3b5d6d07f056a6409eaca4ab5b8990c7281645900fa4004c20",
+          "bytes": 96065
         }
       },
-      "logoUrl": "https://raw.githubusercontent.com/dddogwang/ejuone-public-books/main/_logos/eju_one.png"
+      "logoUrl": "https://raw.githubusercontent.com/dddogwang/ejuone-public-books/main/_logos/eju_one.png",
+      "changelog": "更新 EJU One 题库封面"
     },
     "mock_chemistry": {
-      "version": 1,
+      "version": 2,
       "titleKey": "bookshelf.mockChemistry",
       "descKey": "bookshelf.mockSubjectDesc",
       "subjects": [
@@ -980,13 +985,13 @@
       "tier": "free",
       "publicDownload": true,
       "kind": "subject",
-      "coverUrl": "https://raw.githubusercontent.com/dddogwang/ejuone-public-books/main/mock_chemistry/cover.png?v=ddfeea9d",
+      "coverUrl": "https://raw.githubusercontent.com/dddogwang/ejuone-public-books/main/mock_chemistry/cover.png?v=00bb5d18",
       "spineColor": "#a85a4a",
       "bandColor": "#c4493c",
       "icon": "flask",
       "questionCount": 200,
       "setsCount": 10,
-      "releasedAt": "2026-09-09T03:18:09.284Z",
+      "releasedAt": "2026-09-09T07:56:44.004Z",
       "files": {
         "science/chemistry/2008-1.json": {
           "sha256": "7481e4e90f4b67828b2fbb70546ad08a13e72842310b22e1d7f29dec29583427",
@@ -1037,14 +1042,15 @@
           "bytes": 40315
         },
         "cover.png": {
-          "sha256": "ddfeea9dbdebb20459e037ae1bdafff2720a57df6391c431fd5db2b5ba488d1f",
-          "bytes": 244543
+          "sha256": "00bb5d187e7bd6af635da3fbfeeb4130a5e7c0d0650a873ffec34ca152620d58",
+          "bytes": 95623
         }
       },
-      "logoUrl": "https://raw.githubusercontent.com/dddogwang/ejuone-public-books/main/_logos/eju_one.png"
+      "logoUrl": "https://raw.githubusercontent.com/dddogwang/ejuone-public-books/main/_logos/eju_one.png",
+      "changelog": "更新 EJU One 题库封面"
     },
     "mock_biology": {
-      "version": 1,
+      "version": 2,
       "titleKey": "bookshelf.mockBiology",
       "descKey": "bookshelf.mockSubjectDesc",
       "subjects": [
@@ -1057,13 +1063,13 @@
       "tier": "free",
       "publicDownload": true,
       "kind": "subject",
-      "coverUrl": "https://raw.githubusercontent.com/dddogwang/ejuone-public-books/main/mock_biology/cover.png?v=b41dc8aa",
+      "coverUrl": "https://raw.githubusercontent.com/dddogwang/ejuone-public-books/main/mock_biology/cover.png?v=6fbb0b54",
       "spineColor": "#5a7a4a",
       "bandColor": "#8a9a4e",
       "icon": "leaf",
       "questionCount": 152,
       "setsCount": 10,
-      "releasedAt": "2026-09-09T03:18:09.292Z",
+      "releasedAt": "2026-09-09T07:56:44.012Z",
       "files": {
         "science/biology/2008-1.json": {
           "sha256": "6191833f64e1a8710c9ce4af83a1458eb5da58f3a6e1f579084c0a89b6949e5a",
@@ -1114,11 +1120,12 @@
           "bytes": 33360
         },
         "cover.png": {
-          "sha256": "b41dc8aa185337e99738c09332d0042d9498d78eadcc65036dfd39793886ca91",
-          "bytes": 258528
+          "sha256": "6fbb0b54b0a31e6d25b86bf7a8cc387336fd7417d8e9a8fd193b33a66bc74594",
+          "bytes": 92264
         }
       },
-      "logoUrl": "https://raw.githubusercontent.com/dddogwang/ejuone-public-books/main/_logos/eju_one.png"
+      "logoUrl": "https://raw.githubusercontent.com/dddogwang/ejuone-public-books/main/_logos/eju_one.png",
+      "changelog": "更新 EJU One 题库封面"
     }
   }
 }
