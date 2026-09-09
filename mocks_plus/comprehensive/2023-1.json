@@ -1,0 +1,1017 @@
+{
+  "subject": "comprehensive",
+  "section": "",
+  "year": 2023,
+  "round": 1,
+  "title": "模擬試験 総合科目 第九回",
+  "image_path": "comprehensive/images/2023-1",
+  "questions": [
+  {
+    "id": 1,
+    "title": "問1",
+    "prompt": "イギリスの議院内閣制と下院・内閣の関係について、次の文章を踏まえて下の問い(1)〜(4)に答えなさい。",
+    "passage": "イギリスでは，国王（女王）は国家元首として象徴的役割を担い，行政の実権は下院多数派の党首が務める首相と内閣に属する。20 世紀後半以降のイギリスは，戦後の経済再建，旧植民地の独立と緩やかな国際協力体（コモンウェルス）の維持，米ソ冷戦下での西側陣営への参加，そして 1970 年代以降のヨーロッパ統合への関与など，複数の課題に同時に向き合ってきた。国内政治の運営は議会制民主主義の伝統に基づき，外交・安全保障では国際協調と核軍縮の枠組みづくりに継続的に関与してきた。",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":1,
+        "prompt":"イギリスの議院内閣制と議会の役割に関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"イギリスの首相は国王が独自の判断で自由に任命する。","explanation_zh":"陷阱：主体错位。首相由下院多数派党首经国王任命之惯例形成，并非国王独自判断。","explanation_ja":"誤り。主体取違の罠。首相は下院多数派の党首を国王が任命する慣行で，国王の自由裁量ではない。"},
+          {"id":2,"text":"イギリスでは行政の実権は内閣にあり，内閣は下院に対して責任を負う。","explanation_zh":"正确。议院内阁制下行政权属内阁，内阁对下院负责，是英国宪政惯例的核心。","explanation_ja":"正解。議院内閣制の下，行政権は内閣にあり，内閣は下院に対して連帯責任を負う。"},
+          {"id":3,"text":"イギリスは成文の単一憲法典をもち，それが議会と内閣の関係を細かく規定している。","explanation_zh":"陷阱：概念混淆。英国为不成文宪法国家，无单一成文宪法典，惯例与法律共同构成宪政。","explanation_ja":"誤り。概念混同の罠。イギリスは不文憲法の国で，単一の成文憲法典は存在しない。"},
+          {"id":4,"text":"下院が内閣不信任を可決しても，内閣は総辞職も解散もせず任期を全うできる。","explanation_zh":"陷阱：时态错位。下院通过不信任案后内阁须总辞职或解散下院，不能维持任期。","explanation_ja":"誤り。時態錯位の罠。下院の不信任可決後，内閣は総辞職か下院解散かを選ばねばならない。"}
+        ],
+        "answer":2,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["主体取違","範囲拡大","概念混同"],
+          "keywords_to_avoid":["首相","議会","議員"],
+          "sub_domain":"現代日本",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"1.民主政治"}
+        },
+        "sources":[{"claim":"UK は議院内閣制の典型で，内閣が下院に責任を負う。","source":"UK Parliament: How Parliament works","year":"2024","url":"https://www.parliament.uk/about/how/role/relations-with-other-institutions/government/"}]
+      },
+      {
+        "sub_id":2,
+        "global_id":2,
+        "prompt":"コモンウェルス（イギリス連邦）の加盟国数は，1970 年に約 31 か国，1990 年に約 50 か国，2000 年に 54 か国，2020 年代には 56 か国となっている（コモンウェルス事務局）。これらの数値から読み取れる内容として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"加盟国数は 1970 年から 2020 年にかけて常に減少し続けた。","explanation_zh":"陷阱：时态错位。1970 年约 31 国增至 2020 年代 56 国，整体趋势是增加而非减少。","explanation_ja":"誤り。時態錯位の罠。1970 年の約 31 か国から 2020 年代の 56 か国へと増加傾向で，減少ではない。"},
+          {"id":2,"text":"2020 年代の加盟国数は 1970 年の半分以下となった。","explanation_zh":"陷阱：数值混同。2020 年代约 56 国，是 1970 年代 31 国的约 1.8 倍，并非半数以下。","explanation_ja":"誤り。数値混同の罠。2020 年代は約 56 か国で，1970 年の約 31 か国の 1.8 倍程度であり半数以下ではない。"},
+          {"id":3,"text":"加盟国数は 1990 年から 2000 年の 10 年間で 2 倍以上に増えた。","explanation_zh":"陷阱：范围扩大。该期间加盟国数从约 50 国增至 54 国，并未达 2 倍。","explanation_ja":"誤り。範囲拡大の罠。同期間の加盟国数は約 50 から 54 程度で，2 倍にはなっていない。"},
+          {"id":4,"text":"加盟国数は 1970 年の約 31 か国から 2020 年代には 56 か国へと増加した。","explanation_zh":"正确。资料显示加盟国数从 1970 年约 31 国增加到 2020 年代 56 国，呈缓步增长。","explanation_ja":"正解。資料の通り，加盟国数は 1970 年の約 31 か国から 2020 年代の 56 か国へと緩やかに増加した。"}
+        ],
+        "answer":4,
+        "tag":{
+          "question_form":"図表読取",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["地域取違"],
+          "keywords_to_avoid":["コモンウェルス"],
+          "sub_domain":"現代日本",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"5. 国際政治"}
+        },
+        "sources":[{"claim":"The Commonwealth has 56 member states as of the 2020s, up from about 31 in 1970.","source":"The Commonwealth Secretariat — Member countries","year":"2024","url":"https://thecommonwealth.org/our-member-countries"}]
+      },
+      {
+        "sub_id":3,
+        "global_id":3,
+        "prompt":"ア：東南アジア条約機構（SEATO）の設立，イ：部分的核実験禁止条約（PTBT）の締結，ウ：ベトナム戦争を終結させたパリ和平協定の成立，エ：第二次戦略兵器制限交渉（SALT II）の署名，これら 4 つの出来事を年代の古い順に並べたものとして正しいものはどれですか。",
+        "passage":"近現代の出来事を考えるときは、国内改革、対外戦争、戦後の制度変更を分けて整理する必要がある。ここでは四つの出来事を、明治期の改革から二つの対外戦争を経て、第二次大戦後の制度変更へ進む流れとして扱う。",
+        "choices":[
+          {"id":1,"text":"PTBT 締結 → SEATO 設立 → パリ和平協定 → SALT II 署名","explanation_zh":"陷阱：顺序混乱。SEATO 設立 (1954) 早于 PTBT (1963)，此排列错置开头两项。","explanation_ja":"誤り。順序混同の罠。SEATO 設立(1954)は PTBT(1963)より前で，先頭 2 項の順が逆である。"},
+          {"id":2,"text":"パリ和平協定 → PTBT 締結 → SEATO 設立 → SALT II 署名","explanation_zh":"陷阱：顺序混乱。巴黎和平协定（1973）晚于 PTBT（1963）与 SEATO（1954），年代严重错位。","explanation_ja":"誤り。順序混同の罠。パリ和平協定(1973)は PTBT・SEATO より後で，先頭に置くのは誤り。"},
+          {"id":3,"text":"SEATO 設立 → PTBT 締結 → パリ和平協定 → SALT II 署名","explanation_zh":"正确。SEATO 设立 1954 年，PTBT 1963 年，巴黎和平协定 1973 年，SALT II 签署 1979 年，年代依次递增。","explanation_ja":"正解。SEATO 設立 1954 年，PTBT 1963 年，パリ和平協定 1973 年，SALT II 署名 1979 年で，年代順に並ぶ。"},
+          {"id":4,"text":"SALT II 署名 → パリ和平協定 → PTBT 締結 → SEATO 設立","explanation_zh":"陷阱：顺序混乱。整体顺序完全颠倒，最早事件 SEATO 设立 (1954) 反而被置于末尾。","explanation_ja":"誤り。順序混同の罠。全体が逆順で，最も早い SEATO 設立(1954)を末尾に置いている。"}
+        ],
+        "answer":3,
+        "tag":{
+          "question_form":"時系列整序",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["順序混同"],
+          "keywords_to_avoid":["PTBT","SEATO","1954年","1963年","1973年"],
+          "sub_domain":"現代日本",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"5. 国際政治"}
+        },
+        "sources":[{"claim":"SEATO=1954, PTBT=1963, Paris Peace Accords=1973, SALT II=1979.","source":"U.S. Department of State, Office of the Historian","year":"2023","url":"https://history.state.gov/milestones"}]
+      },
+      {
+        "sub_id":4,
+        "global_id":4,
+        "prompt":"1952 年から 2020 年にかけてのイギリスを取り巻く国際経済・地理に関連して，下記の数値を参考にしたうえで，最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"2020 年の名目 GDP はフランスがドイツを上回った。","explanation_zh":"陷阱：数值混同。2020 年法国名目 GDP 约 2.63 万亿美元，低于德国约 3.89 万亿美元。","explanation_ja":"誤り。数値混同の罠。2020 年のフランスは約 2.63 兆ドルで，ドイツの約 3.89 兆ドルを下回る。"},
+          {"id":2,"text":"2020 年の名目 GDP は，オーストラリアがフランスを上回った。","explanation_zh":"陷阱：数值混同。澳大利亚约 1.33 万亿美元，法国约 2.63 万亿美元，澳大利亚低于法国。","explanation_ja":"誤り。数値混同の罠。オーストラリアは約 1.33 兆ドルで，フランスの約 2.63 兆ドルを下回る。"},
+          {"id":3,"text":"2020 年に示された 3 か国の名目 GDP はいずれも 5 兆ドルを超えた。","explanation_zh":"陷阱：范围扩大。三国均不到 4 万亿美元，无任何一国超过 5 万亿美元。","explanation_ja":"誤り。範囲拡大の罠。3 か国いずれも 4 兆ドル未満で，5 兆ドル超は存在しない。"},
+          {"id":4,"text":"2020 年の名目 GDP はドイツが 3 か国の中で最大であった。","explanation_zh":"正确。德国 2020 年名目 GDP 约 3.89 万亿美元，超过法国 2.63 万亿美元和澳大利亚 1.33 万亿美元。","explanation_ja":"正解。2020 年のドイツは約 3.89 兆ドルで，フランス約 2.63 兆ドル，オーストラリア約 1.33 兆ドルを上回る。"}
+        ],
+        "answer":4,
+        "tag":{
+          "question_form":"図表読取",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["主体取違"],
+          "keywords_to_avoid":["1952年","2020年","フランス","ドイツ","オーストラリア"],
+          "sub_domain":"現代日本",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"10. 国際経済"}
+        },
+        "sources":[{"claim":"2020 nominal GDP (current USD): Germany 3.89 trn, France 2.63 trn, Australia 1.33 trn.","source":"World Bank, World Development Indicators, NY.GDP.MKTP.CD","year":"2020","url":"https://data.worldbank.org/indicator/NY.GDP.MKTP.CD"}]
+      }
+    ],
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"イギリス王室と冷戦後の世界",
+      "sub_domain":"現代日本",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"3. 冷戦後の世界"},
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "keywords_to_avoid":["エリザベス女王","1952年","冷戦","イギリス","ウェストミンスター"]
+    }
+  },
+  {
+    "id": 2,
+    "title": "問2",
+    "prompt": "コモンウェルス加盟国数の推移（1970年約31か国から2020年代56か国）を踏まえて、下の問い(1)〜(4)に答えなさい。",
+    "passage": "トルコ共和国は，ヨーロッパとアジアの境界に位置し，首都はアンカラ，最大都市はイスタンブールである。北大西洋条約機構（NATO）および経済協力開発機構（OECD）の加盟国であり，1923 年の共和制成立後，欧州・中東・中央アジア各方面と多面的な関係を築いてきた。経済面では，1980 年代以降の自由化を経て新興工業国として成長したが，2000 年代以降は高インフレや通貨安などの課題も抱えてきた。地理的にはアナトリア半島を中心に，気候は地中海性気候と乾燥した内陸高原気候が共存し，地震多発帯のアナトリア断層に沿って都市が分布する。",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":5,
+        "prompt":"トルコ統計機構（TÜİK）の住民登録に基づく 2022 年の都市人口は，イスタンブール約 1567 万人，アンカラ約 577 万人，イズミル約 447 万人であった。これらの数値から読み取れる内容として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"3 都市の中で人口が最も多いのはアンカラである。","explanation_zh":"陷阱：地域错位。最多人口的是伊斯坦布尔（约1567万），不是首都安卡拉。","explanation_ja":"誤り。地域取違の罠。最大はイスタンブール(約 1567 万人)で，首都アンカラではない。"},
+          {"id":2,"text":"イズミルの人口はアンカラの 2 倍を超える。","explanation_zh":"陷阱：数值混同。伊兹密尔约 447 万人低于安卡拉约 577 万人，未达其 2 倍。","explanation_ja":"誤り。数値混同の罠。イズミル約 447 万人はアンカラ約 577 万人を下回り，2 倍超ではない。"},
+          {"id":3,"text":"イスタンブールの人口はアンカラとイズミルの合計より多い。","explanation_zh":"正确。1567万 > 577万 + 447万 = 1024万，伊斯坦布尔确实超过两市合计。","explanation_ja":"正解。イスタンブール約 1567 万人は，アンカラ約 577 万人とイズミル約 447 万人の合計約 1024 万人を上回る。"},
+          {"id":4,"text":"3 都市の人口はいずれも 1000 万人を超えている。","explanation_zh":"陷阱：范围扩大。仅伊斯坦布尔超千万，安卡拉与伊兹密尔均不足千万。","explanation_ja":"誤り。範囲拡大の罠。1000 万を超えるのはイスタンブールのみで，他 2 都市は 1000 万未満である。"}
+        ],
+        "answer":3,
+        "tag":{
+          "question_form":"図表読取",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["地域取違"],
+          "keywords_to_avoid":["アンカラ"],
+          "sub_domain":"アジア地誌"
+        },
+        "sources":[{"claim":"Istanbul 15.67M, Ankara 5.77M, Izmir 4.47M (TÜİK 2022).","source":"Turkish Statistical Institute (TÜİK), Address Based Population Registration System","year":"2022","url":"https://data.tuik.gov.tr/Bulten/Index?p=Adrese-Dayali-Nufus-Kayit-Sistemi-Sonuclari-2022-49685"}]
+      },
+      {
+        "sub_id":2,
+        "global_id":6,
+        "prompt":"トルコと中東諸国（特にイスラエル）の関係および外交史に関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"トルコは 1949 年の建国直後にイスラエルを承認した最初のイスラム諸国の一つで，外交関係を維持してきた。","explanation_zh":"正确。土耳其于 1949 年承认以色列，是首批承认以色列的穆斯林国家之一。","explanation_ja":"正解。トルコは 1949 年にイスラエルを承認し，イスラム諸国で早期に外交関係を樹立した。"},
+          {"id":2,"text":"トルコは 1948 年・1967 年・1973 年の中東戦争にアラブ側の主要参戦国として軍を派遣した。","explanation_zh":"陷阱：主体错位。土耳其未以参战国身份派军参与中东战争。","explanation_ja":"誤り。主体取違の罠。トルコは中東戦争に交戦国として軍を派遣していない。"},
+          {"id":3,"text":"トルコは現在も国連加盟をしておらず，国際機関への参加を拒んでいる。","explanation_zh":"陷阱：时态错位。土耳其自 1945 年起即为联合国创始会员国之一。","explanation_ja":"誤り。時態錯位の罠。トルコは 1945 年の国連創設以来の加盟国である。"},
+          {"id":4,"text":"トルコは NATO 非加盟であり，冷戦期にもソ連寄りの中立政策を採った。","explanation_zh":"陷阱：概念混淆。土耳其 1952 年加入北约，是西方阵营成员，非中立。","explanation_ja":"誤り。概念混同の罠。トルコは 1952 年に NATO に加盟しており，西側陣営に属する。"}
+        ],
+        "answer":1,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["主体取違","因果倒置"],
+          "keywords_to_avoid":["中東戦争","イスラエル"],
+          "sub_domain":"アジア地誌",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"5. 国際政治"}
+        },
+        "sources":[{"claim":"Turkey recognized Israel in 1949, among the first Muslim-majority states to do so.","source":"Israeli Ministry of Foreign Affairs / Turkish MFA bilateral relations","year":"1949","url":"https://www.mfa.gov.tr/relations-between-turkiye-and-israel.en.mfa"}]
+      },
+      {
+        "sub_id":3,
+        "global_id":7,
+        "prompt":"世界銀行統計によると，トルコの実質 GDP 成長率は 2018 年 3.0%，2019 年 0.8%，2020 年 1.7%，2021 年 11.4% であった。これらの数値から読み取れる内容として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"2021 年の成長率は前年を 9 ポイント以上上回り，鋭く回復した。","explanation_zh":"正确。2020 年 1.7%、2021 年 11.4%，差超过 9 个百分点，呈急速回升。","explanation_ja":"正解。2020 年 1.7% から 2021 年 11.4% へと 9 ポイント以上上回り，鋭く回復した。"},
+          {"id":2,"text":"2018 年から 2021 年まで成長率は毎年連続で低下した。","explanation_zh":"陷阱：时态错位。2020 年到 2021 年明显回升，并非连续下降。","explanation_ja":"誤り。時態錯位の罠。2020 年から 2021 年は急上昇しており，連続低下ではない。"},
+          {"id":3,"text":"2020 年の成長率はマイナス 5% を下回った。","explanation_zh":"陷阱：数值混同。2020 年土耳其增长率为 +1.7%，并非负数。","explanation_ja":"誤り。数値混同の罠。2020 年は +1.7% でマイナスではない。"},
+          {"id":4,"text":"2019 年の成長率は 2018 年を上回った。","explanation_zh":"陷阱：数值混同。2018 年 3.0%，2019 年 0.8%，2019 年低于 2018 年。","explanation_ja":"誤り。数値混同の罠。2019 年 0.8% は 2018 年 3.0% を下回る。"}
+        ],
+        "answer":1,
+        "tag":{
+          "question_form":"図表読取",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["地域取違"],
+          "keywords_to_avoid":["GDP","成長率"],
+          "sub_domain":"アジア地誌",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"4.国民経済"}
+        },
+        "sources":[{"claim":"Turkey real GDP growth 2018=3.0%, 2019=0.8%, 2020=1.7%, 2021=11.4%.","source":"World Bank, NY.GDP.MKTP.KD.ZG","year":"2021","url":"https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG?locations=TR"}]
+      },
+      {
+        "sub_id":4,
+        "global_id":8,
+        "prompt":"北大西洋条約機構（NATO）に関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"NATO は経済援助のみを目的とした機構で，軍事的相互援助は含まれない。","explanation_zh":"陷阱：概念混淆。北约核心是集体防卫的军事同盟，第 5 条规定武装攻击的集体反应。","explanation_ja":"誤り。概念混同の罠。NATO は集団防衛の軍事同盟であり，第 5 条で武力攻撃への集団的対応を定める。"},
+          {"id":2,"text":"NATO の本部はアメリカのワシントン D.C. に置かれている。","explanation_zh":"陷阱：地域错位。北约总部位于比利时布鲁塞尔，不在华盛顿。","explanation_ja":"誤り。地域取違の罠。NATO 本部はベルギーのブリュッセルにあり，ワシントンではない。"},
+          {"id":3,"text":"NATO は北大西洋条約に基づき，加盟国の一国への武力攻撃を全加盟国への攻撃とみなして対応する集団防衛機構である。","explanation_zh":"正确。北大西洋条约第 5 条规定集体防卫义务，这是北约的核心机制。","explanation_ja":"正解。北大西洋条約第 5 条が集団防衛義務を定めており，これが NATO の中核的仕組みである。"},
+          {"id":4,"text":"トルコは NATO に未加盟で，2020 年以降に加盟交渉を始めた。","explanation_zh":"陷阱：时态错位。土耳其 1952 年加入北约，是冷战期间最早的扩大成员之一。","explanation_ja":"誤り。時態錯位の罠。トルコは 1952 年に NATO に加盟しており，2020 年以降の交渉ではない。"}
+        ],
+        "answer":3,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["時態錯位","範囲拡大"],
+          "keywords_to_avoid":["NATO"],
+          "sub_domain":"アジア地誌",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"5. 国際政治"}
+        },
+        "sources":[{"claim":"NATO Art.5 collective defence; HQ in Brussels; Turkey joined 1952.","source":"NATO Official site","year":"2024","url":"https://www.nato.int/cps/en/natohq/topics_110496.htm"}]
+      }
+    ],
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"トルコの地理",
+      "sub_domain":"アジア地誌",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"2. 現代世界の諸地域"},
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "keywords_to_avoid":["トルコ","アンカラ","NATO","OECD"]
+    }
+  },
+  {
+    "id": 3,
+    "global_id": 9,
+    "title": "問3",
+    "prompt": "近代以降の代表的な経済学説に関する記述として最も適当なものはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"ドイツのリストは，すべての国に対し常に自由貿易が最善の選択であると主張した。","explanation_zh":"陷阱：概念混淆。李斯特主张后发国家应采取保护贸易扶植幼稚产业，与自由贸易立场相反。","explanation_ja":"誤り。概念混同の罠。リストは後発国の保護貿易による幼稚産業育成を主張し，自由貿易至上ではない。"},
+      {"id":2,"text":"マルクスは『資本論』において，市場の自由競争が永続的な均衡をもたらすと結論づけた。","explanation_zh":"陷阱：概念混淆。马克思批判资本主义内在矛盾与周期性危机，并未主张永久均衡。","explanation_ja":"誤り。概念混同の罠。マルクスは資本主義の内在的矛盾と周期的恐慌を論じており，永続均衡論ではない。"},
+      {"id":3,"text":"シュンペーターは，企業家による「創造的破壊」を伴うイノベーションが経済発展の原動力であると論じた。","explanation_zh":"正确。熊彼特视企业家创新与“创造性破坏”为资本主义经济发展的核心动力。","explanation_ja":"正解。シュンペーターは企業家のイノベーションと「創造的破壊」を経済発展の中心的動因と論じた。"},
+      {"id":4,"text":"ケインズは，不況期には政府支出を削減して財政を均衡させることが景気回復の最善策だと説いた。","explanation_zh":"陷阱：因果倒置。凯恩斯主张不景气时扩大政府支出（有效需求政策），与缩减预算相反。","explanation_ja":"誤り。因果倒置の罠。ケインズは不況期には政府支出を拡大する有効需要政策を主張した。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"経済学説",
+      "sub_domain":"経済思想・経済史",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"3.経済主体"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","因果倒置"],
+      "keywords_to_avoid":["リスト","マルクス","シュンペーター","ケインズ"]
+    },
+    "sources": [{"claim":"Schumpeter — 'creative destruction' as engine of capitalist development.","source":"Schumpeter, Capitalism, Socialism and Democracy (1942)","year":"1942","url":"https://www.britannica.com/topic/creative-destruction"}]
+  },
+  {
+    "id": 4,
+    "global_id": 10,
+    "title": "問4",
+    "prompt": "1973年から1974年にかけての原油価格の推移を読み，下の問いに答えなさい。",
+    "passage": "第一次石油危機（1973 年）前後における国際的な原油（サウジアラビア軽質油，公式販売価格）の 1 バレル当たり価格の推移は次の通りである。1973 年 1 月 約 2.6 ドル，1973 年 10 月 約 3.0 ドル，1974 年 1 月 約 11.7 ドル，1974 年 4 月 約 11.7 ドル。1973 年 10 月の第四次中東戦争を契機に，アラブ産油国（OAPEC）は原油の段階的減産と輸出制限を実施し，OPEC は公式販売価格を大幅に引き上げた。これにより日本を含む先進工業国は深刻なインフレと景気後退に直面した。",
+    "choices": [
+      {"id":1,"text":"1973 年 1 月から 1974 年 1 月までの間に，原油価格は約 2 倍に上昇した。","explanation_zh":"陷阱：数值混同。由约 2.6 美元升至约 11.7 美元约为 4.5 倍，并非 2 倍。","explanation_ja":"誤り。数値混同の罠。約 2.6 ドルから約 11.7 ドルへ約 4.5 倍に上昇しており，2 倍ではない。"},
+      {"id":2,"text":"1974 年 4 月の価格は，1973 年 10 月の価格を下回った。","explanation_zh":"陷阱：数值混同。1974 年 4 月约 11.7 美元远高于 1973 年 10 月约 3.0 美元，价格大幅上升。","explanation_ja":"誤り。数値混同の罠。1974 年 4 月約 11.7 ドルは 1973 年 10 月約 3.0 ドルを大きく上回る。"},
+      {"id":3,"text":"第四次中東戦争を契機とした OPEC の値上げにより，原油価格は 1973 年 10 月から 1974 年 1 月の間に約 4 倍に上昇した。","explanation_zh":"正确。3.0 美元升至 11.7 美元约为 3.9 倍，符合「约 4 倍」表述。","explanation_ja":"正解。1973 年 10 月の約 3.0 ドルから 1974 年 1 月の約 11.7 ドルへ約 3.9 倍となり，「約 4 倍」と読み取れる。"},
+      {"id":4,"text":"1973 年から 1974 年にかけて，原油価格は一貫して低下した。","explanation_zh":"陷阱：时态错位。同期价格急剧上升，并非下降。","explanation_ja":"誤り。時態錯位の罠。同期間の原油価格は急騰しており，低下ではない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"石油危機",
+      "sub_domain":"経済思想・経済史",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"2.市場経済"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["概念混同","地域取違"],
+      "keywords_to_avoid":["石油危機","需給曲線"]
+    },
+    "sources": [{"claim":"Saudi Light crude posted price: Jan 1973 $2.59, Oct 1973 $3.01, Jan 1974 $11.65.","source":"OPEC Annual Statistical Bulletin / EIA historical data","year":"1974","url":"https://www.eia.gov/dnav/pet/hist/RWTCA.htm"}]
+  },
+  {
+    "id": 5,
+    "global_id": 11,
+    "title": "問5",
+    "prompt": "ある一国の経済活動を 1 年間で集計した次の事例を読み，国内総生産（GDP）に含まれるものについての記述として最も適当なものはどれですか。",
+    "passage": "A 国における 1 年間の経済活動の一部を考える。(1) 国内の自動車工場が部品メーカーから 800 万円分の部品を購入し，それを用いて自動車を製造し，国内の販売店に 2400 万円で出荷した。(2) ある主婦が自宅で家族のために家事労働を行い，市場では取引されなかった。(3) 中古車店が，すでに数年前に国内で新車として販売された自動車を，個人から 100 万円で買い取り 120 万円で再販した（差額は店の手数料）。(4) ある住民が国内銀行から得た利子収入 5 万円を受け取った。GDP は国内で 1 年間に新たに生み出された付加価値の合計として定義される。",
+    "choices": [
+      {"id":1,"text":"(2) の家事労働 1 年分は，経済的価値が大きいため評価額として GDP に算入される。","explanation_zh":"陷阱：概念混淆。GDP 原则上仅计入市场交易，未货币化的家务劳动一般不计入。","explanation_ja":"誤り。概念混同の罠。GDP は原則市場取引のみを計上し，家庭内の無償家事労働は計上しない。"},
+      {"id":2,"text":"(1) における自動車工場の付加価値は 1600 万円であり，これは GDP に算入される。","explanation_zh":"正确。售价 2400 - 中间投入 800 = 增加值 1600 万日元，按定义计入 GDP。","explanation_ja":"正解。出荷額 2400 万円から中間投入 800 万円を差し引いた付加価値 1600 万円が GDP に計上される。"},
+      {"id":3,"text":"(3) の中古車取引については，再販価格 120 万円の全額が GDP に新たに算入される。","explanation_zh":"陷阱：概念混淆。二手商品再贩本体不计入 GDP；仅经销手数 20 万日元作为服务计入。","explanation_ja":"誤り。概念混同の罠。中古車の再販本体は GDP に計上されず，仲介手数料 20 万円分のみ計上される。"},
+      {"id":4,"text":"(1) の取引について，部品 800 万円と完成品 2400 万円の合計 3200 万円すべてが GDP に算入される。","explanation_zh":"陷阱：范围扩大。中间投入与最终产品双重计算属于重复计算，违反增加值原则。","explanation_ja":"誤り。範囲拡大の罠。中間投入と最終出荷を二重に計上することになり，付加価値の原則に反する。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"GDP付加価値",
+      "sub_domain":"国民経済・成長",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"4.国民経済"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["範囲拡大","概念混同"],
+      "keywords_to_avoid":["GDP","付加価値","2400万円"]
+    }
+  },
+  {
+    "id": 6,
+    "global_id": 12,
+    "title": "問6",
+    "prompt": "株式会社制度に関する記述として最も適当なものはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"株主は会社が倒産した場合，出資額を超えて会社の債務に対して無限の責任を負う。","explanation_zh":"陷阱：概念混淆。股东负有限责任，仅以出资额为限承担风险，无需偿超额债务。","explanation_ja":"誤り。概念混同の罠。株主は出資額を限度とする有限責任で，無限責任ではない。"},
+      {"id":2,"text":"株式会社の最高意思決定機関は取締役会であり，株主総会は経営の助言機関にすぎない。","explanation_zh":"陷阱：概念混淆。股东大会才是最高意思决定机关；董事会执行经营。","explanation_ja":"誤り。概念混同の罠。最高意思決定機関は株主総会であり，取締役会は業務執行機関である。"},
+      {"id":3,"text":"日本では現行法上，株式会社を設立するには資本金として最低 1000 万円を必要とする。","explanation_zh":"陷阱：时态错位。2006 年新公司法施行后已废除最低资本金，1 日元亦可设立。","explanation_ja":"誤り。時態錯位の罠。2006 年の会社法施行後，最低資本金制度は撤廃されている。"},
+      {"id":4,"text":"株主は所有する株式数に応じて配当を受け取る権利と，株主総会での議決権を有するのが原則である。","explanation_zh":"正确。这是按持股比例分红与表决权（一股一表决权原则）的公司法核心。","explanation_ja":"正解。株主は所有株式数に応じて配当請求権と議決権（一株一議決権が原則）を有する。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"株式会社制度",
+      "sub_domain":"政治思想・政治史",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"3.経済主体"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位","範囲拡大"],
+      "keywords_to_avoid":["資本金","株主"]
+    }
+  },
+  {
+    "id": 7,
+    "global_id": 13,
+    "title": "問7",
+    "prompt": "国際的な銀行規制に関するバーゼル合意（バーゼル銀行監督委員会の自己資本比率規制）の記述として最も適当なものはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"バーゼル合意は世界貿易機関（WTO）が策定し，加盟国に対して直接の法的拘束力を有する。","explanation_zh":"陷阱：主体错位。该合意由巴塞尔银行监管委员会制定，WTO 无关，本身非具法律强制力的国际条约。","explanation_ja":"誤り。主体取違の罠。WTO ではなくバーゼル銀行監督委員会が策定し，条約のような直接的拘束力はない。"},
+      {"id":2,"text":"バーゼル合意では，国際業務を行う銀行の自己資本比率は最低でも 50% 以上が求められている。","explanation_zh":"陷阱：数值混同。巴塞尔合意要求最低自有资本比率为 8%（国际业务银行），并非 50%。","explanation_ja":"誤り。数値混同の罠。国際業務行は最低 8% であり，50% は実体経済と整合しない過大値。"},
+      {"id":3,"text":"バーゼル III は，自己資本比率規制を廃止し，代わりに無制限のリスクテイクを認める方向に転換した。","explanation_zh":"陷阱：概念混淆。巴塞尔 III 反而强化资本及流动性管制，并未废除最低资本比率。","explanation_ja":"誤り。概念混同の罠。バーゼル III はむしろ資本・流動性規制を強化しており，撤廃ではない。"},
+      {"id":4,"text":"バーゼル合意は，国際業務を行う銀行に対し，自己資本をリスク資産に対し最低 8% 以上に保つことを求める。","explanation_zh":"正确。1988 年巴塞尔合意（I）规定国际业务银行最低自有资本比率为 8%。","explanation_ja":"正解。1988 年のバーゼル合意（I）が国際業務行に最低自己資本比率 8% を課したのが基本である。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"バーゼル合意",
+      "sub_domain":"金融・通貨",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"5. 金融"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["バーゼル合意","自己資本比率"]
+    },
+    "sources": [{"claim":"Basel Accord requires 8% minimum capital ratio for internationally active banks.","source":"Basel Committee on Banking Supervision, International Convergence of Capital Measurement","year":"1988","url":"https://www.bis.org/publ/bcbs04a.htm"}]
+  },
+  {
+    "id": 8,
+    "global_id": 14,
+    "title": "問8",
+    "prompt": "日本の国債に関する記述として最も適当なものはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"財政法は，原則として日本銀行による国債の直接引受を禁止しており，国債は市中消化が原則とされる。","explanation_zh":"正确。財政法第 5 条原则禁止日银直接承销国债，旨在防止财政货币化。","explanation_ja":"正解。財政法第 5 条が日銀による直接引受を原則禁止し，市中消化を原則としている。"},
+      {"id":2,"text":"財政法は赤字国債の発行を恒久的に認めており，毎年特別な立法措置は不要である。","explanation_zh":"陷阱：时态错位。赤字国债依财政法须每年通过特例公债法专门授权，并非恒久许可。","explanation_ja":"誤り。時態錯位の罠。赤字国債の発行には毎年度の特例公債法による授権が必要で，恒久ではない。"},
+      {"id":3,"text":"日本銀行は国債を一切保有しておらず，すべて民間金融機関と海外投資家のみが保有する。","explanation_zh":"陷阱：范围扩大。日银通过国债购买操作大量持有国债，并非完全不持有。","explanation_ja":"誤り。範囲拡大の罠。日銀は国債買入オペにより大量の国債を保有しており，「一切ない」は誤り。"},
+      {"id":4,"text":"国債の発行残高は GDP より小さく，財政状況は健全に維持されている。","explanation_zh":"陷阱：数值混同。日本国债余额已超 GDP 之 2 倍，债务对 GDP 比率为先进国之首。","explanation_ja":"誤り。数値混同の罠。日本の国債残高は GDP の 2 倍超で，先進国中最高水準である。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"日本国債",
+      "sub_domain":"財政・租税",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"5. 金融"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位","範囲拡大"],
+      "keywords_to_avoid":["国債","日本銀行","直接引受"]
+    },
+    "sources": [{"claim":"Article 5 of Public Finance Act prohibits in principle BoJ direct underwriting of JGBs.","source":"Japan Ministry of Finance, Public Finance Act Art. 5","year":"2023","url":"https://www.mof.go.jp/english/policy/budget/fiscal_policy_basics/index.htm"}]
+  },
+  {
+    "id": 9,
+    "global_id": 15,
+    "title": "問9",
+    "prompt": "日本の租税体系に関する記述として最も適当なものはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"所得税は，所得が高くなるほど税率も高くなる累進税率を採用しており，垂直的公平を図る代表的な税である。","explanation_zh":"正确。日本所得税采累进税率（5%-45%七档），体现垂直公平。","explanation_ja":"正解。所得税は累進税率（5%〜45% の 7 段階）を採り，垂直的公平を図る代表的な税である。"},
+      {"id":2,"text":"法人税は，企業の利益額にかかわらず一律に一定額を徴収する人頭税方式である。","explanation_zh":"陷阱：概念混淆。法人税按企业所得课税，并非人头税亦非定额。","explanation_ja":"誤り。概念混同の罠。法人税は法人所得に課税する所得税の一種で，定額の人頭税ではない。"},
+      {"id":3,"text":"関税は国内取引で売り手から徴収する間接税であり，輸入品には課されない。","explanation_zh":"陷阱：概念混淆。关税本质上是对进口商品征收的国境税，与国内交易税不同。","explanation_ja":"誤り。概念混同の罠。関税は輸入品に課される国境税で，国内取引税ではない。"},
+      {"id":4,"text":"消費税は逆進性をもたず，低所得層ほど負担割合が低くなる累進税である。","explanation_zh":"陷阱：因果倒置。消费税恰呈逆进性，低所得层负担比反而较高，非累进。","explanation_ja":"誤り。因果倒置の罠。消費税は逆進性をもち，低所得層ほど負担割合が高くなる傾向がある。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"日本租税",
+      "sub_domain":"財政・租税",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"6. 財政"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","因果倒置"],
+      "keywords_to_avoid":["所得税","法人税","関税","消費税"]
+    },
+    "sources": [{"claim":"Japan income tax has 7 progressive brackets from 5% to 45%.","source":"National Tax Agency, Income Tax Rates","year":"2024","url":"https://www.nta.go.jp/english/taxes/individual/12005.htm"}]
+  },
+  {
+    "id": 10,
+    "global_id": 16,
+    "title": "問10",
+    "prompt": "日本の医療保険制度に関する記述として最も適当なものはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"日本では医療保険への加入は任意であり，加入しなくても何らペナルティはない。","explanation_zh":"陷阱：概念混淆。日本采取国民皆保险制，居民原则上须加入医疗保险，非任意。","explanation_ja":"誤り。概念混同の罠。日本は国民皆保険制を採り，原則として何らかの医療保険への加入が義務である。"},
+      {"id":2,"text":"日本は，すべての国民が公的医療保険に加入する「国民皆保険」体制を採っている。","explanation_zh":"正确。1961 年达成国民皆保险，所有居民必须加入某种公共医疗保险。","explanation_ja":"正解。1961 年に達成された「国民皆保険」体制の下，全居民が公的医療保険に加入している。"},
+      {"id":3,"text":"日本の公的医療保険では，被保険者の窓口負担は一律 100% であり，受診時に医療費全額を支払う。","explanation_zh":"陷阱：数值混同。公共医疗保险窗口负担一般为 30%（70 岁以上等更低），并非 100%。","explanation_ja":"誤り。数値混同の罠。原則 3 割（70 歳以上等はより低い）の自己負担で，100% ではない。"},
+      {"id":4,"text":"日本では現在も健康保険組合などの公的医療保険は存在せず，個人で民間保険に加入する以外に方法はない。","explanation_zh":"陷阱：时态错位。日本健康保险组合等公共制度自战前已设立至今。","explanation_ja":"誤り。時態錯位の罠。健康保険組合などの公的制度は戦前から整備されており，現在も存続している。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"社会",
+      "topic":"医療保険",
+      "sub_domain":"社会保障・労働",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"7.社会保障"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位"],
+      "keywords_to_avoid":["医療保険","加入","負担"]
+    },
+    "sources": [{"claim":"Japan achieved universal health insurance coverage in 1961.","source":"Ministry of Health, Labour and Welfare, Japan","year":"2024","url":"https://www.mhlw.go.jp/english/policy/health/health-medical/index.html"}]
+  },
+  {
+    "id": 11,
+    "global_id": 17,
+    "title": "問11",
+    "prompt": "第二次世界大戦後の国際通貨制度に関する記述として最も適当なものはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"ブレトン・ウッズ体制では，金 1 オンス = 100 ドルで米ドルが金と交換される金兌換制が定められた。","explanation_zh":"陷阱：数值混同。布雷顿森林体系下美元金价为 35 美元/盎司，非 100 美元。","explanation_ja":"誤り。数値混同の罠。金 1 オンス＝35 ドルでの金兌換が定められており，100 ドルではない。"},
+      {"id":2,"text":"1971 年のニクソン・ショックでアメリカが金とドルの交換停止を発表し，主要国は 1973 年までに変動為替相場制へ移行した。","explanation_zh":"正确。1971 年尼克松冲击使布雷顿森林体系崩坏，1973 年主要国家转入浮动汇率制。","explanation_ja":"正解。1971 年のニクソン・ショックを契機にブレトン・ウッズ体制が崩壊し，1973 年までに主要国は変動為替相場制へ移行した。"},
+      {"id":3,"text":"ブレトン・ウッズ体制は，1990 年代の冷戦終結を契機に崩壊し，変動相場制が導入された。","explanation_zh":"陷阱：时态错位。布雷顿森林体系于 1970 年代初崩坏，远在冷战结束之前。","explanation_ja":"誤り。時態錯位の罠。ブレトン・ウッズ体制は 1970 年代初頭に崩壊しており，冷戦終結前である。"},
+      {"id":4,"text":"国際通貨基金（IMF）はブレトン・ウッズ会議で設立を否決され，21 世紀になって初めて発足した。","explanation_zh":"陷阱：概念混淆。IMF 系布雷顿森林会议（1944）决定设立，并于 1945 年正式发足。","explanation_ja":"誤り。概念混同の罠。IMF はブレトン・ウッズ会議で設立が決定され，1945 年に発足している。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"国際金融史",
+      "sub_domain":"金融・通貨",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"5. 金融"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位","数値混同"],
+      "keywords_to_avoid":["ブレトン・ウッズ","変動為替相場制"]
+    },
+    "sources": [{"claim":"Bretton Woods: $35/oz gold convertibility; Nixon Shock 1971; floating regime by 1973.","source":"IMF — Cooperation and reconstruction (1944–71)","year":"1973","url":"https://www.imf.org/external/about/histcoop.htm"}]
+  },
+  {
+    "id": 12,
+    "global_id": 18,
+    "title": "問12",
+    "prompt": "日本の国際収支統計に関する記述として最も適当なものはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"第一次所得収支は，対外投資から得られる利子・配当などの受払を示し，近年の日本の経常収支黒字の主要な構成項目である。","explanation_zh":"正确。第一所得收支记录对外投资利息分红，近年日本经常项目黑字主要由此项支撑。","explanation_ja":"正解。第一次所得収支は対外投資収益（利子・配当）を計上し，近年の日本の経常収支黒字を支える主要項目である。"},
+      {"id":2,"text":"第一次所得収支は，財・サービスの輸出入金額を直接計上する項目である。","explanation_zh":"陷阱：概念混淆。商品与服务进出口属于贸易收支与服务收支，并非第一所得收支。","explanation_ja":"誤り。概念混同の罠。貿易・サービスの輸出入は貿易収支・サービス収支に計上され，第一次所得収支ではない。"},
+      {"id":3,"text":"経常収支は資本移転収支と金融収支から構成され，財・サービスは含まれない。","explanation_zh":"陷阱：概念混淆。经常项目包括贸易、服务、第一与第二所得收支；资本移转和金融收支属其他类别。","explanation_ja":"誤り。概念混同の罠。経常収支は貿易・サービス・第一次/第二次所得収支で構成され，資本移転収支は別項目である。"},
+      {"id":4,"text":"貿易収支とは，自国通貨建ての対外債権残高の純額を示すストック統計である。","explanation_zh":"陷阱：概念混淆。贸易收支为流量统计（一定期间商品贸易差），并非债权余额这种存量。","explanation_ja":"誤り。概念混同の罠。貿易収支はフロー統計（期間中の財貿易差額）で，ストックの対外債権残高ではない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"国際収支",
+      "sub_domain":"国際経済・貿易",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"3.経済主体"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["第一次所得収支"]
+    },
+    "sources": [{"claim":"Japan's current account surplus is increasingly supported by primary income (investment income).","source":"Bank of Japan / MOF — Balance of Payments Statistics","year":"2023","url":"https://www.mof.go.jp/english/policy/international_policy/reference/balance_of_payments/index.htm"}]
+  },
+  {
+    "id": 13,
+    "global_id": 19,
+    "title": "問13",
+    "prompt": "2015 年に採択された気候変動に関するパリ協定（COP21）の記述として最も適当なものはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"パリ協定は先進国のみに温室効果ガスの削減義務を課しており，途上国に対する目標設定の枠組みは含まれていない。","explanation_zh":"陷阱：概念混淆。巴黎协定要求所有缔约国（含发展中国家）自行设定 NDC 减排目标，与京都议定书相反。","explanation_ja":"誤り。概念混同の罠。パリ協定は途上国を含む全締約国に NDC（自主決定貢献）を求める点で京都議定書と異なる。"},
+      {"id":2,"text":"パリ協定は，1997 年の京都会議で採択され，2005 年に発効した。","explanation_zh":"陷阱：时态错位。1997 年京都议定书与巴黎协定不同；巴黎协定 2015 年通过，2016 年发效。","explanation_ja":"誤り。時態錯位の罠。1997 年は京都議定書で，パリ協定は 2015 年採択・2016 年発効である。"},
+      {"id":3,"text":"パリ協定は，世界平均気温の上昇を産業革命前と比べて 5℃ 以内に抑えることを目標として明記している。","explanation_zh":"陷阱：数值混同。巴黎协定标定为远低于 2℃、追求 1.5℃，并非 5℃。","explanation_ja":"誤り。数値混同の罠。目標は産業革命前比 2℃ 未満（1.5℃ を追求）で，5℃ ではない。"},
+      {"id":4,"text":"パリ協定は，すべての締約国に対し，自国が決定する温室効果ガス削減目標（NDC）を提出・更新することを求めている。","explanation_zh":"正确。巴黎协定让所有缔约国按自主决定贡献 NDC 提交并定期更新削减目标。","explanation_ja":"正解。パリ協定は全締約国に NDC（自国が決定する貢献）の提出と更新を義務づけている。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"社会",
+      "topic":"パリ協定",
+      "sub_domain":"現代社会問題",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"2. 日本の統治機構"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["時態錯位","範囲拡大"],
+      "keywords_to_avoid":["パリ協定","COP21"]
+    },
+    "sources": [{"claim":"Paris Agreement (COP21, 2015): well below 2°C, pursue 1.5°C; all parties submit NDCs.","source":"UNFCCC — Paris Agreement","year":"2015","url":"https://unfccc.int/process-and-meetings/the-paris-agreement"}]
+  },
+  {
+    "id": 14,
+    "global_id": 20,
+    "title": "問14",
+    "prompt": "次の文章を読み，下の問いに答えなさい。",
+    "passage": "国土地理院の 2 万 5 千分の 1 地形図における代表的な土地利用記号は次の通りである。「田」は二本の短い縦線（並列）で表され，水を張る水田を示す。「畑」は二つの黒い点が並んだ記号で，普通畑を示す。「茶畑」は三角点状の小さな点を 3 つ集めた記号で，多くは温暖で水はけのよい斜面に分布する。「果樹園」は丸印が並んだ記号で，比較的傾斜のある斜面や扇状地に多い。「広葉樹林」は丸い葉を 2 枚並べた記号で表される。これらの土地利用記号は，地形条件（標高，傾斜，水利）と密接に関連している。",
+    "choices": [
+      {"id":1,"text":"田（水田）は，2 万 5 千分の 1 地形図上で 2 本の短い縦線を並べた記号で示される。","explanation_zh":"陷阱：设问反转。该项是地形图记号正确叙述，本题要求选最不适当者。","explanation_ja":"誤り。設問反転の罠。地形図記号として正しく，誤りを選ぶ設問の答えにはならない。"},
+      {"id":2,"text":"茶畑は，地形図上では小さな三角点状の点を 3 つ集めた記号で表される。","explanation_zh":"陷阱：设问反转。该项是茶园记号正确说明，非本题要求的不适当项。","explanation_ja":"誤り。設問反転の罠。茶畑の記号として正しく，誤りを選ぶ設問の答えにはならない。"},
+      {"id":3,"text":"田（水田）は，主に急傾斜の斜面に分布し，水はけのよさが重視されるため平野部にはほとんど見られない。","explanation_zh":"正确。题目要求选不适当项。水田主要分布于平坦低洼且水利方便的地区，而非陡坡。","explanation_ja":"正解。設問は最も適当でないものを選ぶ。水田は平坦で灌漑の容易な低地に分布し，急斜面ではない。"},
+      {"id":4,"text":"果樹園は，丸印が並んだ記号で示され，扇状地や緩傾斜地など水はけのよい場所に分布することが多い。","explanation_zh":"陷阱：设问反转。该项是果园分布特征的正确叙述，非不适当项。","explanation_ja":"誤り。設問反転の罠。果樹園の分布として正しく，誤りを選ぶ設問の答えにはならない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"地形図土地利用",
+      "sub_domain":"自然地理",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答誤記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["範囲拡大"],
+      "keywords_to_avoid":["地形図","田","茶畑"]
+    }
+  },
+  {
+    "id": 15,
+    "global_id": 21,
+    "title": "問15",
+    "prompt": "次の文章の内容と合っているものはどれですか。",
+    "passage": "地球の大気は，太陽から受け取るエネルギーの緯度ごとの差を緩和するため，南北方向に大規模な循環を形成している。赤道付近では強い日射で空気が温められて上昇し，雨を多く降らせる熱帯収束帯を形成する。上昇した空気は対流圏上部で南北に分かれて高緯度方向へ移動し，南北の緯度 20 度から 30 度付近で下降して亜熱帯高圧帯を形成する。下降気流は乾燥していて雲ができにくいため，亜熱帯高圧帯の地表付近は降水量が乏しく，世界の主要な砂漠の多くがこの緯度帯に分布する。亜熱帯高圧帯から赤道に向けて吹く貿易風は，北半球では北東から，南半球では南東から吹く。これら大気循環の構造は，地球の自転と日射の緯度分布によって維持されている。",
+    "choices": [
+      {"id":1,"text":"赤道付近では，下降気流が卓越するため降水量が少なく，多くの砂漠が分布する。","explanation_zh":"陷阱：概念混淆。赤道为上升气流卓越的多雨带（热带辐合带），不形成沙漠。","explanation_ja":"誤り。概念混同の罠。赤道付近は上昇気流の卓越する多雨帯で，下降気流の砂漠帯ではない。"},
+      {"id":2,"text":"亜熱帯高圧帯では下降気流が卓越し，降水量が少ないため，世界の主要な砂漠の多くがこの緯度帯に分布する。","explanation_zh":"正确。本文明记副热带高压带为下沉气流主导的少雨带，多数沙漠分布于此。","explanation_ja":"正解。本文の通り，亜熱帯高圧帯は下降気流が卓越する少雨帯で，主要砂漠の多くが分布する。"},
+      {"id":3,"text":"貿易風は，赤道から亜熱帯高圧帯に向かって吹く風で，北半球では南西から吹く。","explanation_zh":"陷阱：概念混淆。信风从副热带高压带向赤道方向吹，北半球为东北信风，本项方向反置。","explanation_ja":"誤り。概念混同の罠。貿易風は亜熱帯高圧帯から赤道へ向かい，北半球では北東から吹く。"},
+      {"id":4,"text":"亜熱帯高圧帯は，赤道付近で上昇した空気が高緯度に移動して再び下降する場所で，主に緯度 60 度付近に位置する。","explanation_zh":"陷阱：数值混同。副热带高压带位于 20-30 度，非 60 度（60 度附近为副极地低压带）。","explanation_ja":"誤り。数値混同の罠。亜熱帯高圧帯は緯度 20〜30 度で，60 度ではない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"大気循環",
+      "sub_domain":"自然地理",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"10. 国際経済"},
+      "question_form":"文章読解",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["亜熱帯高圧帯","少雨","貿易風"]
+    }
+  },
+  {
+    "id": 16,
+    "global_id": 22,
+    "title": "問16",
+    "prompt": "南アメリカ大陸南部に広がるパンパに関する記述として最も適当なものはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"パンパはアルゼンチン中部からウルグアイ南部にかけて広がる温帯草原地帯で，小麦栽培と肉牛・羊の牧畜が盛んである。","explanation_zh":"正确。潘帕斯草原是温带草原，是阿根廷小麦与肉牛与羊牧畜的核心地带。","explanation_ja":"正解。パンパはアルゼンチン中部に広がる温帯草原で，小麦栽培と肉牛・羊の牧畜が中心産業である。"},
+      {"id":2,"text":"パンパはアマゾン川流域に広がる熱帯雨林地帯で，世界最大の木材生産地である。","explanation_zh":"陷阱：地域错位。亚马逊雨林位于巴西北部，与潘帕斯（阿根廷中部温带草原）完全不同。","explanation_ja":"誤り。地域取違の罠。アマゾンはブラジル北部の熱帯雨林で，アルゼンチンのパンパとは別地域である。"},
+      {"id":3,"text":"パンパはチリ北部の海岸沿いに広がる乾燥砂漠で，銅鉱石の世界的産地として有名である。","explanation_zh":"陷阱：地域错位。乾燥砂漠为智利北部阿塔卡马沙漠，与潘帕斯无关。","explanation_ja":"誤り。地域取違の罠。チリ北部の乾燥地はアタカマ砂漠であり，パンパとは異なる。"},
+      {"id":4,"text":"パンパはアンデス山脈高地の常雪地帯で，農業は不可能であり住民もほとんどいない。","explanation_zh":"陷阱：地域错位。潘帕斯为低海拔平原与温带草原，并非安第斯高山雪原。","explanation_ja":"誤り。地域取違の罠。パンパは低地の温帯草原で，アンデスの高山雪原ではない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"パンパ",
+      "sub_domain":"自然地理",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"2. 現代世界の諸地域"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["地域取違"],
+      "keywords_to_avoid":["パンパ","ブエノスアイレス"]
+    },
+    "sources": [{"claim":"The Pampas is a fertile temperate grassland in central Argentina and Uruguay, major wheat and cattle region.","source":"Encyclopaedia Britannica — Pampas","year":"2024","url":"https://www.britannica.com/place/the-Pampas"}]
+  },
+  {
+    "id": 17,
+    "global_id": 23,
+    "title": "問17",
+    "prompt": "日本の品目別食料自給のデータを読み，下の問いに答えなさい。",
+    "passage": "日本の品目別食料自給率（重量ベース，2022 年度，農林水産省）の概数は次の通りである。コメ 99%，小麦 15%，大豆 7%，野菜 75%，果実 30%，肉類 53%（飼料自給率を反映しない重量ベース）。カロリーベースの総合食料自給率は約 38% であり，主要先進国の中でも低い水準にある。",
+    "choices": [
+      {"id":1,"text":"コメの自給率は約 50% で，国内需要の半分を輸入に依存している。","explanation_zh":"陷阱：数值混同。资料显示米自给率约 99%，几乎自给。","explanation_ja":"誤り。数値混同の罠。資料ではコメの自給率は約 99% で，ほぼ自給している。"},
+      {"id":2,"text":"小麦の自給率は約 75% で，国内生産がほぼ国内需要を満たしている。","explanation_zh":"陷阱：数值混同。资料显示小麦自给率仅 15%，大量依赖进口。","explanation_ja":"誤り。数値混同の罠。資料では小麦は約 15% で，輸入依存度が極めて高い。"},
+      {"id":3,"text":"大豆の自給率は約 90% で，野菜・果実より高い水準にある。","explanation_zh":"陷阱：数值混同。资料显示大豆自给率仅约 7%，远低于野菜 75% 与果实 30%。","explanation_ja":"誤り。数値混同の罠。大豆は約 7% で，野菜 75% や果実 30% より大幅に低い。"},
+      {"id":4,"text":"示された 6 品目のうち，自給率が最も高いのはコメ，最も低いのは大豆である。","explanation_zh":"正确。米 99% 最高，大豆 7% 最低，与资料一致。","explanation_ja":"正解。コメ 99% が最高で，大豆 7% が最低であり，資料に整合する。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"自給率",
+      "sub_domain":"産業・資源",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"9. 日本の産業"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["地域取違"],
+      "keywords_to_avoid":["自給率","日本"]
+    },
+    "sources": [{"claim":"Japan FY2022 food self-sufficiency (weight basis): rice 99%, wheat 15%, soybeans 7%, vegetables 75%, fruits 30%, meat 53%.","source":"Ministry of Agriculture, Forestry and Fisheries, Japan — Food Self-Sufficiency Ratio","year":"2022","url":"https://www.maff.go.jp/j/zyukyu/zikyu_ritu/012.html"}]
+  },
+  {
+    "id": 18,
+    "global_id": 24,
+    "title": "問18",
+    "prompt": "1950年から2050年にかけての総人数と高齢化率の推移を読み，下の問いに答えなさい。",
+    "passage": "日本の総人口の推移（万人，総務省国勢調査および国立社会保障・人口問題研究所推計）は次の通りである。1950 年 約 8320，1970 年 約 10372，2000 年 約 12693，2010 年 約 12806（ピーク），2020 年 約 12615，2050 年 約 10469（推計）。日本の人口は 2008 年頃にピークを迎え，その後減少局面に入った。少子高齢化が急速に進行しており，総人口に占める 65 歳以上人口の割合（高齢化率）は 1970 年には約 7% であったが，2020 年には約 29% となっている。",
+    "choices": [
+      {"id":1,"text":"日本の総人口は 2020 年に過去最大に達し，その後も増加が続くと予測されている。","explanation_zh":"陷阱：时态错位。日本人口在 2008 年达高峰，2020 年已开始减少，未来推算亦呈递减。","explanation_ja":"誤り。時態錯位の罠。日本の人口は 2008 年頃をピークに減少局面に入り，2050 年も減少が見込まれる。"},
+      {"id":2,"text":"1950 年から 2020 年の間に，日本の総人口はおよそ 5 倍以上に増加した。","explanation_zh":"陷阱：数值混同。8320 万到 12615 万约为 1.5 倍，并非 5 倍以上。","explanation_ja":"誤り。数値混同の罠。8320 万人から 12615 万人へ約 1.5 倍であり，5 倍以上ではない。"},
+      {"id":3,"text":"日本の総人口は 2010 年頃を境に減少局面に入り，2050 年には 2020 年より約 2000 万人少ない約 1 億人前後と推計されている。","explanation_zh":"正确。2020 年 1.26 亿，2050 年估约 1.05 亿，减少近 2000 万，与资料一致。","explanation_ja":"正解。2020 年約 12615 万人から 2050 年約 10469 万人へ約 2000 万人減少する推計で，資料と整合する。"},
+      {"id":4,"text":"日本の高齢化率（65 歳以上人口の割合）は 1970 年から 2020 年の間にむしろ低下した。","explanation_zh":"陷阱：因果倒置。高齢化率从约 7% 升至约 29%，呈显著上升，并非降低。","explanation_ja":"誤り。因果倒置の罠。高齢化率は約 7% から約 29% へ上昇しており，低下ではない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"人口推移",
+      "sub_domain":"人口・都市",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"2. 現代世界の諸地域"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["地域取違"],
+      "keywords_to_avoid":["人口"]
+    },
+    "sources": [{"claim":"Japan population peaked around 2008 at ~128M; 2050 projection ~104.7M; aging rate 7%→29% 1970–2020.","source":"Statistics Bureau of Japan / IPSS Population Projections","year":"2023","url":"https://www.stat.go.jp/english/data/jinsui/index.html"}]
+  },
+  {
+    "id": 19,
+    "global_id": 25,
+    "title": "問19",
+    "prompt": "17 世紀イギリスのエドワード・コーク（コーク卿）に関する記述として最も適当なものはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"エドワード・コークは「国王といえども法の下にある」というコモン・ロー優位の原則を主張し，国王の絶対主義に対抗した。","explanation_zh":"正确。柯克援引布拉克顿“王在万民之上但在法之下”，提倡习惯法（普通法）优于王权。","explanation_ja":"正解。コークはブラクトンの「国王といえども神と法の下にある」を引き，コモン・ローの王権優位を主張した。"},
+      {"id":2,"text":"コークは王権神授説を擁護し，王権が議会と裁判所に対し常に優越することを論じた。","explanation_zh":"陷阱：概念混淆。柯克恰是反对王权神授、捍卫法律支配，与本项相反。","explanation_ja":"誤り。概念混同の罠。コークは王権神授説に反対し，法の支配を擁護した立場である。"},
+      {"id":3,"text":"コークは社会契約論の代表的論者として『リヴァイアサン』を著した。","explanation_zh":"陷阱：主体错位。《利维坦》是霍布斯（1651）所著，与柯克无关。","explanation_ja":"誤り。主体取違の罠。『リヴァイアサン』はホッブズの著作（1651）で，コークではない。"},
+      {"id":4,"text":"コークは産業革命期の労働運動を組織し，世界初の労働組合を結成した人物である。","explanation_zh":"陷阱：时态错位。柯克 17 世纪法学家，与 18 世纪末始的产业革命及劳工运动无关。","explanation_ja":"誤り。時態錯位の罠。コークは 17 世紀の法律家で，18 世紀末以降の産業革命期の労働運動とは無関係である。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"コーク法治",
+      "sub_domain":"近代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"1. 近代化の進展とその影響"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位"],
+      "keywords_to_avoid":["エドワード・コーク"]
+    },
+    "sources": [{"claim":"Edward Coke asserted the supremacy of common law over the Crown.","source":"Britannica — Sir Edward Coke","year":"2024","url":"https://www.britannica.com/biography/Edward-Coke"}]
+  },
+  {
+    "id": 20,
+    "global_id": 26,
+    "title": "問20",
+    "prompt": "日本国憲法における国会の地位と権限に関する記述として最も適当なものはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"日本国憲法では，行政府である内閣を「国の最高機関」と位置づけ，国会は補助機関とされる。","explanation_zh":"陷阱：主体错位。宪法第 41 条规定国会为国家最高机关，并非内阁。","explanation_ja":"誤り。主体取違の罠。憲法第 41 条は国会を「国権の最高機関」と定めており，内閣ではない。"},
+      {"id":2,"text":"日本国憲法第 41 条は，国会を「国権の最高機関」かつ「国の唯一の立法機関」と定めている。","explanation_zh":"正确。第 41 条规定国会为国权最高机关与唯一立法机关，是国会地位的核心条文。","explanation_ja":"正解。憲法第 41 条は国会を「国権の最高機関」かつ「国の唯一の立法機関」と定める。"},
+      {"id":3,"text":"国会の議決は最高裁判所の事前承認を得て初めて法律として効力をもつ。","explanation_zh":"陷阱：概念混淆。法律由国会通过后即生效，最高裁仅在事后审查违宪性。","explanation_ja":"誤り。概念混同の罠。法律は国会の議決で成立し，最高裁の事前承認は不要である（事後の違憲審査）。"},
+      {"id":4,"text":"国会は二院制であるが，参議院は法律案を提出することができない。","explanation_zh":"陷阱：概念混淆。参议员亦可提出法律案，两院均具立法提案权。","explanation_ja":"誤り。概念混同の罠。参議院議員も法律案を提出でき，両院ともに立法提案権を有する。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"国会",
+      "sub_domain":"三権分立・統治機構",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"3. 日本国憲法"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["国会","立法機関"]
+    },
+    "sources": [{"claim":"Constitution Art. 41: Diet is highest organ of state power and sole law-making organ.","source":"Constitution of Japan, Article 41","year":"1947","url":"https://japan.kantei.go.jp/constitution_and_government_of_japan/constitution_e.html"}]
+  },
+  {
+    "id": 21,
+    "global_id": 27,
+    "title": "問21",
+    "prompt": "日本国憲法における裁判官の身分保障に関する記述として最も適当なものはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"最高裁判所裁判官は，任命後 10 年ごとに国民審査を受け，過半数の罷免票で罷免される。","explanation_zh":"陷阱：数值混同。国民审查为任命后首次众议院总选举与之后每 10 年实施，并非任命后 10 年定期；本说与制度有别。","explanation_ja":"誤り。数値混同の罠。最高裁国民審査は任命後初の総選挙時，以後 10 年ごとに行われ，「任命後 10 年ごと」だけではない。"},
+      {"id":2,"text":"下級裁判所の裁判官は，行政府である法務大臣の単独判断で自由に罷免することができる。","explanation_zh":"陷阱：主体错位。下级裁判官惩戒/罢免严格限定，行政府无单独罢免权。","explanation_ja":"誤り。主体取違の罠。下級裁判官の罷免は厳格に制限され，法務大臣の単独判断ではできない。"},
+      {"id":3,"text":"裁判官は，心身の故障による職務不能の場合や，国会に設置される弾劾裁判所による罷免の場合などを除き，その意思に反して罷免されない。","explanation_zh":"正确。宪法第 78 条规定法官非经弹劾或公的执务不能审判，不得违其意志罢免，确保司法独立。","explanation_ja":"正解。憲法第 78 条が定める身分保障で，弾劾裁判所による罷免と心身故障の場合を除き，意に反して罷免されない。"},
+      {"id":4,"text":"裁判官は，現職中であっても国会議員を兼ねることができ，立法と司法を兼任できる。","explanation_zh":"陷阱：概念混淆。法官属司法权独立成员，禁止兼任立法府议员，与三权分立原则相违。","explanation_ja":"誤り。概念混同の罠。裁判官は国会議員を兼ねることができず，三権分立の原則に反する。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"裁判官身分",
+      "sub_domain":"三権分立・統治機構",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"3. 日本国憲法"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位","概念混同"],
+      "keywords_to_avoid":["裁判官","罷免"]
+    },
+    "sources": [{"claim":"Constitution Art. 78: judges may not be removed except by impeachment or judicial incapacity.","source":"Constitution of Japan, Article 78","year":"1947","url":"https://japan.kantei.go.jp/constitution_and_government_of_japan/constitution_e.html"}]
+  },
+  {
+    "id": 22,
+    "global_id": 28,
+    "title": "問22",
+    "prompt": "日本の刑事裁判（刑事訴訟）に関する記述として最も適当なものはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"刑事裁判では被告人は有罪と確定するまで無罪と推定され，検察官が合理的疑いを超える程度に有罪を立証する責任を負う。","explanation_zh":"正确。无罪推定与检察官举证责任是刑事诉讼基本原则。","explanation_ja":"正解。被告人は無罪推定を受け，検察官が合理的疑いを超える有罪立証責任を負うのが刑事裁判の原則である。"},
+      {"id":2,"text":"刑事裁判の判決は，最高裁判所の事前承認がなければ確定しない。","explanation_zh":"陷阱：概念混淆。判决三审终审制下成熟即定，无所谓“最高裁事前承认”。","explanation_ja":"誤り。概念混同の罠。判決は三審制で確定するもので，最高裁の事前承認は制度上存在しない。"},
+      {"id":3,"text":"被告人は，自分に不利益な供述を強要されたうえで，必ず証言する義務がある。","explanation_zh":"陷阱：概念混淆。宪法第 38 条规定不利益供述拒否权（沉默权），并非强制证言。","explanation_ja":"誤り。概念混同の罠。憲法第 38 条が不利益供述拒否権（黙秘権）を保障し，証言を強要されない。"},
+      {"id":4,"text":"日本では現在も裁判員制度は導入されておらず，刑事裁判はすべて職業裁判官のみで審理される。","explanation_zh":"陷阱：时态错位。日本于 2009 年实施裁判员制度，重大刑事案件由裁判员与法官共同审理。","explanation_ja":"誤り。時態錯位の罠。2009 年に裁判員制度が導入され，重大刑事事件は裁判員と裁判官の合議で審理される。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"刑事訴訟",
+      "sub_domain":"三権分立・統治機構",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"2. 日本の統治機構"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位"],
+      "keywords_to_avoid":["刑事裁判"]
+    },
+    "sources": [{"claim":"Presumption of innocence and prosecutor's burden of proof; Lay Judge System started 2009.","source":"Supreme Court of Japan / Constitution Art. 38","year":"2009","url":"https://www.courts.go.jp/english/judicial_sys/index.html"}]
+  },
+  {
+    "id": 23,
+    "global_id": 29,
+    "title": "問23",
+    "prompt": "日本の法体系における公法と私法の区別に関する記述として最も適当なものはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"民法は，国家と国民の関係を規律する公法に分類される代表的な法律である。","explanation_zh":"陷阱：概念混淆。民法规范私人间财产与身分关系，属私法，非公法。","explanation_ja":"誤り。概念混同の罠。民法は私人間の財産・身分関係を規律する私法であり，公法ではない。"},
+      {"id":2,"text":"行政法は，私人と私人の取引を規律する私法に分類される。","explanation_zh":"陷阱：概念混淆。行政法规范国家与国民关系，属公法，非私法。","explanation_ja":"誤り。概念混同の罠。行政法は国家と国民の関係を規律する公法であり，私法ではない。"},
+      {"id":3,"text":"一般に憲法・行政法・刑法は公法，民法・商法は私法に分類される。","explanation_zh":"正确。这是公法与私法二分法的通行分类。","explanation_ja":"正解。憲法・行政法・刑法は公法，民法・商法は私法に分類するのが通行の二分法である。"},
+      {"id":4,"text":"公法と私法の区別は，江戸時代から確立されていた日本固有の伝統的分類である。","explanation_zh":"陷阱：时态错位。公法/私法二分法源于明治期通过欧陆法继受，并非江户时代日本传统分类。","explanation_ja":"誤り。時態錯位の罠。公法・私法の二分は明治期の大陸法継受で導入され，江戸時代の伝統ではない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"公法分類",
+      "sub_domain":"三権分立・統治機構",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"2. 日本の統治機構"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["公法","民法"]
+    }
+  },
+  {
+    "id": 24,
+    "global_id": 30,
+    "title": "問24",
+    "prompt": "日本の労働法制に関する記述として最も適当なものはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"日本では，労働基準法が定める法定労働時間は 1 日 12 時間，1 週 60 時間とされている。","explanation_zh":"陷阱：数值混同。法定劳动时间为 1 日 8 小时、1 周 40 小时，与本项数字不同。","explanation_ja":"誤り。数値混同の罠。法定労働時間は 1 日 8 時間，1 週 40 時間であり，本項の数値とは異なる。"},
+      {"id":2,"text":"日本国憲法は，団結権・団体交渉権・争議権の労働三権を，公務員を含めすべての労働者に無条件で保障している。","explanation_zh":"陷阱：范围扩大。公务员的劳动三权依其类型受不同限制（如警察消防自卫官无团结权等），并非无条件。","explanation_ja":"誤り。範囲拡大の罠。公務員は職種により団結権・争議権に制限があり，「すべての労働者に無条件」は誤り。"},
+      {"id":3,"text":"最低賃金法は，最低賃金を全国一律で定めることのみを規定しており，地域別の最低賃金は設定されない。","explanation_zh":"陷阱：概念混淆。日本最低工资有“地域别最低工资”（都道府县别）与“特定行业最低工资”，并非全国一律。","explanation_ja":"誤り。概念混同の罠。日本では地域別最低賃金（都道府県別）が設定されており，全国一律のみではない。"},
+      {"id":4,"text":"労働基準法は，使用者に対し，労働者を解雇する際の予告（または予告手当）など，解雇手続に関する一定の規制を課している。","explanation_zh":"正确。劳基法第 20 条规定原则 30 天前预告或预告津贴，是法定基本规制。","explanation_ja":"正解。労働基準法第 20 条は，原則 30 日前の予告または予告手当の支払を使用者に義務づけている。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"社会",
+      "topic":"労働制度",
+      "sub_domain":"社会保障・労働",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の社会","item":"2. 私法と契約"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["時態錯位"],
+      "keywords_to_avoid":["労働"]
+    },
+    "sources": [{"claim":"Labor Standards Act Art. 20: 30-day notice or equivalent allowance required for dismissal.","source":"Japan Ministry of Health, Labour and Welfare — Labor Standards Act","year":"2023","url":"https://www.mhlw.go.jp/english/policy/employ-labour/labour-standards/index.html"}]
+  },
+  {
+    "id": 25,
+    "global_id": 31,
+    "title": "問25",
+    "prompt": "国際連合（国連）に関する記述として最も適当なものはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"国際連合は 1945 年にジュネーブで開かれた会議で国連憲章が採択され，同年に発足した。","explanation_zh":"陷阱：地域错位。联合国宪章于 1945 年旧金山会议通过，地点为旧金山，并非日内瓦。","explanation_ja":"誤り。地域取違の罠。国連憲章は 1945 年のサンフランシスコ会議で採択され，ジュネーブではない。"},
+      {"id":2,"text":"日本は第二次世界大戦の戦勝国として 1945 年の発足時から国際連合に加盟していた。","explanation_zh":"陷阱：时态错位。日本于 1956 年才加入联合国，并非战胜国且非创始会员国。","explanation_ja":"誤り。時態錯位の罠。日本の国連加盟は 1956 年で，創設時の加盟国ではない。"},
+      {"id":3,"text":"国際連合は 1945 年にサンフランシスコ会議で国連憲章が採択され，同年に発足した普遍的国際機構である。","explanation_zh":"正确。1945 年旧金山会议通过宪章，10 月正式发足。","explanation_ja":"正解。国際連合は 1945 年のサンフランシスコ会議で憲章が採択され，同年 10 月に発足した普遍的国際機構である。"},
+      {"id":4,"text":"国際連合の本部はスイスのジュネーブにあり，安全保障理事会の常任理事国は 10 か国である。","explanation_zh":"陷阱：地域错位。联合国总部位于纽约；安理会常任理事国为 5 国（美俄中英法），非 10。","explanation_ja":"誤り。地域取違の罠。本部はニューヨークで，常任理事国は米露中英仏の 5 か国である。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"国連憲章",
+      "sub_domain":"現代世界",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"5. 国際政治"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位"],
+      "keywords_to_avoid":["国連","サンフランシスコ"]
+    },
+    "sources": [{"claim":"UN Charter signed San Francisco June 1945; UN founded October 1945; Japan joined 1956.","source":"United Nations — History","year":"1945","url":"https://www.un.org/en/about-us/history-of-the-un"}]
+  },
+  {
+    "id": 26,
+    "global_id": 32,
+    "title": "問26",
+    "prompt": "国際連合の総会（国連総会）に関する記述として最も適当なものはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"国連総会の決議は，安全保障理事会の決議と同様に，原則として加盟国に対し法的拘束力を有する。","explanation_zh":"陷阱：概念混淆。总会决议为劝告性，安理会决议（第 7 章）才具拘束力。","explanation_ja":"誤り。概念混同の罠。総会決議は原則勧告的で，加盟国を法的に拘束しない（安保理第 7 章決議とは異なる）。"},
+      {"id":2,"text":"国連総会は，全加盟国で構成され，原則として 1 国 1 票の投票権をもつ。","explanation_zh":"正确。总会一国一票原则是国连组织法基本规则，体现各国主权平等。","explanation_ja":"正解。総会は全加盟国で構成され，1 国 1 票の投票権をもつ主権平等の原則に立つ。"},
+      {"id":3,"text":"国連総会の議席は，各国の経済規模（GDP）に応じて配分される加重投票制である。","explanation_zh":"陷阱：概念混淆。加重投票为 IMF 与世界银行制度，联合国总会非加重投票，每国一票平等。","explanation_ja":"誤り。概念混同の罠。加重投票は IMF・世界銀行の方式で，国連総会は 1 国 1 票である。"},
+      {"id":4,"text":"国連総会は，安全保障理事会の常任理事国 5 か国のみで構成される閉鎖的会議体である。","explanation_zh":"陷阱：概念混淆。安理会才由 5 常+10 非常构成；总会则由全加盟国构成。","explanation_ja":"誤り。概念混同の罠。常任理事国のみで構成されるのは安保理の一部にすぎず，総会は全加盟国で構成される。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"国連総会",
+      "sub_domain":"国際政治・外交",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"5. 国際政治"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["国連"]
+    },
+    "sources": [{"claim":"UN General Assembly: all member states, one-state-one-vote; resolutions generally non-binding.","source":"UN Charter Articles 9, 18","year":"1945","url":"https://www.un.org/en/about-us/un-charter/full-text"}]
+  },
+  {
+    "id": 27,
+    "global_id": 33,
+    "title": "問27",
+    "prompt": "第二次世界大戦後のアメリカ合衆国によるマーシャル・プラン（欧州復興計画）に関する記述として最も適当なものはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"マーシャル・プランは，主にアジア諸国の経済復興を対象とし，日本もその主要受益国の一つであった。","explanation_zh":"陷阱：地域错位。马歇尔计划针对西欧战后复兴，并非亚洲；日本援助则为占领期 GARIOA-EROA 等。","explanation_ja":"誤り。地域取違の罠。マーシャル・プランは西欧の戦後復興が対象で，アジア・日本ではない。"},
+      {"id":2,"text":"マーシャル・プランは 1947 年に発表され，第二次世界大戦後のヨーロッパ諸国の経済復興を支援するためのアメリカの援助計画である。","explanation_zh":"正确。1947 年马歇尔国务卿提案，对西欧战后复兴提供数十亿美元援助。","explanation_ja":"正解。1947 年にマーシャル国務長官が提案した，戦後ヨーロッパ復興を支援するアメリカの大規模援助計画である。"},
+      {"id":3,"text":"マーシャル・プランは，ソ連を中心とする社会主義陣営諸国に対する経済援助計画として実施された。","explanation_zh":"陷阱：概念混淆。东欧诸国在苏联施压下拒绝接受马歇尔计划，对象限于西欧自由阵营。","explanation_ja":"誤り。概念混同の罠。ソ連と東欧諸国はソ連の圧力で受け入れを拒否し，西側陣営が対象であった。"},
+      {"id":4,"text":"マーシャル・プランは 1990 年代以降に旧東欧諸国の市場経済化を支援する目的で発表された計画である。","explanation_zh":"陷阱：时态错位。马歇尔计划是 1947 年方案，与 1990 年代东欧市场化（PHARE 等其他计划）无关。","explanation_ja":"誤り。時態錯位の罠。マーシャル・プランは 1947 年であり，1990 年代の東欧支援計画とは別物である。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"マーシャル・プラン",
+      "sub_domain":"経済史",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"2. 二つの世界大戦とその影響"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["マーシャル・プラン"]
+    },
+    "sources": [{"claim":"Marshall Plan announced June 1947, provided ~$13 billion for Western European recovery.","source":"U.S. Department of State, Office of the Historian","year":"1947","url":"https://history.state.gov/milestones/1945-1952/marshall-plan"}]
+  },
+  {
+    "id": 28,
+    "global_id": 34,
+    "title": "問28",
+    "prompt": "18 世紀後半に始まった産業革命に関する記述として最も適当なものはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"産業革命は，19 世紀後半にロシアで最初に発生し，その後ヨーロッパ諸国へと広がった。","explanation_zh":"陷阱：地域错位。产业革命最早发生在 18 世纪后半的英国，并非俄国。","explanation_ja":"誤り。地域取違の罠。産業革命は 18 世紀後半のイギリスで最初に発生し，その後欧米に波及した。"},
+      {"id":2,"text":"産業革命は，18 世紀後半のイギリスで紡績工業と蒸気機関の改良を契機に始まり，機械制工場生産が広がった。","explanation_zh":"正确。产业革命发祥于英国，棉纺业的机械化与瓦特蒸汽机改良是核心。","explanation_ja":"正解。産業革命は 18 世紀後半のイギリスで紡績業の機械化とワットの蒸気機関改良を契機に始まった。"},
+      {"id":3,"text":"産業革命の主要動力源は当初から内燃機関であり，蒸気機関はほとんど使われなかった。","explanation_zh":"陷阱：概念混淆。早期产业革命主要动力为蒸汽机，内燃机为 19 世纪末以后普及。","explanation_ja":"誤り。概念混同の罠。初期産業革命の主動力は蒸気機関で，内燃機関の普及は 19 世紀末以降である。"},
+      {"id":4,"text":"産業革命によって，イギリスの農業人口は急増し，都市人口は減少した。","explanation_zh":"陷阱：因果倒置。产业革命引发城市化进程，城市人口剧增，农村人口相对减少。","explanation_ja":"誤り。因果倒置の罠。産業革命では都市化が進み，都市人口が増加し農村人口の比率が低下した。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"産業革命",
+      "sub_domain":"近代世界",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"2.市場経済"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["産業革命","蒸気機関"]
+    },
+    "sources": [{"claim":"Industrial Revolution began in late 18th-century Britain with cotton textiles and Watt's steam engine.","source":"Britannica — Industrial Revolution","year":"2024","url":"https://www.britannica.com/event/Industrial-Revolution"}]
+  },
+  {
+    "id": 29,
+    "global_id": 35,
+    "title": "問29",
+    "prompt": "次のア〜エの出来事を年代の古い順に並べたものとして正しいものはどれですか。\nア：アメリカ独立宣言の採択　イ：フランス革命の勃発　ウ：ハイチの独立　エ：南米ボリビアの独立",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"イ→ア→ウ→エ","explanation_zh":"陷阱：顺序混乱。法国革命 1789 晚于美国独立宣言 1776，将其置首项错。","explanation_ja":"誤り。順序混同の罠。フランス革命勃発(1789)は米国独立宣言(1776)より後であり，先頭に置くのは誤り。"},
+      {"id":2,"text":"ウ→イ→ア→エ","explanation_zh":"陷阱：顺序混乱。海地独立 1804 晚于美国独立 1776 和法国革命 1789，置首项严重错位。","explanation_ja":"誤り。順序混同の罠。ハイチ独立(1804)を最初に置くと米独立(1776)・仏革命(1789)より早くなり矛盾。"},
+      {"id":3,"text":"エ→ウ→ア→イ","explanation_zh":"陷阱：顺序混乱。整个序列大致倒序，玻利维亚独立（1825）反置于最早，完全颠倒。","explanation_ja":"誤り。順序混同の罠。ボリビア独立(1825)を最早に置くことになり，全体が逆順となる。"},
+      {"id":4,"text":"ア→イ→ウ→エ","explanation_zh":"正确。美国独立宣言 1776、法国革命 1789、海地独立 1804、玻利维亚独立 1825，年代依次增。","explanation_ja":"正解。アメリカ独立宣言 1776 → フランス革命勃発 1789 → ハイチ独立 1804 → ボリビア独立 1825 で年代順となる。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"独立戦争",
+      "sub_domain":"近代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"1. 近代化の進展とその影響"},
+      "question_form":"時系列整序",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["順序混同"],
+      "keywords_to_avoid":["独立戦争"]
+    },
+    "sources": [{"claim":"US Declaration 1776; French Revolution begins 1789; Haitian Independence 1804; Bolivia 1825.","source":"Britannica — Atlantic Revolutions","year":"1825","url":"https://www.britannica.com/topic/Atlantic-Revolutions"}]
+  },
+  {
+    "id": 30,
+    "global_id": 36,
+    "title": "問30",
+    "prompt": "1854 年に締結された日米和親条約に関する記述として最も適当なものはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"日米和親条約により，日本は江戸・大阪・京都の 3 都市をアメリカに対して開市・開港した。","explanation_zh":"陷阱：主体错位。日米和亲条约规定开放下田与函馆两港，并非江户、大阪、京都。","explanation_ja":"誤り。主体取違の罠。日米和親条約で開かれたのは下田・箱館の 2 港であり，江戸・大阪・京都ではない。"},
+      {"id":2,"text":"日米和親条約により，日本はアメリカに対し関税自主権を完全に維持することが認められた。","explanation_zh":"陷阱：概念混淆。关税自主权丧失之事系 1858 年日米修好通商条约规定，与和亲条约不同。","explanation_ja":"誤り。概念混同の罠。関税自主権の喪失は 1858 年の日米修好通商条約の問題で，和親条約ではない。"},
+      {"id":3,"text":"日米和親条約は，江戸幕府の老中井伊直弼が独断で締結した不平等条約である。","explanation_zh":"陷阱：主体错位。和亲条约 1854 年由幕府全权大野大学头等签订，井伊直弼为修好通商条约（1858）相关。","explanation_ja":"誤り。主体取違の罠。1854 年の和親条約は幕府の全権大野大学頭らが署名し，井伊直弼は 1858 年の通商条約に関わる。"},
+      {"id":4,"text":"日米和親条約により，日本は下田・箱館の 2 港を開港し，アメリカ船への燃料・食料の供給を行うことに同意した。","explanation_zh":"正确。1854 年和亲条约定下田、函馆开港，主要供给燃料食水与船舶补给。","explanation_ja":"正解。1854 年の日米和親条約により下田・箱館を開港し，米船への燃料・食料・水の供給に応じることになった。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"日米和親条約",
+      "sub_domain":"近世日本",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"6. 財政"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違"],
+      "keywords_to_avoid":["ペリー"]
+    },
+    "sources": [{"claim":"Treaty of Kanagawa (1854) opened Shimoda and Hakodate to US ships for supplies.","source":"Britannica — Convention of Kanagawa","year":"1854","url":"https://www.britannica.com/event/Treaty-of-Kanagawa"}]
+  },
+  {
+    "id": 31,
+    "global_id": 37,
+    "title": "問31",
+    "prompt": "1884〜85 年に開かれたベルリン会議（ベルリン・コンゴ会議）に関する記述として最も適当なものはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"ベルリン会議は，第一次世界大戦の戦後処理を目的としてヨーロッパ諸国とアメリカが集まった国際会議である。","explanation_zh":"陷阱：时态错位。一战战后处理为 1919 年凡尔赛会议，与 1884-85 年柏林会议不同。","explanation_ja":"誤り。時態錯位の罠。第一次世界大戦の戦後処理は 1919 年ヴェルサイユ会議であり，1884-85 年のベルリン会議とは異なる。"},
+      {"id":2,"text":"ベルリン会議は，アフリカ大陸の植民地分割に関する原則をヨーロッパ列強が取り決めた会議である。","explanation_zh":"正确。柏林会议确立有效占领原则等列强分割非洲的规则，是非洲殖民地化加速的契机。","explanation_ja":"正解。ベルリン会議は実効支配原則などを定め，列強によるアフリカ分割を加速させた会議である。"},
+      {"id":3,"text":"ベルリン会議は，アジア諸国の独立と新国際秩序を主題とする会議で，多くのアジア諸国も主導的に参加した。","explanation_zh":"陷阱：概念混淆。柏林会议主题为非洲分割且亚洲国家未主导参加。","explanation_ja":"誤り。概念混同の罠。会議の主題はアフリカ分割であり，アジア諸国が主導的に参加した事実はない。"},
+      {"id":4,"text":"ベルリン会議は，第二次世界大戦終結後のドイツ占領政策を決定した連合国の会議である。","explanation_zh":"陷阱：时态错位。二战后德国占领问题为 1945 年波茨坦会议，与 1884-85 年柏林会议无关。","explanation_ja":"誤り。時態錯位の罠。第二次大戦後のドイツ占領政策は 1945 年ポツダム会議で，本会議とは別である。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"ベルリン会議",
+      "sub_domain":"現代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"1. 近代化の進展とその影響"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["ベルリン会議"]
+    },
+    "sources": [{"claim":"Berlin Conference 1884–85 set rules for European colonization of Africa.","source":"Britannica — Berlin West Africa Conference","year":"1885","url":"https://www.britannica.com/event/Berlin-West-Africa-Conference"}]
+  },
+  {
+    "id": 32,
+    "global_id": 38,
+    "title": "問32",
+    "prompt": "1951 年のサンフランシスコ平和条約に関する記述として最も適当でないものはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"サンフランシスコ平和条約は，1951 年に交戦国すべてを含む形で締結され，ソ連・中国を含む全交戦国が同条約に署名した。","explanation_zh":"正确。题目要求选不适当项。苏联与会但拒签，中华人民共和国与中华民国均未受邀，并非全签。","explanation_ja":"正解。設問は誤りを選ぶもの。ソ連は会議に出席したが署名せず，中国は中華人民共和国・中華民国いずれも招請されなかった。"},
+      {"id":2,"text":"サンフランシスコ平和条約は，1951 年にアメリカのサンフランシスコで調印され，翌 1952 年に発効した。","explanation_zh":"陷阱：设问反转。该项是条约时空背景的正确叙述。","explanation_ja":"誤り。設問反転の罠。1951 年調印・1952 年発効は事実で，誤りを選ぶ設問の答えではない。"},
+      {"id":3,"text":"サンフランシスコ平和条約により，日本は朝鮮の独立を承認し，台湾・千島列島などへのすべての権利を放棄した。","explanation_zh":"陷阱：设问反转。该项是条约领土条款的正确叙述。","explanation_ja":"誤り。設問反転の罠。日本が朝鮮独立を承認し台湾・千島の権利を放棄したのは条約の通りで，誤りではない。"},
+      {"id":4,"text":"サンフランシスコ平和条約と同日に，日本とアメリカは日米安全保障条約に調印した。","explanation_zh":"陷阱：设问反转。该项是同日缔结日米安保条约的正确事实。","explanation_ja":"誤り。設問反転の罠。同日に日米安全保障条約が調印されたのは事実で，誤りを選ぶ設問の答えではない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"サンフランシスコ平和条約",
+      "sub_domain":"現代日本",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"2. 二つの世界大戦とその影響"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答誤記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違"],
+      "keywords_to_avoid":["サンフランシスコ"]
+    },
+    "sources": [{"claim":"San Francisco Peace Treaty signed 8 Sep 1951, effective 28 Apr 1952; USSR did not sign; PRC and ROC not invited.","source":"Japan MOFA — San Francisco Peace Treaty","year":"1951","url":"https://www.mofa.go.jp/policy/postwar/treaty.html"}]
+  }
+]
+}

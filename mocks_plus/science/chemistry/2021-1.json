@@ -1,0 +1,522 @@
+{
+  "subject": "science",
+  "section": "chemistry",
+  "year": 2021,
+  "round": 1,
+  "title": "模擬試験 化学 第五回",
+  "image_path": "science/chemistry/images/2021-1",
+  "questions": [
+  {
+    "id": 1,
+    "global_id": 1,
+    "title": "問1",
+    "prompt": "次の a〜c の元素と、その電子配置の特徴 X〜Z の組合せとして最も適当なものはどれか。\n\na : ケイ素（Si）\nb : 塩素（Cl）\nc : ナトリウム（Na）\n\nX : 原子番号14で、K殻2個・L殻8個・M殻4個の電子配置をもつ\nY : 最外殻電子が7個で、電子1個を得てハロゲン化物イオンになりやすい\nZ : 最外殻電子が1個で、電子1個を失って1価の陽イオンになりやすい",
+    "passage": null,
+    "choices": [
+      {"id":1,"text":"a-Y、b-X、c-Z","explanation_zh":"陷阱：将 Si 与 Cl 的特征对调。Si 的原子序数为14，电子排布为2·8·4（即X），不符合最外层7个电子（Y）的描述。","explanation_ja":"誤り。SiとClの特徴を取り違えた組合せ。Siは原子番号14で電子配置2・8・4（X）であり、Yの最外殻7個には対応しない。"},
+      {"id":2,"text":"a-Z、b-Y、c-X","explanation_zh":"陷阱：将 Si 误认为最外层只有1个电子（Z是Na的特征）。Si 的最外层有4个电子，而Na才有1个。","explanation_ja":"誤り。Siの最外殻電子を1個と誤認した組合せ。Siの最外殻電子は4個であり、Zの「電子1個を失う」はNaの特徴である。"},
+      {"id":3,"text":"a-X、b-Y、c-Z","explanation_zh":"正确。Si（a）原子番号14，电子排布2·8·4，对应X；Cl（b）最外层7个电子，易得1个变成Cl⁻，对应Y；Na（c）最外层1个电子，易失变Na⁺，对应Z。","explanation_ja":"正解。Si（a）は原子番号14で電子配置2・8・4（X）、Cl（b）は最外殻電子7個でY（ハロゲン化物イオン生成）、Na（c）は最外殻電子1個を失ってNa⁺（Z）になる。"},
+      {"id":4,"text":"a-X、b-Z、c-Y","explanation_zh":"陷阱：将 Cl 和 Na 的特征对调。Cl 最外层7个电子容易得到电子（Y），'失去1个电子变阳离子'（Z）是Na的特征。","explanation_ja":"誤り。ClとNaの特徴を入れ替えた組合せ。Clは最外殻電子7個（Y）であり、電子1個を失う陽イオン形成（Z）はNaの特徴である。"},
+      {"id":5,"text":"a-Y、b-Z、c-X","explanation_zh":"陷阱：三者全部错位对应。Si 的最外层有4个电子，既不对应Y（7个）也不对应Z（1个）。","explanation_ja":"誤り。3つの対応がすべて誤っている。Siの最外殻電子は4個であり、Y（7個）でもZ（1個）でもない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "unit":"I 物質の構成",
+      "sub_domain":"原子構造",
+      "question_form":"組合せ",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["周期表位置混同"],
+      "keywords_to_avoid":["中性子","陽子","質量数"],
+      "syllabus_path":{"area":"I 物質の構成","field":"化学","item":"2. 物質の構成粒子"}
+    }
+  },
+  {
+    "id": 2,
+    "global_id": 2,
+    "title": "問2",
+    "prompt": "物質の結合と性質に関する記述として最も適当なものはどれか。",
+    "passage": null,
+    "choices": [
+      {"id":1,"text":"共有結合結晶（例：ダイヤモンド）はすべて電気を通しやすい。","explanation_zh":"陷阱：共价键晶体的导电性不统一。金刚石不导电（价电子全用于C-C键），而石墨因自由π电子而导电，「」使命题错误。","explanation_ja":"誤り。共有結合結晶の導電性は一様ではない。ダイヤモンドは絶縁体だが黒鉛（炭素の同素体）は自由電子があるため導体であり、「すべて」という表現が誤りである。"},
+      {"id":2,"text":"金属結晶はすべて常温で固体であり、液体の金属は存在しない。","explanation_zh":"陷阱：汞（Hg）在常温下是液态金属，'常温固体'的表述错误。","explanation_ja":"誤り。水銀（Hg）は常温で液体の金属である。「すべて常温で固体」という記述は誤りである。"},
+      {"id":3,"text":"分子結晶はすべて水に溶けやすく、その水溶液は電気を通す。","explanation_zh":"陷阱：分子晶体并非都溶于水（碘难溶），溶于水者也未必导电（蔗糖水溶液不导电）。","explanation_ja":"誤り。ヨウ素（I₂）のように水に難溶な分子結晶があり、また溶けても電解質でなければ導電しない（ショ糖水溶液は不導体）。"},
+      {"id":4,"text":"共有結合性分子からなる物質は、常温で必ず気体または液体である。","explanation_zh":"陷阱：共价键分子晶体在常温下也可以是固体（萘、碘、干冰等），并非全部是气体或液体。","explanation_ja":"誤り。ナフタレン・ヨウ素・ドライアイスなど共有結合性分子でも常温で固体のものがある。"},
+      {"id":5,"text":"イオン結晶は、固体では電気を通しにくいが、融解状態や水溶液では電気を通す。","explanation_zh":"正确。离子晶体固态时离子被固定在晶格中无法自由移动，不导电；熔融或溶于水后离子可自由移动，导电。","explanation_ja":"正解。イオン結晶は固体状態ではイオンが格子に固定され不導体だが、融解・溶解するとイオンが自由に移動して電気を通す。"}
+    ],
+    "answer": 5,
+    "tag": {
+      "unit":"I 物質の構成",
+      "sub_domain":"分子構造・結晶",
+      "question_form":"知識選択",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["性質の例外見落とし"],
+      "keywords_to_avoid":["共有電子対","分子","イオン"],
+      "syllabus_path":{"area":"I 物質の構成","field":"化学","item":"3. 物質と化学結合"}
+    }
+  },
+  {
+    "id": 3,
+    "global_id": 3,
+    "title": "問3",
+    "prompt": "化学結合と物質の性質に関する記述として最も適当なものはどれか。",
+    "passage": null,
+    "choices": [
+      {"id":1,"text":"水分子（\\\\ce{H2O}）は直線形構造をとり、無極性分子である。","explanation_zh":"陷阱：水分子是V形（折线形），因氧有2对孤对电子，键角约104.5°，是极性分子。","explanation_ja":"誤り。水分子は折れ線形（V字形）構造で、2つの孤立電子対により結合角は約104.5°となり、極性分子である。"},
+      {"id":2,"text":"二酸化炭素（\\\\ce{CO2}）は極性結合をもつため、極性分子である。","explanation_zh":"陷阱：CO₂虽有极性C=O键，但直线形结构使两个偶极矩抵消，整体是非极性分子。","explanation_ja":"誤り。\\\\ce{CO2}は極性結合（C=O）をもつが、直線形構造のため双極子モーメントが打ち消し合い、無極性分子である。"},
+      {"id":3,"text":"アンモニア（\\\\ce{NH3}）は無極性分子で、水にはほとんど溶けない。","explanation_zh":"陷阱：NH₃是三角锥形极性分子，且极易溶于水（1体积水溶约700体积NH₃），两点均错。","explanation_ja":"誤り。\\\\ce{NH3}は三角錐形の極性分子であり、水に非常によく溶ける。"},
+      {"id":4,"text":"イオン結晶は、固体状態ではイオンが格子に固定されているため電気を通しにくいが、融解すると自由に動けるようになり電気を通す。","explanation_zh":"正确。离子晶体固态时离子被固定在晶格中不能移动，不导电；熔融后离子可自由移动，形成离子导体。","explanation_ja":"正解。イオン結晶は固体ではイオンが格子に固定されているため不導体だが、融解するとイオンが自由に移動できるようになり電気を通す。"},
+      {"id":5,"text":"すべての共有結合性分子は非極性であり、有機溶媒によく溶ける。","explanation_zh":"陷阱：共价键分子有极性和非极性之分（H₂O、NH₃为极性分子）；极性分子未必溶于有机溶剂。","explanation_ja":"誤り。共有結合性分子には極性分子と無極性分子があり（水やアンモニアは極性分子）、すべてが有機溶媒に溶けるわけではない。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "unit":"I 物質の構成",
+      "sub_domain":"分子構造・結晶",
+      "question_form":"知識選択",
+      "required_skill":"構造推定",
+      "requires_image":false,
+      "trap_patterns":["構造異性体混同"],
+      "keywords_to_avoid":["平面構造","分子","結合角"],
+      "syllabus_path":{"area":"I 物質の構成","field":"化学","item":"3. 物質と化学結合"}
+    }
+  },
+  {
+    "id": 4,
+    "global_id": 4,
+    "title": "問4",
+    "prompt": "結晶の種類と性質に関する記述として最も適当なものはどれか。",
+    "passage": null,
+    "choices": [
+      {"id":1,"text":"金属結晶に属するアルミニウムは、展性・延性がなく、電気を通さない。","explanation_zh":"陷阱：铝是典型金属，具有延展性（可压成铝箔）且导电性优良，该命题两点均错。","explanation_ja":"誤り。アルミニウムは典型的な金属結晶であり、展性・延性をもち（アルミ箔に加工可能）、電気をよく通す。"},
+      {"id":2,"text":"分子結晶に属するナフタレンは、融点が高く水に非常に溶けやすい。","explanation_zh":"陷阱：萘是分子晶体，熔点低（约80°C）；难溶于水，易溶于有机溶剂。","explanation_ja":"誤り。ナフタレンは分子結晶で融点が低く（約80℃）、水にはほとんど溶けず有機溶媒に溶けやすい。"},
+      {"id":3,"text":"共有結合結晶に属する二酸化ケイ素（\\\\ce{SiO2}）は、融点が低くやわらかい。","explanation_zh":"陷阱：SiO₂是共价键晶体，Si-O键极强，熔点极高（约1700°C）且硬度大。","explanation_ja":"誤り。\\\\ce{SiO2}（石英）は共有結合結晶であり、Si-O結合が強固なため融点が非常に高く（約1700℃）、硬い。"},
+      {"id":4,"text":"イオン結晶は一般に融点が低く、固体でも液体でも電気を通す。","explanation_zh":"陷阱：离子晶体熔点通常较高（NaCl熔点801°C）；固态不导电，仅熔融或溶于水后才导电。","explanation_ja":"誤り。イオン結晶は一般に融点が高く（NaClは801℃）、固体では電気を通さない。"},
+      {"id":5,"text":"金属結晶は自由電子をもつため、外力で原子層がずれると結合が切れて脆く割れやすい。","explanation_zh":"陷阱：金属晶体中自由电子使原子层错位时结合仍维持，因此有延展性，而非脆性——脆性是离子晶体的特征。","explanation_ja":"誤り。金属結晶では自由電子が原子層のずれを補完するため割れにくく、展性・延性をもつ。脆いのはイオン結晶の特徴である。"},
+      {"id":6,"text":"イオン結晶は、固体では電気を通しにくいが、融解状態では電気を通す。","explanation_zh":"正确。离子晶体固态时离子被晶格固定，不导电；熔融后离子自由移动，导电。","explanation_ja":"正解。イオン結晶は固体状態でイオンが格子に固定されているため不導体だが、融解するとイオンが自由に移動し電気を通す。"}
+    ],
+    "answer": 6,
+    "tag": {
+      "unit":"I 物質の構成",
+      "sub_domain":"分子構造・結晶",
+      "question_form":"知識選択",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["性質の例外見落とし"],
+      "keywords_to_avoid":["CO₂","SiO₂","CaO"],
+      "syllabus_path":{"area":"I 物質の構成","field":"化学","item":"3. 物質と化学結合"}
+    }
+  },
+  {
+    "id": 5,
+    "global_id": 5,
+    "title": "問5",
+    "prompt": "マグネシウム 0.120 g を十分な量の希塩酸に溶かした。\n発生する水素の体積（標準状態）として最も適当なものはどれか。\nMg の原子量を 24 とする。\n\n反応式：\\\\ce{Mg + 2HCl -> MgCl2 + H2}",
+    "passage": null,
+    "choices": [
+      {"id":1,"text":"56 mL","explanation_zh":"陷阱：误将 Mg 摩尔质量取12（碳的值）：n=0.120/12=0.01 mol，或其他错误路径。正确 Mg=24：V=0.005×22400=112 mL。","explanation_ja":"誤り。Mgのモル質量を12（炭素の値）と誤って代入した場合などに生じる誤答。正しくはMg=24なのでV=112 mLとなる。"},
+      {"id":2,"text":"224 mL","explanation_zh":"陷阱：将 Mg 摩尔质量误取12，n=0.120/12=0.010 mol → V=0.010×22400=224 mL。正确Mg=24，V=112 mL。","explanation_ja":"誤り。Mgのモル質量を12と誤認した場合、n=0.0100 mol → V=224 mLとなるが、Mgの原子量は24である。"},
+      {"id":3,"text":"112 mL","explanation_zh":"正确。n(Mg)=0.120÷24=0.00500 mol。由反应式 Mg:H₂=1:1，n(H₂)=0.00500 mol。V=0.00500×22400=112 mL。","explanation_ja":"正解。n(Mg)=0.120÷24=0.00500 mol。反応式よりMg:H₂=1:1なのでn(H₂)=0.00500 mol。V=0.00500×22400=112 mL。"},
+      {"id":4,"text":"448 mL","explanation_zh":"陷阱：误将化学计量比用为 Mg:H₂=1:2，V=0.005×2×22400=224 mL；或进一步错误。正确比为1:1，V=112 mL。","explanation_ja":"誤り。Mg:H₂の比を1:2と誤認した場合などの誤答。正しい比は1:1でV=112 mLとなる。"},
+      {"id":5,"text":"11.2 mL","explanation_zh":"陷阱：将标准状态摩尔体积误取2240 mL/mol（少一个零）：V=0.005×2240=11.2 mL。正确为22400 mL/mol。","explanation_ja":"誤り。標準状態のモル体積を2240 mL/molと誤って用いた場合の誤答。正しくは22400 mL/molである。"},
+      {"id":6,"text":"1120 mL","explanation_zh":"陷阱：将 Mg 质量误读为1.20 g：n=1.20/24=0.050 mol → V=0.050×22400=1120 mL。题目为0.120 g。","explanation_ja":"誤り。Mgの質量を1.20 gと誤読した場合の誤答。n=1.20/24=0.0500 mol → V=1120 mLとなるが、問題のMgは0.120 gである。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "unit":"I 物質の構成",
+      "sub_domain":"化学反応式と量的関係",
+      "question_form":"計算選択",
+      "required_skill":"量的計算",
+      "requires_image":false,
+      "trap_patterns":["係数比誤認"],
+      "keywords_to_avoid":["Mg","HCl","H₂"],
+      "syllabus_path":{"area":"I 物質の構成","field":"化学","item":"4. 物質の量的取扱いと化学式"}
+    }
+  },
+  {
+    "id": 6,
+    "global_id": 6,
+    "title": "問6",
+    "prompt": "水素の燃焼熱は 286 kJ/mol である。\n水素 2.00 g を完全燃焼させたとき発生する熱量として最も適当なものはどれか。\nH の原子量を 1.00 とする。\n\n熱化学方程式：\\\\ce{H2(g) + 1/2 O2(g) -> H2O(l)} ΔH = −286 kJ/mol",
+    "passage": null,
+    "choices": [
+      {"id":1,"text":"286 kJ","explanation_zh":"正确。H₂的摩尔质量=2.00 g/mol，2.00 g H₂的物质的量=2.00÷2.00=1.00 mol。发热量=1.00×286=286 kJ。","explanation_ja":"正解。H₂のモル質量は2.00 g/molなので、2.00 g H₂は1.00 mol。発熱量=1.00×286=286 kJ。"},
+      {"id":2,"text":"143 kJ","explanation_zh":"陷阱：误将H₂摩尔质量取为4 g/mol（O原子量混淆），n=2.00/4=0.50 mol，Q=0.50×286=143 kJ。","explanation_ja":"誤り。H₂のモル質量を4 g/molと誤って、n=0.500 molとした場合の誤答。正しくはn=1.00 molである。"},
+      {"id":3,"text":"572 kJ","explanation_zh":"陷阱：以H原子计（2.00 mol H原子），Q=2.00×286=572 kJ。H₂分子摩尔质量2.00，不是原子量1.00。","explanation_ja":"誤り。H₂分子でなくH原子のmol数（2.00 mol）で計算した場合の誤答。H₂として2.00 g→1.00 molが正しい。"},
+      {"id":4,"text":"57.2 kJ","explanation_zh":"陷阱：将燃烧热误读为28.6 kJ/mol（少一位），Q=1.00×28.6×2=57.2 kJ，或其他错误。正确=286 kJ。","explanation_ja":"誤り。燃焼熱を28.6 kJ/molと誤読するなどの誤答。正しくは286 kJ/molでQ=286 kJとなる。"},
+      {"id":5,"text":"1430 kJ","explanation_zh":"陷阱：误将物质的量取5.00 mol（kg单位混淆），Q=5.00×286=1430 kJ。正确n=1.00 mol。","explanation_ja":"誤り。質量や物質量の単位を誤って換算した場合などの誤答。正しくはn=1.00 molでQ=286 kJとなる。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "unit":"II 物質の状態と変化",
+      "sub_domain":"熱化学",
+      "question_form":"計算選択",
+      "required_skill":"量的計算",
+      "requires_image":false,
+      "trap_patterns":["単位換算ミス"],
+      "keywords_to_avoid":["水素","燃焼熱","比熱"],
+      "syllabus_path":{"area":"II 物質の状態と変化","field":"化学","item":"1. 物質の変化"}
+    }
+  },
+  {
+    "id": 7,
+    "global_id": 7,
+    "title": "問7",
+    "prompt": "酸・塩基および中和反応に関する記述として最も適当なものはどれか。",
+    "passage": null,
+    "choices": [
+      {"id":1,"text":"酢酸（\\\\ce{CH3COOH}）は強酸であり、水溶液中では完全に電離している。","explanation_zh":"陷阱：醋酸是弱酸，水溶液中只部分电离（电离度约1%），不是完全电离。","explanation_ja":"誤り。酢酸は弱酸であり、水溶液中で一部しか電離しない（電離度は約1%程度）。"},
+      {"id":2,"text":"強酸と強塩基の中和で生じる塩（例：\\\\ce{NaCl}）の水溶液は中性（pH = 7）である。","explanation_zh":"正确。NaCl 由强酸HCl和强碱NaOH中和生成，Na⁺和Cl⁻均不水解，水溶液呈中性（pH=7）。","explanation_ja":"正解。NaClは強酸HClと強塩基NaOHの中和塩であり、Na⁺もCl⁻も加水分解しないため水溶液は中性（pH=7）を示す。"},
+      {"id":3,"text":"pH が大きいほど、水溶液の酸性が強い。","explanation_zh":"陷阱：pH越大，酸性越弱（碱性越强）。pH=7为中性，pH>7为碱性，pH<7为酸性。","explanation_ja":"誤り。pHが大きいほど塩基性が強く（酸性が弱い）。pH=7が中性、pH>7が塩基性である。"},
+      {"id":4,"text":"塩酸（\\\\ce{HCl}）と水酸化ナトリウム（\\\\ce{NaOH}）を等モル混合すると、気体が発生する。","explanation_zh":"陷阱：HCl与NaOH等摩尔中和生成NaCl和H₂O，不产生气体。","explanation_ja":"誤り。HClとNaOHの等モル中和ではNaClと水が生成し、気体は発生しない。"},
+      {"id":5,"text":"アレニウスの定義によると、酸はプロトン（\\\\ce{H+}）を与える物質である。","explanation_zh":"陷阱：\"给出质子\"是布朗斯特-洛里的酸定义；阿伦尼乌斯的定义是酸在水中电离产生H⁺。","explanation_ja":"誤り。「プロトンを与える」はブレンステッド・ローリーの酸の定義である。アレニウスの定義では酸は水溶液中でH⁺を生じる物質とされている。"},
+      {"id":6,"text":"弱塩基の塩（例：\\\\ce{NH4Cl}）の水溶液は塩基性を示す。","explanation_zh":"陷阱：氯化铵（NH₄Cl）是弱碱NH₃与强酸HCl生成的盐，NH₄⁺水解使溶液呈酸性，而非碱性。","explanation_ja":"誤り。\\\\ce{NH4Cl}は弱塩基NH₃と強酸HClの塩であり、NH₄⁺の加水分解により溶液は酸性を示す。塩基性を示すのは弱酸の塩（CH₃COONaなど）である。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "unit":"II 物質の状態と変化",
+      "sub_domain":"酸・塩基",
+      "question_form":"知識選択",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["濃度条件見落とし"],
+      "keywords_to_avoid":["塩","pH","加水分解"],
+      "syllabus_path":{"area":"II 物質の状態と変化","field":"化学","item":"1. 物質の変化"}
+    }
+  },
+  {
+    "id": 8,
+    "global_id": 8,
+    "title": "問8",
+    "prompt": "濃度不明の過酸化水素水 10.0 mL を希硫酸で酸性にし、\n0.0200 mol/L の過マンガン酸カリウム水溶液で滴定したところ、25.0 mL を要した。\n過酸化水素の濃度として最も適当なものはどれか。\n\n反応式（酸性条件）：\\\\ce{2KMnO4 + 5H2O2 + 3H2SO4 -> 2MnSO4 + K2SO4 + 8H2O + 5O2}",
+    "passage": null,
+    "choices": [
+      {"id":1,"text":"0.0500 mol/L","explanation_zh":"陷阱：误用 KMnO₄:H₂O₂=1:1（忽略2:5的真实比例）计算，n(H₂O₂)=5×10⁻⁴ mol，c=0.0500 mol/L。","explanation_ja":"誤り。KMnO₄:H₂O₂=1:1と誤認した場合の誤答。正しい反応比は2:5である。"},
+      {"id":2,"text":"0.125 mol/L","explanation_zh":"正确。n(KMnO₄)=0.0200×0.0250=5.00×10⁻⁴ mol。由2:5比，n(H₂O₂)=5.00×10⁻⁴×(5/2)=1.25×10⁻³ mol。c=1.25×10⁻³÷0.0100=0.125 mol/L。","explanation_ja":"正解。n(KMnO₄)=0.0200×0.0250=5.00×10⁻⁴ mol。反応比2:5よりn(H₂O₂)=5.00×10⁻⁴×(5/2)=1.25×10⁻³ mol。c=1.25×10⁻³÷0.0100=0.125 mol/L。"},
+      {"id":3,"text":"0.250 mol/L","explanation_zh":"陷阱：比例误用1:5（分子数取5倍），n(H₂O₂)=2.50×10⁻³ mol，c=0.250 mol/L。正确比2:5。","explanation_ja":"誤り。比を2:5でなく1:5と誤認した場合、n(H₂O₂)=2.50×10⁻³ mol → c=0.250 mol/Lとなるが、正しい比は2:5である。"},
+      {"id":4,"text":"0.0200 mol/L","explanation_zh":"陷阱：直接将KMnO₄浓度等同于H₂O₂浓度，忽略体积比和化学计量比。","explanation_ja":"誤り。KMnO₄の濃度（0.0200 mol/L）をそのままH₂O₂の濃度とした誤答。"},
+      {"id":5,"text":"0.0400 mol/L","explanation_zh":"陷阱：反应比和体积均处理错误的情况，或其他计算误差路径。正确c=0.125 mol/L。","explanation_ja":"誤り。反応比と体積の扱いを誤った場合の誤答。正しくはc=0.125 mol/Lとなる。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "unit":"II 物質の状態と変化",
+      "sub_domain":"酸化還元",
+      "question_form":"計算選択",
+      "required_skill":"量的計算",
+      "requires_image":false,
+      "trap_patterns":["係数比誤認"],
+      "keywords_to_avoid":["H₂O₂","KMnO₄","酸性条件"],
+      "syllabus_path":{"area":"II 物質の状態と変化","field":"化学","item":"1. 物質の変化"}
+    }
+  },
+  {
+    "id": 9,
+    "global_id": 9,
+    "title": "問9",
+    "prompt": "硫酸銅（\\\\ce{CuSO4}）水溶液を白金電極で電気分解した。\n0.500 A の電流を 965 秒間流したとき、陰極に析出する銅の質量として最も適当なものはどれか。\nCu の原子量を 64.0、ファラデー定数を 9.65×10⁴ C/mol とする。\n\n陰極反応：\\\\ce{Cu^{2+} + 2e- -> Cu}",
+    "passage": "【計算手順】\n電気量：Q = 0.500 A × 965 s = 482.5 C\n電子の物質量：n(e⁻) = 482.5 ÷ 96500 = 5.00×10⁻³ mol\nCu²⁺は2電子還元：n(Cu) = 5.00×10⁻³ ÷ 2 = 2.50×10⁻³ mol\n析出質量：m = 2.50×10⁻³ × 64.0 = 0.160 g",
+    "choices": [
+      {"id":1,"text":"0.0800 g","explanation_zh":"陷阱：n(Cu)=n(e⁻)/1=0.00500mol（误以为Cu⁺需1个电子），m=0.00500×64.0/4=0.0800 g；或其他错误路径。正确需2个电子。","explanation_ja":"誤り。Cu²⁺の還元に1 mol e⁻/mol Cuと誤認した場合などの誤答。正しくは2 mol e⁻が必要でm=0.160 gとなる。"},
+      {"id":2,"text":"0.320 g","explanation_zh":"陷阱：n(Cu)=n(e⁻)=0.00500mol（未除以2），m=0.00500×64.0=0.320 g。忘记Cu²⁺需2个电子。","explanation_ja":"誤り。n(e⁻)=0.00500 molをそのままn(Cu)として計算するとm=0.320 gとなるが、Cu²⁺の還元には2 mol e⁻/mol Cuが必要である。"},
+      {"id":3,"text":"0.160 g","explanation_zh":"正确。Q=0.500×965=482.5 C，n(e⁻)=482.5÷96500=0.00500 mol，n(Cu)=0.00500÷2=0.00250 mol，m=0.00250×64.0=0.160 g。","explanation_ja":"正解。Q=482.5 C、n(e⁻)=0.00500 mol、n(Cu)=0.00250 mol、m=0.00250×64.0=0.160 g。"},
+      {"id":4,"text":"0.640 g","explanation_zh":"陷阱：计算错误（如将Q或F误取），m=0.640 g。正确m=0.160 g。","explanation_ja":"誤り。電気量またはファラデー定数の扱いを誤った場合などの誤答。正しくはm=0.160 gとなる。"},
+      {"id":5,"text":"0.0400 g","explanation_zh":"陷阱：法拉第常数误取或时间计算出错，m偏小。正确m=0.160 g。","explanation_ja":"誤り。ファラデー定数や時間の計算を誤った場合の誤答。正しくはm=0.160 gとなる。"},
+      {"id":6,"text":"0.0320 g","explanation_zh":"陷阱：电流误用0.0500A或时间大幅缩短，Q大幅减小，m=0.0320 g。正确Q=482.5C。","explanation_ja":"誤り。電流や時間の読み取りを誤った場合などの誤答。正しくはQ=482.5 C → m=0.160 gである。"},
+      {"id":7,"text":"0.800 g","explanation_zh":"陷阱：时间误取9650秒，n(e⁻)=0.050 mol，n(Cu)=0.025 mol，m=0.025×64=1.60 g；或其他路径得0.800g。","explanation_ja":"誤り。時間を9650秒と誤読した場合などの誤答。正しくは965秒でm=0.160 gとなる。"},
+      {"id":8,"text":"0.0160 g","explanation_zh":"陷阱：电流误用0.0500A或时间96.5s，Q=4.825C，n(e⁻)=5×10⁻⁵mol，m≈0.0016g；或其他路径。","explanation_ja":"誤り。電流値または時間の桁を誤って読み取った場合の誤答。正しくはm=0.160 gとなる。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "unit":"II 物質の状態と変化",
+      "sub_domain":"電池・電気分解",
+      "question_form":"計算選択",
+      "required_skill":"量的計算",
+      "requires_image":false,
+      "trap_patterns":["単位換算ミス"],
+      "keywords_to_avoid":["希硫酸","電気量","Pt"],
+      "syllabus_path":{"area":"II 物質の状態と変化","field":"化学","item":"3. 物質の変化と平衡"}
+    }
+  },
+  {
+    "id": 10,
+    "global_id": 10,
+    "title": "問10",
+    "prompt": "次の平衡系において圧力を高めると、平衡はどちらに移動するか。\nまたその理由として最も適当なものはどれか。\n\n\\\\ce{N2(g) + 3H2(g) <=> 2NH3(g)}",
+    "passage": null,
+    "choices": [
+      {"id":1,"text":"圧力を高めると平衡は左に移動する。気体の物質量が増えるほど圧力が下がるからである。","explanation_zh":"陷阱：压力升高时，平衡向气体物质的量减少的方向（右，生成NH₃）移动，不是向左。","explanation_ja":"誤り。圧力を高めると平衡は気体の物質量が減る方向（右方向）に移動する。左方向への移動は誤りである。"},
+      {"id":2,"text":"圧力を高めると平衡は変化しない。この反応では気体の物質量が変化しないからである。","explanation_zh":"陷阱：该反应左边4 mol气体，右边2 mol气体，总量变化，压力变化会影响平衡。","explanation_ja":"誤り。左辺は気体4 mol（N₂+3H₂）、右辺は2 mol（2NH₃）で物質量が変化するため、圧力変化により平衡は移動する。"},
+      {"id":3,"text":"圧力を高めると平衡は右（正反応方向）に移動する。高圧にすることで気体の物質量が小さい方向に平衡が移動するからである。","explanation_zh":"正确。左边4 mol气体，右边2 mol气体。压力增大时，平衡向气体物质的量减少的方向（右，生成NH₃）移动（勒夏特列原理）。","explanation_ja":"正解。左辺4 mol→右辺2 molと気体の物質量が減るため、圧力を高めると平衡は右方向（NH₃生成方向）に移動する（ルシャトリエの原理）。"},
+      {"id":4,"text":"温度を上げると平衡は右（発熱方向）に移動し、アンモニアの収率が上がる。","explanation_zh":"陷阱：题目问的是压力效果，且NH₃合成是放热反应，升温会使平衡向左（吸热方向）移动，降低收率。","explanation_ja":"誤り。問われているのは圧力の効果である。またNH₃合成は発熱反応なので温度を上げると平衡は左に移動し収率は下がる。"},
+      {"id":5,"text":"触媒を加えると正反応が促進されて平衡が右に移動し、平衡定数が変化する。","explanation_zh":"陷阱：催化剂加快正逆反应速率同等倍率，不改变平衡位置；平衡常数与温度有关，与催化剂无关。","explanation_ja":"誤り。触媒は正反応と逆反応の速度を同じ割合で速めるため平衡は移動せず、平衡定数も触媒では変化しない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "unit":"II 物質の状態と変化",
+      "sub_domain":"化学平衡",
+      "question_form":"知識選択",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["平衡移動方向混同"],
+      "keywords_to_avoid":["HI","H₂","I₂"],
+      "syllabus_path":{"area":"II 物質の状態と変化","field":"化学","item":"3. 物質の変化と平衡"}
+    }
+  },
+  {
+    "id": 11,
+    "global_id": 11,
+    "title": "問11",
+    "prompt": "アルカリ金属・アルカリ土類金属に関する記述として最も適当なものはどれか。",
+    "passage": null,
+    "choices": [
+      {"id":1,"text":"ナトリウム（Na）は水と激しく反応し、水素を発生させ、水酸化ナトリウムを生じる。","explanation_zh":"正确。Na + H₂O → NaOH + ½H₂ 是碱金属的典型反应，激烈放热，正确描述了钠与水的反应。","explanation_ja":"正解。\\\\ce{2Na + 2H2O -> 2NaOH + H2}はアルカリ金属の典型反応であり、Naは水と激しく反応してH₂を発生し、NaOHを生成する。"},
+      {"id":2,"text":"カリウム（K）は空気中で安定であり、保存に特別な処理は必要ない。","explanation_zh":"陷阱：钾在空气中容易被氧化甚至自燃，需保存在煤油中，绝非空气中稳定。","explanation_ja":"誤り。カリウムは空気中で速やかに酸化され、自然発火の危険性もあるため石油中に保存する必要がある。"},
+      {"id":3,"text":"マグネシウム（Mg）はアルカリ金属に分類され、1価の陽イオンになりやすい。","explanation_zh":"陷阱：Mg 是碱土金属（第2族），不是碱金属；Mg 形成2价阳离子Mg²⁺，不是1价。","explanation_ja":"誤り。マグネシウムはアルカリ土類金属（第2族）であり、アルカリ金属ではない。またMgは2価の陽イオン（Mg²⁺）を形成する。"},
+      {"id":4,"text":"カルシウム（Ca）は水と反応しない安定な金属である。","explanation_zh":"陷阱：Ca 与水反应生成Ca(OH)₂和H₂（比Na反应慢，但确实反应）。","explanation_ja":"誤り。カルシウムは水と反応して水酸化カルシウムと水素を生成する（\\\\ce{Ca + 2H2O -> Ca(OH)2 + H2}）。"},
+      {"id":5,"text":"リチウム（Li）はアルカリ金属の中で最も反応性が高く、水と最も激しく反応する。","explanation_zh":"陷阱：碱金属的反应活性从Li→Cs依次增强，Li的反应性最弱，与水反应最温和。","explanation_ja":"誤り。アルカリ金属の反応性はLi→Cs（周期表下方）の順に高くなる。Liは同族中最も穏やかに水と反応する。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "unit":"III 無機化学",
+      "sub_domain":"金属元素",
+      "question_form":"知識選択",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["性質の例外見落とし"],
+      "keywords_to_avoid":["H₂","金属","酸"],
+      "syllabus_path":{"area":"III 無機化学","field":"化学","item":"1. 無機物質"}
+    }
+  },
+  {
+    "id": 12,
+    "global_id": 12,
+    "title": "問12",
+    "prompt": "次の金属 a〜c と、その特徴的な性質 X〜Z の組合せとして最も適当なものはどれか。\n\na : 鉄（Fe）\nb : 銅（Cu）\nc : アルミニウム（Al）\n\nX : 希硫酸と反応して水素を発生する\nY : 湿った空気中で緑青（塩基性炭酸銅）を生じる\nZ : NaOH水溶液に溶ける両性金属である",
+    "passage": null,
+    "choices": [
+      {"id":1,"text":"a-Y、b-X、c-Z","explanation_zh":"陷阱：将 Fe 和 Cu 的特征对调。Fe 与稀硫酸反应放H₂（X），铜在潮湿空气中生铜绿（Y）。","explanation_ja":"誤り。FeとCuの特徴を入れ替えた組合せ。Feは希硫酸と反応してH₂を発生（X）、Cuは湿った空気中で緑青を生じる（Y）。"},
+      {"id":2,"text":"a-Z、b-Y、c-X","explanation_zh":"陷阱：将 Fe 和 Al 的特征对调。Al 是两性金属（Z），Fe 与稀硫酸反应（X）。","explanation_ja":"誤り。FeとAlの特徴を入れ替えた組合せ。AlはNaOH水溶液に溶ける両性金属（Z）、Feは希硫酸でH₂発生（X）。"},
+      {"id":3,"text":"a-X、b-Z、c-Y","explanation_zh":"陷阱：将 Cu 和 Al 的特征对调。Cu 生铜绿（Y），Al 溶于NaOH（Z）。","explanation_ja":"誤り。CuとAlの特徴を入れ替えた組合せ。Cuは緑青（Y）、AlはNaOH水溶液に溶ける（Z）が正しい。"},
+      {"id":4,"text":"a-Y、b-Z、c-X","explanation_zh":"陷阱：三者全错位对应。Fe与稀硫酸反应（X），Cu生铜绿（Y），Al溶于NaOH（Z）。","explanation_ja":"誤り。3つの対応がすべて誤っている。正しくはFe（X）、Cu（Y）、Al（Z）である。"},
+      {"id":5,"text":"a-X、b-Y、c-Z","explanation_zh":"正确。Fe（a）与稀硫酸反应生成H₂（X）；Cu（b）在潮湿空气中生铜绿（Y）；Al（c）是两性金属，溶于NaOH水溶液（Z）。","explanation_ja":"正解。Fe（a）は希硫酸と反応してH₂を発生（X）、Cu（b）は湿った空気中で緑青を生じ（Y）、Al（c）はNaOH水溶液に溶ける両性金属（Z）。"},
+      {"id":6,"text":"a-Z、b-X、c-Y","explanation_zh":"陷阱：三者全错位对应，且Fe不溶于NaOH，Cu不与稀硫酸放H₂，Al不产生铜绿。","explanation_ja":"誤り。3つの対応がすべて誤り。FeはNaOH水溶液に溶けず、Cuは希硫酸でH₂を発生せず、AlはCuの特徴である緑青を生じない。"}
+    ],
+    "answer": 5,
+    "tag": {
+      "unit":"III 無機化学",
+      "sub_domain":"金属元素",
+      "question_form":"組合せ",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["反応条件見落とし"],
+      "keywords_to_avoid":["Li","Ag","Pt"],
+      "syllabus_path":{"area":"III 無機化学","field":"化学","item":"1. 無機物質"}
+    }
+  },
+  {
+    "id": 13,
+    "global_id": 13,
+    "title": "問13",
+    "prompt": "次の物質 a〜c と、ブレンステッド・ローリーの定義における役割 X〜Z の組合せとして最も適当なものはどれか。\n\na : 塩化水素（\\\\ce{HCl}）\nb : 水（\\\\ce{H2O}）\nc : アンモニア（\\\\ce{NH3}）\n\nX : プロトン（\\\\ce{H+}）を与える酸として常に働く\nY : 相手によって酸にも塩基にもなる両性物質\nZ : プロトン（\\\\ce{H+}）を受け取る塩基として働く",
+    "passage": null,
+    "choices": [
+      {"id":1,"text":"\\\\ce{HCl}-Y、\\\\ce{H2O}-X、\\\\ce{NH3}-Z","explanation_zh":"陷阱：HCl 始终是酸（不是两性）；H₂O 是两性（Y），不仅是酸（X）。","explanation_ja":"誤り。HClは常に酸（X）であり両性（Y）ではない。H₂Oは両性物質（Y）であり酸のみ（X）ではない。"},
+      {"id":2,"text":"\\\\ce{HCl}-Z、\\\\ce{H2O}-Y、\\\\ce{NH3}-X","explanation_zh":"陷阱：HCl 给出质子（X），不接受质子（Z）；NH₃ 接受质子（Z），不是酸（X）。","explanation_ja":"誤り。HClはプロトンを与える酸（X）であり塩基（Z）ではない。NH₃は塩基（Z）であり酸（X）ではない。"},
+      {"id":3,"text":"\\\\ce{HCl}-X、\\\\ce{H2O}-Z、\\\\ce{NH3}-Y","explanation_zh":"陷阱：H₂O 是两性（Y），NH₃ 接受质子（Z），两者对调了。","explanation_ja":"誤り。H₂Oは両性物質（Y）であり、NH₃はプロトンを受け取る塩基（Z）である。この選択肢は両者を入れ替えている。"},
+      {"id":4,"text":"\\\\ce{HCl}-Y、\\\\ce{H2O}-Z、\\\\ce{NH3}-X","explanation_zh":"陷阱：三者全错。HCl是酸（X），H₂O是两性（Y），NH₃是碱（Z）。","explanation_ja":"誤り。3つとも誤り。HClは酸（X）、H₂Oは両性（Y）、NH₃は塩基（Z）が正しい。"},
+      {"id":5,"text":"\\\\ce{HCl}-X、\\\\ce{H2O}-Y、\\\\ce{NH3}-Z","explanation_zh":"正确。HCl（a）始终给出质子，是酸（X）；H₂O（b）与酸作碱、与碱作酸，是两性（Y）；NH₃（c）接受质子，是碱（Z）。","explanation_ja":"正解。HCl（a）は常にプロトンを与える酸（X）、H₂O（b）は酸とも塩基とも反応する両性物質（Y）、NH₃（c）はプロトンを受け取る塩基（Z）。"},
+      {"id":6,"text":"\\\\ce{HCl}-Z、\\\\ce{H2O}-X、\\\\ce{NH3}-Y","explanation_zh":"陷阱：三者全错。正确对应：HCl→X，H₂O→Y，NH₃→Z。","explanation_ja":"誤り。すべての対応が誤っている。正しくはHCl（X）、H₂O（Y）、NH₃（Z）である。"}
+    ],
+    "answer": 5,
+    "tag": {
+      "unit":"II 物質の状態と変化",
+      "sub_domain":"酸・塩基",
+      "question_form":"組合せ",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["反応条件見落とし"],
+      "keywords_to_avoid":["水","Brønsted","酸"],
+      "syllabus_path":{"area":"II 物質の状態と変化","field":"化学","item":"1. 物質の変化"}
+    }
+  },
+  {
+    "id": 14,
+    "global_id": 14,
+    "title": "問14",
+    "prompt": "ハロゲン（17族元素）の性質に関する記述として最も適当なものはどれか。",
+    "passage": null,
+    "choices": [
+      {"id":1,"text":"フッ素（\\\\ce{F2}）は最も酸化力が強く、冷水とも激しく反応して\\\\ce{HF}と\\\\ce{O2}を生じる。","explanation_zh":"正确。F₂是氧化性最强的卤素，与冷水反应剧烈：2F₂+2H₂O→4HF+O₂。","explanation_ja":"正解。F₂はハロゲンの中で最も酸化力が強く、冷水とも激しく反応する（\\\\ce{2F2 + 2H2O -> 4HF + O2}）。"},
+      {"id":2,"text":"塩素（\\\\ce{Cl2}）はヨウ素（\\\\ce{I2}）よりも酸化力が弱い。","explanation_zh":"陷阱：卤素的氧化性从F₂→I₂依次减弱，Cl₂的氧化性强于I₂（Cl₂可将I⁻氧化为I₂）。","explanation_ja":"誤り。ハロゲンの酸化力はF₂>Cl₂>Br₂>I₂の順に弱くなる。Cl₂はI₂よりも酸化力が強い。"},
+      {"id":3,"text":"ヨウ素（\\\\ce{I2}）は水に非常に溶けやすく、水溶液は褐色を示す。","explanation_zh":"陷阱：I₂几乎不溶于水，碘溶于KI水溶液（生成I₃⁻）才显褐色；'水非常容易溶解'是错的。","explanation_ja":"誤り。I₂は水にはほとんど溶けない。KI水溶液にはI₃⁻として溶解し褐色を呈するが、「水に非常に溶けやすい」は誤りである。"},
+      {"id":4,"text":"フッ化水素酸（HF水溶液）は強酸であり、ガラスを腐食しない。","explanation_zh":"陷阱：HF是弱酸（不完全电离）；HF水溶液会腐蚀玻璃（与SiO₂反应）。两点均错。","explanation_ja":"誤り。フッ化水素酸は弱酸であり、ガラス（\\\\ce{SiO2}）と反応してガラスを腐食する（\\\\ce{SiO2 + 4HF -> SiF4 + 2H2O}）。"},
+      {"id":5,"text":"臭素（\\\\ce{Br2}）は常温で固体であり、昇華しやすい。","explanation_zh":"陷阱：Br₂在常温下是液态（唯一常温液态非金属单质），不是固体；固态且易升华的是I₂。","explanation_ja":"誤り。臭素は常温で液体（非金属単体で常温液体はBr₂のみ）。固体で昇華しやすいのはヨウ素（I₂）である。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "unit":"III 無機化学",
+      "sub_domain":"非金属元素",
+      "question_form":"知識選択",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["性質の例外見落とし"],
+      "keywords_to_avoid":["SO₂","酸化","漂白"],
+      "syllabus_path":{"area":"III 無機化学","field":"化学","item":"1. 無機物質"}
+    }
+  },
+  {
+    "id": 15,
+    "global_id": 15,
+    "title": "問15",
+    "prompt": "金属の性質に関する記述として最も適当なものはどれか。",
+    "passage": null,
+    "choices": [
+      {"id":1,"text":"亜鉛（Zn）は希硫酸と反応しないが、NaOH水溶液には溶ける。","explanation_zh":"陷阱：Zn 既与稀硫酸反应（放H₂）也溶于NaOH（两性金属），\"不与稀硫酸反应\"是错的。","explanation_ja":"誤り。亜鉛は希硫酸と反応してH₂を発生し（\\\\ce{Zn + H2SO4 -> ZnSO4 + H2}）、NaOH水溶液にも溶ける両性金属である。"},
+      {"id":2,"text":"鉄（Fe）は濃硝酸や濃硫酸と激しく反応する。","explanation_zh":"陷阱：Fe 在冷浓硝酸/浓硫酸中钝化（形成氧化膜），不是激烈反应。","explanation_ja":"誤り。鉄は冷濃硝酸・冷濃硫酸中で不動態（パッシベーション）を形成し、反応しなくなる。"},
+      {"id":3,"text":"銅（Cu）は希塩酸と反応して水素を発生する。","explanation_zh":"陷阱：Cu 不与稀盐酸（或稀硫酸）反应，因铜的氧化还原电位高于H₂/H⁺。","explanation_ja":"誤り。銅はイオン化傾向が水素よりも小さいため、希塩酸とは反応しない。"},
+      {"id":4,"text":"アルミニウム（Al）はすべての酸・塩基水溶液に溶けない安定な金属である。","explanation_zh":"陷阱：Al 是典型两性金属，既溶于稀盐酸也溶于NaOH水溶液。","explanation_ja":"誤り。アルミニウムは典型的な両性金属であり、希塩酸にも水酸化ナトリウム水溶液にも溶ける。"},
+      {"id":5,"text":"銅（Cu）は希硝酸と反応して一酸化窒素（NO）を生じる。","explanation_zh":"正确。Cu与稀硝酸反应：3Cu + 8HNO₃(稀) → 3Cu(NO₃)₂ + 2NO↑ + 4H₂O。产生无色NO气体。","explanation_ja":"正解。銅は希硝酸と反応してNOを生じる（\\\\ce{3Cu + 8HNO3(希) -> 3Cu(NO3)2 + 2NO^ + 4H2O}）。"},
+      {"id":6,"text":"鉄（Fe）を水酸化ナトリウム水溶液に加えると、完全に溶解する。","explanation_zh":"陷阱：Fe 不是两性金属，不溶于NaOH水溶液。只有Al、Zn等才溶于NaOH溶液。","explanation_ja":"誤り。鉄は両性金属ではなく、水酸化ナトリウム水溶液には溶けない。NaOH水溶液に溶けるのはAlやZnなどの両性金属である。"}
+    ],
+    "answer": 5,
+    "tag": {
+      "unit":"III 無機化学",
+      "sub_domain":"金属元素",
+      "question_form":"知識選択",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["性質の例外見落とし"],
+      "keywords_to_avoid":["Zn²⁺","Al³⁺","沈殿"],
+      "syllabus_path":{"area":"III 無機化学","field":"化学","item":"1. 無機物質"}
+    }
+  },
+  {
+    "id": 16,
+    "global_id": 16,
+    "title": "問16",
+    "prompt": "有機化合物の性質と反応に関する記述として最も適当なものはどれか。",
+    "passage": null,
+    "choices": [
+      {"id":1,"text":"エタノール（\\\\ce{CH3CH2OH}）は水に溶けず、有機溶媒にのみ溶ける。","explanation_zh":"陷阱：乙醇与水任意比互溶（-OH基可与水形成氢键），不是不溶于水。","explanation_ja":"誤り。エタノールは水と任意の割合で混合し（-OH基による水素結合）、水にも有機溶媒にもよく溶ける。"},
+      {"id":2,"text":"酢酸（\\\\ce{CH3COOH}）は水溶液中で完全に電離している。","explanation_zh":"陷阱：醋酸是弱酸，只部分电离（电离度约1%），不是完全电离。","explanation_ja":"誤り。酢酸は弱酸であり、水溶液中で一部しか電離しない（電離度は約1%）。"},
+      {"id":3,"text":"メタノール（\\\\ce{CH3OH}）はヨードホルム反応に陽性を示す。","explanation_zh":"陷阱：碘仿反应阳性需含CH₃CH(OH)-或CH₃CO-结构，甲醇无此结构，呈阴性；乙醇呈阳性。","explanation_ja":"誤り。ヨードホルム反応が陽性となるのはCH₃CH(OH)-またはCH₃CO-構造をもつ物質（エタノールなど）。メタノールは陰性を示す。"},
+      {"id":4,"text":"エステルは、カルボン酸とアルコールが脱水縮合して生成し、酸や塩基により加水分解できる。","explanation_zh":"正确。酯化：RCOOH + HOR' → RCOOR' + H₂O。酯在酸或碱（皂化）催化下可水解。","explanation_ja":"正解。エステルはカルボン酸とアルコールの脱水縮合で生成し（エステル化）、酸または塩基（けん化）の存在下で加水分解される。"},
+      {"id":5,"text":"アルデヒドは酸化されてアルコールになる。","explanation_zh":"陷阱：醛被氧化生成羧酸（RCHO→RCOOH），不是醇；醛被还原才得到醇（RCHO→RCH₂OH）。","explanation_ja":"誤り。アルデヒドが酸化されるとカルボン酸（\\\\ce{RCHO -> RCOOH}）になる。還元するとアルコールになる。"},
+      {"id":6,"text":"フェノール（\\\\ce{C6H5OH}）は中性物質であり、水酸化ナトリウムとは反応しない。","explanation_zh":"陷阱：苯酚具有弱酸性，能与NaOH反应生成苯酚钠（C₆H₅ONa）和H₂O，不是中性物质。","explanation_ja":"誤り。フェノールは弱い酸性を示しNaOH水溶液と反応する（\\\\ce{C6H5OH + NaOH -> C6H5ONa + H2O}）。「中性物質」という表現は誤りである。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "unit":"IV 有機化学",
+      "sub_domain":"有機化合物の構造決定",
+      "question_form":"知識選択",
+      "required_skill":"構造推定",
+      "requires_image":false,
+      "trap_patterns":["構造異性体混同"],
+      "keywords_to_avoid":["C₃H₅Br","不斉炭素","二重結合"],
+      "syllabus_path":{"area":"IV 有機化学","field":"化学","item":"1. 有機化合物の性質と反応"}
+    }
+  },
+  {
+    "id": 17,
+    "global_id": 17,
+    "title": "問17",
+    "prompt": "アルケンに関する記述として最も適当なものはどれか。",
+    "passage": null,
+    "choices": [
+      {"id":1,"text":"アルケンは炭素間に三重結合をもち、一般式 CₙH₂ₙ₋₂ で表される。","explanation_zh":"陷阱：含三重键的是炔烃（CₙH₂ₙ₋₂）；烯烃含碳碳双键，通式CₙH₂ₙ。","explanation_ja":"誤り。三重結合をもつのはアルキン（一般式CₙH₂ₙ₋₂）である。アルケンは二重結合をもち、一般式CₙH₂ₙで表される。"},
+      {"id":2,"text":"エチレン（\\\\ce{CH2=CH2}）は臭素水を脱色し、付加反応が起こる。","explanation_zh":"正确。乙烯与溴水发生加成反应：CH₂=CH₂ + Br₂ → CH₂BrCH₂Br，溴水红棕色褪去，是烯烃的特征反应。","explanation_ja":"正解。エチレンは臭素水と付加反応を起こし（\\\\ce{CH2=CH2 + Br2 -> CH2BrCH2Br}）、臭素水の赤褐色が脱色される。"},
+      {"id":3,"text":"アルケンは水素と反応（水素化）すると、より不安定な化合物になる。","explanation_zh":"陷阱：烯烃与H₂加成生成烷烃，烷烃比烯烃更稳定（双键打开能量降低），不是'更不安定'。","explanation_ja":"誤り。アルケンに水素を付加するとアルカンが生成する。アルカンはアルケンより安定であり「より不安定」という記述は誤りである。"},
+      {"id":4,"text":"プロペン（\\\\ce{CH3CH=CH2}）は置換反応のみを起こし、Br₂との付加反応は起こらない。","explanation_zh":"陷阱：丙烯可以与Br₂发生加成反应（付加反応）：CH₃CH=CH₂ + Br₂ → CH₃CHBrCH₂Br。","explanation_ja":"誤り。プロペンはBr₂と付加反応を起こす（\\\\ce{CH3CH=CH2 + Br2 -> CH3CHBrCH2Br}）。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "unit":"IV 有機化学",
+      "sub_domain":"炭化水素",
+      "question_form":"知識選択",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["反応条件見落とし"],
+      "keywords_to_avoid":["エチレン","臭素水","ポリエチレン"],
+      "syllabus_path":{"area":"IV 有機化学","field":"化学","item":"1. 有機化合物の性質と反応"}
+    }
+  },
+  {
+    "id": 18,
+    "global_id": 18,
+    "title": "問18",
+    "prompt": "ベンゼン混合物から以下の操作 X〜Z で成分を分離した。\n物質 a〜c と操作 X〜Z の組合せとして最も適当なものはどれか。\n\na : アニリン（\\\\ce{C6H5NH2}）\nb : 安息香酸（\\\\ce{C6H5COOH}）\nc : ニトロベンゼン（\\\\ce{C6H5NO2}）\n\nX : 希塩酸（HCl水溶液）を加えると水層に移行する\nY : 炭酸水素ナトリウム（\\\\ce{NaHCO3}）水溶液を加えると\\\\ce{CO2}を発生して水層に移行する\nZ : 希塩酸にも希NaOH水溶液にも溶けず、有機層に残る",
+    "passage": "【分離の根拠】\nアニリン（塩基性）：HCl水溶液中で C₆H₅NH₂+HCl→C₆H₅NH₃Cl（水溶性の塩）→ X\n安息香酸（弱酸・NaHCO₃と反応可）：NaHCO₃+C₆H₅COOH→C₆H₅COONa+H₂O+CO₂ → Y\nニトロベンゼン（中性）：酸にも塩基にも反応せず有機層に残る → Z",
+    "choices": [
+      {"id":1,"text":"a-Y、b-X、c-Z","explanation_zh":"陷阱：将苯胺（碱性→X）和苯甲酸（酸性→Y）的操作对调。","explanation_ja":"誤り。アニリン（塩基性→X）と安息香酸（酸性→Y）の対応を入れ替えた誤答。"},
+      {"id":2,"text":"a-Z、b-Y、c-X","explanation_zh":"陷阱：苯胺是碱性（X），不是中性留有机层（Z）；硝基苯才是中性留有机层（Z）。","explanation_ja":"誤り。アニリンは塩基性なのでHCl水溶液で水層へ移行（X）し、有機層に残る（Z）のはニトロベンゼンである。"},
+      {"id":3,"text":"a-X、b-Z、c-Y","explanation_zh":"陷阱：苯甲酸（酸性→Y），不是中性留有机层（Z）；硝基苯（中性→Z），不与NaHCO₃反应。","explanation_ja":"誤り。安息香酸はNaHCO₃でCO₂を発生し水層へ（Y）し、有機層に残る（Z）のはニトロベンゼンである。"},
+      {"id":4,"text":"a-X、b-Y、c-Z","explanation_zh":"正确。苯胺（a，碱性）加HCl形成盐移入水层（X）；苯甲酸（b，弱酸）加NaHCO₃放CO₂移入水层（Y）；硝基苯（c，中性）留在有机层（Z）。","explanation_ja":"正解。アニリン（a）はHCl水溶液で塩として水層へ（X）、安息香酸（b）はNaHCO₃でCO₂発生して水層へ（Y）、ニトロベンゼン（c）は中性なので有機層に残る（Z）。"},
+      {"id":5,"text":"a-Y、b-Z、c-X","explanation_zh":"陷阱：三者全错。苯胺→X，苯甲酸→Y，苯→Z。","explanation_ja":"誤り。アニリン（X）、安息香酸（Y）、ニトロベンゼン（Z）が正しく、この選択肢は3つとも誤りである。"},
+      {"id":6,"text":"a-Z、b-X、c-Y","explanation_zh":"陷阱：三者全错。苯胺不是中性（Z），苯甲酸不是加HCl移行水层（X）。","explanation_ja":"誤り。アニリンは中性でなく塩基性（X）、安息香酸はHClでなくNaHCO₃で水層へ（Y）、ニトロベンゼンは有機層残留（Z）が正しい。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "unit":"IV 有機化学",
+      "sub_domain":"有機化合物の構造決定",
+      "question_form":"組合せ",
+      "required_skill":"実験条件判断",
+      "requires_image":false,
+      "trap_patterns":["分離操作混同"],
+      "keywords_to_avoid":["ニトロベンゼン","安息香酸","アニリン"],
+      "syllabus_path":{"area":"IV 有機化学","field":"化学","item":"1. 有機化合物の性質と反応"}
+    }
+  },
+  {
+    "id": 19,
+    "global_id": 19,
+    "title": "問19",
+    "prompt": "プロパン（\\\\ce{C3H8}）2.20 g を完全燃焼させたとき、生成する二酸化炭素の質量として最も適当なものはどれか。\nC=12、O=16、H=1 とする。\n\n燃焼式：\\\\ce{C3H8 + 5O2 -> 3CO2 + 4H2O}",
+    "passage": null,
+    "choices": [
+      {"id":1,"text":"2.20 g","explanation_zh":"陷阱：将丙烷质量直接等同于CO₂质量，未进行任何换算。正确：m(CO₂)=6.60 g。","explanation_ja":"誤り。プロパンの質量をそのままCO₂の質量とした誤答。正しくはm(CO₂)=6.60 gとなる。"},
+      {"id":2,"text":"4.40 g","explanation_zh":"陷阱：C₃H₈:CO₂比误取1:1，n(CO₂)=0.0500mol，m=0.0500×44=2.20g；或其他路径得4.40g。","explanation_ja":"誤り。反応比をC₃H₈:CO₂=1:1と誤認した場合などの誤答。正しい比は1:3でm=6.60 gとなる。"},
+      {"id":3,"text":"5.28 g","explanation_zh":"陷阱：CO₂摩尔质量计算错误或比例取1:2，得m=5.28g。正确m=6.60g。","explanation_ja":"誤り。CO₂のモル質量または反応比の計算を誤った場合の誤答。正しくはm=6.60 gである。"},
+      {"id":4,"text":"6.60 g","explanation_zh":"正确。n(C₃H₈)=2.20÷44=0.0500mol。C₃H₈:CO₂=1:3，故n(CO₂)=0.0500×3=0.150mol。m=0.150×44=6.60g。","explanation_ja":"正解。n(C₃H₈)=2.20÷44=0.0500 mol。燃焼式よりC₃H₈:CO₂=1:3なのでn(CO₂)=0.150 mol。m(CO₂)=0.150×44=6.60 g。"},
+      {"id":5,"text":"13.2 g","explanation_zh":"陷阱：比例误取1:6，n(CO₂)=0.300mol，m=13.2g。正确比为1:3。","explanation_ja":"誤り。反応比をC₃H₈:CO₂=1:6と誤認した場合の誤答。正しい比は1:3でm=6.60 gとなる。"},
+      {"id":6,"text":"3.30 g","explanation_zh":"陷阱：CO₂摩尔质量误取22 g/mol（与气体摩尔体积22.4L混淆），m=0.150×22=3.30g。","explanation_ja":"誤り。CO₂のモル質量を22 g/mol（気体のモル体積と混同）と誤って計算した場合の誤答。正しくはCO₂=44 g/molでm=6.60 gとなる。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "unit":"IV 有機化学",
+      "sub_domain":"炭化水素",
+      "question_form":"計算選択",
+      "required_skill":"構造推定",
+      "requires_image":false,
+      "trap_patterns":["構造異性体混同"],
+      "keywords_to_avoid":["環式","水素付加","臭素付加"],
+      "syllabus_path":{"area":"IV 有機化学","field":"化学","item":"1. 有機化合物の性質と反応"}
+    }
+  },
+  {
+    "id": 20,
+    "global_id": 20,
+    "title": "問20",
+    "prompt": "次の高分子化合物 a〜c と、その製造方法・特徴的な結合 X〜Z の組合せとして最も適当なものはどれか。\n\na : ポリエチレン（PE）\nb : ナイロン66\nc : ポリエチレンテレフタレート（PET）\n\nX : エチレンの付加重合により製造され、C−C単結合のみの主鎖をもつ\nY : アジピン酸とヘキサメチレンジアミンの縮合重合で製造され、アミド結合（−CO−NH−）をもつ\nZ : テレフタル酸とエチレングリコールの縮合重合で製造され、エステル結合（−CO−O−）をもつ",
+    "passage": null,
+    "choices": [
+      {"id":1,"text":"a-Y、b-X、c-Z","explanation_zh":"陷阱：将 PE 和 尼龙66 的特征对调。PE是加聚（X），尼龙66是缩聚含酰胺键（Y）。","explanation_ja":"誤り。PEとナイロン66の特徴を入れ替えた組合せ。PEは付加重合（X）、ナイロン66はアミド結合の縮合重合（Y）が正しい。"},
+      {"id":2,"text":"a-X、b-Y、c-Z","explanation_zh":"正确。PE（a）乙烯加聚，只有C-C主链（X）；尼龙66（b）酰胺键缩聚（Y）；PET（c）酯键缩聚（Z）。","explanation_ja":"正解。PE（a）はエチレンの付加重合でC-C主鎖のみ（X）、ナイロン66（b）はアミド結合の縮合重合（Y）、PET（c）はエステル結合の縮合重合（Z）。"},
+      {"id":3,"text":"a-Z、b-Y、c-X","explanation_zh":"陷阱：将 PE 和 PET 的特征对调。PE是加聚（X），PET是酯键缩聚（Z）。","explanation_ja":"誤り。PEとPETの特徴を入れ替えた組合せ。PEは付加重合（X）、PETはエステル結合の縮合重合（Z）が正しい。"},
+      {"id":4,"text":"a-X、b-Z、c-Y","explanation_zh":"陷阱：将 尼龙66 和 PET 的特征对调。尼龙66含酰胺键（Y），PET含酯键（Z）。","explanation_ja":"誤り。ナイロン66とPETの特徴を入れ替えた組合せ。ナイロン66はアミド結合（Y）、PETはエステル結合（Z）が正しい。"},
+      {"id":5,"text":"a-Y、b-Z、c-X","explanation_zh":"陷阱：三者全错。PE加聚（X），尼龙66酰胺键缩聚（Y），PET酯键缩聚（Z）。","explanation_ja":"誤り。3つの対応がすべて誤っている。正しくはPE（X）、ナイロン66（Y）、PET（Z）である。"},
+      {"id":6,"text":"a-Z、b-X、c-Y","explanation_zh":"陷阱：三者全错，且PE绝无酯键（Z），尼龙66不是加聚（X），PET绝无酰胺键（Y）。","explanation_ja":"誤り。すべての対応が誤っている。PE（X）、ナイロン66（Y）、PET（Z）が正しい組合せである。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "unit":"IV 有機化学",
+      "sub_domain":"高分子・生活化学",
+      "question_form":"組合せ",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["重合形式混同"],
+      "keywords_to_avoid":["フェノール樹脂","ビニロン","ホルムアルデヒド"],
+      "syllabus_path":{"area":"IV 有機化学","field":"化学","item":"2. 有機化合物と人間生活"}
+    }
+  }
+]
+}

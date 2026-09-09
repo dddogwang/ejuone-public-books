@@ -1,0 +1,1269 @@
+{
+  "subject": "comprehensive",
+  "section": "",
+  "year": 2009,
+  "round": 1,
+  "title": "総合科目問題集 第三回",
+  "image_path": "comprehensive/images/2009-1",
+  "questions": [
+    {
+      "id": 1,
+      "title": "問1",
+      "prompt": "次の文章を読み，下の問い(1)〜(4)に答えなさい。",
+      "passage": "二十世紀初頭，北米の連邦国家で長期にわたり行政府の長を務めたある政治家は，国内では巨大化した独占的企業の悪影響を抑える法律を活用し，鉄道・金融・石油など複数の産業で大企業の分割や規制を進めた。対外的には，米州地域における連邦の影響力拡大と東アジアにおける国際秩序への関与を重視し，東アジアで起こった二大強国間の戦争において講和の仲介役を務めた。彼は，戦勝の側にも譲歩を求める難しい調停を成し遂げ，この功績によって国際的に大きな評価を受けた。さらに，中米地峡における国際運河建設の権益確保を強硬に推進し，自国に有利な条約締結のために旧支配国からの新国家の独立を後押しした。彼の外交姿勢は，米州地域諸国に対し連邦が秩序維持の責任を負うと宣言した強い介入主義として現れた。",
+      "sub_questions": [
+        {
+          "sub_id": 1,
+          "global_id": 1,
+          "prompt": "本文で述べられる政治家の対外政策に関する記述として最も適当なものはどれですか。",
+          "choices": [
+            {"id": 1, "text": "東アジアで起こった大国間の戦争で講和の仲介役を務めた", "explanation_zh": "正确。文章说明其在东亚担任讲和调停角色，与本项一致。", "explanation_ja": "正解。本文の「東アジアで起こった二大強国間の戦争において講和の仲介役を務めた」と一致する。"},
+            {"id": 2, "text": "ヨーロッパ大戦の終結後に戦間期国際機構の創設を主導した", "explanation_zh": "陷阱：时态错位。该政治家活动期早于一战国际联盟成立。", "explanation_ja": "誤り。時態錯位の罠。国際連盟創設の主導者は別の政治家である。"},
+            {"id": 3, "text": "米州地域で常に他国の主権を尊重し一切干渉しなかった", "explanation_zh": "陷阱：主体错位。本文为强力干涉主义,非完全不干涉。", "explanation_ja": "誤り。主体取違の罠。本文は介入主義を示している。"},
+            {"id": 4, "text": "対外戦争において全ての交戦国に等しく敗北を宣告した", "explanation_zh": "陷阱：概念混淆。本文为讲和仲介,非宣告败北。", "explanation_ja": "誤り。概念混同の罠。本文の役割は講和の仲介である。"}
+          ],
+          "answer": 1,
+          "tag": {
+            "question_form": "事実選択",
+            "statement_polarity": "正答正記述",
+            "trap_patterns": ["主体取違", "時態錯位", "概念混同"],
+            "keywords_to_avoid": ["ウッドロー・ウィルソン", "国際連盟", "ノーベル平和賞"],
+            "sub_domain": "近代日本"
+          },
+          "sources": [
+            {
+              "claim": "League of Nations and antitrust/Monroe Doctrine concepts are major modern history and politics facts.",
+              "source": "Encyclopaedia Britannica, League of Nations / Monroe Doctrine",
+              "year": "2024",
+              "url": "https://www.britannica.com/topic/League-of-Nations"
+            }
+          ]
+        },
+        {
+          "sub_id": 2,
+          "global_id": 2,
+          "prompt": "本文で述べられる中米地峡における運河建設に関する記述として最も適当なものはどれですか。",
+          "choices": [
+            {"id": 1, "text": "連邦は中米地峡で旧支配国を支持しその独立運動を抑制した", "explanation_zh": "陷阱：主体错位。本文恰相反,连邦后援新国家从旧支配国独立。", "explanation_ja": "誤り。主体取違の罠。本文は新国家の独立を後押ししたと述べる。"},
+            {"id": 2, "text": "運河建設は計画されたが結局実現に至らなかった", "explanation_zh": "陷阱：时态错位。本文为推进运河建设的权益确保，已实现。", "explanation_ja": "誤り。時態錯位の罠。本文は建設の権益確保が推進された経緯を示す。"},
+            {"id": 3, "text": "中米地峡の運河建設は最初から先住民の自治によって行われた", "explanation_zh": "陷阱：地域错位。本文为联邦推动建设权益,非原住民自治。", "explanation_ja": "誤り。地域取違の罠。本文は連邦の推進を示している。"},
+            {"id": 4, "text": "中米地峡の国際運河建設のため新国家の独立を後押しし有利な条約を結んだ", "explanation_zh": "正确。本文明确指出后援独立、缔结有利条约。", "explanation_ja": "正解。本文の「旧支配国からの新国家の独立を後押し」「自国に有利な条約締結」と一致する。"}
+          ],
+          "answer": 4,
+          "tag": {
+            "question_form": "事実選択",
+            "statement_polarity": "正答正記述",
+            "trap_patterns": ["主体取違", "地域取違", "時態錯位"],
+            "keywords_to_avoid": ["マッキンリー", "米西戦争", "スペイン", "プエルトリコ"],
+            "sub_domain": "近代日本"
+          },
+          "sources": [
+            {
+              "claim": "League of Nations and antitrust/Monroe Doctrine concepts are major modern history and politics facts.",
+              "source": "Encyclopaedia Britannica, League of Nations / Monroe Doctrine",
+              "year": "2024",
+              "url": "https://www.britannica.com/topic/League-of-Nations"
+            }
+          ]
+        },
+        {
+          "sub_id": 3,
+          "global_id": 3,
+          "prompt": "本文で述べられる国内政策における市場支配企業対策に関する記述として最も適当なものはどれですか。",
+          "choices": [
+            {"id": 1, "text": "市場支配企業の悪影響を抑える法律を一切利用しなかった", "explanation_zh": "陷阱：主体错位。本文为积极利用反垄断法,非不使用。", "explanation_ja": "誤り。主体取違の罠。本文は法律の積極的活用を述べる。"},
+            {"id": 2, "text": "規制対象は鉄道のみで他の産業には介入しなかった", "explanation_zh": "陷阱：范围扩大。本文涉鉄道金融石油等多产业，非仅铁道。", "explanation_ja": "誤り。範囲拡大の罠。本文は複数産業の規制を述べる。"},
+            {"id": 3, "text": "独占的企業の悪影響を抑える法律を活用し複数産業で企業分割や規制を進めた", "explanation_zh": "正确。文章说明运用法律抑制市场支配企业的恶劣影响，与本项一致。", "explanation_ja": "正解。本文の「独占的企業の弊害を抑える法律を活用し，鉄道・金融・石油など複数の産業で大企業の分割や規制を進めた」と一致する。"},
+            {"id": 4, "text": "市場支配企業の経営者を全員追放した", "explanation_zh": "陷阱：概念混淆。本文为分割与规制，非全员追放。", "explanation_ja": "誤り。概念混同の罠。本文は分割や規制であり追放ではない。"}
+          ],
+          "answer": 3,
+          "tag": {
+            "question_form": "事実選択",
+            "statement_polarity": "正答正記述",
+            "trap_patterns": ["範囲拡大", "主体取違", "概念混同"],
+            "keywords_to_avoid": ["反トラスト法", "独占企業", "弊害", "市場原理"],
+            "sub_domain": "近代日本",
+            "syllabus_path": {"area": "I 政治・経済・社会", "field": "現代の政治", "item": "5. 国際政治"}
+          },
+          "sources": [
+            {
+              "claim": "League of Nations and antitrust/Monroe Doctrine concepts are major modern history and politics facts.",
+              "source": "Encyclopaedia Britannica, League of Nations / Monroe Doctrine",
+              "year": "2024",
+              "url": "https://www.britannica.com/topic/League-of-Nations"
+            }
+          ]
+        },
+        {
+          "sub_id": 4,
+          "global_id": 4,
+          "prompt": "本文で述べられる米州地域に対する外交姿勢に関する記述として最も適当なものはどれですか。",
+          "choices": [
+            {"id": 1, "text": "米州地域諸国に対し連邦は一切の責任を負わないと宣言した", "explanation_zh": "陷阱：概念混淆。本文为强力承担秩序维持责任,与之相反。", "explanation_ja": "誤り。概念混同の罠。本文は秩序維持の責任を負うとの宣言を示す。"},
+            {"id": 2, "text": "米州地域諸国に対し連邦が秩序維持の責任を負うと宣言する強い介入主義を取った", "explanation_zh": "正确。文章说明宣称负有维持秩序责任的强干预主义，与本项一致。", "explanation_ja": "正解。本文の「西半球諸国に対し連邦が秩序維持の責任を負うと宣言した強い介入主義」と一致する。"},
+            {"id": 3, "text": "東欧諸国に対する積極的軍事介入を行った", "explanation_zh": "陷阱：主体错位。本文为西半球政策,非东欧军事介入。", "explanation_ja": "誤り。主体取違の罠。本文は西半球を対象とする。"},
+            {"id": 4, "text": "対外政策はもっぱら国際機関の決議に従って行われた", "explanation_zh": "陷阱：时态错位。该时期无国际机关决议主导外交,该政策为单独连邦主张。", "explanation_ja": "誤り。時態錯位の罠。当時の連邦の対外政策は国際機関の決議に従ったものではない。"}
+          ],
+          "answer": 2,
+          "tag": {
+            "question_form": "事実選択",
+            "statement_polarity": "正答正記述",
+            "trap_patterns": ["概念混同", "主体取違", "時態錯位"],
+            "keywords_to_avoid": ["棍棒外交", "西半球", "相互不介入", "モンロー宣言"],
+            "sub_domain": "近代日本"
+          },
+          "sources": [
+            {
+              "claim": "League of Nations and antitrust/Monroe Doctrine concepts are major modern history and politics facts.",
+              "source": "Encyclopaedia Britannica, League of Nations / Monroe Doctrine",
+              "year": "2024",
+              "url": "https://www.britannica.com/topic/League-of-Nations"
+            }
+          ]
+        }
+      ],
+      "tag": {
+        "subject_domain": "歴史",
+        "topic": "アメリカ帝国主義とセオドア・ローズベルト",
+        "sub_domain": "近代日本",
+        "syllabus_path": {"area": "III 歴史", "field": "歴史", "item": "1. 近代化の進展とその影響"},
+        "time_sensitivity": "不変知識",
+        "requires_image": false,
+        "keywords_to_avoid": ["セオドア・ローズベルト", "日露戦争", "ノーベル平和賞", "マッキンリー", "反トラスト法", "棍棒外交"]
+      }
+    },
+    {
+      "id": 2,
+      "title": "問2",
+      "prompt": "次の文章を読み，下の問い(1)〜(4)に答えなさい。",
+      "passage": "東京湾沿岸に位置するある国際港湾都市は，十九世紀後半に幕府と米国との間で結ばれた通商条約により国際貿易の窓口として開港された。当初は寒村に過ぎなかったが，外国人居留地が設置され，外交・商業の中心として急速に発展した。明治初期にはこの都市と東京を結ぶ国内初の軌道交通が敷設され，物資と人の流れを劇的に変えた。二十世紀半ばまで，この港の主要輸出品は絹糸や茶葉など軽工業・農産物であったが，戦後の高度成長期以降は自動車製品・電気機械など重化学工業製品の輸出基地として性格が大きく転換した。背後の臨海工業地帯では大気汚染や水質汚濁などの環境問題が深刻化し，1960年代以降に環境被害対策が本格化した。現在は最先端の物流・観光・都市機能を兼ね備える複合都市となっている。",
+      "sub_questions": [
+        {
+          "sub_id": 1,
+          "global_id": 5,
+          "prompt": "本文の港湾都市が開港した直接の契機に関する記述として最も適当なものはどれですか。",
+          "choices": [
+            {"id": 1, "text": "十九世紀後半に幕府と米国との間で結ばれた通商条約による開港であった", "explanation_zh": "正确。文章说明 19 世纪后半幕府与美国缔结通商条约并开放港口，与本项一致。", "explanation_ja": "正解。本文の「十九世紀後半に幕府と米国との間で結ばれた通商条約により国際貿易の窓口として開港」と一致する。"},
+            {"id": 2, "text": "戦後の占領期に連合国の指令で初めて開港した", "explanation_zh": "陷阱：时态错位。开港在19世纪后半，非战后。", "explanation_ja": "誤り。時態錯位の罠。開港は十九世紀後半であり戦後ではない。"},
+            {"id": 3, "text": "中世末期の自然港として古くから外国貿易を行っていた", "explanation_zh": "陷阱：时态错位。本文为19世纪后半开港，非中世末期。", "explanation_ja": "誤り。時態錯位の罠。本文は十九世紀後半の開港を示す。"},
+            {"id": 4, "text": "明治政府が二十世紀初頭に独自に決定した政策で開港した", "explanation_zh": "陷阱：主体错位。开港由幕府与美国通商条约决定,非明治政府独自决策。", "explanation_ja": "誤り。主体取違の罠。開港は幕府と米国の条約による。"}
+          ],
+          "answer": 1,
+          "tag": {
+            "question_form": "事実選択",
+            "statement_polarity": "正答正記述",
+            "trap_patterns": ["概念混同", "主体取違", "時態錯位"],
+            "keywords_to_avoid": ["1858年", "日米修好通商条約", "領事裁判権"],
+            "sub_domain": "日本地誌",
+            "syllabus_path": {"area": "I 政治・経済・社会", "field": "現代の経済", "item": "10. 国際経済"}
+          },
+          "sources": [
+            {
+              "claim": "Railways, pollution, export goods and modernization are core industrialization topics.",
+              "source": "Encyclopaedia Britannica, Industrial Revolution",
+              "year": "2024",
+              "url": "https://www.britannica.com/event/Industrial-Revolution"
+            }
+          ]
+        },
+        {
+          "sub_id": 6,
+          "global_id": 6,
+          "prompt": "本文の港湾都市と東京を結ぶ国内初の軌道交通に関する比較として最も適当なものはどれですか。",
+          "choices": [
+            {"id": 1, "text": "軌道交通は当初から人々の日常的な通勤手段として広く普及していた", "explanation_zh": "陷阱：概念混淆。明治初期鉄道是高费用、非日常通勤普及。", "explanation_ja": "誤り。概念混同の罠。当初は高価で日常的通勤利用は限定的である。"},
+            {"id": 2, "text": "軌道交通の交通料金は当時の米一斗の価格と全く同じであった", "explanation_zh": "陷阱：数值混同。运赁与米价不存在等价关系。", "explanation_ja": "誤り。数値混同の罠。本文は具体的価格比較を含まず数値の等価関係も成立しない。"},
+            {"id": 3, "text": "軌道交通の開通は物資と人の流れを劇的に変え物流を加速させた", "explanation_zh": "正确。文章说明物资和人员流动发生剧烈变化，与本项一致。", "explanation_ja": "正解。本文の「物資と人の流れを劇的に変えた」と一致する。"},
+            {"id": 4, "text": "軌道交通は開通直後に廃止され実用化されなかった", "explanation_zh": "陷阱：概念混淆。本文为鉄道发挥重要作用,非废止。", "explanation_ja": "誤り。概念混同の罠。本文は鉄道が実用的に機能した経緯を示す。"}
+          ],
+          "answer": 3,
+          "tag": {
+            "question_form": "比較分析",
+            "statement_polarity": "正答正記述",
+            "trap_patterns": ["数値混同", "概念混同"],
+            "keywords_to_avoid": ["横浜", "新橋", "鉄道", "運賃", "0.375円", "米15kg"],
+            "sub_domain": "日本地誌"
+          },
+          "sources": [
+            {
+              "claim": "Railways, pollution, export goods and modernization are core industrialization topics.",
+              "source": "Encyclopaedia Britannica, Industrial Revolution",
+              "year": "2024",
+              "url": "https://www.britannica.com/event/Industrial-Revolution"
+            }
+          ]
+        },
+        {
+          "sub_id": 3,
+          "global_id": 7,
+          "prompt": "本文の港湾都市の背後の臨海工業地帯の発展に伴う環境問題に関する記述として最も適当なものはどれですか。",
+          "choices": [
+            {"id": 1, "text": "高度成長期に大気汚染や水質汚濁が深刻化し1960年代以降に環境被害対策が本格化した", "explanation_zh": "正确。文章说明出现大气污染和水质污染，并在 20 世纪 60 年代以后正式推进污染对策，与本项一致。", "explanation_ja": "正解。本文の「大気汚染や水質汚濁などの環境問題が深刻化し，1960年代以降に公害対策が本格化」と一致する。"},
+            {"id": 2, "text": "工業地帯では環境問題は一切発生していなかった", "explanation_zh": "陷阱：概念混淆。本文明确深刻化,非一切未发生。", "explanation_ja": "誤り。概念混同の罠。本文は問題発生を述べる。"},
+            {"id": 3, "text": "環境被害対策は十九世紀末から既に完成していた", "explanation_zh": "陷阱：时态错位。公害对策本格化是20世纪中期以后,非19世纪末。", "explanation_ja": "誤り。時態錯位の罠。本格化は1960年代以降である。"},
+            {"id": 4, "text": "環境被害は北日本の山間部に主に集中していた", "explanation_zh": "陷阱：地域错位。本文为东京湾岸临海工业地带,非北日本山间。", "explanation_ja": "誤り。地域取違の罠。本文は東京湾沿岸の工業地帯を述べる。"}
+          ],
+          "answer": 1,
+          "tag": {
+            "question_form": "事実選択",
+            "statement_polarity": "正答正記述",
+            "trap_patterns": ["地域取違", "時態錯位", "概念混同"],
+            "keywords_to_avoid": ["公害", "高度経済成長", "横浜", "硫黄酸化物"],
+            "sub_domain": "日本地誌",
+            "syllabus_path": {"area": "I 政治・経済・社会", "field": "現代の経済", "item": "4.国民経済"}
+          },
+          "sources": [
+            {
+              "claim": "Railways, pollution, export goods and modernization are core industrialization topics.",
+              "source": "Encyclopaedia Britannica, Industrial Revolution",
+              "year": "2024",
+              "url": "https://www.britannica.com/event/Industrial-Revolution"
+            }
+          ]
+        },
+        {
+          "sub_id": 4,
+          "global_id": 8,
+          "prompt": "本文の港湾都市の主要輸出品の変遷に関する記述として最も適当なものはどれですか。",
+          "choices": [
+            {"id": 1, "text": "戦後から現在まで一貫して絹糸が最大の輸出品である", "explanation_zh": "陷阱：时态错位。本文为战后转向重化工业品,非一贯丝绸。", "explanation_ja": "誤り。時態錯位の罠。戦後以降は重化学工業品中心へ転換した。"},
+            {"id": 2, "text": "二十世紀半ばまでの主要輸出品は精密機械・電子部品であった", "explanation_zh": "陷阱：时态错位。20 世纪中叶以前主要是生丝和茶叶等，不是精密机械。", "explanation_ja": "誤り。時態錯位の罠。当時の輸出品は軽工業・農産物であった。"},
+            {"id": 3, "text": "戦前から戦後まで国外販売品に変化は見られなかった", "explanation_zh": "陷阱：概念混淆。本文明确战后转换,与之相反。", "explanation_ja": "誤り。概念混同の罠。本文は戦後の転換を明示する。"},
+            {"id": 4, "text": "二十世紀半ばまでは絹糸や茶葉などが中心で戦後高度成長期以降は自動車製品・電気機械が中心となった", "explanation_zh": "正确。文章说明主要出口品从生丝、茶叶等转向战后的汽车和电气机械，与本项一致。", "explanation_ja": "正解。本文の「主要輸出品は絹糸や茶など…戦後の高度成長期以降は自動車・電気機械など」と一致する。"}
+          ],
+          "answer": 4,
+          "tag": {
+            "question_form": "事実選択",
+            "statement_polarity": "正答正記述",
+            "trap_patterns": ["主体取違", "時態錯位", "概念混同"],
+            "keywords_to_avoid": ["横浜港", "輸出品目", "生糸", "茶", "鉄鋼", "自動車"],
+            "sub_domain": "日本地誌",
+            "syllabus_path": {"area": "I 政治・経済・社会", "field": "現代の経済", "item": "10. 国際経済"}
+          },
+          "sources": [
+            {
+              "claim": "Railways, pollution, export goods and modernization are core industrialization topics.",
+              "source": "Encyclopaedia Britannica, Industrial Revolution",
+              "year": "2024",
+              "url": "https://www.britannica.com/event/Industrial-Revolution"
+            }
+          ]
+        }
+      ],
+      "tag": {
+        "subject_domain": "地理",
+        "topic": "日本の港湾・横浜港の歴史と発展",
+        "sub_domain": "日本地誌",
+        "syllabus_path": {"area": "II 地理", "field": "地理", "item": "1. 現代世界の特色と諸課題の地理的考察"},
+        "time_sensitivity": "不変知識",
+        "requires_image": false,
+        "keywords_to_avoid": ["横浜港", "1858年", "日米修好通商条約", "鉄道", "公害"]
+      }
+    },
+    {
+      "id": 3,
+      "global_id": 9,
+      "title": "問3",
+      "prompt": "古典派以来の代表的西洋経済学者の主張に関する記述として最も適当なものはどれですか。",
+      "choices": [
+        {"id": 1, "text": "「分業による生産性向上と市場の見えない手」を論じた経済学者は二十世紀後半の人物である", "explanation_zh": "陷阱：时态错位。该论说为18世纪古典派,非20世纪后半人物。", "explanation_ja": "誤り。時態錯位の罠。古典派の主張は十八世紀後半の論であり時代が異なる。"},
+        {"id": 2, "text": "「比較生産費説に基づく自由貿易の利益」を論じた経済学者は古典派に属する", "explanation_zh": "正确。比较生产费说是古典派学者的代表性主张。", "explanation_ja": "正解。比較生産費説に基づく自由貿易の利益を論じた経済学者は古典派に属するという記述は適当である。"},
+        {"id": 3, "text": "「資本論」で資本主義を体系的に批判したのは古典派自由放任の代表者である", "explanation_zh": "陷阱：主体错位。资本论作者批判资本主义,非古典派自由放任代表。", "explanation_ja": "誤り。主体取違の罠。資本論の著者は古典派の自由放任を代表する論者ではない。"},
+        {"id": 4, "text": "「有効需要原理と財政政策」を論じたのは古典派の主要論者である", "explanation_zh": "陷阱：概念混淆。有効需要论由20世纪学者提出,非古典派。", "explanation_ja": "誤り。概念混同の罠。有効需要原理は古典派の主張ではなく後の学派による。"}
+      ],
+      "answer": 2,
+      "tag": {
+        "subject_domain": "経済",
+        "topic": "西洋経済学者の著作と主張",
+        "sub_domain": "経済思想・経済史",
+        "syllabus_path": {"area": "I 政治・経済・社会", "field": "現代の経済", "item": "10. 国際経済"},
+        "question_form": "事実選択",
+        "statement_polarity": "正答正記述",
+        "time_sensitivity": "不変知識",
+        "requires_image": false,
+        "trap_patterns": ["主体取違", "概念混同"],
+        "keywords_to_avoid": ["アダム・スミス", "デヴィド・リカード", "カール・マルクス", "ケインズ", "経済学"]
+      },
+      "sources": [
+        {
+          "claim": "Major Western economists and their works are standard economics history.",
+          "source": "Encyclopaedia Britannica, History of economic thought",
+          "year": "2024",
+          "url": "https://www.britannica.com/money/topic/history-of-economic-thought"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "global_id": 10,
+      "title": "問4",
+      "prompt": "ある財Mについて市場価格と需要量の関係を示す表。価格100円のとき需要量200個。価格200円のとき需要量180個。価格300円のとき需要量160個。価格400円のとき需要量140個。この需要を示す曲線の特徴として最も適当なものはどれですか。",
+      "choices": [
+        {"id": 1, "text": "価格が上昇すれば需要量は減少する右下がりの曲線である", "explanation_zh": "正确。表中价格升时需求量减,正是右下倾斜需求曲线特征。", "explanation_ja": "正解。表は価格上昇に伴い需要量が減少することを示しており，右下がりの需要曲線の典型である。"},
+        {"id": 2, "text": "価格と需要量は完全に正比例し右上がりの曲線である", "explanation_zh": "陷阱：时序错置。表显示反向变化，非右上倾斜。", "explanation_ja": "誤り。時期の取り違えの罠。表は価格と需要量が反対方向に変化することを示す。"},
+        {"id": 3, "text": "価格が変化しても需要量は一切変動しない水平な曲線である", "explanation_zh": "陷阱：主体错配。表中需要量明显变化,非水平不变。", "explanation_ja": "誤り。主体の取り違えの罠。表は需要量の変動を示している。"},
+        {"id": 4, "text": "価格と需要量の関係はランダムで一定の傾向が見られない", "explanation_zh": "陷阱：因果误判。表中显示有规则的反向变化趋势,非随机。", "explanation_ja": "誤り。因果関係の誤判定の罠。表は規則的な反方向の変化を示している。"}
+      ],
+      "answer": 1,
+      "tag": {
+        "subject_domain": "経済",
+        "topic": "需要曲線と価格弾力性",
+        "sub_domain": "経済原理・市場",
+        "syllabus_path": {"area": "I 政治・経済・社会", "field": "現代の経済", "item": "2.市場経済"},
+        "question_form": "図表読取",
+        "statement_polarity": "正答正記述",
+        "time_sensitivity": "不変知識",
+        "requires_image": false,
+        "trap_patterns": ["概念混同"],
+        "keywords_to_avoid": ["需要曲線", "価格", "需要量", "弾力性"]
+      },
+      "sources": [
+        {
+          "claim": "Demand elasticity is calculated from quantity response to price changes.",
+          "source": "OpenStax, Price Elasticity of Demand",
+          "year": "2023",
+          "url": "https://openstax.org/books/principles-economics-3e/pages/5-1-price-elasticity-of-demand-and-price-elasticity-of-supply"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "global_id": 11,
+      "title": "問5",
+      "prompt": "短い期間的な在庫調整による景気変動と長い期間的な技術革新による景気変動の比較として最も適当なものはどれですか。",
+      "passage": "",
+      "choices": [
+        {"id": 1, "text": "両者とも10年単位で発生し原因も同じである", "explanation_zh": "陷阱：概念混淆。两者周期与原因明显不同。", "explanation_ja": "誤り。概念混同の罠。周期も原因も両者は異なる。"},
+        {"id": 2, "text": "在庫調整は数十年単位で技術革新は数か月単位で起こる", "explanation_zh": "陷阱：顺序混乱。两者周期颠倒。", "explanation_ja": "誤り。順序混同の罠。両者の周期スケールが逆転している。"},
+        {"id": 3, "text": "在庫調整は数年単位の短い期間変動で技術革新は数十年単位の長い期間変動である", "explanation_zh": "正确。库存调整周期短,技术革新引发的长波周期长。", "explanation_ja": "正解。在庫調整は数年単位の短期景気変動，技術革新は数十年単位の長期変動として典型的に区別される。"},
+        {"id": 4, "text": "技術革新は景気変動と無関係である", "explanation_zh": "陷阱：概念混淆。技术革新与长期景气波动密切相关。", "explanation_ja": "誤り。概念混同の罠。技術革新は長期景気変動の主要要因である。"}
+      ],
+      "answer": 3,
+      "tag": {
+        "subject_domain": "経済",
+        "topic": "景気変動の要因と時間スケール",
+        "sub_domain": "国民経済・成長",
+        "syllabus_path": {"area": "I 政治・経済・社会", "field": "現代の経済", "item": "4.国民経済"},
+        "question_form": "比較分析",
+        "statement_polarity": "正答正記述",
+        "time_sensitivity": "不変知識",
+        "requires_image": false,
+        "trap_patterns": ["順序混同", "概念混同"],
+        "keywords_to_avoid": ["景気変動", "技術革新", "設備投資", "在庫調整", "住宅"]
+      },
+      "sources": [
+        {
+          "claim": "Business cycles differ by causes and time scales.",
+          "source": "OpenStax, Business Cycles",
+          "year": "2023",
+          "url": "https://openstax.org/books/principles-economics-3e/pages/20-2-the-keynesian-perspective"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "global_id": 12,
+      "title": "問6",
+      "prompt": "政府が大量の国債を発行した場合の経済的影響に関する記述として最も適当なものはどれですか。",
+      "passage": "",
+      "choices": [
+        {"id": 1, "text": "国債大量発行は市場金利を上昇させ民間投資を抑制する方向に作用しうる", "explanation_zh": "正确。国债大量发行使资金需求增加，推高市场利率,抑制民间投资。", "explanation_ja": "正解。国債の大量発行は資金需要の増加を通じて市場金利を上昇させ，民間投資を抑制する方向に作用しうる。"},
+        {"id": 2, "text": "国債発行は市場金利を必ず低下させ民間投資を増加させる", "explanation_zh": "陷阱：因果倒置。大量发行使利率上升,非下降。", "explanation_ja": "誤り。因果倒置の罠。大量発行は金利上昇方向に働く。"},
+        {"id": 3, "text": "国債発行は金融市場と無関係である", "explanation_zh": "陷阱：概念混淆。国债与金融市场紧密相关。", "explanation_ja": "誤り。概念混同の罠。国債発行は金融市場に影響を及ぼす。"},
+        {"id": 4, "text": "国債は将来世代から税金を徴収するための機構ではない", "explanation_zh": "陷阱：概念混淆。国债将偿还负担推迟到未来世代。", "explanation_ja": "誤り。概念混同の罠。国債は将来の税負担を含意する仕組みである。"}
+      ],
+      "answer": 1,
+      "tag": {
+        "subject_domain": "経済",
+        "topic": "公債発行と金利・投資",
+        "sub_domain": "金融・通貨",
+        "syllabus_path": {"area": "I 政治・経済・社会", "field": "現代の経済", "item": "5. 金融"},
+        "question_form": "正誤判定",
+        "statement_polarity": "正答正記述",
+        "time_sensitivity": "不変知識",
+        "requires_image": false,
+        "trap_patterns": ["因果倒置", "概念混同"],
+        "keywords_to_avoid": ["公債", "金利", "投資", "利子弾力性"]
+      },
+      "sources": [
+        {
+          "claim": "Government borrowing can affect interest rates and private investment.",
+          "source": "OpenStax, Crowding Out",
+          "year": "2023",
+          "url": "https://openstax.org/books/principles-economics-3e/pages/30-3-federal-deficits-and-the-national-debt"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "global_id": 13,
+      "title": "問7",
+      "prompt": "通貨当局による通貨政策に関する記述として最も適当なものはどれですか。",
+      "choices": [
+        {"id": 1, "text": "通貨当局は民間企業の経営判断に直接的に介入する権限を持つ", "explanation_zh": "陷阱：主体错位。中央銀行不直接干涉企业经营。", "explanation_ja": "誤り。主体取違の罠。中央銀行は民間企業の経営に直接介入しない。"},
+        {"id": 2, "text": "通貨当局の役割は通貨発行のみで金融市場に対する政策手段は持たない", "explanation_zh": "陷阱：概念混淆。中央银行有政策利率与公开市场操作等手段。", "explanation_ja": "誤り。概念混同の罠。政策金利や公開市場操作など複数の手段を持つ。"},
+        {"id": 3, "text": "公開市場操作や預金準備率の調整など複数の手段で通貨量と金利を調節する", "explanation_zh": "正确。中央银行通过公开市场操作、准备金率等调节通货量与利率。", "explanation_ja": "正解。中央銀行は公開市場操作や準備率の調整など複数の手段で通貨量と金利を調節する。"},
+        {"id": 4, "text": "通貨当局は政府の財政赤字を全額自動的に補填する義務を負う", "explanation_zh": "陷阱：概念混淆。中央银行无自动补填义务,各国有规则约束。", "explanation_ja": "誤り。概念混同の罠。中央銀行による財政赤字の自動補填は通例規制される。"}
+      ],
+      "answer": 3,
+      "tag": {
+        "subject_domain": "経済",
+        "topic": "金融制度・中央銀行政策",
+        "sub_domain": "金融・通貨",
+        "syllabus_path": {"area": "I 政治・経済・社会", "field": "現代の経済", "item": "2.市場経済"},
+        "question_form": "事実選択",
+        "statement_polarity": "正答正記述",
+        "time_sensitivity": "不変知識",
+        "requires_image": false,
+        "trap_patterns": ["概念混同", "主体取違"],
+        "keywords_to_avoid": ["IMF", "中央銀行", "自己資本比率", "預金準備率", "オペレーション"]
+      },
+      "sources": [
+        {
+          "claim": "Central banks conduct monetary policy and influence money and credit.",
+          "source": "日本銀行, 金融政策の概要",
+          "year": "2024",
+          "url": "https://www.boj.or.jp/mopo/outline/"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "global_id": 14,
+      "title": "問8",
+      "prompt": "二十世紀後半に世界経済を大きく揺るがした原油価格急騰局面に関する記述として，最も適当でないものはどれですか。",
+      "choices": [
+        {"id": 1, "text": "原油価格急騰は産油国側の輸出制限や価格引上げを契機に発生した", "explanation_zh": "陷阱：陈述正确,非不适当。", "explanation_ja": "誤り。誤りではない記述。産油国側の輸出制限や価格引上げが直接の契機であった。"},
+        {"id": 2, "text": "原油急騰は世界各国に物価上昇圧力をもたらし景気悪化と物価上昇が同時進行する局面を生んだ", "explanation_zh": "陷阱：陈述正确,非不适当。", "explanation_ja": "誤り。誤りではない記述。物価上昇と景気停滞の同時進行は典型的な現象である。"},
+        {"id": 3, "text": "日本の高度成長期は原油急騰局面の前に終焉した", "explanation_zh": "陷阱：陈述正确。日本高速成长期在第一次石油危机后终止。", "explanation_ja": "誤り。誤りではない記述として示されている。"},
+        {"id": 4, "text": "原油急騰局面は世界経済に好景気をもたらし全ての国で実質GDPが急増した", "explanation_zh": "正确。本题求不适当陈述,原油急涨实际带来世界经济收缩。", "explanation_ja": "正解。本問は誤った記述を選ぶ問題で，原油急騰は世界経済に好景気をもたらしたとする記述は実態と逆であり最も適当でない。"}
+      ],
+      "answer": 4,
+      "tag": {
+        "subject_domain": "経済",
+        "topic": "石油危機と世界経済",
+        "sub_domain": "経済思想・経済史",
+        "syllabus_path": {"area": "I 政治・経済・社会", "field": "現代の経済", "item": "2.市場経済"},
+        "question_form": "正誤判定",
+        "statement_polarity": "正答誤記述",
+        "time_sensitivity": "時事連動",
+        "requires_image": false,
+        "trap_patterns": ["時態錯位", "因果倒置"],
+        "keywords_to_avoid": ["石油危機", "1973年", "1974年", "不況", "高度経済成長"]
+      },
+      "sources": [
+        {
+          "claim": "Oil shocks in the 1970s affected inflation and world economy.",
+          "source": "Encyclopaedia Britannica, Oil crisis",
+          "year": "1970s",
+          "url": "https://www.britannica.com/event/oil-crisis"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "global_id": 15,
+      "title": "問9",
+      "prompt": "ある国の年間国際収支データ。財・サービスの輸出380，輸入350，第一次所得収支＋80，第二次所得収支－20（単位：兆円）。対外経常取引収支の合計値として最も適当なものはどれですか。",
+      "passage": "",
+      "choices": [
+        {"id": 1, "text": "150兆円", "explanation_zh": "陷阱：时序错置。把所有项目正向相加误算,未减去第二次所得。", "explanation_ja": "誤り。時期の取り違えの罠。第二次所得収支のマイナスを反映していない。"},
+        {"id": 2, "text": "110兆円", "explanation_zh": "陷阱：主体错配。把贸易差额30加上80,但漏算-20。", "explanation_ja": "誤り。主体の取り違えの罠。各収支の符号が一部抜けている。"},
+        {"id": 3, "text": "90兆円", "explanation_zh": "正确。(380-350)+80+(-20)=30+80-20=90。", "explanation_ja": "正解。(380-350)+80+(-20)=30+80-20=90となり経常収支は90兆円である。"},
+        {"id": 4, "text": "30兆円", "explanation_zh": "陷阱：因果误判。仅取贸易差额30,未加入所得收支。", "explanation_ja": "誤り。因果関係の誤判定の罠。第一次・第二次所得収支を加算していない。"}
+      ],
+      "answer": 3,
+      "tag": {
+        "subject_domain": "経済",
+        "topic": "日本の国際収支計算",
+        "sub_domain": "国際経済・貿易",
+        "syllabus_path": {"area": "I 政治・経済・社会", "field": "現代の経済", "item": "10. 国際経済"},
+        "question_form": "比較分析",
+        "statement_polarity": "正答正記述",
+        "time_sensitivity": "時事連動",
+        "requires_image": false,
+        "trap_patterns": ["数値混同", "概念混同"],
+        "keywords_to_avoid": ["国際収支", "経常収支", "2007年", "貿易収支"]
+      },
+      "sources": [
+        {
+          "claim": "Current account components include trade, services, income and transfers.",
+          "source": "IMF Balance of Payments Manual",
+          "year": "2009",
+          "url": "https://www.imf.org/external/pubs/ft/bop/2007/bopman6.htm"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "global_id": 16,
+      "title": "問10",
+      "prompt": "ある国の通貨が対外通貨に対して価値を高める方向に作用する要因として最も適当なものはどれですか。",
+      "choices": [
+        {"id": 1, "text": "その国の対外債務が急増し信用が低下すること", "explanation_zh": "陷阱：因果倒置。债务急增信用下降通常导致本币贬值。", "explanation_ja": "誤り。因果倒置の罠。信用低下は通貨価値下落要因である。"},
+        {"id": 2, "text": "その国の金利が他国より相対的に高くなり海外資金が流入すること", "explanation_zh": "正确。本国利率上升,资金流入,推升本币需要,本币升值。", "explanation_ja": "正解。自国金利の相対的上昇は資金流入を通じて自国通貨需要を高め，価値上昇方向に作用する。"},
+        {"id": 3, "text": "その国の経常収支が大幅な赤字に転じること", "explanation_zh": "陷阱：因果倒置。经常赤字一般给本币贬值压力。", "explanation_ja": "誤り。因果倒置の罠。経常赤字は通常通貨価値の下落圧力となる。"},
+        {"id": 4, "text": "海外からの観光客が激減し外貨流入が止まること", "explanation_zh": "陷阱：概念混淆。外汇流入停止使本币升值压力消失。", "explanation_ja": "誤り。概念混同の罠。外貨流入の停止は通貨価値の上昇要因とはならない。"}
+      ],
+      "answer": 2,
+      "tag": {
+        "subject_domain": "経済",
+        "topic": "外国為替市場と円高要因",
+        "sub_domain": "経済原理・市場",
+        "syllabus_path": {"area": "I 政治・経済・社会", "field": "現代の経済", "item": "4.国民経済"},
+        "question_form": "事実選択",
+        "statement_polarity": "正答正記述",
+        "time_sensitivity": "不変知識",
+        "requires_image": false,
+        "trap_patterns": ["概念混同", "因果倒置"],
+        "keywords_to_avoid": ["円高", "金利", "消費者物価", "貿易黒字"]
+      },
+      "sources": [
+        {
+          "claim": "Foreign exchange markets determine exchange rates including yen appreciation and depreciation.",
+          "source": "日本銀行, 外国為替相場",
+          "year": "2024",
+          "url": "https://www.boj.or.jp/about/education/oshiete/intl/g18.htm"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "global_id": 17,
+      "title": "問11",
+      "prompt": "次の模式説明は，消費者世帯・会社・公的部門の三主体間の経済的フローを示す。消費者世帯から会社へ：労働サービスの提供。会社から消費者世帯へ：賃金等の所得支払い。消費者世帯から公的部門へ：税金の支払い。公的部門から消費者世帯へ：社会保障給付・公共サービス。会社から公的部門へ：法人税等の納税。公的部門から会社へ：補助金や公共発注。本図に対応する関係性の解釈として最も適当なものはどれですか。",
+      "choices": [
+        {"id": 1, "text": "消費者世帯は会社に労働を提供するが所得を受け取らない", "explanation_zh": "陷阱：概念混淆。本图明确企业向家计支付薪资,与之相反。", "explanation_ja": "誤り。概念混同の罠。図では企業から家計へ賃金等の支払いがある。"},
+        {"id": 2, "text": "公的部門は消費者世帯と会社から税金を受け取るが何も還元しない", "explanation_zh": "陷阱：概念混淆。政府向家计企业提供社保和补贴，非无还元。", "explanation_ja": "誤り。概念混同の罠。政府は社会保障給付や補助金などで還元している。"},
+        {"id": 3, "text": "会社のみが公的部門と経済関係を持ち消費者世帯は公的部門と無関係である", "explanation_zh": "陷阱：主体错位。家计也通过纳税和社保与政府关联。", "explanation_ja": "誤り。主体取違の罠。家計も納税と社会保障給付で政府と関連している。"},
+        {"id": 4, "text": "消費者世帯・会社・公的部門の三主体は相互に財・サービスや所得・税の流れで結ばれている", "explanation_zh": "正确。本图正显示三方相互财货劳务、所得与税收的循环流。", "explanation_ja": "正解。家計・企業・政府の三主体は財・サービス，所得，税の流れで相互に結ばれた循環構造を成している。"}
+      ],
+      "answer": 4,
+      "tag": {
+        "subject_domain": "経済",
+        "topic": "経済主体の相互関係フロー",
+        "sub_domain": "国民経済・成長",
+        "syllabus_path": {"area": "I 政治・経済・社会", "field": "現代の経済", "item": "3.経済主体"},
+        "question_form": "図表読取",
+        "statement_polarity": "正答正記述",
+        "time_sensitivity": "不変知識",
+        "requires_image": false,
+        "trap_patterns": ["概念混同"],
+        "keywords_to_avoid": ["政府", "企業", "家計", "所得分配"]
+      },
+      "sources": [
+        {
+          "claim": "Circular flow links households, firms and government.",
+          "source": "OpenStax, Circular Flow Model",
+          "year": "2023",
+          "url": "https://openstax.org/books/principles-economics-3e/pages/2-2-the-production-possibilities-frontier-and-social-choices"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "global_id": 18,
+      "title": "問12",
+      "prompt": "次の数値の説明は，仮想四先進国の年間実働く時間（時間）を示す。国甲：約1750。国乙：約1500。国丙：約1850。国丁：約1400。働く時間が最も長い国はどれですか。",
+      "choices": [
+        {"id": 1, "text": "国甲（1750時間）", "explanation_zh": "陷阱：时序错置。甲国1750时低于丙国1850时。", "explanation_ja": "誤り。時期の取り違えの罠。甲は1750で丙より短い。"},
+        {"id": 2, "text": "国乙（1500時間）", "explanation_zh": "陷阱：主体错配。乙国位置中下,非最长。", "explanation_ja": "誤り。主体の取り違えの罠。乙は四か国中三番目である。"},
+        {"id": 3, "text": "国丙（1850時間）", "explanation_zh": "正确。丙国1850時是四国中最长。", "explanation_ja": "正解。丙の1850時間は四か国中最長である。"},
+        {"id": 4, "text": "国丁（1400時間）", "explanation_zh": "陷阱：因果误判。丁国1400时最短,非最长。", "explanation_ja": "誤り。因果関係の誤判定の罠。丁は最短である。"}
+      ],
+      "answer": 3,
+      "tag": {
+        "subject_domain": "社会",
+        "topic": "先進国の労働時間比較",
+        "sub_domain": "社会保障・労働",
+        "syllabus_path": {"area": "I 政治・経済・社会", "field": "現代の社会", "item": "3.雇用・労働"},
+        "question_form": "図表読取",
+        "statement_polarity": "正答正記述",
+        "time_sensitivity": "不変知識",
+        "requires_image": false,
+        "trap_patterns": ["主体取違", "概念混同"],
+        "keywords_to_avoid": ["年間実労働時間", "日本", "ドイツ", "フランス", "アメリカ"]
+      },
+      "sources": [
+        {
+          "claim": "Hours worked are compared internationally by OECD.",
+          "source": "OECD Data, Hours worked",
+          "year": "2024",
+          "url": "https://data.oecd.org/emp/hours-worked.htm"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "global_id": 19,
+      "title": "問13",
+      "prompt": "次の数値の説明は，仮想四か国の温室効果ガス年間排出規模（億トン）を示す。国W：60。国X：55。国Y：13。国Z：4.5。排出規模が二番目に大きい国はどれですか。",
+      "choices": [
+        {"id": 1, "text": "国W（60億トン）", "explanation_zh": "陷阱：时序错置。W是最大,非第二大。", "explanation_ja": "誤り。時期の取り違えの罠。Wは最大であり二番目ではない。"},
+        {"id": 2, "text": "国X（55億トン）", "explanation_zh": "正确。X的55亿吨次于W的60亿吨,位居第二。", "explanation_ja": "正解。Xの55億トンは四か国中二番目に大きい排出規模である。"},
+        {"id": 3, "text": "国Y（13億トン）", "explanation_zh": "陷阱：主体错配。Y位居第三,非第二。", "explanation_ja": "誤り。主体の取り違えの罠。Yは第三位である。"},
+        {"id": 4, "text": "国Z（4.5億トン）", "explanation_zh": "陷阱：因果误判。Z位居第四,非第二。", "explanation_ja": "誤り。因果関係の誤判定の罠。Zは最小である。"}
+      ],
+      "answer": 2,
+      "tag": {
+        "subject_domain": "地理",
+        "topic": "世界のCO2排出量",
+        "sub_domain": "産業・資源",
+        "syllabus_path": {"area": "II 地理", "field": "地理", "item": "1. 現代世界の特色と諸課題の地理的考察"},
+        "question_form": "図表読取",
+        "statement_polarity": "正答正記述",
+        "time_sensitivity": "時事連動",
+        "requires_image": false,
+        "trap_patterns": ["主体取違", "数値混同"],
+        "keywords_to_avoid": ["二酸化炭素", "2005年", "排出量"]
+      },
+      "sources": [
+        {
+          "claim": "CO2 emissions by country are tracked in international datasets.",
+          "source": "World Bank, CO2 emissions",
+          "year": "2024",
+          "url": "https://data.worldbank.org/indicator/EN.ATM.CO2E.KT"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "global_id": 20,
+      "title": "問14",
+      "prompt": "地球規模の環境問題に関する記述として最も適当でないものはどれですか。",
+      "choices": [
+        {"id": 1, "text": "温室効果ガス排出による地球規模の平均気温上昇が国際的問題とされている", "explanation_zh": "陷阱：时序错置。", "explanation_ja": "誤り。時期の取り違えの罠。地球温暖化は国際的に認識された課題である。"},
+        {"id": 2, "text": "成層圏成層圏の保護層は人類活動と無関係で自然に薄くなり厚くなる現象に過ぎない", "explanation_zh": "正确。本题求不适当陈述。臭氧层与人为活动相关，故此陈述错。", "explanation_ja": "正解。本問は誤った記述を選ぶ問題で，オゾン層の変化は人為活動と無関係とする記述は科学的見解と相違し最も適当でない。"},
+        {"id": 3, "text": "国際的枠組みで温室効果ガス削減目標を設定する取組みが行われている", "explanation_zh": "陷阱：主体错配。", "explanation_ja": "誤り。主体の取り違えの罠。国際的削減目標設定の取組は事実である。"},
+        {"id": 4, "text": "環境保護のため一部の国は環境関連税を導入している", "explanation_zh": "陷阱：因果误判。", "explanation_ja": "誤り。因果関係の誤判定の罠。環境への課税の導入は実例がある。"}
+      ],
+      "answer": 2,
+      "tag": {
+        "subject_domain": "地理",
+        "topic": "地球環境問題",
+        "sub_domain": "産業・資源",
+        "syllabus_path": {"area": "I 政治・経済・社会", "field": "現代の社会", "item": "1. 環境と資源"},
+        "question_form": "正誤判定",
+        "statement_polarity": "正答誤記述",
+        "time_sensitivity": "不変知識",
+        "requires_image": false,
+        "trap_patterns": ["概念混同"],
+        "keywords_to_avoid": ["地球温暖化", "オゾンホール", "京都議定書", "環境税"]
+      },
+      "sources": [
+        {
+          "claim": "Global environmental issues include climate change, ozone depletion and pollution.",
+          "source": "UNEP, Environmental issues",
+          "year": "2024",
+          "url": "https://www.unep.org/"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "global_id": 21,
+      "title": "問15",
+      "prompt": "次の地域説明要素はある大陸を描いた地域説明。大陸は東西位置0度の南北線と緯度0度の東西線によってほぼ4分割される。大陸の北端は北緯約37度，南端は南緯約35度，東端は東経約51度，西端は西経約17度に達する。本大陸として最も適当なものはどれですか。",
+      "choices": [
+        {"id": 1, "text": "南極を中心とする極地大陸", "explanation_zh": "陷阱：时序错置。极地大陆未跨赤道与本初子午线。", "explanation_ja": "誤り。時期の取り違えの罠。極地大陸は赤道や本初子午線が中心ではない。"},
+        {"id": 2, "text": "低緯度線と基準経線が交差する大陸（南北・東西に広がる低緯度線横断大陸）", "explanation_zh": "正确。赤道与本初子午线均经过的大陆,该说明对应非洲大陆。", "explanation_ja": "正解。赤道と本初子午線がともに大陸を通過する形態は，赤道横断大陸の特徴である。"},
+        {"id": 3, "text": "東半球のみに位置する単一大陸", "explanation_zh": "陷阱：主体错配。本大陆跨东西半球,非仅东半球。", "explanation_ja": "誤り。主体の取り違えの罠。本大陸は本初子午線をまたぐため東西両半球に広がる。"},
+        {"id": 4, "text": "西経120度を中心とする太平洋上の大陸", "explanation_zh": "陷阱：因果误判。本大陆位于本初子午线附近,非太平洋中。", "explanation_ja": "誤り。因果関係の誤判定の罠。本大陸は本初子午線付近にあり太平洋中央ではない。"}
+      ],
+      "answer": 2,
+      "tag": {
+        "subject_domain": "地理",
+        "topic": "アフリカ大陸の経線・緯線",
+        "sub_domain": "アフリカ・オセアニア",
+        "syllabus_path": {"area": "II 地理", "field": "地理", "item": "2. 現代世界の諸地域"},
+        "question_form": "図表読取",
+        "statement_polarity": "正答正記述",
+        "time_sensitivity": "不変知識",
+        "requires_image": false,
+        "trap_patterns": ["概念混同"],
+        "keywords_to_avoid": ["アフリカ", "経線", "緯線", "本初子午線", "赤道"]
+      },
+      "sources": [
+        {
+          "claim": "Africa is crossed by both the equator and prime meridian.",
+          "source": "Encyclopaedia Britannica, Africa",
+          "year": "2024",
+          "url": "https://www.britannica.com/place/Africa"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "global_id": 22,
+      "title": "問16",
+      "prompt": "東経135度の都市と西経75度の都市の時刻差比較として正しい数値はどれですか。",
+      "choices": [
+        {"id": 1, "text": "8時間", "explanation_zh": "陷阱：时序错置。把经度差120度误算成8小时。", "explanation_ja": "誤り。時期の取り違えの罠。東西位置差から時刻差を正しく換算できていない。"},
+        {"id": 2, "text": "10時間", "explanation_zh": "陷阱：主体错配。把经度差150误算成10小时。", "explanation_ja": "誤り。主体の取り違えの罠。換算が一致しない。"},
+        {"id": 3, "text": "12時間", "explanation_zh": "陷阱：因果误判。误以经度差180算12小时。", "explanation_ja": "誤り。因果関係の誤判定の罠。実際の東西位置差210度に対応しない。"},
+        {"id": 4, "text": "14時間", "explanation_zh": "正确。135+75=210度，210÷15=14小时时差。", "explanation_ja": "正解。東西位置差は135+75=210度，15度＝1時間として210÷15=14時間の時刻差となる。"}
+      ],
+      "answer": 4,
+      "tag": {
+        "subject_domain": "地理",
+        "topic": "経度計算と時差",
+        "sub_domain": "自然地理",
+        "syllabus_path": {"area": "II 地理", "field": "地理", "item": "1. 現代世界の特色と諸課題の地理的考察"},
+        "question_form": "比較分析",
+        "statement_polarity": "正答正記述",
+        "time_sensitivity": "不変知識",
+        "requires_image": false,
+        "trap_patterns": ["数値混同"],
+        "keywords_to_avoid": ["ボストン", "時差", "経度", "夏時間"]
+      },
+      "sources": [
+        {
+          "claim": "Longitude differences correspond to time differences: 15 degrees equals one hour.",
+          "source": "timeanddate.com, Time zones and longitude",
+          "year": "2024",
+          "url": "https://www.timeanddate.com/time/map/"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "global_id": 23,
+      "title": "問17",
+      "prompt": "次の数値の説明は，仮想四か国の電力構成（％）を示す。国α：固体化石燃料60，気体燃料20，石油10，水力5，核エネルギー5。国β：気体燃料40，核エネルギー30，水力20，固体化石燃料10。国γ：石油50，水力30，気体燃料15，固体化石燃料5。国δ：水力85，核エネルギー10，石油5。最も化石燃料（固体化石燃料・石油・気体燃料）への依存度が高い国はどれですか。",
+      "passage": "",
+      "choices": [
+        {"id": 1, "text": "国α（化石燃料計90％）", "explanation_zh": "正确。α国60+20+10=90%为化石燃料,四国中最高。", "explanation_ja": "正解。αは石炭60+天然ガス20+石油10=90%で化石燃料依存度が最も高い。"},
+        {"id": 2, "text": "国β（化石燃料計50％）", "explanation_zh": "陷阱：数值混同。β为50%,远低于α的90%。", "explanation_ja": "誤り。数値混同の罠。βは50%でαより低い。"},
+        {"id": 3, "text": "国γ（化石燃料計70％）", "explanation_zh": "陷阱：数值混同。γ为70%,低于α的90%。", "explanation_ja": "誤り。数値混同の罠。γは70%でαより低い。"},
+        {"id": 4, "text": "国δ（化石燃料計5％）", "explanation_zh": "陷阱：主体错位。δ仅5%化石依存,最低，方向相反。", "explanation_ja": "誤り。主体取違の罠。δは化石燃料依存度が最も低い。"}
+      ],
+      "answer": 1,
+      "tag": {
+        "subject_domain": "地理",
+        "topic": "主要国のエネルギー構成",
+        "sub_domain": "産業・資源",
+        "syllabus_path": {"area": "I 政治・経済・社会", "field": "現代の経済", "item": "2.市場経済"},
+        "question_form": "図表読取",
+        "statement_polarity": "正答正記述",
+        "time_sensitivity": "不変知識",
+        "requires_image": false,
+        "trap_patterns": ["数値混同", "主体取違"],
+        "keywords_to_avoid": ["エネルギー", "石炭", "石油", "原子力", "オーストラリア"]
+      },
+      "sources": [
+        {
+          "claim": "Energy mix includes fossil fuels, hydro and nuclear sources.",
+          "source": "IEA, Energy statistics",
+          "year": "2024",
+          "url": "https://www.iea.org/data-and-statistics"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "global_id": 24,
+      "title": "問18",
+      "prompt": "日本の主要工業都市と主要産業の組合せに関する記述として最も適当なものはどれですか。",
+      "choices": [
+        {"id": 1, "text": "九州の旧造船都市が現在も最大の自動車生産地となっている", "explanation_zh": "陷阱：地域错位。九州造船都市非现在最大汽车产地。", "explanation_ja": "誤り。地域取違の罠。日本最大の自動車生産地は別地域である。"},
+        {"id": 2, "text": "北海道の道庁所在地が日本最大の自動車組立工場集積地である", "explanation_zh": "陷阱：地域错位。北海道道庁所在地非汽车产业核心。", "explanation_ja": "誤り。地域取違の罠。自動車工業の中心は本州中部である。"},
+        {"id": 3, "text": "本州中部の自動車関連工業都市は世界有数の自動車生産集積地となっている", "explanation_zh": "正确。本州中部地区为世界主要汽车产业集积地之一。", "explanation_ja": "正解。本州中部地域には自動車関連工業の集積があり，世界有数の自動車生産地として知られている。"},
+        {"id": 4, "text": "東北地方の県庁所在地が世界最大の精密機械生産地である", "explanation_zh": "陷阱：主体错位。东北地方县厅所在地非世界精密机械产地最大。", "explanation_ja": "誤り。主体取違の罠。記述された主体と実態が一致しない。"}
+      ],
+      "answer": 3,
+      "tag": {
+        "subject_domain": "地理",
+        "topic": "日本の主要都市と産業",
+        "sub_domain": "人口・都市",
+        "syllabus_path": {"area": "II 地理", "field": "地理", "item": "1. 現代世界の特色と諸課題の地理的考察"},
+        "question_form": "事実選択",
+        "statement_polarity": "正答正記述",
+        "time_sensitivity": "不変知識",
+        "requires_image": false,
+        "trap_patterns": ["主体取違", "地域取違"],
+        "keywords_to_avoid": ["長崎", "豊田", "浜松", "札幌", "産業"]
+      },
+      "sources": [
+        {
+          "claim": "Japanese city industries vary by region and urban economic function.",
+          "source": "総務省統計局, 日本統計年鑑",
+          "year": "2024",
+          "url": "https://www.stat.go.jp/data/nenkan/"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "global_id": 25,
+      "title": "問19",
+      "prompt": "次の数値の説明は，仮想四か国の出生指標（人口千人当たり）と死亡指標（人口千人当たり）を示す。国A：出生指標8，死亡指標10。国B：出生指標40，死亡指標7。国C：出生指標35，死亡指標6。国D：出生指標12，死亡指標8。自然増加指標（出生指標-死亡指標）が最も高い国はどれですか。",
+      "passage": "",
+      "choices": [
+        {"id": 1, "text": "国A（自然増加指標-2）", "explanation_zh": "陷阱：时序错置。A 为负值，与最高相反。", "explanation_ja": "誤り。時期の取り違えの罠。Aは負の自然増加指標である。"},
+        {"id": 2, "text": "国B（自然増加指標33）", "explanation_zh": "正确。B 的自然增加率为 40-7=33，是四国中最高。", "explanation_ja": "正解。Bの自然増加指標は40-7=33で四か国中最も高い。"},
+        {"id": 3, "text": "国C（自然増加指標29）", "explanation_zh": "陷阱：主体错配。C 为 29，低于 B 的 33。", "explanation_ja": "誤り。主体の取り違えの罠。Cは29で、Bの33を下回る。"},
+        {"id": 4, "text": "国D（自然増加指標4）", "explanation_zh": "陷阱：因果误判。D 仅为 4，远低于 B 的 33。", "explanation_ja": "誤り。因果関係の誤判定の罠。Dの自然増加指標は4で低い。"}
+      ],
+      "answer": 2,
+      "tag": {
+        "subject_domain": "社会",
+        "topic": "世界の人口統計指標",
+        "sub_domain": "人口・家族",
+        "syllabus_path": {"area": "I 政治・経済・社会", "field": "現代の経済", "item": "7.社会保障"},
+        "question_form": "図表読取",
+        "statement_polarity": "正答正記述",
+        "time_sensitivity": "時事連動",
+        "requires_image": false,
+        "trap_patterns": ["数値混同", "主体取違"],
+        "keywords_to_avoid": ["出生率", "死亡率", "自然増加率", "アメリカ"]
+      },
+      "sources": [
+        {
+          "claim": "Natural increase is birth rate minus death rate.",
+          "source": "World Bank, crude birth and death rate indicators",
+          "year": "2024",
+          "url": "https://data.worldbank.org/indicator/SP.DYN.CBRT.IN"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "global_id": 26,
+      "title": "問20",
+      "prompt": "北米連邦国家における連邦と州の権限関係に関する記述として最も適当なものはどれですか。",
+      "choices": [
+        {"id": 1, "text": "全ての権限は連邦政府に集中し州は単なる行政区画である", "explanation_zh": "陷阱：主体错位。该国是连邦制,州拥有重要权限。", "explanation_ja": "誤り。主体取違の罠。連邦制の下で州は独自の立法・司法権限を持つ。"},
+        {"id": 2, "text": "連邦政府は外交・軍事・通商規制等の特定権限を持ち州はそれ以外の幅広い権限を持つ", "explanation_zh": "陷阱：陈述近正确，但题目要求最适，看选项4更精准。", "explanation_ja": "誤り。誤りではない記述ではあるが本問の最適肢ではない。"},
+        {"id": 3, "text": "司法権は州が独占し連邦には司法機構が存在しない", "explanation_zh": "陷阱：主体错位。该国连邦也设有联邦司法机构。", "explanation_ja": "誤り。主体取違の罠。連邦にも独自の司法機構が存在する。"},
+        {"id": 4, "text": "連邦と州はそれぞれ独自の憲法・立法・司法機構を持ち権限分割の下で並存する", "explanation_zh": "正确。该国连邦制下，州亦有独立宪法、立法、司法机构,并存。", "explanation_ja": "正解。連邦と州はそれぞれ独自の憲法・立法・司法機構を持ち，権限分割の下で並存する連邦制が採用されている。"}
+      ],
+      "answer": 4,
+      "tag": {
+        "subject_domain": "政治",
+        "topic": "アメリカの政治制度",
+        "sub_domain": "政治体制",
+        "syllabus_path": {"area": "I 政治・経済・社会", "field": "現代の政治", "item": "4.政治参加"},
+        "question_form": "事実選択",
+        "statement_polarity": "正答正記述",
+        "time_sensitivity": "不変知識",
+        "requires_image": false,
+        "trap_patterns": ["概念混同", "主体取違"],
+        "keywords_to_avoid": ["連邦制", "司法権", "大統領", "議会"]
+      },
+      "sources": [
+        {
+          "claim": "The United States has a presidential system with separation of powers and federalism.",
+          "source": "The White House, Our Government",
+          "year": "2024",
+          "url": "https://www.whitehouse.gov/about-the-white-house/our-government/"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "global_id": 27,
+      "title": "問21",
+      "prompt": "日本の行政府の長の選出と立法府との関係に関する記述として最も適当なものはどれですか。",
+      "choices": [
+        {"id": 1, "text": "行政府の長は立法府の議員の中から立法府の議決で指名され立法府の信任に依存する", "explanation_zh": "正确。议院内阁制下,行政长由议会议员中指名,依赖议会信任。", "explanation_ja": "正解。日本では行政府の長は立法府の議員から指名され，立法府の信任に依存する仕組みが採られている。"},
+        {"id": 2, "text": "行政府の長は国民が直接選挙で選ぶ独立した存在である", "explanation_zh": "陷阱：主体错位。日本非直接选举,而是议会指名。", "explanation_ja": "誤り。主体取違の罠。直接選挙ではなく立法府が指名する。"},
+        {"id": 3, "text": "行政府の長は司法府の長官が任命する", "explanation_zh": "陷阱：概念混淆。司法不参与行政长选任。", "explanation_ja": "誤り。概念混同の罠。司法府は行政府の長を任命しない。"},
+        {"id": 4, "text": "行政府の長の任期は固定で立法府が解任することはできない", "explanation_zh": "陷阱：概念混淆。立法府可通过不信任案使其下台。", "explanation_ja": "誤り。概念混同の罠。立法府は不信任で内閣を退陣させうる。"}
+      ],
+      "answer": 1,
+      "tag": {
+        "subject_domain": "政治",
+        "topic": "日本の議院内閣制",
+        "sub_domain": "三権分立・統治機構",
+        "syllabus_path": {"area": "I 政治・経済・社会", "field": "現代の政治", "item": "1.民主政治"},
+        "question_form": "事実選択",
+        "statement_polarity": "正答正記述",
+        "time_sensitivity": "不変知識",
+        "requires_image": false,
+        "trap_patterns": ["概念混同", "主体取違"],
+        "keywords_to_avoid": ["内閣総理大臣", "閣議", "衆議院", "国会"]
+      },
+      "sources": [
+        {
+          "claim": "Japan has a parliamentary cabinet system under the Constitution.",
+          "source": "Japanese Law Translation, Constitution of Japan",
+          "year": "1947",
+          "url": "https://www.japaneselawtranslation.go.jp/en/laws/view/174"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "title": "問22",
+      "prompt": "次の問い(1)〜(2)に答えなさい。",
+      "passage": "",
+      "sub_questions": [
+        {
+          "sub_id": 1,
+          "global_id": 28,
+          "prompt": "「一つの選挙区から最多得票者一名を選出する選挙方式」と「政党の総得票数に応じて議席を比例配分する選挙方式」を比較する記述として最も適当なものはどれですか。",
+          "choices": [
+            {"id": 1, "text": "前者は二大政党制を促進しやすく後者は多党化を促進しやすい", "explanation_zh": "正确。简单多数制易使二大政党制,比例代表制易使多党制。", "explanation_ja": "正解。前者は二大政党制への傾向を生みやすく，後者は多党制への傾向を生みやすいという特徴がある。"},
+            {"id": 2, "text": "前者は得票率が議席率と完全に一致し後者は完全に乖離する", "explanation_zh": "陷阱：时序错置。前者死票多,后者更比例。", "explanation_ja": "誤り。時期の取り違えの罠。前者で死票が多く一致せず，後者の方が比例性が高い。"},
+            {"id": 3, "text": "両方式とも多党化を促進する効果は変わらない", "explanation_zh": "陷阱：主体错配。两者效果方向不同。", "explanation_ja": "誤り。主体の取り違えの罠。両者は政党制への効果が異なる。"},
+            {"id": 4, "text": "比例代表方式は二大政党制を強く促進する", "explanation_zh": "陷阱：因果误判。比例代表制易使多党化,非二大政党化。", "explanation_ja": "誤り。因果関係の誤判定の罠。比例代表は多党化に親和的である。"}
+          ],
+          "answer": 1,
+          "tag": {
+            "question_form": "正誤判定",
+            "statement_polarity": "正答正記述",
+            "trap_patterns": ["概念混同"],
+            "keywords_to_avoid": ["小選挙区制", "比例代表制"],
+            "sub_domain": "選挙・政党"
+          },
+          "sources": [
+            {
+              "claim": "Japanese Constitution protects rights including equality and freedoms.",
+              "source": "Japanese Law Translation, Constitution of Japan",
+              "year": "1947",
+              "url": "https://www.japaneselawtranslation.go.jp/en/laws/view/174"
+            }
+          ]
+        },
+        {
+          "sub_id": 2,
+          "global_id": 29,
+          "prompt": "現在の日本の下院に当たる議院の選挙制度に関する記述として最も適当なものはどれですか。",
+          "choices": [
+            {"id": 1, "text": "全議席が単純な比例代表方式のみで選ばれている", "explanation_zh": "陷阱：概念混淆。日本众议院采小选区比例代表并立制,非纯比例。", "explanation_ja": "誤り。概念混同の罠。日本の下院は小選挙区と比例代表の併用制を採る。"},
+            {"id": 2, "text": "全議席が単純な多数決方式のみで選ばれている", "explanation_zh": "陷阱：概念混淆。日本下院非单一多数制,亦含比例代表。", "explanation_ja": "誤り。概念混同の罠。比例代表部分が併存している。"},
+            {"id": 3, "text": "全議席が間接選挙によって選ばれている", "explanation_zh": "陷阱：范围扩大。日本下院是直接选举,非间接。", "explanation_ja": "誤り。範囲拡大の罠。直接選挙が原則である。"},
+            {"id": 4, "text": "小選挙区方式と比例代表方式を組み合わせた複合制が採用されている", "explanation_zh": "正确。日本众议院采小选区比例代表并立制（复合制）。", "explanation_ja": "正解。日本の下院では小選挙区と比例代表を組み合わせた複合制が採用されている。"}
+          ],
+          "answer": 4,
+          "tag": {
+            "question_form": "事実選択",
+            "statement_polarity": "正答正記述",
+            "trap_patterns": ["概念混同", "範囲拡大"],
+            "keywords_to_avoid": ["衆議院", "小選挙区制", "比例代表制", "複合制"],
+            "sub_domain": "選挙・政党",
+            "syllabus_path": {"area": "I 政治・経済・社会", "field": "現代の政治", "item": "2. 日本の統治機構"}
+          },
+          "sources": [
+            {
+              "claim": "Japanese Constitution protects rights including equality and freedoms.",
+              "source": "Japanese Law Translation, Constitution of Japan",
+              "year": "1947",
+              "url": "https://www.japaneselawtranslation.go.jp/en/laws/view/174"
+            }
+          ]
+        }
+      ],
+      "tag": {
+        "subject_domain": "政治",
+        "topic": "選挙制度と政党体制",
+        "sub_domain": "選挙・政党",
+        "syllabus_path": {"area": "I 政治・経済・社会", "field": "現代の政治", "item": "4.政治参加"},
+        "time_sensitivity": "不変知識",
+        "requires_image": false,
+        "keywords_to_avoid": ["選挙制度", "政治", "議会"]
+      }
+    },
+    {
+      "id": 23,
+      "global_id": 30,
+      "title": "問23",
+      "prompt": "日本国憲法における生活保障を求める権利に関する記述として最も適当なものはどれですか。",
+      "choices": [
+        {"id": 1, "text": "刑事手続上の黙秘権が生活保障を求める権利の代表例である", "explanation_zh": "陷阱：时序错置。沉默权属人身自由,非社会权。", "explanation_ja": "誤り。時期の取り違えの罠。黙秘権は身体的自由に属する。"},
+        {"id": 2, "text": "健康で文化的な最低限度の生活を営む権利や教育を受ける権利が生活保障を求める権利に含まれる", "explanation_zh": "正确。生存权和教育权是社会权的代表性内容。", "explanation_ja": "正解。健康で文化的な最低限度の生活を営む権利や教育を受ける権利は社会権の典型例である。"},
+        {"id": 3, "text": "国民の選挙権は生活保障を求める権利に分類される", "explanation_zh": "陷阱：主体错配。选举权属参政权,非社会权。", "explanation_ja": "誤り。主体の取り違えの罠。選挙権は参政権である。"},
+        {"id": 4, "text": "信教の自由は生活保障を求める権利の代表例である", "explanation_zh": "陷阱：因果误判。信教自由属精神自由,非社会权。", "explanation_ja": "誤り。因果関係の誤判定の罠。信教の自由は精神的自由に属する。"}
+      ],
+      "answer": 2,
+      "tag": {
+        "subject_domain": "政治",
+        "topic": "社会権と基本的人権",
+        "sub_domain": "憲法・人権",
+        "syllabus_path": {"area": "I 政治・経済・社会", "field": "現代の社会", "item": "2. 私法と契約"},
+        "question_form": "事実選択",
+        "statement_polarity": "正答正記述",
+        "time_sensitivity": "不変知識",
+        "requires_image": false,
+        "trap_patterns": ["概念混同", "主体取違"],
+        "keywords_to_avoid": ["社会権", "生存権", "教育", "黙秘権"]
+      },
+      "sources": [
+        {
+          "claim": "Social rights and basic human rights are guaranteed in constitutional systems.",
+          "source": "Japanese Law Translation, Constitution of Japan Articles 25-28",
+          "year": "1947",
+          "url": "https://www.japaneselawtranslation.go.jp/en/laws/view/174"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "global_id": 31,
+      "title": "問24",
+      "prompt": "日本の地方自治制度に関する記述として最も適当なものはどれですか。",
+      "choices": [
+        {"id": 1, "text": "住民は一定数以上の署名により条例の制定や首長・議員の解職を求める制度がある", "explanation_zh": "正确。日本地方自治法规定住民可通过直接请求条例制定及罢免。", "explanation_ja": "正解。日本では地方自治法により住民が一定数以上の署名で条例制定や首長・議員の解職等を求める直接請求制度が認められている。"},
+        {"id": 2, "text": "住民は連邦法によってのみ意思を表明できる", "explanation_zh": "陷阱：概念混淆。日本是单一制非联邦,无连邦法。", "explanation_ja": "誤り。概念混同の罠。日本は単一制であり連邦法という枠組みはない。"},
+        {"id": 3, "text": "住民の住民による請求は中央政府への要請に限定されている", "explanation_zh": "陷阱：范围扩大。直接请求是面向地方自治体的制度。", "explanation_ja": "誤り。範囲拡大の罠。直接請求は地方自治体に対する制度である。"},
+        {"id": 4, "text": "首長の選任は国会が行う", "explanation_zh": "陷阱：概念混淆。地方首长由住民直接选举,非国会选任。", "explanation_ja": "誤り。概念混同の罠。地方首長は住民の直接選挙で選ばれる。"}
+      ],
+      "answer": 1,
+      "tag": {
+        "subject_domain": "政治",
+        "topic": "地方自治体の直接請求制度",
+        "sub_domain": "地方自治",
+        "syllabus_path": {"area": "I 政治・経済・社会", "field": "現代の政治", "item": "2. 日本の統治機構"},
+        "question_form": "事実選択",
+        "statement_polarity": "正答正記述",
+        "time_sensitivity": "不変知識",
+        "requires_image": false,
+        "trap_patterns": ["概念混同", "範囲拡大"],
+        "keywords_to_avoid": ["直接請求", "地方自治", "首長", "議会"]
+      },
+      "sources": [
+        {
+          "claim": "Direct petition rights are part of Japan local autonomy institutions.",
+          "source": "総務省, 地方自治制度",
+          "year": "2024",
+          "url": "https://www.soumu.go.jp/main_sosiki/jichi_gyousei/"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "title": "問25",
+      "prompt": "次の問い(1)〜(2)に答えなさい。",
+      "sub_questions": [
+        {
+          "sub_id": 1,
+          "global_id": 32,
+          "prompt": "戦後設立された主要な国際機関の安全保障に関する基本理念として最も適当なものはどれですか。",
+          "choices": [
+            {"id": 1, "text": "加盟国は他国を侵略する権利を相互に承認する", "explanation_zh": "陷阱：概念混淆。该机关倡导和平解决,非承认侵略权。", "explanation_ja": "誤り。概念混同の罠。侵略の相互承認は安全保障の理念に反する。"},
+            {"id": 2, "text": "国際紛争は当事国の単独軍事行動による解決のみが許される", "explanation_zh": "陷阱：概念混淆。该机关倡导集体安全保障,非鼓励单独军事行动。", "explanation_ja": "誤り。概念混同の罠。集団安全保障の理念に反する。"},
+            {"id": 3, "text": "加盟国は紛争の平和的解決を原則とし侵略行為に対しては国際社会が集団的に対処する", "explanation_zh": "正确。集体安全保障核心是和平解决＋集体对应侵略。", "explanation_ja": "正解。紛争の平和的解決と侵略への国際的・集団的対処を組み合わせた集団安全保障の理念に該当する。"},
+            {"id": 4, "text": "国家間の境界線は完全に廃止され単一の世界国家が形成される", "explanation_zh": "陷阱：主体错位。该机关由主权国家组成,非取消国家。", "explanation_ja": "誤り。主体取違の罠。主権国家を前提とする制度設計である。"}
+          ],
+          "answer": 3,
+          "tag": {
+            "question_form": "事実選択",
+            "statement_polarity": "正答正記述",
+            "trap_patterns": ["概念混同", "主体取違"],
+            "keywords_to_avoid": ["集団安全保障", "国連憲章"],
+            "sub_domain": "国際政治・外交"
+          },
+          "sources": [
+            {
+              "claim": "Modern political thought and democratic institutions developed through major revolutions.",
+              "source": "Encyclopaedia Britannica, Political philosophy",
+              "year": "2024",
+              "url": "https://www.britannica.com/topic/political-philosophy"
+            }
+          ]
+        },
+        {
+          "sub_id": 2,
+          "global_id": 33,
+          "prompt": "戦後設立された主要な国際機関において，侵略行為への軍事的強制措置の決定権限を担う主要機関に関する記述として最も適当なものはどれですか。",
+          "choices": [
+            {"id": 1, "text": "総会の全加盟国の単純過半数で軍事的強制措置を決定する", "explanation_zh": "陷阱：时序错置。军事强制措施由安保理事会决定,非总会。", "explanation_ja": "誤り。時期の取り違えの罠。軍事的強制措置の決定権限は別機関にある。"},
+            {"id": 2, "text": "限定された常任理事国と非常任理事国で構成される機関が決定権限を持ち常任理事国は重要事項で拒否権を有する", "explanation_zh": "正确。安全保障理事会构造与否决权机制即此选项。", "explanation_ja": "正解。常任理事国と非常任理事国から構成される機関が軍事的強制措置の決定権限を担い，重要事項では常任理事国の拒否権が認められる。"},
+            {"id": 3, "text": "国際司法裁判所が独立して軍事的強制措置を決定する", "explanation_zh": "陷阱：主体错配。国际司法裁判所不决定军事强制措施。", "explanation_ja": "誤り。主体の取り違えの罠。国際司法裁判所は軍事的強制措置を決定しない。"},
+            {"id": 4, "text": "事務総局が単独で軍事行動の許可を発令する", "explanation_zh": "陷阱：因果误判。事务总长无单独军事许可权限。", "explanation_ja": "誤り。因果関係の誤判定の罠。事務総長単独では軍事的強制措置を決定できない。"}
+          ],
+          "answer": 2,
+          "tag": {
+            "question_form": "事実選択",
+            "statement_polarity": "正答正記述",
+            "trap_patterns": ["主体取違", "時態錯位"],
+            "keywords_to_avoid": ["安全保障理事会", "軍事的強制措置", "戦争"],
+            "sub_domain": "国際政治・外交"
+          },
+          "sources": [
+            {
+              "claim": "Modern political thought and democratic institutions developed through major revolutions.",
+              "source": "Encyclopaedia Britannica, Political philosophy",
+              "year": "2024",
+              "url": "https://www.britannica.com/topic/political-philosophy"
+            }
+          ]
+        }
+      ],
+      "tag": {
+        "subject_domain": "政治",
+        "topic": "国際連合の安全保障体制",
+        "sub_domain": "国際政治・外交",
+        "syllabus_path": {"area": "I 政治・経済・社会", "field": "現代の政治", "item": "5. 国際政治"},
+        "time_sensitivity": "不変知識",
+        "requires_image": false,
+        "keywords_to_avoid": ["国際連合", "安全保障", "紛争"]
+      }
+    },
+    {
+      "id": 26,
+      "title": "問26",
+      "prompt": "次の文章を読み，下の問い(1)〜(3)に答えなさい。本文：「十九世紀末から二十世紀初頭にかけて，欧州の大国は二つの同盟ブロックに分かれた。一方のブロックには中欧の大帝国Aと地中海方面の王国B，そして近東地域に勢力を持つ別の帝国Cが含まれた。もう一方のブロックには，西欧の海洋国家Dと大陸西部の共和国E，東方の大帝国Fが含まれた。」",
+      "sub_questions": [
+        {
+          "sub_id": 1,
+          "global_id": 34,
+          "prompt": "本文で述べられる「中欧の大帝国A」に関する記述として最も適当なものはどれですか。",
+          "choices": [
+            {"id": 1, "text": "Aは北欧の小君主国であった", "explanation_zh": "陷阱：时序错置。A为中欧大帝国，非北欧小君主国。", "explanation_ja": "誤り。時期の取り違えの罠。Aは中欧の大帝国である。"},
+            {"id": 2, "text": "Aは西半球の連邦共和国であった", "explanation_zh": "陷阱：主体错配。A在中欧,非西半球。", "explanation_ja": "誤り。主体の取り違えの罠。Aは中欧大陸内の帝国である。"},
+            {"id": 3, "text": "Aは中欧に位置する立憲君主制の大帝国であった", "explanation_zh": "正确。20世纪初中欧大帝国是立宪君主制。", "explanation_ja": "正解。Aは中欧に位置する立憲君主制の大帝国であった点が本文の記述と整合する。"},
+            {"id": 4, "text": "Aは南極大陸を支配する植民地帝国であった", "explanation_zh": "陷阱：因果误判。A在中欧,与南极无关。", "explanation_ja": "誤り。因果関係の誤判定の罠。Aの位置は中欧であって南極ではない。"}
+          ],
+          "answer": 3,
+          "tag": {
+            "question_form": "事実選択",
+            "statement_polarity": "正答正記述",
+            "trap_patterns": ["主体取違", "地域取違"],
+            "keywords_to_avoid": ["A国", "B国", "ロシア", "オーストリア"],
+            "sub_domain": "近代日本"
+          },
+          "sources": [
+            {
+              "claim": "European integration and East Asian history are standard modern history topics.",
+              "source": "Encyclopaedia Britannica, Modern Europe / East Asia",
+              "year": "2024",
+              "url": "https://www.britannica.com/"
+            }
+          ]
+        },
+        {
+          "sub_id": 2,
+          "global_id": 35,
+          "prompt": "本文で述べられる「西欧の海洋国家D」に関する記述として最も適当なものはどれですか。",
+          "choices": [
+            {"id": 1, "text": "Dは内陸の大陸国家であった", "explanation_zh": "陷阱：时序错置。D为海洋国家,非内陆。", "explanation_ja": "誤り。時期の取り違えの罠。Dは海洋国家である。"},
+            {"id": 2, "text": "Dは東方の遊牧帝国であった", "explanation_zh": "陷阱：主体错配。D位西欧海洋国家,非东方游牧帝国。", "explanation_ja": "誤り。主体の取り違えの罠。Dは西欧の海洋国家であって東方ではない。"},
+            {"id": 3, "text": "Dは中央アジアの内陸帝国であった", "explanation_zh": "陷阱：因果误判。D位西欧海洋国,非中亚内陆。", "explanation_ja": "誤り。因果関係の誤判定の罠。Dは西欧の海洋国家である。"},
+            {"id": 4, "text": "Dは西欧に位置する海軍力に優れた海洋国家であった", "explanation_zh": "正确。本文已说明D为西欧海洋国家,海军优秀。", "explanation_ja": "正解。Dは西欧に位置し海軍力に優れた海洋国家であった点で本文と整合する。"}
+          ],
+          "answer": 4,
+          "tag": {
+            "question_form": "事実選択",
+            "statement_polarity": "正答正記述",
+            "trap_patterns": ["主体取違", "地域取違"],
+            "keywords_to_avoid": ["A国", "イギリス", "協商", "中央アジア"],
+            "sub_domain": "近代日本"
+          },
+          "sources": [
+            {
+              "claim": "European integration and East Asian history are standard modern history topics.",
+              "source": "Encyclopaedia Britannica, Modern Europe / East Asia",
+              "year": "2024",
+              "url": "https://www.britannica.com/"
+            }
+          ]
+        },
+        {
+          "sub_id": 3,
+          "global_id": 36,
+          "prompt": "本文で述べられる二つの同盟ブロックの対立に関する記述として最も適当なものはどれですか。",
+          "choices": [
+            {"id": 1, "text": "両ブロックの対立は二十一世紀初頭に発生した", "explanation_zh": "陷阱：时态错位。本文是19世纪末-20世纪初的对立。", "explanation_ja": "誤り。時態錯位の罠。本文は十九世紀末から二十世紀初頭の対立を述べる。"},
+            {"id": 2, "text": "両ブロックは同一の指導者の下で統合運営された", "explanation_zh": "陷阱：主体错位。两阵营彼此对立,非统一指挥。", "explanation_ja": "誤り。主体取違の罠。両ブロックは互いに対立する陣営である。"},
+            {"id": 3, "text": "両ブロックは植民地戦争を一切行わなかった", "explanation_zh": "陷阱：时态错位。该时期殖民地竞争激烈。", "explanation_ja": "誤り。時態錯位の罠。当時は植民地競争が活発であった。"},
+            {"id": 4, "text": "両ブロックの対立は二十世紀前半の大規模戦争を引き起こす要因となった", "explanation_zh": "正确。两阵营对立成为20世纪前半世界大战的要因。", "explanation_ja": "正解。両ブロックの対立は二十世紀前半に発生した大規模戦争の要因となった。"}
+          ],
+          "answer": 4,
+          "tag": {
+            "question_form": "事実選択",
+            "statement_polarity": "正答正記述",
+            "trap_patterns": ["主体取違", "時態錯位"],
+            "keywords_to_avoid": ["B国", "同盟国", "参戦", "オスマン帝国"],
+            "sub_domain": "近代日本",
+            "syllabus_path": {"area": "III 歴史", "field": "歴史", "item": "2. 二つの世界大戦とその影響"}
+          },
+          "sources": [
+            {
+              "claim": "European integration and East Asian history are standard modern history topics.",
+              "source": "Encyclopaedia Britannica, Modern Europe / East Asia",
+              "year": "2024",
+              "url": "https://www.britannica.com/"
+            }
+          ]
+        }
+      ],
+      "tag": {
+        "subject_domain": "歴史",
+        "topic": "第一次世界大戦前のヨーロッパ同盟体制",
+        "sub_domain": "近代日本",
+        "syllabus_path": {"area": "III 歴史", "field": "歴史", "item": "1. 近代化の進展とその影響"},
+        "time_sensitivity": "不変知識",
+        "requires_image": false,
+        "keywords_to_avoid": ["同盟", "協商", "ヨーロッパ", "WWI"]
+      }
+    },
+    {
+      "id": 27,
+      "global_id": 37,
+      "title": "問27",
+      "prompt": "1929年に発生した世界規模の経済恐慌に対する各国の対応の比較として最も適当なものはどれですか。",
+      "choices": [
+        {"id": 1, "text": "全ての国が金本位制を維持し財政均衡を厳格に守った", "explanation_zh": "陷阱：时序错置。多数国家放弃金本位以应对大恐慌。", "explanation_ja": "誤り。時期の取り違えの罠。多くの国は金本位制を離脱した。"},
+        {"id": 2, "text": "全ての国が自由貿易を強化し関税を全廃した", "explanation_zh": "陷阱：主体错配。大恐慌中保护主义抬头,关税大幅上升。", "explanation_ja": "誤り。主体の取り違えの罠。実際には保護主義と関税引上げが進んだ。"},
+        {"id": 3, "text": "ある北米の連邦国家では大規模公共事業と社会保障の強化を組み合わせた政策が採られた", "explanation_zh": "正确。北美连邦国家以大规模公共事业＋社会保障应对大恐慌。", "explanation_ja": "正解。北米の連邦国家では大規模公共事業の実施と社会保障の整備を組み合わせた政策が大恐慌対応として採られた。"},
+        {"id": 4, "text": "全ての国が植民地保護を放棄し市場原理に完全委任した", "explanation_zh": "陷阱：因果误判。各帝国反而强化殖民地block体制。", "explanation_ja": "誤り。因果関係の誤判定の罠。各帝国は植民地ブロック体制を強化した。"}
+      ],
+      "answer": 3,
+      "tag": {
+        "subject_domain": "歴史",
+        "topic": "大恐慌に対する各国の対策",
+        "sub_domain": "経済史",
+        "syllabus_path": {"area": "I 政治・経済・社会", "field": "現代の経済", "item": "6. 財政"},
+        "question_form": "事実選択",
+        "statement_polarity": "正答正記述",
+        "time_sensitivity": "不変知識",
+        "requires_image": false,
+        "trap_patterns": ["主体取違", "概念混同"],
+        "keywords_to_avoid": ["大恐慌", "1929年", "フランス", "ドイツ", "アメリカ"]
+      },
+      "sources": [
+        {
+          "claim": "Responses to the Great Depression included New Deal and bloc economies.",
+          "source": "Encyclopaedia Britannica, Great Depression",
+          "year": "1930s",
+          "url": "https://www.britannica.com/event/Great-Depression"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "global_id": 38,
+      "title": "問28",
+      "prompt": "次のA〜Dの戦後日本の主要出来事を年代の古い順に並べたものとして正しいものはどれですか。A：日本国憲法の施行。B：主権回復のための講和条約の発効。C：国際連合への加盟。D：南西諸島の本土復帰。",
+      "passage": "",
+      "choices": [
+        {"id": 1, "text": "B → A → C → D", "explanation_zh": "陷阱：时序错置。宪法施行早于讲和条约,A应先于B。", "explanation_ja": "誤り。時期の取り違えの罠。Aの憲法施行はBより前である。"},
+        {"id": 2, "text": "A → B → C → D", "explanation_zh": "正确。1947憲法→1952讲和条约→1956国連加盟→1972冲绳复归。", "explanation_ja": "正解。Aは1947年，Bは1952年，Cは1956年，Dは1972年で年代順に一致する。"},
+        {"id": 3, "text": "C → A → B → D", "explanation_zh": "陷阱：主体错配。国连加盟在宪法施行之后,顺序错。", "explanation_ja": "誤り。主体の取り違えの罠。CはAより後である。"},
+        {"id": 4, "text": "D → C → B → A", "explanation_zh": "陷阱：因果误判。完全反向,与年代不符。", "explanation_ja": "誤り。因果関係の誤判定の罠。年代と完全に逆である。"}
+      ],
+      "answer": 2,
+      "tag": {
+        "subject_domain": "歴史",
+        "topic": "戦後日本の主要出来事と年代順序",
+        "sub_domain": "現代日本",
+        "syllabus_path": {"area": "I 政治・経済・社会", "field": "現代の政治", "item": "3. 日本国憲法"},
+        "question_form": "時系列整序",
+        "statement_polarity": "正答正記述",
+        "time_sensitivity": "不変知識",
+        "requires_image": false,
+        "trap_patterns": ["順序混同"],
+        "keywords_to_avoid": ["沖縄返還", "国連加盟", "日本国憲法", "サンフランシスコ平和条約"]
+      },
+      "sources": [
+        {
+          "claim": "Postwar Japan chronology includes occupation, treaties, high growth and political changes.",
+          "source": "National Diet Library, Modern Japan in archives",
+          "year": "1945",
+          "url": "https://www.ndl.go.jp/modern/e/"
+        }
+      ]
+    }
+  ]
+}

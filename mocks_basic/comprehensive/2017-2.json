@@ -1,0 +1,1024 @@
+{
+  "subject": "comprehensive",
+  "section": "",
+  "year": 2017,
+  "round": 2,
+  "title": "模擬試験 総合科目 第十回",
+  "image_path": "comprehensive/images/2017-2",
+  "questions": [
+  {
+    "id": 1,
+    "title": "問1",
+    "prompt": "次の文章を読み、下の問い(1)〜(4)に答えなさい。",
+    "passage": "アメリカ合衆国は、立法・行政・司法の三権を厳格に分離する大統領制を採用している。大統領は国民による選挙を基礎に選出され、任期は四年間である。大統領は議会が可決した法案に対して拒否権をもつ一方、議会を解散する権限はもたない。また議会も大統領に対する不信任決議の権限をもたない。こうした制度は、行政府の長が議会の信任に依存する議院内閣制とは対照的である。",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":1,
+        "prompt":"アメリカ大統領制に関する記述として正しいものはどれですか。",
+        "choices":[
+          {"id":1,"text":"大統領の任期は6年で、再選は一切認められていない。","explanation_zh":"陷阱：数值混同。美国总统任期为4年，且宪法修正第22条限制为最多两任，并非6年、也非完全禁止再选。","explanation_ja":"誤り。数値混同の罠。大統領の任期は4年であり、再選は1回まで認められる。6年で再選禁止という記述は誤り。"},
+          {"id":2,"text":"大統領は議会を解散する権限をもたない。","explanation_zh":"正确。三权分立下大统领无议会解散权，本文亦明确大统领无议会解散权。","explanation_ja":"正解。厳格な三権分立のもと、大統領は議会解散権をもたない。本文の記述と一致する。"},
+          {"id":3,"text":"大統領は議会が可決した法案を拒否することができない。","explanation_zh":"陷阱：主体错位。总统对法案拥有否决权，本文写明大统领拥有否决权，此项把权限张冠李戴。","explanation_ja":"誤り。主体取違の罠。大統領は法案への拒否権をもつ。本文の「拒否権をもつ」と矛盾する。"},
+          {"id":4,"text":"大統領は議会の信任に依存し、不信任を受ければ辞職する。","explanation_zh":"陷阱：概念混淆。依赖议会信任、可被不信任案罢免的是议院内阁制的首相，而非大统领。","explanation_ja":"誤り。議会の信任に依存し不信任で辞職するのは議院内閣制の首相であり、大統領制とは異なる。"}
+        ],
+        "answer":2,
+        "tag":{
+          "question_form":"正誤判定",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["数値混同","主体取違"],
+          "keywords_to_avoid":["4年","5年","三選禁止","フランス","イギリス","半大統領制"],
+          "sub_domain":"現代世界",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"1.民主政治"}
+        },
+        "sources":[{"claim":"U.S. presidential term is four years and the 22nd Amendment limits election to two terms.","source":"U.S. Constitution, Amendment XXII / National Archives","year":"1951","url":"https://www.archives.gov/founding-docs/amendments-11-27"}]
+      },
+      {
+        "sub_id":2,
+        "global_id":2,
+        "prompt":"2020年の名目GDP（世界銀行、米ドル）は、アメリカ合衆国が約20.9兆ドル、中国が約14.7兆ドル、日本が約5.0兆ドル、ドイツが約3.8兆ドルであった。この数値から読み取れる内容として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"日本の名目GDPはドイツの2倍を超えていた。","explanation_zh":"陷阱：数值混同。日本约5.0兆美元、德国约3.8兆美元，未达两倍。","explanation_ja":"誤り。数値混同の罠。日本約5.0兆ドルはドイツ約3.8兆ドルの2倍に達していない。"},
+          {"id":2,"text":"ドイツの名目GDPは中国を上回っていた。","explanation_zh":"陷阱：地域错位。中国约14.7兆美元远超德国约3.8兆美元，比较对象张冠李戴。","explanation_ja":"誤り。地域取違の罠。中国約14.7兆ドルはドイツ約3.8兆ドルを大きく上回る。"},
+          {"id":3,"text":"名目GDPが最も大きいのはアメリカ合衆国であった。","explanation_zh":"正确。美国约20.9兆美元，居四国之首。","explanation_ja":"正解。アメリカ合衆国は約20.9兆ドルで、4か国の中で最大であった。"},
+          {"id":4,"text":"4か国の名目GDPはすべて等しかった。","explanation_zh":"陷阱：范围扩大。四国数值各异，从约3.8兆到约20.9兆美元不等。","explanation_ja":"誤り。範囲拡大の罠。4か国の値は約3.8兆〜約20.9兆ドルと大きく異なる。"}
+        ],
+        "answer":3,
+        "tag":{
+          "question_form":"図表読取",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["地域取違"],
+          "keywords_to_avoid":["ワシントンD.C.","連邦議会議事堂","アメリカ東海岸"],
+          "sub_domain":"現代世界",
+          "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"}
+        },
+        "sources":[{"claim":"2020年名目GDP: 米20.9兆/中14.7兆/日5.0兆/独3.8兆ドル","source":"World Bank, GDP (current US$)","year":"2020","url":"https://data.worldbank.org/indicator/NY.GDP.MKTP.CD"}]
+      },
+      {
+        "sub_id":3,
+        "global_id":3,
+        "prompt":"アメリカ大統領の選出に関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"連邦最高裁判所の長官が大統領を任命する。","explanation_zh":"陷阱：主体错位。司法机关不参与总统选任，大统领以国民选举为基础选出。","explanation_ja":"誤り。主体取違の罠。最高裁長官は大統領を任命せず、大統領は国民による選挙を基礎に選ばれる。"},
+          {"id":2,"text":"大統領は国民の選挙を基礎として選出される。","explanation_zh":"正确。本文明确大统领以国民选举为基础选出。","explanation_ja":"正解。本文のとおり、大統領は国民による選挙を基礎として選出される。"},
+          {"id":3,"text":"大統領は連邦議会の多数党によって指名される。","explanation_zh":"陷阱：概念混淆。由议会多数派指名行政首长是议院内阁制特征，非美国大统领制。","explanation_ja":"誤り。議会多数党が行政の長を指名するのは議院内閣制の方式で、大統領制とは異なる。"},
+          {"id":4,"text":"かつては国民が直接選んだが、現在は議会が選任する制度に変わった。","explanation_zh":"陷阱：时态错位。美国总统选出方式始终以国民选举为基础，未变为议会选任。","explanation_ja":"誤り。時態錯位の罠。大統領は一貫して国民の選挙を基礎に選ばれており、議会選任に変わってはいない。"}
+        ],
+        "answer":2,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["主体取違","時態錯位"],
+          "keywords_to_avoid":["アイゼンハワー","ニクソン","レーガン","クリントン","共和党"],
+          "sub_domain":"現代世界"
+        },
+        "sources":[{"claim":"米大統領は国民の選挙（選挙人を通じた間接選挙）を基礎に選出される","source":"アメリカ合衆国大統領（解説）","year":"1787","url":"https://www.y-history.net/appendix/wh1102-046.html"}]
+      },
+      {
+        "sub_id":4,
+        "global_id":4,
+        "prompt":"大統領制と議院内閣制の違いに関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"議院内閣制では行政府が議会を解散できないが、大統領制では大統領が議会を解散できる。","explanation_zh":"陷阱：因果倒置。事实相反，大统领无解散权，而议院内阁制下内阁可解散议会。","explanation_ja":"誤り。因果倒置の罠。実際は逆で、大統領は解散権をもたず、議院内閣制では内閣が議会を解散できる。"},
+          {"id":2,"text":"大統領制では行政府の長が議会の信任に依存する。","explanation_zh":"陷阱：概念混淆。依赖议会信任的是议院内阁制的首相，大统领不依赖议会信任。","explanation_ja":"誤り。概念混同の罠。議会の信任に依存するのは議院内閣制であり、大統領制ではない。"},
+          {"id":3,"text":"議院内閣制では行政府の長が議会の信任に依存するが、大統領制ではしない。","explanation_zh":"正确。本文对比指出大统领制行政首长不依赖议会信任，议院内阁制则相反。","explanation_ja":"正解。本文の対比のとおり、議院内閣制の長は議会の信任に依存するが、大統領制ではしない。"},
+          {"id":4,"text":"両制度とも行政府の長は司法府によって選任される。","explanation_zh":"陷阱：概念混淆。两种制度行政首长均非由司法机关选任。","explanation_ja":"誤り。概念混同の罠。いずれの制度でも行政の長が司法府に選任されることはない。"}
+        ],
+        "answer":3,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["因果倒置","概念混同"],
+          "keywords_to_avoid":["NAFTA","メキシコ","カナダ","共通金融政策","関税撤廃"],
+          "sub_domain":"現代世界",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"2.市場経済"}
+        },
+        "sources":[{"claim":"議院内閣制は行政府が議会の信任に依存、大統領制は依存しない","source":"アメリカ合衆国大統領（解説）","year":"1787","url":"https://www.y-history.net/appendix/wh1102-046.html"}]
+      }
+    ],
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"アメリカ大統領制・政治体制",
+      "sub_domain":"現代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"2. 二つの世界大戦とその影響"},
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "keywords_to_avoid":["トランプ","アメリカ・ファースト","TPP","NAFTA"]
+    }
+  },
+  {
+    "id": 2,
+    "title": "問2",
+    "prompt": "次の文章を読み、下の問い(1)〜(4)に答えなさい。",
+    "passage": "大洋州の島嶼国島嶼国A共和国は、大戦後アメリカ合衆国の国連信託統治下に置かれ、1994年に自由連合盟約（コンパクト）を結んでアメリカと自由連合関係に入り、独立した。この盟約により、島嶼国Aはアメリカから経済援助を受ける一方、国防と安全保障の権限をアメリカに委ねている。政治体制はアメリカを参考にした大統領中心制度で、大統領は任期4年で直接選挙によって選出される。国土は多数の島々からなり、観光関連産業が主要産業の一つである。",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":5,
+        "prompt":"島嶼国A共和国の独立に関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"1994年に自由連合盟約を結び、アメリカと自由連合関係に入って独立した。","explanation_zh":"正确。本文明确帕劳1994年与美国结成自由联合盟约并独立。","explanation_ja":"正解。本文のとおり、パラオは1994年に自由連合盟約を結びアメリカと自由連合関係に入って独立した。"},
+          {"id":2,"text":"国際連盟の委任統治を経て1920年代に独立した。","explanation_zh":"陷阱：时态错位。帕劳战后受美国国连信托统治，1994年才独立，与1920年代无关。","explanation_ja":"誤り。時態錯位の罠。パラオは戦後アメリカの国連信託統治下にあり、独立は1994年である。"},
+          {"id":3,"text":"イギリスの植民地から独立し、英連邦に加盟した。","explanation_zh":"陷阱：主体错位。帕劳与美国结成自由联合，并非英国殖民地或英联邦成员。","explanation_ja":"誤り。主体取違の罠。パラオはアメリカと自由連合を結んでおり、イギリスの植民地ではない。"},
+          {"id":4,"text":"自由連合盟約により外交権をアメリカから完全に独立して行使している。","explanation_zh":"陷阱：概念混淆。盟约下帕劳将国防与安保权委托美国，并非完全独立行使。","explanation_ja":"誤り。概念混同の罠。盟約により国防・安全保障の権限はアメリカに委ねられている。"}
+        ],
+        "answer":1,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["主体取違","概念混同"],
+          "keywords_to_avoid":["立憲君主制","大統領制","議会","二院制"],
+          "sub_domain":"アフリカ・オセアニア",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"1.民主政治"}
+        },
+        "sources":[{"claim":"パラオは1994年に自由連合盟約を結び独立、国防・安保はアメリカに委任","source":"外務省 パラオ基礎データ／自由連合盟約","year":"1994","url":"https://www.mofa.go.jp/mofaj/area/palau/data.html"}]
+      },
+      {
+        "sub_id":2,
+        "global_id":6,
+        "prompt":"2020年の総人口（世界銀行）は、フィジーが約89.6万人、島嶼地域連邦が約11.5万人、マーシャル諸島が約5.9万人、島嶼国Aが約1.8万人であった。この数値から読み取れる内容として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"島嶼国Aの総人口はマーシャル諸島を上回っていた。","explanation_zh":"陷阱：数值混同。帕劳约1.8万人，少于马绍尔约5.9万人。","explanation_ja":"誤り。数値混同の罠。パラオ約1.8万人はマーシャル諸島約5.9万人を下回る。"},
+          {"id":2,"text":"島嶼地域連邦の総人口はフィジーを上回っていた。","explanation_zh":"陷阱：地域错位。斐济约89.6万人远多于密克罗尼西亚约11.5万人，比较对象错置。","explanation_ja":"誤り。地域取違の罠。フィジー約89.6万人はミクロネシア連邦約11.5万人を大きく上回る。"},
+          {"id":3,"text":"総人口が最も少ないのは島嶼国Aであった。","explanation_zh":"正确。帕劳约1.8万人，是四国中最少。","explanation_ja":"正解。パラオは約1.8万人で、4か国の中で最も総人口が少なかった。"},
+          {"id":4,"text":"4か国の総人口はすべて100万人を超えていた。","explanation_zh":"陷阱：范围扩大。仅斐济接近90万，其余均不足12万，无一超过百万。","explanation_ja":"誤り。範囲拡大の罠。最多のフィジーでも約89.6万人で、いずれも100万人を超えない。"}
+        ],
+        "answer":3,
+        "tag":{
+          "question_form":"図表読取",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["地域取違"],
+          "keywords_to_avoid":["パラオ","太平洋","ミクロネシア","ポリネシア","メラネシア"],
+          "sub_domain":"アフリカ・オセアニア",
+          "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"}
+        },
+        "sources":[{"claim":"2020年総人口: フィジー約89.6万/ミクロネシア約11.5万/マーシャル約5.9万/パラオ約1.8万","source":"World Bank, Population, total","year":"2020","url":"https://data.worldbank.org/indicator/SP.POP.TOTL"}]
+      },
+      {
+        "sub_id":3,
+        "global_id":7,
+        "prompt":"自由連合盟約に基づく島嶼国Aとアメリカの関係に関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"島嶼国Aがアメリカに経済援助を提供する見返りに、アメリカが国防を委ねている。","explanation_zh":"陷阱：因果倒置。实际是美国向帕劳提供经济援助，帕劳将国防委托美国，方向相反。","explanation_ja":"誤り。因果倒置の罠。実際はアメリカがパラオに経済援助を与え、パラオが国防を委ねている。"},
+          {"id":2,"text":"島嶼国Aは国防・安全保障の権限をアメリカに委ね、経済援助を受けている。","explanation_zh":"正确。本文写明帕劳将国防安保委托美国、并受经济援助。","explanation_ja":"正解。本文のとおり、パラオは国防・安全保障をアメリカに委ね、経済援助を受けている。"},
+          {"id":3,"text":"盟約により島嶼国Aの全権限がアメリカに移譲され、自治はまったく認められていない。","explanation_zh":"陷阱：范围扩大。帕劳为独立国家、保有内政自治，仅国防安保委托美国。","explanation_ja":"誤り。範囲拡大の罠。パラオは独立国で内政の自治をもち、委ねたのは国防・安保に限られる。"},
+          {"id":4,"text":"盟約によりアメリカの州の一つとして島嶼国Aが編入された。","explanation_zh":"陷阱：概念混淆。自由联合是独立国家间的盟约，并非编入美国成为州。","explanation_ja":"誤り。概念混同の罠。自由連合は独立国間の盟約であり、アメリカの州への編入ではない。"}
+        ],
+        "answer":2,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["因果倒置","範囲拡大"],
+          "keywords_to_avoid":["観光業","国際収支","食料自給率","工業化"],
+          "sub_domain":"アフリカ・オセアニア",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"10. 国際経済"}
+        },
+        "sources":[{"claim":"Palau is in free association with the United States under the Compact of Free Association.","source":"U.S. Department of State, U.S. Relations With Palau","year":"1994","url":"https://www.state.gov/u-s-relations-with-palau/"}]
+      },
+      {
+        "sub_id":4,
+        "global_id":8,
+        "prompt":"島嶼国Aの政治体制に関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"アメリカを参考にした大統領中心制度をとり、大統領は直接選挙で選出される。","explanation_zh":"正确。本文写明帕劳采用参考美国的大统领制、总统直选。","explanation_ja":"正解。本文のとおり、パラオはアメリカを参考にした大統領制をとり、大統領は直接選挙で選ばれる。"},
+          {"id":2,"text":"国王を元首とする立憲君主制を採用している。","explanation_zh":"陷阱：主体错位。帕劳为大统领制共和国，并无国王。","explanation_ja":"誤り。主体取違の罠。パラオは大統領制の共和国であり、国王を戴く君主制ではない。"},
+          {"id":3,"text":"独立当初は大統領中心制度だったが、現在は議院内閣制に移行した。","explanation_zh":"陷阱：时态错位。帕劳一直采用大统领制，未转为议院内阁制。","explanation_ja":"誤り。時態錯位の罠。パラオは一貫して大統領制であり、議院内閣制へ移行していない。"},
+          {"id":4,"text":"大統領はアメリカ大統領によって任命される。","explanation_zh":"陷阱：主体错位。帕劳总统由本国国民直选，并非由美国总统任命。","explanation_ja":"誤り。主体取違の罠。パラオ大統領は自国民の直接選挙で選ばれ、アメリカ大統領が任命するのではない。"}
+        ],
+        "answer":1,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["主体取違","時態錯位"],
+          "keywords_to_avoid":["第一次世界大戦","第二次世界大戦","米西戦争","日清戦争","委任統治"],
+          "sub_domain":"アフリカ・オセアニア",
+          "syllabus_path":{"area":"III 歴史","field":"歴史","item":"2. 二つの世界大戦とその影響"}
+        },
+        "sources":[{"claim":"パラオは大統領制、大統領は任期4年・直接選挙で選出","source":"外務省 パラオ基礎データ","year":"1994","url":"https://www.mofa.go.jp/mofaj/area/palau/data.html"}]
+      }
+    ],
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"パラオ共和国・太平洋島嶼国",
+      "sub_domain":"アフリカ・オセアニア",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"2. 現代世界の諸地域"},
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "keywords_to_avoid":["パラオ","大統領制","二院制","日本の委任統治","第一次世界大戦"]
+    }
+  },
+  {
+    "id": 3,
+    "global_id": 9,
+    "title": "問3",
+    "prompt": "ある労働市場について、賃金が時給1000円のとき労働需要は120万人・労働供給は80万人、賃金が時給1400円のとき労働需要は80万人・労働供給は120万人であったとする。この数値から読み取れる内容として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"賃金が上がると労働需要は増加する。","explanation_zh":"陷阱：因果倒置。需求随工资上升从120万降到80万人，是减少。","explanation_ja":"誤り。因果倒置の罠。賃金が1000円から1400円に上がると労働需要は120万人から80万人へ減少する。"},
+      {"id":2,"text":"賃金が上がると労働供給は減少する。","explanation_zh":"陷阱：概念混淆。供给随工资上升从80万增到120万人，是增加，与需求相反。","explanation_ja":"誤り。概念混同の罠。賃金上昇で労働供給は80万人から120万人へ増加し、減少ではない。"},
+      {"id":3,"text":"時給1000円では労働供給が労働需要を上回る。","explanation_zh":"陷阱：数值混同。1000円时需求120万、供给80万人，需求大于供给。","explanation_ja":"誤り。数値混同の罠。時給1000円では需要120万人が供給80万人を上回り、供給超過ではない。"},
+      {"id":4,"text":"時給1000円では超過需要、時給1400円では超過供給が生じる。","explanation_zh":"正确。1000円时需求120万>供给80万为超额需求；1400円时供给120万>需求80万为超额供给。","explanation_ja":"正解。時給1000円では需要120万人＞供給80万人で超過需要、1400円では供給120万人＞需要80万人で超過供給となる。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"最低賃金・労働需給",
+      "sub_domain":"経済原理・市場",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"3.経済主体"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["因果倒置","概念混同"],
+      "keywords_to_avoid":["最低賃金","労働需要曲線","労働供給曲線","失業"]
+    },
+    "passage": "",
+    "sources": [{"claim":"賃金上昇で労働需要は減少・労働供給は増加し、低賃金で超過需要・高賃金で超過供給となる（需給法則）","source":"需要と供給・市場メカニズムの基礎理論","year":"2020","url":"https://www.boj.or.jp/about/education/oshiete/"}]
+  },
+  {
+    "id": 4,
+    "global_id": 10,
+    "title": "問4",
+    "prompt": "古典派経済学者の相対優位論に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"各国はすべての財を他国より安く生産できる財だけを輸出すべきである。","explanation_zh":"陷阱：概念混淆。这是绝对优势的理解，比较优势看相对生产成本而非绝对优势。","explanation_ja":"誤り。概念混同の罠。これは絶対優位の考え方で、比較優位は相対的な生産費の比較に基づく。"},
+      {"id":2,"text":"相対優位論は、アダム・スミスが絶対優位論を否定して唱えた。","explanation_zh":"陷阱：主体错位。比较优势论由李嘉图提出，并非亚当·斯密；二者亦非否定关系。","explanation_ja":"誤り。主体取違の罠。比較優位論を唱えたのはリカードであり、アダム・スミスではない。"},
+      {"id":3,"text":"ある国が両財とも他国より生産性が高ければ、貿易の利益は生じない。","explanation_zh":"陷阱：概念混淆。即使一国两财均占绝对优势，按相对优势分工仍能产生贸易利益。","explanation_ja":"誤り。概念混同の罠。両財とも生産性が高くても、相対的に得意な財に特化すれば貿易の利益が生じる。"},
+      {"id":4,"text":"各国が相対的に得意な財に特化して交換すれば、双方の利益が増える。","explanation_zh":"正确。比较优势论核心：按相对生产成本分工特化，双方均获益。","explanation_ja":"正解。比較優位論の核心であり、各国が相対的に有利な財に特化して交換すると双方の利益が増える。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"比較優位論・リカード",
+      "sub_domain":"国際経済・貿易",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"10. 国際経済"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","主体取違"],
+      "keywords_to_avoid":["リカード","比較優位","特化と交換","恐慌","民営化"]
+    },
+    "passage": "",
+    "sources": [{"claim":"Comparative advantage explains gains from specialization in relatively lower opportunity-cost goods.","source":"OpenStax, Principles of Economics 3e, Comparative Advantage","year":"2023","url":"https://openstax.org/books/principles-economics-3e/pages/19-2-absolute-and-comparative-advantage"}]
+  },
+  {
+    "id": 5,
+    "global_id": 11,
+    "title": "問5",
+    "prompt": "日本の財政と貨幣供給に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"国債の発行に際して、日本銀行が直接これを引き受けることは原則として禁止されている。","explanation_zh":"正确。财政法第5条原则禁止日银直接承购国债，以防通货膨胀。","explanation_ja":"正解。財政法第5条は原則として日本銀行による国債の直接引受けを禁じている。"},
+      {"id":2,"text":"日本銀行が国債を直接引き受けることが財政法で義務づけられている。","explanation_zh":"陷阱：概念混淆。财政法是「原则禁止」直接承购，并非义务承购。","explanation_ja":"誤り。概念混同の罠。財政法は日銀の直接引受けを原則禁止しており、義務づけてはいない。"},
+      {"id":3,"text":"通貨の発行は政府の財務省が直接行っている。","explanation_zh":"陷阱：概念混淆。日本银行券由日本银行发行，并非财务省直接发行。","explanation_ja":"誤り。概念混同の罠。日本銀行券を発行するのは日本銀行であり、財務省ではない。"},
+      {"id":4,"text":"中央銀行による直接引受けを行うと、貨幣供給量はかえって減少する。","explanation_zh":"陷阱：因果倒置。日银直接承购会增加通货供给、易致通胀，方向相反。","explanation_ja":"誤り。因果倒置の罠。日銀引受けは通貨供給量を増やしインフレを招きやすく、減少ではない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"日銀引受け禁止・通貨供給",
+      "sub_domain":"経済原理・市場",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"5. 金融"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","因果倒置"],
+      "keywords_to_avoid":["日銀引受","通貨増発","インフレ","デフレ"]
+    },
+    "passage": "",
+    "sources": [{"claim":"財政法第5条は日銀による国債の直接引受けを原則禁止","source":"財政法 第5条","year":"1947","url":"https://elaws.e-gov.go.jp/document?lawid=322AC0000000034"}]
+  },
+  {
+    "id": 6,
+    "global_id": 12,
+    "title": "問6",
+    "prompt": "納税者が直接納める税と取引を通じて負担される税に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"個人所得への税は、税を負担する者と納める者が一致する納税者が直接納める税である。","explanation_zh":"正确。所得税纳税人与负税人一致，属直接税。","explanation_ja":"正解。所得税は担税者と納税者が一致する直接税である。"},
+      {"id":2,"text":"消費への税は、税を負担する者と納める者が一致する納税者が直接納める税である。","explanation_zh":"陷阱：概念混淆。消费税负税人（消费者）与纳税人（事业者）不一致，属间接税。","explanation_ja":"誤り。概念混同の罠。消費税は担税者と納税者が一致しない間接税である。"},
+      {"id":3,"text":"取引を通じて負担される税は、すべて所得が高い人ほど税率が高くなる累進課税である。","explanation_zh":"陷阱：范围扩大。累进课税是直接税（如所得税）的特征，间接税通常非累进。","explanation_ja":"誤り。範囲拡大の罠。累進課税は主に直接税の特徴で、間接税すべてが累進ではない。"},
+      {"id":4,"text":"企業所得への税は取引を通じて負担される税に分類される。","explanation_zh":"陷阱：概念混淆。法人税由法人直接负担、属直接税，并非间接税。","explanation_ja":"誤り。概念混同の罠。法人税は法人が直接負担する直接税である。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"税制分類・直接税と間接税",
+      "sub_domain":"財政・租税",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"6. 財政"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","範囲拡大"],
+      "keywords_to_avoid":["直接税","間接税","所得税","消費税","法人税"]
+    },
+    "passage": "",
+    "sources": [{"claim":"所得税は直接税、消費税は間接税（担税者と納税者の一致／不一致で区別）","source":"財務省 税の種類に関する解説","year":"2020","url":"https://www.mof.go.jp/tax_policy/summary/condition/a01.htm"}]
+  },
+  {
+    "id": 7,
+    "global_id": 13,
+    "title": "問7",
+    "prompt": "日本の通常会計と特定目的会計に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"通常会計は特定の事業のための会計で、特定目的会計は国の基本的な収入項目支出項目を扱う。","explanation_zh":"陷阱：概念混淆。两者定义颠倒：一般会计处理基本收支，特别会计针对特定事业。","explanation_ja":"誤り。概念混同の罠。一般会計が基本的な歳入歳出を扱い、特別会計が特定事業のための会計で、説明が逆である。"},
+      {"id":2,"text":"特定目的会計を設けると、国の財政全体の透明性が必ず高まる。","explanation_zh":"陷阱：因果倒置。特别会计众多反而易使财政全貌难以把握，并非必然提高透明度。","explanation_ja":"誤り。因果倒置の罠。特別会計の多さはかえって財政全体を見えにくくする面があり、必ず透明性が高まるとはいえない。"},
+      {"id":3,"text":"特定目的会計は、特定の事業や資金運用について通常会計と区分して経理する会計である。","explanation_zh":"正确。特别会计为特定事业、资金运用与一般会计分开经理而设。","explanation_ja":"正解。特別会計は特定の事業や資金運用を一般会計と区分して経理するために設けられる。"},
+      {"id":4,"text":"通常会計の予算は国会の議決を必要としない。","explanation_zh":"陷阱：概念混淆。所有预算（含一般会计）均须经国会议决。","explanation_ja":"誤り。概念混同の罠。一般会計を含むすべての予算は国会の議決を要する。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"一般会計と特別会計",
+      "sub_domain":"財政・租税",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"6. 財政"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","因果倒置"],
+      "keywords_to_avoid":["一般会計","特別会計","歳入","歳出","暫定予算"]
+    },
+    "passage": "",
+    "sources": [{"claim":"特別会計は特定の事業・資金運用を一般会計と区分して経理する会計","source":"財務省 特別会計の解説／財政法・特別会計に関する法律","year":"2007","url":"https://www.mof.go.jp/policy/budget/topics/special_account/"}]
+  },
+  {
+    "id": 8,
+    "global_id": 14,
+    "title": "問8",
+    "prompt": "通貨交換比率が1米国通貨=100日本通貨から1米国通貨=125日本通貨に変化したとする。（　Ａ　）この変化は自国通貨高か自国通貨安か。（　Ｂ　）日本からの輸出にとって有利か不利か。（　Ａ　）と（　Ｂ　）の組合せとして正しいものはどれですか。",
+    "choices": [
+      {"id":1,"text":"Ａ＝自国通貨高、Ｂ＝有利","explanation_zh":"陷阱：概念混淆。1美元从100円变125円是円贬值即円安，且円安利出口；此项A、B均误。","explanation_ja":"誤り。概念混同の罠。100円→125円はドル高・円安であり、判定が逆である。"},
+      {"id":2,"text":"Ａ＝自国通貨安、Ｂ＝有利","explanation_zh":"正确。1美元需更多円即円安；円安使日本出口品在海外更便宜，利出口。","explanation_ja":"正解。1ドルに必要な円が増えるので円安、円安は輸出品を海外で割安にし輸出に有利となる。"},
+      {"id":3,"text":"Ａ＝自国通貨安、Ｂ＝不利","explanation_zh":"陷阱：因果倒置。円安确为正确，但円安利于而非不利于出口，B判断颠倒。","explanation_ja":"誤り。因果倒置の罠。円安は正しいが、円安は輸出に有利であり「不利」は誤り。"},
+      {"id":4,"text":"Ａ＝自国通貨高、Ｂ＝不利","explanation_zh":"陷阱：数值混同。100円→125円不是円高；円高才不利出口，A、B均误。","explanation_ja":"誤り。数値混同の罠。100円→125円は円高ではなく、判定が二重に誤っている。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"固定相場制・為替レート計算",
+      "sub_domain":"金融・通貨",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"5. 金融"},
+      "question_form":"組合せ",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["数値混同"],
+      "keywords_to_avoid":["固定相場制","ドル","円","マルク","1960年代","360円"]
+    },
+    "passage": "",
+    "sources": [{"claim":"1ドル=100円→125円は円安、円安は輸出に有利","source":"為替の円高・円安に関する基礎知識（日本銀行 教育コンテンツ）","year":"2020","url":"https://www.boj.or.jp/about/education/oshiete/"}]
+  },
+  {
+    "id": 9,
+    "global_id": 15,
+    "title": "問9",
+    "prompt": "戦後通貨会議体制に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"戦後通貨会議協定により、各国通貨は最初から変動相場制に移行した。","explanation_zh":"陷阱：概念混淆。布雷顿森林体制确立的是以美元为基轴的固定汇率制，1973年才转向浮动。","explanation_ja":"誤り。概念混同の罠。ブレトンウッズ体制はドルを基軸とする固定相場制であり、変動相場制への移行は1973年である。"},
+      {"id":2,"text":"国際復興開発銀行（国際復興開発銀行）は、加盟国の為替レートの安定を直接担う機関である。","explanation_zh":"陷阱：主体错位。负责汇率稳定与短期融资的是IMF，IBRD（世界银行）主管复兴与开发资金。","explanation_ja":"誤り。主体取違の罠。為替の安定を担うのはIMFで、IBRDは戦後復興と開発のための融資を行う。"},
+      {"id":3,"text":"戦後通貨会議会議はニクソン・ショック後の1971年に開かれた。","explanation_zh":"陷阱：时态错位。会议在1944年召开，1971年的尼克松冲击是体制崩溃的契机。","explanation_ja":"誤り。時態錯位の罠。会議は1944年で、1971年のニクソン・ショックは体制崩壊の契機である。"},
+      {"id":4,"text":"戦後通貨会議会議に基づき、IMFと国際復興開発銀行（世界銀行）が設立された。","explanation_zh":"正确。1944年布雷顿森林会议基础上设立了IMF与IBRD（世界银行）。","explanation_ja":"正解。1944年のブレトンウッズ会議に基づいてIMFとIBRD（世界銀行）が設立された。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"ブレトンウッズ会議・IBRD",
+      "sub_domain":"国際経済・貿易",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"5. 金融"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","主体取違"],
+      "keywords_to_avoid":["ブレトンウッズ","IBRD","自由貿易","国際収支","先進国クラブ"]
+    },
+    "passage": "",
+    "sources": [{"claim":"The Bretton Woods system created the IMF and IBRD and a dollar-centered fixed exchange-rate system.","source":"IMF, The Bretton Woods system","year":"1944","url":"https://www.imf.org/external/about/histcoop.htm"}]
+  },
+  {
+    "id": 10,
+    "global_id": 16,
+    "title": "問10",
+    "prompt": "経済協力開発機構（経済協力開発機構）開発援助委員会（開発援助委員会）の統計によると、2019年の政府開発援助実績（贈与相当額計上方式）は、アメリカが約346億ドル、ドイツが約238億ドル、イギリスが約194億ドル、日本が約156億ドルであった。この数値から読み取れる内容として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"4か国の中で政府開発援助実績が最も大きいのはアメリカであった。","explanation_zh":"正确。美国约346亿美元，居四国之首。","explanation_ja":"正解。アメリカは約346億ドルで、4か国の中でODA実績が最も大きかった。"},
+      {"id":2,"text":"日本の政府開発援助実績はドイツを上回っていた。","explanation_zh":"陷阱：数值混同。日本约156亿美元，少于德国约238亿美元。","explanation_ja":"誤り。数値混同の罠。日本約156億ドルはドイツ約238億ドルを下回る。"},
+      {"id":3,"text":"イギリスの政府開発援助実績はアメリカを上回っていた。","explanation_zh":"陷阱：地域错位。英国约194亿美元远少于美国约346亿美元，比较对象错置。","explanation_ja":"誤り。地域取違の罠。イギリス約194億ドルはアメリカ約346億ドルを下回る。"},
+      {"id":4,"text":"4か国の政府開発援助実績はすべて等しかった。","explanation_zh":"陷阱：范围扩大。四国数值各异，从约156亿到约346亿美元不等。","explanation_ja":"誤り。範囲拡大の罠。4か国の値は約156億〜約346億ドルと異なる。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"ODA・開発援助・国民負担",
+      "sub_domain":"財政・租税",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"10. 国際経済"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["数値混同"],
+      "keywords_to_avoid":["ODA","OECD","DAC","ノルウェー","イギリス","日本","韓国"]
+    },
+    "passage": "",
+    "sources": [{"claim":"2019年ODA実績（GE方式）: 米約346億/独約238億/英約194億/日約156億ドル","source":"外務省 OECD/DACにおけるODA実績","year":"2019","url":"https://www.mofa.go.jp/mofaj/gaiko/oda/shiryo/jisseki.html"}]
+  },
+  {
+    "id": 11,
+    "global_id": 17,
+    "title": "問11",
+    "prompt": "欧州連合（欧州連合）の経済統合に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"欧州連合に加盟するすべての国が単一通貨ユーロを導入している。","explanation_zh":"陷阱：范围扩大。并非所有EU成员国都使用欧元，部分国家保留本国货币。","explanation_ja":"誤り。範囲拡大の罠。EU加盟国のすべてがユーロを導入しているわけではない。"},
+      {"id":2,"text":"ユーロを導入した国は、それぞれ独自に金融政策を決定している。","explanation_zh":"陷阱：概念混淆。欧元区货币政策由欧洲中央银行统一决定，非各国独自决定。","explanation_ja":"誤り。概念混同の罠。ユーロ圏の金融政策は欧州中央銀行が一元的に決定する。"},
+      {"id":3,"text":"ユーロの導入により、加盟国間の関税は導入後はじめて撤廃された。","explanation_zh":"陷阱：因果倒置。关税同盟早于欧元，关税撤废并非欧元导入后才实现。","explanation_ja":"誤り。因果倒置の罠。域内関税の撤廃はユーロ導入より前に実現しており、順序が逆である。"},
+      {"id":4,"text":"単一通貨ユーロの金融政策は、欧州中央銀行（ECB）が一元的に担う。","explanation_zh":"正确。欧元区货币政策由欧洲中央银行统一负责。","explanation_ja":"正解。ユーロの金融政策は欧州中央銀行（ECB）が一元的に担っている。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"EU経済統合・共通通貨",
+      "sub_domain":"金融・通貨",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"5. 金融"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","範囲拡大"],
+      "keywords_to_avoid":["EU","ユーロ","ECB","関税","労働移動","資本移動"]
+    },
+    "passage": "",
+    "sources": [{"claim":"The ECB conducts monetary policy for the euro area; not all EU countries use the euro.","source":"European Central Bank, What is the euro area?","year":"2024","url":"https://www.ecb.europa.eu/euro/intro/html/index.en.html"}]
+  },
+  {
+    "id": 12,
+    "global_id": 18,
+    "title": "問12",
+    "prompt": "資源エネルギー庁の総合エネルギー統計によると、日本の一次エネルギー国内供給比率は、2010年度が約20％、2014年度が約6％、2019年度が約12％であった。この数値から読み取れる内容として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"自給率は2010年度から2019年度まで一貫して上昇し続けた。","explanation_zh":"陷阱：数值混同。先从约20%降到约6%再回升到约12%，并非一贯上升。","explanation_ja":"誤り。数値混同の罠。約20％→約6％へ低下した後に約12％へ回復しており、一貫上昇ではない。"},
+      {"id":2,"text":"2019年度の自給率は2010年度を上回った。","explanation_zh":"陷阱：数值混同。2019年度约12%低于2010年度约20%。","explanation_ja":"誤り。数値混同の罠。2019年度約12％は2010年度約20％を下回る。"},
+      {"id":3,"text":"自給率は2010年度から2014年度にかけて低下した。","explanation_zh":"正确。从约20%降至约6%，确为低下（震灾后核电停运的影响）。","explanation_ja":"正解。約20％から約6％へ低下しており、震災後の原子力発電停止の影響を反映している。"},
+      {"id":4,"text":"3つの年度の自給率はすべて50％を超えていた。","explanation_zh":"陷阱：范围扩大。三年度自给率均在约6〜20%之间，无一超过50%。","explanation_ja":"誤り。範囲拡大の罠。いずれの年度も約6〜20％で、50％を超えてはいない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"日本の電力・エネルギー自給率",
+      "sub_domain":"日本地誌",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["数値混同"],
+      "keywords_to_avoid":["発電量","一次エネルギー自給率","日本","アメリカ","中国","ロシア"]
+    },
+    "passage": "",
+    "sources": [{"claim":"日本の一次エネルギー自給率: 2010年度約20.2%/2014年度約6.3%/2019年度約12.1%","source":"資源エネルギー庁 総合エネルギー統計","year":"2019","url":"https://www.enecho.meti.go.jp/about/special/johoteikyo/energyissue2019.html"}]
+  },
+  {
+    "id": 13,
+    "global_id": 19,
+    "title": "問13",
+    "prompt": "戦後日本経済の歩みに関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"高度経済成長期は1980年代後半の資産価格急騰期経済期と同じ時期を指す。","explanation_zh":"陷阱：时态错位。高度成长期约1955-73年，泡沫经济为1980年代后半，时期不同。","explanation_ja":"誤り。時態錯位の罠。高度経済成長期は1950年代半ば〜1970年代初頭で、1980年代後半のバブル期とは別である。"},
+      {"id":2,"text":"石油危機が高度経済成長を引き起こした。","explanation_zh":"陷阱：因果倒置。1973年石油危机是终结高度成长的契机，并非引发原因。","explanation_ja":"誤り。因果倒置の罠。1973年の石油危機は高度成長を終わらせた契機であり、引き起こした原因ではない。"},
+      {"id":3,"text":"高度経済成長は1973年の石油危機を契機に終わりを迎えた。","explanation_zh":"正确。第一次石油危机使高速增长终结，是公认转折点。","explanation_ja":"正解。高度経済成長は1973年の石油危機を契機に終わりを迎えた。"},
+      {"id":4,"text":"資産価格急騰期経済期には地価や株価が継続して下落した。","explanation_zh":"陷阱：时态错位。泡沫期地价股价大幅上涨，崩溃后才下跌。","explanation_ja":"誤り。時態錯位の罠。バブル期は地価・株価が高騰した時期で、下落は崩壊後である。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"日本経済史・高度成長期とバブル",
+      "sub_domain":"現代日本",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"4.国民経済"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位","因果倒置"],
+      "keywords_to_avoid":["高度経済成長","バブル経済","プラザ合意","石油危機","朝鮮戦争"]
+    },
+    "passage": "",
+    "sources": [{"claim":"Japan’s high growth slowed after the 1973 oil crisis.","source":"内閣府, 日本経済の長期推移","year":"1973","url":"https://www5.cao.go.jp/keizai3/keizaiwp/"}]
+  },
+  {
+    "id": 14,
+    "title": "問14",
+    "prompt": "次の文章を読み、下の問い(1)〜(2)に答えなさい。",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":20,
+        "prompt":"各国の標準時の基準経度は、日本が東経135度、イギリス（協定世界時の基準）が経度0度、中国が東経120度を基準としている。この数値から読み取れる内容として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"日本の標準時の基準経度はイギリスより西にある。","explanation_zh":"陷阱：地域错位。日本东经135度在本初子午线（0度）以东，方位错置。","explanation_ja":"誤り。地域取違の罠。日本の東経135度は経度0度のイギリスより東に位置する。"},
+          {"id":2,"text":"日本の標準時は、イギリスの基準時より9時間進んでいる。","explanation_zh":"正确。东经135度÷15＝9，日本比0度的英国快9小时。","explanation_ja":"正解。東経135度÷15＝9なので、日本はイギリスの基準時より9時間進んでいる。"},
+          {"id":3,"text":"日本と中国の標準時の基準経度の差は30度である。","explanation_zh":"陷阱：数值混同。东经135度与120度之差为15度，非30度。","explanation_ja":"誤り。数値混同の罠。東経135度と120度の差は15度であり、30度ではない。"},
+          {"id":4,"text":"中国の標準時はイギリスより遅れている。","explanation_zh":"陷阱：地域错位。中国东经120度在0度以东，时刻比英国快而非慢。","explanation_ja":"誤り。地域取違の罠。東経120度の中国は経度0度より東で、時刻はイギリスより進んでいる。"}
+        ],
+        "answer":2,
+        "tag":{
+          "question_form":"図表読取",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["地域取違"],
+          "keywords_to_avoid":["東経135度","経線","経度"],
+          "sub_domain":"自然地理"
+        },
+        "sources":[{"claim":"日本標準時は東経135度（協定世界時+9時間）","source":"国立天文台 日本標準時の解説","year":"1886","url":"https://www.nao.ac.jp/faq/a0301.html"}]
+      },
+      {
+        "sub_id":2,
+        "global_id":21,
+        "prompt":"東経135度を基準とする日本が正午のとき、経度0度を基準とするイギリスの時刻として正しいものはどれですか。",
+        "choices":[
+          {"id":1,"text":"同じく正午である。","explanation_zh":"陷阱：地域错位。两地经度差135度，存在时差，不可能同时。","explanation_ja":"誤り。地域取違の罠。経度差135度があり時差が生じるため、同時刻にはならない。"},
+          {"id":2,"text":"午後9時である。","explanation_zh":"陷阱：数值混同。日本快9小时，应是英国时刻在前，倒推应为上午3时，非晚9时。","explanation_ja":"誤り。数値混同の罠。日本が9時間進んでいるので、英国は日本より遅れた時刻になる。"},
+          {"id":3,"text":"午後3時である。","explanation_zh":"陷阱：数值混同。方向算反，应减9小时而非加3小时。","explanation_ja":"誤り。数値混同の罠。時差は9時間で、引くべきところを誤って計算している。"},
+          {"id":4,"text":"午前3時である。","explanation_zh":"正确。日本快9小时，正午减9小时即英国上午3时。","explanation_ja":"正解。日本はイギリスより9時間進んでいるので、日本の正午はイギリスの午前3時にあたる。"}
+        ],
+        "answer":4,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["数値混同","地域取違"],
+          "keywords_to_avoid":["12時間時差","ロサンゼルス","ホノルル","マドリード","リオデジャネイロ"],
+          "sub_domain":"自然地理"
+        },
+        "sources":[{"claim":"東経135度の日本は経度0度のイギリスより9時間進む","source":"国立天文台 時差の解説","year":"1886","url":"https://www.nao.ac.jp/faq/a0301.html"}]
+      }
+    ],
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"日本標準時・経度と時差",
+      "sub_domain":"自然地理",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "keywords_to_avoid":["東経135度","日本標準時","時差","サマータイム"]
+    },
+    "passage": "地球は24時間でほぼ1回自転するため、経度15度ごとに1時間の時差が生じる。日本の標準時は東経135度の経線を基準とし、兵庫県明石市がその経線上に位置することで知られる。経度の差を15で割ると時差（時間）が求められ、東に位置する地点ほど時刻が進んでいる。"
+  },
+  {
+    "id": 15,
+    "global_id": 22,
+    "title": "問15",
+    "prompt": "世界の主要な河川とその河口が注ぐ海域の組合せとして正しいものはどれですか。",
+    "choices": [
+      {"id":1,"text":"アフリカ河川Bは紅海に注ぐ。","explanation_zh":"陷阱：地域错位。尼罗河经埃及注入地中海，并非红海。","explanation_ja":"誤り。地域取違の罠。ナイル川はエジプトを経て地中海に注ぎ、紅海ではない。"},
+      {"id":2,"text":"欧州河川Aは北海に注ぐ。","explanation_zh":"正确。莱茵河流经西欧、于荷兰注入北海。","explanation_ja":"正解。ライン川は西ヨーロッパを流れ、オランダで北海に注ぐ。"},
+      {"id":3,"text":"南米河川Cは太平洋に注ぐ。","explanation_zh":"陷阱：地域错位。亚马孙河横贯南美、注入大西洋，并非太平洋。","explanation_ja":"誤り。地域取違の罠。アマゾン川は南アメリカを横断し大西洋に注ぐ。"},
+      {"id":4,"text":"長江（揚子江）はインド洋に注ぐ。","explanation_zh":"陷阱：地域错位。长江注入东海，属太平洋海域，并非印度洋。","explanation_ja":"誤り。地域取違の罠。長江は東シナ海（太平洋側）に注ぎ、インド洋ではない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"河川と河口海域",
+      "sub_domain":"自然地理",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["地域取違"],
+      "keywords_to_avoid":["ライン川","ドナウ川","メコン川","ミシシッピ川","バルト海","黒海","アラビア海","紅海"]
+    },
+    "passage": "",
+    "sources": [{"claim":"Major rivers and outlets: Rhine to North Sea, Nile to Mediterranean, Amazon to Atlantic, Yangtze to East China Sea.","source":"Encyclopaedia Britannica, Rhine/Nile/Amazon/Yangtze entries","year":"2024","url":"https://www.britannica.com/place/Rhine-River"}]
+  },
+  {
+    "id": 16,
+    "global_id": 23,
+    "title": "問16",
+    "prompt": "「収量の高い品種普及」に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"「収量の高い品種普及」とは、工場の省エネルギー化を進める産業政策のことである。","explanation_zh":"陷阱：概念混淆。绿色革命指农业高产品种与技术普及，非工业节能政策。","explanation_ja":"誤り。概念混同の罠。緑の革命は高収量品種などによる農業技術革新で、工業政策ではない。"},
+      {"id":2,"text":"「収量の高い品種普及」により、各国の食料生産は必ず自給自足を達成した。","explanation_zh":"陷阱：范围扩大。绿色革命提高了产量，但并非必然实现各国自给自足。","explanation_ja":"誤り。範囲拡大の罠。緑の革命は増産をもたらしたが、すべての国の自給自足を必ず達成したわけではない。"},
+      {"id":3,"text":"収量の高い品種の普及が、かんがいや化学肥料の使用を不要にした。","explanation_zh":"陷阱：因果倒置。高产品种反而依赖灌溉与化肥，并非使其变得不需要。","explanation_ja":"誤り。因果倒置の罠。高収量品種はかんがいや化学肥料の投入を必要とし、不要にしたのではない。"},
+      {"id":4,"text":"収量の高い品種の導入により、発展途上国を中心に穀物の生産量が増加した。","explanation_zh":"正确。绿色革命引入高产品种，使发展中国家粮食产量大增。","explanation_ja":"正解。緑の革命では高収量品種の導入により、発展途上国を中心に穀物生産量が増加した。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"緑の革命・農業技術",
+      "sub_domain":"産業・資源",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"10. 国際経済"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","因果倒置"],
+      "keywords_to_avoid":["緑の革命","高収量品種","プランテーション","食料増産","地球温暖化"]
+    },
+    "passage": "",
+    "sources": [{"claim":"The Green Revolution introduced high-yielding varieties and increased grain production.","source":"Encyclopaedia Britannica, Green Revolution","year":"1960s","url":"https://www.britannica.com/event/green-revolution"}]
+  },
+  {
+    "id": 17,
+    "global_id": 24,
+    "title": "問17",
+    "prompt": "世界銀行の統計によると、2020年の総人口は、北欧国Aが約1,035万人、北欧国Bが約583万人、北欧国Cが約538万人、北欧国Dが約553万人であった。この数値から読み取れる内容として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"北欧国Bの総人口は北欧国Aを上回っていた。","explanation_zh":"陷阱：主体错位。瑞典约1035万人最多，丹麦约583万人，比较对象错置。","explanation_ja":"誤り。主体取違の罠。スウェーデン約1,035万人が最多で、デンマーク約583万人を上回る。"},
+      {"id":2,"text":"北欧国Cの総人口は4か国の中で最も多かった。","explanation_zh":"陷阱：数值混同。挪威约538万人是四国中最少，并非最多。","explanation_ja":"誤り。数値混同の罠。ノルウェー約538万人は4か国中で最も少なく、最多ではない。"},
+      {"id":3,"text":"北欧国Dの総人口は北欧国Aを上回っていた。","explanation_zh":"陷阱：主体错位。芬兰约553万人少于瑞典约1035万人，主体张冠李戴。","explanation_ja":"誤り。主体取違の罠。フィンランド約553万人はスウェーデン約1,035万人を下回る。"},
+      {"id":4,"text":"総人口が最も多いのは北欧国Aであった。","explanation_zh":"正确。瑞典约1035万人，是四国中最多。","explanation_ja":"正解。スウェーデンは約1,035万人で、4か国の中で最も総人口が多かった。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"北欧諸国の貿易特性",
+      "sub_domain":"産業・資源",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"10. 国際経済"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["主体取違"],
+      "keywords_to_avoid":["ノルウェー","スウェーデン","デンマーク","フィンランド","石油輸出","工業品輸出"]
+    },
+    "passage": "",
+    "sources": [{"claim":"2020年総人口: スウェーデン約1,035万/デンマーク約583万/フィンランド約553万/ノルウェー約538万","source":"World Bank, Population, total","year":"2020","url":"https://data.worldbank.org/indicator/SP.POP.TOTL"}]
+  },
+  {
+    "id": 18,
+    "global_id": 25,
+    "title": "問18",
+    "prompt": "「法による統治」に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"法による統治とは、統治者が定めた法であれば内容を問わず従うべきだとする考えである。","explanation_zh":"陷阱：概念混淆。这是「以法而治（法治国家形式面）」乃至人治的理解，法的支配重视法的内容须保障人权。","explanation_ja":"誤り。概念混同の罠。内容を問わず従うのは形式的な「法による支配」の理解で、法の支配は法の内容の正しさを求める。"},
+      {"id":2,"text":"法による統治とは、君主や国王の意思が最高の法であるとする原理である。","explanation_zh":"陷阱：概念混淆。君主意思至上是人治，与法的支配相对立。","explanation_ja":"誤り。概念混同の罠。君主の意思を最高とするのは人の支配であり、法の支配と対立する。"},
+      {"id":3,"text":"法による統治は、権力者をも法に従わせ、国民の権利を守ることを目的とする。","explanation_zh":"正确。法的支配核心：权力亦受法约束、保障国民权利。","explanation_ja":"正解。法の支配は権力者をも法に従わせ、国民の権利を守ることを目的とする。"},
+      {"id":4,"text":"法による統治のもとでは、国会の制定した法律は裁判所の審査を受けない。","explanation_zh":"陷阱：概念混淆。违宪审查制正是法的支配的体现，法律可受司法审查。","explanation_ja":"誤り。概念混同の罠。違憲審査制のように、法律も裁判所の審査を受けうるのが法の支配である。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"法の支配",
+      "sub_domain":"憲法・人権",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"1. 近代化の進展とその影響"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["法の支配","悪法も法なり","法律万能主義","全体主義"]
+    },
+    "passage": "",
+    "sources": [{"claim":"Rule of law means government and officials are accountable under law.","source":"United Nations, What is the rule of law","year":"2024","url":"https://www.un.org/ruleoflaw/what-is-the-rule-of-law/"}]
+  },
+  {
+    "id": 19,
+    "global_id": 26,
+    "title": "問19",
+    "prompt": "「社会保障国家」に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"社会保障国家は、政府が社会保障などを通じて国民生活の安定に積極的に関与する国家である。","explanation_zh":"正确。福祉国家强调政府积极介入社会保障、保障国民生活。","explanation_ja":"正解。福祉国家は社会保障などを通じて政府が国民生活の安定に積極的に関与する国家である。"},
+      {"id":2,"text":"社会保障国家は、政府の役割を治安と国防に限る「夜警国家」と同じ考えである。","explanation_zh":"陷阱：概念混淆。夜警国家主张政府职能最小化，与福祉国家相反。","explanation_ja":"誤り。概念混同の罠。夜警国家は政府の役割を最小限にとどめる考えで、福祉国家と対立する。"},
+      {"id":3,"text":"社会保障国家では、社会保障の財源を政府が一切負担しない。","explanation_zh":"陷阱：概念混淆。福祉国家正以政府财政支撑社会保障，不负担与之矛盾。","explanation_ja":"誤り。概念混同の罠。福祉国家は政府の財政で社会保障を支えており、一切負担しないは誤り。"},
+      {"id":4,"text":"社会保障国家は、市場の自由放任を最も重視する立場である。","explanation_zh":"陷阱：概念混淆。自由放任是小政府立场，福祉国家主张政府积极介入。","explanation_ja":"誤り。概念混同の罠。自由放任を重視するのは小さな政府の立場で、福祉国家とは異なる。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"福祉国家",
+      "sub_domain":"政治思想・政治史",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"7.社会保障"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["福祉国家","夜警国家","主権国家","国民国家","教育","社会保障"]
+    },
+    "passage": "",
+    "sources": [{"claim":"Welfare states use social policies and social security to protect citizens’ welfare.","source":"Encyclopaedia Britannica, Welfare state","year":"2024","url":"https://www.britannica.com/topic/welfare-state"}]
+  },
+  {
+    "id": 20,
+    "global_id": 27,
+    "title": "問20",
+    "prompt": "日本の選挙制度に関する記述として最も適当でないものはどれですか。",
+    "choices": [
+      {"id":1,"text":"2016年の参議院議員通常選挙から、選挙権年齢が満18歳以上に引き下げられた。","explanation_zh":"陷阱：时态错位（本项为事实正确，非答案）。2015年改正、2016年参院选首次实施18岁选举权，正确。","explanation_ja":"誤り。これは正しい記述である。2015年の改正で選挙権年齢が18歳に引き下げられ、2016年参院選から適用された。"},
+      {"id":2,"text":"日本では満20歳以上の国民に選挙権が与えられていた時期があった。","explanation_zh":"陷阱：时态错位（本项为事实正确，非答案）。改正前长期为20岁选举权，正确。","explanation_ja":"誤り。これは正しい記述である。改正前は満20歳以上に選挙権が与えられていた。"},
+      {"id":3,"text":"選挙関連法は、選挙の方法や選挙運動などを定める法律である。","explanation_zh":"陷阱：本项为事实正确，非答案。公职选举法确实规定选举方法与选举活动。","explanation_ja":"誤り。これは正しい記述である。公職選挙法は選挙の方法や選挙運動などを定める。"},
+      {"id":4,"text":"現在の日本では、選挙権年齢が満25歳以上に引き上げられている。","explanation_zh":"正确。本题要求选「最不适当」项。现行选举权年龄为18岁，称25岁是错误陈述，故为答案。","explanation_ja":"正解。設問は最も適当でないものを問う。現在の選挙権年齢は18歳であり、25歳という記述は誤りなので、これが答えとなる。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"公職選挙法・改正",
+      "sub_domain":"選挙・政党",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"4.政治参加"},
+      "question_form":"正誤判定",
+      "statement_polarity":"正答誤記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位"],
+      "keywords_to_avoid":["期日前投票","インターネット選挙","選挙権年齢","戸別訪問","公職選挙法"]
+    },
+    "passage": "",
+    "sources": [{"claim":"2015年改正で選挙権年齢が18歳に、2016年参院選から適用","source":"総務省 選挙権年齢の引下げ","year":"2016","url":"https://www.soumu.go.jp/senkyo/senkyo_s/news/senkyo/senkyo_age/"}]
+  },
+  {
+    "id": 21,
+    "global_id": 28,
+    "title": "問21",
+    "prompt": "日本国憲法が保障する身体の自由に関する記述として最も適当でないものはどれですか。",
+    "choices": [
+      {"id":1,"text":"日本国憲法では、令状がなくても警察官の判断だけで自由に逮捕できる。","explanation_zh":"正确。本题要求选错误陈述。宪法第33条规定逮捕原则须有法官签发的令状，此项错误，故为答案。","explanation_ja":"正解。設問は最も適当でないものを問う。憲法第33条は逮捕に原則として令状を要すると定め、本記述は誤りなので答えとなる。"},
+      {"id":2,"text":"何人も、法律の定める手続によらなければ刑罰を科せられない。","explanation_zh":"陷阱：本项为事实正确，非答案。宪法第31条规定的正当法律程序，正确。","explanation_ja":"誤り。これは正しい記述である。憲法第31条の法定手続の保障に合致する。"},
+      {"id":3,"text":"逮捕には、原則として裁判官の発する令状を必要とする。","explanation_zh":"陷阱：本项为事实正确，非答案。宪法第33条令状主义，正确。","explanation_ja":"誤り。これは正しい記述である。憲法第33条の令状主義に合致する。"},
+      {"id":4,"text":"拷問および残虐な刑罰は、憲法によって禁止されている。","explanation_zh":"陷阱：本项为事实正确，非答案。宪法第36条禁止拷问与残虐刑罚，正确。","explanation_ja":"誤り。これは正しい記述である。憲法第36条は拷問および残虐な刑罰を禁じる。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"日本国憲法・人身の自由",
+      "sub_domain":"憲法・人権",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"3. 日本国憲法"},
+      "question_form":"正誤判定",
+      "statement_polarity":"正答誤記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["人身の自由","学問の自由","拷問禁止","弁護人依頼権","奴隷的拘束"]
+    },
+    "passage": "",
+    "sources": [{"claim":"憲法第33条は逮捕に原則令状を要求、第31条法定手続、第36条拷問・残虐刑罰の禁止","source":"日本国憲法 第31条・第33条・第36条","year":"1947","url":"https://elaws.e-gov.go.jp/document?lawid=321CONSTITUTION"}]
+  },
+  {
+    "id": 22,
+    "global_id": 29,
+    "title": "問22",
+    "prompt": "日本国憲法の三大原則に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"三大原則とは、国民が主権をもつ原理・三権分立・地方自治である。","explanation_zh":"陷阱：概念混淆。三权分立、地方自治是统治原理，并非三大原则；三大原则为国民主权、基本人权尊重、和平主义。","explanation_ja":"誤り。概念混同の罠。三大原則は国民主権・基本的人権の尊重・平和主義であり、三権分立や地方自治ではない。"},
+      {"id":2,"text":"三大原則とは、国民が主権をもつ原理・人権保障の尊重・戦争放棄の原理である。","explanation_zh":"正确。日本国宪法三大原则即此三项。","explanation_ja":"正解。日本国憲法の三大原則は国民主権・基本的人権の尊重・平和主義である。"},
+      {"id":3,"text":"人権保障は、法律によっていつでも自由に制限できる権利である。","explanation_zh":"陷阱：范围扩大。基本人权为不可侵犯的永久权利，不能由法律随意限制。","explanation_ja":"誤り。範囲拡大の罠。基本的人権は侵すことのできない永久の権利で、法律で自由に制限できるものではない。"},
+      {"id":4,"text":"戦争放棄の原理は前文のみに記され、本文の条文には規定がない。","explanation_zh":"陷阱：概念混淆。和平主义明记于第9条，并非仅在前文。","explanation_ja":"誤り。概念混同の罠。平和主義は前文だけでなく第9条にも明記されている。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"日本国憲法・基本原則",
+      "sub_domain":"憲法・人権",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"3. 日本国憲法"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","範囲拡大"],
+      "keywords_to_avoid":["基本的人権","社会権","平和主義","戦争放棄","連邦制","直接民主制"]
+    },
+    "passage": "",
+    "sources": [{"claim":"日本国憲法の三大原則は国民主権・基本的人権の尊重・平和主義","source":"日本国憲法 前文・第9条","year":"1947","url":"https://elaws.e-gov.go.jp/document?lawid=321CONSTITUTION"}]
+  },
+  {
+    "id": 23,
+    "global_id": 30,
+    "title": "問23",
+    "prompt": "日本の裁判の独立に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"裁判官は、内閣総理大臣の指示に従って判決を下さなければならない。","explanation_zh":"陷阱：主体错位。法官独立行使职权，仅依宪法和法律及其良心，不受首相指示。","explanation_ja":"誤り。主体取違の罠。裁判官はその良心に従い独立して職権を行い、首相の指示には拘束されない。"},
+      {"id":2,"text":"裁判官は、憲法および法律にのみ拘束され、独立してその職権を行う。","explanation_zh":"正确。宪法第76条规定法官独立、仅受宪法和法律拘束。","explanation_ja":"正解。憲法第76条のとおり、裁判官は憲法および法律にのみ拘束され独立して職権を行う。"},
+      {"id":3,"text":"裁判官は、国会の議決があればいつでも自由に罷免される。","explanation_zh":"陷阱：概念混淆。法官身份受保障，仅经弹劾裁判等法定情形才被罢免，非国会随意罢免。","explanation_ja":"誤り。概念混同の罠。裁判官は身分を保障され、罷免は弾劾裁判など法定の場合に限られる。"},
+      {"id":4,"text":"最高裁判所の長官は、国民の直接選挙によって選出される。","explanation_zh":"陷阱：主体错位。最高裁长官由内阁提名、天皇任命，非国民直选。","explanation_ja":"誤り。主体取違の罠。最高裁判所長官は内閣の指名に基づき天皇が任命し、国民の直接選挙ではない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"司法権の独立・裁判官",
+      "sub_domain":"三権分立・統治機構",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"3. 日本国憲法"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","主体取違"],
+      "keywords_to_avoid":["司法権の独立","国民審査","裁判官","懲戒処分","最高裁","下級裁判所"]
+    },
+    "passage": "",
+    "sources": [{"claim":"憲法第76条: 裁判官は良心に従い独立、憲法と法律にのみ拘束される","source":"日本国憲法 第76条","year":"1947","url":"https://elaws.e-gov.go.jp/document?lawid=321CONSTITUTION"}]
+  },
+  {
+    "id": 24,
+    "global_id": 31,
+    "title": "問24",
+    "prompt": "日本の地域自治に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"地方公共団体の長（首長）は、地方議会の議員の中から選ばれる。","explanation_zh":"陷阱：概念混淆。首长由居民直选，并非由议会议员中产生（这是议院内阁制方式）。","explanation_ja":"誤り。概念混同の罠。首長は住民の直接選挙で選ばれ、議員の中から選ばれるのではない。"},
+      {"id":2,"text":"地方公共団体の長は、内閣総理大臣が任命する。","explanation_zh":"陷阱：主体错位。首长由当地居民直选，非首相任命。","explanation_ja":"誤り。主体取違の罠。首長は住民の直接選挙で選ばれ、首相が任命するのではない。"},
+      {"id":3,"text":"住民は、条例の制定や首長の解職を求める直接請求権をもたない。","explanation_zh":"陷阱：概念混淆。地方自治承认条例制定请求、解职请求等直接请求权。","explanation_ja":"誤り。概念混同の罠。住民は条例の制定請求やリコールなど直接請求権をもつ。"},
+      {"id":4,"text":"地方公共団体の長と議会の議員は、ともに住民の直接選挙で選ばれる。","explanation_zh":"正确。日本地方自治采二元代表制，首长与议员均由居民直选。","explanation_ja":"正解。日本の地方自治では首長と議員がともに住民の直接選挙で選ばれる（二元代表制）。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"地方自治の特徴",
+      "sub_domain":"地方自治",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"4.政治参加"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","主体取違"],
+      "keywords_to_avoid":["地方自治体","首長","地方議会","法定受託事務","有権者","条例","住民投票"]
+    },
+    "passage": "",
+    "sources": [{"claim":"日本の地方自治は二元代表制、首長・議員とも住民の直接選挙、住民に直接請求権","source":"日本国憲法 第93条／地方自治法","year":"1947","url":"https://elaws.e-gov.go.jp/document?lawid=322AC0000000067"}]
+  },
+  {
+    "id": 25,
+    "global_id": 32,
+    "title": "問25",
+    "prompt": "2010年から2011年にかけての「中東・北アフリカ政治改革運動」に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"「中東・北アフリカ政治改革運動」は、ヨーロッパで始まり北アフリカへ広がった政治改革運動である。","explanation_zh":"陷阱：主体错位。运动起于北非的突尼斯，并非始于欧洲。","explanation_ja":"誤り。主体取違の罠。「アラブの春」は北アフリカのチュニジアから始まったもので、ヨーロッパ発祥ではない。"},
+      {"id":2,"text":"「中東・北アフリカ政治改革運動」は1990年代の冷戦終結とともに起こった一連の革命である。","explanation_zh":"陷阱：时态错位。运动发生在2010-2011年，并非1990年代冷战结束之时。","explanation_ja":"誤り。時態錯位の罠。「アラブの春」は2010〜2011年の出来事で、1990年代の冷戦終結期ではない。"},
+      {"id":3,"text":"チュニジアの政変をきっかけに、エジプトなど周辺国へ政治改革運動が広がった。","explanation_zh":"正确。突尼斯茉莉花革命引发，波及埃及等阿拉伯诸国。","explanation_ja":"正解。チュニジアの政変（ジャスミン革命）をきっかけに、エジプトなど周辺国へ広がった。"},
+      {"id":4,"text":"「中東・北アフリカ政治改革運動」によって、各国で君主が即位し王政が新たに成立した。","explanation_zh":"陷阱：概念混淆。运动旨在推翻长期独裁政权，并非建立新王政。","explanation_ja":"誤り。概念混同の罠。「アラブの春」は長期政権の打倒を求める運動で、新たな王政の樹立ではない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"アラブの春・民主化運動",
+      "sub_domain":"現代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"3. 冷戦後の世界"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["主体取違","時態錯位"],
+      "keywords_to_avoid":["アラブの春","チュニジア","民主化運動","ペレストロイカ","シオニズム","ビロード革命"]
+    },
+    "passage": "",
+    "sources": [{"claim":"The Arab Spring began in Tunisia in late 2010 and spread to other Arab countries.","source":"Encyclopaedia Britannica, Arab Spring","year":"2011","url":"https://www.britannica.com/event/Arab-Spring"}]
+  },
+  {
+    "id": 26,
+    "global_id": 33,
+    "title": "問26",
+    "prompt": "海洋法条約が定める海域に関する記述として最も適当なものはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"沿岸国の海域の幅は、基線から最大で3海里までと定められている。","explanation_zh":"陷阱：数值混同。领海上限为12海里，3海里是旧标准。","explanation_ja":"誤り。数値混同の罠。領海は基線から最大12海里までで、3海里は旧来の基準である。"},
+      {"id":2,"text":"沿岸国は、基線から12海里までを沿岸国の海域とすることができる。","explanation_zh":"正确。海洋法公约规定领海上限12海里。","explanation_ja":"正解。国連海洋法条約により、沿岸国は基線から12海里までを領海とできる。"},
+      {"id":3,"text":"排他的経済水域（EEZ）は、基線から12海里までの範囲である。","explanation_zh":"陷阱：数值混同。专属经济区上限为200海里，12海里是领海上限。","explanation_ja":"誤り。数値混同の罠。排他的経済水域は基線から最大200海里で、12海里は領海の上限である。"},
+      {"id":4,"text":"沿岸国の海域では外国船舶の航行が一切認められていない。","explanation_zh":"陷阱：范围扩大。领海内承认无害通过权，并非完全禁止外国船舶通行。","explanation_ja":"誤り。範囲拡大の罠。領海では外国船舶の無害通航権が認められており、一切禁止ではない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"国連海洋法条約・領海",
+      "sub_domain":"自然地理",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["数値混同"],
+      "keywords_to_avoid":["国連海洋法条約","領海","海里","基線","沿岸国"]
+    },
+    "sources": [{"claim":"国連海洋法条約: 領海は最大12海里、EEZは最大200海里","source":"国連海洋法条約（UNCLOS）","year":"1982","url":"https://www.mofa.go.jp/mofaj/gaiko/treaty/treaty_unclos.html"}]
+  },
+  {
+    "id": 27,
+    "global_id": 34,
+    "title": "問27",
+    "prompt": "1884〜1885年の大陸分割会議に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"ビスマルクが主催し、大陸分割の原則が確認された。","explanation_zh":"正确。会议由俾斯麦主持，确认了列强瓜分非洲的原则（先占等）。","explanation_ja":"正解。ベルリン会議はビスマルクが主催し、アフリカ分割の原則が確認された。"},
+      {"id":2,"text":"この会議でアフリカ諸国の独立が承認され、植民地支配が終わった。","explanation_zh":"陷阱：时态错位。会议反而推动了对非洲的瓜分与殖民，并非承认独立。","explanation_ja":"誤り。時態錯位の罠。会議はアフリカ分割と植民地化を進めるもので、独立承認ではない。"},
+      {"id":3,"text":"会議を主催したのはイギリスの首相であった。","explanation_zh":"陷阱：主体错位。主持者是德国宰相俾斯麦，并非英国首相。","explanation_ja":"誤り。主体取違の罠。会議を主催したのはドイツのビスマルクで、イギリス首相ではない。"},
+      {"id":4,"text":"この会議でアジアの分割が取り決められた。","explanation_zh":"陷阱：概念混淆。会议主题是非洲分割，并非亚洲。","explanation_ja":"誤り。概念混同の罠。ベルリン会議の主題はアフリカの分割であり、アジアではない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"ベルリン会議・アフリカ分割",
+      "sub_domain":"近代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"1. 近代化の進展とその影響"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位","主体取違"],
+      "keywords_to_avoid":["ベルリン会議","アフリカ分割","1884-1885","ドイツ","ビスマルク"]
+    },
+    "passage": "",
+    "sources": [{"claim":"The Berlin West Africa Conference of 1884-85 set rules for European claims in Africa.","source":"Encyclopaedia Britannica, Berlin West Africa Conference","year":"1885","url":"https://www.britannica.com/event/Berlin-West-Africa-Conference"}]
+  },
+  {
+    "id": 28,
+    "global_id": 35,
+    "title": "問28",
+    "prompt": "第一次世界大戦後の南アジアの国の民族運動に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"独立運動指導者は、非暴力・不服従を掲げてイギリスへの抵抗運動を指導した。","explanation_zh":"正确。甘地以非暴力不合作（如食盐进军）领导反英运动。","explanation_ja":"正解。ガンディーは非暴力・不服従を掲げてイギリスへの抵抗運動を指導した。"},
+      {"id":2,"text":"独立運動指導者は武装蜂起を組織し、軍事力でイギリス軍を撃退した。","explanation_zh":"陷阱：概念混淆。甘地的路线是非暴力，并非武装起义击退英军。","explanation_ja":"誤り。概念混同の罠。ガンディーの路線は非暴力であり、武装蜂起ではない。"},
+      {"id":3,"text":"この民族運動を指導したのは清の指導者であった。","explanation_zh":"陷阱：主体错位。领导者是印度的甘地，与清朝无关。","explanation_ja":"誤り。主体取違の罠。運動を指導したのはインドのガンディーで、清の指導者ではない。"},
+      {"id":4,"text":"南アジアの国は第一次世界大戦の直後にただちに独立を達成した。","explanation_zh":"陷阱：时态错位。印度独立在二战后的1947年，并非一战直后。","explanation_ja":"誤り。時態錯位の罠。インドの独立は第二次世界大戦後の1947年で、第一次大戦直後ではない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"第一次世界大戦後のインド民族運動",
+      "sub_domain":"現代日本",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"4.国民経済"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違","時態錯位"],
+      "keywords_to_avoid":["インド","イギリス","フランス","自治","第一次世界大戦","大反乱"]
+    },
+    "passage": "",
+    "sources": [{"claim":"Gandhi led nonviolent non-cooperation and civil disobedience in India’s independence movement.","source":"Encyclopaedia Britannica, Mahatma Gandhi","year":"1930","url":"https://www.britannica.com/biography/Mahatma-Gandhi"}]
+  },
+  {
+    "id": 29,
+    "global_id": 36,
+    "title": "問29",
+    "prompt": "次のア〜エの出来事を、年代の古い順に並べたものとして正しいものはどれですか。ア：大恐慌の始まり　イ：中国東北部事件　ウ：日中全面戦争の始まり　エ：第二次世界大戦の勃発",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"イ→ア→ウ→エ","explanation_zh":"陷阱：顺序混乱。世界经济大恐慌1929年早于满洲事变1931年，恐慌应排在事变之后。","explanation_ja":"誤り。順序混同の罠。世界恐慌1929年は満州事変1931年より前で、イをアの前に置くのは誤り。"},
+      {"id":2,"text":"ア→イ→ウ→エ","explanation_zh":"正确。世界恐慌1929→满洲事变1931→日中战争1937→二战爆发1939。","explanation_ja":"正解。世界恐慌1929年→満州事変1931年→日中戦争1937年→第二次世界大戦勃発1939年の順である。"},
+      {"id":3,"text":"ア→ウ→イ→エ","explanation_zh":"陷阱：顺序混乱。满洲事变1931年早于日中战争1937年，二者顺序颠倒。","explanation_ja":"誤り。順序混同の罠。満州事変1931年は日中戦争1937年より前で、ウとイの順が逆である。"},
+      {"id":4,"text":"ウ→イ→ア→エ","explanation_zh":"陷阱：顺序混乱。世界经济大恐慌1929年最早，把它置于第三位错误。","explanation_ja":"誤り。順序混同の罠。世界恐慌1929年が最も早く、アを3番目に置くのは誤りである。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"第一次世界大戦終了～第二次世界大戦勃発",
+      "sub_domain":"近代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"2. 二つの世界大戦とその影響"},
+      "question_form":"時系列整序",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["順序混同"],
+      "keywords_to_avoid":["不戦条約","ワイマール憲法","ルール占領","ドイツのポーランド侵攻"]
+    },
+    "sources": [{"claim":"Chronology: Great Depression 1929, Manchurian Incident 1931, Sino-Japanese War 1937, World War II 1939.","source":"Encyclopaedia Britannica, World War II timeline","year":"1939","url":"https://www.britannica.com/event/World-War-II"}]
+  },
+  {
+    "id": 30,
+    "global_id": 37,
+    "title": "問30",
+    "prompt": "冷戦期の「軍事ブロックに属さない立場」に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"軍事ブロックに属さない立場とは、アメリカ陣営に積極的に加わる立場のことである。","explanation_zh":"陷阱：概念混淆。非同盟主义指不加入美苏任一军事阵营，并非积极加入美方。","explanation_ja":"誤り。概念混同の罠。非同盟主義は米ソいずれの軍事ブロックにも属さない立場で、米陣営への参加ではない。"},
+      {"id":2,"text":"軍事ブロックに属さない立場とは、ソ連陣営に積極的に加わる立場のことである。","explanation_zh":"陷阱：概念混淆。非同盟主义同样不加入苏联阵营。","explanation_ja":"誤り。概念混同の罠。非同盟主義はソ連陣営にも属さない立場である。"},
+      {"id":3,"text":"軍事ブロックに属さない立場は、米ソどちらの軍事ブロックにも加わらない立場である。","explanation_zh":"正确。非同盟主义即不加入美苏任一军事集团（如万隆会议精神）。","explanation_ja":"正解。非同盟主義は米ソどちらの軍事ブロックにも加わらない立場である。"},
+      {"id":4,"text":"非同盟諸国の会議は、アメリカ大統領が主催して開かれた。","explanation_zh":"陷阱：主体错位。会议由亚非新兴独立国家主导，并非美国总统主办。","explanation_ja":"誤り。主体取違の罠。非同盟諸国の会議はアジア・アフリカの新興独立国が主導したもので、米大統領の主催ではない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"冷戦・第三勢力・非同盟主義",
+      "sub_domain":"現代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"2. 二つの世界大戦とその影響"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","主体取違"],
+      "keywords_to_avoid":["第三勢力","冷戰","非同盟主義","ソ連","アメリカ","社会主義国"]
+    },
+    "passage": "",
+    "sources": [{"claim":"Non-Aligned Movement grew from Bandung and rejected alignment with major military blocs.","source":"Encyclopaedia Britannica, Non-Aligned Movement","year":"1955","url":"https://www.britannica.com/topic/Non-Aligned-Movement"}]
+  },
+  {
+    "id": 31,
+    "global_id": 38,
+    "title": "問31",
+    "prompt": "1956年の中欧の国事件（中欧の国動乱）に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"この事件はアメリカ軍の介入によって鎮圧された。","explanation_zh":"陷阱：主体错位。镇压由苏联军队进行，并非美军。","explanation_ja":"誤り。主体取違の罠。事件を鎮圧したのはソ連軍であり、アメリカ軍ではない。"},
+      {"id":2,"text":"中欧の国は1990年代の冷戦終結後にこの動乱を経験した。","explanation_zh":"陷阱：时态错位。事件发生在1956年，并非1990年代冷战结束后。","explanation_ja":"誤り。時態錯位の罠。事件は1956年で、1990年代の冷戦終結後ではない。"},
+      {"id":3,"text":"改革を求める動きが起こったが、旧ソ連の軍の介入によって鎮圧された。","explanation_zh":"正确。纳吉改革（含退出华约）引发，遭苏联军队介入镇压。","explanation_ja":"正解。改革を求める動きが起こったが、ソ連軍の介入によって鎮圧された。"},
+      {"id":4,"text":"この事件によって中欧の国はただちにEUへ加盟した。","explanation_zh":"陷阱：时态错位。匈牙利加入EU是2004年，与1956年事件无关。","explanation_ja":"誤り。時態錯位の罠。ハンガリーのEU加盟は2004年で、1956年の事件とは関係がない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"ハンガリー事件1956",
+      "sub_domain":"近代世界",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"4.政治参加"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違","時態錯位"],
+      "keywords_to_avoid":["ハンガリー事件","1956","ソビエト軍事介入","民主化","ブダペスト"]
+    },
+    "passage": "",
+    "sources": [{"claim":"The 1956 Hungarian Revolution was crushed by Soviet military intervention.","source":"Encyclopaedia Britannica, Hungarian Revolution","year":"1956","url":"https://www.britannica.com/event/Hungarian-Revolution-1956"}]
+  }
+]
+}

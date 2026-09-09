@@ -1,0 +1,998 @@
+{
+  "subject": "comprehensive",
+  "section": "",
+  "year": 2018,
+  "round": 1,
+  "title": "模擬試験 総合科目 第一回",
+  "image_path": "comprehensive/images/2018-1",
+  "questions": [
+  {
+    "id": 1,
+    "title": "問1",
+    "prompt": "20世紀の戦争と経済・技術の関わりについて、下の問い(1)〜(4)に答えなさい。",
+    "passage": "20世紀の二つの世界大戦は、軍事だけでなく各国の経済・財政・技術にも大きな影響を与えた。巨額の戦費は国債の発行によってまかなわれることが多く、戦後にはその償還や物価の動向が各国の課題となった。また、鉄道・電信・自動車などの技術が軍事と結びつき、新しい兵器や輸送・通信の手段が登場した。戦後の国際社会では、こうした技術の発展を背景に、軍備の管理や核兵器の規制をめぐる交渉も進められていった。",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":1,
+        "prompt":"戦争の戦費を国債（公債）の大量発行でまかなった場合に、一般に生じやすい経済現象として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"国債を大量に発行しても通貨量や物価には影響せず、財政は自動的に均衡する","explanation_zh":"陷阱：概念混淆。国债大量发行通常增加货币供给与财政负担，并非自动均衡。","explanation_ja":"誤り。概念混同の罠。国債の大量発行は通貨量や財政負担を増やし、自動均衡はしない。"},
+          {"id":2,"text":"戦費の増大は必ず直ちに物価の下落（デフレーション）を引き起こす","explanation_zh":"陷阱：因果倒置。戦时财政扩张通常导致物价上涨而非下跌。","explanation_ja":"誤り。因果倒置の罠。戦時の財政膨張は一般に物価上昇を招き、デフレを直ちに起こすわけではない。"},
+          {"id":3,"text":"通貨量の増加や供給不足を背景に、物価が上昇するインフレーションが起こりやすい","explanation_zh":"正确。战费靠公债扩张使通货量增、供给紧张，易引发通货膨胀。","explanation_ja":"正解。戦費の公債発行は通貨量の増加と供給不足を通じて物価上昇（インフレ）を生じやすい。"},
+          {"id":4,"text":"国債の償還は社会保障費の削減と無関係で、将来世代の負担にはならない","explanation_zh":"陷阱：范围扩大。国债偿还需未来财政负担，会影响后续世代与支出。","explanation_ja":"誤り。範囲拡大の罠。国債の償還は将来の財政負担となり、将来世代に影響しないとは言えない。"}
+        ],
+        "answer":3,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["時態錯位","因果倒置","概念混同"],
+          "keywords_to_avoid":["公債","インフレーション","償還","社会保障費"],
+          "sub_domain":"経済史",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"2.市場経済"}
+        },
+        "sources":[{"claim":"戦費を国債発行でまかなうと通貨量増加・供給不足からインフレが生じやすい","source":"経済学標準教科書（財政・金融とインフレーション）","year":2020,"url":"https://www.mext.go.jp/"}]
+      },
+      {
+        "sub_id":2,
+        "global_id":2,
+        "prompt":"19世紀後半から20世紀にかけて、海底ケーブルによる電信網が世界に広がった。次の整備時期の数値文章を読み取った内容として最も適当なものはどれですか。\n大西洋横断海底ケーブル（ヨーロッパ〜北米）の実用的開通は1866年、太平洋横断海底ケーブル（北米〜ハワイ〜アジア方面）の開通は1902〜1903年ごろであった。",
+        "choices":[
+          {"id":1,"text":"太平洋横断ケーブルは大西洋横断ケーブルより早く開通した","explanation_zh":"陷阱：顺序混乱。大西洋1866年早于太平洋1902-1903年。","explanation_ja":"誤り。順序混同の罠。大西洋横断（1866年）が太平洋横断（1902–1903年ごろ）より早い。"},
+          {"id":2,"text":"両ケーブルとも20世紀に入ってから初めて開通した","explanation_zh":"陷阱：时态错位。大西洋横断电缆为1866年，属19世纪开通。","explanation_ja":"誤り。時態錯位の罠。大西洋横断ケーブルは1866年で、19世紀の開通である。"},
+          {"id":3,"text":"資料からは大西洋・太平洋間の通信が一度も実現しなかったことが読み取れる","explanation_zh":"陷阱：概念混淆。资料正说明海底通信网逐步建成，并非未实现。","explanation_ja":"誤り。概念混同の罠。資料はむしろ海底通信網の整備を示しており、未実現とは読めない。"},
+          {"id":4,"text":"大西洋横断ケーブルの開通は太平洋横断ケーブルより数十年早かった","explanation_zh":"正确。1866年比1902-1903年早约三十余年。","explanation_ja":"正解。大西洋横断（1866年）は太平洋横断（1902–1903年ごろ）より約30年以上早い。"}
+        ],
+        "answer":4,
+        "tag":{
+          "question_form":"図表読取",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["地域取違","概念混同"],
+          "keywords_to_avoid":["長崎","上海","ウラジオストク","1871年","海底ケーブル"],
+          "sub_domain":"経済史",
+          "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"}
+        },
+        "sources":[{"claim":"大西洋横断海底ケーブルの実用開通は1866年、太平洋横断は1902–1903年ごろ","source":"Encyclopaedia Britannica, submarine cable / transatlantic telegraph","year":1902,"url":"https://www.britannica.com/technology/submarine-cable"}]
+      },
+      {
+        "sub_id":3,
+        "global_id":3,
+        "prompt":"戦車（タンク）が世界で初めて本格的に実戦に投入された戦争として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"第一次世界大戦","explanation_zh":"正确。坦克于第一次世界大战（1916年索姆河战役）首次正式投入实战。","explanation_ja":"正解。戦車は第一次世界大戦（1916年のソンムの戦い）で初めて本格的に実戦投入された。"},
+          {"id":2,"text":"クリミア戦争","explanation_zh":"陷阱：时态错位。克里米亚战争（1853-1856）远早于坦克问世。","explanation_ja":"誤り。時態錯位の罠。クリミア戦争（1853–1856年）は戦車の登場よりはるかに前である。"},
+          {"id":3,"text":"普仏戦争","explanation_zh":"陷阱：时态错位。普法战争（1870-1871）时尚无坦克。","explanation_ja":"誤り。時態錯位の罠。普仏戦争（1870–1871年）の時代に戦車は存在しない。"},
+          {"id":4,"text":"日露戦争","explanation_zh":"陷阱：主体错位。日俄战争（1904-1905）以步兵炮兵为主，无坦克。","explanation_ja":"誤り。主体取違の罠。日露戦争（1904–1905年）に戦車は用いられていない。"}
+        ],
+        "answer":1,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["時態錯位","主体取違"],
+          "keywords_to_avoid":["戦車","実戦","第一次世界大戦","クリミア戦争","日露戦争","普仏戦争"],
+          "sub_domain":"経済史"
+        },
+        "sources":[{"claim":"戦車は第一次世界大戦の1916年ソンムの戦いで初めて実戦投入された","source":"Encyclopaedia Britannica, tank (military vehicle)","year":1916,"url":"https://www.britannica.com/technology/tank-military-vehicle"}]
+      },
+      {
+        "sub_id":4,
+        "global_id":4,
+        "prompt":"1963年に米・英・ソの間で結ばれた部分的核実験禁止条約（PTBT）に関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"あらゆる場所での核兵器の実験を全面的に禁止した","explanation_zh":"陷阱：范围扩大。PTBT仅禁大气层、宇宙、水下试验，地下试验未禁。","explanation_ja":"誤り。範囲拡大の罠。PTBTは大気圏内・宇宙空間・水中の実験を禁じたが、地下実験は対象外であった。"},
+          {"id":2,"text":"大気圏内・宇宙空間・水中での核実験を禁止した","explanation_zh":"正确。PTBT禁止大气层、宇宙空间与水下核试验。","explanation_ja":"正解。PTBTは大気圏内・宇宙空間・水中での核実験を禁止した。地下実験は禁止対象に含まれない。"},
+          {"id":3,"text":"1963年より前のクリミア戦争期に締結された軍縮条約である","explanation_zh":"陷阱：时态错位。PTBT为1963年冷战期条约，与克里米亚战争无关。","explanation_ja":"誤り。時態錯位の罠。PTBTは1963年の冷戦期の条約で、クリミア戦争とは無関係。"},
+          {"id":4,"text":"核兵器の保有そのものを全廃する条約であった","explanation_zh":"陷阱：概念混淆。PTBT是禁试条约，并非废除核武器保有的条约。","explanation_ja":"誤り。概念混同の罠。PTBTは実験禁止条約であり、核兵器の保有全廃を定めたものではない。"}
+        ],
+        "answer":2,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["範囲拡大","時態錯位","概念混同"],
+          "keywords_to_avoid":["部分的核実験禁止条約","PTBT","1963年","核軍縮"],
+          "sub_domain":"経済史",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"5. 国際政治"}
+        },
+        "sources":[{"claim":"1963年PTBTは大気圏内・宇宙・水中の核実験を禁止、地下実験は除外","source":"国連軍縮部 / Encyclopaedia Britannica, Partial Test Ban Treaty","year":1963,"url":"https://www.britannica.com/event/Nuclear-Test-Ban-Treaty"}]
+      }
+    ],
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"戦争と経済・技術",
+      "sub_domain":"経済史",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"2. 二つの世界大戦とその影響"},
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "keywords_to_avoid":["戦費","公債","鉄道","電信","戦車","核兵器","冷戦"]
+    }
+  },
+  {
+    "id": 2,
+    "title": "問2",
+    "prompt": "ヨーロッパのある国とその国際関係について、下の問い(1)〜(4)に答えなさい。",
+    "passage": "イベリア半島の大部分を占めるこの国は、首都が国土のほぼ中央に位置する内陸の高原地帯に置かれている。20世紀には内戦や独裁を経験し、その後に民主化を実現して西ヨーロッパの国際秩序に組み込まれていった。現在は欧州統合の枠組みや集団防衛の体制に参加する一方で、若年層の高い失業率など労働市場の課題も抱えている。",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":5,
+        "prompt":"次の数値の説明は、この国の主要都市のおおよその位置（緯度・経度）を示したものである。読み取れる内容として最も適当なものはどれですか。\n首都：北緯約40度・西経約4度（内陸の高原）、地中海岸の港湾都市：北緯約41度・東経約2度、大西洋岸の港湾都市：北緯約43度・西経約8度。",
+        "choices":[
+          {"id":1,"text":"首都は地中海の海岸沿いに位置している","explanation_zh":"陷阱：地域错位。首都西经约4度、内陆高原，并非地中海沿岸。","explanation_ja":"誤り。地域取違の罠。首都は西経約4度の内陸高原で、地中海岸ではない。"},
+          {"id":2,"text":"首都は国土のほぼ中央の内陸部に位置している","explanation_zh":"正确。资料示首都北纬约40度、西经约4度的内陆高原，居国土中央。","explanation_ja":"正解。資料の首都（北緯約40度・西経約4度の内陸高原）は国土のほぼ中央にあたる。"},
+          {"id":3,"text":"地中海岸の都市は首都より西に位置している","explanation_zh":"陷阱：地域错位。地中海岸城市东经约2度，在首都（西经约4度）以东。","explanation_ja":"誤り。地域取違の罠。地中海岸都市は東経約2度で、首都（西経約4度）より東にある。"},
+          {"id":4,"text":"三都市はすべて同じ経度上に並んでいる","explanation_zh":"陷阱：数值混同。三市经度分别为西经4度、东经2度、西经8度，并不相同。","explanation_ja":"誤り。数値混同の罠。三都市の経度は西経4度・東経2度・西経8度と異なる。"}
+        ],
+        "answer":2,
+        "tag":{
+          "question_form":"図表読取",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["地域取違"],
+          "keywords_to_avoid":["マドリード","スペイン中央","イベリア半島"],
+          "sub_domain":"欧米地誌",
+          "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"}
+        },
+        "sources":[{"claim":"マドリードは北緯約40度・西経約4度の内陸高原に位置する","source":"Encyclopaedia Britannica, Madrid (geography)","year":2022,"url":"https://www.britannica.com/place/Madrid"}]
+      },
+      {
+        "sub_id":2,
+        "global_id":6,
+        "prompt":"次の四つのできごとを年代の古い順に並べたものとして正しいものはどれですか。\nア：第一次世界大戦の講和条約（ヴェルサイユ条約）　イ：世界恐慌の始まり　ウ：ドイツのポーランド侵攻　エ：国際連合憲章の採択",
+        "choices":[
+          {"id":1,"text":"ア→ウ→イ→エ","explanation_zh":"陷阱：顺序混乱。世界恐慌（1929）应在波兰入侵（1939）之前。","explanation_ja":"誤り。順序混同の罠。世界恐慌（1929年）はポーランド侵攻（1939年）より前である。"},
+          {"id":2,"text":"イ→ア→ウ→エ","explanation_zh":"陷阱：顺序混乱。凡尔赛条约（1919）早于世界恐慌（1929）。","explanation_ja":"誤り。順序混同の罠。ヴェルサイユ条約（1919年）が世界恐慌（1929年）より先である。"},
+          {"id":3,"text":"ア→イ→エ→ウ","explanation_zh":"陷阱：顺序混乱。国连宪章（1945）应在波兰入侵（1939）之后。","explanation_ja":"誤り。順序混同の罠。国連憲章（1945年）はポーランド侵攻（1939年）より後である。"},
+          {"id":4,"text":"ア→イ→ウ→エ","explanation_zh":"正确。凡尔赛1919→世界恐慌1929→波兰入侵1939→国连宪章1945。","explanation_ja":"正解。ヴェルサイユ条約1919年→世界恐慌1929年→ポーランド侵攻1939年→国連憲章1945年の順。"}
+        ],
+        "answer":4,
+        "tag":{
+          "question_form":"時系列整序",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["順序混同"],
+          "keywords_to_avoid":["ヴェルサイユ条約","1919年","国連憲章","1945年","世界恐慌","1929年","ポーランド侵攻","1939年"],
+          "sub_domain":"欧米地誌",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"5. 国際政治"}
+        },
+        "sources":[{"claim":"ヴェルサイユ条約1919、世界恐慌1929、ポーランド侵攻1939、国連憲章1945","source":"Encyclopaedia Britannica, 20th-century events","year":1945,"url":"https://www.britannica.com/event/World-War-II"}]
+      },
+      {
+        "sub_id":3,
+        "global_id":7,
+        "prompt":"北大西洋条約機構（NATO）に関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"ソ連を中心とする東側諸国の集団防衛機構として結成された","explanation_zh":"陷阱：主体错位。NATO是以美国为首的西方集团防卫机构。","explanation_ja":"誤り。主体取違の罠。NATOは米国を中心とする西側の集団防衛機構である。"},
+          {"id":2,"text":"加盟国の一国への攻撃を全体への攻撃とみなす集団防衛の枠組みである","explanation_zh":"正确。NATO以集体防卫为核心，对一国攻击视为对全体攻击。","explanation_ja":"正解。NATOは加盟国への攻撃を全体への攻撃とみなす集団防衛の原則に立つ。"},
+          {"id":3,"text":"経済統合のみを目的とし、軍事的な協力は一切含まない","explanation_zh":"陷阱：概念混淆。NATO本质是军事同盟，非纯经济统合组织。","explanation_ja":"誤り。概念混同の罠。NATOは軍事同盟であり、経済統合のみを目的とはしない。"},
+          {"id":4,"text":"発足当初から日本やオーストラリアを正式な加盟国としていた","explanation_zh":"陷阱：主体错位。NATO是北大西洋区域组织，日本、澳洲非加盟国。","explanation_ja":"誤り。主体取違の罠。NATOは北大西洋地域の機構で、日本やオーストラリアは加盟国ではない。"}
+        ],
+        "answer":2,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["主体取違","概念混同"],
+          "keywords_to_avoid":["NATO","北大西洋条約機構","西側","ソ連","共産圏","集団防衛"],
+          "sub_domain":"欧米地誌",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"5. 国際政治"}
+        },
+        "sources":[{"claim":"NATOは西側の集団防衛機構で、加盟国への攻撃を全体への攻撃とみなす","source":"NATO公式 / Encyclopaedia Britannica, NATO","year":1949,"url":"https://www.britannica.com/topic/North-Atlantic-Treaty-Organization"}]
+      },
+      {
+        "sub_id":4,
+        "global_id":8,
+        "prompt":"この国などで見られる「若年層の失業率が全体の失業率より大幅に高い」状況の説明として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"若年層の失業率が高いのは、若年人口が他のどの世代よりも少ないことが原因である","explanation_zh":"陷阱：因果倒置。失业率高低与人口规模并非简单因果，原因在就业机会与雇用结构。","explanation_ja":"誤り。因果倒置の罠。若年失業率の高さは人口規模ではなく雇用機会・雇用構造の問題による。"},
+          {"id":2,"text":"若年層の失業率が高いことは、その国の経済が完全雇用を達成している証拠である","explanation_zh":"陷阱：概念混淆。高失业率与完全雇用相矛盾，不能作为完全雇用证据。","explanation_ja":"誤り。概念混同の罠。高い失業率は完全雇用とは相反し、その証拠にはならない。"},
+          {"id":3,"text":"若年層の失業率は景気変動の影響を全く受けず、常に一定である","explanation_zh":"陷阱：范围扩大。青年失业受景气波动影响显著，并非恒定。","explanation_ja":"誤り。範囲拡大の罠。若年層の失業率は景気変動の影響を強く受け、一定ではない。"},
+          {"id":4,"text":"新規採用の抑制や非正規雇用の増加などにより、若年層が職に就きにくくなることが背景にある","explanation_zh":"正确。新规录用收紧与非正规雇用扩大使青年更难就业，是高青年失业的背景。","explanation_ja":"正解。新規採用の抑制や非正規雇用の拡大により、若年層が職に就きにくくなることが背景にある。"}
+        ],
+        "answer":4,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["因果倒置","概念混同"],
+          "keywords_to_avoid":["若年層失業率","スペイン","正規雇用","労働市場","年功序列"],
+          "sub_domain":"欧米地誌",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"5. 国際政治"}
+        },
+        "sources":[{"claim":"スペイン等で若年失業率は全体失業率を大きく上回り、雇用構造が背景","source":"OECD Youth unemployment rate (Spain)","year":2021,"url":"https://data.oecd.org/unemp/youth-unemployment-rate.htm"}]
+      }
+    ],
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"スペイン地政学",
+      "sub_domain":"欧米地誌",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"2. 現代世界の諸地域"},
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "keywords_to_avoid":["スペイン王国","マドリード","フランコ","フアン・カルロス1世","バスク","カタルーニャ"]
+    }
+  },
+  {
+    "id": 3,
+    "global_id": 9,
+    "title": "問3",
+    "prompt": "19世紀に「幼稚産業保護論」を主張し、後発国の工業化のために一時的な保護貿易を唱えた人物として最も適当なものはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"ドイツの経済学者リストは、後発国の幼稚産業を保護するため一時的な保護貿易を主張した","explanation_zh":"正确。李斯特（德国）主张为后发国幼稚产业实行暂时性保护贸易。","explanation_ja":"正解。ドイツのリストは、後発国の幼稚産業を育成するため一時的な保護貿易を主張した。"},
+      {"id":2,"text":"イギリスの経済学者リカードが、幼稚産業保護のため恒久的な保護関税を提唱した","explanation_zh":"陷阱：主体错位。李嘉图主张比较优势与自由贸易，非幼稚产业保护。","explanation_ja":"誤り。主体取違の罠。リカードは比較生産費説に基づく自由貿易を説き、保護論者ではない。"},
+      {"id":3,"text":"リストはイギリスの自由貿易体制を理想とし、保護貿易を一貫して否定した","explanation_zh":"陷阱：概念混淆。李斯特正是批判全面自由贸易、主张保护后发产业。","explanation_ja":"誤り。概念混同の罠。リストは全面的自由貿易を批判し、後発国の保護を主張した。"},
+      {"id":4,"text":"幼稚産業保護論は20世紀後半に初めて唱えられた新しい理論である","explanation_zh":"陷阱：时态错位。该理论19世纪由李斯特提出，并非20世纪后半新论。","explanation_ja":"誤り。時態錯位の罠。幼稚産業保護論は19世紀のリストに由来し、20世紀後半の新説ではない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"幼稚産業保護論",
+      "sub_domain":"経済原理・市場",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"10. 国際経済"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違","時態錯位"],
+      "keywords_to_avoid":["リスト","リカード","ドイツ","イギリス","保護貿易","19世紀"]
+    },
+    "sources": [{"claim":"フリードリヒ・リスト（ドイツ）は幼稚産業保護論を唱えた","source":"Encyclopaedia Britannica, Friedrich List","year":1841,"url":"https://www.britannica.com/biography/Friedrich-List"}]
+  },
+  {
+    "id": 4,
+    "global_id": 10,
+    "title": "問4",
+    "prompt": "1980年代にイギリスで行われた、いわゆる新自由主義的な経済改革の特徴として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"基幹産業の国有化を進め、政府の経済への関与を大幅に拡大した","explanation_zh":"陷阱：概念混淆。新自由主义主张缩小政府介入、推动民营化，方向相反。","explanation_ja":"誤り。概念混同の罠。新自由主義は政府の関与縮小・民営化を進める方向であり、国有化拡大ではない。"},
+      {"id":2,"text":"すべての公共サービスを無償化し、規制を強化することを中心とした","explanation_zh":"陷阱：范围扩大。改革核心是放松规制与民营化，非全面无偿化与强化规制。","explanation_ja":"誤り。範囲拡大の罠。改革の中心は規制緩和と民営化で、全面無償化・規制強化ではない。"},
+      {"id":3,"text":"国有企業の民営化や規制緩和を進め、市場の役割を重視した","explanation_zh":"正确。撒切尔改革推动国企民营化、放松规制，重视市场作用。","explanation_ja":"正解。サッチャー政権は国有企業の民営化や規制緩和を進め、市場の役割を重視した。"},
+      {"id":4,"text":"為替を固定し、輸入を全面的に禁止する保護主義を採用した","explanation_zh":"陷阱：概念混淆。新自由主义重市场开放，并非全面禁输入的保护主义。","explanation_ja":"誤り。概念混同の罠。新自由主義は市場重視であり、輸入全面禁止の保護主義ではない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"新自由主義改革",
+      "sub_domain":"経済思想・経済史",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"3.経済主体"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","範囲拡大"],
+      "keywords_to_avoid":["サッチャー","新自由主義","イギリス","民営化","規制緩和"]
+    },
+    "sources": [{"claim":"サッチャー政権は民営化・規制緩和など新自由主義的改革を進めた","source":"Encyclopaedia Britannica, Margaret Thatcher / Thatcherism","year":1980,"url":"https://www.britannica.com/biography/Margaret-Thatcher"}]
+  },
+  {
+    "id": 5,
+    "global_id": 11,
+    "title": "問5",
+    "prompt": "次の数値の説明は、ある年の四つの製品について、上位3社の市場占拠率を合計した累積集中度（CR3）を示したものである。最も寡占の程度が高い製品として適当なものはどれですか。\n電気機械：約35%、ビール：約90%、パーソナルコンピュータ：約60%、清涼飲料：約45%。",
+    "choices": [
+      {"id":1,"text":"電気機械（CR3 約35%）","explanation_zh":"陷阱：数值混同。35%为四者中最低，寡占程度最低。","explanation_ja":"誤り。数値混同の罠。電気機械のCR3約35%は四つの中で最も低い。"},
+      {"id":2,"text":"ビール（CR3 約90%）","explanation_zh":"正确。CR3约90%为四者最高，寡占程度最高。","explanation_ja":"正解。ビールのCR3約90%は四つの中で最も高く、最も寡占的である。"},
+      {"id":3,"text":"パーソナルコンピュータ（CR3 約60%）","explanation_zh":"陷阱：数值混同。60%低于啤酒90%，并非最高。","explanation_ja":"誤り。数値混同の罠。パソコンの約60%はビールの約90%より低い。"},
+      {"id":4,"text":"清涼飲料（CR3 約45%）","explanation_zh":"陷阱：概念混淆。45%属中等集中度，远低于啤酒。","explanation_ja":"誤り。概念混同の罠。清涼飲料の約45%は中程度で、ビールより寡占度は低い。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"企業生産集中度指数",
+      "sub_domain":"経済原理・市場",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"3.経済主体"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["パーソナルコンピュータ","ビール","たばこ","電気"]
+    },
+    "sources": [{"claim":"累積集中度（CR3）は上位3社の市場占拠率合計で寡占度を測る指標","source":"公正取引委員会 生産・出荷集中度調査（用語解説）","year":2014,"url":"https://www.jftc.go.jp/soshiki/kyotsukoukai/ruiseki/yougo.html"}]
+  },
+  {
+    "id": 6,
+    "global_id": 12,
+    "title": "問6",
+    "prompt": "1990年代末以降に日本銀行がとった金融政策に関する記述として最も適当なものはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"無担保コールレートを極めて低く誘導するゼロ金利政策や、量的緩和政策を実施した","explanation_zh":"正确。日本央行实施零利率政策与量化宽松，引导短期利率至极低。","explanation_ja":"正解。日本銀行はゼロ金利政策や量的緩和政策を実施し、短期金利を極めて低く誘導した。"},
+      {"id":2,"text":"景気過熱を抑えるため、政策金利を連続して大幅に引き上げ続けた","explanation_zh":"陷阱：时态错位。该期为对抗通缩而宽松，并非连续大幅加息。","explanation_ja":"誤り。時態錯位の罠。当時はデフレ対策の金融緩和期で、連続利上げではない。"},
+      {"id":3,"text":"金融政策は財務省が直接決定し、日本銀行は関与しなかった","explanation_zh":"陷阱：概念混淆。金融政策由日本央行政策委员会决定，非财务省。","explanation_ja":"誤り。概念混同の罠。金融政策は日本銀行（政策委員会）が決定し、財務省ではない。"},
+      {"id":4,"text":"為替の固定相場を維持するために金利を一定に保ち続けた","explanation_zh":"陷阱：概念混淆。日本采浮动汇率，零利率/量宽并非为固定汇率。","explanation_ja":"誤り。概念混同の罠。日本は変動相場制で、ゼロ金利・量的緩和は固定相場維持策ではない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"日本銀行金融政策",
+      "sub_domain":"金融・通貨",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"5. 金融"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","時態錯位"],
+      "keywords_to_avoid":["日本銀行","ゼロ金利政策","量的緩和"]
+    },
+    "sources": [{"claim":"日本銀行は1999年ゼロ金利政策、2001年以降量的緩和政策を導入","source":"日本銀行 金融政策の経緯","year":2001,"url":"https://www.boj.or.jp/mopo/outline/index.htm"}]
+  },
+  {
+    "id": 7,
+    "global_id": 13,
+    "title": "問7",
+    "prompt": "次の数値の説明は、近年の日本の名目GDPを支出側からみた構成比のおおよその値である。読み取れる内容として最も適当なものはどれですか。\n民間最終消費支出：約55%、総固定資本形成（投資）：約25%、政府最終消費支出：約20%程度。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"総固定資本形成（投資）がGDPの半分以上を占めている","explanation_zh":"陷阱：数值混同。投资约25%，未达半数，最大项是民间消费。","explanation_ja":"誤り。数値混同の罠。総固定資本形成は約25%で半分に満たない。"},
+      {"id":2,"text":"民間最終消費支出がGDPの構成項目の中で最も大きい","explanation_zh":"正确。民间最终消费约55%，是支出侧最大项。","explanation_ja":"正解。民間最終消費支出は約55%で、支出側のGDP構成項目のうち最大である。"},
+      {"id":3,"text":"政府最終消費支出が民間最終消費支出を上回っている","explanation_zh":"陷阱：概念混淆。政府消费约20%，低于民间消费约55%。","explanation_ja":"誤り。概念混同の罠。政府最終消費支出（約20%）は民間消費（約55%）を下回る。"},
+      {"id":4,"text":"三つの項目はいずれもほぼ同じ割合である","explanation_zh":"陷阱：数值混同。55%、25%、20%差异明显，并不相同。","explanation_ja":"誤り。数値混同の罠。約55%・25%・20%と差があり、同じ割合ではない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"GDP構成比較分析",
+      "sub_domain":"国民経済・成長",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"4.国民経済"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["数値混同","概念混同"],
+      "keywords_to_avoid":["民間最終消費支出","総固定資本形成","GDP"]
+    },
+    "sources": [{"claim":"日本のGDPは支出側で民間最終消費支出が約5割超を占め最大","source":"内閣府 国民経済計算（GDP統計・支出側）","year":2021,"url":"https://www.esri.cao.go.jp/jp/sna/menu.html"}]
+  },
+  {
+    "id": 8,
+    "global_id": 14,
+    "title": "問8",
+    "prompt": "次の数値の説明は、世界的な金融危機（リーマン・ショック）前後の日本の実質GDP成長率のおおよその推移である。読み取れる内容として最も適当なものはどれですか。\n2007年度：約+1.5%、2008年度：約−3.6%、2009年度：約−2.0%、2010年度：約+3.3%。",
+    "choices": [
+      {"id":1,"text":"2008年度と2009年度の二年連続でマイナス成長となった","explanation_zh":"正确。2008年度约−3.6%、2009年度约−2.0%，连续两年负增长。","explanation_ja":"正解。2008年度（約−3.6%）と2009年度（約−2.0%）は二年連続のマイナス成長である。"},
+      {"id":2,"text":"金融危機の影響で成長率がプラスになることは一度もなかった","explanation_zh":"陷阱：范围扩大。2007与2010年度均为正增长，并非全程负。","explanation_ja":"誤り。範囲拡大の罠。2007年度・2010年度はプラス成長で、全期間マイナスではない。"},
+      {"id":3,"text":"2008年度の成長率は資料中で最も高い値であった","explanation_zh":"陷阱：数值混同。2008年度约−3.6%为最低，最高是2010年度+3.3%。","explanation_ja":"誤り。数値混同の罠。2008年度は約−3.6%で最低、最高は2010年度の約+3.3%である。"},
+      {"id":4,"text":"危機後すぐの2010年度も引き続きマイナス成長であった","explanation_zh":"陷阱：时态错位。2010年度约+3.3%已回正，并非负增长。","explanation_ja":"誤り。時態錯位の罠。2010年度は約+3.3%で、すでにプラスに転じている。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"日本GDP成長率危機",
+      "sub_domain":"国民経済・成長",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"4.国民経済"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位","数値混同"],
+      "keywords_to_avoid":["実質GDP","成長率","マイナス"]
+    },
+    "sources": [{"claim":"リーマン・ショック後、日本の実質GDPは2008・2009年度に二年連続マイナス成長","source":"内閣府 国民経済計算（実質GDP成長率）","year":2009,"url":"https://www.esri.cao.go.jp/jp/sna/menu.html"}]
+  },
+  {
+    "id": 9,
+    "global_id": 15,
+    "title": "問9",
+    "prompt": "企業統治（コーポレート・ガバナンス）における社外取締役の役割として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"社外取締役は日常の現場の業務執行を直接指揮することを主な役割とする","explanation_zh":"陷阱：概念混淆。社外董事侧重监督，非直接指挥日常业务执行。","explanation_ja":"誤り。概念混同の罠。社外取締役の役割は監督であり、日常業務の指揮ではない。"},
+      {"id":2,"text":"社外取締役は株主総会の議決権を経営陣に代わって行使する権限をもつ","explanation_zh":"陷阱：概念混淆。表决权属股东，社外董事不能代行股东表决权。","explanation_ja":"誤り。概念混同の罠。株主総会の議決権は株主に属し、社外取締役が代行するものではない。"},
+      {"id":3,"text":"経営陣から独立した立場で、業務執行を監督し利害相反を抑える役割を担う","explanation_zh":"正确。社外董事独立于经营层，监督业务执行、抑制利益冲突。","explanation_ja":"正解。社外取締役は経営陣から独立した立場で業務執行を監督し、利害相反を抑える役割を担う。"},
+      {"id":4,"text":"社外取締役を置けば企業の不正は完全になくなることが保証される","explanation_zh":"陷阱：范围扩大。社外董事可抑制不正，但不能保证完全杜绝。","explanation_ja":"誤り。範囲拡大の罠。社外取締役は抑止に資するが、不正の完全消滅を保証するものではない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"コーポレート・ガバナンス",
+      "sub_domain":"金融・通貨",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"3.経済主体"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","範囲拡大"],
+      "keywords_to_avoid":["社外取締役","コーポレート・ガバナンス"]
+    },
+    "sources": [{"claim":"社外取締役は経営陣から独立し業務執行を監督する役割を担う","source":"金融庁・東京証券取引所 コーポレートガバナンス・コード","year":2021,"url":"https://www.jpx.co.jp/equities/listing/cg/"}]
+  },
+  {
+    "id": 10,
+    "global_id": 16,
+    "title": "問10",
+    "prompt": "第二次世界大戦後の連合国軍による日本占領期に行われた経済改革に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"巨大な財閥を保護・強化する政策がとられた","explanation_zh":"陷阱：概念混淆。占领期推动财阀解体，并非保护强化。","explanation_ja":"誤り。概念混同の罠。占領期には財閥解体が進められ、保護・強化ではない。"},
+      {"id":2,"text":"農地改革は行われず、地主制度がそのまま維持された","explanation_zh":"陷阱：时态错位。占领期实施农地改革、解体地主制，并非维持。","explanation_ja":"誤り。時態錯位の罠。占領期には農地改革が行われ、地主制度は解体された。"},
+      {"id":3,"text":"財閥解体や農地改革など、経済の民主化を目指す改革が行われた","explanation_zh":"正确。占领期推行财阀解体、农地改革等经济民主化改革。","explanation_ja":"正解。占領期には財閥解体・農地改革など経済の民主化を目指す改革が行われた。"},
+      {"id":4,"text":"すべての企業が国有化され、計画経済へ移行した","explanation_zh":"陷阱：范围扩大。日本未实行全面国有化与计划经济。","explanation_ja":"誤り。範囲拡大の罠。日本では全企業の国有化や計画経済への移行は行われていない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"占領期制度改革與變化",
+      "sub_domain":"現代日本",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"5. 金融"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位","概念混同"],
+      "keywords_to_avoid":["占領期","持株会社","金本位制"]
+    },
+    "sources": [{"claim":"占領期に財閥解体・農地改革など経済民主化が行われた","source":"Encyclopaedia Britannica, Occupation of Japan / 経済の民主化","year":1947,"url":"https://www.britannica.com/place/Japan/The-Occupation"}]
+  },
+  {
+    "id": 11,
+    "global_id": 17,
+    "title": "問11",
+    "prompt": "為替相場が円安に動いた場合に、日本の輸出企業の業績に一般に生じやすい影響として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"円安により、輸出品の外貨建て価格を引き上げざるをえず輸出が必ず減少する","explanation_zh":"陷阱：因果倒置。日元贬值通常使出口品外币价更具竞争力，趋向利好。","explanation_ja":"誤り。因果倒置の罠。円安は輸出品の外貨建て価格競争力を高めやすく、必ず減少とは言えない。"},
+      {"id":2,"text":"円安は輸入原材料の価格を下げるため、企業の費用は必ず低下する","explanation_zh":"陷阱：概念混淆。日元贬值反而抬高进口原料价格，费用上升。","explanation_ja":"誤り。概念混同の罠。円安は輸入原材料価格を上昇させ、費用はむしろ増えやすい。"},
+      {"id":3,"text":"円安と円高は輸出企業の業績に同じ影響を与える","explanation_zh":"陷阱：概念混淆。日元升贬对出口业绩影响相反，并不相同。","explanation_ja":"誤り。概念混同の罠。円安と円高は輸出業績に逆向きの影響を与え、同じではない。"},
+      {"id":4,"text":"円換算した輸出代金が増えやすく、輸出企業の収益にプラスに働きやすい","explanation_zh":"正确。日元贬值使外币出口代金折算成日元增加，利好出口企业收益。","explanation_ja":"正解。円安では外貨建ての輸出代金を円換算した額が増えやすく、輸出企業の収益にプラスに働きやすい。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"為替相場と輸出業績",
+      "sub_domain":"金融・通貨",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"3.経済主体"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["数値混同","概念混同"],
+      "keywords_to_avoid":["為替相場","円安","円高"]
+    },
+    "sources": [{"claim":"円安は円換算の輸出代金を増やし輸出企業の収益にプラスに働きやすい","source":"日本銀行 / 経済学標準教科書（為替相場と輸出入）","year":2020,"url":"https://www.boj.or.jp/"}]
+  },
+  {
+    "id": 12,
+    "global_id": 18,
+    "title": "問12",
+    "prompt": "次の数値の説明は、エネルギー起源CO2排出量の国別割合（2021年ごろ、IEA）のおおよその値である。読み取れる内容として最も適当なものはどれですか。\n中国：約32%、アメリカ：約14%、EU27か国：約8%、インド：約7%。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"アメリカの排出割合は中国の二倍を超えている","explanation_zh":"陷阱：数值混同。中国约32%远高于美国约14%，并非美国为中国两倍。","explanation_ja":"誤り。数値混同の罠。中国約32%はアメリカ約14%を上回り、二倍関係は逆である。"},
+      {"id":2,"text":"中国の排出割合は四つの中で最も大きい","explanation_zh":"正确。中国约32%为四者最高，居全球CO2排放首位。","explanation_ja":"正解。中国は約32%で、資料の四つの中で排出割合が最も大きい。"},
+      {"id":3,"text":"EU27か国の排出割合はインドより小さい","explanation_zh":"陷阱：数值混同。EU约8%大于印度约7%，并非更小。","explanation_ja":"誤り。数値混同の罠。EU27か国は約8%でインド約7%より大きい。"},
+      {"id":4,"text":"四つの国・地域の排出割合はほぼ等しい","explanation_zh":"陷阱：概念混淆。32%、14%、8%、7%差异显著，并不相等。","explanation_ja":"誤り。概念混同の罠。約32%・14%・8%・7%と差が大きく、ほぼ等しくはない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"CO2排放国家排序",
+      "sub_domain":"産業・資源",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["数値混同","概念混同"],
+      "keywords_to_avoid":["CO2排出量","中国","アメリカ"]
+    },
+    "sources": [{"claim":"2021年ごろのエネルギー起源CO2排出は中国約31.7%、アメリカ約13.6%が上位","source":"環境省（IEA Greenhouse Gas Emissions from Energy）","year":2021,"url":"https://www.env.go.jp/content/000177854.pdf"}]
+  },
+  {
+    "id": 13,
+    "global_id": 19,
+    "title": "問13",
+    "prompt": "20世紀後半以降の環境問題への国際的な取り組みに関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"環境問題は各国が個別に対応するものとされ、国際的な会議は一度も開かれなかった","explanation_zh":"陷阱：概念混淆。环境问题召开了多次国际会议，并非未曾。","explanation_ja":"誤り。概念混同の罠。環境問題では国際会議が繰り返し開かれており、一度もないというのは誤り。"},
+      {"id":2,"text":"国連人間環境会議（ストックホルム会議）は20世紀末に初めて開かれた","explanation_zh":"陷阱：时态错位。斯德哥尔摩会议为1972年，非20世纪末。","explanation_ja":"誤り。時態錯位の罠。国連人間環境会議は1972年で、20世紀末ではない。"},
+      {"id":3,"text":"地球環境問題は国境を越えないため、国際協力は不要とされてきた","explanation_zh":"陷阱：概念混淆。环境问题具跨境性，正需国际合作。","explanation_ja":"誤り。概念混同の罠。地球環境問題は国境を越えるため、国際協力が求められてきた。"},
+      {"id":4,"text":"地球規模の環境問題に対し、国連を中心とする国際会議や条約づくりが進められてきた","explanation_zh":"正确。围绕全球环境问题，以联合国为中心推进国际会议与条约。","explanation_ja":"正解。地球規模の環境問題に対し、国連を中心とした国際会議や条約づくりが進められてきた。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"社会",
+      "topic":"環境問題国際会議",
+      "sub_domain":"現代社会問題",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"5. 国際政治"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位","概念混同"],
+      "keywords_to_avoid":["レイチェル・カーソン","沈黙の春"]
+    },
+    "sources": [{"claim":"1972年ストックホルム会議以降、国連中心に環境の国際会議・条約が進展","source":"Encyclopaedia Britannica, United Nations Conference on the Human Environment","year":1972,"url":"https://www.britannica.com/event/UN-Conference-on-the-Human-Environment"}]
+  },
+  {
+    "id": 14,
+    "global_id": 20,
+    "title": "問14",
+    "prompt": "東京とニューヨークのように、北半球の中緯度にある二つの都市を結ぶ最短経路（大圏航路）に関する説明として最も適当なものはどれですか。地球は球体であるものとする。",
+    "choices": [
+      {"id":1,"text":"地球が球体であるため、最短経路は同じ緯線上をまっすぐ進む経路よりも高緯度側（北寄り）にふくらむ","explanation_zh":"正确。球面最短大圈航线相对同纬度直线偏向高纬一侧。","explanation_ja":"正解。球面上の最短経路（大圏航路）は同一緯線上の経路より高緯度側にふくらむ。"},
+      {"id":2,"text":"最短経路は必ず赤道上を通る","explanation_zh":"陷阱：地域错位。两中纬城市最短路无须经过赤道。","explanation_ja":"誤り。地域取違の罠。中緯度の二都市を結ぶ最短経路が必ず赤道を通るわけではない。"},
+      {"id":3,"text":"最短経路は同じ緯線をたどる経路と常に完全に一致する","explanation_zh":"陷阱：概念混淆。沿纬线并非最短，大圈航线与之不同。","explanation_ja":"誤り。概念混同の罠。緯線に沿う経路は最短ではなく、大圏航路と一致しない。"},
+      {"id":4,"text":"球体では二点間の最短経路は存在しない","explanation_zh":"陷阱：概念混淆。球面两点最短路（大圈弧）确实存在。","explanation_ja":"誤り。概念混同の罠。球面上でも二点間の最短経路（大圏の弧）は存在する。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"大圓航路計算",
+      "sub_domain":"自然地理",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["地域取違","概念混同"],
+      "keywords_to_avoid":["東京","ニューヨーク","最短距離"]
+    },
+    "sources": [{"claim":"大圏航路（球面上の最短経路）は同一緯線経路より高緯度側にふくらむ","source":"地理（地図投影と大圏航路）標準教科書","year":2020,"url":"https://www.mext.go.jp/"}]
+  },
+  {
+    "id": 15,
+    "global_id": 21,
+    "title": "問15",
+    "prompt": "本初子午線や緯度・経度に関する次の記述のうち、最も適当でないもの（誤っているもの）はどれですか。",
+    "choices": [
+      {"id":1,"text":"本初子午線は地球を北半球と南半球に二分する基準線である","explanation_zh":"正确。本题选「不适当」者；该项为误：本初子午线为经度0度，分东西半球，分南北的是赤道。","explanation_ja":"正解。正解（誤りの記述）。本初子午線は経度0度で東西の基準であり、南北を分けるのは赤道。これが不適当な記述。"},
+      {"id":2,"text":"本初子午線はロンドンの旧グリニッジ天文台を通る経度0度の線である","explanation_zh":"陷阱：本项为真陈述。本初子午线确为经度0度、过格林尼治。","explanation_ja":"誤り。誤り（正しい記述）。本初子午線は経度0度でグリニッジを通る正しい説明であり、選ぶべき不適当項ではない。"},
+      {"id":3,"text":"赤道は緯度0度の線で、地球を北半球と南半球に分ける","explanation_zh":"陷阱：本项为真陈述。赤道为纬度0度、分南北半球。","explanation_ja":"誤り。誤り（正しい記述）。赤道は緯度0度で南北を分ける正しい説明である。"},
+      {"id":4,"text":"経度はおよそ東経180度・西経180度で一周し、両者はほぼ同じ経線で出会う","explanation_zh":"陷阱：本项为真陈述。东西经各180度合计360度，于约180度经线相接。","explanation_ja":"誤り。誤り（正しい記述）。東経・西経はそれぞれ180度で、ほぼ同じ経線で出会う正しい説明である。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"本初子午線と地球分割",
+      "sub_domain":"自然地理",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"2. 現代世界の諸地域"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答誤記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["地域取違","概念混同"],
+      "keywords_to_avoid":["本初子午線","東経180度","赤道"]
+    },
+    "sources": [{"claim":"本初子午線は経度0度（東西基準）、赤道は緯度0度（南北基準）","source":"地理（緯度・経度・本初子午線）標準教科書","year":2020,"url":"https://www.mext.go.jp/"}]
+  },
+  {
+    "id": 16,
+    "global_id": 22,
+    "title": "問16",
+    "prompt": "次の数値の説明は、ある都市の月別平均気温のおおよその値である。この都市の気候の説明として最も適当なものはどれですか。\n最暖月（8月）：約26℃、最寒月（1月）：約−5℃。年較差は約31℃である。",
+    "choices": [
+      {"id":1,"text":"年較差がほとんどないことから、一年中高温多湿の熱帯と判断できる","explanation_zh":"陷阱：地域错位。年较差约31℃很大，与终年高温的热带不符。","explanation_ja":"誤り。地域取違の罠。年較差約31℃は大きく、年中高温の熱帯とは異なる。"},
+      {"id":2,"text":"最寒月でも気温が高いことから、海洋性の温暖な気候と判断できる","explanation_zh":"陷阱：数值混同。最冷月约−5℃并不温暖，与海洋性温暖气候不符。","explanation_ja":"誤り。数値混同の罠。最寒月約−5℃は温暖とは言えず、海洋性温暖気候には当たらない。"},
+      {"id":3,"text":"最寒月が氷点下まで下がり年較差が大きいことから、内陸的で冬の寒さが厳しい気候と判断できる","explanation_zh":"正确。最冷月约−5℃、年较差约31℃，显示冬寒明显的内陆性气候。","explanation_ja":"正解。最寒月が約−5℃で年較差約31℃と大きく、冬の寒さが厳しい内陸的な気候と判断できる。"},
+      {"id":4,"text":"月別気温の差が小さいことから、季節の変化のない乾燥した砂漠気候と判断できる","explanation_zh":"陷阱：概念混淆。资料示气温差大，与「差小」前提矛盾，亦非据此判沙漠。","explanation_ja":"誤り。概念混同の罠。資料は気温差が大きく、「差が小さい」という前提自体が誤り。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"気温年較差と気候帯",
+      "sub_domain":"自然地理",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["地域取違","概念混同"],
+      "keywords_to_avoid":["月別平均気温","年較差"]
+    },
+    "sources": [{"claim":"気温の年較差が大きいほど内陸性（大陸性）気候の特徴を示す","source":"地理（気候帯と気温の年較差）標準教科書","year":2020,"url":"https://www.mext.go.jp/"}]
+  },
+  {
+    "id": 17,
+    "global_id": 23,
+    "title": "問17",
+    "prompt": "19世紀末から20世紀初めにかけてのヨーロッパ列強によるアフリカ分割に関する次の記述のうち、最も適当でないもの（誤っているもの）はどれですか。",
+    "choices": [
+      {"id":1,"text":"ベルギーはコンゴ地域に進出し、植民地支配を行った","explanation_zh":"陷阱：本项为真陈述。比利时确曾统治刚果。","explanation_ja":"誤り。誤り（正しい記述）。ベルギーがコンゴを支配したのは事実で、不適当項ではない。"},
+      {"id":2,"text":"ポルトガルはアフリカ南西部や南東部の沿岸地域に植民地をもっていた","explanation_zh":"陷阱：本项为真陈述。葡萄牙在安哥拉、莫桑比克等地有殖民地。","explanation_ja":"誤り。誤り（正しい記述）。ポルトガルがアンゴラ・モザンビーク等を領有したのは事実である。"},
+      {"id":3,"text":"イタリアもアフリカへの進出を試み、北アフリカや東アフリカに関心を寄せた","explanation_zh":"陷阱：本项为真陈述。意大利曾染指利比亚、东非。","explanation_ja":"誤り。誤り（正しい記述）。イタリアの北アフリカ・東アフリカ進出は事実である。"},
+      {"id":4,"text":"アフリカ大陸は20世紀初めの時点で全域がアメリカ合衆国の植民地となっていた","explanation_zh":"正确。本题选「不适当」者；该项为误：非洲被欧洲列强分割，并非美国全域殖民。","explanation_ja":"正解。正解（誤りの記述）。アフリカはヨーロッパ列強が分割しており、米国の全域植民地という記述は誤りで、これが不適当項。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"ヨーロッパ列強のアフリカ分割",
+      "sub_domain":"近代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"1. 近代化の進展とその影響"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答誤記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違","時態錯位"],
+      "keywords_to_avoid":["イタリア","ベルギー","ポルトガル"]
+    },
+    "sources": [{"claim":"19世紀末のアフリカ分割はヨーロッパ列強によるもので、米国の全域支配ではない","source":"Encyclopaedia Britannica, Scramble for Africa","year":1900,"url":"https://www.britannica.com/event/Scramble-for-Africa"}]
+  },
+  {
+    "id": 18,
+    "global_id": 24,
+    "title": "問18",
+    "prompt": "次の数値の説明は、二つの国の産業別就業人口構成（第1次・第2次・第3次産業）のおおよその割合である。読み取れる内容として最も適当なものはどれですか。\nX国：第1次 約45%、第2次 約20%、第3次 約35%。Y国：第1次 約3%、第2次 約25%、第3次 約72%。",
+    "choices": [
+      {"id":1,"text":"第1次産業の割合が高いX国は、Y国に比べて経済発展の水準が低い段階にあると考えられる","explanation_zh":"正确。第一产业比重高、第三产业低，通常对应较低发展水平。","explanation_ja":"正解。第1次産業の割合が高いX国は、第3次産業中心のY国より発展段階が低いと考えられる。"},
+      {"id":2,"text":"第3次産業の割合が高いY国は、農業中心の発展初期段階にあると考えられる","explanation_zh":"陷阱：概念混淆。Y国第三产业约72%为高度发展，并非农业初期。","explanation_ja":"誤り。概念混同の罠。第3次産業約72%のY国は高度に発展した段階で、農業中心ではない。"},
+      {"id":3,"text":"両国とも第1次産業の割合が最も高い","explanation_zh":"陷阱：数值混同。Y国第1次仅约3%，最高的是第3次产业。","explanation_ja":"誤り。数値混同の罠。Y国の第1次産業は約3%で、最も高いのは第3次産業である。"},
+      {"id":4,"text":"経済が発展するほど第1次産業の就業割合は高まる","explanation_zh":"陷阱：因果倒置。经济发展通常使第一产业占比下降，方向相反。","explanation_ja":"誤り。因果倒置の罠。経済発展に伴い第1次産業の就業割合は一般に低下する。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"産業構造と経済発展水準",
+      "sub_domain":"産業・資源",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"4.国民経済"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","因果倒置"],
+      "keywords_to_avoid":["産業別就業人口構成","第1次産業"]
+    },
+    "sources": [{"claim":"経済発展に伴い就業構造は第1次産業中心から第3次産業中心へ移行する（ペティ＝クラークの法則）","source":"地理・経済（産業構造の高度化）標準教科書","year":2020,"url":"https://www.mext.go.jp/"}]
+  },
+  {
+    "id": 19,
+    "global_id": 25,
+    "title": "問19",
+    "prompt": "アメリカ合衆国の大統領の権限に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"大統領は連邦議会を解散する権限をもつ","explanation_zh":"陷阱：概念混淆。美国总统无解散国会权，那是议院内阁制特征。","explanation_ja":"誤り。概念混同の罠。アメリカ大統領に連邦議会の解散権はなく、それは議院内閣制の特徴。"},
+      {"id":2,"text":"大統領は連邦議会の議員の中から多数派によって選出される","explanation_zh":"陷阱：主体错位。总统经选举人团选出，并非由国会议员中选任。","explanation_ja":"誤り。主体取違の罠。大統領は選挙人を通じて選ばれ、議員の中から選出されるわけではない。"},
+      {"id":3,"text":"大統領は法律案を議会に提出し、自ら採決に加わる権限をもつ","explanation_zh":"陷阱：概念混淆。立法权属国会，总统不提出法案、不参与表决，仅有咨文与否决。","explanation_ja":"誤り。概念混同の罠。立法は議会の権限で、大統領は法案提出・採決には直接加わらない。"},
+      {"id":4,"text":"大統領は議会が可決した法案に対して拒否権を行使することができる","explanation_zh":"正确。美国总统对国会通过的法案有否决权。","explanation_ja":"正解。アメリカ大統領は議会が可決した法案に対して拒否権を行使できる。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"アメリカ大統領権限",
+      "sub_domain":"政治体制",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"1.民主政治"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違","概念混同"],
+      "keywords_to_avoid":["大統領権限","連邦議会"]
+    },
+    "sources": [{"claim":"アメリカ大統領は議会可決の法案に拒否権をもち、議会解散権はない","source":"アメリカ合衆国憲法 / Encyclopaedia Britannica, President of the United States","year":1789,"url":"https://www.britannica.com/topic/presidency-of-the-United-States-of-America"}]
+  },
+  {
+    "id": 20,
+    "global_id": 26,
+    "title": "問20",
+    "prompt": "20世紀後半に一部のアジア・ラテンアメリカ諸国で見られた「開発独裁」に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"国民の政治参加を最大限に保障した、自由な民主政治の体制である","explanation_zh":"陷阱：概念混淆。开发独裁限制政治参与，与自由民主相反。","explanation_ja":"誤り。概念混同の罠。開発独裁は政治参加を制限する体制で、自由な民主政治とは相反する。"},
+      {"id":2,"text":"経済発展を放棄し、伝統的な農村社会の維持を最優先した体制である","explanation_zh":"陷阱：概念混淆。开发独裁恰以经济发展为名集中权力，并非放弃发展。","explanation_ja":"誤り。概念混同の罠。開発独裁は経済発展を名目に権力を集中する体制で、発展放棄ではない。"},
+      {"id":3,"text":"経済開発を優先する名目で、強権的な政治体制が正当化された統治のあり方である","explanation_zh":"正确。开发独裁以经济开发为名、正当化强权政治。","explanation_ja":"正解。開発独裁は経済開発の優先を名目に、強権的な政治体制を正当化する統治のあり方である。"},
+      {"id":4,"text":"19世紀ヨーロッパで広く採用された議会中心の政治制度を指す","explanation_zh":"陷阱：时态错位。开发独裁是20世纪后半亚拉现象，非19世纪欧洲议会制。","explanation_ja":"誤り。時態錯位の罠。開発独裁は20世紀後半の現象で、19世紀ヨーロッパの議会制ではない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"開発独裁",
+      "sub_domain":"政治体制",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"1.民主政治"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違","時態錯位"],
+      "keywords_to_avoid":["開発独裁","ネルー","スハルト"]
+    },
+    "sources": [{"claim":"開発独裁は経済開発を名目に強権的支配を正当化する20世紀後半の体制","source":"政治学標準教科書（開発独裁）","year":2020,"url":"https://www.mext.go.jp/"}]
+  },
+  {
+    "id": 21,
+    "global_id": 27,
+    "title": "問21",
+    "prompt": "日本の国会の二院制に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"国会は衆議院のみの一院で構成されている","explanation_zh":"陷阱：概念混淆。日本国会由众议院与参议院两院组成。","explanation_ja":"誤り。概念混同の罠。日本の国会は衆議院と参議院の二院で構成される。"},
+      {"id":2,"text":"国会は衆議院と参議院の二院で構成され、一定の事項では衆議院の優越が認められている","explanation_zh":"正确。国会两院制，预算等事项承认众议院的优越。","explanation_ja":"正解。国会は衆議院・参議院の二院制で、予算など一定事項で衆議院の優越が認められる。"},
+      {"id":3,"text":"参議院は衆議院より任期が短く、解散の制度がある","explanation_zh":"陷阱：时态错位/概念混淆。参议院任期长、无解散，与众议院相反。","explanation_ja":"誤り。概念混同の罠。参議院は任期が長く解散がなく、解散があるのは衆議院。"},
+      {"id":4,"text":"二つの議院の議決が異なる場合、つねに参議院の議決が優先される","explanation_zh":"陷阱：主体错位。优越属众议院，并非参议院总优先。","explanation_ja":"誤り。主体取違の罠。優越が認められるのは衆議院で、参議院が常に優先するわけではない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"日本国会二院制",
+      "sub_domain":"三権分立・統治機構",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"3. 日本国憲法"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","時態錯位"],
+      "keywords_to_avoid":["衆議院","参議院","二院制"]
+    },
+    "sources": [{"claim":"日本の国会は二院制で、予算・条約・首相指名等で衆議院の優越がある","source":"日本国憲法 第42条・第59〜61条・第67条","year":1947,"url":"https://www.shugiin.go.jp/internet/itdb_annai.nsf/html/statics/shiryo/dl-constitution.htm"}]
+  },
+  {
+    "id": 22,
+    "global_id": 28,
+    "title": "問22",
+    "prompt": "選挙制度における「死票（落選者に投じられ議席に結びつかない票）」に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"比例代表制は小選挙区制よりも死票が多く生じやすい","explanation_zh":"陷阱：概念混淆。比例代表死票较少，小选区死票多，方向相反。","explanation_ja":"誤り。概念混同の罠。死票が多くなりやすいのは小選挙区制で、比例代表制は少ない。"},
+      {"id":2,"text":"小選挙区制は一選挙区で一人しか当選しないため、死票が多く生じやすい","explanation_zh":"正确。小选区每区仅一人当选，落选票成死票，故死票多。","explanation_ja":"正解。小選挙区制は一区で一人のみ当選するため、落選票が死票となり死票が多くなりやすい。"},
+      {"id":3,"text":"死票とは当選者に投じられた票のことを指す","explanation_zh":"陷阱：概念混淆。死票指投给落选者、未转化为议席的票。","explanation_ja":"誤り。概念混同の罠。死票は落選者に投じられ議席に結びつかない票を指す。"},
+      {"id":4,"text":"死票はどの選挙制度でも全く発生しない","explanation_zh":"陷阱：范围扩大。任何制度都会有死票，不可能完全为零。","explanation_ja":"誤り。範囲拡大の罠。死票はいずれの制度でも生じうり、全く発生しないとは言えない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"選挙制度と死票",
+      "sub_domain":"選挙・政党",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"4.政治参加"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["死票","落選票","小選挙区制"]
+    },
+    "sources": [{"claim":"小選挙区制は死票が多く、比例代表制は死票が少ない傾向がある","source":"政治学標準教科書（選挙制度と死票）","year":2020,"url":"https://www.mext.go.jp/"}]
+  },
+  {
+    "id": 23,
+    "global_id": 29,
+    "title": "問23",
+    "prompt": "いわゆる統治行為論に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"統治行為論とは、裁判所がすべての国家行為を必ず違憲審査する原則である","explanation_zh":"陷阱：概念混淆。统治行为论恰是法院对高度政治性行为不作司法判断。","explanation_ja":"誤り。概念混同の罠。統治行為論は高度に政治的な行為への司法判断を控える考え方で、全面審査ではない。"},
+      {"id":2,"text":"統治行為論は、行政府が司法府の判決を自由に覆せるとする原則である","explanation_zh":"陷阱：主体错位。该论是法院自我抑制，与行政推翻判决无关。","explanation_ja":"誤り。主体取違の罠。統治行為論は裁判所の自制に関する議論で、行政が判決を覆す話ではない。"},
+      {"id":3,"text":"高度に政治的な国家行為については、裁判所が憲法判断を控えるべきだとする考え方である","explanation_zh":"正确。统治行为论指对高度政治性国家行为，法院回避宪法判断。","explanation_ja":"正解。統治行為論は、高度に政治的な国家行為について裁判所が憲法判断を差し控えるべきだとする考え方である。"},
+      {"id":4,"text":"統治行為論は、地方自治体の条例制定権を制限するための原則である","explanation_zh":"陷阱：概念混淆。该论涉及司法审查界限，与条例制定权无关。","explanation_ja":"誤り。概念混同の罠。統治行為論は司法審査の限界の議論で、条例制定権の制限とは無関係。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"砂川事件と統治行為論",
+      "sub_domain":"三権分立・統治機構",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"2. 日本の統治機構"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["砂川事件","統治行為論"]
+    },
+    "sources": [{"claim":"統治行為論は高度に政治性のある国家行為への司法審査を控える考え方（砂川事件）","source":"最高裁判所 砂川事件判決（1959年）","year":1959,"url":"https://www.courts.go.jp/"}]
+  },
+  {
+    "id": 24,
+    "global_id": 30,
+    "title": "問24",
+    "prompt": "第二次世界大戦後の日本の国際社会への復帰に関する記述として最も適当なものはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"サンフランシスコ平和条約で主権を回復した後、日ソ国交回復を経て国際連合への加盟を実現した","explanation_zh":"正确。日本1951年签旧金山和约、1956年日苏复交后加入联合国。","explanation_ja":"正解。日本はサンフランシスコ平和条約で主権を回復し、日ソ国交回復を経て1956年に国連加盟を実現した。"},
+      {"id":2,"text":"日本はサンフランシスコ平和条約より前にすでに国際連合に加盟していた","explanation_zh":"陷阱：时态错位。日本加入联合国（1956）晚于旧金山和约（1951）。","explanation_ja":"誤り。時態錯位の罠。日本の国連加盟（1956年）は平和条約（1951年）より後である。"},
+      {"id":3,"text":"国際連合への加盟は天皇が単独で決定した","explanation_zh":"陷阱：主体错位。加盟为国家外交决定，非天皇单独决定。","explanation_ja":"誤り。主体取違の罠。国連加盟は国家の外交手続によるもので、天皇の単独決定ではない。"},
+      {"id":4,"text":"日本は現在も国際連合に加盟していない","explanation_zh":"陷阱：时态错位。日本自1956年起为联合国成员，至今未变。","explanation_ja":"誤り。時態錯位の罠。日本は1956年以来の国連加盟国である。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"日本国連加盟",
+      "sub_domain":"現代日本",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"5. 国際政治"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位","主体取違"],
+      "keywords_to_avoid":["日本国連加盟","サンフランシスコ平和条約"]
+    },
+    "sources": [{"claim":"日本は1951年サンフランシスコ平和条約で主権回復、1956年に国連加盟","source":"外務省 日本の国連加盟の経緯","year":1956,"url":"https://www.mofa.go.jp/mofaj/gaiko/treaty/"}]
+  },
+  {
+    "id": 25,
+    "global_id": 31,
+    "title": "問25",
+    "prompt": "2010年前後のギリシャの財政・債務危機に関する記述として最も適当なものはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"ギリシャの財政は健全で、危機はまったく起こらなかった","explanation_zh":"陷阱：概念混淆。希腊确曾爆发严重财政债务危机。","explanation_ja":"誤り。概念混同の罠。ギリシャは深刻な財政・債務危機に陥っており、起こらなかったとは言えない。"},
+      {"id":2,"text":"危機の主因は天皇の交代による政治空白であった","explanation_zh":"陷阱：主体错位。希腊为共和制、无天皇，主因是巨额财政赤字与债务。","explanation_ja":"誤り。主体取違の罠。ギリシャに天皇は存在せず、主因は巨額の財政赤字・債務である。"},
+      {"id":3,"text":"巨額の財政赤字と債務が表面化し、ユーロ圏全体に影響を与える危機となった","explanation_zh":"正确。希腊巨额财赤与债务暴露，波及整个欧元区。","explanation_ja":"正解。ギリシャの巨額の財政赤字と債務が表面化し、ユーロ圏全体に波及する危機となった。"},
+      {"id":4,"text":"危機を受けてギリシャはただちにユーロを離脱し独自通貨に戻った","explanation_zh":"陷阱：时态错位。希腊危机后仍留在欧元区，并未即刻退出。","explanation_ja":"誤り。時態錯位の罠。ギリシャは危機後もユーロ圏にとどまり、ただちに離脱したわけではない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"ギリシャ債務危機",
+      "sub_domain":"国際経済・貿易",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"6. 財政"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違","時態錯位"],
+      "keywords_to_avoid":["ギリシャ","2009年","政権交代"]
+    },
+    "sources": [{"claim":"ギリシャ債務危機（2009–2010年顕在化）はユーロ圏全体に波及した","source":"Encyclopaedia Britannica, Greek debt crisis","year":2010,"url":"https://www.britannica.com/topic/euro-zone-debt-crisis"}]
+  },
+  {
+    "id": 26,
+    "global_id": 32,
+    "title": "問26",
+    "prompt": "多文化主義（マルチカルチュラリズム）に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"多数派の文化への同化を国民全員に強制する政策を指す","explanation_zh":"陷阱：概念混淆。多元文化主义尊重各群体文化，与强制同化相反。","explanation_ja":"誤り。概念混同の罠。多文化主義は各集団の文化を尊重する立場で、同化の強制とは逆である。"},
+      {"id":2,"text":"少数派の文化や言語を一律に禁止することを目的とする","explanation_zh":"陷阱：概念混淆。多元文化主义保护少数群体文化，并非禁止。","explanation_ja":"誤り。概念混同の罠。多文化主義は少数派文化の保護を志向し、禁止を目的とはしない。"},
+      {"id":3,"text":"社会の中に多様な文化が共存することを認め、尊重しようとする考え方である","explanation_zh":"正确。多元文化主义承认并尊重社会内多元文化共存。","explanation_ja":"正解。多文化主義は、社会の中に多様な文化が共存することを認め尊重しようとする考え方である。"},
+      {"id":4,"text":"多文化主義を採用すれば社会のあらゆる対立は必ず完全に解消される","explanation_zh":"陷阱：范围扩大。多元文化主义有助包容，但不能保证消除一切对立。","explanation_ja":"誤り。範囲拡大の罠。多文化主義は包摂に資するが、あらゆる対立の完全解消を保証するものではない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"社会",
+      "topic":"多文化主義政策",
+      "sub_domain":"その他社会",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"3.経済主体"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","範囲拡大"],
+      "keywords_to_avoid":["多文化主義","マイノリティ"]
+    },
+    "sources": [{"claim":"多文化主義は社会内の多様な文化の共存と尊重を志向する考え方","source":"社会学標準教科書（多文化主義）","year":2020,"url":"https://www.mext.go.jp/"}]
+  },
+  {
+    "id": 27,
+    "global_id": 33,
+    "title": "問27",
+    "prompt": "1990年代に国連開発計画（UNDP）などが提唱した「人間の安全保障」に関する記述として最も適当なものはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"国家の軍事力による領土防衛のみを安全保障の対象とする考え方である","explanation_zh":"陷阱：概念混淆。人类安全保障关注个人的免于恐惧/匮乏，超越纯军事领土防卫。","explanation_ja":"誤り。概念混同の罠。人間の安全保障は個人の生存・尊厳に着目し、軍事的領土防衛のみではない。"},
+      {"id":2,"text":"経済成長率の数値だけを指標として国の安全を測る考え方である","explanation_zh":"陷阱：概念混淆。人类安全保障关注贫困、疾病、灾害等广泛威胁，非仅经济增长。","explanation_ja":"誤り。概念混同の罠。人間の安全保障は貧困・疾病・災害など広い脅威を扱い、成長率だけではない。"},
+      {"id":3,"text":"安全保障は政府だけが担うべきで、国際機関や市民社会の関与を否定する","explanation_zh":"陷阱：概念混淆。人类安全保障强调国际机构与公民社会的协作。","explanation_ja":"誤り。概念混同の罠。人間の安全保障は国際機関や市民社会の関与を重視する。"},
+      {"id":4,"text":"貧困・飢餓・災害・人権侵害など、個人の生存や尊厳への脅威からの保護を重視する考え方である","explanation_zh":"正确。人类安全保障重视保护个人免于贫困、灾害、人权侵害等威胁。","explanation_ja":"正解。人間の安全保障は、貧困・飢餓・災害・人権侵害など個人の生存や尊厳への脅威からの保護を重視する。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"社会",
+      "topic":"人間の安全保障",
+      "sub_domain":"現代社会問題",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の社会","item":"5. 国際社会と平和"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["人間の安全保障","UNDP","1994年"]
+    },
+    "sources": [{"claim":"人間の安全保障はUNDP（1994年人間開発報告）が提示し、個人の生存・尊厳を重視","source":"UNDP 人間開発報告書 1994","year":1994,"url":"https://hdr.undp.org/content/human-development-report-1994"}]
+  },
+  {
+    "id": 28,
+    "global_id": 34,
+    "title": "問28",
+    "prompt": "1814〜1815年に開かれたウィーン会議に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"ウィーン会議は第二次世界大戦後の国際秩序を定めた会議である","explanation_zh":"陷阱：时态错位。维也纳会议是拿破仑战争后（1814-1815），非二战后。","explanation_ja":"誤り。時態錯位の罠。ウィーン会議はナポレオン戦争後の1814–1815年で、第二次大戦後ではない。"},
+      {"id":2,"text":"ナポレオン戦争後のヨーロッパの秩序再建を目指して開かれた会議である","explanation_zh":"正确。维也纳会议旨在拿破仑战争后重建欧洲秩序。","explanation_ja":"正解。ウィーン会議はナポレオン戦争後のヨーロッパの秩序再建を目指して開かれた。"},
+      {"id":3,"text":"会議の結果、ヨーロッパ各国はただちに共和制へ移行した","explanation_zh":"陷阱：概念混淆。维也纳会议奉行正统主义、复辟王朝，非转向共和制。","explanation_ja":"誤り。概念混同の罠。ウィーン会議は正統主義に基づき旧体制の復活を図り、共和制移行ではない。"},
+      {"id":4,"text":"ウィーン会議は国際連合を設立するために開かれた","explanation_zh":"陷阱：时态错位。联合国成立于1945年，与1814-1815年会议无关。","explanation_ja":"誤り。時態錯位の罠。国連設立は1945年で、ウィーン会議とは無関係。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"ウィーン会議",
+      "sub_domain":"近代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"1. 近代化の進展とその影響"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位","概念混同"],
+      "keywords_to_avoid":["ウィーン会議","1814-1815年"]
+    },
+    "sources": [{"claim":"ウィーン会議（1814–1815）はナポレオン戦争後の欧州秩序再建を目指した","source":"Encyclopaedia Britannica, Congress of Vienna","year":1815,"url":"https://www.britannica.com/event/Congress-of-Vienna"}]
+  },
+  {
+    "id": 29,
+    "global_id": 35,
+    "title": "問29",
+    "prompt": "20世紀初めのアメリカ合衆国のラテンアメリカ（中南米）政策に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"アメリカはこの時期、中南米への関与を一切やめ孤立政策に徹した","explanation_zh":"陷阱：概念混淆。该期美国对中南美干预增强，并非完全退出。","explanation_ja":"誤り。概念混同の罠。この時期のアメリカは中南米への関与を強めており、撤退ではない。"},
+      {"id":2,"text":"パナマ運河はこの時期にすでにソ連の管理下にあった","explanation_zh":"陷阱：主体错位。巴拿马运河由美国主导建设管理，与苏联无关。","explanation_ja":"誤り。主体取違の罠。パナマ運河は米国主導で建設・管理され、ソ連は関係しない。"},
+      {"id":3,"text":"アメリカは中南米諸国とのいかなる経済的結びつきも禁止した","explanation_zh":"陷阱：范围扩大。美国与中南美经济联系紧密，并未全面禁止。","explanation_ja":"誤り。範囲拡大の罠。アメリカと中南米は経済的に深く結びついており、全面禁止はしていない。"},
+      {"id":4,"text":"アメリカはパナマ運河の建設を進めるなど、カリブ海・中南米地域への影響力を強めた","explanation_zh":"正确。20世纪初美国推进巴拿马运河建设，加强对加勒比与中南美影响力。","explanation_ja":"正解。20世紀初め、アメリカはパナマ運河の建設を進めるなどカリブ海・中南米への影響力を強めた。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"20世紀初米国中南米政策",
+      "sub_domain":"近代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"1. 近代化の進展とその影響"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位","概念混同"],
+      "keywords_to_avoid":["アメリカ","中南米","パナマ運河"]
+    },
+    "sources": [{"claim":"20世紀初めアメリカはパナマ運河建設などで中南米への影響力を強めた","source":"Encyclopaedia Britannica, Panama Canal / Big Stick policy","year":1904,"url":"https://www.britannica.com/topic/Panama-Canal"}]
+  },
+  {
+    "id": 30,
+    "global_id": 36,
+    "title": "問30",
+    "prompt": "1917年のロシア革命に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"ロシア革命は18世紀に起こり、絶対王政を強化する結果となった","explanation_zh":"陷阱：时态错位。俄国革命发生于1917年（20世纪），且推翻帝制。","explanation_ja":"誤り。時態錯位の罠。ロシア革命は1917年で、しかも帝政を倒した革命である。"},
+      {"id":2,"text":"ロシア革命の結果、ロシアは立憲君主制のもとで皇帝の権限が強まった","explanation_zh":"陷阱：概念混淆。革命推翻沙皇、终结帝制，并非强化皇权。","explanation_ja":"誤り。概念混同の罠。革命は皇帝（ツァーリ）の支配を倒し、皇権強化ではない。"},
+      {"id":3,"text":"帝政が倒され、後にソビエト政権が成立する転機となった","explanation_zh":"正确。1917年俄国革命推翻帝制，开启苏维埃政权成立之路。","explanation_ja":"正解。1917年のロシア革命で帝政が倒れ、後のソビエト政権成立の転機となった。"},
+      {"id":4,"text":"ロシア革命は第二次世界大戦後の冷戦終結を直接の契機として起こった","explanation_zh":"陷阱：因果倒置。革命1917年早于冷战，时序与因果均反。","explanation_ja":"誤り。因果倒置の罠。ロシア革命は1917年で、冷戦終結（20世紀末）より前である。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"ロシア革命",
+      "sub_domain":"近代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"2. 二つの世界大戦とその影響"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位","概念混同"],
+      "keywords_to_avoid":["ロシア革命","1917年"]
+    },
+    "sources": [{"claim":"1917年のロシア革命で帝政が倒れ、後にソビエト政権が成立した","source":"Encyclopaedia Britannica, Russian Revolution of 1917","year":1917,"url":"https://www.britannica.com/event/Russian-Revolution-of-1917"}]
+  },
+  {
+    "id": 31,
+    "global_id": 37,
+    "title": "問31",
+    "prompt": "1960年代のアメリカ合衆国のジョンソン政権に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"ジョンソン政権はベトナムからアメリカ軍を完全に撤退させ、戦争を終結させた","explanation_zh":"陷阱：时态错位。约翰逊任内是扩大越战介入，撤军是后任尼克松时期。","explanation_ja":"誤り。時態錯位の罠。ジョンソン政権は介入を拡大した時期で、完全撤退は後のニクソン政権期。"},
+      {"id":2,"text":"ジョンソン政権はベトナム戦争への軍事介入を大きく拡大した","explanation_zh":"正确。约翰逊政府大幅扩大对越南战争的军事介入。","explanation_ja":"正解。ジョンソン政権はベトナム戦争への軍事介入を大きく拡大した。"},
+      {"id":3,"text":"ベトナム戦争はジョンソン政権が初めて開始し、それ以前には全く関与がなかった","explanation_zh":"陷阱：主体错位。美国此前已介入越南，并非约翰逊首启全无前史。","explanation_ja":"誤り。主体取違の罠。アメリカの関与は以前からあり、ジョンソン政権が初めて開始したのではない。"},
+      {"id":4,"text":"ジョンソン政権は19世紀の人物による政権である","explanation_zh":"陷阱：时态错位。约翰逊政府是20世纪1960年代，非19世纪。","explanation_ja":"誤り。時態錯位の罠。ジョンソン政権は20世紀の1960年代で、19世紀ではない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"リンドン・ジョンソン政権",
+      "sub_domain":"現代世界",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の社会","item":"5. 国際社会と平和"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位","主体取違"],
+      "keywords_to_avoid":["ジョンソン","ベトナム戦争"]
+    },
+    "sources": [{"claim":"ジョンソン政権（1963–1969）はベトナム戦争への軍事介入を拡大した","source":"Encyclopaedia Britannica, Lyndon B. Johnson / Vietnam War","year":1965,"url":"https://www.britannica.com/biography/Lyndon-B-Johnson"}]
+  },
+  {
+    "id": 32,
+    "global_id": 38,
+    "title": "問32",
+    "prompt": "1980年代後半から1990年代初めの冷戦の終結と東欧の変化に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"ソ連のゴルバチョフが進めた改革（ペレストロイカ）などを背景に、東欧諸国で民主化が進み冷戦は終結に向かった","explanation_zh":"正确。戈尔巴乔夫的改革等背景下东欧民主化、冷战走向终结。","explanation_ja":"正解。ソ連のゴルバチョフによる改革（ペレストロイカ）などを背景に東欧の民主化が進み、冷戦は終結に向かった。"},
+      {"id":2,"text":"冷戦の終結により、ソ連はかえって領域を拡大して超大国としての地位を強めた","explanation_zh":"陷阱：因果倒置。冷战终结伴随苏联解体，并非扩张强化。","explanation_ja":"誤り。因果倒置の罠。冷戦終結後にソ連は解体に向かい、地位を強めてはいない。"},
+      {"id":3,"text":"東欧の民主化はアメリカの大統領が単独で命令して実現した","explanation_zh":"陷阱：主体错位。东欧民主化由各国民众与改革推动，非美总统单独命令。","explanation_ja":"誤り。主体取違の罠。東欧の民主化は各国民衆や改革の動きによるもので、米大統領の単独命令ではない。"},
+      {"id":4,"text":"ペレストロイカは19世紀のロシアで行われた農業改革を指す","explanation_zh":"陷阱：时态错位。改革重组是1980年代戈尔巴乔夫政策，非19世纪农改。","explanation_ja":"誤り。時態錯位の罠。ペレストロイカは1980年代のゴルバチョフの政策で、19世紀の改革ではない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"冷戦終焉と東欧民主化",
+      "sub_domain":"現代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"2. 二つの世界大戦とその影響"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位","主体取違"],
+      "keywords_to_avoid":["ゴルバチョフ","ペレストロイカ"]
+    },
+    "sources": [{"claim":"ゴルバチョフのペレストロイカ等を背景に東欧民主化が進み冷戦が終結","source":"Encyclopaedia Britannica, Mikhail Gorbachev / end of the Cold War","year":1989,"url":"https://www.britannica.com/biography/Mikhail-Gorbachev"}]
+  }
+]
+}

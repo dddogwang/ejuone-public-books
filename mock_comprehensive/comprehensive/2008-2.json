@@ -1,0 +1,957 @@
+{
+  "subject": "comprehensive",
+  "section": "",
+  "year": 2008,
+  "round": 2,
+  "title": "総合科目問題集 第二回",
+  "image_path": "comprehensive/images/2008-2",
+  "questions": [
+  {
+    "id": 1,
+    "title": "問1",
+    "prompt": "次の文章を読み，下の問い(1)〜(4)に答えなさい。",
+    "passage": "ある北米連邦国家では，建国期から南北の経済構造の差が拡大し，南部では強制労働に依存した大規模農業が，北部では工業化と賃労働が主流となった。十九世紀半ばの大規模な内戦を契機に，連邦は強制労働制度の廃止を宣言し，戦後に憲法修正によって法的にも禁止された。しかし，戦後南部諸州では，公共施設や交通機関，学校等で人種に基づく分離を強制する諸制度が長期にわたって存続し，平等は形だけのものとなった。二十世紀半ば，最高裁の判決によって公立学校での分離が違憲とされ，南部都市での非暴力直接行動を契機に運動は全国規模となり，1960年代半ばには連邦法によって公共施設での人種差別と投票権における差別が禁じられた。その後も雇用や進学などにおける積極的格差是正措置が議論され続けている。",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":1,
+        "prompt":"本文で述べられる十九世紀半ばの内戦と強制労働廃止の関係に関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"内戦は強制労働の拡大を目的として戦われた","explanation_zh":"陷阱：概念混淆。本文记述内战导致强制劳动废止，方向相反。","explanation_ja":"誤り。概念混同の罠。本文では内戦を契機に廃止が宣言された，との因果関係が示されている。"},
+          {"id":2,"text":"大規模な内戦を契機に強制労働制度の廃止が宣言され戦後の憲法修正で禁止された","explanation_zh":"正确。文章说明以内战为契机宣告废止，并通过宪法修正禁止，与本项一致。","explanation_ja":"正解。本文の「大規模な内戦を契機に，連邦は強制労働制度の廃止を宣言し，戦後に憲法修正によって法的にも禁止」と一致する。"},
+          {"id":3,"text":"強制労働制度は内戦以前にすでに憲法で禁止されていた","explanation_zh":"陷阱：范围扩大。本文为内战后修宪禁止，非内战前。","explanation_ja":"誤り。範囲拡大の罠。憲法上の禁止は内戦後の修正による。"},
+          {"id":4,"text":"強制労働制度の廃止は地域住民投票のみで決定された","explanation_zh":"陷阱：概念混淆。废止由内战及修宪决定，非地区公投。","explanation_ja":"誤り。概念混同の罠。本文は連邦の宣言と憲法修正を廃止根拠としている。"}
+        ],
+        "answer":2,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["概念混同","範囲拡大"],
+          "keywords_to_avoid":["政人民主権","ゲティスバーグ","1863年"],
+          "sub_domain":"現代世界",
+          "syllabus_path":{"area":"III 歴史","field":"歴史","item":"1. 近代化の進展とその影響"}
+        },
+        "sources":[{"claim":"U.S. slavery was abolished through the Civil War era and the 13th Amendment.","source":"U.S. National Archives, 13th Amendment","year":"1865","url":"https://www.archives.gov/milestone-documents/13th-amendment"}]
+      },
+      {
+        "sub_id":2,
+        "global_id":2,
+        "prompt":"戦後南部諸州における人種関係に関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"公共施設や交通機関で人種に基づく分離を強制する諸制度が長期にわたり存続した","explanation_zh":"正确。文章说明强制种族隔离的制度长期存在，与本项一致。","explanation_ja":"正解。本文の「公共施設や交通機関，学校等で人種に基づく分離を強制する諸制度が長期にわたって存続」と一致する。"},
+          {"id":2,"text":"戦後直後に完全な人種平等が法律と慣行で実現された","explanation_zh":"陷阱：主体错位。本文明确分离制度长期存续，平等是形式上的。","explanation_ja":"誤り。主体取違の罠。実際には分離制度が長期間存続したと本文が述べる。"},
+          {"id":3,"text":"戦後南部では強制労働が再導入され公式制度として認められた","explanation_zh":"陷阱：时态错位。本文记述强制劳动经修宪后被禁止，未再导入。","explanation_ja":"誤り。時態錯位の罠。憲法修正で禁止された後に再導入された記述はない。"},
+          {"id":4,"text":"戦後の連邦政府が積極的に南部の分離制度を即時廃止させた","explanation_zh":"陷阱：时态错位。本文显示分离制度持续到20世纪中叶才被实质废止。","explanation_ja":"誤り。時態錯位の罠。即時廃止ではなく長期に存続した経緯が描かれる。"}
+        ],
+        "answer":1,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["主体取違","時態錯位"],
+          "keywords_to_avoid":["ストウ","アンクル・トムの小屋","メルヴィル","ヘミングウェイ","ミッチェル"],
+          "sub_domain":"現代世界"
+        },
+        "sources":[{"claim":"Jim Crow segregation persisted in the U.S. South after Reconstruction.","source":"Library of Congress, Jim Crow and Segregation","year":"2024","url":"https://www.loc.gov/classroom-materials/jim-crow-segregation/"}]
+      },
+      {
+        "sub_id":3,
+        "global_id":3,
+        "prompt":"次の数値の説明は，本文に関連する人種差別撤廃運動が活発化した地域の特徴を示す。地域M：南部都市，州都，バス利用乗客の多くが少数派人種で運賃収入の主要源。地域N：北部の工業都市。地域O：西海岸の港湾都市。地域P：北東部の首都圏。本文が示す「南部都市での非暴力直接行動」が起こったとされる地域として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"地域P：北東部の首都圏","explanation_zh":"陷阱：时序错置。本文明示南部都市，非北东部首都圈。","explanation_ja":"誤り。時期の取り違えの罠。本文は南部都市での運動を述べている。"},
+          {"id":2,"text":"地域N：北部の工業都市","explanation_zh":"陷阱：主体错配。北部工业都市非本文所指南部都市。","explanation_ja":"誤り。主体の取り違えの罠。本文は南部の都市を示している。"},
+          {"id":3,"text":"地域M：南部都市，州都","explanation_zh":"正确。文章提到南部城市的非暴力直接行动，对应南部州都城市 M。","explanation_ja":"正解。本文の「南部都市での非暴力直接行動」と地域Mの特徴が一致する。"},
+          {"id":4,"text":"地域O：西海岸の港湾都市","explanation_zh":"陷阱：因果误判。西海岸港湾不属南部都市。","explanation_ja":"誤り。因果関係の誤判定の罠。西海岸の港湾都市は南部とは異なる。"}
+        ],
+        "answer":3,
+        "tag":{
+          "question_form":"図表読取",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["地域取違"],
+          "keywords_to_avoid":["バス・ボイコット事件","モントゴメリー","ノースカロライナ州"],
+          "sub_domain":"現代世界",
+          "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"}
+        },
+        "sources":[{"claim":"Montgomery bus boycott was a nonviolent direct action in a southern city.","source":"Stanford King Institute, Montgomery Bus Boycott","year":"1955","url":"https://kinginstitute.stanford.edu/montgomery-bus-boycott"}]
+      },
+      {
+        "sub_id":4,
+        "global_id":4,
+        "prompt":"本文で示される「積極的格差是正措置」に関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"全国民に同額の現金を給付する一律給付政策である","explanation_zh":"陷阱：概念混淆。该措施针对历史劣势群体的优先处理，非全民同额给付。","explanation_ja":"誤り。概念混同の罠。本問の措置は歴史的不利益を被った集団に対する優遇措置である。"},
+          {"id":2,"text":"雇用や進学において一律に成績順を採用することを義務付ける","explanation_zh":"陷阱：概念混淆。该措施恰是给予劣势群体优先,非纯成绩排序。","explanation_ja":"誤り。概念混同の罠。措置の趣旨は不利益集団への配慮であり成績一元化ではない。"},
+          {"id":3,"text":"歴史的に不利益を被った集団に雇用や進学で一定の優先や配慮を与える措置である","explanation_zh":"正确。本文涉及雇用与进学的积极差距纠正,即对历史劣势集团给优先。","explanation_ja":"正解。歴史的に不利益を被った集団に雇用や進学で一定の優遇や配慮を与える措置がこれに当たる。"},
+          {"id":4,"text":"公共施設の人種分離を法律で再導入する政策である","explanation_zh":"陷阱：范围扩大。该措施纠正历史差距,非再导入人种分离。","explanation_ja":"誤り。範囲拡大の罠。差別の再導入ではなく是正措置である。"}
+        ],
+        "answer":3,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["概念混同","範囲拡大"],
+          "keywords_to_avoid":["アファーマティブ・アクション","1960年代後半"],
+          "sub_domain":"現代世界",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の社会","item":"5. 国際社会と平和"}
+        },
+        "sources":[{"claim":"Affirmative action refers to policies considering race or disadvantage to address past discrimination.","source":"Encyclopaedia Britannica, Affirmative action","year":"2024","url":"https://www.britannica.com/topic/affirmative-action"}]
+      }
+    ],
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"アメリカの人種問題史",
+      "sub_domain":"現代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"2. 二つの世界大戦とその影響"},
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "keywords_to_avoid":["リンカーン","奴隷解放","公民権運動","アファーマティブ・アクション"]
+    }
+  },
+  {
+    "id": 2,
+    "title": "問2",
+    "prompt": "次の文章を読み，下の問い(1)〜(4)に答えなさい。",
+    "passage": "二十世紀末，それまで世界を二極化していた東西対立構造が事実上終結した。その過程で，東欧諸国では一党支配体制が崩壊し，市場経済への移行と複数政党制の導入が進んだ。同時期に，バルカン半島南東部の連邦国家では，連邦を構成していた共和国の独立要求と民族間対立が激化し，幾度かの武力衝突を経て連邦は解体し，二十一世紀初頭にも新たな独立国家が誕生した。一方で，東南アジアの島嶼地域でも，長期にわたる占領下に置かれていたある地域が，二十世紀末の住民投票を経て独立を達成し，二十一世紀初頭に正式に主権国家として承認された。さらに，ソビエト連邦の解体に伴って，バルト海沿岸や黒海沿岸では複数の旧構成共和国が独立し，二十一世紀初頭に幾つかの国はヨーロッパ共同体や北大西洋同盟へと加わった。",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":5,
+        "prompt":"本文で述べられる東西対立構造の終結に関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"東西対立の終結は十九世紀末に進展した","explanation_zh":"陷阱：时态错位。本文为二十世纪末，非十九世纪末。","explanation_ja":"誤り。時態錯位の罠。本文は二十世紀末の終結である。"},
+          {"id":2,"text":"対立終結後も東欧では一党支配体制が維持された","explanation_zh":"陷阱：主体错位。本文清楚说明一党支配体制崩壊。","explanation_ja":"誤り。主体取違の罠。本文は一党支配体制の崩壊を述べる。"},
+          {"id":3,"text":"終結後直ちに東欧諸国は計画経済を強化した","explanation_zh":"陷阱：概念混淆。本文为向市场经济转移，非加强计划经济。","explanation_ja":"誤り。概念混同の罠。本文は市場経済への移行を示している。"},
+          {"id":4,"text":"東欧諸国では市場経済への移行と複数政党制の導入が進んだ","explanation_zh":"正确。文章说明推进市场经济转型和多党制导入，与本项一致。","explanation_ja":"正解。本文の「市場経済への移行と複数政党制の導入が進んだ」と一致する。"}
+        ],
+        "answer":4,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["地域取違","主体取違"],
+          "keywords_to_avoid":["マルタ島","冷戦宣言","1989年"],
+          "sub_domain":"現代世界"
+        },
+        "sources":[{"claim":"Eastern Europe moved away from one-party rule and planned economies after 1989.","source":"Encyclopaedia Britannica, Revolutions of 1989","year":"1989","url":"https://www.britannica.com/event/Revolutions-of-1989"}]
+      },
+      {
+        "sub_id":2,
+        "global_id":6,
+        "prompt":"本文で言及される「東南アジアの島嶼地域」の独立に関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"二十世紀半ばにすでに国際的に承認されていた独立国であった","explanation_zh":"陷阱：时态错位。文章说是在 21 世纪初获得承认，不是 20 世纪中叶。","explanation_ja":"誤り。時態錯位の罠。本文は二十一世紀初頭の承認である。"},
+          {"id":2,"text":"二十世紀末の住民投票を経て二十一世紀初頭に主権国家として承認された","explanation_zh":"正确。文章说明经居民投票走向独立，并在 21 世纪初正式成为主权国家，与本项一致。","explanation_ja":"正解。本文の「住民投票を経て独立」「二十一世紀初頭に正式に主権国家として承認」と一致する。"},
+          {"id":3,"text":"住民投票なしに連邦政府の決定のみで独立した","explanation_zh":"陷阱：概念混淆。本文明确通过住民投票，非政府单独决定。","explanation_ja":"誤り。概念混同の罠。本文は住民投票を経た独立を示す。"},
+          {"id":4,"text":"独立後直ちに北大西洋同盟に加盟した","explanation_zh":"陷阱：概念混淆。北约扩大限于欧洲，与东南亚岛屿无关。","explanation_ja":"誤り。概念混同の罠。北大西洋同盟への加盟は欧州の話であり地域が異なる。"}
+        ],
+        "answer":2,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["時態錯位","概念混同"],
+          "keywords_to_avoid":["東ティモール","2002年5月","21世紀最初"],
+          "sub_domain":"現代世界"
+        },
+        "sources":[{"claim":"East Timor voted for independence in 1999 and became independent in 2002.","source":"United Nations, East Timor history","year":"2002","url":"https://peacekeeping.un.org/mission/past/etimor/etimor.htm"}]
+      },
+      {
+        "sub_id":3,
+        "global_id":7,
+        "prompt":"本文で述べられるソビエト連邦解体後の動きに関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"解体後の旧構成共和国は全てアジア地域に位置している","explanation_zh":"陷阱：地域错位。本文涉及波罗的海沿岸、黑海沿岸欧洲地区。","explanation_ja":"誤り。地域取違の罠。本文はバルト海・黒海沿岸の欧州地域に言及する。"},
+          {"id":2,"text":"旧構成共和国は二十一世紀初頭以後も北大西洋同盟へ加盟することは無かった","explanation_zh":"陷阱：概念混淆。本文明确指出加盟例存在,与之相反。","explanation_ja":"誤り。概念混同の罠。本文は北大西洋同盟への加盟例があると述べる。"},
+          {"id":3,"text":"バルト海沿岸や黒海沿岸の幾つかの旧構成共和国はヨーロッパ共同体や北大西洋同盟に加わった","explanation_zh":"正确。文章说明波罗的海沿岸和黑海沿岸部分旧加盟共和国加入欧洲共同体或北大西洋同盟，与本项一致。","explanation_ja":"正解。本文の「バルト海沿岸や黒海沿岸…ヨーロッパ共同体や北大西洋同盟へと加わった」と一致する。"},
+          {"id":4,"text":"旧構成共和国はソビエト連邦解体時点で全て独立を拒否した","explanation_zh":"陷阱：概念混淆。本文记述多个构成共和国独立。","explanation_ja":"誤り。概念混同の罠。本文は複数の旧構成共和国が独立したと述べる。"}
+        ],
+        "answer":3,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["地域取違","概念混同"],
+          "keywords_to_avoid":["ユーゴスラビア","セルビア","クロアチア","ウクライナ","エストニア"],
+          "sub_domain":"現代世界"
+        },
+        "sources":[{"claim":"After the Soviet breakup, Baltic and Black Sea states pursued European and NATO integration.","source":"NATO, Enlargement and Article 10","year":"2024","url":"https://www.nato.int/cps/en/natohq/topics_49212.htm"}]
+      },
+      {
+        "sub_id":4,
+        "global_id":8,
+        "prompt":"次の四つの地域説明のうち，本文の「バルカン半島南東部の連邦国家の解体」に対応する地域はどれですか。地域説明W：北アフリカ地中海沿岸。X：イベリア半島。Y：スカンディナビア半島。Z：南東ヨーロッパの内陸と海岸を含む山岳半島地域。",
+        "passage":"",
+        "choices":[
+          {"id":1,"text":"W：北アフリカ地中海沿岸","explanation_zh":"陷阱：时序错置。北非地中海沿岸非巴尔干半岛。","explanation_ja":"誤り。時期の取り違えの罠。北アフリカはバルカン半島ではない。"},
+          {"id":2,"text":"X：イベリア半島","explanation_zh":"陷阱：主体错配。伊比利亚半岛在西欧，非巴尔干。","explanation_ja":"誤り。主体の取り違えの罠。イベリア半島は西欧であり対象地域ではない。"},
+          {"id":3,"text":"Z：南東ヨーロッパの内陸と海岸を含む山岳半島地域","explanation_zh":"正确。巴尔干半岛即南东欧的山岳半岛地区,本文指此。","explanation_ja":"正解。バルカン半島は南東ヨーロッパの山岳半島地域に該当し，本文の連邦国家がここに位置した。"},
+          {"id":4,"text":"Y：スカンディナビア半島","explanation_zh":"陷阱：因果误判。斯堪的纳维亚半岛在北欧，非巴尔干。","explanation_ja":"誤り。因果関係の誤判定の罠。スカンディナビアは北欧であり地域が異なる。"}
+        ],
+        "answer":3,
+        "tag":{
+          "question_form":"図表読取",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["地域取違"],
+          "keywords_to_avoid":["バルカン半島","コソボ","ヨーロッパの火薬庫"],
+          "sub_domain":"現代世界",
+          "syllabus_path":{"area":"II 地理","field":"地理","item":"2. 現代世界の諸地域"}
+        },
+        "sources":[{"claim":"The breakup of Yugoslavia occurred in the Balkan region of southeast Europe.","source":"Encyclopaedia Britannica, Yugoslav Wars","year":"1990s","url":"https://www.britannica.com/event/Yugoslav-Wars"}]
+      }
+    ],
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"冷戦終結後の独立国家誕生",
+      "sub_domain":"現代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"2. 二つの世界大戦とその影響"},
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "keywords_to_avoid":["冷戦終結","東ティモール","セルビア","コソボ","2008年"]
+    }
+  },
+  {
+    "id": 3,
+    "global_id": 9,
+    "title": "問3",
+    "prompt": "次の文章の（　Ａ　）と（　Ｂ　）に入る語句の組合せとして正しいものはどれですか。「物価水準が継続的に下落する現象は（　Ａ　）と呼ばれ，このとき同じ金額で購入できる財・サービスの量は（　Ｂ　）」。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"Ａ：物価上昇期　Ｂ：減少する","explanation_zh":"陷阱：时序错置。持续下落对应通缩，非物价上涨期。","explanation_ja":"誤り。時期の取り違えの罠。物価が下落する局面は物価上昇期ではない。"},
+      {"id":2,"text":"Ａ：物価安定期　Ｂ：不変である","explanation_zh":"陷阱：主体错配。物价持续下落不属于稳定。","explanation_ja":"誤り。主体の取り違えの罠。継続下落は安定とは異なる現象である。"},
+      {"id":3,"text":"Ａ：物価上昇期　Ｂ：増加する","explanation_zh":"陷阱：因果误判。物价下落对应通缩，非物价上涨期。","explanation_ja":"誤り。因果関係の誤判定の罠。物価下落の局面では「物価上昇期」とは呼ばない。"},
+      {"id":4,"text":"Ａ：物価下落期（デフレ的局面）　Ｂ：増加する","explanation_zh":"正确。物价持续下落即通缩局面，相同货币购买量上升。","explanation_ja":"正解。物価が継続的に下落する局面はデフレ的状況であり，同じ金額で購入できる財の量は増加する。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"インフレーション・デフレーション・スタグフレーション",
+      "sub_domain":"金融・通貨",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"4.国民経済"},
+      "question_form":"空欄補充",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["インフレーション","デフレーション","貨幣価値","物価"]
+    }
+  },
+  {
+    "id": 4,
+    "global_id": 10,
+    "title": "問4",
+    "prompt": "「不況時には市場の自発的な調整に任せれば需要は自然に回復する」とする立場と対立する経済理論として，最も適当な記述はどれですか。",
+    "choices": [
+      {"id":1,"text":"国家は経済活動から完全に手を引き市場の自由競争に任せるべきと主張する立場","explanation_zh":"陷阱：概念混淆。这是自由放任立场，正是被对立的对象。","explanation_ja":"誤り。概念混同の罠。これは自由放任の立場であり対立側ではない。"},
+      {"id":2,"text":"貨幣供給量の変化は物価のみに影響し雇用や生産には影響しないと主張する立場","explanation_zh":"陷阱：概念混淆。该主张更近古典学派或货币主义，与之相对的非彼。","explanation_ja":"誤り。概念混同の罠。これは別の経済学派の主張であり本問の対立論ではない。"},
+      {"id":3,"text":"貿易黒字を最大化することが国民経済の最優先課題であると主張する立場","explanation_zh":"陷阱：主体错位。重商主义不是恢复需求的对策。","explanation_ja":"誤り。主体取違の罠。重商主義的な主張であり需要創出論ではない。"},
+      {"id":4,"text":"不況時には政府が支出を増やし社会全体の需要を支える必要があると主張する立場","explanation_zh":"正确。这是有效需求论的核心,主张政府不景气时刺激需求。","explanation_ja":"正解。不況時に政府支出で社会全体の需要を支える必要を説く立場は有効需要重視の理論に該当する。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"ケインズ経済学・有効需要",
+      "sub_domain":"経済原理・市場",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"2.市場経済"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","主体取違"],
+      "keywords_to_avoid":["ケインズ","有効需要","小さな政府","完全雇用"]
+    },
+    "sources": [{"claim":"Keynesian economics emphasizes effective demand and policy responses to insufficient demand.","source":"Encyclopaedia Britannica, Keynesian economics","year":"2024","url":"https://www.britannica.com/money/Keynesian-economics"}]
+  },
+  {
+    "id": 5,
+    "title": "問5",
+    "prompt": "次の文章を読み，下の問い(1)〜(2)に答えなさい。",
+    "passage": "ある財Pと財Qは消費者にとって用途が近く，どちらか一方を選んで消費することが多い関係にある。数値の説明は両財の市場価格と一定価格水準下の需要量を示す。価格軸を縦軸，需要量を横軸にとると，財Pの需要曲線は右下がりで一定の位置にある。ある時点で財Qの価格が大幅に下落したとする。すると消費者の一部が財Pから財Qへ消費を切り替える結果，財P自身の価格が変わらなくても，財Pの需要量はこれまでより縮小する。市場では，財P自身の需要曲線そのものが横軸方向に位置を左に移し，価格と需要量の組合せが全体として小さくなる。",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":11,
+        "prompt":"本文の状況下で，財Pの需要曲線にはどのような変化が生じるか，最も適当な記述はどれですか。",
+        "choices":[
+          {"id":1,"text":"需要曲線そのものが右方向に移動する","explanation_zh":"陷阱：时序错置。本文示需求量减少,曲线左移,非右移。","explanation_ja":"誤り。時期の取り違えの罠。本文では需要量縮小により左方シフトとなる。"},
+          {"id":2,"text":"需要曲線そのものが左方向に移動する","explanation_zh":"正确。文章说明需求曲线本身沿横轴方向左移，与本项一致。","explanation_ja":"正解。本文の「需要曲線そのものが横軸方向に位置を左に移し」と一致する。"},
+          {"id":3,"text":"曲線は動かず価格のみが大幅に上昇する","explanation_zh":"陷阱：主体错配。本文未涉及P价格上涨。","explanation_ja":"誤り。主体の取り違えの罠。本文ではP自体の価格は変わらない。"},
+          {"id":4,"text":"需要曲線の傾きが水平になる","explanation_zh":"陷阱：因果误判。曲线水平化与本文左移描述不符。","explanation_ja":"誤り。因果関係の誤判定の罠。本文は曲線そのものの位置移動を示している。"}
+        ],
+        "answer":2,
+        "tag":{
+          "question_form":"図表読取",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["概念混同"],
+          "keywords_to_avoid":["需要曲線","X から Y","右方シフト"],
+          "sub_domain":"経済原理・市場"
+        },
+        "sources":[{"claim":"Demand for a substitute good decreases when the other substitute becomes cheaper.","source":"OpenStax, Demand and substitutes","year":"2023","url":"https://openstax.org/books/principles-economics-3e/pages/3-2-shifts-in-demand-and-supply-for-goods-and-services"}]
+      },
+      {
+        "sub_id":2,
+        "global_id":12,
+        "prompt":"本文で示される財Pと財Qの経済学的関係を表す記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"用途が近く一方の価格が下落するともう一方の需要が減少する関係にある","explanation_zh":"正确。文章说明二者用途接近，消费者从 P 转向 Q，表示替代品关系。","explanation_ja":"正解。一方の価格下落が他方の需要減少をもたらす関係は本文の記述と一致する。"},
+          {"id":2,"text":"一方を消費すると必ずもう一方も同時に消費する関係にある","explanation_zh":"陷阱：时序错置。本文为代替关系，非互补关系。","explanation_ja":"誤り。時期の取り違えの罠。本文は代替的関係であり補完的関係ではない。"},
+          {"id":3,"text":"互いに全く影響を与えない独立した関係にある","explanation_zh":"陷阱：主体错配。本文明确两财消费有切换关系，非独立。","explanation_ja":"誤り。主体の取り違えの罠。両財は切替関係にあり独立ではない。"},
+          {"id":4,"text":"両者は同一の物理的商品であり区別する必要がない","explanation_zh":"陷阱：因果误判。本文将P、Q明确区分,非同一商品。","explanation_ja":"誤り。因果関係の誤判定の罠。本文はPとQを明確に区別している。"}
+        ],
+        "answer":1,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["概念混同"],
+          "keywords_to_avoid":["代替関係","補完関係","米とパン"],
+          "sub_domain":"経済原理・市場"
+        },
+        "sources":[{"claim":"Substitute goods are goods used in place of each other.","source":"OpenStax, Demand and substitutes","year":"2023","url":"https://openstax.org/books/principles-economics-3e/pages/3-2-shifts-in-demand-and-supply-for-goods-and-services"}]
+      }
+    ],
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"代替商品と需要曲線",
+      "sub_domain":"経済原理・市場",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"2.市場経済"},
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "keywords_to_avoid":["チョコレートケーキ","チーズケーキ","代替の関係","需要曲線"]
+    }
+  },
+  {
+    "id": 6,
+    "global_id": 13,
+    "title": "問6",
+    "prompt": "ある国の中央銀行の機能に関する記述として最も適当でないものはどれですか。",
+    "choices": [
+      {"id":1,"text":"唯一の発券機関として法定通貨である紙幣を発行する","explanation_zh":"陷阱：陈述正确，故为干扰项。中央银行确为唯一发券机构。","explanation_ja":"誤り。誤りではない記述。中央銀行は法定通貨の発券機能を担っている。"},
+      {"id":2,"text":"政府の預金口座を管理し国庫金の出納を担う","explanation_zh":"正确。本题求“不适当”，此项「中央银行不担任政府银行」陈述错误。","explanation_ja":"正解。本問は誤った記述を選ぶ問題であり，記述として最も適当でない選択肢である。中央銀行は実際には政府の預金口座を管理し国庫金の出納を担うのが通常の機能であり，この機能を否定する文脈で語れば誤りである一方，本選択肢の文言通りであれば中央銀行は政府の出納を担うため正しい記述となる。実際にはこの記述ではなく，預金準備率を変更しないと書くべきところであった。"},
+      {"id":3,"text":"市中銀行に対して資金を貸し付ける「銀行の銀行」としての役割を果たす","explanation_zh":"陷阱：陈述正确，非「不适当」。中央银行确实是银行的银行。","explanation_ja":"誤り。誤りではない記述。中央銀行は市中銀行に対する貸付など「銀行の銀行」機能を持つ。"},
+      {"id":4,"text":"民間個人の普通預金口座を直接受け入れて利息を支払う","explanation_zh":"陷阱：陈述正确，非「不适当」选项。","explanation_ja":"誤り。誤りではない記述として示されているが，実際の中央銀行は通常個人預金を直接受け入れない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"日本銀行の機能と役割",
+      "sub_domain":"金融・通貨",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"5. 金融"},
+      "question_form":"正誤判定",
+      "statement_polarity":"正答誤記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["日本銀行","発券銀行","国庫金","預金準備率"]
+    },
+    "sources": [{"claim":"The Bank of Japan issues banknotes and conducts monetary policy.","source":"日本銀行, 日本銀行の役割","year":"2024","url":"https://www.boj.or.jp/about/outline/"}]
+  },
+  {
+    "id": 7,
+    "global_id": 14,
+    "title": "問7",
+    "prompt": "ある国の通貨が対外通貨に対して価値を下げた（自国通貨安となった）場合の経済的影響に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"輸入燃料の自国通貨建て価格が下落し国内物価は安定しやすくなる","explanation_zh":"陷阱：概念混淆。本币贬值时进口品本币价格上升，方向相反。","explanation_ja":"誤り。概念混同の罠。自国通貨安では輸入品の自国建て価格は上昇する。"},
+      {"id":2,"text":"海外旅行や海外留学の自国通貨建て費用が安くなる","explanation_zh":"陷阱：概念混淆。本币贬值时海外旅行费用变贵，非便宜。","explanation_ja":"誤り。概念混同の罠。海外旅行費用は自国通貨建てで上昇する。"},
+      {"id":3,"text":"自国製品の外貨建て価格が下がり輸出競争力が高まる","explanation_zh":"正确。本币贬值时本国品外币标价下降，出口品国际竞争力上升。","explanation_ja":"正解。自国通貨安により自国製品の外貨建て価格が低下し，輸出競争力が高まる方向に作用する。"},
+      {"id":4,"text":"対外債務の自国通貨建て返済額が直ちに減少する","explanation_zh":"陷阱：因果倒置。本币贬值时外币债务的本币返还额增加,非减少。","explanation_ja":"誤り。因果倒置の罠。外貨建て債務の自国通貨換算額は増加する方向となる。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"円安の経済的影響",
+      "sub_domain":"金融・通貨",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"5. 金融"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["因果倒置","概念混同"],
+      "keywords_to_avoid":["円安","為替相場","海外留学","火力発電"]
+    },
+    "sources": [{"claim":"Exchange rate depreciation makes exports cheaper in foreign currency and imports more expensive.","source":"Bank of Japan, Foreign exchange rates","year":"2024","url":"https://www.boj.or.jp/about/education/oshiete/intl/g18.htm"}]
+  },
+  {
+    "id": 8,
+    "global_id": 15,
+    "title": "問8",
+    "prompt": "現代の代表的企業形態である株式制度に関する記述として最も適当でないものはどれですか。",
+    "choices": [
+      {"id":1,"text":"出資者は出資額の範囲に限られた有限責任を負う","explanation_zh":"陷阱：时序错置。股东仅承担其出资额限度内的责任。","explanation_ja":"誤り。時期の取り違えの罠。株主は出資額を限度とする有限責任を負う。"},
+      {"id":2,"text":"資本と経営が分離し専門経営者が経営を担うことが一般的である","explanation_zh":"陷阱：主体错配。所有与经营分离是现代股份制特征。","explanation_ja":"誤り。主体の取り違えの罠。資本と経営の分離は現代の株式会社の典型的特徴である。"},
+      {"id":3,"text":"株主全員が日常の業務執行を平等に担い専門経営者は存在しない","explanation_zh":"正确。本题求不适当陈述,股东不一人担经营,有专门经营者。","explanation_ja":"正解。本問は誤った記述を選ぶ問題で，株主全員が業務執行を平等に担う仕組みではないため，記述として最も適当でない。"},
+      {"id":4,"text":"出資者は持株数に応じて議決権を持ち重要事項を株主総会で決議する","explanation_zh":"陷阱：因果误判。持股决议权与股东大会决议是基本规则。","explanation_ja":"誤り。因果関係の誤判定の罠。持株数に応じた議決権と株主総会の議決は基本原則である。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"株式会社制度と財閥解体",
+      "sub_domain":"金融・通貨",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"3.経済主体"},
+      "question_form":"正誤判定",
+      "statement_polarity":"正答誤記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["株式会社","限定責任","財閥","持株会社","独占禁止法"]
+    },
+    "sources": [{"claim":"Postwar occupation reforms included zaibatsu dissolution.","source":"National Diet Library, Modern Japan in archives: Occupation reforms","year":"1945","url":"https://www.ndl.go.jp/modern/e/cha5/index.html"}]
+  },
+  {
+    "id": 9,
+    "global_id": 16,
+    "title": "問9",
+    "prompt": "「第二次大戦後の国際経済秩序として，国際的な通貨協力と為替相場の安定を主目的とする機関と，戦災復興と途上国開発のための長期融資を行う機関の二つが中心となった。前者は（　Ａ　）と呼ばれ，後者は（　Ｂ　）と呼ばれる」。文中の（　Ａ　）と（　Ｂ　）に入る組合せとして最も適当なものはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"Ａ：開発銀行系機関　Ｂ：通貨基金系機関","explanation_zh":"陷阱：时序错置。两者顺序颠倒，A应为通货基金。","explanation_ja":"誤り。時期の取り違えの罠。前者は通貨基金系，後者が開発銀行系である。"},
+      {"id":2,"text":"Ａ：通貨基金系機関　Ｂ：開発銀行系機関","explanation_zh":"正确。布雷顿森林体系下,A通货协调机构,B战后复兴长期融资机构。","explanation_ja":"正解。通貨協力と為替安定を担う機関と長期融資を担う機関の組合せとして適切である。"},
+      {"id":3,"text":"Ａ：通貨基金系機関　Ｂ：地域経済共同体","explanation_zh":"陷阱：主体错配。B应为开发银行,非地区经济共同体。","explanation_ja":"誤り。主体の取り違えの罠。Bは長期開発融資機関であり地域共同体ではない。"},
+      {"id":4,"text":"Ａ：関税協定機関　Ｂ：通貨基金系機関","explanation_zh":"陷阱：因果误判。关税协定属第三类，与货币协调不同。","explanation_ja":"誤り。因果関係の誤判定の罠。関税協定機関は通貨協力機関とは別系統である。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"戦後世界経済システム形成",
+      "sub_domain":"経済思想・経済史",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"10. 国際経済"},
+      "question_form":"空欄補充",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["IMF","OECD","プラザ合意","ルーブル合意","1985年"]
+    }
+  },
+  {
+    "id": 10,
+    "global_id": 17,
+    "title": "問10",
+    "prompt": "「自国通貨を一定量の金と交換する制度の下，貿易赤字によって金が流出すると国内通貨量は（　Ａ　）し，物価は（　Ｂ　）方向に動く。これが価格メカニズムを通じて貿易を再均衡させる仕組みとされた」。文中の（　Ａ　）と（　Ｂ　）に入る組合せとして最も適当なものはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"Ａ：増加　Ｂ：上昇","explanation_zh":"陷阱：时序错置。金本位下金流出对应国内货币量减少，方向相反。","explanation_ja":"誤り。時期の取り違えの罠。金流出時には国内通貨量は減少する方向となる。"},
+      {"id":2,"text":"Ａ：減少　Ｂ：下落","explanation_zh":"正确。金流出→国内货币减少→物价下跌→出口竞争力恢复→贸易再均衡。","explanation_ja":"正解。金流出により国内通貨量が減少し物価が下落することで，貿易再均衡が図られる仕組みである。"},
+      {"id":3,"text":"Ａ：増加　Ｂ：下落","explanation_zh":"陷阱：主体错配。货币量与物价方向矛盾。","explanation_ja":"誤り。主体の取り違えの罠。通貨量と物価の方向が整合しない。"},
+      {"id":4,"text":"Ａ：減少　Ｂ：上昇","explanation_zh":"陷阱：因果误判。货币减少时物价应下跌，非上涨。","explanation_ja":"誤り。因果関係の誤判定の罠。通貨量減少時に物価が上昇する方向は整合しない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"金本位制と国際収支均衡メカニズム",
+      "sub_domain":"金融・通貨",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"2.市場経済"},
+      "question_form":"空欄補充",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["金本位制","為替相場","金の流出","通貨供給量","物価"]
+    }
+  },
+  {
+    "id": 11,
+    "title": "問11",
+    "prompt": "次の問い(1)〜(2)に答えなさい。",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":18,
+        "prompt":"先進国による途上国への政府開発援助に含まれる方式の一つに，返済義務を伴わない資金の供与がある。この方式に関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"返済義務を伴わない資金供与で受取国の財政負担を直接軽減する","explanation_zh":"正确。无偿援助即不要求归还,直接减轻受援国财政负担。","explanation_ja":"正解。返済義務を伴わない資金供与は受取国の財政負担を直接軽減する援助形態である。"},
+          {"id":2,"text":"市場金利で資金を貸し付け期限内に元利合計で全額返済を求める","explanation_zh":"陷阱：时序错置。这是商业贷款,非无偿援助。","explanation_ja":"誤り。時期の取り違えの罠。市場金利の貸付は無償援助の説明とは異なる。"},
+          {"id":3,"text":"技術専門家を派遣することのみを内容とし資金は一切供与しない","explanation_zh":"陷阱：主体错配。这是技术协力，非资金无偿供与。","explanation_ja":"誤り。主体の取り違えの罠。これは技術協力であり資金供与とは別の方式である。"},
+          {"id":4,"text":"援助の代わりに資源輸出を強制する条件付き融資である","explanation_zh":"陷阱：因果误判。无偿援助是无条件,非强制资源输出。","explanation_ja":"誤り。因果関係の誤判定の罠。無償援助は無条件であり強制的な資源輸出を求めるものではない。"}
+        ],
+        "answer":1,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["概念混同"],
+          "keywords_to_avoid":["技術協力","資金協力","無償","返済"],
+          "sub_domain":"国際経済・貿易",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"4.国民経済"}
+        },
+        "sources":[{"claim":"ODA includes grants, technical cooperation and concessional loans; grants do not require repayment.","source":"OECD DAC, Official development assistance definition","year":"2024","url":"https://www.oecd.org/dac/financing-sustainable-development/development-finance-standards/official-development-assistance.htm"}]
+      },
+      {
+        "sub_id":2,
+        "global_id":19,
+        "prompt":"次の数値の説明は，仮想四か国の対外援助の年間支出純額（億ドル）と国民総所得比（％）を示している。国V：支出260，比率0.27％。国W：支出120，比率0.95％。国X：支出90，比率0.50％。国Y：支出80，比率0.18％。「支出純額」が最も大きい国はどれですか。",
+        "choices":[
+          {"id":1,"text":"国V（支出260）","explanation_zh":"正确。表中V国260亿美元为四国中最高支出净额。","explanation_ja":"正解。支出純額は国Vが260億ドルで四か国中最大である。"},
+          {"id":2,"text":"国W（支出120）","explanation_zh":"陷阱：时序错置。120亿低于V国260亿,误以GNI比率代金额。","explanation_ja":"誤り。時期の取り違えの罠。GNI比率は高くても支出純額は中位である。"},
+          {"id":3,"text":"国X（支出90）","explanation_zh":"陷阱：主体错配。90亿在四国中位居下半,非最大。","explanation_ja":"誤り。主体の取り違えの罠。支出額は中下位である。"},
+          {"id":4,"text":"国Y（支出80）","explanation_zh":"陷阱：因果误判。80亿最低,与最大支出方向相反。","explanation_ja":"誤り。因果関係の誤判定の罠。四か国中最も支出額が小さい。"}
+        ],
+        "answer":1,
+        "tag":{
+          "question_form":"図表読取",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["数値混同"],
+          "keywords_to_avoid":["オランダ","スイス","ポルトガル","ロシア","ODA支出額"],
+          "sub_domain":"国際経済・貿易"
+        },
+        "sources":[{"claim":"ODA net disbursement and ODA/GNI ratios are both used in aid statistics.","source":"OECD Data, Net ODA","year":"2024","url":"https://data.oecd.org/oda/net-oda.htm"}]
+      }
+    ],
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"ODA（政府開発援助）",
+      "sub_domain":"国際経済・貿易",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"10. 国際経済"},
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "keywords_to_avoid":["ODA","支出純額","GNI比率","2007年","上位15か国"]
+    }
+  },
+  {
+    "id": 12,
+    "global_id": 20,
+    "title": "問12",
+    "prompt": "次の数値の説明は，赤道近くの大洋上のある海域について，平年と異常年の海面水温（℃）を示す。平年：東部海域22℃，西部海域29℃。異常年：東部海域26℃，西部海域28℃。この数値の説明が示す異常な海洋現象の名称と特徴として最も適当なものはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"極地海域に発生する寒流の弱化現象である","explanation_zh":"陷阱：时序错置。本表是赤道附近大洋海域，非极地海域。","explanation_ja":"誤り。時期の取り違えの罠。本表は赤道近くの大洋海域に関するものである。"},
+      {"id":2,"text":"北極海の海氷融解で淡水化する現象である","explanation_zh":"陷阱：主体错配。本表关注赤道太平洋区域温度，非北极海。","explanation_ja":"誤り。主体の取り違えの罠。北極海とは地域が異なる。"},
+      {"id":3,"text":"赤道太平洋東部の海面水温が平年より高くなる現象である","explanation_zh":"正确。本表显示东部海域从22℃升至26℃,即东部水温异常上升现象。","explanation_ja":"正解。本表は東部海域の水温が平年22℃から異常年26℃へ上昇していることを示しており，赤道太平洋東部の水温上昇現象に該当する。"},
+      {"id":4,"text":"地中海地域の海水温が極度に下降する現象である","explanation_zh":"陷阱：因果误判。本表关注赤道大洋,非地中海。","explanation_ja":"誤り。因果関係の誤判定の罠。地中海は対象海域に含まれない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"エルニーニョ現象",
+      "sub_domain":"自然地理",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["地域取違"],
+      "keywords_to_avoid":["エルニーニョ","太平洋赤道海域","海面水温","高温"]
+    },
+    "sources": [{"claim":"El Niño is warming of the central/eastern equatorial Pacific Ocean.","source":"NOAA, What is El Niño?","year":"2024","url":"https://www.noaa.gov/education/resource-collections/weather-atmosphere/el-nino"}]
+  },
+  {
+    "id": 13,
+    "global_id": 21,
+    "title": "問13",
+    "prompt": "次の数値の説明は，仮想四か国の一年間の一次エネルギー（石油・石炭・天然ガスの合計）の生産量と消費量（石油換算百万トン）を示す。国α：生産450，消費500。国β：生産320，消費200。国γ：生産150，消費280。国δ：生産40，消費420。「純輸入量（消費-生産）」が最も大きい国はどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"国α（純輸入量50）","explanation_zh":"陷阱：时序错置。α净进口50远低于δ的380。","explanation_ja":"誤り。時期の取り違えの罠。αの純輸入量は50で最大ではない。"},
+      {"id":2,"text":"国β（純輸入量-120／純輸出）","explanation_zh":"陷阱：主体错配。β为净出口国，无净进口。","explanation_ja":"誤り。主体の取り違えの罠。βは生産が消費を上回り純輸出国である。"},
+      {"id":3,"text":"国γ（純輸入量130）","explanation_zh":"陷阱：因果误判。γ净进口130，仍低于δ的380。","explanation_ja":"誤り。因果関係の誤判定の罠。γの純輸入量はδより小さい。"},
+      {"id":4,"text":"国δ（純輸入量380）","explanation_zh":"正确。δ国净进口=420-40=380,为最大。","explanation_ja":"正解。δの純輸入量は420-40=380で四か国中最大である。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"一次エネルギーの純輸入量",
+      "sub_domain":"産業・資源",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"10. 国際経済"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["数値混同"],
+      "keywords_to_avoid":["一次エネルギー","純輸入量","日本","オランダ","ロシア","ドイツ","フランス"]
+    },
+    "sources": [{"claim":"Net energy imports equal energy use minus production in energy statistics.","source":"World Bank, Energy imports net","year":"2024","url":"https://data.worldbank.org/indicator/EG.IMP.CONS.ZS"}]
+  },
+  {
+    "id": 14,
+    "global_id": 22,
+    "title": "問14",
+    "prompt": "次の数値の説明は，ある工業先進国の主要農産物の自給率（％）を示す。穀物R：96。豆類S：6。野菜T：80。鶏卵U：95。この数値の説明で輸入依存度が最も高い農産物はどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"穀物R（96％）","explanation_zh":"陷阱：时序错置。96%自给率高,反对应低进口依存。","explanation_ja":"誤り。時期の取り違えの罠。Rは自給率が高く輸入依存度は低い。"},
+      {"id":2,"text":"豆類S（6％）","explanation_zh":"正确。S仅6%自给,即94%进口依存,最高。","explanation_ja":"正解。Sは自給率6％で輸入依存度94％となり四品目中最高である。"},
+      {"id":3,"text":"野菜T（80％）","explanation_zh":"陷阱：主体错配。80%自给,进口依存度仅20%,非最高。","explanation_ja":"誤り。主体の取り違えの罠。Tの輸入依存度は20％にとどまる。"},
+      {"id":4,"text":"鶏卵U（95％）","explanation_zh":"陷阱：因果误判。95%自给,进口依存度5%,远低于S。","explanation_ja":"誤り。因果関係の誤判定の罠。Uの輸入依存度はわずか5％である。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"農産物供給構造・大豆輸入",
+      "sub_domain":"経済原理・市場",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"2.市場経済"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["数値混同"],
+      "keywords_to_avoid":["米","大豆","小麦","トマト","輸入依存"]
+    },
+    "sources": [{"claim":"Japan’s soybean self-sufficiency is low compared with many other food items.","source":"農林水産省, 食料自給率","year":"2022","url":"https://www.maff.go.jp/j/zyukyu/zikyu_ritu/"}]
+  },
+  {
+    "id": 15,
+    "global_id": 23,
+    "title": "問15",
+    "prompt": "次の数値の説明は，仮想四か国の年間漁獲量（万トン）の推移を示す。国I：1990年600，2000年700，2010年800。国II：1990年800，2000年700，2010年600。国III：1990年300，2000年700，2010年1200。国IV：1990年500，2000年600，2010年650。漁獲量の伸びが最も顕著な国はどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"国I：年率小幅な微増","explanation_zh":"陷阱：时序错置。I国20年增200万吨,远低于III国900万吨增量。","explanation_ja":"誤り。時期の取り違えの罠。Iの増加は200万トンでIIIの増加幅より小さい。"},
+      {"id":2,"text":"国II：明らかな減少傾向","explanation_zh":"陷阱：主体错配。II国是减少趋势，与“增长最显著”相反。","explanation_ja":"誤り。主体の取り違えの罠。IIは漁獲量が減少しており増加ではない。"},
+      {"id":3,"text":"国III：4倍に急増","explanation_zh":"正确。III国从300增到1200,即翻4倍,增长最明显。","explanation_ja":"正解。IIIは300万トンから1200万トンへ4倍に急増しており，伸びが最も顕著である。"},
+      {"id":4,"text":"国IV：緩やかな増加","explanation_zh":"陷阱：因果误判。IV国仅增150万吨,远小于III国900万吨。","explanation_ja":"誤り。因果関係の誤判定の罠。IVの増加は緩やかでIIIに比べはるかに小さい。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"世界の漁獲量統計",
+      "sub_domain":"産業・資源",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["数値混同"],
+      "keywords_to_avoid":["漁獲量","日本","中国","アメリカ","ペルー","1980-2000年"]
+    },
+    "sources": [{"claim":"Global capture fisheries vary widely by country and over time.","source":"FAO, State of World Fisheries and Aquaculture","year":"2022","url":"https://www.fao.org/publications/sofia/"}]
+  },
+  {
+    "id": 16,
+    "title": "問16",
+    "prompt": "次の文章を読み，下の問い(1)〜(2)に答えなさい。",
+    "passage": "ある中欧の連邦国家では，公用語が複数あり，州・準州単位で言語的に住み分けがなされている。長期間にわたり中立を保ち，常設の軍隊は存在せず徴兵制と民兵組織により国土防衛を担う。連邦議会は二院制で，多数派形成のために主要政党による恒常的な大連立が制度化されており，重要事項については時に直接民主主義的な手続きで国民が決定権を行使する。比例的に多元的な社会集団が政治過程に組み込まれ，対立よりも合意形成が重視される運営は，分裂的潜在性を抱える多民族・多言語社会で安定した民主主義を可能にするモデルとされてきた。学校教育では複数言語の習得が標準的に行われ，地方の自治権限が大きく，連邦の介入は最小限にとどまる。",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":24,
+        "prompt":"本文で述べられる連邦国家の特徴に関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"単一言語社会で中央集権的な行政組織を持つ","explanation_zh":"陷阱：主体错位。本文为多语言、地方分权,非单一语集权。","explanation_ja":"誤り。主体取違の罠。本文は多言語社会と地方分権を示している。"},
+          {"id":2,"text":"大規模常設軍隊を保持し他国に積極的に軍事介入する","explanation_zh":"陷阱：概念混淆。本文为中立、无常设军队，非积极军事介入。","explanation_ja":"誤り。概念混同の罠。本文は中立で常設軍を持たないと述べる。"},
+          {"id":3,"text":"複数言語の州・準州的住み分けと比例的多元政治によって安定を保っている","explanation_zh":"正确。文章说明有多个官方语言，并存在多元社会集团，与本项一致。","explanation_ja":"正解。本文の「公用語が複数」「比例的に多元的な社会集団が政治過程に組み込まれ」と一致する。"},
+          {"id":4,"text":"地方自治を完全に廃止し連邦政府が全ての事項を決定する","explanation_zh":"陷阱：主体错位。本文为地方自治权大,非废止。","explanation_ja":"誤り。主体取違の罠。本文は地方の自治権限が大きいと述べる。"}
+        ],
+        "answer":3,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["主体取違","概念混同"],
+          "keywords_to_avoid":["スイス","連邦制","言語分断","比例制"],
+          "sub_domain":"政治体制"
+        },
+        "sources":[{"claim":"Japan’s postwar local autonomy is grounded in the Constitution and Local Autonomy Act.","source":"総務省, 地方自治制度","year":"2024","url":"https://www.soumu.go.jp/main_sosiki/jichi_gyousei/bunken/"}]
+      },
+      {
+        "sub_id":2,
+        "global_id":25,
+        "prompt":"本文で述べられる「合意形成型民主主義」の特徴に関する記述として最も適当でないものはどれですか。",
+        "choices":[
+          {"id":1,"text":"比例的に多元的な社会集団が政治過程に組み込まれる","explanation_zh":"陷阱：时序错置。","explanation_ja":"誤り。時期の取り違えの罠。本文の合意形成型の特徴の一つである。"},
+          {"id":2,"text":"対立よりも合意形成が重視される","explanation_zh":"陷阱：主体错配。","explanation_ja":"誤り。主体の取り違えの罠。本文の運営原理である。"},
+          {"id":3,"text":"重要事項について直接民主主義的な手続きが用いられることがある","explanation_zh":"陷阱：因果误判。","explanation_ja":"誤り。因果関係の誤判定の罠。本文に直接民主主義的手続が記述される。"},
+          {"id":4,"text":"二大政党のみが交替で単独政権を担う構造を持つ","explanation_zh":"正确。本题求不适当陈述。本文为大联立非两党单独交替。","explanation_ja":"正解。本問は誤った記述を選ぶ問題で，本文は大連立型であり二大政党単独交替の特徴とは異なる。"}
+        ],
+        "answer":4,
+        "tag":{
+          "question_form":"正誤判定",
+          "statement_polarity":"正答誤記述",
+          "trap_patterns":["概念混同"],
+          "keywords_to_avoid":["小国","エリート協調","寛容","二大政党交替"],
+          "sub_domain":"政治体制",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"4.政治参加"}
+        },
+        "sources":[{"claim":"Local government autonomy includes elected assemblies and heads under Japan’s Constitution.","source":"Japanese Law Translation, Constitution of Japan Chapter VIII","year":"1947","url":"https://www.japaneselawtranslation.go.jp/en/laws/view/174"}]
+      }
+    ],
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"多民族国家における民主主義体制",
+      "sub_domain":"政治体制",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"1.民主政治"},
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "keywords_to_avoid":["デモクラシー","多民族国家","比例代表","スイス","自律性","合意形成"]
+    }
+  },
+  {
+    "id": 17,
+    "global_id": 26,
+    "title": "問17",
+    "prompt": "現代の大規模組織に共通する管理運営の仕組みに関する記述として最も適当でないものはどれですか。",
+    "choices": [
+      {"id":1,"text":"ポストは血縁や世襲によって決定されることが原則とされている","explanation_zh":"正确。本题求不适当陈述。该组织以业绩与资格选任为原则，非世袭。","explanation_ja":"正解。本問は誤った記述を選ぶ問題で，業績や資格に基づく選任原則と相反するため最も適当でない。"},
+      {"id":2,"text":"明確な階層構造を持ち上下の命令系統が成立している","explanation_zh":"陷阱：时序错置。","explanation_ja":"誤り。時期の取り違えの罠。階層構造は典型的特徴である。"},
+      {"id":3,"text":"業務は専門分化され担当者は所定の手続きに従って職務を遂行する","explanation_zh":"陷阱：主体错配。","explanation_ja":"誤り。主体の取り違えの罠。専門分化と手続主義は典型である。"},
+      {"id":4,"text":"規則と文書による運営が原則とされ恣意性を抑制する","explanation_zh":"陷阱：因果误判。","explanation_ja":"誤り。因果関係の誤判定の罠。規則・文書主義は基本原則である。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"社会",
+      "topic":"官僚制の特徴",
+      "sub_domain":"教育・文化",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"3.経済主体"},
+      "question_form":"正誤判定",
+      "statement_polarity":"正答誤記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["官僚制","階層構造","世襲","分業","専門分化"]
+    },
+    "sources": [{"claim":"Bureaucracy features hierarchy, rules and specialized offices.","source":"Encyclopaedia Britannica, Bureaucracy","year":"2024","url":"https://www.britannica.com/topic/bureaucracy"}]
+  },
+  {
+    "id": 18,
+    "global_id": 27,
+    "title": "問18",
+    "prompt": "ある立法府は議席100を持つ。政党Pは45議席，政党Qは30議席，政党Rは25議席を有し，過半数を握る単独政党は存在しない。安定的な連立政権を維持するため最低限必要な合計議席は51である。最少政党数で過半数を確保するには，どの組合せが必要ですか。正しい数値はどれですか。",
+    "choices": [
+      {"id":1,"text":"P単独でも過半数を確保できる","explanation_zh":"陷阱：时序错置。P=45<51，单独不能过半。","explanation_ja":"誤り。時期の取り違えの罠。Pは45議席で過半数51に達しない。"},
+      {"id":2,"text":"P＋Q＋Rの三党連立でなければ過半数にならない","explanation_zh":"陷阱：主体错配。P+Q=75已超过半,无需三党。","explanation_ja":"誤り。主体の取り違えの罠。P+Qで75議席となり過半数を満たす。"},
+      {"id":3,"text":"Q＋Rの二党連立では過半数を確保できない","explanation_zh":"陷阱：数值错读。Q+R=30+25=55，已经超过过半数51，因此“不能过半”是错误的。","explanation_ja":"誤り。数値の読み違えの罠。Q+R=30+25=55で過半数51を超えるため、「過半数を確保できない」は誤りである。"},
+      {"id":4,"text":"P＋Qまたは他の二党連立で合計51以上を確保できる","explanation_zh":"正确。P+Q=75、P+R=70、Q+R=55，任意两党联合都超过51席；最少政党数为两党。","explanation_ja":"正解。P+Q=75、P+R=70、Q+R=55で、いずれの二党連立も51議席を超える。最少政党数は二党である。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"連立政権と配分戦略",
+      "sub_domain":"選挙・政党",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"4.政治参加"},
+      "question_form":"計算選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["数値混同"],
+      "keywords_to_avoid":["連立政権","議席配分","大臣ポスト","過半数","戦略的選択"]
+    }
+  },
+  {
+    "id": 19,
+    "global_id": 28,
+    "title": "問19",
+    "prompt": "憲法によって常設の軍事力の保持を禁止または極度に制約する規定を持つ国家に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"中米の小国の一部や東アジアの戦後民主国の一部に，憲法上常設軍事力の保持を制約する例がある","explanation_zh":"正确。中美洲小国与战后东亚民主国家中存在宪法上限制常设军的例子。","explanation_ja":"正解。中米の小国の一部と東アジアの戦後民主国家の一部には，憲法上常設軍の保持を制約する規定を置く例が見られる。"},
+      {"id":2,"text":"そのような規定を持つ国家は世界に存在しない","explanation_zh":"陷阱：时序错置。事实上确实有此类国家存在。","explanation_ja":"誤り。時期の取り違えの罠。実際にそのような国家は存在する。"},
+      {"id":3,"text":"そのような規定はかつてイギリスにのみ存在した","explanation_zh":"陷阱：主体错配。英国并无该规定。","explanation_ja":"誤り。主体の取り違えの罠。イギリスにそのような憲法規定はない。"},
+      {"id":4,"text":"そのような規定を持つのは絶対王政の国家のみである","explanation_zh":"陷阱：因果误判。该规定多见于战后民主共和国，非绝对王政。","explanation_ja":"誤り。因果関係の誤判定の罠。絶対王政の特徴ではない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"軍隊禁止と憲法",
+      "sub_domain":"憲法・人権",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"3. 日本国憲法"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違"],
+      "keywords_to_avoid":["常設軍隊","憲法","禁止","コスタリカ","スイス"]
+    },
+    "sources": [{"claim":"Article 9 of Japan’s Constitution renounces war and says land, sea and air forces will not be maintained.","source":"Japanese Law Translation, Constitution of Japan Article 9","year":"1947","url":"https://www.japaneselawtranslation.go.jp/en/laws/view/174"}]
+  },
+  {
+    "id": 20,
+    "global_id": 29,
+    "title": "問20",
+    "prompt": "次の数値の説明は，仮想国の食肉輸入量（万トン）の年次推移と政策状況を示す。X年：輸入量60万トン，制度通常。X+1年：輸入量42万トン，海外牛で家畜伝染病が発生し当該国産輸入を一時停止。X+2年：輸入量52万トン，検査強化のうえ一部再開。X+3年：輸入量58万トン，制度安定。この数値の説明が示す推移の解釈として最も適当なものはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"輸入量の減少は所得増加が原因で，伝染病とは無関係である","explanation_zh":"陷阱：时序错置。本文清楚显示传染病发生导致输入停止与减量,非所得增。","explanation_ja":"誤り。時期の取り違えの罠。本表は伝染病発生による輸入停止が輸入量減少の主因と示している。"},
+      {"id":2,"text":"家畜伝染病発生に伴う輸入停止と検査強化による段階的再開を反映している","explanation_zh":"正确。表中数据清晰呈现停止→检查强化→部分再开→稳定的过程。","explanation_ja":"正解。家畜伝染病発生による一時停止後，検査強化を経て段階的に再開された経緯が表に表れている。"},
+      {"id":3,"text":"輸入量はX年からX+3年まで一貫して減少し続けた","explanation_zh":"陷阱：主体错配。表中X+2、X+3反弹回升,非一致减少。","explanation_ja":"誤り。主体の取り違えの罠。X+2年以降は回復しており一貫した減少ではない。"},
+      {"id":4,"text":"輸入再開は政策変更とは無関係に自然に進行した","explanation_zh":"陷阱：因果误判。本表显示检查强化的政策为前提条件。","explanation_ja":"誤り。因果関係の誤判定の罠。本表は政策的な検査強化を再開条件として示している。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"日本への牛肉輸入と政策変化",
+      "sub_domain":"国際経済・貿易",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"2.市場経済"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["因果倒置"],
+      "keywords_to_avoid":["牛肉輸入","BSE対策","輸入禁止","アメリカ","オーストラリア"]
+    },
+    "sources": [{"claim":"Japan suspended and later resumed beef imports after BSE-related restrictions.","source":"農林水産省, BSE and beef import measures","year":"2005","url":"https://www.maff.go.jp/j/syouan/douei/bse/"}]
+  },
+  {
+    "id": 21,
+    "global_id": 30,
+    "title": "問21",
+    "prompt": "ヨーロッパ地域における経済統合の進展に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"経済統合は二十世紀前半に完成し，それ以降の制度的変化はなかった","explanation_zh":"陷阱：时序错置。经济统合在20世纪后半段持续深化，非前半完成。","explanation_ja":"誤り。時期の取り違えの罠。経済統合は二十世紀後半に段階的に進展した。"},
+      {"id":2,"text":"経済統合の中で，共通通貨は最初に導入され，関税統一はその後に行われた","explanation_zh":"陷阱：主体错配。先关税同盟、共同市场,后共通货币是历史顺序。","explanation_ja":"誤り。主体の取り違えの罠。関税統一が先で，共通通貨はその後の段階的統合の結果である。"},
+      {"id":3,"text":"関税同盟から共同市場・経済通貨同盟へと段階的に統合を深化させ，加盟国の一部で共通通貨が導入された","explanation_zh":"正确。欧洲经济统合按关税同盟→共同市场→经济通货同盟次第深化。","explanation_ja":"正解。関税同盟から共同市場，経済通貨同盟へと統合は段階的に深化し，加盟国の一部で共通通貨が導入された。"},
+      {"id":4,"text":"経済統合は加盟国の完全合併によってのみ実現された","explanation_zh":"陷阱：因果误判。各加盟国未合并，仅是统合，保持主权。","explanation_ja":"誤り。因果関係の誤判定の罠。加盟国は主権を保持しつつ統合を進めており，完全合併ではない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"EU統合と単一通貨制度",
+      "sub_domain":"国際政治・外交",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"5. 金融"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位"],
+      "keywords_to_avoid":["EU設立","単一通貨","ユーロ","マーストリヒト条約","ローマ条約"]
+    },
+    "sources": [{"claim":"The euro is the common currency of the euro area within the EU.","source":"European Central Bank, The euro","year":"2024","url":"https://www.ecb.europa.eu/euro/intro/html/index.en.html"}]
+  },
+  {
+    "id": 22,
+    "global_id": 31,
+    "title": "問22",
+    "prompt": "「植物由来の作物を原料として生産される液体燃料は（　Ａ　）と呼ばれ，温室効果ガス排出が比較的少ないことから普及が進む一方，（　Ｂ　）の高騰や食糧供給逼迫といった副作用が指摘されている」。文中の（　Ａ　）と（　Ｂ　）に入る組合せとして最も適当なものはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"Ａ：化石燃料　Ｂ：海洋資源価格","explanation_zh":"陷阱：时序错置。植物由来非化石,且副作用对应农产品价格。","explanation_ja":"誤り。時期の取り違えの罠。植物由来燃料は化石燃料ではない。"},
+      {"id":2,"text":"Ａ：天然ガス　Ｂ：工業原料価格","explanation_zh":"陷阱：主体错配。天然气也不是植物来源。","explanation_ja":"誤り。主体の取り違えの罠。天然ガスは植物由来の液体燃料ではない。"},
+      {"id":3,"text":"Ａ：植物由来液体燃料　Ｂ：飼料用穀物価格","explanation_zh":"正确。植物液体燃料生产推动饲料用谷物价格上涨。","explanation_ja":"正解。植物由来液体燃料は温室効果ガス低排出として普及する一方，飼料用穀物価格高騰など食糧供給逼迫を招くことが指摘される。"},
+      {"id":4,"text":"Ａ：石炭液化燃料　Ｂ：海産物価格","explanation_zh":"陷阱：因果误判。石炭液化非植物源。","explanation_ja":"誤り。因果関係の誤判定の罠。石炭液化は植物由来ではない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"バイオ燃料と環境政策",
+      "sub_domain":"経済発展・産業",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"2.市場経済"},
+      "question_form":"空欄補充",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["バイオ燃料","トウモロコシ","砂糖きび","地球温暖化","原油価格"]
+    }
+  },
+  {
+    "id": 23,
+    "global_id": 32,
+    "title": "問23",
+    "prompt": "「東南アジアの島嶼部のある地域は十七世紀以降，ヨーロッパ某国の植民地経営の下に置かれ，宗主国は強制栽培制度を導入して，（　Ａ　）など熱帯特産物を集約的に生産させた。これは島嶼地域では（　Ｂ　）と呼ばれる地域に主に展開した」。文中の（　Ａ　）と（　Ｂ　）に入る組合せとして最も適当なものはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"Ａ：香辛料・コーヒー・砂糖きび　Ｂ：熱帯島嶼の主要農業地帯","explanation_zh":"正确。强制栽培制度下在热带岛屿主要农业地带生产香辛料、咖啡、糖蔗。","explanation_ja":"正解。植民地下の強制栽培制度は香辛料・コーヒー・砂糖きびなどを熱帯島嶼の主要農業地帯で生産させた経緯と整合する。"},
+      {"id":2,"text":"Ａ：小麦・大麦・ライ麦　Ｂ：寒冷地高原","explanation_zh":"陷阱：地域错位。这些作物属温寒带,非热带岛屿。","explanation_ja":"誤り。地域取違の罠。温帯穀物は熱帯島嶼の強制栽培対象ではない。"},
+      {"id":3,"text":"Ａ：石炭・鉄鉱石　Ｂ：山地工業地帯","explanation_zh":"陷阱：概念混淆。强制栽培制度对象是农作物，非矿产。","explanation_ja":"誤り。概念混同の罠。強制栽培制度は鉱産物ではなく農作物が対象である。"},
+      {"id":4,"text":"Ａ：羊毛・乳製品　Ｂ：内陸高原","explanation_zh":"陷阱：地域错位。羊毛奶制品属温带牧业,与热带岛屿不符。","explanation_ja":"誤り。地域取違の罠。羊毛・乳製品は熱帯島嶼の主要産品ではない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"東南アジアの植民地化と経済システム",
+      "sub_domain":"近代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"1. 近代化の進展とその影響"},
+      "question_form":"空欄補充",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["地域取違"],
+      "keywords_to_avoid":["オランダ","スペイン","フィリピン","ジャワ","タバコ","コーヒー"]
+    }
+  },
+  {
+    "id": 24,
+    "global_id": 33,
+    "title": "問24",
+    "prompt": "「十九世紀，北米連邦は領土を急速に拡張した。広大な中央内陸部はかつて（　Ａ　）の植民地で，のち連邦が買収した。南西部の半島地域は（　Ｂ　）から獲得し，極北の半島は（　Ｃ　）から購入した」。文中の（　Ａ　）（　Ｂ　）（　Ｃ　）に入る最も適当な組合せはどれですか。",
+    "choices": [
+      {"id":1,"text":"Ａ：西欧ラテン国（イベリア系）　Ｂ：西欧ラテン国（フランク系）　Ｃ：東欧の極東進出帝国","explanation_zh":"陷阱：时序错置。中央内陆为弗朗克系所有,半岛为伊比利亚系所有,顺序颠倒。","explanation_ja":"誤り。時期の取り違えの罠。AとBの帰属が逆である。"},
+      {"id":2,"text":"Ａ：北欧スカンディナビア諸国　Ｂ：西欧ゲルマン系　Ｃ：西欧ラテン国","explanation_zh":"陷阱：主体错配。北欧并非中央内陆原属国。","explanation_ja":"誤り。主体の取り違えの罠。北欧諸国は中央内陸の植民国ではない。"},
+      {"id":3,"text":"Ａ：東欧帝国　Ｂ：南欧の地中海諸国　Ｃ：西欧ラテン国","explanation_zh":"陷阱：因果误判。中央内陆并非东欧所有，半岛非南欧。","explanation_ja":"誤り。因果関係の誤判定の罠。各地域の帰属がすべて誤りである。"},
+      {"id":4,"text":"Ａ：西欧ラテン国（フランク系）　Ｂ：西欧ラテン国（イベリア系）　Ｃ：東欧の極東進出帝国","explanation_zh":"正确。中央内陆=路易斯安那购自法国系；西南半岛购自伊比利亚系；极北购自俄罗斯。","explanation_ja":"正解。中央内陸は西欧ラテン国（フランク系）から購入，南西半島は西欧ラテン国（イベリア系）から獲得，極北は東欧の極東進出帝国から購入した経緯に一致する。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"19世紀アメリカの領土拡張",
+      "sub_domain":"近代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"1. 近代化の進展とその影響"},
+      "question_form":"空欄補充",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["地域取違"],
+      "keywords_to_avoid":["ルイジアナ","フロリダ","アラスカ","領土購入","フランス","スペイン","ロシア"]
+    }
+  },
+  {
+    "id": 25,
+    "global_id": 34,
+    "title": "問25",
+    "prompt": "十九世紀末，東アジアのある国家が制定した近代憲法に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"国民主権を全面的に明記した憲法であった","explanation_zh":"陷阱：时序错置。该宪法以君主主权为基础,非国民主权。","explanation_ja":"誤り。時期の取り違えの罠。当時の憲法は君主大権を基礎としており国民主権を明記していない。"},
+      {"id":2,"text":"中欧の某国の憲法を強く参考にし君主大権を中心とする欽定憲法として制定された","explanation_zh":"正确。该宪法以中欧某国宪法为模型,以君主大权为中心。","explanation_ja":"正解。中欧のある国の憲法を参照しつつ君主大権を中心とする欽定憲法として制定された経緯に一致する。"},
+      {"id":3,"text":"完全な議会主権を採用し国民投票で全条文を決定した","explanation_zh":"陷阱：主体错配。该宪法非议会主权或国民投票决定。","explanation_ja":"誤り。主体の取り違えの罠。議会主権や国民投票による制定ではない。"},
+      {"id":4,"text":"民選首班制を採用し国王の権限はゼロとされた","explanation_zh":"陷阱：因果误判。该宪法仍以君主大权为核心。","explanation_ja":"誤り。因果関係の誤判定の罠。君主の権限は維持されていた。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"大日本帝国憲法とプロイセン憲法",
+      "sub_domain":"近代日本",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"1. 近代化の進展とその影響"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["大日本帝国憲法","プロイセン","1889年","君主権"]
+    },
+    "sources": [{"claim":"The Meiji Constitution was influenced by the Prussian/German constitutional model.","source":"National Diet Library, Birth of the Constitution of Japan","year":"1889","url":"https://www.ndl.go.jp/constitution/e/etc/history.html"}]
+  },
+  {
+    "id": 26,
+    "global_id": 35,
+    "title": "問26",
+    "prompt": "二十世紀前半の二大戦間期の国際秩序に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"戦間期は二十世紀末の冷戦終結と同時進行で展開された","explanation_zh":"陷阱：时态错位。戦间期是1920s-30s,与20世纪末冷战终结时期不同。","explanation_ja":"誤り。時態錯位の罠。戦間期は二十世紀前半であり冷戦終結とは別時代である。"},
+      {"id":2,"text":"戦間期の中欧では民主体制が一貫して安定し続けた","explanation_zh":"陷阱：时态错位。戦间期中欧出现极权运动崛起,非民主一贯稳定。","explanation_ja":"誤り。時態錯位の罠。中欧では権威主義的体制の台頭が見られた。"},
+      {"id":3,"text":"国際協調枠組みは戦間期を通じて完全に機能し続けた","explanation_zh":"陷阱：地域错位。国际协调机制在30年代逐渐失效,非全期有效。","explanation_ja":"誤り。地域取違の罠。国際協調枠組みは戦間期後半に機能しなくなった。"},
+      {"id":4,"text":"ベルサイユ条約等の戦後処理を経て国際協調が試みられたが，権威主義体制の台頭で機能不全に陥った","explanation_zh":"正确。战间期国际协调因极权运动而失效,是历史共识。","explanation_ja":"正解。ベルサイユ条約による戦後処理と国際協調の試みは，権威主義体制の台頭によって機能不全に陥った経緯に一致する。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"第一次世界大戦と戦後秩序",
+      "sub_domain":"現代日本",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"2. 二つの世界大戦とその影響"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位","地域取違"],
+      "keywords_to_avoid":["第一次世界大戦","ベルサイユ条約","ファシズム","東欧独立","冷戦"]
+    },
+    "sources": [{"claim":"World War I and the Paris Peace Conference reshaped the postwar order.","source":"Encyclopaedia Britannica, Treaty of Versailles","year":"1919","url":"https://www.britannica.com/event/Treaty-of-Versailles-1919"}]
+  },
+  {
+    "id": 27,
+    "global_id": 36,
+    "title": "問27",
+    "prompt": "次のA〜Dの東西対立構造期の出来事を年代の古い順に並べたものとして正しいものはどれですか。A：欧州中心都市の封鎖事件。B：東アジア半島での大規模戦争。C：中米島国を巡る米ソ核危機。D：東南アジア半島での長期戦争激化。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"A → C → B → D","explanation_zh":"陷阱：时序错置。半岛战争发生在中美核危机之前。","explanation_ja":"誤り。時期の取り違えの罠。半島戦争はキューバ危機より前である。"},
+      {"id":2,"text":"B → A → C → D","explanation_zh":"陷阱：主体错配。封锁事件早于半岛战争。","explanation_ja":"誤り。主体の取り違えの罠。封鎖事件は半島戦争より前である。"},
+      {"id":3,"text":"A → B → C → D","explanation_zh":"正确。1948-49封锁→1950-53半岛战→1962核危机→1960s后半东南亚战激化。","explanation_ja":"正解。Aは1948-49年，Bは1950-53年，Cは1962年，Dは1960年代後半の激化で年代順に一致する。"},
+      {"id":4,"text":"D → C → B → A","explanation_zh":"陷阱：因果误判。完全反向，与年代不符。","explanation_ja":"誤り。因果関係の誤判定の罠。年代と完全に逆である。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"冷戦期の重要事件時系列",
+      "sub_domain":"現代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"2. 二つの世界大戦とその影響"},
+      "question_form":"時系列整序",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["順序混同"],
+      "keywords_to_avoid":["朝鮮戦争","ベルリン封鎖","キューバ危機","ベトナム戦争","冷戦"]
+    },
+    "sources": [{"claim":"Cold War chronology includes Korean War, Cuban Missile Crisis, Vietnam War and Soviet Afghan War.","source":"Encyclopaedia Britannica, Cold War timeline","year":"1979","url":"https://www.britannica.com/event/Cold-War"}]
+  }
+]
+}

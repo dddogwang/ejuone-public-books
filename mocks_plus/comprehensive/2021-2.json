@@ -1,0 +1,999 @@
+{
+  "subject": "comprehensive",
+  "section": "",
+  "year": 2021,
+  "round": 2,
+  "title": "模擬試験 総合科目 第六回",
+  "image_path": "comprehensive/images/2021-2",
+  "questions": [
+  {
+    "id": 1,
+    "title": "問1",
+    "prompt": "次の文章を読み、下の問い(1)〜(4)に答えなさい。",
+    "passage": "南アフリカ共和国は20世紀において、白人少数派による人種隔離政策（アパルトヘイト）を国家制度として確立した。1948年に国民党政権が成立すると、住民登録法・集団地域法などにより人種別の居住区分が法制化され、黒人多数派は政治・経済の参加から排除された。同政策に対しては国内外から批判が高まり、1960年代以降、国連は経済制裁を強化した。1990年にネルソン・マンデラが釈放され、1991年にアパルトヘイト関連法が廃止、1994年に初めて全人種参加の総選挙が実施され、マンデラが大統領に就任した。人口動態の推移を見ると、南アフリカ共和国の総人口は1990年に約3,778万人、2000年に約4,489万人、2010年に約5,177万人、2020年に約5,931万人へと増加している（世界銀行 World Development Indicators, 2022）。",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":1,
+        "prompt":"本文で示された南アフリカ共和国の総人口の推移について、最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"1990年から2020年にかけて総人口は一貫して減少した。","explanation_zh":"陷阱：数值混同。本文显示总人口由约3,778万增至约5,931万，是增加而非减少。","explanation_ja":"誤り。数値混同の罠。本文では約3,778万人から約5,931万人へと増加しており、減少ではない。"},
+          {"id":2,"text":"1990年から2020年にかけて総人口は約1.6倍に増加した。","explanation_zh":"正确。约5,931万除以约3,778万约为1.57倍，与本文数据一致。","explanation_ja":"正解。約5,931万人÷約3,778万人≒1.57倍となり、本文の推移と一致する。"},
+          {"id":3,"text":"2020年の総人口は1990年の三倍を超えた。","explanation_zh":"陷阱：范围扩大。约5,931万除以约3,778万约为1.57倍，未达三倍。","explanation_ja":"誤り。範囲拡大の罠。1.57倍程度であり、三倍には到達していない。"},
+          {"id":4,"text":"2010年時点で総人口は約3,700万人であった。","explanation_zh":"陷阱：数值混同。2010年的总人口约为5,177万，约3,700万是1990年的水平。","explanation_ja":"誤り。数値混同の罠。2010年は約5,177万人であり、約3,700万人は1990年の水準である。"}
+        ],
+        "answer":2,
+        "tag":{
+          "question_form":"図表読取",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["数値混同","地域取違"],
+          "keywords_to_avoid":["人口","陸地面積","2020年","2019年","アフリカ"],
+          "sub_domain":"近代世界"
+        },
+        "sources":[{"claim":"South Africa total population: 1990≈37.78m, 2000≈44.89m, 2010≈51.77m, 2020≈59.31m","source":"World Bank, World Development Indicators (SP.POP.TOTL)","year":"2022","url":"https://data.worldbank.org/indicator/SP.POP.TOTL?locations=ZA"}]
+      },
+      {
+        "sub_id":2,
+        "global_id":2,
+        "prompt":"本文の人口データに基づき、各10年間の人口増加について、最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"1990年代の10年間の増加は約2,000万人を超えた。","explanation_zh":"陷阱：数值混同。1990年代的增量约711万人，远低于2,000万。","explanation_ja":"誤り。数値混同の罠。1990年代の増加は約711万人で、2,000万人には遠く及ばない。"},
+          {"id":2,"text":"2000年代と2010年代の10年間の増加はおおむね700万人前後で同程度である。","explanation_zh":"正确。2000年代约增688万、2010年代约增754万，均接近700万左右。","explanation_ja":"正解。2000年代の増加は約688万人、2010年代は約754万人で、ともに700万人前後である。"},
+          {"id":3,"text":"2010年代の増加幅は2000年代の三倍以上である。","explanation_zh":"陷阱：范围扩大。两期增量分别约688万与754万，相差不到1.1倍。","explanation_ja":"誤り。範囲拡大の罠。両期間の増加幅の比は約1.1倍にとどまり、三倍以上ではない。"},
+          {"id":4,"text":"2010年代には総人口が減少に転じた。","explanation_zh":"陷阱：时态错位。2010年代仍呈增加趋势，并未减少。","explanation_ja":"誤り。時態錯位の罠。2010年代も増加が継続しており、減少には転じていない。"}
+        ],
+        "answer":2,
+        "tag":{
+          "question_form":"図表読取",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["数値混同","地域取違","範囲拡大"],
+          "keywords_to_avoid":["輸出額","上位4品目","総輸出額","南アフリカ","スイス","ニュージーランド","ロシア"],
+          "sub_domain":"近代世界",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"10. 国際経済"}
+        },
+        "sources":[{"claim":"South Africa population deltas by decade derived from World Bank data","source":"World Bank, World Development Indicators (SP.POP.TOTL)","year":"2022","url":"https://data.worldbank.org/indicator/SP.POP.TOTL?locations=ZA"}]
+      },
+      {
+        "sub_id":3,
+        "global_id":3,
+        "prompt":"本文に関連する南アフリカ共和国の歴史に関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"アパルトヘイト政策は19世紀末に法制化された制度であった。","explanation_zh":"陷阱：时态错位。种族隔离制度由1948年国民党政权法制化，并非19世纪末。","explanation_ja":"誤り。時態錯位の罠。アパルトヘイトの法制化は1948年の国民党政権成立以降で、19世紀末ではない。"},
+          {"id":2,"text":"1994年の総選挙はネルソン・マンデラが暗殺された直後に行われた。","explanation_zh":"陷阱：主体错位。曼德拉于1990年获释，并在1994年大选中胜出后就任总统，并未被暗杀。","explanation_ja":"誤り。主体取違の罠。マンデラは1990年に釈放され、1994年の総選挙を経て大統領に就任しており、暗殺された事実はない。"},
+          {"id":3,"text":"アパルトヘイト体制下では黒人住民は大統領選挙に参加できた。","explanation_zh":"陷阱：范围扩大。种族隔离体制下黑人居民被排除在国政选举之外，不能投票选总统。","explanation_ja":"誤り。範囲拡大の罠。アパルトヘイト体制下では黒人住民は国政選挙から排除されていた。"},
+          {"id":4,"text":"1994年の総選挙で全人種が参加し、マンデラが大統領に選出された。","explanation_zh":"正确。1991年废除种族隔离相关法律后，1994年首次全人种大选中曼德拉当选总统。","explanation_ja":"正解。1991年に関連法が廃止され、1994年の全人種参加の総選挙でマンデラが大統領に選出された。"}
+        ],
+        "answer":4,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["地域取違","時態錯位"],
+          "keywords_to_avoid":["ヨハネスブルグ","京都","ストックホルム","リオデジャネイロ","国際会議","国連"],
+          "sub_domain":"近代世界",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"4.国民経済"}
+        },
+        "sources":[{"claim":"1994 South African general election was the first non-racial election; Mandela became president.","source":"Encyclopaedia Britannica, \"South African general election of 1994\"","year":"1994","url":"https://www.britannica.com/event/South-African-general-election-of-1994"}]
+      },
+      {
+        "sub_id":4,
+        "global_id":4,
+        "prompt":"南アフリカ共和国の反アパルトヘイト運動と関連人物に関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"マハトマ・ガンディーは南アフリカでアパルトヘイト撤廃を直接指導した。","explanation_zh":"陷阱：时态错位。甘地早期在南非的活动是反对印度人歧视，并非直接领导废除种族隔离运动。","explanation_ja":"誤り。時態錯位の罠。ガンディーが南アフリカで行ったのは初期のインド人差別への抗議で、アパルトヘイト撤廃を直接指導したわけではない。"},
+          {"id":2,"text":"マーティン・ルーサー・キング牧師は南アフリカで黒人解放運動を主導した。","explanation_zh":"陷阱：地域错位。马丁·路德·金的民权运动主战场是1950–60年代的美国，并非南非。","explanation_ja":"誤り。地域取違の罠。キング牧師は1950–60年代のアメリカ公民権運動の指導者であり、南アフリカではない。"},
+          {"id":3,"text":"ネルソン・マンデラはアフリカ民族会議（ANC）の指導者として反アパルトヘイト運動を率いた。","explanation_zh":"正确。曼德拉是非洲民族会议（ANC）领导人，长期主导反种族隔离运动并出狱后当选总统。","explanation_ja":"正解。マンデラはアフリカ民族会議（ANC）の指導者として長く反アパルトヘイト運動を率い、釈放後に大統領となった。"},
+          {"id":4,"text":"ンクルマはガーナ独立後に南アフリカに渡り、アパルトヘイト政権の首相を務めた。","explanation_zh":"陷阱：主体错位。恩克鲁玛是加纳首任总理／总统，未曾在南非任职。","explanation_ja":"誤り。主体取違の罠。エンクルマはガーナ初代首相・大統領であり、南アフリカで政権に就いた事実はない。"}
+        ],
+        "answer":3,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["主体取違","地域取違"],
+          "keywords_to_avoid":["アパルトヘイト","廃止","ネルソン・マンデラ","ガンジー","エンクルマ","キング"],
+          "sub_domain":"近代世界"
+        },
+        "sources":[{"claim":"Nelson Mandela led the African National Congress (ANC) anti-apartheid movement.","source":"Encyclopaedia Britannica, \"Nelson Mandela\"","year":"2024","url":"https://www.britannica.com/biography/Nelson-Mandela"}]
+      }
+    ],
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"南アフリカの歴史・地域特性",
+      "sub_domain":"近代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"1. 近代化の進展とその影響"},
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "keywords_to_avoid":["南アフリカ","アパルトヘイト","ヨハネスブルグ","証券取引所","人種隔離政策"]
+    }
+  },
+  {
+    "id": 2,
+    "title": "問2",
+    "prompt": "次の文章を読み、下の問い(1)〜(4)に答えなさい。",
+    "passage": "19世紀半ばに、スイス人実業家アンリ・デュナンは、1859年の北イタリアにおけるソルフェリーノの戦いを目撃し、戦傷者が放置される惨状から、戦時に敵味方の区別なく傷病者を救護する民間ボランティア組織の必要性を訴えた。1863年に「ソルフェリーノの思い出」を出版したデュナンの提唱を受け、同年ジュネーヴで国際委員会が設立され、翌1864年には傷病者の保護を定めた最初のジュネーヴ条約が締結された。これが国際人道法の起源とされる。組織のシンボルは、スイス国旗の配色を反転した白地に赤十字とされたが、後にオスマン帝国などイスラム圏では赤十字に代えて赤新月（赤い三日月）が用いられることとなり、現在の国際赤十字・赤新月運動につながっている。加盟国数を見ると、ジュネーヴ諸条約は2024年時点で196の国・地域が締約しており、ほぼ全世界をカバーしている（国際赤十字委員会 ICRC 公表資料）。",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":5,
+        "prompt":"銀行業の基本的な仕組みに関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"商業銀行は顧客から集めた預金を一切貸し出すことなく金庫に保管する。","explanation_zh":"陷阱：概念混淆。商业银行的核心业务正是吸收存款并发放贷款，并非把存款全部留作库存。","explanation_ja":"誤り。概念混同の罠。商業銀行の本来業務は預金を集めて貸し出すことであり、すべて保管するわけではない。"},
+          {"id":2,"text":"中央銀行は一般の家計や企業に対して日常的に預金口座を開設し普通預金を集めている。","explanation_zh":"陷阱：主体错位。中央银行不直接对一般家庭和企业开普通存款账户，零售存款由商业银行经营。","explanation_ja":"誤り。主体取違の罠。中央銀行は一般家計・企業を直接の預金者とはしておらず、リテール預金は商業銀行が担う。"},
+          {"id":3,"text":"商業銀行は預金を受け入れ、その一部を企業や家計に貸し出して利息差から収益を得る。","explanation_zh":"正确。商业银行通过吸收存款、按比例对外贷款，从存贷利差中获取收益，这是银行业的基本机能。","explanation_ja":"正解。商業銀行は預金を集め一部を貸し出し、利ざやから収益を得る。これが銀行業の基本機能である。"},
+          {"id":4,"text":"保険会社は預金を受け入れ、預金通貨を創出する主要な機関である。","explanation_zh":"陷阱：概念混淆。创造存款货币的是商业银行（信用创造），保险公司不承担吸收存款与信用创造功能。","explanation_ja":"誤り。概念混同の罠。預金通貨を創出するのは商業銀行（信用創造）であり、保険会社はその役割を担わない。"}
+        ],
+        "answer":3,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["概念混同","主体取違"],
+          "keywords_to_avoid":["銀行業","預金","貸し出し","株式","債券","保険"],
+          "sub_domain":"近代世界",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"5. 金融"}
+        },
+        "sources":[{"claim":"Commercial banks accept deposits and extend loans, earning net interest margin.","source":"Bank for International Settlements, \"What banks do\"","year":"2023","url":"https://www.bis.org/"}]
+      },
+      {
+        "sub_id":2,
+        "global_id":6,
+        "prompt":"本文に示されたジュネーヴ諸条約の締約国・地域数（2024年時点で196）に関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"2024年時点で締約国・地域数は196に達しており、ほぼすべての国・地域が条約に参加している。","explanation_zh":"正确。本文中明确指出2024年时缔约国地区数为196，几乎覆盖全世界。","explanation_ja":"正解。本文では2024年時点の締約国・地域数が196とされており、ほぼ全世界が締約している。"},
+          {"id":2,"text":"締約国・地域数はソルフェリーノの戦いの直後にすでに100を超えていた。","explanation_zh":"陷阱：时态错位。索尔费里诺战役在1859年，国际委员会成立于1863年，当时缔约国数远未超过100。","explanation_ja":"誤り。時態錯位の罠。ソルフェリーノの戦いは1859年、国際委員会の設立は1863年で、当時の締約国数は100に達していない。"},
+          {"id":3,"text":"締約国・地域数は1864年の条約成立時点で約200に達していた。","explanation_zh":"陷阱：数值混同。1864年首部日内瓦公约缔约国仅十余国，并非约200。","explanation_ja":"誤り。数値混同の罠。1864年の最初のジュネーヴ条約締約国はわずか十数か国であり、約200ではない。"},
+          {"id":4,"text":"2024年時点でも締約国・地域数は二桁台にとどまっている。","explanation_zh":"陷阱：数值混同。本文明示2024年为196个，已远超二位数。","explanation_ja":"誤り。数値混同の罠。本文では2024年時点で196とされており、二桁にはとどまらない。"}
+        ],
+        "answer":1,
+        "tag":{
+          "question_form":"図表読取",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["地域取違","数値混同"],
+          "keywords_to_avoid":["ニース","南仏","雨温図","リヴィエラ","気候"],
+          "sub_domain":"近代世界"
+        },
+        "sources":[{"claim":"196 States are parties to the Geneva Conventions of 1949.","source":"ICRC, \"State Parties to the Geneva Conventions and their Additional Protocols\"","year":"2024","url":"https://www.icrc.org/en/document/geneva-conventions-1949-additional-protocols"}]
+      },
+      {
+        "sub_id":3,
+        "global_id":7,
+        "prompt":"本文に述べられた赤十字運動と国際人道法に関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"赤十字国際委員会はオスマン帝国政府が国連の下に設立した政府間機関である。","explanation_zh":"陷阱：主体错位。红十字国际委员会是1863年由民间在日内瓦发起的人道组织，并非奥斯曼帝国或联合国设立。","explanation_ja":"誤り。主体取違の罠。赤十字国際委員会は1863年にジュネーヴで民間によって設立された人道組織で、オスマン帝国や国連が設立した機関ではない。"},
+          {"id":2,"text":"最初のジュネーヴ条約は第二次世界大戦後に成立した。","explanation_zh":"陷阱：时态错位。首部日内瓦公约成立于1864年，远早于第二次世界大战之后。","explanation_ja":"誤り。時態錯位の罠。最初のジュネーヴ条約は1864年に成立しており、第二次世界大戦後ではない。"},
+          {"id":3,"text":"デュナンの提唱を受け、1864年に傷病者の保護を定めた最初のジュネーヴ条約が締結された。","explanation_zh":"正确。本文叙述杜南的倡议被采纳，1864年第一部日内瓦公约就保护伤病员问题缔结，是国际人道法的起源。","explanation_ja":"正解。本文の通り、デュナンの提唱を受け1864年に傷病者保護を定めた最初のジュネーヴ条約が結ばれ、国際人道法の起源とされる。"},
+          {"id":4,"text":"イスラム圏で赤新月を用いる慣行は冷戦終結後に始まった。","explanation_zh":"陷阱：时态错位。奥斯曼帝国等使用红新月的惯例可追溯至19世纪后期，并非冷战结束之后才出现。","explanation_ja":"誤り。時態錯位の罠。オスマン帝国等が赤新月を用いる慣行は19世紀後半まで遡るもので、冷戦終結後ではない。"}
+        ],
+        "answer":3,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["主体取違","時態錯位"],
+          "keywords_to_avoid":["国際刑事裁判所","ICC","戦争犯罪","国連","管轄"],
+          "sub_domain":"近代世界",
+          "syllabus_path":{"area":"III 歴史","field":"歴史","item":"2. 二つの世界大戦とその影響"}
+        },
+        "sources":[{"claim":"The first Geneva Convention was adopted in 1864, founding modern international humanitarian law.","source":"ICRC, \"History of the Geneva Conventions\"","year":"1864","url":"https://www.icrc.org/en/document/geneva-conventions-1949-additional-protocols"}]
+      },
+      {
+        "sub_id":4,
+        "global_id":8,
+        "prompt":"本文に基づき、2024年時点でのジュネーヴ諸条約への参加状況について述べた次の記述のうち、最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"締約国・地域数は2024年に三桁から二桁に減少した。","explanation_zh":"陷阱：数值混同。文中指出2024年为196，并无从三位数降至两位数的事实。","explanation_ja":"誤り。数値混同の罠。本文では2024年に196とされており、三桁から二桁に減少した事実はない。"},
+          {"id":2,"text":"締約国・地域数は2024年時点で50を下回っている。","explanation_zh":"陷阱：数值混同。文中明确为196，远高于50。","explanation_ja":"誤り。数値混同の罠。本文では196と明示されており、50を大きく上回る。"},
+          {"id":3,"text":"アジア地域だけで締約国・地域数は約500に達している。","explanation_zh":"陷阱：地域错位。亚洲整体的国家数也远未到500，196是全世界合计。","explanation_ja":"誤り。地域取違の罠。アジア地域だけで国の数が約500に達することはない。196は全世界の合計。"},
+          {"id":4,"text":"締約国・地域数は2024年時点で196に上り、国連加盟国数とほぼ同水準である。","explanation_zh":"正确。本文显示2024年缔约国地区数为196，与联合国会员国193+若干非会员实体大致相当。","explanation_ja":"正解。本文の通り2024年時点で196の国・地域が締約しており、国連加盟193か国＋若干の非加盟実体とほぼ同水準である。"}
+        ],
+        "answer":4,
+        "tag":{
+          "question_form":"図表読取",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["地域取違","数値混同"],
+          "keywords_to_avoid":["オスマン帝国","ヨーロッパ領土","第一次世界大戦","1914年","地図"],
+          "sub_domain":"近代世界",
+          "syllabus_path":{"area":"II 地理","field":"地理","item":"2. 現代世界の諸地域"}
+        },
+        "sources":[{"claim":"196 States are parties to the Geneva Conventions of 1949.","source":"ICRC, States party to the Geneva Conventions","year":"2024","url":"https://www.icrc.org/en/document/geneva-conventions-1949-additional-protocols"}]
+      }
+    ],
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"赤十字運動・国際人道法",
+      "sub_domain":"近代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"1. 近代化の進展とその影響"},
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "keywords_to_avoid":["赤十字","デュナン","赤新月","オスマン帝国","国際人道法","ソルフェリーノの戦い"]
+    }
+  },
+  {
+    "id": 3,
+    "global_id": 9,
+    "title": "問3",
+    "prompt": "本文に述べられた労働供給に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"代替効果と所得効果は常に同方向に働き、賃金上昇時は両者ともに労働時間を増やす。","explanation_zh":"陷阱：概念混淆。代替效应使闲暇机会成本上升进而增加劳动，所得效应使收入提高而希望增加闲暇，两者方向相反。","explanation_ja":"誤り。概念混同の罠。代替効果は余暇の機会費用を高めて労働を増やし、所得効果は実質所得増で余暇を増やすため、両者は逆方向に働く。"},
+      {"id":2,"text":"賃金が上昇するほど労働時間は必ず単調に増加し、減少することはない。","explanation_zh":"陷阱：范围扩大。本文明确指出在高工资区可能出现劳动时间反而减少的后屈现象。","explanation_ja":"誤り。範囲拡大の罠。本文では高賃金領域で労働時間が減少する後屈現象があり得ると明示されている。"},
+      {"id":3,"text":"所得効果は賃金率の変化とは無関係に生じ、余暇には影響しない。","explanation_zh":"陷阱：因果倒置。所得效应正是由工资率变化引起，并通过对闲暇的需求影响劳动供给。","explanation_ja":"誤り。因果倒置の罠。所得効果はまさに賃金率の変化によって生じ、余暇需要を通じて労働供給に影響する。"},
+      {"id":4,"text":"通常は代替効果が所得効果を上回って労働供給は増えるが、高賃金領域では所得効果が上回り労働時間が減ることもある。","explanation_zh":"正确。本文表明通常代替效应大于所得效应使劳动供给增加，但高工资区所得效应反超时则会出现后屈现象。","explanation_ja":"正解。本文の通り通常は代替効果が所得効果を上回って労働供給が増えるが、高賃金領域で所得効果が上回ると労働時間が減少することがある。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"労働供給曲線・低所得国の労働市場",
+      "sub_domain":"経済原理・市場",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"2.市場経済"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","因果倒置"],
+      "keywords_to_avoid":["労働供給曲線","賃金","労働時間","生活水準","低所得国"]
+    },
+    "passage": "労働経済学では、賃金率の変化に応じた労働者の労働供給量（労働時間）の関係を労働供給曲線という。一般に賃金が上昇すると、余暇の機会費用が高まり、人々は余暇を減らして労働時間を増やそうとする（代替効果）。その一方で、賃金上昇は実質所得を高めるため、人々はより多くの余暇を享受しようとする（所得効果）。通常の所得水準では代替効果が所得効果を上回り、労働供給は賃金とともに増加するが、生活に必要な所得を確保した後さらに賃金が上昇すると、所得効果が代替効果を上回り、労働時間がかえって減少する場合がある。この現象を反映した供給曲線は高賃金領域で後方に屈曲するため「後屈する労働供給曲線（backward-bending labor supply curve）」と呼ばれる。",
+    "sources": [{"claim":"Backward-bending labor supply curve arises when income effect exceeds substitution effect at high wages.","source":"IZA World of Labor, \"Labor supply\"","year":"2020","url":"https://wol.iza.org/articles/labor-supply"}]
+  },
+  {
+    "id": 4,
+    "global_id": 10,
+    "title": "問4",
+    "prompt": "本文に述べられた費用構造に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"固定費用が0で限界費用が逓減する場合、生産量が増えるほど平均費用は低下する。","explanation_zh":"正确。本文指出固定费用为0且边际费用递减时，平均费用随产量增加而下降，这正是规模经济的体现。","explanation_ja":"正解。本文の通り、固定費用が0で限界費用が逓減すれば、生産量が増えるほど平均費用は低下する。これが規模の経済の典型である。"},
+      {"id":2,"text":"固定費用が存在しなければ、生産量が増えても総費用は変化しない。","explanation_zh":"陷阱：概念混淆。即使固定费用为0，总费用仍等于可变费用，会随产量增加而上升。","explanation_ja":"誤り。概念混同の罠。固定費用が0でも総費用は可変費用に等しく、生産量とともに増加する。"},
+      {"id":3,"text":"平均費用とは固定費用を可変費用で割ったものを指す。","explanation_zh":"陷阱：概念混淆。平均费用是总费用除以产量，并非固定费用除以可变费用。","explanation_ja":"誤り。概念混同の罠。平均費用は総費用÷生産量であり、固定費用÷可変費用ではない。"},
+      {"id":4,"text":"規模の経済が働く産業では、生産量が増えるほど平均費用は必ず上昇する。","explanation_zh":"陷阱：因果倒置。规模经济意味着产量增加时平均费用下降，并非上升。","explanation_ja":"誤り。因果倒置の罠。規模の経済では生産量増加に伴い平均費用が下がるのであり、上昇するわけではない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"費用曲線・固定費用ゼロ・規模の経済",
+      "sub_domain":"経済原理・市場",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"2.市場経済"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","数値混同"],
+      "keywords_to_avoid":["固定費用","平均費用","総費用","生産量","減少"]
+    },
+    "passage": "ある財の生産者は、生産量によらず一定額がかかる固定費用と、生産量に応じて増減する可変費用とを負担する。総費用は固定費用と可変費用の合計であり、生産量1単位あたりの総費用を平均費用という。いま、固定費用が存在しない（つまり固定費用が0）特殊な技術を考える。このとき総費用は可変費用そのものに等しい。さらに、生産量が増えるほど追加の1単位を作るのに必要な費用（限界費用）が低下するような技術を仮定すると、この企業の平均費用は生産量が増えるにつれて低下していく。このような関係は規模の経済が働く産業（例：ソフトウェア配布など）でしばしば観察される。",
+    "sources": [{"claim":"Average cost falls with output when fixed cost is zero and marginal cost is decreasing (economies of scale).","source":"OECD Glossary of Statistical Terms, \"Economies of scale\"","year":"2019","url":"https://stats.oecd.org/glossary/detail.asp?ID=3219"}]
+  },
+  {
+    "id": 5,
+    "global_id": 11,
+    "title": "問5",
+    "prompt": "本文の日本株式所有構造の推移に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"外国法人等の持株比率は1990年度から2022年度にかけて、ほぼ一貫して低下してきた。","explanation_zh":"陷阱：地域错位。本文显示外国法人等持股比率从约4.7%上升至约30.1%，是大幅上升而非下降。","explanation_ja":"誤り。地域取違の罠。本文では外国法人等の比率は約4.7%から約30.1%へと大幅に上昇しており、低下ではない。"},
+      {"id":2,"text":"外国法人等の持株比率は1990年度の約4.7%から2022年度の約30.1%へと、長期的に大きく上昇した。","explanation_zh":"正确。本文显示外国法人等持股比率从1990年度的约4.7%升至2022年度的约30.1%，长期大幅上升。","explanation_ja":"正解。本文の通り、外国法人等の比率は1990年度の約4.7%から2022年度の約30.1%へと長期的に大きく上昇している。"},
+      {"id":3,"text":"事業法人等の持株比率は1990年度に最も低く、その後上昇を続けている。","explanation_zh":"陷阱：地域错位。事业法人等持股比率长期呈下降趋势，并非1990年度最低。","explanation_ja":"誤り。地域取違の罠。事業法人等の比率は長期的に低下しており、1990年度に最低だった事実はない。"},
+      {"id":4,"text":"金融機関（信託銀行を除く）の持株比率は2022年度時点で1990年度より高い水準にある。","explanation_zh":"陷阱：数值混同。金融机构（不含信托银行）的持股比率从约43%下降，2022年度低于1990年度。","explanation_ja":"誤り。数値混同の罠。金融機関（信託銀行を除く）の比率は約43%から低下しており、2022年度は1990年度を下回る。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"日本株式所有者別持株比率の推移",
+      "sub_domain":"金融・通貨",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"5. 金融"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["地域取違","数値混同"],
+      "keywords_to_avoid":["外国法人等","金融機関","事業法人等","持株比率","推移"]
+    },
+    "passage": "日本取引所グループが公表する「株式分布状況調査」によれば、東京証券取引所上場会社の株式所有者別の持株比率（金額ベース）は近年大きく変化してきた。外国法人等の保有比率は1990年度には約4.7%にとどまっていたが、2000年度に約18.8%、2010年度に約26.7%、2022年度には約30.1%へと上昇している。一方、銀行や生命保険会社など金融機関（信託銀行を除く）の保有比率は1990年度の約43%から低下を続け、事業法人等の保有比率も長期的に低下傾向にある。これらは「持ち合い解消」と外国人投資家の存在感の高まりを反映している。",
+    "sources": [{"claim":"Foreign investors' share of TSE-listed equities rose from ~4.7% (FY1990) to ~30.1% (FY2022).","source":"Japan Exchange Group, \"Share Ownership Survey\" (株式分布状況調査)","year":"2022","url":"https://www.jpx.co.jp/markets/statistics-equities/examination/01.html"}]
+  },
+  {
+    "id": 6,
+    "global_id": 12,
+    "title": "問6",
+    "prompt": "資金貸借市場における利子率の決定メカニズムに関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"利子率が上昇すれば必ず景気は拡大し、企業の借入需要も同時に増加する。","explanation_zh":"陷阱：因果倒置。一般而言利率上升时借款成本上升、企业借款需求会下降，并不会同时增加。","explanation_ja":"誤り。因果倒置の罠。一般に利子率が上昇すると借入コストが増し、企業の借入需要は減少傾向となる。"},
+      {"id":2,"text":"需要と供給の概念は資金貸借市場には適用されず、利子率は政府が一方的に決定する。","explanation_zh":"陷阱：概念混淆。资金借贷市场同样适用需求与供给概念，市场利率不是政府单独决定的。","explanation_ja":"誤り。概念混同の罠。資金貸借市場にも需要・供給の概念は当てはまり、利子率は政府が一方的に決定するものではない。"},
+      {"id":3,"text":"行政の長は資金市場の需給に常に立法府と完全に一致した形で介入し、利子率を決定する。","explanation_zh":"陷阱：主体错位。利率主要由市场决定，央行通过政策利率影响，并非行政长官与立法府完全一致地介入。","explanation_ja":"誤り。主体取違の罠。利子率は基本的に市場で決定され、中央銀行は政策金利を通じて影響を与えるが、行政・立法が一致して直接決めるものではない。"},
+      {"id":4,"text":"利子率は資金需要と資金供給が一致する水準で決定され、需要が増えれば上昇し、供給が増えれば低下する傾向がある。","explanation_zh":"正确。资金借贷市场上利率在资金需求与供给一致处决定，需求增加时利率趋升，供给增加时利率趋降。","explanation_ja":"正解。資金貸借市場では資金需要と資金供給が一致する水準で利子率が決まり、需要が増えれば上昇、供給が増えれば低下する傾向がある。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"資金貸借市場・利子率決定メカニズム",
+      "sub_domain":"経済原理・市場",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"3.経済主体"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["因果倒置","概念混同"],
+      "keywords_to_avoid":["資金需要","資金供給","利子率","借入金","景気"]
+    },
+    "sources": [{"claim":"Interest rates are determined by the supply and demand of loanable funds.","source":"IMF, \"Money and credit basics\"","year":"2022","url":"https://www.imf.org/external/pubs/ft/fandd/basics/"}]
+  },
+  {
+    "id": 7,
+    "global_id": 13,
+    "title": "問7",
+    "prompt": "本文の消費税の納税メカニズムに関する記述として最も適当なものはどれですか。",
+    "passage": "日本の消費税（付加価値税の一形態）は、商品の流通段階ごとに付加価値に応じて課税される。各事業者は売上に係る消費税額から、自らが仕入れに際して支払った消費税額を控除した残額を税務署に納付する（仕入税額控除）。たとえば、原材料を仕入れていない生産者が500円で卸売業者に販売し、卸売業者が700円で小売業者に販売し、小売業者が消費者に1,000円で販売した場合、税率を10%とすると、生産者は50円、卸売業者は20円、小売業者は30円を納付する。結果として全段階の納税額は合計100円となり、これは最終消費者が負担する1,000円の10%に等しい。すなわち、税負担は最終的に消費者に転嫁され、各事業者は付加価値に対応する税額のみを納める仕組みとなっている。",
+    "choices": [
+      {"id":1,"text":"各事業者は売上にかかる消費税から仕入時に支払った消費税を控除した残額を納付し、全段階の合計は最終消費者の負担額に等しい。","explanation_zh":"正确。本文显示各环节企业以销项税额减去进项税额后纳税，全环节合计100日元等于最终消费者承担的10%。","explanation_ja":"正解。本文の通り、各事業者は売上消費税から仕入消費税を控除して納付し、全段階の合計100円は最終消費者負担の10%に等しい。"},
+      {"id":2,"text":"消費税は流通段階を経るたびに新たに課税され、全段階の納税額の合計は最終販売価格より大きくなる。","explanation_zh":"陷阱：概念混淆。增值税通过进项税额抵扣避免重复征税，全环节合计不会超过最终售价的税率部分。","explanation_ja":"誤り。概念混同の罠。仕入税額控除によって重複課税が避けられるため、全段階の合計は最終販売価格の税率分を超えない。"},
+      {"id":3,"text":"日本の消費税では生産者だけが税を負担し、卸売業者や小売業者は一切納付しない。","explanation_zh":"陷阱：主体错位。本文显示生产者、批发商、零售商各自纳付50、20、30日元，并非只有生产者纳税。","explanation_ja":"誤り。主体取違の罠。本文では生産者・卸売業者・小売業者がそれぞれ50円・20円・30円を納付しており、生産者のみではない。"},
+      {"id":4,"text":"消費税の納税額は事業者の利潤に対して直接課されるため、所得税と同一の課税ベースをもつ。","explanation_zh":"陷阱：概念混淆。消费税以增值额（销项-进项）为课税对象，与以所得为课税对象的所得税并不相同。","explanation_ja":"誤り。概念混同の罠。消費税は付加価値（売上−仕入）を課税ベースとし、所得を課税ベースとする所得税とは異なる。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"付加価値税・消費税の納税メカニズム",
+      "sub_domain":"財政・租税",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"4.国民経済"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","数値混同"],
+      "keywords_to_avoid":["消費税","付加価値税","納税額","控除","生産者","卸売業者","小売業者"]
+    },
+    "sources": [{"claim":"Japan's consumption tax uses invoice-style credit method; tax burden falls on final consumer.","source":"National Tax Agency (Japan), \"Outline of the Consumption Tax\"","year":"2023","url":"https://www.nta.go.jp/english/taxes/consumption_tax/index.htm"}]
+  },
+  {
+    "id": 8,
+    "global_id": 14,
+    "title": "問8",
+    "prompt": "日本の労働組合法に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"労働組合は労働者が自主的に結成・運営する団体であり、使用者の支配介入は不当労働行為として禁止されている。","explanation_zh":"正确。日本《工会法》（労働組合法）规定工会由劳动者自主组建运营，雇主的支配介入构成不当劳动行为而被禁止。","explanation_ja":"正解。日本の労働組合法では労働組合は労働者が自主的に結成・運営する団体であり、使用者の支配介入は不当労働行為として禁止されている。"},
+      {"id":2,"text":"労働組合は使用者が結成し、その指揮監督のもとで運営されることが法律上義務付けられている。","explanation_zh":"陷阱：主体错位。工会必须由劳动者自主组建，由雇主组织运营本身就是法律禁止的支配介入。","explanation_ja":"誤り。主体取違の罠。使用者が結成・運営することはむしろ支配介入として禁止される。"},
+      {"id":3,"text":"労働組合に加入することは、すべての民間労働者に法律で義務付けられている。","explanation_zh":"陷阱：范围扩大。日本并未规定民间劳动者必须加入工会，加入与否原则上是劳动者的自由。","explanation_ja":"誤り。範囲拡大の罠。民間労働者に労働組合への加入を義務づける法律はない。"},
+      {"id":4,"text":"労働組合法は戦前から現在まで一度も改正されることなく適用されている。","explanation_zh":"陷阱：时态错位。现行《工会法》于战后1949年大幅修订成立，并经多次修改，并非战前以来未变。","explanation_ja":"誤り。時態錯位の罠。現行の労働組合法は1949年に全面改正されて成立し、その後も改正されており、戦前から不変ではない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"日本の労働組合法",
+      "sub_domain":"三権分立・統治機構",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"3.経済主体"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違","時態錯位"],
+      "keywords_to_avoid":["労働組合法","結成","運営","介入禁止","公務員","加入義務"]
+    },
+    "sources": [{"claim":"The Labor Union Act guarantees workers' right to organise autonomously; employer interference is an unfair labor practice.","source":"Ministry of Health, Labour and Welfare (Japan), \"Labor Union Act\"","year":"1949","url":"https://www.mhlw.go.jp/english/policy/employ-labour/labour-relations/"}]
+  },
+  {
+    "id": 9,
+    "global_id": 15,
+    "title": "問9",
+    "prompt": "日本の社会保障制度のいわゆる「四つの柱」に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"日本の社会保障の四つの柱は、関税、防衛、貿易、外交である。","explanation_zh":"陷阱：概念混淆。关税、防卫、贸易、外交是国家职能或政策领域，并非社会保障的四大支柱。","explanation_ja":"誤り。概念混同の罠。関税・防衛・貿易・外交は国家機能や政策分野であり、社会保障の柱ではない。"},
+      {"id":2,"text":"日本の社会保障の四つの柱は、社会保険、公的扶助、社会福祉、保健医療・公衆衛生である。","explanation_zh":"正确。日本社会保障制度的四大支柱通常指社会保险、公的扶助（生活保护等）、社会福祉与保健医疗公众卫生。","explanation_ja":"正解。日本の社会保障の四つの柱は、社会保険、公的扶助、社会福祉、保健医療・公衆衛生である。"},
+      {"id":3,"text":"社会保険と公的扶助は同じ仕組みで運営され、両者の区別は法律上なくなっている。","explanation_zh":"陷阱：概念混淆。社会保险以保险费缴纳为前提，公的扶助为税收支持的最低生活保障，两者机制不同。","explanation_ja":"誤り。概念混同の罠。社会保険は保険料拠出を前提とし、公的扶助は税で最低生活を保障する仕組みで、両者の区別は維持されている。"},
+      {"id":4,"text":"生活保護はすべての国民に一律給付される普遍的給付であり、所得や資産による要件はない。","explanation_zh":"陷阱：范围扩大。生活保护是基于收入与资产调查的有条件救助，并非对全体国民一律给付。","explanation_ja":"誤り。範囲拡大の罠。生活保護は所得・資産調査を前提とする補足的給付であり、一律給付ではない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"社会",
+      "topic":"日本の社会保障制度の4つの柱",
+      "sub_domain":"社会保障・労働",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"7.社会保障"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","範囲拡大"],
+      "keywords_to_avoid":["社会保険","公的扶助","社会福祉","保健医療","最低限度の生活"]
+    },
+    "sources": [{"claim":"Japan's social-security system comprises four pillars: social insurance, public assistance, social welfare, public health.","source":"Ministry of Health, Labour and Welfare (Japan), \"White Paper on Health, Labour and Welfare\"","year":"2023","url":"https://www.mhlw.go.jp/english/wp/"}]
+  },
+  {
+    "id": 10,
+    "global_id": 16,
+    "title": "問10",
+    "prompt": "本文に示された各国の発電電力量の推移について、最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"日本の発電電力量は1990年から2019年にかけて一貫して低下し続けた。","explanation_zh":"陷阱：地域错位。本文显示日本2010年（约11,560亿）较1990年（约8,580亿）增加，并非一贯下降。","explanation_ja":"誤り。地域取違の罠。本文では日本の発電量は2010年に約11,560億kWhと1990年より増加しており、一貫した低下ではない。"},
+      {"id":2,"text":"中国の2019年の発電電力量はアメリカの2019年の発電電力量の三倍を超えた。","explanation_zh":"陷阱：数值混同。中国2019年约75,030亿，美国约44,010亿，倍数约为1.7倍而非超过三倍。","explanation_ja":"誤り。数値混同の罠。2019年の中国約75,030億÷アメリカ約44,010億≒1.7倍であり、三倍は超えていない。"},
+      {"id":3,"text":"中国の発電電力量は1990年から2019年にかけて大きく増加し、2019年にアメリカを上回った。","explanation_zh":"正确。本文显示中国发电量从约6,210亿大幅增至约75,030亿，2019年已超过美国约44,010亿，成为世界最大发电国。","explanation_ja":"正解。本文の通り、中国の発電量は約6,210億から約75,030億へ大きく増加し、2019年にはアメリカの約44,010億を上回り世界最大となった。"},
+      {"id":4,"text":"アメリカの発電電力量は1990年から2019年にかけて減少した。","explanation_zh":"陷阱：数值混同。美国发电量从约32,030亿增至约44,010亿，是增加而非减少。","explanation_ja":"誤り。数値混同の罠。アメリカは約32,030億から約44,010億へ増加しており、減少ではない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"各国の発電力量推移（1990-2019）",
+      "sub_domain":"経済発展・産業",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"9. 日本の産業"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["地域取違","数値混同"],
+      "keywords_to_avoid":["発電力量","日本","アメリカ","ブラジル","ロシア","推移"]
+    },
+    "passage": "主要国の年間発電電力量（単位：億 kWh）は、国際エネルギー機関や各国エネルギー統計によると次のように推移している。日本では1990年に約8,580億 kWhであった発電電力量が2010年に約11,560億 kWh、2019年に約10,360億 kWhとなった。アメリカ合衆国の発電電力量は1990年の約32,030億 kWhから2019年の約44,010億 kWhに増加した。中国は1990年に約6,210億 kWhであったが、2019年には約75,030億 kWhに達し、世界最大の発電国となった。",
+    "sources": [{"claim":"China surpassed the United States as the largest electricity producer in the early 2010s.","source":"IEA, World Energy Statistics; BP Statistical Review of World Energy","year":"2020","url":"https://www.iea.org/data-and-statistics"}]
+  },
+  {
+    "id": 11,
+    "global_id": 17,
+    "title": "問11",
+    "prompt": "本文に述べられた日本円対ドル相場の歴史的転換点に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"プラザ合意以前、日本円対ドル相場はすべて完全な変動相場制のもとで決定されていた。","explanation_zh":"陷阱：时态错位。1949年起1美元=360日元为固定汇率制，1973年才转为浮动汇率，并非一直浮动。","explanation_ja":"誤り。時態錯位の罠。1949年以降は1ドル=360円の固定相場制で、1973年に変動相場制へ移行するまで固定だった。"},
+      {"id":2,"text":"1971年のニクソン・ショックは固定相場制の維持を困難にし、1973年に主要国は変動相場制へ移行した。","explanation_zh":"正确。本文显示1971年尼克松冲击使金本位下的固定汇率难以维持，1973年主要国转为浮动汇率制。","explanation_ja":"正解。本文の通り、1971年のニクソン・ショックで金とドルの交換が停止され固定相場の維持が困難になり、1973年に主要国は変動相場制へ移行した。"},
+      {"id":3,"text":"ニクソン・ショックは1985年に発生し、その直接的結果としてアジア通貨危機が起きた。","explanation_zh":"陷阱：时态错位。尼克松冲击发生于1971年，亚洲货币危机为1997年，两者并无如此直接的因果。","explanation_ja":"誤り。時態錯位の罠。ニクソン・ショックは1971年、アジア通貨危機は1997年で、両者をそのような形で直接の因果と結びつけるのは誤り。"},
+      {"id":4,"text":"1949年の固定相場では1ドル=100円が設定された。","explanation_zh":"陷阱：数值混同。1949年的固定汇率为1美元=360日元，并非100日元。","explanation_ja":"誤り。数値混同の罠。1949年の固定相場は1ドル=360円であり、100円ではない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"日本円対ドル為替相場の歴史的転換点",
+      "sub_domain":"金融・通貨",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"5. 金融"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位","数値混同"],
+      "keywords_to_avoid":["為替相場","円/ドル","黒丸","ニクソン","プラザ合意","アジア通貨危機","リーマン"]
+    },
+    "passage": "第二次世界大戦後、日本円と米ドルの為替相場には複数の歴史的転換点があった。1949年に1ドル=360円の固定相場が設定され、長く維持されたが、1971年8月の「ニクソン・ショック」によってドルと金の交換が停止され、固定相場制の維持が困難となった。1973年には主要国が変動相場制へ移行し、1985年9月のプラザ合意以降、円高ドル安が急速に進行し、為替相場は数年で1ドル=200円台から100円台へと大きく動いた。1997年のアジア通貨危機、2008年のリーマン・ショックの時期にも円相場は大きく変動した。",
+    "sources": [{"claim":"Nixon Shock (Aug 1971) suspended dollar–gold convertibility; major currencies floated by 1973.","source":"IMF, \"From fixed to floating exchange rates\"","year":"1973","url":"https://www.imf.org/en/About/Factsheets"}]
+  },
+  {
+    "id": 12,
+    "global_id": 18,
+    "title": "問12",
+    "prompt": "日本の国際収支統計における第一次所得収支に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"第一次所得収支には、財・サービスの貿易取引そのものが計上される。","explanation_zh":"陷阱：概念混淆。商品服务的进出口属于贸易服务收支，并非第一次所得收支。","explanation_ja":"誤り。概念混同の罠。財・サービスの貿易取引は貿易・サービス収支に計上され、第一次所得収支ではない。"},
+      {"id":2,"text":"第一次所得収支が黒字になると、その結果として必ず貿易収支も同額の黒字になる。","explanation_zh":"陷阱：因果倒置。第一次所得收支与贸易收支属于经常账户的不同项目，两者无机械等额的因果。","explanation_ja":"誤り。因果倒置の罠。第一次所得収支と貿易収支はともに経常収支の項目だが、機械的に同額で連動するわけではない。"},
+      {"id":3,"text":"第一次所得収支は、対外直接投資・証券投資から得られる利子・配当などの投資収益が主たる構成要素である。","explanation_zh":"正确。第一次所得收支主要由海外直接投资和证券投资带来的利息、股息等投资收益构成，是日本经常账户的主要黑字来源。","explanation_ja":"正解。第一次所得収支は対外直接投資・証券投資から得られる利子・配当などの投資収益を主たる構成要素とし、日本の経常収支黒字の主因となっている。"},
+      {"id":4,"text":"第一次所得収支は政府開発援助（ODA）の支出を計上する項目である。","explanation_zh":"陷阱：概念混淆。政府开发援助（ODA）等无偿援助计入第二次所得收支（移转收支），而非第一次所得收支。","explanation_ja":"誤り。概念混同の罠。ODAなどの無償資金援助は第二次所得収支（移転収支）に計上され、第一次所得収支ではない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"国際収支統計・第一次所得収支",
+      "sub_domain":"国際経済・貿易",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"10. 国際経済"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","因果倒置"],
+      "keywords_to_avoid":["第一次所得収支","黒字","資金援助","輸出","投資利益","送金"]
+    },
+    "sources": [{"claim":"Primary income balance records investment income (interest, dividends) and compensation of employees.","source":"Bank of Japan / Ministry of Finance, \"Balance of Payments Statistics\"","year":"2023","url":"https://www.mof.go.jp/english/policy/international_policy/reference/balance_of_payments/"}]
+  },
+  {
+    "id": 13,
+    "global_id": 19,
+    "title": "問13",
+    "prompt": "ミレニアム開発目標（MDGs）と持続可能な開発目標（SDGs）に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"MDGsはOECDが採択した目標であり、加盟国のみを対象としていた。","explanation_zh":"陷阱：主体错位。MDGs由联合国采纳，覆盖联合国全体成员国，并非OECD的内部目标。","explanation_ja":"誤り。主体取違の罠。MDGsは国連で採択され、国連加盟国全体を対象とした目標であり、OECD内部のものではない。"},
+      {"id":2,"text":"SDGsは2015年までに達成すべき目標として国連が採択し、その後MDGsに引き継がれた。","explanation_zh":"陷阱：顺序混乱。先有MDGs（2000-2015）后有SDGs（2015-2030），并非反过来。","explanation_ja":"誤り。順序混同の罠。MDGs（2000–2015）が先で、その後継としてSDGs（2015–2030）が採択されたのであり、順序が逆である。"},
+      {"id":3,"text":"MDGsは世界銀行のみが採択した銀行内部の融資基準であり、各国政府は参加していない。","explanation_zh":"陷阱：主体错位。MDGs是联合国通过的国际目标，并非世界银行内部融资基准。","explanation_ja":"誤り。主体取違の罠。MDGsは国連が採択した国際目標であり、世界銀行内部の融資基準ではない。"},
+      {"id":4,"text":"MDGsは2000年の国連ミレニアム・サミットで採択され、2015年に後継としてSDGsが採択された。","explanation_zh":"正确。MDGs于2000年联合国千年首脑会议通过，2015年其后继目标SDGs在联合国通过。","explanation_ja":"正解。MDGsは2000年の国連ミレニアム・サミットで採択され、その後継として2015年にSDGsが国連で採択された。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"ミレニアム開発目標（MDGs）とSDGs",
+      "sub_domain":"国際政治・外交",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"5. 金融"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違"],
+      "keywords_to_avoid":["ミレニアム開発目標","MDGs","SDGs","2015年","OECD","世界銀行","国連"]
+    },
+    "sources": [{"claim":"MDGs adopted 2000; SDGs adopted September 2015 at the UN.","source":"United Nations, \"Transforming our world: the 2030 Agenda for Sustainable Development\"","year":"2015","url":"https://sdgs.un.org/2030agenda"}]
+  },
+  {
+    "id": 14,
+    "global_id": 20,
+    "title": "問14",
+    "prompt": "本文に示されたアラビア半島と朝鮮半島の位置関係に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"アラビア半島は朝鮮半島よりも西側（より小さい東経）にあり、緯度帯も低緯度側に大きく広がっている。","explanation_zh":"正确。本文显示阿拉伯半岛位于约东经35–55度，朝鲜半岛位于约东经125–130度，且阿拉伯半岛纬度更低（北纬12–30度）。","explanation_ja":"正解。本文の通り、アラビア半島は約東経35–55度、朝鮮半島は約東経125–130度に位置し、アラビア半島の方が低緯度（北緯12–30度付近）に大きく広がっている。"},
+      {"id":2,"text":"アラビア半島は朝鮮半島と同じ東経帯（125–130度）に位置している。","explanation_zh":"陷阱：地域错位。东经125–130度是朝鲜半岛的位置，阿拉伯半岛位于东经35–55度。","explanation_ja":"誤り。地域取違の罠。東経125–130度は朝鮮半島の位置で、アラビア半島は東経35–55度に位置する。"},
+      {"id":3,"text":"両半島はいずれも北緯50度より高い緯度帯に位置している。","explanation_zh":"陷阱：数值混同。本文显示朝鲜半岛大致在北纬34–41度，阿拉伯半岛在北纬12–30度，均未达到北纬50度以上。","explanation_ja":"誤り。数値混同の罠。本文ではアラビア半島は北緯12–30度、朝鮮半島は北緯34–41度で、いずれも北緯50度より低い。"},
+      {"id":4,"text":"朝鮮半島はアラビア半島より低緯度に位置し、赤道直下に達している。","explanation_zh":"陷阱：地域错位。朝鲜半岛位于北纬34–41度，纬度高于阿拉伯半岛，且远未到赤道直下。","explanation_ja":"誤り。地域取違の罠。朝鮮半島は北緯34–41度でアラビア半島より高緯度であり、赤道直下にはない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"北半球半島の地理的位置（経緯度）",
+      "sub_domain":"自然地理",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["数値混同","地域取違"],
+      "keywords_to_avoid":["経線","緯線","東経","北緯","半島","地図"]
+    },
+    "passage": "北半球には、地中海、紅海、ペルシア湾などに囲まれた大きな半島であるアラビア半島が広がる。アラビア半島の北部は北緯30度付近、南端のアデン湾沿岸は北緯12度付近、東西方向にはおおむね東経35度から東経55度の範囲に位置する。一方、朝鮮半島はおおむね北緯34度から41度、東経125度から130度の範囲に位置している。両半島は緯度帯がやや重なるものの、東経の位置と気候帯は大きく異なる。",
+    "sources": [{"claim":"Approximate latitude/longitude extents of the Arabian and Korean peninsulas.","source":"Encyclopaedia Britannica, \"Arabia\"; \"Korea, geography of\"","year":"2024","url":"https://www.britannica.com/place/Arabia-peninsula-Asia"}]
+  },
+  {
+    "id": 15,
+    "global_id": 21,
+    "title": "問15",
+    "prompt": "本文に述べられたメルカトル図法の特徴に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"メルカトル図法では緯度が高くなるほど面積と距離が縮小して描かれる。","explanation_zh":"陷阱：概念混淆。本文明示纬度越高面积和距离被放大，并非缩小。","explanation_ja":"誤り。概念混同の罠。本文では緯度が高くなるほど面積・距離が拡大すると明示されており、縮小ではない。"},
+      {"id":2,"text":"メルカトル図法では緯度が高くなるほど面積と距離が拡大して描かれるため、高緯度地方の大きさが実際より誇張される。","explanation_zh":"正确。本文显示墨卡托投影中纬度越高，面积和距离都被放大，使高纬地区显得比实际更大。","explanation_ja":"正解。本文の通り、メルカトル図法では緯度が高くなるほど面積と距離が拡大して描かれ、高緯度地方は実際より誇張される。"},
+      {"id":3,"text":"メルカトル図法は方位を正確に示す目的でつくられたため、距離・面積の歪みは緯度に関係なく一切生じない。","explanation_zh":"陷阱：概念混淆。墨卡托投影是正角投影，并非方位投影；距离和面积的失真在高纬度地区显著。","explanation_ja":"誤り。概念混同の罠。メルカトル図法は正角図法であって方位図法ではなく、高緯度では距離・面積の歪みが顕著に生じる。"},
+      {"id":4,"text":"メルカトル図法は19世紀末にメルカトルが考案した正積図法の一種である。","explanation_zh":"陷阱：数值混同。墨卡托于16世纪发明，墨卡托投影是正角投影而非正积投影。","explanation_ja":"誤り。数値混同の罠。メルカトルは16世紀の地理学者であり、メルカトル図法は正角図法であって正積図法ではない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"メルカトル図法の距離歪曲",
+      "sub_domain":"自然地理",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"2. 現代世界の諸地域"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","数値混同"],
+      "keywords_to_avoid":["メルカトル図法","赤道","距離","高緯度","地図"]
+    },
+    "passage": "メルカトル図法は16世紀にメルカトルが考案した正角円筒図法であり、地球表面を経線と緯線が直交する長方形の格子で表現する。この図法では任意の二点を結ぶ直線が等角航路を示し、航海上長く用いられてきた。しかし、メルカトル図法では緯度が高くなるほど面積と距離が拡大して描かれるという性質がある。たとえば赤道付近では距離・面積の歪みは小さいが、高緯度地方ではグリーンランドの面積がアフリカ大陸とほぼ同じ大きさに見えるなど、実際の地球上の大きさと比べて極端に拡大される。",
+    "sources": [{"claim":"Mercator projection (1569) is a conformal cylindrical projection that exaggerates area at high latitudes.","source":"Encyclopaedia Britannica, \"Mercator projection\"","year":"1569","url":"https://www.britannica.com/science/Mercator-projection"}]
+  },
+  {
+    "id": 16,
+    "global_id": 22,
+    "title": "問16",
+    "prompt": "世界の主要証券取引所の取引時間の重複に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"東京証券取引所とニューヨーク証券取引所の通常立会時間は、現地時間がほぼ同一であるため、世界協定時（UTC）でも完全に重なる。","explanation_zh":"陷阱：数值混同。三地存在巨大时差（日本UTC+9、伦敦UTC+0、纽约UTC-5），现地时间相同时UTC并不相同。","explanation_ja":"誤り。数値混同の罠。日本（UTC+9）、ロンドン（UTC+0）、ニューヨーク（UTC-5）の時差は大きく、現地時間が同じでもUTCは一致しない。"},
+      {"id":2,"text":"ロンドン証券取引所とニューヨーク証券取引所の取引時間はまったく重ならず、両市場の取引が同時刻に行われることはない。","explanation_zh":"陷阱：时态错位。伦敦下午到傍晚与纽约上午时段重叠数小时，并非完全不重叠。","explanation_ja":"誤り。時態錯位の罠。ロンドンの午後とニューヨークの午前は数時間重なるため、まったく重ならないわけではない。"},
+      {"id":3,"text":"東京とロンドンの取引時間にはわずかに重複する時間帯があり、ロンドンとニューヨークの取引時間にはより長く重なる時間帯がある。","explanation_zh":"正确。东京（约UTC 0–6时）与伦敦（约UTC 8–16:30时）末尾有少量重叠，伦敦与纽约（约UTC 14:30–21时）有数小时重叠。","explanation_ja":"正解。東京（おおむねUTC 0–6時）とロンドン（同 8–16:30時）の取引時間には末尾でわずかに重なる時間帯があり、ロンドンとニューヨーク（同 14:30–21時）の取引時間にはより長い重なる時間帯がある。"},
+      {"id":4,"text":"東京・ロンドン・ニューヨーク三市場の取引時間は、すべての時間帯において常に同時に重なっている。","explanation_zh":"陷阱：范围扩大。三市场跨越大约16小时时差，并非全天候同时重叠。","explanation_ja":"誤り。範囲拡大の罠。三市場の取引時間は時差により全時間帯で同時に重なるわけではない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"時間帯・証券取引所の営業時間重複",
+      "sub_domain":"自然地理",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["数値混同","時態錯位"],
+      "keywords_to_avoid":["証券取引所","東京","ロンドン","ニューヨーク","時間帯","時差"]
+    },
+    "sources": [{"claim":"Trading hours: TSE 09:00–15:30 JST (UTC+9); LSE 08:00–16:30 GMT; NYSE 09:30–16:00 EST.","source":"Tokyo Stock Exchange / LSE / NYSE official trading hours","year":"2023","url":"https://www.jpx.co.jp/english/equities/trading/domestic/index.html"}]
+  },
+  {
+    "id": 17,
+    "global_id": 23,
+    "title": "問17",
+    "prompt": "フィヨルドの地理的分布と形成に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"フィヨルドは熱帯雨林気候の地域に特徴的で、ブラジル北部などに広く分布している。","explanation_zh":"陷阱：地域错位。峡湾分布于高纬度寒冷地区，并非热带雨林气候带。巴西北部不属于峡湾分布地。","explanation_ja":"誤り。地域取違の罠。フィヨルドは高緯度寒冷地域に分布する地形で、熱帯雨林気候のブラジル北部などには分布しない。"},
+      {"id":2,"text":"フィヨルドは火山活動によって形成されるU字谷状の地形であり、太平洋プレートの境界地域にのみ分布する。","explanation_zh":"陷阱：概念混淆。峡湾由冰川侵蚀形成的U形谷海水入侵而成，并非火山活动直接形成。","explanation_ja":"誤り。概念混同の罠。フィヨルドは氷河侵食によるU字谷に海水が浸入して形成された地形であり、火山活動が直接形成する地形ではない。"},
+      {"id":3,"text":"フィヨルドは氷河に削られたU字谷に海水が浸入して形成された深い湾入で、ノルウェー、チリ南部、ニュージーランド南島など高緯度・寒冷地域に分布する。","explanation_zh":"正确。峡湾是冰川侵蚀的U形谷被海水淹没形成的深湾，分布于挪威、智利南部、新西兰南岛等高纬度寒冷区。","explanation_ja":"正解。フィヨルドは氷河に削られたU字谷に海水が浸入して形成された深い湾入で、ノルウェー、チリ南部、ニュージーランド南島など高緯度・寒冷地域に分布する。"},
+      {"id":4,"text":"フィヨルドは熱帯のサンゴ礁が陸地に侵入して形成された地形である。","explanation_zh":"陷阱：概念混淆。峡湾与珊瑚礁形成机制完全不同，珊瑚礁地形分布于热带浅海。","explanation_ja":"誤り。概念混同の罠。フィヨルドはサンゴ礁とは形成過程が異なる氷河地形であり、サンゴ礁の侵入では形成されない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"フィヨルドの地理的分布",
+      "sub_domain":"自然地理",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["地域取違","概念混同"],
+      "keywords_to_avoid":["フィヨルド","氷河地形","北海道","ブラジル","チリ","スペイン"]
+    },
+    "sources": [{"claim":"Fjords are glacially carved U-shaped valleys flooded by sea; major occurrences in Norway, Chile, NZ South Island.","source":"Encyclopaedia Britannica, \"Fjord\"","year":"2024","url":"https://www.britannica.com/science/fjord"}]
+  },
+  {
+    "id": 18,
+    "global_id": 24,
+    "title": "問18",
+    "prompt": "東南アジアの主要河川の三角州と主要農産物の組合せとして最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"タイ中部のチャオプラヤ川下流の三角州では稲作が盛んに行われ、米はタイの主要輸出農産物となっている。","explanation_zh":"正确。泰国中部昭披耶河下游三角洲是有名的稻作地带，大米是泰国主要的农产品出口商品。","explanation_ja":"正解。タイ中部のチャオプラヤ川下流の三角州では稲作が盛んで、米はタイの主要輸出農産物となっている。"},
+      {"id":2,"text":"メコン川の三角州は北海道に位置し、寒冷気候のため主にジャガイモが栽培されている。","explanation_zh":"陷阱：地域错位。湄公河三角洲位于越南南部，与北海道无关；寒冷气候栽培马铃薯是温带地区。","explanation_ja":"誤り。地域取違の罠。メコン川の三角州はベトナム南部にあり北海道とは無関係。寒冷地でジャガイモが主作物となるのは温帯・冷帯地域。"},
+      {"id":3,"text":"東南アジア大陸部の主要河川流域では水稲は栽培されず、もっぱら麦類が主作物である。","explanation_zh":"陷阱：概念混淆。东南亚大陆部河流流域以热带季风气候为主，水稻是核心作物，并非麦类。","explanation_ja":"誤り。概念混同の罠。東南アジア大陸部の河川流域は熱帯モンスーン気候で水稲が中心作物であり、麦類が主作物ではない。"},
+      {"id":4,"text":"チャオプラヤ川下流ではコーヒー豆が国内消費の中心であり、米の生産はほとんど行われていない。","explanation_zh":"陷阱：地域错位。咖啡豆产区集中于越南中部高原及印尼等地，泰国中部低地的主要农产品仍是稻米。","explanation_ja":"誤り。地域取違の罠。コーヒーの主産地はベトナム中部高原やインドネシアなどで、タイのチャオプラヤ下流では米が主要農産物である。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"東南アジア主要河川の三角州と主要農産物",
+      "sub_domain":"自然地理",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","地域取違"],
+      "keywords_to_avoid":["チャオプラヤ川","三角州","東南アジア","稲","ゴム","コーヒー"]
+    },
+    "sources": [{"claim":"The Chao Phraya delta in central Thailand is a major rice-producing area; Thailand is a leading rice exporter.","source":"FAOSTAT, \"Rice exports by country\"","year":"2022","url":"https://www.fao.org/faostat/"}]
+  },
+  {
+    "id": 19,
+    "global_id": 25,
+    "title": "問19",
+    "prompt": "18世紀フランスの啓蒙思想家ルソーに関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"ルソーは『社会契約論』において、主権は分割や代表のできない人民全体の一般意志に属するとする人民主権論を主張した。","explanation_zh":"正确。卢梭在《社会契约论》中提出主权属于不可分割、不可代表的人民全体的一般意志，是人民主权论的代表论者。","explanation_ja":"正解。ルソーは『社会契約論』において、主権は分割や代表のできない人民全体の一般意志に属するとする人民主権論を主張した。"},
+      {"id":2,"text":"ルソーは三権分立を体系的に提唱し、立法・行政・司法の分立を初めて理論化した。","explanation_zh":"陷阱：主体错位。系统提出三权分立的是孟德斯鸠《论法的精神》，并非卢梭。","explanation_ja":"誤り。主体取違の罠。三権分立を体系的に提唱したのはモンテスキュー（『法の精神』）であり、ルソーではない。"},
+      {"id":3,"text":"ルソーは経済自由放任主義（レッセ・フェール）の創始者として『国富論』を著した。","explanation_zh":"陷阱：主体错位。《国富论》是亚当·斯密的著作，与卢梭无关。","explanation_ja":"誤り。主体取違の罠。『国富論』はアダム・スミスの著作で、ルソーとは別人である。"},
+      {"id":4,"text":"ルソーは絶対王政を擁護し、王権神授説を体系的に説いた。","explanation_zh":"陷阱：概念混淆。卢梭批评绝对王政、主张人民主权，而王权神授说由波旭埃等所主张。","explanation_ja":"誤り。概念混同の罠。ルソーは絶対王政を批判し人民主権を唱えた人物で、王権神授説とは立場が逆である。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"18世紀フランスの啓蒙思想家ルソー",
+      "sub_domain":"近代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"1. 近代化の進展とその影響"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違","概念混同"],
+      "keywords_to_avoid":["ルソー","人民主権","直接民主制","多数派専制","権力分立"]
+    },
+    "sources": [{"claim":"Rousseau's Social Contract (1762) develops the doctrine of popular sovereignty and the general will.","source":"Encyclopaedia Britannica, \"Jean-Jacques Rousseau\"","year":"1762","url":"https://www.britannica.com/biography/Jean-Jacques-Rousseau"}]
+  },
+  {
+    "id": 20,
+    "global_id": 26,
+    "title": "問20",
+    "prompt": "日本の衆議院と参議院の制度上の相違に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"衆議院議員の任期は6年で解散はなく、参議院議員の任期は4年で解散がある。","explanation_zh":"陷阱：概念混淆。本项把众参两院的任期长度与解散制度互换，与日本国宪法的实际规定相反。","explanation_ja":"誤り。概念混同の罠。本項は衆議院と参議院の任期と解散制度を取り違えており、日本国憲法の規定と逆である。"},
+      {"id":2,"text":"衆議院議員の任期は4年で解散がある一方、参議院議員の任期は6年で解散はなく、3年ごとに半数が改選される。","explanation_zh":"正确。日本众议院议员任期4年、有解散制度；参议院议员任期6年、无解散制度，每3年改选半数。","explanation_ja":"正解。衆議院議員の任期は4年で解散があり、参議院議員の任期は6年で解散はなく、3年ごとに半数改選である。"},
+      {"id":3,"text":"衆議院と参議院はいずれも任期5年、解散制度はない。","explanation_zh":"陷阱：数值混同。日本国宪法规定众议院任期4年、参议院任期6年，并非两院都是5年。","explanation_ja":"誤り。数値混同の罠。日本国憲法は衆議院4年、参議院6年と定めており、両院5年ではない。"},
+      {"id":4,"text":"衆議院議員の被選挙権は満40歳以上、参議院議員の被選挙権は満25歳以上である。","explanation_zh":"陷阱：数值混同。日本众议院被选举权满25岁、参议院满30岁，并非如本项所示。","explanation_ja":"誤り。数値混同の罠。被選挙権は衆議院25歳以上、参議院30歳以上で、本項の数字とは異なる。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"日本の衆議院と参議院の相違",
+      "sub_domain":"三権分立・統治機構",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"3. 日本国憲法"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["数値混同","時態錯位"],
+      "keywords_to_avoid":["衆議院","参議院","任期","解散","被選挙権","6年","4年"]
+    },
+    "sources": [{"claim":"House of Representatives: 4-year term, dissolvable. House of Councillors: 6-year term, no dissolution, half renewed every 3 years.","source":"Constitution of Japan, Articles 45–46","year":"1947","url":"https://www.shugiin.go.jp/internet/itdb_english.nsf/html/statics/english/constitution.htm"}]
+  },
+  {
+    "id": 21,
+    "global_id": 27,
+    "title": "問21",
+    "prompt": "19世紀イギリスの労働者運動に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"チャーティスト運動は18世紀末のフランスで起こり、フランス王政の打倒を直接の目的とした。","explanation_zh":"陷阱：地域错位。宪章运动是1830年代末至40年代英国的运动，并非18世纪末的法国。","explanation_ja":"誤り。地域取違の罠。チャーティスト運動は1830年代後半–1840年代のイギリスで起こり、18世紀末のフランスではない。"},
+      {"id":2,"text":"チャーティスト運動は地主貴族による農地保全を主目的とする保守的運動だった。","explanation_zh":"陷阱：主体错位。宪章运动是工人阶级要求政治权利的运动，并非地主贵族的保守运动。","explanation_ja":"誤り。主体取違の罠。チャーティスト運動は労働者が政治的権利を求めた運動で、地主貴族の保守運動ではない。"},
+      {"id":3,"text":"チャーティスト運動は1830年代のアメリカで起こり、奴隷制廃止を中心的要求とした。","explanation_zh":"陷阱：地域错位。宪章运动是英国工人运动，不是美国废奴运动。","explanation_ja":"誤り。地域取違の罠。チャーティスト運動はイギリスの労働者運動であり、アメリカの奴隷制廃止運動とは別物である。"},
+      {"id":4,"text":"チャーティスト運動は1830年代後半から1840年代にイギリスで起こり、男子普通選挙などを盛り込んだ「人民憲章」の実現を求めた。","explanation_zh":"正确。宪章运动是1830年代后期至1840年代英国工人推动《人民宪章》（男子普通选举权等六项要求）的政治运动。","explanation_ja":"正解。チャーティスト運動は1830年代後半から1840年代のイギリスで起こり、男子普通選挙などを盛り込んだ「人民憲章」の実現を求めた労働者運動である。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"19世紀イギリスの労働者運動",
+      "sub_domain":"近代世界",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"4.政治参加"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違","地域取違"],
+      "keywords_to_avoid":["チャーティスト運動","普通選挙","労働者","イギリス","19世紀"]
+    },
+    "sources": [{"claim":"Chartism was a working-class movement in Britain (1838–1848) demanding the People's Charter (incl. universal manhood suffrage).","source":"Encyclopaedia Britannica, \"Chartism\"","year":"1838","url":"https://www.britannica.com/event/Chartism"}]
+  },
+  {
+    "id": 22,
+    "global_id": 28,
+    "title": "問22",
+    "prompt": "日本国憲法における裁判所と司法権に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"日本では裁判所は国会の下部機関であり、立法府の指揮監督のもとで裁判を行う。","explanation_zh":"陷阱：概念混淆。日本国宪法第76条规定司法权属于裁判所，裁判所并非国会下属机关。","explanation_ja":"誤り。概念混同の罠。日本国憲法第76条で司法権は裁判所に属するとされ、裁判所は国会の下部機関ではない。"},
+      {"id":2,"text":"日本では行政機関が終審として裁判を行うことが憲法上明文で認められている。","explanation_zh":"陷阱：时态错位。日本国宪法第76条第2项明文规定行政机关不得作为终审进行裁判。","explanation_ja":"誤り。時態錯位の罠。憲法第76条2項は行政機関による終審裁判を明確に禁止している。"},
+      {"id":3,"text":"違憲審査権は内閣法制局のみが行使し、裁判所はこれを行使できない。","explanation_zh":"陷阱：主体错位。违宪审查权属于裁判所（特别是最高裁判所），并非内阁法制局。","explanation_ja":"誤り。主体取違の罠。違憲審査権は裁判所（とくに最高裁判所）に属し、内閣法制局が行使するものではない。"},
+      {"id":4,"text":"日本では司法権は最高裁判所および下級裁判所に属し、最高裁判所はいわゆる違憲審査権をもつ「憲法の番人」とされる。","explanation_zh":"正确。日本宪法第76条规定司法权属于最高法院及下级法院，最高法院拥有违宪审查权，被称为「宪法的守护者」。","explanation_ja":"正解。日本国憲法第76条により司法権は最高裁判所および下級裁判所に属し、最高裁判所は違憲審査権をもつ「憲法の番人」とされる。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"日本の裁判所と司法権",
+      "sub_domain":"三権分立・統治機構",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"2. 日本の統治機構"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","時態錯位"],
+      "keywords_to_avoid":["裁判所","司法権","憲法違反","違憲審査権","最高裁判所"]
+    },
+    "sources": [{"claim":"Judicial power is vested in the Supreme Court and inferior courts; constitutional review (Art. 81).","source":"Constitution of Japan, Articles 76, 81","year":"1947","url":"https://www.shugiin.go.jp/internet/itdb_english.nsf/html/statics/english/constitution.htm"}]
+  },
+  {
+    "id": 23,
+    "global_id": 29,
+    "title": "問23",
+    "prompt": "日本国憲法の改正手続きに関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"日本国憲法の改正は、各議院の総議員の3分の2以上の賛成で国会が発議し、国民投票で過半数の賛成を必要とする。","explanation_zh":"正确。日本国宪法第96条规定改正案需各议院总议员的2/3以上赞成由国会发议，并经国民投票过半数赞成。","explanation_ja":"正解。日本国憲法第96条により、改正は各議院の総議員の3分の2以上の賛成で国会が発議し、国民投票で過半数の賛成を必要とする。"},
+      {"id":2,"text":"日本国憲法は内閣総理大臣の単独の決定によって改正できる。","explanation_zh":"陷阱：主体错位。宪法改正不能由内阁总理大臣单独决定，须经国会发议与国民投票。","explanation_ja":"誤り。主体取違の罠。憲法改正は内閣総理大臣単独で決定できず、国会の発議と国民投票が必要である。"},
+      {"id":3,"text":"日本国憲法は施行以来すでに10回以上の改正が行われている。","explanation_zh":"陷阱：时态错位。日本国宪法自1947年施行以来从未被实际改正。","explanation_ja":"誤り。時態錯位の罠。日本国憲法は1947年施行以来、これまで一度も改正されていない。"},
+      {"id":4,"text":"日本国憲法の改正には、衆議院・参議院いずれか一方の過半数の賛成だけで足りる。","explanation_zh":"陷阱：范围扩大。仅一院过半数远不足以发议改正，须各议院2/3以上。","explanation_ja":"誤り。範囲拡大の罠。一院の過半数では足りず、各議院の総議員の3分の2以上の賛成が必要である。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"日本国憲法の改正手続き",
+      "sub_domain":"憲法・人権",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"3. 日本国憲法"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違","時態錯位"],
+      "keywords_to_avoid":["憲法改正","国会発議","国民投票","承認","改正実績"]
+    },
+    "sources": [{"claim":"Constitutional amendment requires 2/3 in both Houses and majority approval in a national referendum.","source":"Constitution of Japan, Article 96","year":"1947","url":"https://www.shugiin.go.jp/internet/itdb_english.nsf/html/statics/english/constitution.htm"}]
+  },
+  {
+    "id": 24,
+    "global_id": 30,
+    "title": "問24",
+    "prompt": "吉田茂内閣期に締結された戦後日本の国際条約に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"吉田茂内閣のもとで日ソ共同宣言が調印され、ソ連との国交が回復した。","explanation_zh":"陷阱：时态错位。日苏共同宣言是1956年鸠山一郎内阁的成果，并非吉田茂内阁。","explanation_ja":"誤り。時態錯位の罠。日ソ共同宣言は1956年の鳩山一郎内閣の成果で、吉田茂内閣ではない。"},
+      {"id":2,"text":"1951年に吉田茂内閣のもとでサンフランシスコ平和条約が調印され、同時に日米安全保障条約も結ばれた。","explanation_zh":"正确。1951年吉田茂内阁签署旧金山和约，同日还签署了日美安全保障条约。","explanation_ja":"正解。1951年に吉田茂内閣のもとでサンフランシスコ平和条約が調印され、同日に日米安全保障条約も結ばれた。"},
+      {"id":3,"text":"吉田茂内閣のもとで日中平和友好条約が調印され、中華人民共和国との国交が正常化した。","explanation_zh":"陷阱：主体错位。日中平和友好条约是1978年福田赳夫内阁的成果，与吉田茂无关。","explanation_ja":"誤り。主体取違の罠。日中平和友好条約は1978年の福田赳夫内閣のもとで結ばれたもので、吉田茂とは無関係である。"},
+      {"id":4,"text":"吉田茂内閣は明治期に成立し、ポーツマス条約を主導した。","explanation_zh":"陷阱：时态错位。吉田茂内阁是战后(1946–1954)的内阁；朴茨茅斯条约是1905年明治期、桂太郎内阁的事件。","explanation_ja":"誤り。時態錯位の罠。吉田茂内閣は1946–1954年の戦後内閣であり、1905年のポーツマス条約は明治期の桂太郎内閣の出来事である。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"吉田茂内閣と戦後日本の国際条約",
+      "sub_domain":"現代日本",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"2. 日本の統治機構"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位","主体取違"],
+      "keywords_to_avoid":["吉田茂","首相","1954年","サンフランシスコ平和条約","日ソ共同宣言"]
+    },
+    "sources": [{"claim":"San Francisco Peace Treaty signed 8 Sep 1951; US-Japan Security Treaty signed same day, under PM Yoshida.","source":"Encyclopaedia Britannica, \"Treaty of San Francisco\"","year":"1951","url":"https://www.britannica.com/event/Treaty-of-San-Francisco"}]
+  },
+  {
+    "id": 25,
+    "global_id": 31,
+    "title": "問25",
+    "prompt": "日本の地方公共団体の制度と権限に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"都道府県知事は内閣総理大臣によって任命される国家公務員である。","explanation_zh":"陷阱：概念混淆。都道府县知事是由该地区居民直接选举产生的地方公务员，并非由内阁总理大臣任命。","explanation_ja":"誤り。概念混同の罠。都道府県知事は当該地域の住民が直接選挙で選ぶ地方公務員で、内閣総理大臣が任命するわけではない。"},
+      {"id":2,"text":"地方議会は国会の許可を得てはじめて条例を制定することができ、独自に条例を制定する権限はない。","explanation_zh":"陷阱：时态错位。日本宪法第94条赋予地方公共团体在法律范围内制定条例的权限，无需国会一一许可。","explanation_ja":"誤り。時態錯位の罠。憲法第94条は地方公共団体に法律の範囲内で条例を制定する権限を与えており、国会の許可は不要である。"},
+      {"id":3,"text":"住民は首長や議員を罷免することは一切できず、選挙以外の手段はない。","explanation_zh":"陷阱：概念混淆。地方自治法规定居民可以通过解职请求（recall）等直接请求制度罢免首长和议员。","explanation_ja":"誤り。概念混同の罠。地方自治法は解職請求（リコール）など直接請求制度を定めており、住民は首長や議員の罷免を求めることができる。"},
+      {"id":4,"text":"都道府県知事と市町村長は住民の直接選挙で選出され、地方議会は法律の範囲内で条例を制定することができる。","explanation_zh":"正确。日本宪法及地方自治法规定都道府县知事和市町村长由居民直接选举产生，地方议会有在法律范围内制定条例的权限。","explanation_ja":"正解。日本国憲法および地方自治法により、都道府県知事や市町村長は住民の直接選挙で選ばれ、地方議会は法律の範囲内で条例を制定する権限をもつ。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"日本の地方公共団体の制度・権限",
+      "sub_domain":"地方自治",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"4.政治参加"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","時態錯位"],
+      "keywords_to_avoid":["地方公共団体","首長","地方議会","任期","住民投票","解職請求"]
+    },
+    "sources": [{"claim":"Heads of local governments are directly elected; local assemblies enact ordinances within laws (Art. 93–94).","source":"Constitution of Japan, Articles 93–94","year":"1947","url":"https://www.shugiin.go.jp/internet/itdb_english.nsf/html/statics/english/constitution.htm"}]
+  },
+  {
+    "id": 26,
+    "global_id": 32,
+    "title": "問26",
+    "prompt": "米ソ冷戦終結直前の1980年代後半に起こった国際事件に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"冷戦終結直前に第一次世界大戦が勃発し、ヨーロッパは大規模な戦争に突入した。","explanation_zh":"陷阱：时态错位。第一次世界大战于1914年爆发，与1980年代后期冷战末期无关。","explanation_ja":"誤り。時態錯位の罠。第一次世界大戦は1914年勃発の事象であり、1980年代後半の冷戦終結直前とは時期が全く異なる。"},
+      {"id":2,"text":"1987年にアメリカのレーガン大統領とソ連のゴルバチョフ書記長との間でINF（中距離核戦力）全廃条約が調印され、1989年にはベルリンの壁が崩壊した。","explanation_zh":"正确。1987年里根与戈尔巴乔夫签署INF条约削减中程核武器；1989年柏林墙倒塌，冷战进入终结阶段。","explanation_ja":"正解。1987年にレーガン大統領とゴルバチョフ書記長の間でINF全廃条約が調印され、1989年にはベルリンの壁が崩壊して冷戦は終結局面に入った。"},
+      {"id":3,"text":"冷戦終結直前にアジア通貨危機が発生し、その結果としてベルリンの壁が崩壊した。","explanation_zh":"陷阱：时态错位。亚洲货币危机为1997年，柏林墙倒塌为1989年，前者反而在后；并非如此因果。","explanation_ja":"誤り。時態錯位の罠。アジア通貨危機は1997年、ベルリンの壁崩壊は1989年で、両者の前後関係はむしろ逆である。"},
+      {"id":4,"text":"冷戦終結直前にソ連が核兵器の実戦使用を行ったことが、ベルリンの壁崩壊の直接原因となった。","explanation_zh":"陷阱：因果倒置。苏联从未在冷战末期实战使用核武器，因此不能成为柏林墙倒塌的直接原因。","explanation_ja":"誤り。因果倒置の罠。ソ連が冷戦末期に核兵器を実戦使用した事実はなく、ベルリンの壁崩壊の直接原因にはならない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"米ソ冷戦終結直前の国際事件",
+      "sub_domain":"現代世界",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"5. 国際政治"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位","因果倒置"],
+      "keywords_to_avoid":["冷戦終結","1989年","COMECON","核軍縮","INF条約"]
+    },
+    "sources": [{"claim":"INF Treaty signed 8 Dec 1987 by Reagan and Gorbachev; Berlin Wall fell 9 Nov 1989.","source":"Encyclopaedia Britannica, \"Intermediate-Range Nuclear Forces Treaty\"; \"Berlin Wall\"","year":"1987","url":"https://www.britannica.com/event/Intermediate-Range-Nuclear-Forces-Treaty"}]
+  },
+  {
+    "id": 27,
+    "global_id": 33,
+    "title": "問27",
+    "prompt": "国際法（とくに国連海洋法条約）における海域に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"領海と公海の概念は同一であり、両者の区別は国際法上存在しない。","explanation_zh":"陷阱：概念混淆。领海属于沿岸国主权，公海原则上对所有国家开放，两者在国际法上有明确区别。","explanation_ja":"誤り。概念混同の罠。領海は沿岸国主権下にあり、公海は原則すべての国に開放されており、両者は国際法上明確に区別される。"},
+      {"id":2,"text":"排他的経済水域における漁業権はいずれの国家も自由に行使でき、沿岸国の管轄は及ばない。","explanation_zh":"陷阱：主体错位。专属经济水域（EEZ）内的渔业等资源属沿岸国主权权利，他国不得自由行使渔权。","explanation_ja":"誤り。主体取違の罠。排他的経済水域（EEZ）内の漁業等の資源は沿岸国の主権的権利に属し、他国が自由に行使することはできない。"},
+      {"id":3,"text":"国連海洋法条約上、沿岸国は基線から12海里の領海と、200海里までの排他的経済水域（EEZ）における資源等に対する主権的権利を有する。","explanation_zh":"正确。联合国海洋法公约规定沿岸国对自基线起12海里的领海具有主权，并在200海里以内的EEZ就资源等享有主权权利。","explanation_ja":"正解。国連海洋法条約により、沿岸国は基線から12海里の領海と、200海里までのEEZにおける資源等に対する主権的権利を有する。"},
+      {"id":4,"text":"深海底とその資源は領海と同様に各沿岸国の主権の下にあり、自由に開発できる。","explanation_zh":"陷阱：概念混淆。深海床及其资源被定为「人类共同继承财产」，由国际海底管理局管理，并非沿岸国可自由开发。","explanation_ja":"誤り。概念混同の罠。深海底とその資源は「人類の共同財産」とされ国際海底機構（ISA）が管理する対象で、沿岸国が自由に開発できるものではない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"国際法上の海洋法・領域主権",
+      "sub_domain":"国際政治・外交",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"5. 国際政治"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","主体取違"],
+      "keywords_to_avoid":["領海","大陸棚","深海底","接続水域","公共財産","主権"]
+    },
+    "sources": [{"claim":"UNCLOS: 12-nm territorial sea; 200-nm EEZ with sovereign rights over resources; deep seabed is the common heritage of mankind.","source":"UN, \"United Nations Convention on the Law of the Sea (UNCLOS)\"","year":"1982","url":"https://www.un.org/depts/los/convention_agreements/texts/unclos/unclos_e.pdf"}]
+  },
+  {
+    "id": 28,
+    "global_id": 34,
+    "title": "問28",
+    "prompt": "1814–15年のウィーン会議と19世紀ヨーロッパの国際秩序に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"ウィーン会議は20世紀後半に開催され、第二次世界大戦後の国際秩序を構築した。","explanation_zh":"陷阱：时态错位。维也纳会议召开于1814–1815年，是拿破仑战争后的会议，并非二战后。","explanation_ja":"誤り。時態錯位の罠。ウィーン会議は1814–1815年、ナポレオン戦争後に開かれた会議で、20世紀後半ではない。"},
+      {"id":2,"text":"ウィーン会議は自由主義と国民主義を全面的に支持し、その後ヨーロッパ各地の民族独立を直ちに承認した。","explanation_zh":"陷阱：概念混淆。维也纳体制以正统主义和势力均衡为基础，反而压制自由主义和民族独立运动。","explanation_ja":"誤り。概念混同の罠。ウィーン体制は正統主義と勢力均衡を基本原則とし、自由主義や民族独立運動はむしろ抑圧された。"},
+      {"id":3,"text":"ウィーン会議は1814–15年にナポレオン戦争後のヨーロッパの再編を協議し、勢力均衡と正統主義に基づいた国際秩序（ウィーン体制）を成立させた。","explanation_zh":"正确。1814–15年的维也纳会议在塔列朗、梅特涅等主导下协商拿破仑战争后的欧洲秩序，建立了基于势力均衡与正统主义的「维也纳体制」。","explanation_ja":"正解。1814–15年のウィーン会議はナポレオン戦争後のヨーロッパ再編を協議し、勢力均衡と正統主義に基づくウィーン体制を成立させた。"},
+      {"id":4,"text":"ウィーン会議は黒海周辺の領土分割を主眼とする外交会議であり、ヨーロッパ全体の再編には関与しなかった。","explanation_zh":"陷阱：概念混淆。维也纳会议处理整个欧洲的领土与势力重新安排，黑海周边并非其唯一议题。","explanation_ja":"誤り。概念混同の罠。ウィーン会議はヨーロッパ全域の領土・勢力再編を扱った会議であり、黒海周辺のみを議題としていたのではない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"ウィーン会議と19世紀ヨーロッパ体制",
+      "sub_domain":"近代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"1. 近代化の進展とその影響"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位","概念混同"],
+      "keywords_to_avoid":["ウィーン会議","1814年","勢力均衡","領土分割","黒海"]
+    },
+    "sources": [{"claim":"Congress of Vienna (1814–15) reorganised Europe after the Napoleonic Wars on principles of balance of power and legitimacy.","source":"Encyclopaedia Britannica, \"Congress of Vienna\"","year":"1815","url":"https://www.britannica.com/event/Congress-of-Vienna"}]
+  },
+  {
+    "id": 29,
+    "global_id": 35,
+    "title": "問29",
+    "prompt": "1858年の安政の五か国条約以後の江戸末期日本の貿易構造に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"安政条約以後、横浜などの開港場を中心に貿易が始まり、輸出は生糸・茶などが中心、輸入は毛織物・綿織物などが中心となった。最大の貿易相手国はイギリスであった。","explanation_zh":"正确。1858年安政五国条约后日本以横滨等开港地为中心展开贸易，出口以生丝茶为主，进口以毛织物棉织物为主，最大贸易对手是英国。","explanation_ja":"正解。1858年の安政の五か国条約以後、横浜などの開港場を中心に貿易が始まり、輸出は生糸・茶などが中心、輸入は毛織物・綿織物などが中心で、最大の貿易相手国はイギリスであった。"},
+      {"id":2,"text":"安政条約以後の最大の貿易相手国はロシアであり、北日本沿岸を中心に毛皮輸出が貿易の中心であった。","explanation_zh":"陷阱：地域错位。最大贸易对手是英国（其次为法国荷兰美国），并非俄国，毛皮也不是出口中心。","explanation_ja":"誤り。地域取違の罠。最大の貿易相手国はイギリス（次いでフランス・オランダ・アメリカ）で、ロシアではなく、毛皮輸出が中心だった事実もない。"},
+      {"id":3,"text":"安政条約以後、日本の輸出は石油・天然ガスが中心となった。","explanation_zh":"陷阱：时态错位。石油和天然气是20世纪以后的主要进出口商品，江户末期不可能成为出口中心。","explanation_ja":"誤り。時態錯位の罠。石油や天然ガスは20世紀以降の主要貿易品で、江戸末期に輸出の中心となることはあり得ない。"},
+      {"id":4,"text":"安政条約以後、日本は閉鎖政策を維持し、開港場での貿易は一切行わなかった。","explanation_zh":"陷阱：概念混淆。安政条约本身就开放了横滨、长崎、函馆等贸易港，并非维持闭关。","explanation_ja":"誤り。概念混同の罠。安政条約自体が横浜・長崎・箱館などの貿易港を開いたものであり、閉鎖政策が維持されたとはいえない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"江戸末期日本の貿易構造（安政条約以後）",
+      "sub_domain":"近世日本",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"10. 国際経済"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["数値混同","地域取違"],
+      "keywords_to_avoid":["安政条約","1858年","貿易","輸入超過","イギリス"]
+    },
+    "passage": "",
+    "sources": [{"claim":"After the 1858 Ansei Treaties, Japan's main exports were raw silk and tea; main trading partner was Britain.","source":"Encyclopaedia Britannica, \"Treaties of 1858 (Japan)\"","year":"1858","url":"https://www.britannica.com/event/Harris-Treaty"}]
+  },
+  {
+    "id": 30,
+    "global_id": 36,
+    "title": "問30",
+    "prompt": "スエズ運河と英国の帝国主義政策に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"スエズ運河は19世紀初頭にイギリスがエジプトに建設した運河で、開通時から完全に英国の所有物であった。","explanation_zh":"陷阱：主体错位。苏伊士运河由法国人莱赛普斯主导建设并于1869年开通，并非19世纪初由英国建造。","explanation_ja":"誤り。主体取違の罠。スエズ運河はフランス人レセップスを中心に建設され1869年に開通したもので、19世紀初頭に英国が建設したわけではない。"},
+      {"id":2,"text":"スエズ運河は1869年に開通した後も、イギリスは関心を示さず、株式を一切取得しなかった。","explanation_zh":"陷阱：时态错位。1875年迪斯雷利政府从埃及克迪夫手中购得运河公司股份，并非毫无兴趣。","explanation_ja":"誤り。時態錯位の罠。1875年にディズレーリ政権はエジプトのケディーブから運河会社株式を買収しており、無関心だったわけではない。"},
+      {"id":3,"text":"スエズ運河の利権は20世紀末まで一貫してフランス政府が単独で保有していた。","explanation_zh":"陷阱：主体错位。运河公司股份在英国买入后由英法共同持有，并非法国单独长期独占。","explanation_ja":"誤り。主体取違の罠。英国の株式取得後は英仏が大株主として並ぶ形となり、フランス単独所有が長く続いたわけではない。"},
+      {"id":4,"text":"1869年に開通したスエズ運河の運営会社の株式の一部を、1875年にイギリスのディズレーリ政権がエジプトのケディーブから買収し、イギリスはインド航路の戦略拠点として運河支配を強めた。","explanation_zh":"正确。1869年开通的苏伊士运河，1875年英国迪斯雷利政府从埃及克迪夫手中买入运河公司部分股份，作为印度航线的战略据点强化对运河的支配。","explanation_ja":"正解。1869年に開通したスエズ運河の運営会社株式の一部を、1875年にディズレーリ政権がエジプトのケディーブから買収し、イギリスはインド航路の戦略拠点として運河支配を強めた。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"スエズ運河と英国の帝国主義政策",
+      "sub_domain":"近代日本",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"3.経済主体"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違","時態錯位"],
+      "keywords_to_avoid":["スエズ運河","1869年","開通","株式","筆頭株主","イギリス"]
+    },
+    "sources": [{"claim":"Suez Canal opened 1869 (de Lesseps); UK acquired Egyptian shares in 1875 under Disraeli.","source":"Encyclopaedia Britannica, \"Suez Canal\"; \"Benjamin Disraeli\"","year":"1875","url":"https://www.britannica.com/topic/Suez-Canal"}]
+  },
+  {
+    "id": 31,
+    "global_id": 37,
+    "title": "問31",
+    "prompt": "1920年代アメリカ合衆国の経済政策に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"1920年代のアメリカは社会主義的計画経済を採用し、主要産業を国有化した。","explanation_zh":"陷阱：概念混淆。美国1920年代是市场经济和保守政策时代，并未实行社会主义计划经济或主要产业国有化。","explanation_ja":"誤り。概念混同の罠。1920年代のアメリカは市場経済と保守的政策の時代で、社会主義的計画経済や主要産業の国有化は行っていない。"},
+      {"id":2,"text":"1920年代のアメリカでは農業調整法（AAA）が施行され、農産物の生産制限と価格支持が実施された。","explanation_zh":"陷阱：时态错位。农业调整法（AAA）是1933年罗斯福新政的一部分，并非1920年代的政策。","explanation_ja":"誤り。時態錯位の罠。農業調整法（AAA）は1933年のニューディール政策の一環で、1920年代の政策ではない。"},
+      {"id":3,"text":"1920年代のアメリカは共和党政権のもとで「相対的繁栄」を享受し、高関税政策（フォードニー・マッカンバー法など）と低所得税で保守的経済政策をとった。","explanation_zh":"正确。1920年代美国共和党政权采取高关税（如福尼-麦坎伯关税法）和低所得税等保守经济政策，迎来「相对繁荣」（Roaring Twenties）。","explanation_ja":"正解。1920年代のアメリカは共和党政権のもとフォードニー・マッカンバー関税法など高関税と低所得税の保守的経済政策をとり、いわゆる「相対的繁栄」を享受した。"},
+      {"id":4,"text":"1920年代のアメリカでは大恐慌対策としてニューディール政策が実施された。","explanation_zh":"陷阱：时态错位。新政（New Deal）是1933年起罗斯福政府的对策，1920年代尚未发生。","explanation_ja":"誤り。時態錯位の罠。ニューディール政策は1933年以降のローズベルト政権の大恐慌対策で、1920年代にはまだ実施されていない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"1920年代アメリカの経済政策",
+      "sub_domain":"経済史",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"2.市場経済"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位","因果倒置"],
+      "keywords_to_avoid":["1920年代","アメリカ","景気","自由貿易","農業調整法"]
+    },
+    "sources": [{"claim":"1920s US Republican administrations enacted high tariffs (Fordney-McCumber 1922) and tax cuts; AAA/New Deal began in 1933.","source":"Encyclopaedia Britannica, \"Fordney-McCumber Tariff Act\"; \"New Deal\"","year":"1922","url":"https://www.britannica.com/event/Fordney-McCumber-Tariff-Act"}]
+  },
+  {
+    "id": 32,
+    "global_id": 38,
+    "title": "問32",
+    "prompt": "次の出来事 ア〜エ を、年代の古い順に並べたものとして最も適当なものはどれですか。\nア: 明治維新（1868年）　イ: 日清戦争（1894–95年）　ウ: 日露戦争（1904–05年）　エ: 戦後改革（1945年以降）",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"イ → ア → ウ → エ","explanation_zh":"陷阱：顺序混乱。明治维新（1868）早于日清战争（1894–95），明治维新应排在日清战争之前。","explanation_ja":"誤り。順序混同の罠。明治維新（1868）は日清戦争（1894–95）より早く、アはイの前に来る。"},
+      {"id":2,"text":"ア → イ → ウ → エ","explanation_zh":"正确。明治维新1868年、日清战争1894–95年、日俄战争1904–05年、战后改革1945年以后，按时间顺序即明治维新→日清战争→日俄战争→战后改革。","explanation_ja":"正解。明治維新1868年、日清戦争1894–95年、日露戦争1904–05年、戦後改革1945年以降であり、年代順はア→イ→ウ→エとなる。"},
+      {"id":3,"text":"ア → ウ → イ → エ","explanation_zh":"陷阱：顺序混乱。日俄战争（1904–05）晚于日清战争（1894–95），不能把日俄战争排在日清战争之前。","explanation_ja":"誤り。順序混同の罠。日露戦争（1904–05）は日清戦争（1894–95）より後で、ウはイの後に来る。"},
+      {"id":4,"text":"エ → ア → イ → ウ","explanation_zh":"陷阱：时态错位。战后改革（1945年以后）是四件事中最晚的，不能排在最前。","explanation_ja":"誤り。時態錯位の罠。戦後改革は四つの中で最も新しい出来事であり、先頭に置くことはできない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"冷戦期ソ連と東欧の主要事件の時間順序",
+      "sub_domain":"現代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"2. 二つの世界大戦とその影響"},
+      "question_form":"時系列整序",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["順序混同","時態錯位"],
+      "keywords_to_avoid":["ベルリンの壁","プラハの春","アフガニスタン侵攻","ゴルバチョフ"]
+    },
+    "sources": [{"claim":"Key Japanese modern dates: Meiji Restoration 1868; First Sino-Japanese War 1894–95; Russo-Japanese War 1904–05; post-war reforms from 1945.","source":"Encyclopaedia Britannica, \"History of Japan\"","year":"1945","url":"https://www.britannica.com/place/Japan/History"}]
+  }
+]
+}

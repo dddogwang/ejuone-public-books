@@ -1,0 +1,788 @@
+{
+  "subject": "science",
+  "section": "physics",
+  "year": 2017,
+  "round": 2,
+  "title": "2017年 第二回 物理",
+  "image_path": "science/physics/images/2017-2",
+  "questions": [
+  {
+    "id": 1,
+    "title": "Ⅰ_A",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":1,
+        "prompt":"起電力 E=12V、内部抵抗 r=1Ω の電池に、R₁=6Ω と R₂=3Ω の抵抗を並列に接続した回路がある。並列合成抵抗は 2Ω であり、回路全体の電流 I を求めよ。",
+        "choices":[
+          {"id":1,"text":"4 A","explanation_zh":"正确。合成抵抗 R = R₁R₂/(R₁+R₂) = 18/9 = 2Ω，全电路电阻 R+r = 3Ω，I = E/(R+r) = 12/3 = 4A。","explanation_ja":"正解。並列合成抵抗 R=6×3/(6+3)=2Ω、全抵抗 R+r=3Ω、I=12/3=4 A。"},
+          {"id":2,"text":"3 A","explanation_zh":"陷阱：比例关系误认。将内阻 r 误忽略，以 I=E/R=12/2=6A，再÷2 得3A，未正确处理内阻。","explanation_ja":"誤り。比例関係誤認の罠。内部抵抗を無視して I=E/R とした誤りで 6A を 2 で割るなど計算経路が正しくない。"},
+          {"id":3,"text":"6 A","explanation_zh":"陷阱：遗漏条件。忽略内阻 r，仅用外阻 R=2Ω 计算得 I=E/R=6A。","explanation_ja":"誤り。条件見落としの罠。内部抵抗 r を無視して I=E/R_外=12/2=6 A としてしまう誤り。"},
+          {"id":4,"text":"2 A","explanation_zh":"陷阱：比例关系误认。误将总电阻取为 R₁+r=7Ω 或混淆串并联，得到错误结果。","explanation_ja":"誤り。比例関係誤認の罠。抵抗の合成を誤り全抵抗を過大評価した結果。"},
+          {"id":5,"text":"12 A","explanation_zh":"陷阱：遗漏条件。以内阻 r=1Ω 单独计算 I=E/r=12A，完全忽略外电路。","explanation_ja":"誤り。条件見落としの罠。外部抵抗を無視して I=E/r=12/1=12 A とした誤り。"}
+        ],
+        "answer":1,
+        "tag":{
+          "unit":"IV 電気と磁気",
+          "sub_domain":"直流回路",
+          "question_form":"式変形",
+          "required_skill":"法則・公式適用",
+          "requires_image":false,
+          "trap_patterns":["条件見落とし","比例関係誤認"],
+          "keywords_to_avoid":[],
+          "syllabus_path":{"area":"IV 電気と磁気","field":"物理","item":"2. 電流"}
+        }
+      }
+    ],
+    "tag": {
+      "unit":"IV 電気と磁気",
+      "sub_domain":"直流回路",
+      "question_form":"式変形",
+      "required_skill":"法則・公式適用",
+      "requires_image":false,
+      "trap_patterns":["条件見落とし","比例関係誤認"],
+      "keywords_to_avoid":[],
+      "syllabus_path":{"area":"IV 電気と磁気","field":"物理","item":"2. 電流"}
+    },
+    "prompt": "起電力 E=12V、内部抵抗 r=1Ω の電池に、R₁=6Ω と R₂=3Ω の抵抗を並列に接続した回路がある。"
+  },
+  {
+    "id": 2,
+    "title": "Ⅰ_B",
+    "sub_questions": [
+      {
+        "sub_id":2,
+        "global_id":2,
+        "prompt":"なめらかな斜面（傾角 θ=30°）上に質量 m=2.0 kg の物体が置かれており、斜面に平行な方向の糸で壁につながれて静止している。重力加速度を g=10 m/s² とするとき、糸の張力 T を求めよ。",
+        "choices":[
+          {"id":1,"text":"20 N","explanation_zh":"陷阱：遗漏条件。误取 T=mg（忽略斜面角度），将重力全部分配给绳子。","explanation_ja":"誤り。条件見落としの罠。傾角を無視して T=mg=20 N とした誤り。"},
+          {"id":2,"text":"10 N","explanation_zh":"正确。斜面平行方向平衡：T = mg sinθ = 2.0×10×sin30° = 2.0×10×0.5 = 10N。","explanation_ja":"正解。斜面平行方向の力のつり合いより T=mg sinθ=2.0×10×0.5=10 N。"},
+          {"id":3,"text":"10√3 N","explanation_zh":"陷阱：符号·方向混同。误用 cosθ=√3/2 代替 sinθ，即 T=mg cosθ≈17N，与10√3≈17.3N 接近，混淆了分量方向。","explanation_ja":"誤り。符号・向き混同の罠。sinθ と cosθ を取り違えて T=mg cosθ=10√3 N とした誤り。"},
+          {"id":4,"text":"5 N","explanation_zh":"陷阱：比例关系误认。误将张力取为 mg sinθ/2=5N，多除了一个2。","explanation_ja":"誤り。比例関係誤認の罠。力の分解を誤り T=mg sinθ/2=5 N とした誤り。"}
+        ],
+        "answer":2,
+        "tag":{
+          "unit":"I 力学",
+          "sub_domain":"力のつり合い",
+          "question_form":"計算選択",
+          "required_skill":"概念理解",
+          "requires_image":false,
+          "trap_patterns":["符号・向き混同","条件見落とし"],
+          "keywords_to_avoid":[],
+          "syllabus_path":{"area":"I 力学","field":"物理","item":"1. 運動と力"}
+        }
+      }
+    ],
+    "tag": {
+      "unit":"I 力学",
+      "sub_domain":"力のつり合い",
+      "question_form":"計算選択",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["符号・向き混同","条件見落とし"],
+      "keywords_to_avoid":[],
+      "syllabus_path":{"area":"I 力学","field":"物理","item":"1. 運動と力"}
+    },
+    "prompt": "なめらかな斜面（傾角 θ=30°）上に質量 m=2.0 kg の物体が置かれており、斜面に平行な方向の糸で壁につながれて静止している。"
+  },
+  {
+    "id": 3,
+    "title": "Ⅰ_C",
+    "sub_questions": [
+      {
+        "sub_id":3,
+        "global_id":3,
+        "prompt":"なめらかな水平面上で静止している質量 M=3.0 kg の台車に、質量 m=1.0 kg の物体が速度 v₀=200 m/s で水平に衝突し、完全に一体化した。衝突直後の共通の速度 v を求めよ。",
+        "choices":[
+          {"id":1,"text":"150 m/s","explanation_zh":"陷阱：初始条件混同。误用 v=v₀×M/(M+m)=200×3/4=150m/s，分子分母搞反。","explanation_ja":"誤り。初期条件混同の罠。運動量保存の式で m と M を取り違え v=v₀M/(M+m)=150 m/s とした誤り。"},
+          {"id":2,"text":"100 m/s","explanation_zh":"陷阱：保存则选择错误。误用能量守恒（动能守恒不适用于完全非弹性碰撞），错误设 ½mv₀²=½(M+m)v²，解得 v≈100m/s。","explanation_ja":"誤り。保存則選択ミスの罠。完全非弾性衝突に運動エネルギー保存を適用した誤り。"},
+          {"id":3,"text":"200 m/s","explanation_zh":"陷阱：初始条件混同。误认为速度不变，忽视了台车质量的影响。","explanation_ja":"誤り。初期条件混同の罠。衝突後も速度が変わらないと誤解した。"},
+          {"id":4,"text":"67 m/s","explanation_zh":"陷阱：比例关系误认。误将分母取为 M=3.0kg，计算 v=mv₀/M=200/3≈67m/s。","explanation_ja":"誤り。比例関係誤認の罠。分母を M のみにして v=mv₀/M≈67 m/s とした誤り。"},
+          {"id":5,"text":"50 m/s","explanation_zh":"正确。运动量守恒：mv₀ = (M+m)v → v = mv₀/(M+m) = 1.0×200/(3.0+1.0) = 50 m/s。","explanation_ja":"正解。運動量保存則より mv₀=(M+m)v、v=1.0×200/(3.0+1.0)=50 m/s。"},
+          {"id":6,"text":"40 m/s","explanation_zh":"陷阱：保存则选择错误。误将分母取为 M+m+1=5，计算得 200/5=40m/s。","explanation_ja":"誤り。保存則選択ミスの罠。分母を誤って 5.0 kg とした結果 40 m/s となった誤り。"},
+          {"id":7,"text":"25 m/s","explanation_zh":"陷阱：比例关系误认。误将速度减半再减半，得 v₀/8×1=25m/s，无物理依据。","explanation_ja":"誤り。比例関係誤認の罠。速度を誤って質量比の二乗で割るなど計算過程に誤りがある。"}
+        ],
+        "answer":5,
+        "tag":{
+          "unit":"I 力学",
+          "sub_domain":"運動量・力積",
+          "question_form":"式変形",
+          "required_skill":"法則・公式適用",
+          "requires_image":false,
+          "trap_patterns":["保存則選択ミス","初期条件混同"],
+          "keywords_to_avoid":[],
+          "syllabus_path":{"area":"I 力学","field":"物理","item":"2. エネルギーと運動量"}
+        }
+      }
+    ],
+    "tag": {
+      "unit":"I 力学",
+      "sub_domain":"運動量・力積",
+      "question_form":"式変形",
+      "required_skill":"法則・公式適用",
+      "requires_image":false,
+      "trap_patterns":["保存則選択ミス","初期条件混同"],
+      "keywords_to_avoid":[],
+      "syllabus_path":{"area":"I 力学","field":"物理","item":"2. エネルギーと運動量"}
+    },
+    "prompt": "なめらかな水平面上で静止している質量 M=3.0 kg の台車に、質量 m=1.0 kg の物体が速度 v₀=200 m/s で水平に衝突し、完全に一体化した。"
+  },
+  {
+    "id": 4,
+    "title": "Ⅰ_D",
+    "sub_questions": [
+      {
+        "sub_id":4,
+        "global_id":4,
+        "prompt":"仕事とエネルギーに関する次のア・イの記述について、正誤の組み合わせとして正しいものを選べ。\nア：摩擦力は物体に対して正の仕事をすることがある。\nイ：等速円運動をする物体に対し、向心力のする仕事は零である。",
+        "choices":[
+          {"id":1,"text":"ア：正　イ：誤","explanation_zh":"陷阱：保存则选择错误。错误判断、向心力速度垂直因此仕事常0（正确的）。","explanation_ja":"誤り。保存則選択ミスの罠。イは向心力が速度に垂直ゆえ仕事は零で正しいが、それを誤りとしている。"},
+          {"id":2,"text":"ア：誤　イ：正","explanation_zh":"陷阱：力能量混同。错误判断、例上摩擦力物体正仕事場合、也正确。","explanation_ja":"誤り。力とエネルギー混同の罠。摩擦力が正の仕事をする場合（コンベア等）を見落としてアを誤りとしている。"},
+          {"id":3,"text":"ア：誤　イ：誤","explanation_zh":"陷阱：保存则选择错误。错误判断、两者都物理的正确的記述。","explanation_ja":"誤り。保存則選択ミスの罠。ア・イともに正しい記述であるのに両方誤りとしている。"},
+          {"id":4,"text":"ア：正　イ：正","explanation_zh":"正确。：如摩擦力運動方向働場合、摩擦力正仕事。：向心力常速度垂直因此、仕事零。哪个也正确。","explanation_ja":"正解。ア：コンベアなどで摩擦力が運動方向に働き正の仕事をする場合がある。イ：向心力は速度に常に垂直なので仕事は零。いずれも正しい。"}
+        ],
+        "answer":4,
+        "tag":{
+          "unit":"I 力学",
+          "sub_domain":"仕事とエネルギー",
+          "question_form":"組合せ",
+          "required_skill":"条件整理",
+          "requires_image":false,
+          "trap_patterns":["保存則選択ミス","力とエネルギー混同"],
+          "keywords_to_avoid":[],
+          "syllabus_path":{"area":"I 力学","field":"物理","item":"2. エネルギーと運動量"}
+        }
+      }
+    ],
+    "tag": {
+      "unit":"I 力学",
+      "sub_domain":"仕事とエネルギー",
+      "question_form":"組合せ",
+      "required_skill":"条件整理",
+      "requires_image":false,
+      "trap_patterns":["保存則選択ミス","力とエネルギー混同"],
+      "keywords_to_avoid":[],
+      "syllabus_path":{"area":"I 力学","field":"物理","item":"2. エネルギーと運動量"}
+    },
+    "prompt": "仕事とエネルギーに関する次のア・イの記述について、正誤の組み合わせとして正しいものを選べ。\nア：摩擦力は物体に対して正の仕事をすることがある。\nイ：等速円運動をする物体に対し、向心力のする仕事は零である。"
+  },
+  {
+    "id": 5,
+    "title": "Ⅰ_E",
+    "sub_questions": [
+      {
+        "sub_id":5,
+        "global_id":5,
+        "prompt":"長さ L=1.0 m の一様な細い棒が、左端を壁の蝶番に固定されて水平面から角度 θ=30° 傾いて静止している。棒の右端には棒に垂直な方向の糸が取り付けられており、棒の重さは W=20 N である。左端の蝶番を支点として力のモーメントのつり合いを用いて糸の張力 T を求めよ。",
+        "choices":[
+          {"id":1,"text":"5 N","explanation_zh":"陷阱：符号·方向混同。误将力臂取为 L sinθ（应为 L cosθ），T·L sinθ=W·(L/2)cosθ → T=W cosθ/(2sinθ)≈8.7N。若反向分解则得约5N。","explanation_ja":"誤り。符号・向き混同の罠。力のうでを誤って L sinθ とした結果。"},
+          {"id":2,"text":"10 N","explanation_zh":"陷阱：遗漏条件。误取 T=W/2=10N，忽略了角度 θ 的影响。","explanation_ja":"誤り。条件見落としの罠。傾角 θ を無視して T=W/2=10 N とした誤り。"},
+          {"id":3,"text":"10√3 N","explanation_zh":"陷阱：符号·方向混同。误将重力力臂取为 (L/2)sinθ，T·L=(L/2)sinθ×W → T=W sinθ/2=20×0.5/2=5N，不等于10√3，此选项对应混淆 sin/cos 后得到的另一错误值。","explanation_ja":"誤り。符号・向き混同の罠。重力の力うでに sinθ を使うなどの誤りで生じる誤答。"},
+          {"id":4,"text":"20 N","explanation_zh":"陷阱：遗漏条件。误认为张力等于棒的全部重力，忽略力矩分析。","explanation_ja":"誤り。条件見落としの罠。モーメントのつり合いを考えずに T=W=20 N とした誤り。"},
+          {"id":5,"text":"20√3 N","explanation_zh":"陷阱：比例关系误认。误将角度系数倍乘在重力上，得到过大的张力值。","explanation_ja":"誤り。比例関係誤認の罠。係数を誤って掛けた結果生じる誤答。"},
+          {"id":6,"text":"5√3 N","explanation_zh":"正确。支点（左端）合：棒垂直糸力 = L、重力作用点（棒中点）力 = (L/2)cosθ。T×L = W×(L/2)cosθ → T = W cosθ/2 = 20×(√3/2)/2 = 5√3 N。","explanation_ja":"正解。支点まわりのモーメントのつり合い T×L=W×(L/2)cosθ より T=W cosθ/2=20×(√3/2)/2=5√3 N。"}
+        ],
+        "answer":6,
+        "tag":{
+          "unit":"I 力学",
+          "sub_domain":"力のつり合い",
+          "question_form":"式変形",
+          "required_skill":"法則・公式適用",
+          "requires_image":false,
+          "trap_patterns":["符号・向き混同","条件見落とし"],
+          "keywords_to_avoid":[],
+          "syllabus_path":{"area":"I 力学","field":"物理","item":"1. 運動と力"}
+        }
+      }
+    ],
+    "tag": {
+      "unit":"I 力学",
+      "sub_domain":"力のつり合い",
+      "question_form":"式変形",
+      "required_skill":"法則・公式適用",
+      "requires_image":false,
+      "trap_patterns":["符号・向き混同","条件見落とし"],
+      "keywords_to_avoid":[],
+      "syllabus_path":{"area":"I 力学","field":"物理","item":"1. 運動と力"}
+    },
+    "prompt": "長さ L=1.0 m の一様な細い棒が、左端を壁の蝶番に固定されて水平面から角度 θ=30° 傾いて静止している。棒の右端には棒に垂直な方向の糸が取り付けられており、棒の重さは W=20 N である。"
+  },
+  {
+    "id": 6,
+    "title": "Ⅰ_F",
+    "sub_questions": [
+      {
+        "sub_id":6,
+        "global_id":6,
+        "prompt":"地球の質量を M、半径を R、万有引力定数を G とするとき、地データから高さ h の円軌道上を周回する人工衛星の速さ v を表す式を選べ。",
+        "choices":[
+          {"id":1,"text":"v = √(GM/R)","explanation_zh":"陷阱：遗漏条件。忽略高度 h，仅用地球半径 R 计算，相当于卫星在地表飞行的情形。","explanation_ja":"誤り。条件見落としの罠。高度 h を無視して地表の場合の速さとした誤り。"},
+          {"id":2,"text":"v = √(GM/(R+h)²)","explanation_zh":"陷阱：比例关系误认。指数取2而非1，混淆了速度公式与引力加速度公式。","explanation_ja":"誤り。比例関係誤認の罠。速さの式と加速度の式を混同し、分母を (R+h)² とした誤り。"},
+          {"id":3,"text":"v = √(GM/(R+h))","explanation_zh":"正确。万有引力 = 向心力：GMm/(R+h)² = mv²/(R+h) → v² = GM/(R+h) → v = √(GM/(R+h))。","explanation_ja":"正解。万有引力＝向心力より GMm/(R+h)²=mv²/(R+h)、整理して v=√(GM/(R+h))。"},
+          {"id":4,"text":"v = GM/(R+h)","explanation_zh":"陷阱：比例关系误认。误将速度写为无平方根形式，量纲不符（单位应为 m/s）。","explanation_ja":"誤り。比例関係誤認の罠。平方根を取らずに v=GM/(R+h) とした次元の合わない誤り。"},
+          {"id":5,"text":"v = √(2GM/(R+h))","explanation_zh":"陷阱：保存则选择错误。将第一宇宙速度（逃逸速度）的系数2误用于圆轨道速度公式。","explanation_ja":"誤り。保存則選択ミスの罠。脱出速度の式の係数 2 を円軌道の速さに誤って適用した誤り。"},
+          {"id":6,"text":"v = √(GMh)","explanation_zh":"陷阱：遗漏条件。误将轨道半径取为高度 h 而非 R+h，且分母不符合引力定律。","explanation_ja":"誤り。条件見落としの罠。軌道半径を R+h とせずに h のみとした誤り。"}
+        ],
+        "answer":3,
+        "tag":{
+          "unit":"I 力学",
+          "sub_domain":"万有引力",
+          "question_form":"計算選択",
+          "required_skill":"概念理解",
+          "requires_image":false,
+          "trap_patterns":["比例関係誤認","条件見落とし"],
+          "keywords_to_avoid":[],
+          "syllabus_path":{"area":"I 力学","field":"物理","item":"3. さまざまな力と運動"}
+        }
+      }
+    ],
+    "tag": {
+      "unit":"I 力学",
+      "sub_domain":"万有引力",
+      "question_form":"計算選択",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["比例関係誤認","条件見落とし"],
+      "keywords_to_avoid":[],
+      "syllabus_path":{"area":"I 力学","field":"物理","item":"3. さまざまな力と運動"}
+    },
+    "prompt": "地球の質量を M、半径を R、万有引力定数を G とするとき、地データから高さ h の円軌道上を周回する人工衛星の速さ v を表す式を選べ。"
+  },
+  {
+    "id": 7,
+    "title": "Ⅱ_A",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":7,
+        "prompt":"質量 m=500 g のアルミニウム塊（比熱 c=0.90 J/(g·K)）を温度 T₁=20℃ から T₂=40℃ まで加熱するために必要な熱量 Q を求めよ。",
+        "choices":[
+          {"id":1,"text":"900 J","explanation_zh":"陷阱：单位换算错误。误将质量 500g 当作 50g，Q=50×0.90×20=900J，少算了一个10倍。","explanation_ja":"誤り。単位換算ミスの罠。質量を 500 g でなく 50 g として計算した結果。"},
+          {"id":2,"text":"9000 J","explanation_zh":"正确。Q = mc△T = 500 × 0.90 × (40−20) = 500 × 0.90 × 20 = 9000 J。","explanation_ja":"正解。Q=mc△T=500×0.90×20=9000 J。"},
+          {"id":3,"text":"18000 J","explanation_zh":"陷阱：比例关系误认。误将温度差取为 T₁+T₂=60℃ 而非 △T=20℃，Q=500×0.90×40=18000J。","explanation_ja":"誤り。比例関係誤認の罠。温度差を △T=20 K でなく T₂=40 K として計算した誤り。"},
+          {"id":4,"text":"450 J","explanation_zh":"陷阱：单位换算错误。误将比热单位误解，以 c=0.90 J/(kg·K) 代入，Q=0.5×0.90×20=9J，或进行其他错误换算得到450J。","explanation_ja":"誤り。単位換算ミスの罠。比熱の単位を誤って適用した結果 450 J となった誤り。"},
+          {"id":5,"text":"4500 J","explanation_zh":"陷阱：比例关系误认。误将温度差取为 10℃，Q=500×0.90×10=4500J。","explanation_ja":"誤り。比例関係誤認の罠。温度差を 10 K と誤った結果。"},
+          {"id":6,"text":"90 J","explanation_zh":"陷阱：单位换算错误。将质量误作 0.5g×10=5g，或其他换算错误，得到较小的热量值。","explanation_ja":"誤り。単位換算ミスの罠。質量や比熱の換算を誤り著しく小さな値となった誤り。"}
+        ],
+        "answer":2,
+        "tag":{
+          "unit":"II 熱",
+          "sub_domain":"熱量・比熱",
+          "question_form":"計算選択",
+          "required_skill":"量的計算",
+          "requires_image":false,
+          "trap_patterns":["単位換算ミス","比例関係誤認"],
+          "keywords_to_avoid":["330 J","4.2 J"],
+          "syllabus_path":{"area":"II 熱","field":"物理","item":"1. 熱と温度"}
+        }
+      }
+    ],
+    "tag": {
+      "unit":"II 熱",
+      "sub_domain":"熱量・比熱",
+      "question_form":"計算選択",
+      "required_skill":"量的計算",
+      "requires_image":false,
+      "trap_patterns":["単位換算ミス","比例関係誤認"],
+      "keywords_to_avoid":["330 J","4.2 J"],
+      "syllabus_path":{"area":"II 熱","field":"物理","item":"1. 熱と温度"}
+    },
+    "prompt": "質量 m=500 g のアルミニウム塊（比熱 c=0.90 J/(g·K)）を温度 T₁=20℃ から T₂=40℃ まで加熱するために必要な熱量 Q を求めよ。"
+  },
+  {
+    "id": 8,
+    "title": "Ⅱ_B",
+    "sub_questions": [
+      {
+        "sub_id":2,
+        "global_id":8,
+        "prompt":"一定の加熱出力 P=100 W で質量 m=100 g の物質を加熱する実験を行った。固体状態で温度が直線的に上昇し、融点に達してから温度が一定のまま融解が進行する。融解中の継続時間が t=50 s であった。この物質の比融解熱（融解熱）L を求めよ。",
+        "choices":[
+          {"id":1,"text":"25 J/g","explanation_zh":"陷阱：比例关系误认。误将质量取为 200g，L=100×50/200=25J/g，质量用错了一倍。","explanation_ja":"誤り。比例関係誤認の罠。質量を 200 g とした誤り。"},
+          {"id":2,"text":"100 J/g","explanation_zh":"陷阱：单位换算错误。误将时间取为 t=100s（读图错误），L=100×100/100=100J/g。","explanation_ja":"誤り。単位換算ミスの罠。融解時間を 100 s と読み誤った結果。"},
+          {"id":3,"text":"200 J/g","explanation_zh":"陷阱：比例关系误认。误将质量取为 25g，L=100×50/25=200J/g，质量误判。","explanation_ja":"誤り。比例関係誤認の罠。質量を 25 g と誤った結果。"},
+          {"id":4,"text":"10 J/g","explanation_zh":"陷阱：单位换算错误。误将功率换算或时间换算出错，得出偏小的结果。","explanation_ja":"誤り。単位換算ミスの罠。加熱出力か時間の換算を誤った結果。"},
+          {"id":5,"text":"50 J/g","explanation_zh":"正确。融解中供給熱量 Q = P × t = 100 × 50 = 5000 J。比融解熱 L = Q/m = 5000/100 = 50 J/g。","explanation_ja":"正解。融解中に加えた熱量 Q=Pt=100×50=5000 J、比融解熱 L=Q/m=5000/100=50 J/g。"},
+          {"id":6,"text":"5 J/g","explanation_zh":"陷阱：单位换算错误。误将功率单位处理为 mW 或进行了额外的 1/10 换算，得 5J/g。","explanation_ja":"誤り。単位換算ミスの罠。出力の単位換算を誤り 5 J/g となった誤り。"}
+        ],
+        "answer":5,
+        "tag":{
+          "unit":"II 熱",
+          "sub_domain":"熱量・比熱",
+          "question_form":"計算選択",
+          "required_skill":"グラフ読取",
+          "requires_image":false,
+          "trap_patterns":["単位換算ミス","比例関係誤認"],
+          "keywords_to_avoid":["0.20 mol","0.60 mol"],
+          "syllabus_path":{"area":"II 熱","field":"物理","item":"1. 熱と温度"}
+        }
+      }
+    ],
+    "tag": {
+      "unit":"II 熱",
+      "sub_domain":"熱量・比熱",
+      "question_form":"計算選択",
+      "required_skill":"グラフ読取",
+      "requires_image":false,
+      "trap_patterns":["単位換算ミス","比例関係誤認"],
+      "keywords_to_avoid":["0.20 mol","0.60 mol"],
+      "syllabus_path":{"area":"II 熱","field":"物理","item":"1. 熱と温度"}
+    },
+    "prompt": "一定の加熱出力 P=100 W で質量 m=100 g の物質を加熱する実験を行った。固体状態で温度が直線的に上昇し、融点に達してから温度が一定のまま融解が進行する。融解中の継続時間が t=50 s であった。"
+  },
+  {
+    "id": 9,
+    "title": "Ⅱ_C",
+    "sub_questions": [
+      {
+        "sub_id":3,
+        "global_id":9,
+        "prompt":"密閉容器内の理想気体の状態が、圧力 p₁=1.0×10⁵ Pa、温度 T₁=300 K、体積 V₁=2.0 L である。この気体を等圧のまま温度 T₂=450 K まで加熱した。このとき気体の体積 V₂ を求めよ。",
+        "choices":[
+          {"id":1,"text":"1.0 L","explanation_zh":"陷阱：比例关系误认。误以为等压升温体积减小，取 V₂=V₁/1.5=1.33≈1.0L。","explanation_ja":"誤り。比例関係誤認の罠。等圧加熱で体積が減少すると誤解した結果。"},
+          {"id":2,"text":"1.5 L","explanation_zh":"陷阱：比例关系误认。误用温度之差而非温度之比：ΔT=150 K，将ΔT/T₁=0.5代入得V₂=2.0×0.5=1.0 L如誤，或将比值颠倒得V₂=V₁×T₁/T₂≈1.33 L。正确应为V₂=V₁×T₂/T₁=2.0×450/300=3.0 L。","explanation_ja":"誤り。比例関係誤認の罠。V₂=V₁×T₁/T₂ と温度比を逆にした誤り。"},
+          {"id":3,"text":"2.0 L","explanation_zh":"陷阱：遗漏条件。认为气体状态不变，忽视了温度升高导致体积增大。","explanation_ja":"誤り。条件見落としの罠。温度変化による体積変化を見落として V₂=V₁ とした誤り。"},
+          {"id":4,"text":"2.5 L","explanation_zh":"陷阱：比例关系误认。误用温度差代替温度比：ΔV=V₁×ΔT/T₁=2.0×150/300=1.0、V₂=V₁+ΔV=3.0 L成为，这場合正解同値变成。此外別错误的比異値導計算错误。","explanation_ja":"誤り。比例関係誤認の罠。温度差と温度比を混同するなどの誤りで生じる誤答。"},
+          {"id":5,"text":"4.0 L","explanation_zh":"陷阱：比例关系误认。误将温度之比取为 T₂/T₁ 的平方，V₂=2.0×(1.5)²=4.5≈4.0L，不符合等压过程的比例关系。","explanation_ja":"誤り。比例関係誤認の罠。温度比を二乗するなどの誤りで生じる誤答。"},
+          {"id":6,"text":"6.0 L","explanation_zh":"陷阱：遗漏条件。误将 T₂=450K 与 T₁=300K 的比认为是3:1（实为3:2），V₂=2.0×3=6.0L。","explanation_ja":"誤り。条件見落としの罠。T₂/T₁=450/300 を 3 と誤読した結果 V₂=6.0 L とした誤り。"},
+          {"id":7,"text":"2.25 L","explanation_zh":"陷阱：单位换算错误。进行了额外的错误换算，得到非整数结果。","explanation_ja":"誤り。単位換算ミスの罠。計算過程で余分な換算を行った結果。"},
+          {"id":8,"text":"3.0 L","explanation_zh":"正确。等压变化 V/T = const：V₂ = V₁ × T₂/T₁ = 2.0 × 450/300 = 2.0 × 1.5 = 3.0 L。","explanation_ja":"正解。等圧変化より V₂=V₁×T₂/T₁=2.0×450/300=3.0 L。"}
+        ],
+        "answer":8,
+        "tag":{
+          "unit":"II 熱",
+          "sub_domain":"気体分子運動論",
+          "question_form":"計算選択",
+          "required_skill":"概念理解",
+          "requires_image":false,
+          "trap_patterns":["比例関係誤認","単位換算ミス"],
+          "keywords_to_avoid":[],
+          "syllabus_path":{"area":"II 熱","field":"物理","item":"2. 気体の性質"}
+        }
+      }
+    ],
+    "tag": {
+      "unit":"II 熱",
+      "sub_domain":"気体分子運動論",
+      "question_form":"計算選択",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["比例関係誤認","単位換算ミス"],
+      "keywords_to_avoid":[],
+      "syllabus_path":{"area":"II 熱","field":"物理","item":"2. 気体の性質"}
+    },
+    "prompt": "密閉容器内の理想気体の状態が、圧力 p₁=1.0×10⁵ Pa、温度 T₁=300 K、体積 V₁=2.0 L である。この気体を等圧のまま温度 T₂=450 K まで加熱した。"
+  },
+  {
+    "id": 10,
+    "title": "Ⅲ_A",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":10,
+        "prompt":"高さ H の位置から静かに手を放した石が、鉛直下向きに自由落下する。重力加速度を g=10 m/s² とするとき、放してから t=3.0 s 後の石の速さ v を求めよ。",
+        "choices":[
+          {"id":1,"text":"15 m/s","explanation_zh":"陷阱：比例关系误认。误将时间取为 t=1.5s，或误认为自由落下速度与时间平方成正比，得 v=gt²/2=45m/s 再÷3≈15m/s。","explanation_ja":"誤り。比例関係誤認の罠。速さと時間の関係を誤り v=gt²/2 などとした誤り。"},
+          {"id":2,"text":"30 m/s","explanation_zh":"正确。自由落体初速度零、v = gt = 10 × 3.0 = 30 m/s。","explanation_ja":"正解。自由落下より v=gt=10×3.0=30 m/s。"},
+          {"id":3,"text":"45 m/s","explanation_zh":"陷阱：单位换算错误。误将落下距离 H = ½gt² = 45m 当成速度，混淆了位移与速度。","explanation_ja":"誤り。単位換算ミスの罠。落下距離 ½gt²=45 m を速さと混同した誤り。"},
+          {"id":4,"text":"90 m/s","explanation_zh":"陷阱：比例关系误认。误将 v=2g t =2×10×3=60，或其他多倍计算得到90m/s。","explanation_ja":"誤り。比例関係誤認の罠。係数を誤って 2 倍または 3 倍にした結果。"},
+          {"id":5,"text":"10 m/s","explanation_zh":"陷阱：遗漏条件。误以为速度等于重力加速度本身（g=10m/s），忽视了时间因素。","explanation_ja":"誤り。条件見落としの罠。時間 t を掛けずに v=g=10 m/s とした誤り。"}
+        ],
+        "answer":2,
+        "tag":{
+          "unit":"I 力学",
+          "sub_domain":"等加速度運動",
+          "question_form":"計算選択",
+          "required_skill":"概念理解",
+          "requires_image":false,
+          "trap_patterns":["符号・向き混同","単位換算ミス"],
+          "keywords_to_avoid":[],
+          "syllabus_path":{"area":"I 力学","field":"物理","item":"1. 運動と力"}
+        }
+      }
+    ],
+    "tag": {
+      "unit":"I 力学",
+      "sub_domain":"等加速度運動",
+      "question_form":"計算選択",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["符号・向き混同","単位換算ミス"],
+      "keywords_to_avoid":[],
+      "syllabus_path":{"area":"I 力学","field":"物理","item":"1. 運動と力"}
+    },
+    "prompt": "高さ H の位置から静かに手を放した石が、鉛直下向きに自由落下する。"
+  },
+  {
+    "id": 11,
+    "title": "Ⅲ_B",
+    "sub_questions": [
+      {
+        "sub_id":2,
+        "global_id":11,
+        "prompt":"静止している音源が振動数 f₀=680 Hz の音を出している。音速を V=340 m/s とする。観測者が音源に向かって速さ v₀=17 m/s で近づくとき、観測者が聞く音の振動数 f を求めよ。",
+        "choices":[
+          {"id":1,"text":"646 Hz","explanation_zh":"陷阱：符号·方向混同。误用远离公式 f = f₀(V−v₀)/V = 680×323/340 = 646Hz，应取 + 号而误取 − 号。","explanation_ja":"誤り。符号・向き混同の罠。近づく場合なのに遠ざかる式 f=f₀(V−v₀)/V を使った誤り。"},
+          {"id":2,"text":"680 Hz","explanation_zh":"陷阱：遗漏条件。误认为观测者运动不改变听到的频率，得 f=f₀=680Hz。","explanation_ja":"誤り。条件見落としの罠。観測者の運動が振動数に影響しないと誤解して f=f₀とした誤り。"},
+          {"id":3,"text":"700 Hz","explanation_zh":"陷阱：比例关系误认。误将多普勒公式用错系数，以 f=f₀×(1+v₀/V)≈680×1.05=714≈700Hz，取了近似整数，或其他错误得700Hz。","explanation_ja":"誤り。比例関係誤認の罠。式の適用を誤って近似計算した結果 700 Hz となった誤り。"},
+          {"id":4,"text":"720 Hz","explanation_zh":"陷阱：比例关系误认。误将分子的速度加了两次，f=680×(340+34)/340=720Hz，或其他误算。","explanation_ja":"誤り。比例関係誤認の罠。速度を誤って 2 倍にするなどして 720 Hz とした誤り。"},
+          {"id":5,"text":"714 Hz","explanation_zh":"正确。多普勒效应（観測者音源近）：f = f₀×(V+v₀)/V = 680×(340+17)/340 = 680×357/340 = 680×1.05 = 714 Hz。","explanation_ja":"正解。ドップラー効果より f=f₀(V+v₀)/V=680×357/340=714 Hz。"},
+          {"id":6,"text":"660 Hz","explanation_zh":"陷阱：符号·方向混同。误将观测者速度从音速中减去，f=680×(340−17)/340=680×0.95=646Hz，四舍五入或误取为660Hz。","explanation_ja":"誤り。符号・向き混同の罠。観測者が近づく場合に音速から v₀ を引いた誤り。"}
+        ],
+        "answer":5,
+        "tag":{
+          "unit":"III 波",
+          "sub_domain":"音波",
+          "question_form":"計算選択",
+          "required_skill":"概念理解",
+          "requires_image":false,
+          "trap_patterns":["符号・向き混同","条件見落とし"],
+          "keywords_to_avoid":[],
+          "syllabus_path":{"area":"III 波","field":"物理","item":"2. 音"}
+        }
+      }
+    ],
+    "tag": {
+      "unit":"III 波",
+      "sub_domain":"音波",
+      "question_form":"計算選択",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["符号・向き混同","条件見落とし"],
+      "keywords_to_avoid":[],
+      "syllabus_path":{"area":"III 波","field":"物理","item":"2. 音"}
+    },
+    "prompt": "静止している音源が振動数 f₀=680 Hz の音を出している。音速を V=340 m/s とする。"
+  },
+  {
+    "id": 12,
+    "title": "Ⅲ_C",
+    "sub_questions": [
+      {
+        "sub_id":3,
+        "global_id":12,
+        "prompt":"ヤングの二重スリット実験において、スリット間隔 d=0.50 mm、スリットからスクリーンまでの距離 L=2.0 m、光の波長 λ=500 nm である。スクリーン上に現れる隣り合う明線の間隔 Δy を求めよ。",
+        "choices":[
+          {"id":1,"text":"1.0 mm","explanation_zh":"陷阱：比例关系误认。误将间距 d 取为 1.0mm（两倍），Δy=λL/d=500×10⁻⁹×2.0/(1.0×10⁻³)=1.0mm。","explanation_ja":"誤り。比例関係誤認の罠。スリット間隔を 1.0 mm と誤った結果。"},
+          {"id":2,"text":"0.50 mm","explanation_zh":"陷阱：单位换算错误。误将 L=2.0m 当作 L=1.0m，Δy=500×10⁻⁹×1.0/(0.50×10⁻³)=1.0×10⁻³m=1.0mm→误算0.5mm，或其他换算失误。","explanation_ja":"誤り。単位換算ミスの罠。距離 L を誤って適用した結果。"},
+          {"id":3,"text":"2.0 mm","explanation_zh":"正确。隣合明線間隔 Δy = λL/d = (500×10⁻⁹ × 2.0) / (0.50×10⁻³) = 1.0×10⁻⁶/5.0×10⁻⁴ = 2.0×10⁻³ m = 2.0 mm。","explanation_ja":"正解。Δy=λL/d=(500×10⁻⁹×2.0)/(0.50×10⁻³)=2.0×10⁻³ m=2.0 mm。"},
+          {"id":4,"text":"4.0 mm","explanation_zh":"陷阱：比例关系误认。误将 L 或 λ 取了两倍，得到 Δy=4.0mm。","explanation_ja":"誤り。比例関係誤認の罠。L か λ を 2 倍にした結果。"},
+          {"id":5,"text":"0.25 mm","explanation_zh":"陷阱：遗漏条件。误将相邻明线间距公式多除一个因子2，得 Δy=λL/(2d)=1.0mm/2=0.5mm，再误除=0.25mm。","explanation_ja":"誤り。条件見落としの罠。間隔の式を誤って分母に 2 を加えるなどした結果。"},
+          {"id":6,"text":"5.0 mm","explanation_zh":"陷阱：单位换算错误。误将 λ=500nm 作为 λ=500μm，导致结果被放大1000倍再缩减，最终得错误值。","explanation_ja":"誤り。単位換算ミスの罠。波長の単位を nm と μm で混同した結果。"}
+        ],
+        "answer":3,
+        "tag":{
+          "unit":"III 波",
+          "sub_domain":"光波",
+          "question_form":"計算選択",
+          "required_skill":"グラフ読取",
+          "requires_image":false,
+          "trap_patterns":["条件見落とし","近似条件見落とし"],
+          "keywords_to_avoid":[],
+          "syllabus_path":{"area":"III 波","field":"物理","item":"3. 光"}
+        }
+      }
+    ],
+    "tag": {
+      "unit":"III 波",
+      "sub_domain":"光波",
+      "question_form":"計算選択",
+      "required_skill":"グラフ読取",
+      "requires_image":false,
+      "trap_patterns":["条件見落とし","近似条件見落とし"],
+      "keywords_to_avoid":[],
+      "syllabus_path":{"area":"III 波","field":"物理","item":"3. 光"}
+    },
+    "prompt": "ヤングの二重スリット実験において、スリット間隔 d=0.50 mm、スリットからスクリーンまでの距離 L=2.0 m、光の波長 λ=500 nm である。"
+  },
+  {
+    "id": 13,
+    "title": "Ⅳ_A",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":13,
+        "prompt":"初速度 v₀=2.0 m/s で出発し、一定の加速度 a=3.0 m/s² で直線上を運動する質点がある。出発から t=4.0 s 後の変位 x を求めよ。",
+        "choices":[
+          {"id":1,"text":"8.0 m","explanation_zh":"陷阱：遗漏条件。误忽略加速度项，仅计算匀速部分 x=v₀t=2.0×4.0=8.0m。","explanation_ja":"誤り。条件見落としの罠。加速度項を無視して x=v₀t=8.0 m のみとした誤り。"},
+          {"id":2,"text":"16 m","explanation_zh":"陷阱：比例关系误认。误将加速度项取为 at²/2=3.0×16/2=24m，再与 v₀t=8m 混算得16m，或误用 x=½at²=24m 后误取16m。","explanation_ja":"誤り。比例関係誤認の罠。計算過程で項を誤って組み合わせた結果。"},
+          {"id":3,"text":"24 m","explanation_zh":"陷阱：遗漏条件。仅用 x=½at²=½×3.0×16=24m，忽略了初速度 v₀ 的贡献。","explanation_ja":"誤り。条件見落としの罠。初速度項を無視して x=½at²=24 m のみとした誤り。"},
+          {"id":4,"text":"32 m","explanation_zh":"正确。等加速度直线运动変位：x = v₀t + ½at² = 2.0×4.0 + ½×3.0×(4.0)² = 8.0 + 24 = 32 m。","explanation_ja":"正解。x=v₀t+½at²=2.0×4.0+½×3.0×16=8.0+24=32 m。"},
+          {"id":5,"text":"40 m","explanation_zh":"陷阱：符号方向混同。误将系数计算为x=(v₀+at)t=(2+12)×4=56 m如、速度変位公式混同这値導。正确的公式x=v₀t+(1/2)at²使。","explanation_ja":"誤り。符号・向き混同の罠。式を誤って適用した結果 40 m となった誤り。"},
+          {"id":6,"text":"48 m","explanation_zh":"陷阱：比例关系误认。误将加速度乘以t²（未除以2），x=v₀t+at²=8+48=56 m如、匀加速运动公式系数1/2忘这値導。","explanation_ja":"誤り。比例関係誤認の罠。½ を省略して x=v₀t+at²=8+48 などとした誤り。"}
+        ],
+        "answer":4,
+        "tag":{
+          "unit":"I 力学",
+          "sub_domain":"等加速度運動",
+          "question_form":"式変形",
+          "required_skill":"法則・公式適用",
+          "requires_image":false,
+          "trap_patterns":["符号・向き混同","単位換算ミス"],
+          "keywords_to_avoid":[],
+          "syllabus_path":{"area":"I 力学","field":"物理","item":"1. 運動と力"}
+        }
+      }
+    ],
+    "tag": {
+      "unit":"I 力学",
+      "sub_domain":"等加速度運動",
+      "question_form":"式変形",
+      "required_skill":"法則・公式適用",
+      "requires_image":false,
+      "trap_patterns":["符号・向き混同","単位換算ミス"],
+      "keywords_to_avoid":[],
+      "syllabus_path":{"area":"I 力学","field":"物理","item":"1. 運動と力"}
+    },
+    "prompt": "初速度 v₀=2.0 m/s で出発し、一定の加速度 a=3.0 m/s² で直線上を運動する質点がある。"
+  },
+  {
+    "id": 14,
+    "title": "Ⅳ_B",
+    "sub_questions": [
+      {
+        "sub_id":2,
+        "global_id":14,
+        "prompt":"真空中に点電荷 Q=+2.0×10⁻⁸ C が置かれている。クーロンの法則の比例定数を k=9.0×10⁹ N·m²/C² として、この点電荷から距離 r=0.30 m の点における電場の強さ E を求めよ。",
+        "choices":[
+          {"id":1,"text":"1.0×10² N/C","explanation_zh":"陷阱：比例关系误认。误将 r 取为 0.30m 但不进行平方，E=kQ/r=9.0×10⁹×2.0×10⁻⁸/0.30=600N/C≈1.0×10²量级处理错误。","explanation_ja":"誤り。比例関係誤認の罠。距離を二乗しない誤りで異なる値となった場合。"},
+          {"id":2,"text":"1.0×10³ N/C","explanation_zh":"陷阱：单位换算错误。在计算中误将 r=0.30m 作为 r=0.90m，E=kQ/r²=9×10⁹×2×10⁻⁸/0.81≈220≠1000，或其他换算错误。","explanation_ja":"誤り。単位換算ミスの罠。距離や電荷の換算を誤った結果。"},
+          {"id":3,"text":"4.0×10³ N/C","explanation_zh":"陷阱：比例关系误认。误将 Q 放大一倍，E=kQ'/r²=9×10⁹×4×10⁻⁸/0.09=4000N/C，Q 取值错误。","explanation_ja":"誤り。比例関係誤認の罠。電荷量を誤って 2 倍にした結果。"},
+          {"id":4,"text":"6.0×10² N/C","explanation_zh":"陷阱：比例关系误认。误用 E=kQ/r（不平方）：E=9×10⁹×2×10⁻⁸/0.30=600N/C=6.0×10²N/C。","explanation_ja":"誤り。比例関係誤認の罠。電場の式の距離を二乗しないで E=kQ/r=600 N/C とした誤り。"},
+          {"id":5,"text":"1.8×10³ N/C","explanation_zh":"陷阱：比例关系误认。误将 r=0.30m 用作 r=√2 × 0.3 等，或者进行了额外系数换算，得1800N/C。","explanation_ja":"誤り。比例関係誤認の罠。距離を誤って計算した結果 1800 N/C となった誤り。"},
+          {"id":6,"text":"2.0×10³ N/C","explanation_zh":"正确。电场强度 E = kQ/r² = (9.0×10⁹ × 2.0×10⁻⁸) / (0.30)² = 180 / 0.09 = 2.0×10³ N/C。","explanation_ja":"正解。E=kQ/r²=(9.0×10⁹×2.0×10⁻⁸)/(0.30)²=180/0.09=2.0×10³ N/C。"},
+          {"id":7,"text":"3.0×10³ N/C","explanation_zh":"陷阱：比例关系误认。误将 k 取为 9.0×10⁹ 后计算时出现额外系数，或混淆 r 与 r² 得到偏大值3000N/C。","explanation_ja":"誤り。比例関係誤認の罠。係数を誤って計算した結果 3.0×10³ N/C となった誤り。"}
+        ],
+        "answer":6,
+        "tag":{
+          "unit":"IV 電気と磁気",
+          "sub_domain":"電場・電位",
+          "question_form":"計算選択",
+          "required_skill":"概念理解",
+          "requires_image":false,
+          "trap_patterns":["比例関係誤認","符号・向き混同"],
+          "keywords_to_avoid":[],
+          "syllabus_path":{"area":"IV 電気と磁気","field":"物理","item":"1. 電場"}
+        }
+      }
+    ],
+    "tag": {
+      "unit":"IV 電気と磁気",
+      "sub_domain":"電場・電位",
+      "question_form":"計算選択",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["比例関係誤認","符号・向き混同"],
+      "keywords_to_avoid":[],
+      "syllabus_path":{"area":"IV 電気と磁気","field":"物理","item":"1. 電場"}
+    },
+    "prompt": "真空中に点電荷 Q=+2.0×10⁻⁸ C が置かれている。"
+  },
+  {
+    "id": 15,
+    "title": "Ⅳ_C",
+    "sub_questions": [
+      {
+        "sub_id":3,
+        "global_id":15,
+        "prompt":"極板面積 S=0.010 m²、極板間距離 d=1.0×10⁻³ m の平行板コンデンサーに電圧 V=100 V を加えた。極板間の電場の強さ E を求めよ。",
+        "choices":[
+          {"id":1,"text":"1.0×10⁵ V/m","explanation_zh":"正确。平行板间的电场强度 E = V/d = 100 / (1.0×10⁻³) = 1.0×10⁵ V/m。","explanation_ja":"正解。平行板間の電場の強さ E=V/d=100/(1.0×10⁻³)=1.0×10⁵ V/m。"},
+          {"id":2,"text":"1.0×10³ V/m","explanation_zh":"陷阱：单位换算错误。误将 d=1.0×10⁻³m 当作 d=0.1m（换算时误多移动了一位），E=100/0.1=1000=1.0×10³V/m。","explanation_ja":"誤り。単位換算ミスの罠。極板間距離を 0.1 m と誤った結果。"},
+          {"id":3,"text":"1.0×10² V/m","explanation_zh":"陷阱：比例关系误认。误将极板面积 S 代入计算，混淆面积与距离，得到与面积相关的错误值。","explanation_ja":"誤り。比例関係誤認の罠。極板面積 S と距離 d を混同して計算した誤り。"},
+          {"id":4,"text":"1.0×10⁶ V/m","explanation_zh":"陷阱：比例关系误认。误将电压单位换算，或将 d 多缩小一个量级，E=100/(10⁻⁴)=10⁶V/m。","explanation_ja":"誤り。比例関係誤認の罠。距離を 10⁻⁴ m と誤るなどした結果。"},
+          {"id":5,"text":"1.0×10⁴ V/m","explanation_zh":"陷阱：遗漏条件。误将面积 S=0.010m² 与电压相除，E=V/S=100/0.01=10⁴V/m，混淆了公式中的物理量。","explanation_ja":"誤り。条件見落としの罠。面積 S を距離 d の代わりに使って E=V/S=10⁴ V/m とした誤り。"}
+        ],
+        "answer":1,
+        "tag":{
+          "unit":"IV 電気と磁気",
+          "sub_domain":"コンデンサー",
+          "question_form":"計算選択",
+          "required_skill":"概念理解",
+          "requires_image":false,
+          "trap_patterns":["比例関係誤認","条件見落とし"],
+          "keywords_to_avoid":[],
+          "syllabus_path":{"area":"IV 電気と磁気","field":"物理","item":"2. 電流"}
+        }
+      }
+    ],
+    "tag": {
+      "unit":"IV 電気と磁気",
+      "sub_domain":"コンデンサー",
+      "question_form":"計算選択",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["比例関係誤認","条件見落とし"],
+      "keywords_to_avoid":[],
+      "syllabus_path":{"area":"IV 電気と磁気","field":"物理","item":"2. 電流"}
+    },
+    "prompt": "極板面積 S=0.010 m²、極板間距離 d=1.0×10⁻³ m の平行板コンデンサーに電圧 V=100 V を加えた。"
+  },
+  {
+    "id": 16,
+    "title": "Ⅳ_D",
+    "sub_questions": [
+      {
+        "sub_id":4,
+        "global_id":16,
+        "prompt":"電荷 q=+1.0×10⁻⁶ C の点電荷が、電位 φ₁=300 V の点から電位 φ₂=100 V の点まで移動した。このとき電場がこの電荷にする仕事 W を求めよ。",
+        "choices":[
+          {"id":1,"text":"−2.0×10⁻⁴ J","explanation_zh":"陷阱：符号·方向混同。误取 W=q(φ₂−φ₁)=1.0×10⁻⁶×(100−300)=−2.0×10⁻⁴J，方向符号反了。","explanation_ja":"誤り。符号・向き混同の罠。W=q(φ₂−φ₁) と電位差の符号を逆にした誤り。"},
+          {"id":2,"text":"4.0×10⁻⁴ J","explanation_zh":"陷阱：比例关系误认。误将电位差取为 φ₁+φ₂=400V，W=q×400=4.0×10⁻⁴J。","explanation_ja":"誤り。比例関係誤認の罠。電位差を φ₁+φ₂=400 V と誤った結果。"},
+          {"id":3,"text":"3.0×10⁻⁴ J","explanation_zh":"陷阱：遗漏条件。误将 W=q×φ₁=1.0×10⁻⁶×300=3.0×10⁻⁴J，只用了出发点电位。","explanation_ja":"誤り。条件見落としの罠。到達点の電位を無視して W=qφ₁ とした誤り。"},
+          {"id":4,"text":"2.0×10⁻⁴ J","explanation_zh":"正确。電場電荷仕事 W = q(φ₁ − φ₂) = 1.0×10⁻⁶ × (300 − 100) = 1.0×10⁻⁶ × 200 = 2.0×10⁻⁴ J。正電荷高電位低電位移动因此電場正仕事。","explanation_ja":"正解。W=q(φ₁−φ₂)=1.0×10⁻⁶×200=2.0×10⁻⁴ J。正電荷が高電位から低電位へ移動するため電場は正の仕事をする。"}
+        ],
+        "answer":4,
+        "tag":{
+          "unit":"IV 電気と磁気",
+          "sub_domain":"電場・電位",
+          "question_form":"計算選択",
+          "required_skill":"概念理解",
+          "requires_image":false,
+          "trap_patterns":["比例関係誤認","符号・向き混同"],
+          "keywords_to_avoid":[],
+          "syllabus_path":{"area":"IV 電気と磁気","field":"物理","item":"1. 電場"}
+        }
+      }
+    ],
+    "tag": {
+      "unit":"IV 電気と磁気",
+      "sub_domain":"電場・電位",
+      "question_form":"計算選択",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["比例関係誤認","符号・向き混同"],
+      "keywords_to_avoid":[],
+      "syllabus_path":{"area":"IV 電気と磁気","field":"物理","item":"1. 電場"}
+    },
+    "prompt": "電荷 q=+1.0×10⁻⁶ C の点電荷が、電位 φ₁=300 V の点から電位 φ₂=100 V の点まで移動した。"
+  },
+  {
+    "id": 17,
+    "title": "Ⅳ_E",
+    "sub_questions": [
+      {
+        "sub_id":5,
+        "global_id":17,
+        "prompt":"起電力 E=24 V、内部抵抗 r=2 Ω の電池に外部抵抗 R=4 Ω を接続した直流回路について、次のア～ウの記述の正誤を判断せよ。\nア：回路を流れる電流 I は 4 A である。\nイ：端子電圧（路端電圧）V_T は 16 V である。\nウ：内部抵抗で消費される電力 P_r は 32 W である。",
+        "choices":[
+          {"id":1,"text":"アのみ正しい","explanation_zh":"陷阱：遗漏条件。仅判断正确，漏掉了的验证。实际、、均正确。","explanation_ja":"誤り。条件見落としの罠。アのみが正しいとしてイとウの検討を怠った誤り。"},
+          {"id":2,"text":"イのみ正しい","explanation_zh":"陷阱：遗漏条件。仅判断正确，和也是正确的。","explanation_ja":"誤り。条件見落としの罠。イのみが正しいとした誤り。"},
+          {"id":3,"text":"ウのみ正しい","explanation_zh":"陷阱：遗漏条件。仅判断正确，和正确的。","explanation_ja":"誤り。条件見落としの罠。ウのみが正しいとした誤り。"},
+          {"id":4,"text":"ア・イ・ウすべて正しい","explanation_zh":"正确。I=E/(R+r)=24/6=4A（正确）。V_T=IR=4×4=16V（正确）。P_r=I²r=16×2=32W（正确）。三个都全部正确。","explanation_ja":"正解。I=24/6=4 A（ア正）、V_T=4×4=16 V（イ正）、P_r=4²×2=32 W（ウ正）。すべて正しい。"},
+          {"id":5,"text":"アとイのみ正しい","explanation_zh":"陷阱：比例关系误认。误判断（P_r=32W）为错，以为内阻功率=EI−I²R=96−64=32W，此即正确值；应重新核查后认为错，误判。","explanation_ja":"誤り。比例関係誤認の罠。P_r=I²r=32 W であるのにウを誤りと判断した誤り。"},
+          {"id":6,"text":"アとウのみ正しい","explanation_zh":"陷阱：符号·方向混同。误判端子电压 V_T，误取 V_T=E−Ir=24−8=16V 为错（实际16V是正确答案），造成混乱。","explanation_ja":"誤り。符号・向き混同の罠。端子電圧の計算を誤ってイを誤りとした誤り。"},
+          {"id":7,"text":"イとウのみ正しい","explanation_zh":"陷阱：比例关系误认。误判电流 I，以为 I=E/R=24/4=6A（忽略内阻），将判为错。","explanation_ja":"誤り。比例関係誤認の罠。内部抵抗を無視して I=E/R=6 A とし、アを誤りとした誤り。"},
+          {"id":8,"text":"すべて誤り","explanation_zh":"陷阱：遗漏条件。完全混淆了公式，将全部判断为错误。","explanation_ja":"誤り。条件見落としの罠。すべての式を誤って適用した結果。"}
+        ],
+        "answer":4,
+        "tag":{
+          "unit":"IV 電気と磁気",
+          "sub_domain":"直流回路",
+          "question_form":"組合せ",
+          "required_skill":"条件整理",
+          "requires_image":false,
+          "trap_patterns":["条件見落とし","比例関係誤認"],
+          "keywords_to_avoid":[],
+          "syllabus_path":{"area":"IV 電気と磁気","field":"物理","item":"2. 電流"}
+        }
+      }
+    ],
+    "tag": {
+      "unit":"IV 電気と磁気",
+      "sub_domain":"直流回路",
+      "question_form":"組合せ",
+      "required_skill":"条件整理",
+      "requires_image":false,
+      "trap_patterns":["条件見落とし","比例関係誤認"],
+      "keywords_to_avoid":[],
+      "syllabus_path":{"area":"IV 電気と磁気","field":"物理","item":"2. 電流"}
+    },
+    "prompt": "起電力 E=24 V、内部抵抗 r=2 Ω の電池に外部抵抗 R=4 Ω を接続した直流回路について、次のア～ウの記述の正誤を判断せよ。\nア：回路を流れる電流 I は 4 A である。\nイ：端子電圧（路端電圧）V_T は 16 V である。\nウ：内部抵抗で消費される電力 P_r は 32 W である。"
+  },
+  {
+    "id": 18,
+    "title": "Ⅳ_F",
+    "sub_questions": [
+      {
+        "sub_id":6,
+        "global_id":18,
+        "prompt":"抵抗 R₁=6 Ω と R₂=3 Ω が並列に接続され、その両端に電圧 V=12 V が加わっている回路について、次のア～ウの記述の正誤を判断せよ。\nア：R₁ を流れる電流 I₁ は 2 A である。\nイ：R₂ を流れる電流 I₂ は 4 A である。\nウ：回路全体の消費電力 P は 60 W である。",
+        "choices":[
+          {"id":1,"text":"アのみ正しい","explanation_zh":"陷阱：遗漏条件。仅判断正确（I₁=12/6=2A正确），但忽视了也是正确的。","explanation_ja":"誤り。条件見落としの罠。アのみを正しいとしてイとウを検討しなかった誤り。"},
+          {"id":2,"text":"イのみ正しい","explanation_zh":"陷阱：遗漏条件。仅判断正确（I₂=12/3=4A正确），漏掉了和准确性検討。","explanation_ja":"誤り。条件見落としの罠。イのみを正しいとした誤り。"},
+          {"id":3,"text":"ウのみ正しい","explanation_zh":"陷阱：遗漏条件。仅判断正确，漏掉了和的验证。","explanation_ja":"誤り。条件見落としの罠。ウのみを正しいとした誤り。"},
+          {"id":4,"text":"すべて誤り","explanation_zh":"陷阱：比例关系误认。完全混淆并联电路的计算规则，将全部判为错。","explanation_ja":"誤り。比例関係誤認の罠。並列回路の計算を根本から誤ってすべて誤りとした誤り。"},
+          {"id":5,"text":"ア・イのみ正しい","explanation_zh":"正确。：I₁=V/R₁=12/6=2A（正确）。：I₂=V/R₂=12/3=4A（正确）。：并联合成电阻 R=R₁R₂/(R₁+R₂)=6×3/9=2Ω、全体消費电功率 P=V²/R=144/2=72W 、記述「60W」错误。只正确的。","explanation_ja":"正解。ア：I₁=V/R₁=12/6=2 A（正）。イ：I₂=V/R₂=12/3=4 A（正）。ウ：合成抵抗 R=2Ω から P=V²/R=144/2=72 W であり 60 W ではないため誤り。アとイのみ正しい。"},
+          {"id":6,"text":"ア・ウのみ正しい","explanation_zh":"陷阱：比例关系误认。误判 I₂=4A 为错（以为 I₂=V/（R₁+R₂）=12/9≈1.3A），忽视并联电路的特性。","explanation_ja":"誤り。比例関係誤認の罠。並列接続では各抵抗に同じ電圧がかかることを忘れ I₂ を誤計算した誤り。"},
+          {"id":7,"text":"イ・ウのみ正しい","explanation_zh":"陷阱：符号·方向混同。误判 I₁，以为 I₁ 是总电流而非分支电流。","explanation_ja":"誤り。符号・向き混同の罠。I₁ を支流でなく総電流と混同した誤り。"},
+          {"id":8,"text":"ア・イ・ウすべて正しい","explanation_zh":"陷阱：遗漏条件。未注意到記述「60W」错误的数値示、全部正确誤判。","explanation_ja":"誤り。条件見落としの罠。ウの消費電力が 60 W と誤った記述であることを見落としてすべて正しいとした誤り。"}
+        ],
+        "answer":5,
+        "tag":{
+          "unit":"IV 電気と磁気",
+          "sub_domain":"直流回路",
+          "question_form":"組合せ",
+          "required_skill":"条件整理",
+          "requires_image":false,
+          "trap_patterns":["条件見落とし","比例関係誤認"],
+          "keywords_to_avoid":[],
+          "syllabus_path":{"area":"IV 電気と磁気","field":"物理","item":"2. 電流"}
+        }
+      }
+    ],
+    "tag": {
+      "unit":"IV 電気と磁気",
+      "sub_domain":"直流回路",
+      "question_form":"組合せ",
+      "required_skill":"条件整理",
+      "requires_image":false,
+      "trap_patterns":["条件見落とし","比例関係誤認"],
+      "keywords_to_avoid":[],
+      "syllabus_path":{"area":"IV 電気と磁気","field":"物理","item":"2. 電流"}
+    },
+    "prompt": "抵抗 R₁=6 Ω と R₂=3 Ω が並列に接続され、その両端に電圧 V=12 V が加わっている回路について、次のア～ウの記述の正誤を判断せよ。\nア：R₁ を流れる電流 I₁ は 2 A である。\nイ：R₂ を流れる電流 I₂ は 4 A である。\nウ：回路全体の消費電力 P は 60 W である。"
+  },
+  {
+    "id": 19,
+    "title": "Ⅴ_A",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":19,
+        "prompt":"放射性同位体 ²³²Th（トリウム、原子番号 90）が α 崩壊を起こすと、別の元素に変わる。α 崩壊後に生成される娘核の質量数と原子番号の組み合わせとして正しいものを選べ。",
+        "choices":[
+          {"id":1,"text":"質量数 232、原子番号 88","explanation_zh":"陷阱：遗漏条件。α粒子质量数为4，漏掉了质量数变化，仅将原子序数减2，质量数不变。","explanation_ja":"誤り。条件見落としの罠。α粒子の質量数 4 を引くのを忘れて質量数を 232 のままとした誤り。"},
+          {"id":2,"text":"質量数 230、原子番号 90","explanation_zh":"陷阱：比例关系误认。质量数减了4（228→误为230），原子序数却不变，忽略了原子序数应减2。","explanation_ja":"誤り。比例関係誤認の罠。質量数を 232−2=230 と誤り、かつ原子番号を変えなかった誤り。"},
+          {"id":3,"text":"質量数 228、原子番号 90","explanation_zh":"陷阱：遗漏条件。质量数正确减4得228，但原子序数未变（90），忽略了α崩壊中原子序数减2。","explanation_ja":"誤り。条件見落としの罠。質量数は正しく 228 だが原子番号を変えなかった誤り。"},
+          {"id":4,"text":"質量数 232、原子番号 92","explanation_zh":"陷阱：符号·方向混同。误将α崩壊理解为原子序数增加2（如β崩壊的某种混淆），得92；质量数未变。","explanation_ja":"誤り。符号・向き混同の罠。α崩壊で原子番号が増えると誤解（β崩壊の混同）した誤り。"},
+          {"id":5,"text":"質量数 228、原子番号 88","explanation_zh":"正确。α崩壊 α 粒子（⁴He、質量数4、原子番号2）放出。²³²Th → ²²⁸Ra + ⁴He。娘核：質量数 = 232−4 = 228、原子番号 = 90−2 = 88（Ra，镭）。","explanation_ja":"正解。α崩壊では α 粒子（⁴He）が放出される。²³²Th→²²⁸Ra+⁴He。質量数 232−4=228、原子番号 90−2=88。"},
+          {"id":6,"text":"質量数 231、原子番号 91","explanation_zh":"陷阱：比例关系误认。误将 α 粒子的质量数取为1（误作质子），质量数232−1=231，原子序数90−（−1）=91，混淆了 α 与 β 崩壊。","explanation_ja":"誤り。比例関係誤認の罠。α粒子の質量数を 1 と誤ってβ崩壊と混同した結果。"}
+        ],
+        "answer":5,
+        "tag":{
+          "unit":"V 原子",
+          "sub_domain":"原子核",
+          "question_form":"計算選択",
+          "required_skill":"概念理解",
+          "requires_image":false,
+          "trap_patterns":["比例関係誤認","条件見落とし"],
+          "keywords_to_avoid":[],
+          "syllabus_path":{"area":"V 原子","field":"物理","item":"2. 原子と原子核"}
+        }
+      }
+    ],
+    "tag": {
+      "unit":"V 原子",
+      "sub_domain":"原子核",
+      "question_form":"計算選択",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["比例関係誤認","条件見落とし"],
+      "keywords_to_avoid":[],
+      "syllabus_path":{"area":"V 原子","field":"物理","item":"2. 原子と原子核"}
+    },
+    "prompt": "放射性同位体 ²³²Th（トリウム、原子番号 90）が α 崩壊を起こすと、別の元素に変わる。"
+  }
+]
+}

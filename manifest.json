@@ -1,0 +1,1124 @@
+{
+  "version": "20260909031809",
+  "generatedAt": "2026-09-09T03:18:09.293Z",
+  "schemaVersion": 1,
+  "books": {
+    "mocks_basic": {
+      "version": 1,
+      "titleKey": "bookshelf.mocksBasic",
+      "descKey": "bookshelf.mockSeriesDesc",
+      "subjects": [
+        "japanese",
+        "physics",
+        "chemistry",
+        "biology",
+        "comprehensive"
+      ],
+      "subjectsForUI": [
+        "japanese_reading",
+        "japanese_listening",
+        "physics",
+        "chemistry",
+        "biology",
+        "comprehensive"
+      ],
+      "publisher": "EJU One",
+      "tier": "free",
+      "publicDownload": true,
+      "kind": "series",
+      "coverUrl": "https://raw.githubusercontent.com/dddogwang/ejuone-public-books/main/mocks_basic/cover.png?v=881e9b6d",
+      "spineColor": "#3f5f7a",
+      "bandColor": "#5b8db8",
+      "icon": "reader",
+      "questionCount": 1190,
+      "setsCount": 10,
+      "releasedAt": "2026-09-09T03:18:09.186Z",
+      "files": {
+        "comprehensive/2013-1.json": {
+          "sha256": "a020d2e21e863a0dfb3af88ad878e95ceede8bdcdc950e07c2b56c1734db0415",
+          "bytes": 103890
+        },
+        "comprehensive/2013-2.json": {
+          "sha256": "16813f8bbe617755de7de1570a472b9ea2cccea196b28aaa26926886db76a213",
+          "bytes": 93851
+        },
+        "comprehensive/2014-1.json": {
+          "sha256": "8c9c0a6dde4e0d9129a3efdeb7711276fe166059fcea9cc99adcb200c6860bde",
+          "bytes": 94967
+        },
+        "comprehensive/2014-2.json": {
+          "sha256": "1dcc045c9382dc66f17310250cbe209f20f23aa8f88604afc2c7f4a4c0a3a9fc",
+          "bytes": 99056
+        },
+        "comprehensive/2015-1.json": {
+          "sha256": "c8a40625066e0e679844e2677548d90af962d4777eac76199b569b629f31785a",
+          "bytes": 98304
+        },
+        "comprehensive/2015-2.json": {
+          "sha256": "28954b2aaf07ba24ed19e26e1858de57d96eea4840ae406ade1831ec579cbd9a",
+          "bytes": 98196
+        },
+        "comprehensive/2016-1.json": {
+          "sha256": "2fd0ba9724155d8545b88c6f4af03f4f6439cfe94be1be586d79fe7aac806ac2",
+          "bytes": 98268
+        },
+        "comprehensive/2016-2.json": {
+          "sha256": "b2ca4c06058cf1c858af7f7890fa361927249e75b50466b5f16dcc717ed38f77",
+          "bytes": 90259
+        },
+        "comprehensive/2017-1.json": {
+          "sha256": "3e65991bbdc58a500be690fc244083b157ad226f287bf16065285a4119ed73cf",
+          "bytes": 89802
+        },
+        "comprehensive/2017-2.json": {
+          "sha256": "14ccbea5d43a0108e67a3586fcc38457987bc3e28fa29303109717a6154d74d4",
+          "bytes": 98805
+        },
+        "japanese/listening/2013-1.json": {
+          "sha256": "717ce983692b4c942a6708264e02a4df2fb7cc738bd031d8a22a6a51ca83640f",
+          "bytes": 30505
+        },
+        "japanese/listening/2013-2.json": {
+          "sha256": "c8f485814f34bb484b2a08871951192354c9bfc4160f04aa072e38732cdb8c85",
+          "bytes": 30674
+        },
+        "japanese/listening/2014-1.json": {
+          "sha256": "0fbf23dc682e74fac7ed55f68bb55b8b500b510cda2e0b318e35d0542b5d5210",
+          "bytes": 31353
+        },
+        "japanese/listening/2014-2.json": {
+          "sha256": "2c137b92e65c7db2ea538b8249d36928d96c0c85d9e038690d007793c8b5bb96",
+          "bytes": 31712
+        },
+        "japanese/listening/2015-1.json": {
+          "sha256": "db014d3946775261d0bb282521b3df91e803eb23eead6055a4a1e5585afe90fb",
+          "bytes": 30354
+        },
+        "japanese/listening/2015-2.json": {
+          "sha256": "74759bf4bce413afd58bd3ea49c210a96a4e5cc7de58a558c8bb79b75ac7485a",
+          "bytes": 30651
+        },
+        "japanese/listening/2016-1.json": {
+          "sha256": "123ebf0488bd509bacd4e7febf6260ef01d65b32a0e4c9eb46ddcb0fcdbb4aff",
+          "bytes": 31074
+        },
+        "japanese/listening/2016-2.json": {
+          "sha256": "34a524095685e47aacf138964113eb7540c87935254a6dbbce429da156f03c71",
+          "bytes": 31442
+        },
+        "japanese/listening/2017-1.json": {
+          "sha256": "caf45248b1c640d515ca3f8ab6791d6378d06c388696b9eb23fa720575b92d95",
+          "bytes": 31017
+        },
+        "japanese/listening/2017-2.json": {
+          "sha256": "4b40b305eff36bdcb207376ec50c3b3a90a8c75ffb5ee4261371cfa412457f12",
+          "bytes": 31980
+        },
+        "japanese/listening/scripts/2013-1.json": {
+          "sha256": "1a378fa440418af2b83433c5c2cbd87bc96671e1dbad7805a39d078e66568c83",
+          "bytes": 30813
+        },
+        "japanese/listening/scripts/2013-2.json": {
+          "sha256": "11c25efa241d4d1ab0ed81445d4cf651e69998e22bb5503dc0f1ac70f3542967",
+          "bytes": 34498
+        },
+        "japanese/listening/scripts/2014-1.json": {
+          "sha256": "c558999b3967d9500c2b15b340c692cec7076d5af418723923c63929c56b7003",
+          "bytes": 34654
+        },
+        "japanese/listening/scripts/2014-2.json": {
+          "sha256": "b6ada99adf434b5edcdeccdaf77fa4f78aa5255fffb1ab54ac53a70d17c248ad",
+          "bytes": 34939
+        },
+        "japanese/listening/scripts/2015-1.json": {
+          "sha256": "a8c31479b76590234a1220bcb28fd2de2a1f50e105fefc09810ff91ad1dd6b3b",
+          "bytes": 33730
+        },
+        "japanese/listening/scripts/2015-2.json": {
+          "sha256": "8ea4c102423142517fd75c3ef5224e19dca6eb950052a88895cd2e928a55cc3e",
+          "bytes": 34309
+        },
+        "japanese/listening/scripts/2016-1.json": {
+          "sha256": "aa71162acd86dd48f4bafaeba169491f60a1cca95afb10f48050e850c6d3f3ad",
+          "bytes": 34876
+        },
+        "japanese/listening/scripts/2016-2.json": {
+          "sha256": "b61ab37ddf97f1ebe82ad77b1dc9248aa079a9696f6766de134ecfcca1d30142",
+          "bytes": 34843
+        },
+        "japanese/listening/scripts/2017-1.json": {
+          "sha256": "0e64fea4e7b0a710ed91ef1c126eeb9588af52f23448aac7bfb7a643aa142e96",
+          "bytes": 34585
+        },
+        "japanese/listening/scripts/2017-2.json": {
+          "sha256": "5b1195b8c138cc93a5b9b6a0cd2030bf2f8f117ace5605b9b5aa521efaa44509",
+          "bytes": 35300
+        },
+        "japanese/reading/2013-1.json": {
+          "sha256": "40048fe3f5d21e663ac8fa62e65cc198d2c9157a2f14928c47cd338610474c92",
+          "bytes": 64896
+        },
+        "japanese/reading/2013-2.json": {
+          "sha256": "ed71d82f6620c7a6d1fca1a1dbdacbaa79e447d46377d20c9f277ef763628b42",
+          "bytes": 84054
+        },
+        "japanese/reading/2014-1.json": {
+          "sha256": "3c7aba82cd0b5e82a856a014a28cf1abf298825511ad12dbc3f8314dfcf5d476",
+          "bytes": 74297
+        },
+        "japanese/reading/2014-2.json": {
+          "sha256": "f70f00db1c915fd279dcc1224b6f30f4e48f29e6af734c7fc507be2d730a65b2",
+          "bytes": 88973
+        },
+        "japanese/reading/2015-1.json": {
+          "sha256": "01552e3ffab19f1a42deff29fc47e044ce9ee41d60eda6c05eae574cf54606ec",
+          "bytes": 70781
+        },
+        "japanese/reading/2015-2.json": {
+          "sha256": "5a02018e8c130fc37d9c710025505134c84286f779617fb6c7f123628844a0e8",
+          "bytes": 77754
+        },
+        "japanese/reading/2016-1.json": {
+          "sha256": "5e13e99dc6cbfb8f104b19ff9cafb096704573c9fea5c2ed9cb6430b02051cd2",
+          "bytes": 68326
+        },
+        "japanese/reading/2016-2.json": {
+          "sha256": "d824ac98783aeb7151986dba5bfa8051110fbb1b0f34990051cbe160eceebba0",
+          "bytes": 84838
+        },
+        "japanese/reading/2017-1.json": {
+          "sha256": "4ed251d8d999fc1020cd593fdf0ee06e8d4ea059983fe60d3ade30d832f564fe",
+          "bytes": 71915
+        },
+        "japanese/reading/2017-2.json": {
+          "sha256": "e39b5a63a3412aa4af9976d936edbebfc76e958e27bd2f77ff4a34ef58233c14",
+          "bytes": 85169
+        },
+        "science/biology/2013-1.json": {
+          "sha256": "210bda1ae53c28319ba5c8ae9bbec215edb5a01a4db73f6c47fe21797556cb4b",
+          "bytes": 54143
+        },
+        "science/biology/2013-2.json": {
+          "sha256": "fa5a3168a3a805113af9483b2eed83981d9c663d2ca38476c7e0f08c34777690",
+          "bytes": 51658
+        },
+        "science/biology/2014-1.json": {
+          "sha256": "99abb6ec7de6245499342d282f8fab42c487debc318edf9e73bfda26b74eaf6e",
+          "bytes": 56354
+        },
+        "science/biology/2014-2.json": {
+          "sha256": "822ff35bc414d4e36724a6e181181983f03f5e02c2efda68fe38fbd1bb01e88f",
+          "bytes": 47920
+        },
+        "science/biology/2015-1.json": {
+          "sha256": "2f300bd2c129fad37ecb1187ea7bd7c7e7e05102329b8af5d642c329c8e83420",
+          "bytes": 44587
+        },
+        "science/biology/2015-2.json": {
+          "sha256": "e2ba22807a5279352e2f5d7133feef6a8fa67d101f55b50733578c1195d2fe7a",
+          "bytes": 47207
+        },
+        "science/biology/2016-1.json": {
+          "sha256": "da3110c5204b6f6c13c347e1e1d3cd973343f1e8ec6883f50ac7828f66808e24",
+          "bytes": 51674
+        },
+        "science/biology/2016-2.json": {
+          "sha256": "b82f683944d121251cd8f5bbf8d0f2ca52dc0a4dc62c75c1903f80f0f3f2ebdd",
+          "bytes": 52173
+        },
+        "science/biology/2017-1.json": {
+          "sha256": "9922407892301457511e11f28a95f5ff24447058d2a8b13714049d028a24229d",
+          "bytes": 50081
+        },
+        "science/biology/2017-2.json": {
+          "sha256": "ff034fb2f2a2ea9063bfe27f8a3dddf378b8431a5addc696c8f34b68dae8cb6f",
+          "bytes": 51698
+        },
+        "science/chemistry/2013-1.json": {
+          "sha256": "cbc7cee72a784feab1c83f1c016420ac54b7a4d306e0b8a73b2f2a30a58fa815",
+          "bytes": 66304
+        },
+        "science/chemistry/2013-2.json": {
+          "sha256": "bca85c6e4d4663319aece9f6cd7e16a7017fc2238b9f2129c9580292a3120343",
+          "bytes": 73508
+        },
+        "science/chemistry/2014-1.json": {
+          "sha256": "797865ef4452bf7111ae41b2e4c2ebeb73e3dca221426e570877496e208d6741",
+          "bytes": 69424
+        },
+        "science/chemistry/2014-2.json": {
+          "sha256": "550810119b9b5f8e0b6e86cbc7e38b13796a7301847d09703e6187d060910d20",
+          "bytes": 69881
+        },
+        "science/chemistry/2015-1.json": {
+          "sha256": "82012699b5325ecdb22cc2a84f452edf5d9e867a1c9d706048e3c47ff7acde2f",
+          "bytes": 74667
+        },
+        "science/chemistry/2015-2.json": {
+          "sha256": "c6a6a89ce0590c0f51c286589b21f4b9931ab18311ebabcddafc4f9b72c04893",
+          "bytes": 73071
+        },
+        "science/chemistry/2016-1.json": {
+          "sha256": "172df970f5c91bc407163a16703eb848f941644f68293444cce54be980e1a0ed",
+          "bytes": 58574
+        },
+        "science/chemistry/2016-2.json": {
+          "sha256": "87d9de2ceadaac20a89293f306023194af4dcbd4a299272f43cc20e236ff1723",
+          "bytes": 63955
+        },
+        "science/chemistry/2017-1.json": {
+          "sha256": "f10a703655f06007dadae6f63857af4d08825672d22756df3109b47dfc6255d6",
+          "bytes": 51452
+        },
+        "science/chemistry/2017-2.json": {
+          "sha256": "7d5d114f4741661b9d0db5db233c4a5cdc64ad9e22d4c95a8dd45607d36b576d",
+          "bytes": 50616
+        },
+        "science/physics/2013-1.json": {
+          "sha256": "09e2f7950768a4b0f1402c67737d22435212c147d7949362301de83eae96afc0",
+          "bytes": 64374
+        },
+        "science/physics/2013-2.json": {
+          "sha256": "6d38ea2eec4bb2c59cca83c157241f73a9237ff1a9292a7da911947b9bc23938",
+          "bytes": 61344
+        },
+        "science/physics/2014-1.json": {
+          "sha256": "db98bf8dc553001dae9b1f46fb7f7885099efac79f407395bab6dca6afa658c8",
+          "bytes": 65260
+        },
+        "science/physics/2014-2.json": {
+          "sha256": "4e9acd9b245c81c0466a92a1835cfd278ffc7f3d0f600b6a717fa486055ad1dc",
+          "bytes": 54694
+        },
+        "science/physics/2015-1.json": {
+          "sha256": "aa7ee37d85729edd5231c747d7f754e635ecac060783ec5e17574aed1c94d82e",
+          "bytes": 56214
+        },
+        "science/physics/2015-2.json": {
+          "sha256": "54916cedf252661ccb9fb4076c9ef3addfdf2de66c7f1bec240990ee7c7ba529",
+          "bytes": 66577
+        },
+        "science/physics/2016-1.json": {
+          "sha256": "3e3e77e41e5156e9cb08e443abca146181d227bac67bc51b766d26ee8b995913",
+          "bytes": 61865
+        },
+        "science/physics/2016-2.json": {
+          "sha256": "de15efe3593733f11d1df0f94c7e1841f6e0bf8e189f47b629fc0ef94efcb258",
+          "bytes": 68613
+        },
+        "science/physics/2017-1.json": {
+          "sha256": "0c9c610a724d74f3156161fea13e970b454fb499cd4654bc3bb42d7187298323",
+          "bytes": 54648
+        },
+        "science/physics/2017-2.json": {
+          "sha256": "feee0e466e10af8e2fb2269fb860b93ed83b1c93dea323ae0cc2895f141da926",
+          "bytes": 61595
+        },
+        "_book.json": {
+          "sha256": "baec63391d490fbe486832bff4a7684bd818b81bf22d187a532061bbde1fa833",
+          "bytes": 8931
+        },
+        "tagIndex.json": {
+          "sha256": "26939c7958e00cfe12dd65e4e67e48a49456bcb47a7369728a35fc716b1f1a02",
+          "bytes": 227445
+        },
+        "cover.png": {
+          "sha256": "881e9b6dc9451fc1bb82eb398cb0f695d9e00a10a92f4e12a93b5523ac4446f5",
+          "bytes": 257225
+        }
+      }
+    },
+    "mocks_plus": {
+      "version": 1,
+      "titleKey": "bookshelf.mocksPlus",
+      "descKey": "bookshelf.mocksPlusDesc",
+      "subjects": [
+        "japanese",
+        "math2",
+        "physics",
+        "chemistry",
+        "biology"
+      ],
+      "subjectsForUI": [
+        "japanese_reading",
+        "japanese_listening",
+        "physics",
+        "chemistry",
+        "biology",
+        "comprehensive"
+      ],
+      "publisher": "EJU One",
+      "tier": "free",
+      "publicDownload": true,
+      "kind": "series",
+      "coverUrl": "https://raw.githubusercontent.com/dddogwang/ejuone-public-books/main/mocks_plus/cover.png?v=db338d12",
+      "spineColor": "#3f5f7a",
+      "bandColor": "#5b8db8",
+      "icon": "library",
+      "questionCount": 1204,
+      "setsCount": 10,
+      "releasedAt": "2026-09-09T03:18:09.232Z",
+      "files": {
+        "comprehensive/2018-1.json": {
+          "sha256": "78a69766a9b88a7afc72e33f66a7a33fbb6311ad5d32356a99b9b4f17667e439",
+          "bytes": 97156
+        },
+        "comprehensive/2018-2.json": {
+          "sha256": "d709550fff520ad59e4631693752383feef5cde005ce55a80be6ceae2d941dfa",
+          "bytes": 92052
+        },
+        "comprehensive/2019-1.json": {
+          "sha256": "7e0a40debd1ad67fe3346fe1a5efac2a9fc6ce025216d9aea29dc6130f9958bd",
+          "bytes": 95910
+        },
+        "comprehensive/2020-2.json": {
+          "sha256": "18f7e00275b0217c8830965a24a14f754a6dbfe4201dc1f1cd0d98fcdb73696b",
+          "bytes": 90049
+        },
+        "comprehensive/2021-1.json": {
+          "sha256": "afb522c7ac4f7536339ef8ad437430635540151d784bb929f011fc4f15e71b8c",
+          "bytes": 95066
+        },
+        "comprehensive/2021-2.json": {
+          "sha256": "b0a6813418a3c2332a766486762de5a8ccfcf1fc668eec8eeed45073dfe3329a",
+          "bytes": 120430
+        },
+        "comprehensive/2022-1.json": {
+          "sha256": "d30c565a79dccc11bc357f76c31e502e6a055372ce6ec9d80319d4730fb072e7",
+          "bytes": 94404
+        },
+        "comprehensive/2022-2.json": {
+          "sha256": "aac46dbaee8eb572a3a0ed7aa6f02d49292f66f8477381544419f9609124009c",
+          "bytes": 96382
+        },
+        "comprehensive/2023-1.json": {
+          "sha256": "be9846c25ea1cc5c4984470934c099d793f5159efa0923c62458882987cb526d",
+          "bytes": 106808
+        },
+        "comprehensive/2023-2.json": {
+          "sha256": "363b02fdbd5a7329df0799c551f467476a22eed6731e9d8fb39fddc8d50225aa",
+          "bytes": 100383
+        },
+        "japanese/listening/2018-1.json": {
+          "sha256": "f6674c7d553af011aa7d33d76a6c72037bfa07bbc13702c1a8da6d3907239d1f",
+          "bytes": 30948
+        },
+        "japanese/listening/2018-2.json": {
+          "sha256": "32b18ffab1d51e7df9bfafb71b872cf953b597966bbdf73219a9ca2b8046a345",
+          "bytes": 30432
+        },
+        "japanese/listening/2019-1.json": {
+          "sha256": "145139bd710b4eb978238353cb57723d61d57825dd037c0debc7d8568de9cd97",
+          "bytes": 30357
+        },
+        "japanese/listening/2020-2.json": {
+          "sha256": "0780e27223696361b318f5b7a3ec1119bc9d21252a88d6454d11d0b50236c0d7",
+          "bytes": 30697
+        },
+        "japanese/listening/2021-1.json": {
+          "sha256": "a25bce491645722a89bc7beec07144130269476a7ad2eee9aeb8786bcee54673",
+          "bytes": 29846
+        },
+        "japanese/listening/2021-2.json": {
+          "sha256": "8a9146a011bb190528261a99ad5f53ff26a31022c945f671fd81abc0416357d9",
+          "bytes": 30105
+        },
+        "japanese/listening/2022-1.json": {
+          "sha256": "556d0e52276d649ad5f375145619973820ea3240b40be20d585b5f785b70885b",
+          "bytes": 30438
+        },
+        "japanese/listening/2022-2.json": {
+          "sha256": "220fe6c5a6c5b3455605c7e76eaa6765968c592cb48a93c433fcf9a48a409fc6",
+          "bytes": 30919
+        },
+        "japanese/listening/2023-1.json": {
+          "sha256": "cfb360dc1784dca07d08f5788f1924fef4b86150f12945d08d42d261766a3346",
+          "bytes": 30764
+        },
+        "japanese/listening/2023-2.json": {
+          "sha256": "e4bcfd14d30e26d8a43dd6c1391f96b8b20cb4469793f1ae21f239d89f45f9fe",
+          "bytes": 30622
+        },
+        "japanese/listening/scripts/2018-1.json": {
+          "sha256": "fb6018ecc1d5c6b10c2b08d00937af0df503b78bcc09e622177642bdae7ea90e",
+          "bytes": 33499
+        },
+        "japanese/listening/scripts/2018-2.json": {
+          "sha256": "5e3143cbb800fcf26f935fbe3e5a51089a97a7f54d4ba681556ad11ec2852ace",
+          "bytes": 33471
+        },
+        "japanese/listening/scripts/2019-1.json": {
+          "sha256": "96f679d468768b0cf9f5256f03cee3dade9b2812eb36c848ddeae176de8a3c5c",
+          "bytes": 33765
+        },
+        "japanese/listening/scripts/2020-2.json": {
+          "sha256": "b06740efbe9e4e21645bd44f1827353d1ba66d7fd502bed4bb427f02b4235f52",
+          "bytes": 34165
+        },
+        "japanese/listening/scripts/2021-1.json": {
+          "sha256": "23bb2ff70a47806526f15d49c1d0f05341ca73a0f11e69836707334b196044e5",
+          "bytes": 33190
+        },
+        "japanese/listening/scripts/2021-2.json": {
+          "sha256": "8a4dea5f410c30fe3598b6ec8b4f9f89f173b7ce1db94cbc8d6fcde8905c92f1",
+          "bytes": 33232
+        },
+        "japanese/listening/scripts/2022-1.json": {
+          "sha256": "86ca1ce8baa6556b6d6bf946d7bafcc3ca437e27269a9c6e060aa6e091efb31e",
+          "bytes": 33715
+        },
+        "japanese/listening/scripts/2022-2.json": {
+          "sha256": "7dcab88abc16774e6dd1f0f67444dacefcd9950374b17a2549865daefd595650",
+          "bytes": 33863
+        },
+        "japanese/listening/scripts/2023-1.json": {
+          "sha256": "1a8baf799341b9a7ac76e7753e3fd675afb146ba7ffb27f8e394e8443caad1a1",
+          "bytes": 34087
+        },
+        "japanese/listening/scripts/2023-2.json": {
+          "sha256": "55a70308cc870e0999880632c5150ce4f7dd3ae5bc6df904fc2ce812ebbe5017",
+          "bytes": 33917
+        },
+        "japanese/reading/2018-1.json": {
+          "sha256": "79b181accf40a126c4386ec0e91c3f48b885d10d4997961f96a6e5ab6c2c4c87",
+          "bytes": 85182
+        },
+        "japanese/reading/2018-2.json": {
+          "sha256": "886e187f1be75c018986001e0c20812c51e163f0509acf8ec45b8277b8112856",
+          "bytes": 82579
+        },
+        "japanese/reading/2019-1.json": {
+          "sha256": "4fdb516a4b1f97a48906439fb5e827adc8b80a9d4a05ffe7f70bd56b2e039180",
+          "bytes": 85778
+        },
+        "japanese/reading/2020-2.json": {
+          "sha256": "5c19eda2ba643af70aeff04402dc8466be59d51e04cc02c33cc5145eea9daa1c",
+          "bytes": 79402
+        },
+        "japanese/reading/2021-1.json": {
+          "sha256": "99692ff53d6b576eddeab1455b39800d3daf28c85d33a861a6e6d1fcb80d5c84",
+          "bytes": 77201
+        },
+        "japanese/reading/2021-2.json": {
+          "sha256": "f1e432f3818546e44d56971b6f9fdd01a8d249aab1ad9a15cfd04d08a61b20c9",
+          "bytes": 66825
+        },
+        "japanese/reading/2022-1.json": {
+          "sha256": "47a34ec48814ec5e9801769539320ea912de668921237077ded61d2d88befd5b",
+          "bytes": 63986
+        },
+        "japanese/reading/2022-2.json": {
+          "sha256": "eb8b9ffe0b7389ba8576d0f38d3f11ca40d7d015c0b786e1fc359c6cea1e2e24",
+          "bytes": 79564
+        },
+        "japanese/reading/2023-1.json": {
+          "sha256": "8e0d958302990145b605750bbddab84e6d64de4080d6b8f9e0a564014586e8bf",
+          "bytes": 73153
+        },
+        "japanese/reading/2023-2.json": {
+          "sha256": "ba9a777fc2ab2a5a70ecee958bffd8abd2182a8e13aa75141613ebb7edd3e1aa",
+          "bytes": 55652
+        },
+        "science/biology/2018-1.json": {
+          "sha256": "f870f17ae72d88f414bfb2c21b7e963d3665e846eec948cf3473b794aa2bec92",
+          "bytes": 49975
+        },
+        "science/biology/2018-2.json": {
+          "sha256": "5681ba255702d84075238353bd3ce51d70d127fd25739da20cff799c0c9b1bc7",
+          "bytes": 47841
+        },
+        "science/biology/2019-1.json": {
+          "sha256": "49d8f931461511c5fc11e877b4d09ca37f07524c376f4aff002f9d90a1e58833",
+          "bytes": 50198
+        },
+        "science/biology/2020-2.json": {
+          "sha256": "00af78a5cd65df6b97dc0e5aa8bfa8503b74b25f1625bf39688be6d7ea309a43",
+          "bytes": 47810
+        },
+        "science/biology/2021-1.json": {
+          "sha256": "35dc8c225fde97ea452b1b1a05a67b4fb6a92f3c56c6a3d26f3a6fadabd06933",
+          "bytes": 53632
+        },
+        "science/biology/2021-2.json": {
+          "sha256": "81932d6eddb3a7c15745588593bb7d8b0dd76ea73eaef47e57765728f957b1c5",
+          "bytes": 48098
+        },
+        "science/biology/2022-1.json": {
+          "sha256": "58ccefb7f339a2f01c23220527d3d5f3b253cc9206f5ad4f8107a6a28ad00ddb",
+          "bytes": 57791
+        },
+        "science/biology/2022-2.json": {
+          "sha256": "7a696978c2fc4184907ce8800dbd2270eeb3811c9a3f5de9c603f74db9f9eb60",
+          "bytes": 49577
+        },
+        "science/biology/2023-1.json": {
+          "sha256": "eeecb75c2d61ebaf5527ac17082aa5ff6573da3b039b05fb6f19458a323bab5d",
+          "bytes": 53813
+        },
+        "science/biology/2023-2.json": {
+          "sha256": "5484cac7118908bf99cfeefb042f5c833c2a649331421104e2136f2a1248d042",
+          "bytes": 47858
+        },
+        "science/chemistry/2018-1.json": {
+          "sha256": "109e580f9883b46956e046ce08d278261e96a0339bdb94c16c0538d460756c49",
+          "bytes": 44649
+        },
+        "science/chemistry/2018-2.json": {
+          "sha256": "0da4b944f7bc94655452ca48a11c73601b77b364b7d3548a9b1b0c89ef8587e1",
+          "bytes": 59387
+        },
+        "science/chemistry/2019-1.json": {
+          "sha256": "f418ba26e50e69d92f60014fd31bba430da7f7e6a4e81a5bf1412057c88e51af",
+          "bytes": 62678
+        },
+        "science/chemistry/2020-2.json": {
+          "sha256": "c3d25dcddffab6040f71afe27d06beb65116105b5e85b53f61e03df3842d5eaf",
+          "bytes": 57873
+        },
+        "science/chemistry/2021-1.json": {
+          "sha256": "a305e7bf1dd56ef70a068e201d691b6a9e501f2e9a273291beaff04a999fae10",
+          "bytes": 58994
+        },
+        "science/chemistry/2021-2.json": {
+          "sha256": "3db09f1eae43059607c2301b5cc1d661b6b712d9cf94ae9bd10b68318b88f4f9",
+          "bytes": 64584
+        },
+        "science/chemistry/2022-1.json": {
+          "sha256": "c0411c13eae71fa3363392cb319f4888d060a19afc48420260435874ecfd6b90",
+          "bytes": 63474
+        },
+        "science/chemistry/2022-2.json": {
+          "sha256": "8a398daf06c04cfc050d24ac7f1423779583f5de3dbae54489ee7959b871f75c",
+          "bytes": 53682
+        },
+        "science/chemistry/2023-1.json": {
+          "sha256": "aa59a8de2ad0e755b0a403190571b0319e0aab453469b0bfd430cc539e80112d",
+          "bytes": 56445
+        },
+        "science/chemistry/2023-2.json": {
+          "sha256": "f1e4ab559558fc08adb0a69b4214bf88f2e4324cad3aefb0336d6894e0e588d0",
+          "bytes": 52268
+        },
+        "science/physics/2018-1.json": {
+          "sha256": "070c00802b3a889c9fd0f012e53d387cedeca37977a8c163b37ba8f79681c692",
+          "bytes": 61436
+        },
+        "science/physics/2018-2.json": {
+          "sha256": "09eb587f923e8c4c59e60a88a134e565cd198dbb8408d8a91256caeb268bb235",
+          "bytes": 61304
+        },
+        "science/physics/2019-1.json": {
+          "sha256": "57a5f0d176c57fda4468a93c905c5f7a06b4233fb266e95531388517182074dd",
+          "bytes": 59657
+        },
+        "science/physics/2020-2.json": {
+          "sha256": "9f481addb2c0745be45b53534ced0cdc96a246d44305a93e34e2526ca06aa331",
+          "bytes": 62375
+        },
+        "science/physics/2021-1.json": {
+          "sha256": "151a4d97952d79130d71a1822ce49a5e2dcd8d68661f26debbddfc443ef0a0e9",
+          "bytes": 57005
+        },
+        "science/physics/2021-2.json": {
+          "sha256": "c35bbfe270b5db513cde80d56b0834c7173c88b7a09fe6affb87e53d38f4146f",
+          "bytes": 58996
+        },
+        "science/physics/2022-1.json": {
+          "sha256": "1b5142bb25dc84ce9a2abc2e401e624a66d35fcf2cceab3afec96450445992de",
+          "bytes": 64585
+        },
+        "science/physics/2022-2.json": {
+          "sha256": "40a286d9ac486c42769dbf0b8056f5406a5e91247a129dd0f2fcf75bef1bab8a",
+          "bytes": 61194
+        },
+        "science/physics/2023-1.json": {
+          "sha256": "a0eae0162339e9f0288480151fa6574e76584ba48dee0dfd299fc6b7ac0473b6",
+          "bytes": 61155
+        },
+        "science/physics/2023-2.json": {
+          "sha256": "9518e172dd2691d7c9052f3cd01b211afd408ebf1bb23a34d0ae5f1c6d7b497a",
+          "bytes": 61115
+        },
+        "_book.json": {
+          "sha256": "0eeeb0a625571eae9f73a4c4fdf1d985eddb07e4d30fb300543383e41b78dc25",
+          "bytes": 8920
+        },
+        "tagIndex.json": {
+          "sha256": "14d3ba18948978ca898bea73624936fb0464676ac05b893ecf142014a99fee14",
+          "bytes": 223325
+        },
+        "cover.png": {
+          "sha256": "db338d129bbda37c597947c7a2ec2242faf06e3b2a370f9429c58dbb56d12f06",
+          "bytes": 280113
+        }
+      },
+      "logoUrl": "https://raw.githubusercontent.com/dddogwang/ejuone-public-books/main/_logos/eju_one.png"
+    },
+    "mock_japanese": {
+      "version": 1,
+      "titleKey": "bookshelf.mocksJapanese",
+      "descKey": "bookshelf.mocksJapaneseDesc",
+      "subjects": [
+        "japanese"
+      ],
+      "subjectsForUI": [
+        "japanese_reading",
+        "japanese_listening"
+      ],
+      "publisher": "EJU One",
+      "tier": "free",
+      "publicDownload": true,
+      "kind": "subject",
+      "coverUrl": "https://raw.githubusercontent.com/dddogwang/ejuone-public-books/main/mock_japanese/cover.png?v=35591a31",
+      "spineColor": "#3f5f7a",
+      "bandColor": "#5b8db8",
+      "icon": "language",
+      "questionCount": 350,
+      "setsCount": 10,
+      "releasedAt": "2026-09-09T03:18:09.252Z",
+      "files": {
+        "japanese/listening/2008-1.json": {
+          "sha256": "90c67be0e7075a388d4a6c806a98ddfdbd9ad77f80535f61035da1fbbcf5aa01",
+          "bytes": 42173
+        },
+        "japanese/listening/2008-2.json": {
+          "sha256": "35e4f3d54eedd95a8c6d15184310007feec959e0509cabad0ea18d0bba5412e2",
+          "bytes": 40876
+        },
+        "japanese/listening/2009-1.json": {
+          "sha256": "8805dc2bccf92c7ea33ad49ae4206106cde4788625b3153100ff7e77fc293a0a",
+          "bytes": 40806
+        },
+        "japanese/listening/2009-2.json": {
+          "sha256": "017d8dfd31eea188788ef4004eab3b3ba270fd3aaf0654f371ca9dcdc0e7388a",
+          "bytes": 40127
+        },
+        "japanese/listening/2010-1.json": {
+          "sha256": "0249245b2f593d3b3e0d807db78c54734c37ab2c5dea04784d0f7d7f2e178815",
+          "bytes": 31354
+        },
+        "japanese/listening/2010-2.json": {
+          "sha256": "4b6a30793b59597e12a60a1f0e7d27df284344aaf7679c1260bc5c1e26adbeb9",
+          "bytes": 30834
+        },
+        "japanese/listening/2011-1.json": {
+          "sha256": "65ca1cfcaef875907b80f94f2184b596209a2ccd70d306b6d18b823895aca58e",
+          "bytes": 30771
+        },
+        "japanese/listening/2011-2.json": {
+          "sha256": "46870100a1e3e630fb070eca26a0f61eae7db89b0380fe7b71236206e460cecb",
+          "bytes": 31776
+        },
+        "japanese/listening/2012-1.json": {
+          "sha256": "3116b23147c67e5ed4a997b531029370736921365d05239f98df1e75852da1a6",
+          "bytes": 30990
+        },
+        "japanese/listening/2012-2.json": {
+          "sha256": "850c0a9d2b99b2477fab16bad85bc137227156aea58584e8a5c13a37c7f1bc91",
+          "bytes": 32022
+        },
+        "japanese/listening/scripts/2008-1.json": {
+          "sha256": "aaff87faa3513e013bef0994e68e38452913e1016f4bddcddcefa36159965fe2",
+          "bytes": 46511
+        },
+        "japanese/listening/scripts/2008-2.json": {
+          "sha256": "49053a556778f02406ea8410d6d499ceaf7b78d4bd6904563168bd20aa3e545c",
+          "bytes": 46085
+        },
+        "japanese/listening/scripts/2009-1.json": {
+          "sha256": "4c9f363745ea4943c7ebe8f540c53db4c9ff4e1ba5a12473f3b8f8ea48c7c295",
+          "bytes": 45353
+        },
+        "japanese/listening/scripts/2009-2.json": {
+          "sha256": "46034ce244319dee221bcdb0ef68cc43cf22e017a1a10c40443a7ef42f319e62",
+          "bytes": 44727
+        },
+        "japanese/listening/scripts/2010-1.json": {
+          "sha256": "a1409c4a1b53424029475ffad97e8b39b2f77cc4a932d275ca4a287529afd2c6",
+          "bytes": 34230
+        },
+        "japanese/listening/scripts/2010-2.json": {
+          "sha256": "20041952f7ac726e7a8427116eb5ed9ff1366497935a25421cadefa5c1a34212",
+          "bytes": 34324
+        },
+        "japanese/listening/scripts/2011-1.json": {
+          "sha256": "f67a3736d50d4f2b45867363d5b34a3afc11be0684f93959fb3ca401a15caf88",
+          "bytes": 34138
+        },
+        "japanese/listening/scripts/2011-2.json": {
+          "sha256": "be66110ba35a88b3a3391500670e3221abe7f73ffadc412ceda93f7fd4a9fd04",
+          "bytes": 34576
+        },
+        "japanese/listening/scripts/2012-1.json": {
+          "sha256": "667e4b5d8a145c449492fac89b69ba2459779ac7097b035d49d9539178ca1dad",
+          "bytes": 34435
+        },
+        "japanese/listening/scripts/2012-2.json": {
+          "sha256": "da64d99164d5af7bcfd7fbc2070adb776de76a7b86cb7b8b5de4b40dbecb37b1",
+          "bytes": 34745
+        },
+        "japanese/reading/2008-1.json": {
+          "sha256": "e066782d9f774950df0076f1deecdd3960b60462b7e31d407f1aacb0d3ad40bb",
+          "bytes": 68205
+        },
+        "japanese/reading/2008-2.json": {
+          "sha256": "3e91becc794dc2a102a8c8ac05158797cddc9b653cbe7c22b61e7c77820643e6",
+          "bytes": 65341
+        },
+        "japanese/reading/2009-1.json": {
+          "sha256": "9384c6f3fc6bd11cbe7086ec198e1fbc8f97e84955d2401bd8bd00179c03c46f",
+          "bytes": 84586
+        },
+        "japanese/reading/2009-2.json": {
+          "sha256": "92011cdc9f9e6f1f101f1126e0b260d5034c111bed4418da050df15268f6342d",
+          "bytes": 50310
+        },
+        "japanese/reading/2010-1.json": {
+          "sha256": "b62673457553268cdd2417493a581fbf0913d665eb9012425070ce66d55e8bdc",
+          "bytes": 74023
+        },
+        "japanese/reading/2010-2.json": {
+          "sha256": "4773562d20e7dd9e58a2ed91c6df910841775640aa1d4258a0a8b97c821b97da",
+          "bytes": 98396
+        },
+        "japanese/reading/2011-1.json": {
+          "sha256": "62e7e6ae4cda6f6779d55748140a0b806057ab21a5426faf3ac0bdcdd35b43d0",
+          "bytes": 83948
+        },
+        "japanese/reading/2011-2.json": {
+          "sha256": "ec2173e66c41cc097c2a9fd9a3547e0f7af44d595ea9ff5a4269f395d2459499",
+          "bytes": 89412
+        },
+        "japanese/reading/2012-1.json": {
+          "sha256": "2a96e687d7182b7d5c96115f89f1f4ee74f4c9c40e50e836fa564bae1cbf8996",
+          "bytes": 77465
+        },
+        "japanese/reading/2012-2.json": {
+          "sha256": "504c886020622c66daf516d815fc49de3f6817f17dff4dd5b2d7986329d31eb2",
+          "bytes": 84994
+        },
+        "_book.json": {
+          "sha256": "243fbb8bd56dbc880f80d058083e5bf495e5494f0d3ead6f7ea135a842f9131d",
+          "bytes": 6851
+        },
+        "tagIndex.json": {
+          "sha256": "d4704e43253921000637acb1ddcde2f743c56380b29f1ca226591e9bf4f5afd3",
+          "bytes": 54022
+        },
+        "cover.png": {
+          "sha256": "35591a310fca598515a757f45ca81c3dfa422d449dcd7d29d024003f5aeef7af",
+          "bytes": 259997
+        }
+      },
+      "logoUrl": "https://raw.githubusercontent.com/dddogwang/ejuone-public-books/main/_logos/eju_one.png"
+    },
+    "mock_comprehensive": {
+      "version": 1,
+      "titleKey": "bookshelf.mockComprehensive",
+      "descKey": "bookshelf.mockSubjectDesc",
+      "subjects": [
+        "comprehensive"
+      ],
+      "subjectsForUI": [
+        "comprehensive"
+      ],
+      "publisher": "EJU One",
+      "tier": "free",
+      "publicDownload": true,
+      "kind": "subject",
+      "coverUrl": "https://raw.githubusercontent.com/dddogwang/ejuone-public-books/main/mock_comprehensive/cover.png?v=c841cfb3",
+      "spineColor": "#a87a3a",
+      "bandColor": "#c4953a",
+      "icon": "earth",
+      "questionCount": 291,
+      "setsCount": 10,
+      "releasedAt": "2026-09-09T03:18:09.268Z",
+      "files": {
+        "comprehensive/2008-1.json": {
+          "sha256": "f7627416dd277c44bce359d94ec9103b7f4b81f15e4308ed1259cc3856a70fdb",
+          "bytes": 100775
+        },
+        "comprehensive/2008-2.json": {
+          "sha256": "d489f5dd3e32f34e33539adc9c6affe54cdcf7598a486a37cd71ce227da19b4c",
+          "bytes": 90411
+        },
+        "comprehensive/2009-1.json": {
+          "sha256": "37c5f59d1b8aa86c352660d6b0709203b7a6665d6e6431f616f399e246f122f1",
+          "bytes": 97665
+        },
+        "comprehensive/2009-2.json": {
+          "sha256": "58097636e12ce54559a64708096a964cc7ca0642ae9eb4e2e70df3de2df1115d",
+          "bytes": 92454
+        },
+        "comprehensive/2010-1.json": {
+          "sha256": "028c77f9bce5ac7d3d6c133602f96a176363b88c47fe4d3eaf844a8aed82a901",
+          "bytes": 107852
+        },
+        "comprehensive/2010-2.json": {
+          "sha256": "e9cdfed3495217945f31a4275c3da8faa69bbfa0892f416ae0fe442f289196e2",
+          "bytes": 95080
+        },
+        "comprehensive/2011-1.json": {
+          "sha256": "2d118c015ef990f34373910e1510a75be1a091184eb82865721378c11d862c18",
+          "bytes": 100427
+        },
+        "comprehensive/2011-2.json": {
+          "sha256": "620d387be59df3b389263c7993d970eeed1730e6f720ad6579fd2492b56b82ec",
+          "bytes": 100221
+        },
+        "comprehensive/2012-1.json": {
+          "sha256": "0d72ce1ac159052c2f2dccdcad14c6f78f2614a4650627b312a8eacd1830fd77",
+          "bytes": 105992
+        },
+        "comprehensive/2012-2.json": {
+          "sha256": "b8c24211c985d78a98412af226dde24015873b7ba6050066084a75f667023ff6",
+          "bytes": 100345
+        },
+        "_book.json": {
+          "sha256": "35dd0076b41f77ac40e48dbec35cfcec812f02d46c5a4c426520371cae8e0b18",
+          "bytes": 915
+        },
+        "tagIndex.json": {
+          "sha256": "122c71f628b91098b7c74a43f13a53e6adbac44e6de6643ce1066d29408ac584",
+          "bytes": 54945
+        },
+        "cover.png": {
+          "sha256": "c841cfb373da1c669fed5f77f3e6a8c8ca3f1e0303363e787e2b1a5aa818a4e2",
+          "bytes": 260973
+        }
+      },
+      "logoUrl": "https://raw.githubusercontent.com/dddogwang/ejuone-public-books/main/_logos/eju_one.png"
+    },
+    "mock_physics": {
+      "version": 1,
+      "titleKey": "bookshelf.mockPhysics",
+      "descKey": "bookshelf.mockSubjectDesc",
+      "subjects": [
+        "physics"
+      ],
+      "subjectsForUI": [
+        "physics"
+      ],
+      "publisher": "EJU One",
+      "tier": "free",
+      "publicDownload": true,
+      "kind": "subject",
+      "coverUrl": "https://raw.githubusercontent.com/dddogwang/ejuone-public-books/main/mock_physics/cover.png?v=e138fbf3",
+      "spineColor": "#7a6aa8",
+      "bandColor": "#a37fc4",
+      "icon": "magnet",
+      "questionCount": 184,
+      "setsCount": 10,
+      "releasedAt": "2026-09-09T03:18:09.276Z",
+      "files": {
+        "science/physics/2008-1.json": {
+          "sha256": "72e41b4a0d8593c6103cc4a9de2298de53c80e7338d5d7459462b09ddab65196",
+          "bytes": 49328
+        },
+        "science/physics/2008-2.json": {
+          "sha256": "d838b526332d8538ce6075622c59403d5d197b7eec8bda37a6e989130ca632a7",
+          "bytes": 48406
+        },
+        "science/physics/2009-1.json": {
+          "sha256": "c85ea144a7bc709a1a25931a73ffb075ccb3bd58bd690390419c336597397c76",
+          "bytes": 48353
+        },
+        "science/physics/2009-2.json": {
+          "sha256": "d895f4828f909b4ccddecf0c0fc98bcf955d9e38f73555db4007fce433b3c90a",
+          "bytes": 51805
+        },
+        "science/physics/2010-1.json": {
+          "sha256": "c9cb6c40944148c64d65a8242d03aafaf649d97795be8b57c932a88d0416746e",
+          "bytes": 58800
+        },
+        "science/physics/2010-2.json": {
+          "sha256": "d790a231823f5bcce173f19365964d48106438bae205ff67feba0b6ddcf13da3",
+          "bytes": 54731
+        },
+        "science/physics/2011-1.json": {
+          "sha256": "319b25f2528f25f7c1c84033c4a2dd0b9a8a954c38b3ad72b9f38269305b363c",
+          "bytes": 56484
+        },
+        "science/physics/2011-2.json": {
+          "sha256": "bb025995232dfad89b7811e5d50778bcff7513d16a00b66cb05ea7c479b36c13",
+          "bytes": 55280
+        },
+        "science/physics/2012-1.json": {
+          "sha256": "44ce96059612c1f22e90cbd5efc856cedcb52040247024cd04ebf7df7e298236",
+          "bytes": 53859
+        },
+        "science/physics/2012-2.json": {
+          "sha256": "d0b42d4479690ec1d057052b783e8bb0432b265bcdb4f5cf82e0ffbc140edb8e",
+          "bytes": 55546
+        },
+        "_book.json": {
+          "sha256": "b543ff0494de9928a79909ff4c3660a6d975f879ae686dfc2fe341789da345c8",
+          "bytes": 937
+        },
+        "tagIndex.json": {
+          "sha256": "18c62edf78f09b3bbb25588222f3f7464dc7bdd924747e1085e8a6f25c49fa12",
+          "bytes": 36906
+        },
+        "cover.png": {
+          "sha256": "e138fbf3ea849d0a13e647b0f6c05d0da0e538f247ad436bc4b244280e309c86",
+          "bytes": 241288
+        }
+      },
+      "logoUrl": "https://raw.githubusercontent.com/dddogwang/ejuone-public-books/main/_logos/eju_one.png"
+    },
+    "mock_chemistry": {
+      "version": 1,
+      "titleKey": "bookshelf.mockChemistry",
+      "descKey": "bookshelf.mockSubjectDesc",
+      "subjects": [
+        "chemistry"
+      ],
+      "subjectsForUI": [
+        "chemistry"
+      ],
+      "publisher": "EJU One",
+      "tier": "free",
+      "publicDownload": true,
+      "kind": "subject",
+      "coverUrl": "https://raw.githubusercontent.com/dddogwang/ejuone-public-books/main/mock_chemistry/cover.png?v=ddfeea9d",
+      "spineColor": "#a85a4a",
+      "bandColor": "#c4493c",
+      "icon": "flask",
+      "questionCount": 200,
+      "setsCount": 10,
+      "releasedAt": "2026-09-09T03:18:09.284Z",
+      "files": {
+        "science/chemistry/2008-1.json": {
+          "sha256": "7481e4e90f4b67828b2fbb70546ad08a13e72842310b22e1d7f29dec29583427",
+          "bytes": 52521
+        },
+        "science/chemistry/2008-2.json": {
+          "sha256": "3421fdcdf3fe91c150508bfe73fb5b5b14c8d7c99d7f67f9ad66c5d4a929978d",
+          "bytes": 49257
+        },
+        "science/chemistry/2009-1.json": {
+          "sha256": "761c756a804f0dcca527dd019b8c840d4adfa81abb2d6e185cbc8cdfc8e507a6",
+          "bytes": 50241
+        },
+        "science/chemistry/2009-2.json": {
+          "sha256": "733f1275b0f9b03b5aa3ab9e3e7cc8cea2d7c5e0d574a64e1f171b7f618d1037",
+          "bytes": 49567
+        },
+        "science/chemistry/2010-1.json": {
+          "sha256": "93c8408ebc97b2637500373d60f34a1130791c929ac1c39107aa77fe20cfbd1e",
+          "bytes": 49214
+        },
+        "science/chemistry/2010-2.json": {
+          "sha256": "9210dafc51d0b80712987863b4de450884e277bbd0245264f75e01e33e9fcc66",
+          "bytes": 46633
+        },
+        "science/chemistry/2011-1.json": {
+          "sha256": "2dbc86eec397414a40514a89836d5f79d1b6f231726fb1a54d290d16a87d3674",
+          "bytes": 53510
+        },
+        "science/chemistry/2011-2.json": {
+          "sha256": "3bbdd5da705792719e040c1a6ff152b5a0e21ec654d632d8e80a1d58376608d3",
+          "bytes": 51647
+        },
+        "science/chemistry/2012-1.json": {
+          "sha256": "47b838b91be057041753ad78a9d1cee789c45727990010ecc8b6067c9b7abee7",
+          "bytes": 46531
+        },
+        "science/chemistry/2012-2.json": {
+          "sha256": "428c83693ee5ce1e84d6a6a35cfea17c975a714ab8487f92351d4f7f43160899",
+          "bytes": 46302
+        },
+        "_book.json": {
+          "sha256": "663b0f077d379375100c4122f86a44f58479cb9dff72c12b3ff4f1310b412ddd",
+          "bytes": 983
+        },
+        "tagIndex.json": {
+          "sha256": "b7fdd058562169553b0e72911083332c11ac9706ec16f81b61665bf0926588ef",
+          "bytes": 40315
+        },
+        "cover.png": {
+          "sha256": "ddfeea9dbdebb20459e037ae1bdafff2720a57df6391c431fd5db2b5ba488d1f",
+          "bytes": 244543
+        }
+      },
+      "logoUrl": "https://raw.githubusercontent.com/dddogwang/ejuone-public-books/main/_logos/eju_one.png"
+    },
+    "mock_biology": {
+      "version": 1,
+      "titleKey": "bookshelf.mockBiology",
+      "descKey": "bookshelf.mockSubjectDesc",
+      "subjects": [
+        "biology"
+      ],
+      "subjectsForUI": [
+        "biology"
+      ],
+      "publisher": "EJU One",
+      "tier": "free",
+      "publicDownload": true,
+      "kind": "subject",
+      "coverUrl": "https://raw.githubusercontent.com/dddogwang/ejuone-public-books/main/mock_biology/cover.png?v=b41dc8aa",
+      "spineColor": "#5a7a4a",
+      "bandColor": "#8a9a4e",
+      "icon": "leaf",
+      "questionCount": 152,
+      "setsCount": 10,
+      "releasedAt": "2026-09-09T03:18:09.292Z",
+      "files": {
+        "science/biology/2008-1.json": {
+          "sha256": "6191833f64e1a8710c9ce4af83a1458eb5da58f3a6e1f579084c0a89b6949e5a",
+          "bytes": 61803
+        },
+        "science/biology/2008-2.json": {
+          "sha256": "a0bcd038f944cb37bbd7af967f7ca80585ea99be14f238056fe10ae85235995b",
+          "bytes": 57176
+        },
+        "science/biology/2009-1.json": {
+          "sha256": "257d8e74246f9c128d64b991ff9a5cf7435f904e25958c05b26e1c379da1c6fa",
+          "bytes": 57921
+        },
+        "science/biology/2009-2.json": {
+          "sha256": "386388d9cd3dbbef0a66bc6ebd36e6be0d0275f03213da839eddc754792cf5db",
+          "bytes": 58974
+        },
+        "science/biology/2010-1.json": {
+          "sha256": "2ea3f830b2144a88f5ae7d644c31a1aff4043cccd61a058806cb3b834570a4a0",
+          "bytes": 55215
+        },
+        "science/biology/2010-2.json": {
+          "sha256": "d070cbb3dcd666a1b9f209be08954e54f118e99b938629619231f3fb6c2880dc",
+          "bytes": 55946
+        },
+        "science/biology/2011-1.json": {
+          "sha256": "258d3c5eeb522179f9d5b633f376b0f2a13b6cd09df6cf9ecb8b5f49ad80cefa",
+          "bytes": 56553
+        },
+        "science/biology/2011-2.json": {
+          "sha256": "bb72c8782ca0151cc9ae64323e937cabdd19d4fcc2af951d613fa52e4b426244",
+          "bytes": 50853
+        },
+        "science/biology/2012-1.json": {
+          "sha256": "3b0e41a4025cb491bc43fe18251c3f0f2bbc53d9cffa6ee9a724ee758da102e7",
+          "bytes": 54897
+        },
+        "science/biology/2012-2.json": {
+          "sha256": "95d3e21b8650bdb013a00b5c5a31459531e2fbdc955a933fd06681fd871d3249",
+          "bytes": 55142
+        },
+        "_book.json": {
+          "sha256": "b1124830323d068ad942164c36a16e9b08f69734c8f62b87188aeb63ae836f75",
+          "bytes": 937
+        },
+        "tagIndex.json": {
+          "sha256": "64baadb29114bc4ad901de19d66ba75207f0f8714cc6b12d2915788724f7051c",
+          "bytes": 33360
+        },
+        "cover.png": {
+          "sha256": "b41dc8aa185337e99738c09332d0042d9498d78eadcc65036dfd39793886ca91",
+          "bytes": 258528
+        }
+      },
+      "logoUrl": "https://raw.githubusercontent.com/dddogwang/ejuone-public-books/main/_logos/eju_one.png"
+    }
+  }
+}

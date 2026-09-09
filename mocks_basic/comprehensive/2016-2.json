@@ -1,0 +1,995 @@
+{
+  "subject": "comprehensive",
+  "section": "",
+  "year": 2016,
+  "round": 2,
+  "title": "模擬試験 総合科目 第八回",
+  "image_path": "comprehensive/images/2016-2",
+  "questions": [
+  {
+    "id": 1,
+    "title": "問1",
+    "prompt": "アナトリアの国と20世紀世界史について、下の問いに答えなさい。",
+    "passage": "アナトリアの国はアジアとヨーロッパの接点に位置し、黒海と地中海方面を結ぶ海峡をめぐる地政学的重要性をもつ。20世紀前半には第一次世界大戦、ロシア革命、首都圏大震災、世界恐慌など世界秩序を揺るがす出来事が相次いだ。国際関係を読むには、位置、時期、経済規模を区別する必要がある。",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":1,
+        "prompt":"次の文章は、黒海とマルマラ海を結ぶ海峡海峡を通じた船舶通航数の概数である。読み取れる内容として最も適当なものはどれですか。\n2019年：約41,000隻、2020年：約38,000隻、2021年：約39,000隻。",
+        "choices":[
+          {"id":1,"text":"2019年から2020年にかけて通航数は増加した。","explanation_zh":"陷阱：因果倒置。约 4.1 万艘降至约 3.8 万艘，是减少。","explanation_ja":"誤り。因果倒置の罠。約4.1万隻から約3.8万隻へ減少している。"},
+          {"id":2,"text":"三年の中では、2019年の通航数が最も多い。","explanation_zh":"正确。2019 年约 4.1 万艘，高于 2020 年和 2021 年。","explanation_ja":"正解。2019年は約4.1万隻で、2020年・2021年を上回る。"},
+          {"id":3,"text":"2021年の通航数は2020年の2倍を超えた。","explanation_zh":"陷阱：数值混同。2021 年约 3.9 万艘，2020 年约 3.8 万艘，未超过两倍。","explanation_ja":"誤り。数値混同の罠。2021年約3.9万隻は2020年約3.8万隻の2倍を超えない。"},
+          {"id":4,"text":"三年の通航数はすべて0隻であった。","explanation_zh":"陷阱：范围扩大。资料中三个年份均为数万艘。","explanation_ja":"誤り。範囲拡大の罠。資料ではいずれも数万隻であり、0隻ではない。"}
+        ],
+        "answer":2,
+        "tag":{
+          "question_form":"図表読取",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["地域取違"],
+          "keywords_to_avoid":["トルコ","ボスポラス"],
+          "sub_domain":"自然地理",
+          "syllabus_path":{"area":"II 地理","field":"地理","item":"2. 現代世界の諸地域"}
+        },
+        "sources":[{"claim":"Bosporus annual vessel transit counts are tens of thousands.","source":"Turkish Ministry of Transport, Maritime Statistics","year":"2021","url":"https://denizcilikistatistikleri.uab.gov.tr/"}]
+      },
+      {
+        "sub_id":2,
+        "global_id":2,
+        "prompt":"ア: 第一次世界大戦開始、イ: ロシア革命、ウ: 首都圏大震災、エ: 世界恐慌開始を、年代の古い順に並べたものはどれですか。",
+        "choices":[
+          {"id":1,"text":"ア→イ→ウ→エ","explanation_zh":"正确。第一次世界大战开始于 1914 年，俄国革命为 1917 年，关东大地震为 1923 年，世界恐慌开始于 1929 年。","explanation_ja":"正解。第一次世界大戦開始は1914年、ロシア革命は1917年、関東大震災は1923年、世界恐慌開始は1929年である。"},
+          {"id":2,"text":"イ→ア→ウ→エ","explanation_zh":"陷阱：顺序混淆。1914 年早于 1917 年，第一次世界大战开始应在俄国革命之前。","explanation_ja":"誤り。順序混同の罠。1914年は1917年より早く、第一次世界大戦開始がロシア革命より先である。"},
+          {"id":3,"text":"ウ→ア→イ→エ","explanation_zh":"陷阱：时态错位。关东大地震是 1923 年，晚于 1914 年和 1917 年。","explanation_ja":"誤り。時期錯誤の罠。関東大震災は1923年で、1914年・1917年より後である。"},
+          {"id":4,"text":"エ→ウ→イ→ア","explanation_zh":"陷阱：因果倒置。世界恐慌开始于 1929 年，是四项中最晚。","explanation_ja":"誤り。因果倒置の罠。世界恐慌開始は1929年で、四つの中で最も遅い。"}
+        ],
+        "answer":1,
+        "tag":{
+          "question_form":"時系列整序",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["順序混同"],
+          "keywords_to_avoid":["1923年","関東大震災","1914年","1917年","1929年"],
+          "sub_domain":"自然地理",
+          "syllabus_path":{"area":"III 歴史","field":"歴史","item":"2. 二つの世界大戦とその影響"}
+        },
+        "sources":[{"claim":"Major dates: WWI 1914, Russian Revolution 1917, Great Kanto Earthquake 1923, Great Depression 1929.","source":"Encyclopaedia Britannica, 20th-century events","year":"1929","url":"https://www.britannica.com/event/Great-Depression"}]
+      },
+      {
+        "sub_id":3,
+        "global_id":3,
+        "prompt":"次の文章は、物価差を調整した基準ベース国内総生産の概数（兆国際ドル）である。読み取れる内容として最も適当なものはどれですか。\nアナトリアの国 2010年約1.4、2022年約3.2。ドイツ 2022年約5.3。日本 2022年約5.7。",
+        "choices":[
+          {"id":1,"text":"アナトリアの国の2022年値は2010年値を下回る。","explanation_zh":"陷阱：数值混同。3.2 兆高于 1.4 兆。","explanation_ja":"誤り。数値混同の罠。3.2兆は1.4兆を上回る。"},
+          {"id":2,"text":"2022年のアナトリアの国は、示された三国の中で最大である。","explanation_zh":"陷阱：数值混同。2022 年土耳其约 3.2，低于德国约 5.3 和日本约 5.7。","explanation_ja":"誤り。数値混同の罠。2022年のトルコは約3.2で、ドイツ約5.3、日本約5.7を下回る。"},
+          {"id":3,"text":"アナトリアの国の値は2010年から2022年にかけて増加している。","explanation_zh":"正确。土耳其从约 1.4 兆增至约 3.2 兆。","explanation_ja":"正解。トルコは約1.4兆から約3.2兆へ増加している。"},
+          {"id":4,"text":"日本とドイツの2022年値はどちらも0である。","explanation_zh":"陷阱：范围扩大。资料显示日本和德国均为 5 兆以上。","explanation_ja":"誤り。範囲拡大の罠。資料では日本・ドイツはいずれも5兆を超える。"}
+        ],
+        "answer":3,
+        "tag":{
+          "question_form":"図表読取",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["数値混同"],
+          "keywords_to_avoid":["購買力平価","GDP","トルコ"],
+          "sub_domain":"自然地理",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"4.国民経済"}
+        },
+        "sources":[{"claim":"GDP, PPP (current international $), Turkey, Germany and Japan.","source":"World Bank, GDP PPP","year":"2022","url":"https://data.worldbank.org/indicator/NY.GDP.MKTP.PP.CD"}]
+      },
+      {
+        "sub_id":4,
+        "global_id":4,
+        "prompt":"アナトリアの国の位置と地政学に関する記述として最も適当でないものはどれですか。",
+        "choices":[
+          {"id":1,"text":"アナトリアの国は北大西洋条約機構加盟国であり、黒海と地中海方面を結ぶ海峡をめぐって地政学的重要性をもつ。","explanation_zh":"陷阱：设问反转。这是正确事实，但题目要求选不适当项。","explanation_ja":"誤り。設問反転の罠。正しい事実だが、設問は最も適当でないものを求めている。"},
+          {"id":2,"text":"アナトリアの国はアジア側とヨーロッパ側にまたがる領域をもつ。","explanation_zh":"陷阱：设问反转。这是正确事实，不是不适当项。","explanation_ja":"誤り。設問反転の罠。正しい記述であり、最も適当でないものではない。"},
+          {"id":3,"text":"黒海とマルマラ海を結ぶ海峡海峡は黒海とマルマラ海を結ぶ重要な水路である。","explanation_zh":"陷阱：设问反转。这是海峡位置的正确说明。","explanation_ja":"誤り。設問反転の罠。海峡の位置として正しい。"},
+          {"id":4,"text":"アナトリアの国は内陸国で、海峡や地中海・黒海とは一切関係がない。","explanation_zh":"正确。题目要求选不适当项。土耳其并非内陆国，且与黑海、地中海方向和海峡有关。","explanation_ja":"正解。設問は不適当なものを選ぶ。トルコは内陸国ではなく、黒海・地中海方面や海峡と関係する。"}
+        ],
+        "answer":4,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答誤記述",
+          "trap_patterns":["主体取違"],
+          "keywords_to_avoid":["NATO","スイス","ギリシャ","フランス"],
+          "sub_domain":"自然地理",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"5. 国際政治"}
+        },
+        "sources":[{"claim":"Turkey is a NATO member and controls the Bosporus and Dardanelles straits.","source":"NATO, Türkiye and NATO; Britannica, Bosporus","year":"2024","url":"https://www.nato.int/cps/en/natohq/declassified_191048.htm"}]
+      }
+    ],
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"トルコの位置と地政学",
+      "sub_domain":"自然地理",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "keywords_to_avoid":["トルコ共和国","ヨーロッパ","アジア","ボスポラス海峡"]
+    }
+  },
+  {
+    "id": 2,
+    "title": "問2",
+    "prompt": "各国制度と国際経済の基礎について、下の問いに答えなさい。",
+    "passage": "国家の統治制度、住民数規模、地域的な貿易協定、近代日本の条約改正問題は、総合科目で頻出の基礎事項である。名称だけでなく、制度の中身、国の位置、条約が制限した主権の内容を区別して理解する必要がある。",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":5,
+        "prompt":"州をもつ統治制度国家の識別に関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"州をもつ統治制度とは、すべての地方政府を廃止して中央政府だけを置く制度である。","explanation_zh":"陷阱：概念混淆。联邦制通常由联邦政府和州等构成，地方单位保有一定权力。","explanation_ja":"誤り。概念混同の罠。連邦制は連邦政府と州などから成り、地方単位にも一定の権限がある。"},
+          {"id":2,"text":"欧州の国Bや北米の国Aは、州などの構成単位をもつ州をもつ統治制度国家である。","explanation_zh":"正确。德国和墨西哥都具有州等组成单位，属于联邦制国家。","explanation_ja":"正解。ドイツやメキシコは州などの構成単位をもつ連邦制国家である。"},
+          {"id":3,"text":"欧州の国Bは単一国家で、州政府は一切存在しない。","explanation_zh":"陷阱：范围扩大。德国有州，不能说州政府不存在。","explanation_ja":"誤り。範囲拡大の罠。ドイツには州があり、州政府が存在する。"},
+          {"id":4,"text":"北米の国Aはヨーロッパの島国で、州をもつ統治制度度とは関係がない。","explanation_zh":"陷阱：地域错位。墨西哥位于北美，是联邦共和国。","explanation_ja":"誤り。地域錯位の罠。メキシコは北米に位置する連邦共和国である。"}
+        ],
+        "answer":2,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["主体取違","概念混同"],
+          "keywords_to_avoid":["連邦制","メキシコ","ドイツ"],
+          "sub_domain":"政治体制"
+        },
+        "sources":[{"claim":"Germany and Mexico are federal states.","source":"OECD/UCLG, Country profiles: Germany, Mexico","year":"2024","url":"https://www.oecd.org/regional/regional-policy/profile-Germany.pdf"}]
+      },
+      {
+        "sub_id":2,
+        "global_id":6,
+        "prompt":"住民数規模に関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"南米の国Aの住民数は一億の規模を大きく上回り、西欧の国Bの住民数は一億の規模を下回る。","explanation_zh":"正确。世界银行数据中巴西超过 2 亿人，法国约 6800 万人，低于 1 亿。","explanation_ja":"正解。ブラジルは2億人を超え、フランスは約6800万人で1億人を下回る。"},
+          {"id":2,"text":"南米の国Aの住民数は西欧の国Bの10分の1未満である。","explanation_zh":"陷阱：数值混同。巴西人口多于法国，不是法国的十分之一以下。","explanation_ja":"誤り。数値混同の罠。ブラジル人口はフランスより多く、10分の1未満ではない。"},
+          {"id":3,"text":"西欧の国Bの住民数は現在10億人を超えている。","explanation_zh":"陷阱：数值混同。法国人口约数千万，不是 10 亿。","explanation_ja":"誤り。数値混同の罠。フランスの人口は数千万人規模で、10億人を超えない。"},
+          {"id":4,"text":"住民数とは、国の面積を海岸線で割った値だけをいう。","explanation_zh":"陷阱：概念混淆。人口是居住者数量，不是面积计算。","explanation_ja":"誤り。概念混同の罠。人口は居住者数であり、面積を海岸線で割る値ではない。"}
+        ],
+        "answer":1,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["数値混同"],
+          "keywords_to_avoid":["人口","ブラジル","フランス","1億人"],
+          "sub_domain":"政治体制"
+        },
+        "sources":[{"claim":"Population, total: Brazil and France.","source":"World Bank, Population total","year":"2023","url":"https://data.worldbank.org/indicator/SP.POP.TOTL"}]
+      },
+      {
+        "sub_id":3,
+        "global_id":7,
+        "prompt":"北米の貿易障壁を減らす取引協定に関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"北米協定は南極だけの軍事同盟で、貿易とは関係がない。","explanation_zh":"陷阱：地域错位。NAFTA 是北美贸易协定，不是南极军事同盟。","explanation_ja":"誤り。地域錯位の罠。NAFTAは北米の貿易協定であり、南極の軍事同盟ではない。"},
+          {"id":2,"text":"北米協定は、アメリカ・カナダ・北米の国A間で輸入品への税などの貿易障壁を減らすことをめざした協定である。","explanation_zh":"正确。NAFTA 旨在减少美国、加拿大、墨西哥之间的关税等贸易障碍。","explanation_ja":"正解。NAFTAは米国・カナダ・メキシコ間で関税などの貿易障壁を減らす協定である。"},
+          {"id":3,"text":"貿易障壁を減らす取引とは、輸入をすべて永久に禁止する政策である。","explanation_zh":"陷阱：因果倒置。自由贸易强调降低贸易壁垒，不是永久禁止进口。","explanation_ja":"誤り。因果倒置の罠。自由貿易は貿易障壁の低減をめざし、輸入の永久禁止ではない。"},
+          {"id":4,"text":"輸入品への税とは、国会議員を選ぶ投票用紙の名称である。","explanation_zh":"陷阱：概念混淆。关税是对进出口货物征收的税，不是选票。","explanation_ja":"誤り。概念混同の罠。関税は輸出入品にかかる税であり、投票用紙ではない。"}
+        ],
+        "answer":2,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["概念混同","範囲拡大"],
+          "keywords_to_avoid":["NAFTA","関税","自由貿易"],
+          "sub_domain":"政治体制",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"5. 金融"}
+        },
+        "sources":[{"claim":"NAFTA created a free trade area among Canada, Mexico and the United States.","source":"USTR, North American Free Trade Agreement","year":"1994","url":"https://ustr.gov/trade-agreements/free-trade-agreements/north-american-free-trade-agreement-nafta"}]
+      },
+      {
+        "sub_id":4,
+        "global_id":8,
+        "prompt":"幕末・明治期の主権制限を伴った条約に関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"主権制限を伴った条約は、日本が外国人に外国領事による裁判権を認めず、輸入品への税を完全に自由に決められた条約である。","explanation_zh":"陷阱：因果倒置。不平等条约的问题包括领事裁判权和关税自主权受限。","explanation_ja":"誤り。因果倒置の罠。不平等条約の問題は領事裁判権や関税自主権の制限にあった。"},
+          {"id":2,"text":"外国領事による裁判権とは、米の収穫量だけを測る農業統計である。","explanation_zh":"陷阱：概念混淆。领事裁判权是外国领事对本国民进行裁判的制度。","explanation_ja":"誤り。概念混同の罠。領事裁判権は外国領事が自国民を裁判する制度で、農業統計ではない。"},
+          {"id":3,"text":"主権制限を伴った条約では外国領事による裁判権や輸入品への税自主権の制限が問題となり、明治政府は条約改正を進めた。","explanation_zh":"正确。不平等条约的问题在于领事裁判权和关税自主权受限，明治政府推进条约改正。","explanation_ja":"正解。不平等条約では領事裁判権や関税自主権の制限が問題となり、明治政府は条約改正を進めた。"},
+          {"id":4,"text":"輸入品への税自主権とは、外国との貿易を行う港をすべて閉鎖する権利だけを指す。","explanation_zh":"陷阱：范围缩小。关税自主权是自主决定关税的权利，不是关闭港口。","explanation_ja":"誤り。範囲縮小の罠。関税自主権は関税を自主的に決める権利であり、港の閉鎖だけではない。"}
+        ],
+        "answer":3,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["概念混同","範囲拡大"],
+          "keywords_to_avoid":["不平等条約","領事裁判権","関税自主権"],
+          "sub_domain":"政治体制",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"2. 日本の統治機構"}
+        },
+        "sources":[{"claim":"Unequal treaties limited tariff autonomy and included extraterritoriality.","source":"National Diet Library, Modern Japan in archives: Treaty revision","year":"1899","url":"https://www.ndl.go.jp/modern/e/cha2/description03.html"}]
+      }
+    ],
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"連邦制共和国の識別",
+      "sub_domain":"政治体制",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"1.民主政治"},
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "keywords_to_avoid":["メキシコ","連邦制","共和国"],
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "trap_patterns":["地域取違"]
+    }
+  },
+  {
+    "id": 3,
+    "global_id": 9,
+    "title": "問3",
+    "prompt": "次の文章は、ある農産物の価格と供給量を示している。読み取れる内容として最も適当なものはどれですか。\n価格100円：供給量80トン、価格150円：供給量110トン、価格200円：供給量150トン。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"価格が上がるほど供給量は減少している。","explanation_zh":"陷阱：因果倒置。资料中价格从 100 到 200 日元时，供给量从 80 吨增至 150 吨。","explanation_ja":"誤り。因果倒置の罠。価格上昇に伴い供給量は80トンから150トンへ増えている。"},
+      {"id":2,"text":"価格150円の供給量は0トンである。","explanation_zh":"陷阱：数值混同。价格 150 日元时供给量为 110 吨。","explanation_ja":"誤り。数値混同の罠。価格150円の供給量は110トンである。"},
+      {"id":3,"text":"価格200円の供給量は価格100円の半分である。","explanation_zh":"陷阱：数值混同。150 吨不是 80 吨的一半。","explanation_ja":"誤り。数値混同の罠。150トンは80トンの半分ではない。"},
+      {"id":4,"text":"この資料では、価格が高いほど供給量も多い。","explanation_zh":"正确。三个价格点中，价格越高供给量越多，符合供给曲线的基本方向。","explanation_ja":"正解。三つの価格点では、価格が高いほど供給量が多い。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"農産物の供給曲線と価格変動",
+      "sub_domain":"経済原理・市場",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"2.市場経済"},
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "keywords_to_avoid":["農作物","供給曲線","価格上昇","生産量"],
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "trap_patterns":["概念混同"]
+    },
+    "sources": [{"claim":"Supply curves generally show higher quantity supplied at higher prices.","source":"OpenStax, Principles of Economics 3e, Supply","year":"2023","url":"https://openstax.org/books/principles-economics-3e/pages/3-2-shifts-in-demand-and-supply-for-goods-and-services"}]
+  },
+  {
+    "id": 4,
+    "global_id": 10,
+    "title": "問4",
+    "prompt": "小麦を粉にし、パンを作って販売する例を踏まえると、各生産段階で新たに生み出された価値を合計する考え方について最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"国内総生産は中間財の取引額を何度も足し上げることで求める。","explanation_zh":"陷阱：概念混淆。文章强调避免重复计算，要合计付加价值。","explanation_ja":"誤り。概念混同の罠。本文は重複計算を避けるため付加価値を合計すると述べている。"},
+      {"id":2,"text":"新たに加えた価値は、売上から中間投入を差し引かずに計算する。","explanation_zh":"陷阱：因果倒置。付加价值是产出价值减去中间投入。","explanation_ja":"誤り。因果倒置の罠。付加価値は産出額から中間投入を差し引いて求める。"},
+      {"id":3,"text":"各生産段階で新たに生み出された新たに加えた価値を合計すれば、重複計算を避けて国内総生産を考えられる。","explanation_zh":"正确。文章说明通过合计各阶段新增付加价值，可避免重复计算。","explanation_ja":"正解。各段階の付加価値を合計すれば、重複計算を避けてGDPを考えられる。"},
+      {"id":4,"text":"国内総生産は国内で生産された財・サービスとは無関係な気温指標である。","explanation_zh":"陷阱：概念混淆。GDP 是国内生产活动指标，不是气温指标。","explanation_ja":"誤り。概念混同の罠。GDPは国内生産活動の指標であり、気温指標ではない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"GDP计算と付加価値",
+      "sub_domain":"国民経済・成長",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"4.国民経済"},
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "keywords_to_avoid":["GDP","5000円","12000円","18000円","付加価値"],
+      "question_form":"文章読解",
+      "statement_polarity":"正答正記述",
+      "trap_patterns":["数値混同","概念混同"]
+    },
+    "passage": "国内総生産を生産面から見ると、各生産段階で新たに生み出された新たに加えた価値を合計する。小麦を粉にし、パンを作って販売する場合、中間財の取引額をすべて足すと同じ価値を重複して数えてしまう。そのため、産出額から中間投入を差し引いた新たに加えた価値を合計する考え方が重要である。"
+  },
+  {
+    "id": 5,
+    "global_id": 11,
+    "title": "問5",
+    "prompt": "不況下のインフレ現象に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"不況下のインフレとは、高成長と価格水準下落が同時に進む状態だけを指す。","explanation_zh":"陷阱：因果倒置。滞胀是经济停滞与价格上涨并存。","explanation_ja":"誤り。因果倒置の罠。スタグフレーションは景気停滞と物価上昇が併存する状態である。"},
+      {"id":2,"text":"景気が停滞して失業が高い一方で、価格水準上昇も続く状態を不況下のインフレという。","explanation_zh":"正确。经济停滞和高失业同时伴随通货膨胀，被称为滞胀。","explanation_ja":"正解。景気停滞や高失業と物価上昇が同時に起こる状態をスタグフレーションという。"},
+      {"id":3,"text":"不況下のインフレは、政府の選挙制度の名称であり、価格水準とは無関係である。","explanation_zh":"陷阱：概念混淆。这是宏观经济现象，不是选举制度。","explanation_ja":"誤り。概念混同の罠。スタグフレーションはマクロ経済現象で、選挙制度ではない。"},
+      {"id":4,"text":"価格水準上昇があるときは、必ず景気も強く拡大している。","explanation_zh":"陷阱：范围扩大。供给冲击下可出现物价上升和经济停滞并存。","explanation_ja":"誤り。範囲拡大の罠。供給ショックなどで物価上昇と景気停滞が併存することがある。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"スタグフレーション現象",
+      "sub_domain":"金融・通貨",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"4.国民経済"},
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "keywords_to_avoid":["スタグフレーション","不景気","物価上昇","ハイパーインフレーション"],
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "trap_patterns":["概念混同"]
+    },
+    "sources": [{"claim":"Stagflation is high inflation combined with stagnant growth and unemployment.","source":"IMF, Stagflation","year":"2022","url":"https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/stagflation"}]
+  },
+  {
+    "id": 6,
+    "global_id": 12,
+    "title": "問6",
+    "prompt": "次の文章は、景気後退時の政府の歳出・税制政策の例である。読み取れる内容として最も適当なものはどれですか。\n政府支出：10兆円増加、減税：5兆円、公共事業雇用：30万人増。",
+    "choices": [
+      {"id":1,"text":"政府支出を増やす政策は、総需要を必ず0にする。","explanation_zh":"陷阱：因果倒置。政府支出增加会对总需求形成支撑。","explanation_ja":"誤り。因果倒置の罠。政府支出増は総需要を下支えする方向に働く。"},
+      {"id":2,"text":"減税は家計の可処分所得に影響する可能性が一切ない。","explanation_zh":"陷阱：范围扩大。减税可能增加可支配收入。","explanation_ja":"誤り。範囲拡大の罠。減税は可処分所得を増やす可能性がある。"},
+      {"id":3,"text":"景気後退時には、政府支出増や減税により需要を下支えする政策が考えられる。","explanation_zh":"正确。资料中的支出增加和减税是扩张性财政政策的例子。","explanation_ja":"正解。政府支出増や減税は、景気後退時に需要を下支えする政策として考えられる。"},
+      {"id":4,"text":"公共事業雇用が30万人増えても、雇用にはまったく変化がない。","explanation_zh":"陷阱：数值混同。资料明确说公共事业雇用增加 30 万人。","explanation_ja":"誤り。数値混同の罠。資料では公共事業雇用が30万人増えるとされている。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"財政政策の景気調整機能",
+      "sub_domain":"財政・租税",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"6. 財政"},
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "keywords_to_avoid":["財政政策","景気循環","平準化"],
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "trap_patterns":["概念混同"]
+    },
+    "sources": [{"claim":"Fiscal policy can use spending and taxes to stabilize demand.","source":"IMF, Fiscal Policy","year":"2024","url":"https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Fiscal-Policy"}]
+  },
+  {
+    "id": 7,
+    "global_id": 13,
+    "title": "問7",
+    "prompt": "会社形態Aの法的責任と資金集めに関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"会社形態Aは持分証券発行で広く資金を集められ、株主の責任は原則として出資額に限定される。","explanation_zh":"正确。股份公司可通过发行股票筹资，股东责任原则上限于出资额。","explanation_ja":"正解。株式会社は株式発行で資金を集め、株主の責任は原則として出資額に限られる。"},
+      {"id":2,"text":"株主は会社債務について常に無限責任を負う。","explanation_zh":"陷阱：因果倒置。股份公司的股东通常承担有限责任。","explanation_ja":"誤り。因果倒置の罠。株式会社の株主は通常、有限責任である。"},
+      {"id":3,"text":"持分証券発行は、国が紙幣を印刷することと同じである。","explanation_zh":"陷阱：概念混淆。股票是企业筹资工具，不是中央银行发行货币。","explanation_ja":"誤り。概念混同の罠。株式発行は企業の資金調達であり、紙幣発行ではない。"},
+      {"id":4,"text":"会社形態Aは資金集めのために持分証券や社債を利用することが一切できない。","explanation_zh":"陷阱：范围扩大。股份公司可利用股票和公司债等筹资。","explanation_ja":"誤り。範囲拡大の罠。株式会社は株式や社債などで資金調達できる。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"株式会社の法的責任と資金調達",
+      "sub_domain":"金融・通貨",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"3.経済主体"},
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "keywords_to_avoid":["株式会社","株主責任","倒産","有限責任"],
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "trap_patterns":["範囲拡大","概念混同"]
+    },
+    "sources": [{"claim":"Corporations can raise funds through shares; shareholders have limited liability.","source":"SEC Investor.gov, Stocks","year":"2024","url":"https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks"}]
+  },
+  {
+    "id": 8,
+    "global_id": 14,
+    "title": "問8",
+    "prompt": "20世紀後半の国内経済と通貨交換制度移行に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"20世紀後半の日本では原油価格上昇はなく、物価上昇圧力も生じなかった。","explanation_zh":"陷阱：因果倒置。1970 年代石油危机使原油价格上升并带来通胀压力。","explanation_ja":"誤り。因果倒置の罠。1970年代の石油危機は原油価格上昇と物価上昇圧力をもたらした。"},
+      {"id":2,"text":"固定相場制から変動相場制への移行は、19世紀の江戸幕府の政策である。","explanation_zh":"陷阱：时态错位。主要转变发生在 1970 年代国际货币体系变化中。","explanation_ja":"誤り。時期錯誤の罠。変動相場制への移行は1970年代の国際通貨体制の変化である。"},
+      {"id":3,"text":"変動相場制では、為替相場は政府が永遠に1ドル360円に固定する。","explanation_zh":"陷阱：概念混淆。变动汇率下汇率随市场变化，不是永久固定。","explanation_ja":"誤り。概念混同の罠。変動相場制では相場が市場で変動し、永久固定ではない。"},
+      {"id":4,"text":"20世紀後半には固定相場制から変動相場制への移行や石油危機が、国内経済に大きな影響を与えた。","explanation_zh":"正确。1970 年代浮动汇率转变和石油危机都影响日本经济。","explanation_ja":"正解。1970年代には変動相場制への移行や石油危機が日本経済に大きな影響を与えた。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"1970年代の日本経済と為替相場制移行",
+      "sub_domain":"金融・通貨",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"2.市場経済"},
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "keywords_to_avoid":["1973年","変動為替相場制","円高","円安"],
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "trap_patterns":["時態錯位","概念混同"]
+    },
+    "sources": [{"claim":"Japan moved to floating exchange rates in the 1970s and was affected by oil shocks.","source":"Bank of Japan, History of Monetary Policy","year":"1970s","url":"https://www.boj.or.jp/en/about/outline/history/"}]
+  },
+  {
+    "id": 9,
+    "global_id": 15,
+    "title": "問9",
+    "prompt": "多角的貿易機関（多角的貿易機関）の設立背景に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"多角的貿易機関は関税貿易一般協定体制を発展させ、1995年に発足した多角的貿易体制の機関である。","explanation_zh":"正确。WTO 于 1995 年成立，继承并发展 GATT 多边贸易体制。","explanation_ja":"正解。WTOはGATT体制を発展させ、1995年に発足した多角的貿易体制の機関である。"},
+      {"id":2,"text":"多角的貿易機関は第二次世界大戦前の1919年に国際連盟として発足した。","explanation_zh":"陷阱：时态错位。WTO 成立于 1995 年，不是 1919 年国联。","explanation_ja":"誤り。時期錯誤の罠。WTOは1995年発足で、1919年の国際連盟ではない。"},
+      {"id":3,"text":"多角的貿易機関は世界の気候帯だけを分類する自然地理機関である。","explanation_zh":"陷阱：概念混淆。WTO 处理贸易规则，不是气候分类。","explanation_ja":"誤り。概念混同の罠。WTOは貿易ルールを扱う機関で、気候帯分類ではない。"},
+      {"id":4,"text":"多角的貿易機関は貿易紛争処理と一切関係がない。","explanation_zh":"陷阱：范围扩大。WTO 具有争端解决机制。","explanation_ja":"誤り。範囲拡大の罠。WTOには紛争解決制度がある。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"WTO（世界貿易機関）の設立背景",
+      "sub_domain":"国際政治・外交",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"5. 金融"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","範囲拡大"],
+      "keywords_to_avoid":["WTO","1995年","紛争処理","GATT"]
+    },
+    "sources": [{"claim":"The WTO began on 1 January 1995, succeeding GATT.","source":"WTO, What is the WTO?","year":"1995","url":"https://www.wto.org/english/thewto_e/whatis_e/whatis_e.htm"}]
+  },
+  {
+    "id": 10,
+    "global_id": 16,
+    "title": "問10",
+    "prompt": "次の文章は、貿易比率（財・サービス輸出入額の対GDP比、概数）である。読み取れる内容として最も適当なものはどれですか。\nオランダ約156％、ドイツ約88％、フランス約64％、英国約64％。",
+    "choices": [
+      {"id":1,"text":"オランダの貿易比率はドイツを下回る。","explanation_zh":"陷阱：数值混同。荷兰约 156%，德国约 88%，荷兰更高。","explanation_ja":"誤り。数値混同の罠。オランダ約156％はドイツ約88％を上回る。"},
+      {"id":2,"text":"四国の数値はすべて完全に同じである。","explanation_zh":"陷阱：范围扩大。资料中 156、88、64、64，并不完全相同。","explanation_ja":"誤り。範囲拡大の罠。資料の数値は完全に同じではない。"},
+      {"id":3,"text":"フランスの値はオランダの2倍を超える。","explanation_zh":"陷阱：数值混同。法国约 64%，低于荷兰约 156%。","explanation_ja":"誤り。数値混同の罠。フランス約64％はオランダ約156％を下回る。"},
+      {"id":4,"text":"示された中では、オランダの貿易比率が最も高い。","explanation_zh":"正确。荷兰约 156%，是四国中最高。","explanation_ja":"正解。オランダ約156％が示された中で最も高い。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"欧州各国の貿易依存度比較",
+      "sub_domain":"産業・資源",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"4.国民経済"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["数値混同"],
+      "keywords_to_avoid":["輸出依存度","輸入依存度","ドイツ","イギリス","ベルギー","オランダ"]
+    },
+    "sources": [{"claim":"Trade (% of GDP), selected European countries.","source":"World Bank, Trade (% of GDP)","year":"2022","url":"https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS"}]
+  },
+  {
+    "id": 11,
+    "global_id": 17,
+    "title": "問11",
+    "prompt": "欧州の自由貿易枠組み（欧州の自由貿易枠組み）の発足時メンバーに関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"欧州の自由貿易枠組みはアジアだけの軍事同盟として結成された。","explanation_zh":"陷阱：地域错位。EFTA 是欧洲自由贸易联盟，不是亚洲军事同盟。","explanation_ja":"誤り。地域錯位の罠。EFTAは欧州の自由貿易連合であり、アジアの軍事同盟ではない。"},
+      {"id":2,"text":"欧州の自由貿易枠組みは1960年に英国、スウェーデン、スイス、ノルウェーなどを発足時メンバーとして発足した。","explanation_zh":"正确。EFTA 于 1960 年由英国、瑞典、瑞士、挪威等原加盟国组成。","explanation_ja":"正解。EFTAは1960年に英国、スウェーデン、スイス、ノルウェーなどを原加盟国として発足した。"},
+      {"id":3,"text":"欧州の自由貿易枠組みの発足時メンバーは日本とブラジルだけであった。","explanation_zh":"陷阱：主体错位。创始成员是欧洲国家，不是日本和巴西。","explanation_ja":"誤り。主体錯位の罠。原加盟国は欧州諸国であり、日本とブラジルではない。"},
+      {"id":4,"text":"自由貿易連合とは、貿易を永久に禁止する制度である。","explanation_zh":"陷阱：因果倒置。自由贸易联盟旨在减少贸易障碍。","explanation_ja":"誤り。因果倒置の罠。自由貿易連合は貿易障壁の低減をめざす。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"EFTA（欧州自由貿易連合）の原加盟国",
+      "sub_domain":"近代世界",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"10. 国際経済"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違"],
+      "keywords_to_avoid":["EFTA","EEC","1960年","イギリス"]
+    },
+    "sources": [{"claim":"EFTA was founded in 1960 by seven European countries.","source":"EFTA, About EFTA","year":"1960","url":"https://www.efta.int/about-efta"}]
+  },
+  {
+    "id": 12,
+    "global_id": 18,
+    "title": "問12",
+    "prompt": "日本の働く条件と法制度に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"労働条件法は労働時間や賃金などと一切関係がない。","explanation_zh":"陷阱：范围扩大。劳动基准法规定劳动条件的最低标准。","explanation_ja":"誤り。範囲拡大の罠。労働基準法は労働条件の最低基準を定める。"},
+      {"id":2,"text":"労働者は安全衛生に関する保護を受けることが全くできない。","explanation_zh":"陷阱：因果倒置。劳动安全卫生制度保护劳动者安全和健康。","explanation_ja":"誤り。因果倒置の罠。労働安全衛生制度は労働者の安全と健康を守る。"},
+      {"id":3,"text":"日本では労働条件法などにより、労働時間・休憩・休日などの最低基準が定められている。","explanation_zh":"正确。日本劳动基准法等规定劳动时间、休息、休假等最低标准。","explanation_ja":"正解。日本では労働基準法などにより労働時間・休憩・休日などの最低基準が定められる。"},
+      {"id":4,"text":"賃金の最低基準制度は、気温の最低値を測る気象制度である。","explanation_zh":"陷阱：概念混淆。最低工资是劳动报酬制度，不是气象指标。","explanation_ja":"誤り。概念混同の罠。最低賃金制度は賃金に関する制度で、気象制度ではない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"社会",
+      "topic":"日本の労働環境と法制度",
+      "sub_domain":"社会保障・労働",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"3.経済主体"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["範囲拡大","時態錯位"],
+      "keywords_to_avoid":["男女雇用機会均等法","労働基準法","定年延長","高齢化社会"]
+    },
+    "sources": [{"claim":"Labour Standards Act sets minimum labour conditions in Japan.","source":"厚生労働省, 労働基準法","year":"2024","url":"https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/"}]
+  },
+  {
+    "id": 13,
+    "global_id": 19,
+    "title": "問13",
+    "prompt": "次の数値の説明は、CO2排出規模1人当たりの概数である。読み取れる内容として最も適当なものはどれですか。\n米国約14.4トン、日本約8.0トン、インド約1.9トン。",
+    "choices": [
+      {"id":1,"text":"示された中では、米国の1人当たり排出規模が最も高い。","explanation_zh":"正确。美国约 14.4 吨，高于日本约 8.0 吨和印度约 1.9 吨。","explanation_ja":"正解。米国約14.4トンが日本約8.0トン、インド約1.9トンを上回る。"},
+      {"id":2,"text":"インドの1人当たり排出規模は米国を上回る。","explanation_zh":"陷阱：数值混同。印度约 1.9 吨，低于美国约 14.4 吨。","explanation_ja":"誤り。数値混同の罠。インド約1.9トンは米国約14.4トンを下回る。"},
+      {"id":3,"text":"日本の値は0トンである。","explanation_zh":"陷阱：数值混同。资料中日本约 8.0 吨。","explanation_ja":"誤り。数値混同の罠。資料では日本約8.0トンである。"},
+      {"id":4,"text":"三国の値はすべて同じである。","explanation_zh":"陷阱：范围扩大。三个数值相差明显。","explanation_ja":"誤り。範囲拡大の罠。三国の値は同じではない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"各国のCO₂排出量と経済効率の比較",
+      "sub_domain":"産業・資源",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"4.国民経済"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["数値混同"],
+      "keywords_to_avoid":["CO2排出量","一人当たり","GDP","2013年"]
+    },
+    "sources": [{"claim":"CO2 emissions per capita by country.","source":"World Bank, CO2 emissions metric tons per capita","year":"2020","url":"https://data.worldbank.org/indicator/EN.ATM.CO2E.PC"}]
+  },
+  {
+    "id": 14,
+    "global_id": 20,
+    "title": "問14",
+    "prompt": "次の文章は、正角円筒図法での見かけの広さのゆがみを説明している。読み取れる内容として最も適当なものはどれですか。\n低緯度：広さのゆがみは比較的小さい。極に近い地域：実際より大きく表されやすい。グリーンランド：見かけ上、実広さより大きく見える。",
+    "choices": [
+      {"id":1,"text":"極に近い地域地域ほど広さが実際より大きく表されやすい。","explanation_zh":"正确。资料明确说明高纬度更容易被放大。","explanation_ja":"正解。資料は高緯度ほど面積が実際より大きく表されやすいと示す。"},
+      {"id":2,"text":"正角円筒図法では広さのゆがみが全く生じない。","explanation_zh":"陷阱：范围扩大。资料说明高纬度地区容易被放大。","explanation_ja":"誤り。範囲拡大の罠。資料は高緯度で面積が拡大されやすいと説明している。"},
+      {"id":3,"text":"グリーンランドは低緯度の赤道直下にある。","explanation_zh":"陷阱：地域错位。格陵兰位于高纬度地区。","explanation_ja":"誤り。地域錯位の罠。グリーンランドは高緯度地域である。"},
+      {"id":4,"text":"低緯度ほど必ず実広さの100倍に描かれる。","explanation_zh":"陷阱：数值混同。资料说低纬度地区的变形相对较小。","explanation_ja":"誤り。数値混同の罠。資料では低緯度のゆがみは比較的小さい。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"メルカトル図法の特性と限界",
+      "sub_domain":"自然地理",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["範囲拡大","概念混同"],
+      "keywords_to_avoid":["メルカトル図法","緯線","等角航路","大圏航路"]
+    },
+    "sources": [{"claim":"Mercator projection exaggerates area toward the poles.","source":"Encyclopaedia Britannica, Mercator projection","year":"2024","url":"https://www.britannica.com/science/Mercator-projection"}]
+  },
+  {
+    "id": 15,
+    "global_id": 21,
+    "title": "問15",
+    "prompt": "都市A・都市B・都市C間の標準時の差計算に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"都市Aが正午のとき、都市Bは必ず同じ正午である。","explanation_zh":"陷阱：时差忽略。东京和伦敦存在时差，不能总是同一时刻。","explanation_ja":"誤り。時差無視の罠。東京とロンドンには時差があり、必ず同じ正午ではない。"},
+      {"id":2,"text":"世界の標準時の差は緯度だけで決まり、経度とは関係がない。","explanation_zh":"陷阱：概念混淆。时差主要与经度和时区有关。","explanation_ja":"誤り。概念混同の罠。時差は主に経度・時区と関わる。"},
+      {"id":3,"text":"都市Cは都市Aより常に1日進んでいる。","explanation_zh":"陷阱：因果倒置。通常纽约时间比东京晚。","explanation_ja":"誤り。因果倒置の罠。通常ニューヨークは東京より時刻が遅い。"},
+      {"id":4,"text":"標準時で考えると、都市Aは都市Bより9時間進み、都市Cより14時間進む時期がある。","explanation_zh":"正确。日本标准时间 UTC+9，伦敦标准时 UTC+0，纽约标准时 UTC-5，因此东京分别快 9 和 14 小时。","explanation_ja":"正解。日本標準時UTC+9、ロンドン標準時UTC+0、ニューヨーク標準時UTC-5なので、その時期は東京が9時間・14時間進む。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"東京・ロンドン・ニューヨーク間の時差計算",
+      "sub_domain":"日本地誌",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["数値混同"],
+      "keywords_to_avoid":["東京","ロンドン","ニューヨーク","標準子午線","時差"]
+    },
+    "sources": [{"claim":"Time zones: Tokyo UTC+9, London UTC+0 standard time, New York UTC-5 standard time.","source":"timeanddate.com, Time zones","year":"2024","url":"https://www.timeanddate.com/time/map/"}]
+  },
+  {
+    "id": 16,
+    "global_id": 22,
+    "title": "問16",
+    "prompt": "次の数値の説明は、日本の沿岸の地形区分例である。読み取れる内容として最も適当なものはどれですか。\n入り組んだ沈水海岸：三陸海岸など。砂質の浜海岸：九十九里浜など。珊瑚由来の礁海岸：沖縄周辺など。",
+    "choices": [
+      {"id":1,"text":"三陸海岸は入り組んだ沈水海岸の代表例として挙げられる。","explanation_zh":"正确。资料列明三陆海岸属于里亚斯海岸例子。","explanation_ja":"正解。資料では三陸海岸がリアス海岸の例として示されている。"},
+      {"id":2,"text":"九十九里浜は珊瑚由来の礁海岸の代表例である。","explanation_zh":"陷阱：地域错位。资料中九十九里浜是砂质海岸的例子。","explanation_ja":"誤り。地域錯位の罠。資料では九十九里浜は砂浜海岸の例である。"},
+      {"id":3,"text":"沖縄周辺では珊瑚由来の礁海岸が見られない。","explanation_zh":"陷阱：因果倒置。资料把冲绳周边列为珊瑚礁海岸的例子。","explanation_ja":"誤り。因果倒置の罠。資料では沖縄周辺がサンゴ礁海岸の例である。"},
+      {"id":4,"text":"すべての沿岸は同じ地形に分類される。","explanation_zh":"陷阱：范围扩大。资料列出了多种分类。","explanation_ja":"誤り。範囲拡大の罠。資料は複数の海岸地形を示している。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"日本の海岸線地形分類",
+      "sub_domain":"自然地理",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["リアス海岸","フィヨルド","海岸段丘","三角州"]
+    },
+    "sources": [{"claim":"Japan has ria, sandy and coral reef coasts in different regions.","source":"国土地理院, 日本の地形","year":"2024","url":"https://www.gsi.go.jp/kikaku/tenkei_top.html"}]
+  },
+  {
+    "id": 17,
+    "global_id": 23,
+    "title": "問17",
+    "prompt": "次の文章は、カロリーベース国内供給比率の概数である。読み取れる内容として最も適当なものはどれですか。\n日本約38％、カナダ約233％、オーストラリア約169％。",
+    "choices": [
+      {"id":1,"text":"日本の国内供給比率はカナダより高い。","explanation_zh":"陷阱：数值混同。日本约 38%，加拿大约 233%。","explanation_ja":"誤り。数値混同の罠。日本約38％はカナダ約233％を下回る。"},
+      {"id":2,"text":"示された中では、カナダの国内供給比率が最も高い。","explanation_zh":"正确。加拿大约 233%，高于澳大利亚约 169% 和日本约 38%。","explanation_ja":"正解。カナダ約233％が、オーストラリア約169％、日本約38％を上回る。"},
+      {"id":3,"text":"オーストラリアの値は0％である。","explanation_zh":"陷阱：数值混同。资料中澳大利亚约 169%。","explanation_ja":"誤り。数値混同の罠。資料ではオーストラリア約169％である。"},
+      {"id":4,"text":"三国はいずれも完全に同じ値である。","explanation_zh":"陷阱：范围扩大。三国数值明显不同。","explanation_ja":"誤り。範囲拡大の罠。三国の値は同じではない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"各国の食料自給率比較",
+      "sub_domain":"産業・資源",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["数値混同"],
+      "keywords_to_avoid":["食料自給率","品目別","アメリカ","オーストラリア","スペイン","日本"]
+    },
+    "sources": [{"claim":"Food self-sufficiency ratio, calorie basis, international comparison.","source":"農林水産省, 食料自給率","year":"2022","url":"https://www.maff.go.jp/j/zyukyu/zikyu_ritu/"}]
+  },
+  {
+    "id": 18,
+    "global_id": 24,
+    "title": "問18",
+    "prompt": "次の文章は、気体燃料生産量の概数である。読み取れる内容として最も適当なものはどれですか。\n米国約1,027 bcm、ロシア約699 bcm、カタール約177 bcm。",
+    "choices": [
+      {"id":1,"text":"カタールの生産量は米国を上回る。","explanation_zh":"陷阱：数值混同。卡塔尔约 177，低于美国约 1027。","explanation_ja":"誤り。数値混同の罠。カタール約177は米国約1027を下回る。"},
+      {"id":2,"text":"ロシアの生産量は0である。","explanation_zh":"陷阱：数值混同。资料中俄罗斯约 699。","explanation_ja":"誤り。数値混同の罠。資料ではロシア約699である。"},
+      {"id":3,"text":"示された中では、米国の生産量が最も多い。","explanation_zh":"正确。美国约 1027，高于俄罗斯约 699 和卡塔尔约 177。","explanation_ja":"正解。米国約1027がロシア約699、カタール約177を上回る。"},
+      {"id":4,"text":"三国の生産量はすべて同じである。","explanation_zh":"陷阱：范围扩大。三个数值不同。","explanation_ja":"誤り。範囲拡大の罠。三国の数値は同じではない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"天然ガスの産出と輸出国の識別",
+      "sub_domain":"産業・資源",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"10. 国際経済"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["数値混同"],
+      "keywords_to_avoid":["天然ガス","産出","輸出","2013年","ロシア"]
+    },
+    "sources": [{"claim":"Natural gas production by country.","source":"Energy Institute Statistical Review of World Energy","year":"2023","url":"https://www.energyinst.org/statistical-review"}]
+  },
+  {
+    "id": 19,
+    "global_id": 25,
+    "title": "問19",
+    "prompt": "第一次世界大戦後の欧州で、強力な指導者や国民統合を重視し、個人の自由や議会制を抑圧する政治運動について最も適当なものはどれですか。",
+    "passage": "第一次世界大戦後のヨーロッパでは、戦争被害、経済不安、社会主義運動への警戒などを背景に、自由主義議会政治への不満が広がった。ファシズムは、強力な指導者、反共主義、国民統合、軍事的動員を重視し、個人の自由や議会制を抑圧する傾向をもった。",
+    "choices": [
+      {"id":1,"text":"ファシズムは個人の自由と議会制を無制限に拡大した運動である。","explanation_zh":"陷阱：因果倒置。文章说法西斯主义倾向于压制个人自由和议会制。","explanation_ja":"誤り。因果倒置の罠。本文ではファシズムは個人の自由や議会制を抑圧する傾向を持つとされる。"},
+      {"id":2,"text":"ファシズムは戦後不安や反共主義などを背景に、強力な指導者と国民統合を重視した。","explanation_zh":"正确。文章明确提到战后不安、反共主义、强力领导者和国民统合。","explanation_ja":"正解。本文は戦後不安や反共主義を背景に、強力な指導者と国民統合を重視したと述べる。"},
+      {"id":3,"text":"ファシズムは熱帯雨林の植生分類だけを意味する。","explanation_zh":"陷阱：概念混淆。文章讨论政治思想，不是植被分类。","explanation_ja":"誤り。概念混同の罠。本文は政治思想を扱っており、植生分類ではない。"},
+      {"id":4,"text":"第一次世界大戦後の欧州には経済不安が一切なかった。","explanation_zh":"陷阱：范围扩大。文章说明战后有经济不安。","explanation_ja":"誤り。範囲拡大の罠。本文は戦後の経済不安に触れている。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"ファシズムの定義と第一次大戦後の欧州思想",
+      "sub_domain":"現代日本",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"2. 二つの世界大戦とその影響"},
+      "question_form":"文章読解",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["ファシズム","共産主義","自由主義","民主主義"]
+    }
+  },
+  {
+    "id": 20,
+    "global_id": 26,
+    "title": "問20",
+    "prompt": "各国の政治体制比較に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"すべての国は同じ政治体制を採り、議会制や大統領制の違いは存在しない。","explanation_zh":"陷阱：范围扩大。各国有议会制、总统制、单党制等不同制度。","explanation_ja":"誤り。範囲拡大の罠。各国には議院内閣制、大統領制などの違いがある。"},
+      {"id":2,"text":"大統領制とは、議会が存在してはならない制度である。","explanation_zh":"陷阱：概念混淆。总统制国家也可有议会。","explanation_ja":"誤り。概念混同の罠。大統領制の国にも議会は存在しうる。"},
+      {"id":3,"text":"政治体制を比較するときは、国家元首、政府首班、議会との関係を区別して見る必要がある。","explanation_zh":"正确。比较政治体制时，需要区分国家元首、政府首脑和议会关系。","explanation_ja":"正解。政治体制比較では国家元首、政府首班、議会との関係を区別して見る必要がある。"},
+      {"id":4,"text":"政治体制は国旗の色だけで完全に決まる。","explanation_zh":"陷阱：概念混淆。政治制度不由国旗颜色决定。","explanation_ja":"誤り。概念混同の罠。政治体制は国旗の色だけで決まらない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"各国の政治体制比較",
+      "sub_domain":"政治体制",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"1.民主政治"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","範囲拡大"],
+      "keywords_to_avoid":["立憲君主制","大統領制","議院内閣制","議会"]
+    },
+    "sources": [{"claim":"Political systems vary between parliamentary, presidential and one-party systems.","source":"CIA World Factbook, Government type","year":"2024","url":"https://www.cia.gov/the-world-factbook/field/government-type/"}]
+  },
+  {
+    "id": 21,
+    "global_id": 27,
+    "title": "問21",
+    "prompt": "日本国会の権限範囲に関する記述として最も適当でないものはどれですか。",
+    "choices": [
+      {"id":1,"text":"国会はすべての民事・刑事事件を最終審として裁判する。","explanation_zh":"正确。题目要求选不适当项。司法权属于法院，国会不是所有案件的终审法院。","explanation_ja":"正解。設問は不適当なものを選ぶ。司法権は裁判所に属し、国会が全事件の最終審を行うわけではない。"},
+      {"id":2,"text":"国会は国権の最高機関であり、唯一の立法機関とされる。","explanation_zh":"陷阱：设问反转。这是宪法中的正确说明，不是不适当项。","explanation_ja":"誤り。設問反転の罠。憲法上の正しい説明であり、不適当ではない。"},
+      {"id":3,"text":"国会には法律の制定や予算の議決に関わる権限がある。","explanation_zh":"陷阱：设问反转。这是国会权限的正确说明。","explanation_ja":"誤り。設問反転の罠。国会の権限として正しい。"},
+      {"id":4,"text":"内閣総理大臣の指名は国会の重要な権限である。","explanation_zh":"陷阱：设问反转。这是宪法规定的国会权限之一。","explanation_ja":"誤り。設問反転の罠。内閣総理大臣の指名は国会の権限である。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"日本国会の権限範囲",
+      "sub_domain":"三権分立・統治機構",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"3. 日本国憲法"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答誤記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["範囲拡大","主体取違"],
+      "keywords_to_avoid":["国会","憲法改正","予算議決","条約承認","弾劾裁判所"]
+    },
+    "sources": [{"claim":"The Diet is the sole law-making organ; judicial power belongs to courts.","source":"Japanese Law Translation, Constitution of Japan","year":"1947","url":"https://www.japaneselawtranslation.go.jp/en/laws/view/174"}]
+  },
+  {
+    "id": 22,
+    "global_id": 28,
+    "title": "問22",
+    "prompt": "日本の内閣総理大臣の職務と権限に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"内閣総理大臣は最高裁判所のすべての判決を単独で破棄できる。","explanation_zh":"陷阱：主体错位。司法判断不是首相单独废弃的对象。","explanation_ja":"誤り。主体錯位の罠。司法判断を首相が単独で破棄できるわけではない。"},
+      {"id":2,"text":"内閣総理大臣は国務大臣を任命し、任意に罷免することができる。","explanation_zh":"正确。日本宪法第 68 条规定首相任命并可罢免国务大臣。","explanation_ja":"正解。憲法第68条は、内閣総理大臣が国務大臣を任命し、任意に罷免できると定める。"},
+      {"id":3,"text":"内閣総理大臣は国会議員である必要が一切ない。","explanation_zh":"陷阱：因果倒置。首相由国会议员中指名。","explanation_ja":"誤り。因果倒置の罠。内閣総理大臣は国会議員の中から指名される。"},
+      {"id":4,"text":"内閣総理大臣とは地方裁判所の書記官の別名である。","explanation_zh":"陷阱：概念混淆。首相是内阁首长，不是法院书记官。","explanation_ja":"誤り。概念混同の罠。内閣総理大臣は内閣の首長であり、裁判所書記官ではない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"日本の内閣総理大臣の職務と権限",
+      "sub_domain":"三権分立・統治機構",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"2. 日本の統治機構"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","範囲拡大"],
+      "keywords_to_avoid":["内閣総理大臣","罷免権","国会議員","不信任案"]
+    },
+    "sources": [{"claim":"The Prime Minister appoints and may remove Ministers of State.","source":"Japanese Law Translation, Constitution of Japan Article 68","year":"1947","url":"https://www.japaneselawtranslation.go.jp/en/laws/view/174"}]
+  },
+  {
+    "id": 23,
+    "global_id": 29,
+    "title": "問23",
+    "prompt": "日本国憲法第20条が保障する信教の自由と、国やその機関に関する説明として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"第20条は信教の自由を否定し、特定宗教への加入を義務づける。","explanation_zh":"陷阱：因果倒置。文章说第 20 条保障信教自由。","explanation_ja":"誤り。因果倒置の罠。本文は第20条が信教の自由を保障すると述べる。"},
+      {"id":2,"text":"政教分離は、国家が特定宗教を強制するための原則である。","explanation_zh":"陷阱：因果倒置。文章说政教分离防止优待和强制特定宗教。","explanation_ja":"誤り。因果倒置の罠。本文は特定宗教の優遇・強制を防ぐ原則と述べる。"},
+      {"id":3,"text":"政教分離は、国家による特定宗教の優遇・強制を防ぎ、信教の自由を守るための原則である。","explanation_zh":"正确。这与文章内容一致。","explanation_ja":"正解。本文内容と一致する。"},
+      {"id":4,"text":"第20条は租税の税率だけを定め、宗教とは無関係である。","explanation_zh":"陷阱：概念混淆。文章说明第 20 条涉及信教自由和政教分离。","explanation_ja":"誤り。概念混同の罠。第20条は信教の自由と政教分離に関わる。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"日本国憲法第20条と政教分離",
+      "sub_domain":"憲法・人権",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"3. 日本国憲法"},
+      "question_form":"文章読解",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["政教分離","宗教教育","宗教的活動","国及びその機関"]
+    },
+    "passage": "日本国憲法第20条は、信教の自由を保障し、国やその機関が宗教教育その他いかなる宗教的活動もしてはならないと定める。政教分離は、国家が特定宗教を優遇・強制することを防ぎ、個人の信教の自由を守るための原則である。"
+  },
+  {
+    "id": 24,
+    "global_id": 30,
+    "title": "問24",
+    "prompt": "日本国憲法が定める国民の三つの義務に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"三つの義務とは、旅行・貯金・投票の義務である。","explanation_zh":"陷阱：概念混淆。宪法上的三大义务不是这三项。","explanation_ja":"誤り。概念混同の罠。憲法上の三大義務は旅行・貯金・投票ではない。"},
+      {"id":2,"text":"納税の義務は憲法に定められていない。","explanation_zh":"陷阱：因果倒置。宪法第 30 条规定纳税义务。","explanation_ja":"誤り。因果倒置の罠。憲法第30条は納税の義務を定める。"},
+      {"id":3,"text":"教育を受けさせる義務、勤労の義務、納税の義務が国民の三つの義務とされる。","explanation_zh":"正确。日本宪法规定受教育、勤劳和纳税三项国民义务。","explanation_ja":"正解。教育を受けさせる義務、勤労の義務、納税の義務が国民の三つの義務とされる。"},
+      {"id":4,"text":"勤労の義務とは、外国為替相場を毎日計算する義務である。","explanation_zh":"陷阱：概念混淆。勤劳义务不是汇率计算义务。","explanation_ja":"誤り。概念混同の罠。勤労の義務は外国為替計算義務ではない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"日本国憲法が定める国民の三つの義務",
+      "sub_domain":"憲法・人権",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"3. 日本国憲法"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["範囲拡大","主体取違"],
+      "keywords_to_avoid":["国民の義務","勤労","教育","納税"]
+    },
+    "sources": [{"claim":"Constitution of Japan provides duties of education, work, and tax payment.","source":"Japanese Law Translation, Constitution of Japan Articles 26-30","year":"1947","url":"https://www.japaneselawtranslation.go.jp/en/laws/view/174"}]
+  },
+  {
+    "id": 25,
+    "global_id": 31,
+    "title": "問25",
+    "prompt": "アメリカの陪審制の機能と権限に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"陪審は必ず法律を制定し、大統領を罷免する機関である。","explanation_zh":"陷阱：概念混淆。陪审团不是立法机关或总统罢免机关。","explanation_ja":"誤り。概念混同の罠。陪審は立法機関でも大統領罷免機関でもない。"},
+      {"id":2,"text":"陪審員は裁判の事実認定に一切関与しない。","explanation_zh":"陷阱：因果倒置。陪审团在审判中承担事实认定职能。","explanation_ja":"誤り。因果倒置の罠。陪審員は裁判で事実認定に関与する。"},
+      {"id":3,"text":"陪審制は企業の株主配当を決める制度である。","explanation_zh":"陷阱：概念混淆。陪审制是司法制度，不是公司分红制度。","explanation_ja":"誤り。概念混同の罠。陪審制は司法制度であり、株主配当制度ではない。"},
+      {"id":4,"text":"陪審は裁判で証拠に基づき事実を判断し、有罪・無罪などの評決に関与する。","explanation_zh":"正确。美国陪审团根据证据判断事实，并参与有罪无罪等裁决。","explanation_ja":"正解。陪審は証拠に基づき事実を判断し、有罪・無罪などの評決に関与する。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"アメリカの陪審制の機能と権限",
+      "sub_domain":"三権分立・統治機構",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"2. 日本の統治機構"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違"],
+      "keywords_to_avoid":["陪審制","陪審員","有罪判定","量刑"]
+    },
+    "sources": [{"claim":"Juries decide facts in U.S. trials; judges instruct on law.","source":"United States Courts, Jury Service","year":"2024","url":"https://www.uscourts.gov/services-forms/jury-service"}]
+  },
+  {
+    "id": 26,
+    "global_id": 32,
+    "title": "問26",
+    "prompt": "ウィーン会議と勢力均衡原則に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"ウィーン会議は第二次世界大戦後に国際連合を創設した会議である。","explanation_zh":"陷阱：时态错位。维也纳会议为 1814-1815 年拿破仑战争后会议。","explanation_ja":"誤り。時期錯誤の罠。ウィーン会議は1814〜1815年の会議であり、第二次世界大戦後ではない。"},
+      {"id":2,"text":"ウィーン会議では、ナポレオン戦争後の欧州秩序を再建し、勢力均衡が重視された。","explanation_zh":"正确。维也纳会议重建拿破仑战争后的欧洲秩序并重视势力均衡。","explanation_ja":"正解。ウィーン会議ではナポレオン戦争後の欧州秩序再建と勢力均衡が重視された。"},
+      {"id":3,"text":"勢力均衡とは、一国に全世界の権力を集中させる原則である。","explanation_zh":"陷阱：因果倒置。势力均衡旨在防止单一国家过度支配。","explanation_ja":"誤り。因果倒置の罠。勢力均衡は一国の過度な支配を防ぐ考え方である。"},
+      {"id":4,"text":"ウィーン会議は南米の農産物価格だけを決めた会議である。","explanation_zh":"陷阱：地域错位。会议焦点是欧洲国际秩序。","explanation_ja":"誤り。地域錯位の罠。会議の焦点は欧州国際秩序である。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"ウィーン会議と勢力均衡原則",
+      "sub_domain":"近代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"1. 近代化の進展とその影響"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["ウィーン会議","フランス革命","勢力均衡","1814年","1815年"]
+    },
+    "sources": [{"claim":"The Congress of Vienna sought to restore balance of power after Napoleon.","source":"Encyclopaedia Britannica, Congress of Vienna","year":"1815","url":"https://www.britannica.com/event/Congress-of-Vienna"}]
+  },
+  {
+    "id": 27,
+    "global_id": 33,
+    "title": "問27",
+    "prompt": "ア: 公害対策基本法、イ: 環境庁設置、ウ: 環境基本法、エ: 循環型社会形成推進基本法を、年代の古い順に並べたものはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"ウ→エ→ア→イ","explanation_zh":"陷阱：时态错位。环境基本法 1993 年，晚于 1967 年公害对策基本法和 1971 年环境厅设置。","explanation_ja":"誤り。時期錯誤の罠。環境基本法は1993年で、1967年・1971年より後である。"},
+      {"id":2,"text":"イ→ア→ウ→エ","explanation_zh":"陷阱：顺序混淆。公害对策基本法 1967 年早于 1971 年环境厅设置。","explanation_ja":"誤り。順序混同の罠。公害対策基本法は1967年で、1971年の環境庁設置より早い。"},
+      {"id":3,"text":"ア→イ→ウ→エ","explanation_zh":"正确。1967 年公害对策基本法、1971 年环境厅、1993 年环境基本法、2000 年循环型社会形成推进基本法。","explanation_ja":"正解。1967年公害対策基本法、1971年環境庁、1993年環境基本法、2000年循環型社会形成推進基本法の順である。"},
+      {"id":4,"text":"エ→ウ→イ→ア","explanation_zh":"陷阱：因果倒置。2000 年的法律最晚，不能排在最前。","explanation_ja":"誤り。因果倒置の罠。2000年の法律が最も遅く、最初には置けない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"日本の環境問題対策法制の時系列",
+      "sub_domain":"現代日本",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の社会","item":"1. 環境と資源"},
+      "question_form":"時系列整序",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["順序混同"],
+      "keywords_to_avoid":["公害対策基本法","環境基本法","循環型社会形成推進基本法","地球温暖化対策税"]
+    },
+    "sources": [{"claim":"Environmental Basic Act chronology and related Japanese environmental laws.","source":"環境省, 環境白書・環境基本法","year":"2000","url":"https://www.env.go.jp/policy/hakusyo/"}]
+  },
+  {
+    "id": 28,
+    "global_id": 34,
+    "title": "問28",
+    "prompt": "アメリカ南北戦争の原因と背景に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"南北戦争は20世紀末の情報通信産業だけをめぐる争いであった。","explanation_zh":"陷阱：时态错位。南北战争发生于 1861-65 年，不是 20 世纪末。","explanation_ja":"誤り。時期錯誤の罠。南北戦争は1861〜65年で、20世紀末ではない。"},
+      {"id":2,"text":"奴隷制問題は南北戦争の背景と一切関係がない。","explanation_zh":"陷阱：因果倒置。奴隶制问题是重要背景之一。","explanation_ja":"誤り。因果倒置の罠。奴隷制問題は南北戦争の重要な背景である。"},
+      {"id":3,"text":"奴隷制をめぐる対立、州の権限、南部諸州の離脱などが南北戦争の背景となった。","explanation_zh":"正确。奴隶制、州权和南部州脱离是南北战争背景。","explanation_ja":"正解。奴隷制をめぐる対立、州の権限、南部諸州の離脱などが背景となった。"},
+      {"id":4,"text":"南北戦争はアメリカではなく古代ローマの内戦だけを指す。","explanation_zh":"陷阱：主体错位。题目中的南北战争指美国内战。","explanation_ja":"誤り。主体錯位の罠。ここでの南北戦争はアメリカの内戦である。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"アメリカ南北戦争の原因と背景",
+      "sub_domain":"近代世界",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"4.政治参加"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違","概念混同"],
+      "keywords_to_avoid":["南北戦争","綿花","自由貿易","奴隷制"]
+    },
+    "sources": [{"claim":"The American Civil War was rooted in slavery, sectional conflict and secession.","source":"Encyclopaedia Britannica, American Civil War","year":"1861","url":"https://www.britannica.com/event/American-Civil-War"}]
+  },
+  {
+    "id": 29,
+    "global_id": 35,
+    "title": "問29",
+    "prompt": "ドイツ帝国ヴィルヘルム2世の政策に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"ヴィルヘルム2世はビスマルクを退け、世界政策や海軍拡張を進めた。","explanation_zh":"正确。威廉二世让俾斯麦退位后，推进世界政策和海军扩张。","explanation_ja":"正解。ヴィルヘルム2世はビスマルクを退け、世界政策や海軍拡張を進めた。"},
+      {"id":2,"text":"ヴィルヘルム2世は18世紀のフランス王で、ドイツ帝国とは無関係である。","explanation_zh":"陷阱：主体错位。威廉二世是德意志帝国皇帝。","explanation_ja":"誤り。主体錯位の罠。ヴィルヘルム2世はドイツ帝国皇帝である。"},
+      {"id":3,"text":"世界政策とは、海外進出を一切やめて内陸農業だけに集中する政策である。","explanation_zh":"陷阱：因果倒置。世界政策是积极海外政策。","explanation_ja":"誤り。因果倒置の罠。世界政策は積極的な海外政策である。"},
+      {"id":4,"text":"海軍拡張は学校給食の献立だけを決める政策である。","explanation_zh":"陷阱：概念混淆。海军扩张是军事政策，不是学校供餐。","explanation_ja":"誤り。概念混同の罠。海軍拡張は軍事政策であり、学校給食ではない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"ドイツ帝国ヴィルヘルム2世の政策",
+      "sub_domain":"近代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"1. 近代化の進展とその影響"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位","主体取違"],
+      "keywords_to_avoid":["ヴィルヘルム2世","世界政策","文化闘争","ドイツ統一"]
+    },
+    "sources": [{"claim":"Wilhelm II pursued Weltpolitik and naval expansion.","source":"Encyclopaedia Britannica, William II","year":"1890s","url":"https://www.britannica.com/biography/William-II-emperor-of-Germany"}]
+  },
+  {
+    "id": 30,
+    "global_id": 36,
+    "title": "問30",
+    "prompt": "第一次世界大戦後の国際情勢変化に関する記述として最も適当でないものはどれですか。",
+    "choices": [
+      {"id":1,"text":"国際連盟が設立され、集団安全保障の理念が掲げられた。","explanation_zh":"陷阱：设问反转。这是正确事实，但题目要求选择不适当项。","explanation_ja":"誤り。設問反転の罠。正しい事実だが、設問は不適当なものを求めている。"},
+      {"id":2,"text":"オーストリア＝ハンガリー帝国など旧帝国の解体が進んだ。","explanation_zh":"陷阱：设问反转。这是战后国际变化之一。","explanation_ja":"誤り。設問反転の罠。戦後変化として正しい。"},
+      {"id":3,"text":"民族自決の理念が国際政治で重要な語として用いられた。","explanation_zh":"陷阱：设问反转。这是战后秩序讨论中的重要理念。","explanation_ja":"誤り。設問反転の罠。戦後秩序で重要な理念として用いられた。"},
+      {"id":4,"text":"第一次世界大戦後、国際連合がただちに成立し、すべての戦争を完全に防止した。","explanation_zh":"正确。题目要求选不适当项。国際連合成立在二战后，国联也未能完全防止战争。","explanation_ja":"正解。設問は不適当なものを選ぶ。国際連合は第二次世界大戦後の成立で、国際連盟も戦争を完全には防げなかった。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"第一次世界大戦後の国際情勢変化",
+      "sub_domain":"現代日本",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"2. 二つの世界大戦とその影響"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答誤記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位","因果倒置"],
+      "keywords_to_avoid":["ヴェルサイユ条約","国際連盟","東欧","アジア","米西戦争"]
+    },
+    "sources": [{"claim":"After World War I, the League of Nations was created and empires collapsed.","source":"Encyclopaedia Britannica, World War I aftermath","year":"1919","url":"https://www.britannica.com/event/World-War-I"}]
+  },
+  {
+    "id": 31,
+    "global_id": 37,
+    "title": "問31",
+    "prompt": "次の文章は、カロリーベース食料自給率の概数である。読み取れる内容として最も適当なものはどれですか。\n日本約38％、英国約65％、フランス約121％。",
+    "choices": [
+      {"id":1,"text":"日本の値はフランスを上回る。","explanation_zh":"陷阱：数值混同。日本约 38%，法国约 121%。","explanation_ja":"誤り。数値混同の罠。日本約38％はフランス約121％を下回る。"},
+      {"id":2,"text":"英国の値は0％である。","explanation_zh":"陷阱：数值混同。资料中英国约 65%。","explanation_ja":"誤り。数値混同の罠。資料では英国約65％である。"},
+      {"id":3,"text":"三国の値はすべて完全に同じである。","explanation_zh":"陷阱：范围扩大。三个数值不同。","explanation_ja":"誤り。範囲拡大の罠。三国の値は異なる。"},
+      {"id":4,"text":"示された中では、フランスの値が最も高い。","explanation_zh":"正确。法国约 121%，高于英国约 65% 和日本约 38%。","explanation_ja":"正解。フランス約121％が英国約65％、日本約38％を上回る。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"各国の食料自給率比較",
+      "sub_domain":"産業・資源",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"2. 二つの世界大戦とその影響"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["数値混同"],
+      "keywords_to_avoid":["食料自給率","品目別","アメリカ","オーストラリア","スペイン","日本"]
+    },
+    "sources": [{"claim":"Food self-sufficiency ratio international comparison.","source":"農林水産省, 食料自給率","year":"2022","url":"https://www.maff.go.jp/j/zyukyu/zikyu_ritu/"}]
+  },
+  {
+    "id": 32,
+    "global_id": 38,
+    "title": "問32",
+    "prompt": "次の文章は、天然ガス輸出量の概数である。読み取れる内容として最も適当なものはどれですか。\nカタール約127 bcm、ノルウェー約120 bcm、米国約196 bcm。",
+    "choices": [
+      {"id":1,"text":"カタールの輸出量は米国を上回る。","explanation_zh":"陷阱：数值混同。卡塔尔约 127，美国约 196。","explanation_ja":"誤り。数値混同の罠。カタール約127は米国約196を下回る。"},
+      {"id":2,"text":"示された中では、米国の輸出量が最も多い。","explanation_zh":"正确。美国约 196，高于卡塔尔约 127 和挪威约 120。","explanation_ja":"正解。米国約196がカタール約127、ノルウェー約120を上回る。"},
+      {"id":3,"text":"ノルウェーの輸出量は0である。","explanation_zh":"陷阱：数值混同。资料中挪威约 120。","explanation_ja":"誤り。数値混同の罠。資料ではノルウェー約120である。"},
+      {"id":4,"text":"三国の輸出量は完全に同じである。","explanation_zh":"陷阱：范围扩大。三个数值并不相同。","explanation_ja":"誤り。範囲拡大の罠。三国の数値は同じではない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"天然ガスの産出と輸出国の識別",
+      "sub_domain":"産業・資源",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"2. 二つの世界大戦とその影響"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["数値混同"],
+      "keywords_to_avoid":["天然ガス","産出","輸出","2013年","ロシア"]
+    },
+    "sources": [{"claim":"Natural gas exports by country.","source":"Energy Institute Statistical Review of World Energy","year":"2023","url":"https://www.energyinst.org/statistical-review"}]
+  }
+]
+}

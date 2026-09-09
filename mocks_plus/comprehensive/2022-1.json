@@ -1,0 +1,989 @@
+{
+  "subject": "comprehensive",
+  "section": "",
+  "year": 2022,
+  "round": 1,
+  "title": "模擬試験 総合科目 第七回",
+  "image_path": "comprehensive/images/2022-1",
+  "questions": [
+  {
+    "id": 1,
+    "title": "問1",
+    "prompt": "シンガポールに関する次の文章を読み，下の問い(1)〜(4)に答えなさい。",
+    "passage": "シンガポールはマレー半島の南端に位置する島嶼国家で，マラッカ海峡の東口に面する交通の要衝である。1819年にイギリスの東インド会社のラッフルズが商館を設置して以来，自由港として発展した。1965年にマレーシアから分離独立し，多民族（中華系・マレー系・インド系）社会のもとで，貿易・金融・製造業を柱に経済成長を遂げた。1967年に結成されたASEAN（東南アジア諸国連合）の原加盟国の一つでもある。",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":1,
+        "prompt":"シンガポールの位置に関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"シンガポールはインドシナ半島の中央部に位置する内陸国である。","explanation_zh":"陷阱：地域错位。新加坡是岛国，位于马来半岛南端，不在印度支那半岛中部。","explanation_ja":"誤り。地域取違の罠。シンガポールはマレー半島南端の島国であり，インドシナ半島内陸ではない。"},
+          {"id":2,"text":"シンガポールはペルシア湾岸に面し，主要産業は石油輸出である。","explanation_zh":"陷阱：地域错位。新加坡位于东南亚，并非波斯湾沿岸。","explanation_ja":"誤り。地域取違の罠。シンガポールは東南アジアにあり，ペルシア湾岸ではない。"},
+          {"id":3,"text":"シンガポールは台湾海峡に面する島で，対岸の中国大陸と陸続きである。","explanation_zh":"陷阱：地域错位。新加坡远离台湾海峡，亦无与中国大陆陆路相连。","explanation_ja":"誤り。地域取違の罠。シンガポールは台湾海峡には面しておらず，中国大陸と陸続きでもない。"},
+          {"id":4,"text":"シンガポールはマレー半島南端に位置し，マラッカ海峡に面する。","explanation_zh":"正确。文中明确指出新加坡位于马来半岛南端，面向马六甲海峡。","explanation_ja":"正解。本文にあるとおり，シンガポールはマレー半島南端に位置し，マラッカ海峡の東口に面する。"}
+        ],
+        "answer":4,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["地域取違"],
+          "keywords_to_avoid":["東経104度"],
+          "sub_domain":"アジア地誌",
+          "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"}
+        },
+        "sources":[{"claim":"Singapore is an island state at the southern tip of the Malay Peninsula on the Strait of Malacca.","source":"Encyclopaedia Britannica, Singapore","year":"2024","url":"https://www.britannica.com/place/Singapore"}]
+      },
+      {
+        "sub_id":2,
+        "global_id":2,
+        "prompt":"シンガポールの近現代史に関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"シンガポールは19世紀初頭にオランダ領となり，現在もオランダ連邦の一部である。","explanation_zh":"陷阱：时态错位。19 世纪初新加坡由英国人莱佛士开埠，并未成为荷兰领土，今日为独立共和国。","explanation_ja":"誤り。時態錯位の罠。19世紀初頭にラッフルズが商館を置きイギリスの拠点となった。現在も独立共和国である。"},
+          {"id":2,"text":"シンガポールは江戸幕府により1639年に開港された日本の自治領であった。","explanation_zh":"陷阱：时态错位。新加坡历史与江户幕府无关，开埠是 1819 年的英国行为。","explanation_ja":"誤り。時態錯位の罠。シンガポールの開港は1819年でラッフルズによる。江戸幕府とは無関係。"},
+          {"id":3,"text":"シンガポールは1965年にマレーシアから分離独立し，共和国となった。","explanation_zh":"正确。文中指出新加坡 1965 年从马来西亚分离独立。","explanation_ja":"正解。本文どおり，シンガポールは1965年にマレーシアから分離独立した。"},
+          {"id":4,"text":"シンガポールは2000年代に入って初めてイギリスの植民地となった。","explanation_zh":"陷阱：时态错位。新加坡早在 19 世纪初便成为英国势力据点，并非 2000 年代。","explanation_ja":"誤り。時態錯位の罠。シンガポールは19世紀初頭からイギリスの拠点で，2000年代の植民地化ではない。"}
+        ],
+        "answer":3,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["時態錯位"],
+          "keywords_to_avoid":["19世紀初頭"],
+          "sub_domain":"アジア地誌"
+        },
+        "sources":[{"claim":"Singapore became fully independent from Malaysia on 9 August 1965.","source":"Singapore National Library Board, History of Singapore","year":"1965","url":"https://eresources.nlb.gov.sg/history/events/dc1efe7a-8159-40b2-9244-cdb078755013"}]
+      },
+      {
+        "sub_id":3,
+        "global_id":3,
+        "prompt":"次の数値は，シンガポールの一人当たり名目GDP（米ドル）の推移である。\n2000年：約23,800ドル，2010年：約47,200ドル，2020年：約60,700ドル，2022年：約82,800ドル。\nこのデータから読み取れる内容として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"一人当たり名目GDPは2000年から2022年にかけて一貫して低下している。","explanation_zh":"陷阱：因果倒置。数据显示从 2000 年的约 23,800 美元上升至 2022 年的约 82,800 美元，是持续上升。","explanation_ja":"誤り。因果倒置の罠。2000年約23,800ドルから2022年約82,800ドルへ上昇しており，低下していない。"},
+          {"id":2,"text":"2010年の一人当たり名目GDPは2000年の値を下回っている。","explanation_zh":"陷阱：数值混同。2010 年约 47,200 美元高于 2000 年的约 23,800 美元。","explanation_ja":"誤り。数値混同の罠。2010年約47,200ドルは2000年約23,800ドルを上回る。"},
+          {"id":3,"text":"2022年の値は2000年の値とほぼ同じである。","explanation_zh":"陷阱：范围扩大。2022 年约 82,800 美元约为 2000 年的 3.5 倍，并非接近。","explanation_ja":"誤り。範囲拡大の罠。2022年の値は2000年の約3.5倍であり，ほぼ同じではない。"},
+          {"id":4,"text":"一人当たり名目GDPは2000年から2022年にかけて約3倍以上に増加した。","explanation_zh":"正确。从约 23,800 美元升至约 82,800 美元，约为 3.5 倍。","explanation_ja":"正解。約23,800ドルから約82,800ドルへ約3.5倍に増加している。"}
+        ],
+        "answer":4,
+        "tag":{
+          "question_form":"図表読取",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["概念混同"],
+          "keywords_to_avoid":["ASEAN"],
+          "sub_domain":"アジア地誌",
+          "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"}
+        },
+        "sources":[{"claim":"Singapore GDP per capita rose from ~US$23,800 (2000) to ~US$82,800 (2022).","source":"World Bank, GDP per capita (current US$), Singapore","year":"2022","url":"https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SG"}]
+      },
+      {
+        "sub_id":4,
+        "global_id":4,
+        "prompt":"次の数値は，シンガポールの民族別人口構成（市民・永住者ベース，2020年）である。\n中華系：約74.3％，マレー系：約13.5％，インド系：約9.0％，その他：約3.2％。\nこのデータから読み取れる内容として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"マレー系が住民の過半数を占める。","explanation_zh":"陷阱：数值混同。马来系约 13.5%，远不到过半。","explanation_ja":"誤り。数値混同の罠。マレー系は約13.5％で過半数には届かない。"},
+          {"id":2,"text":"中華系が最大の割合を占め，マレー系・インド系がこれに次ぐ。","explanation_zh":"正确。中华系约 74.3% 最高，其次为马来系约 13.5%、印度系约 9.0%。","explanation_ja":"正解。中華系約74.3％が最大で，マレー系約13.5％とインド系約9.0％が続く。"},
+          {"id":3,"text":"インド系が最大の割合を占める。","explanation_zh":"陷阱：主体错位。最大者为中华系，并非印度系。","explanation_ja":"誤り。主体取違の罠。最大は中華系であり，インド系ではない。"},
+          {"id":4,"text":"住民全員が単一民族で構成されている。","explanation_zh":"陷阱：范围扩大。数据列出多个民族，并非单一民族构成。","explanation_ja":"誤り。範囲拡大の罠。データは複数の民族からなる多民族社会を示している。"}
+        ],
+        "answer":2,
+        "tag":{
+          "question_form":"図表読取",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["概念混同"],
+          "keywords_to_avoid":["シンガポール"],
+          "sub_domain":"アジア地誌",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"4.国民経済"}
+        },
+        "sources":[{"claim":"Resident population by ethnic group, Singapore 2020: Chinese 74.3%, Malay 13.5%, Indian 9.0%, Others 3.2%.","source":"Singapore Department of Statistics, Population Trends 2020","year":"2020","url":"https://www.singstat.gov.sg/-/media/files/publications/population/population2020.pdf"}]
+      }
+    ],
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"シンガポール地誌",
+      "sub_domain":"アジア地誌",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"2. 現代世界の諸地域"},
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "keywords_to_avoid":["シンガポール","東経104度","マレーシア","ASEAN"]
+    }
+  },
+  {
+    "id": 2,
+    "title": "問2",
+    "prompt": "19世紀末から20世紀初頭のベルギーとコンゴに関する次の文章を読み，下の問い(1)〜(4)に答えなさい。",
+    "passage": "ベルギーはオランダ語系のフラマン人とフランス語系のワロン人を主な言語集団とする立憲君主国で，1830年にオランダから独立した。国王レオポルド2世は1885年のベルリン会議をきっかけにアフリカ中央部のコンゴ盆地を個人領「コンゴ自由国」として獲得し，ゴムや象牙の収奪のもとで現地住民に過酷な強制労働を強いた。国際的批判の高まりにより，1908年にコンゴはベルギー政府の植民地「ベルギー領コンゴ」に移管された。コンゴが独立してコンゴ共和国（後のザイール，現コンゴ民主共和国）となるのは1960年である。",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":5,
+        "prompt":"ベルギーの言語集団に関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"ベルギーの主な言語集団はオランダ語系のフラマン人とフランス語系のワロン人である。","explanation_zh":"正确。文中明确说明比利时主要语言群体为佛拉芒人和瓦隆人。","explanation_ja":"正解。本文どおり，主な言語集団はフラマン人とワロン人である。"},
+          {"id":2,"text":"ベルギーの主な言語集団は日本語系とハングル系の二集団である。","explanation_zh":"陷阱：主体错位。比利时与日语、韩语群体无关。","explanation_ja":"誤り。主体取違の罠。ベルギーの主要言語集団はフラマン人とワロン人。"},
+          {"id":3,"text":"ベルギーは単一民族・単一言語の国であり，言語的分裂は存在しない。","explanation_zh":"陷阱：范围扩大。比利时实际上存在两大语言群体。","explanation_ja":"誤り。範囲拡大の罠。ベルギーには複数の言語集団が存在する。"},
+          {"id":4,"text":"ベルギーの主な言語集団はアラビア語系とスワヒリ語系である。","explanation_zh":"陷阱：主体错位。比利时主要语言为荷兰语和法语，不是阿拉伯语和斯瓦希里语。","explanation_ja":"誤り。主体取違の罠。ベルギーの主要言語はオランダ語とフランス語。"}
+        ],
+        "answer":1,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["主体取違"],
+          "keywords_to_avoid":["言語集団"],
+          "sub_domain":"近代世界",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"4.政治参加"}
+        },
+        "sources":[{"claim":"Belgium's two main linguistic communities are Dutch-speaking Flemings and French-speaking Walloons.","source":"CIA World Factbook, Belgium","year":"2024","url":"https://www.cia.gov/the-world-factbook/countries/belgium/"}]
+      },
+      {
+        "sub_id":2,
+        "global_id":6,
+        "prompt":"次の数値は，ベルギーの首都ブリュッセルの月別平均気温（℃）と平均降水量（mm）である。\n1月：平均気温3.3℃，降水量76mm。7月：平均気温18.4℃，降水量74mm。年間平均気温約10.5℃，年間降水量約821mm。\nこのデータから読み取れる気候の特徴として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"夏と冬で降水量が極端に異なり，乾季と雨季の明確な区別がある。","explanation_zh":"陷阱：概念混淆。1 月 76mm、7 月 74mm，降水量并未在季节间出现剧烈差异。","explanation_ja":"誤り。概念混同の罠。1月76mm，7月74mmで季節差は大きくない。"},
+          {"id":2,"text":"年間平均気温が25℃を超え，熱帯気候に分類される。","explanation_zh":"陷阱：数值混同。年平均气温约 10.5℃，远低于热带气候的 25℃。","explanation_ja":"誤り。数値混同の罠。年平均気温は約10.5℃で熱帯ではない。"},
+          {"id":3,"text":"夏は温暖で冬は穏やか，降水は年間を通じて比較的均等に分布する西岸海洋性気候の特徴を示す。","explanation_zh":"正确。气温和降水的年内分布显示典型西岸海洋性气候。","explanation_ja":"正解。気温・降水の分布は西岸海洋性気候（Cfb）の典型例である。"},
+          {"id":4,"text":"1月の平均気温が氷点下20℃を下回り，亜寒帯の特徴を示す。","explanation_zh":"陷阱：数值混同。1 月平均气温为 3.3℃，并非低于零下 20℃。","explanation_ja":"誤り。数値混同の罠。1月平均気温は3.3℃で氷点下20℃を下回らない。"}
+        ],
+        "answer":3,
+        "tag":{
+          "question_form":"図表読取",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["概念混同"],
+          "keywords_to_avoid":["ハイサーグラフ"],
+          "sub_domain":"近代世界"
+        },
+        "sources":[{"claim":"Brussels climate normals: January ~3.3°C / 76mm, July ~18.4°C / 74mm, annual mean ~10.5°C, annual precipitation ~821mm.","source":"Royal Meteorological Institute of Belgium (KMI/IRM), climate normals 1991–2020","year":"2020","url":"https://www.meteo.be/en/climate/climate-of-belgium/climate-normals/temperature"}]
+      },
+      {
+        "sub_id":3,
+        "global_id":7,
+        "prompt":"次の数値は，ベルギーの粗鋼生産量（百万トン）の推移である。\n1960年：約7.2，1980年：約12.3，2000年：約11.6，2020年：約6.1。\nこのデータから読み取れる内容として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"粗鋼生産量は1960年から2020年まで一貫して急増し続けている。","explanation_zh":"陷阱：时态错位。2020 年约 6.1 百万吨低于 1980 年峰值，并未持续增加。","explanation_ja":"誤り。時態錯位の罠。2020年約6.1は1980年約12.3を下回り，一貫した増加ではない。"},
+          {"id":2,"text":"1980年に最低値を記録した。","explanation_zh":"陷阱：数值混同。1980 年约 12.3 百万吨为时段内最高，并非最低。","explanation_ja":"誤り。数値混同の罠。1980年約12.3は最高であり最低ではない。"},
+          {"id":3,"text":"2020年の生産量は1980年の値を上回る。","explanation_zh":"陷阱：数值混同。2020 年约 6.1 百万吨低于 1980 年的约 12.3 百万吨。","explanation_ja":"誤り。数値混同の罠。2020年約6.1は1980年約12.3を下回る。"},
+          {"id":4,"text":"1980年代をピークに，その後2020年にかけて生産量は半減程度まで減少した。","explanation_zh":"正确。从 1980 年约 12.3 百万吨降至 2020 年约 6.1 百万吨，约为半数。","explanation_ja":"正解。1980年約12.3から2020年約6.1へ約半減している。"}
+        ],
+        "answer":4,
+        "tag":{
+          "question_form":"図表読取",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["時態錯位"],
+          "keywords_to_avoid":["粗鋼生産量"],
+          "sub_domain":"近代世界"
+        },
+        "sources":[{"claim":"Belgium crude steel production declined from over 12 Mt in 1980 to ~6 Mt in 2020.","source":"World Steel Association, Steel Statistical Yearbook","year":"2021","url":"https://worldsteel.org/data/world-steel-in-figures/"}]
+      },
+      {
+        "sub_id":4,
+        "global_id":8,
+        "prompt":"レオポルド2世とコンゴに関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"レオポルド2世は南アメリカのアマゾン地域を個人領として領有した。","explanation_zh":"陷阱：地域错位。利奥波德二世个人领地是非洲中部的刚果，并非亚马逊。","explanation_ja":"誤り。地域取違の罠。彼の個人領はアフリカ中部のコンゴで，アマゾンではない。"},
+          {"id":2,"text":"レオポルド2世は東南アジアのインドシナ半島を個人領としていた。","explanation_zh":"陷阱：地域错位。这片地区为法国势力范围，与利奥波德二世个人领地无关。","explanation_ja":"誤り。地域取違の罠。インドシナ半島はフランスの勢力圏で，レオポルド2世の領地ではない。"},
+          {"id":3,"text":"レオポルド2世はアフリカ中央部のコンゴ盆地を個人領「コンゴ自由国」とし，過酷な収奪を行った。","explanation_zh":"正确。文中说明利奥波德二世以个人名义获取刚果盆地，并实施严苛掠夺。","explanation_ja":"正解。本文どおり，アフリカ中央部のコンゴ盆地を個人領「コンゴ自由国」とした。"},
+          {"id":4,"text":"コンゴはレオポルド2世の死後すぐに独立し，1910年に共和国となった。","explanation_zh":"陷阱：时态错位。刚果于 1908 年成为比利时正式殖民地，1960 年才独立。","explanation_ja":"誤り。時態錯位の罠。1908年にベルギー政府の植民地となり，独立は1960年。"}
+        ],
+        "answer":3,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["地域取違"],
+          "keywords_to_avoid":["コンゴ"],
+          "sub_domain":"近代世界"
+        },
+        "sources":[{"claim":"The Congo Free State was Leopold II's personal possession from 1885 to 1908, after which it became the Belgian Congo; Congo independence was 1960.","source":"Encyclopaedia Britannica, Congo Free State","year":"1908","url":"https://www.britannica.com/place/Congo-Free-State"}]
+      }
+    ],
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"ベルギー・レオポルド2世",
+      "sub_domain":"近代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"1. 近代化の進展とその影響"},
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "keywords_to_avoid":["ベルギー","レオポルド2世"]
+    }
+  },
+  {
+    "id": 3,
+    "global_id": 9,
+    "title": "問3",
+    "prompt": "アダム・スミスの経済思想に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"アダム・スミスは『資本論』を著し，資本主義を批判する剰余価値論を展開した。","explanation_zh":"陷阱：主体错位。《资本论》是马克思的著作，并非亚当·斯密。","explanation_ja":"誤り。主体取違の罠。『資本論』はマルクスの著作で，スミスではない。"},
+      {"id":2,"text":"アダム・スミスは生産・流通・分配のすべてを国家が一元的に計画する計画経済を提唱した。","explanation_zh":"陷阱：概念混淆。亚当·斯密主张自由市场，反对国家完全统制。","explanation_ja":"誤り。概念混同の罠。スミスは自由市場を支持し，国家計画ではない。"},
+      {"id":3,"text":"アダム・スミスは20世紀のケインズと同時代の経済学者で，有効需要の原理を提唱した。","explanation_zh":"陷阱：时态错位。亚当·斯密生活在 18 世纪，凯恩斯是 20 世纪人物。","explanation_ja":"誤り。時態錯位の罠。スミスは18世紀の人物で，ケインズと同時代ではない。"},
+      {"id":4,"text":"アダム・スミスは『国富論』で，個人の利己的行動が「見えざる手」を通じて社会全体の利益につながると論じた。","explanation_zh":"正确。亚当·斯密在《国富论》中提出「看不见的手」与自由市场调节论。","explanation_ja":"正解。スミスは『国富論』で「見えざる手」による市場調整を論じた。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"アダム・スミス",
+      "sub_domain":"経済思想・経済史",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"2.市場経済"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違"],
+      "keywords_to_avoid":["市場"]
+    },
+    "sources": [{"claim":"Adam Smith's Wealth of Nations (1776) introduces the 'invisible hand' metaphor.","source":"Britannica, Adam Smith","year":"1776","url":"https://www.britannica.com/biography/Adam-Smith"}]
+  },
+  {
+    "id": 4,
+    "global_id": 10,
+    "title": "問4",
+    "prompt": "市場の失敗に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"工場の排煙による公害のように，市場取引の当事者以外に不利益を与える外部不経済は，市場の失敗の一例である。","explanation_zh":"正确。负外部性是市场失灵的典型例子。","explanation_ja":"正解。外部不経済は市場の失敗の典型例である。"},
+      {"id":2,"text":"完全競争市場では，需要と供給の調整によって資源配分の効率が常に達成されるため，これを市場の失敗という。","explanation_zh":"陷阱：概念混淆。完全竞争达到效率正是市场成功，并非市场失灵。","explanation_ja":"誤り。概念混同の罠。完全競争での効率達成は市場の成功であり失敗ではない。"},
+      {"id":3,"text":"市場の失敗とは，株式市場で株価が一時的に下落することのみを指す。","explanation_zh":"陷阱：概念混淆。市场失灵指资源配置无法达到效率，并非股市的暂时下跌。","explanation_ja":"誤り。概念混同の罠。市場の失敗は資源配分の非効率を指し，株価の一時的下落ではない。"},
+      {"id":4,"text":"国防や警察などの公共財は，対価を払わずに利用できないため，市場が効率的に供給する。","explanation_zh":"陷阱：因果倒置。公共财因非排他性而市场难以充分供给，属于市场失灵情形。","explanation_ja":"誤り。因果倒置の罠。公共財は非排除性ゆえ市場供給が不足し，市場の失敗例となる。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"市場の失敗",
+      "sub_domain":"経済原理・市場",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"3.経済主体"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["外部性"]
+    },
+    "sources": [{"claim":"Externalities (e.g., pollution) and public goods are standard examples of market failure.","source":"OpenStax, Principles of Economics 3e, Externalities and Public Goods","year":"2023","url":"https://openstax.org/books/principles-economics-3e/pages/12-introduction-to-environmental-protection-and-negative-externalities"}]
+  },
+  {
+    "id": 5,
+    "global_id": 11,
+    "title": "問5",
+    "prompt": "中央銀行の金融政策に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"景気が過熱して物価が上昇しすぎたとき，中央銀行は政策金利を引き下げて貨幣供給を増やす。","explanation_zh":"陷阱：因果倒置。通胀过热时一般是上调政策利率以抑制总需求。","explanation_ja":"誤り。因果倒置の罠。景気過熱時は通常，政策金利を引き上げる。"},
+      {"id":2,"text":"景気が低迷しているとき，中央銀行は政策金利を引き下げて貨幣供給を増やし，総需要を刺激しようとする。","explanation_zh":"正确。这是扩张性货币政策的基本机理。","explanation_ja":"正解。景気低迷時の政策金利引下げは総需要を刺激する金融緩和の基本である。"},
+      {"id":3,"text":"政策金利とは，国会議員の歳費の決定に用いられる利率であり，景気とは無関係である。","explanation_zh":"陷阱：概念混淆。政策利率是央行的货币政策工具，与议员薪资无关。","explanation_ja":"誤り。概念混同の罠。政策金利は中央銀行の金融政策手段で，議員歳費とは無関係。"},
+      {"id":4,"text":"中央銀行が政策金利を変動させても，市中金利や民間投資には一切影響を与えない。","explanation_zh":"陷阱：范围扩大。政策利率会通过市场利率影响投资和消费。","explanation_ja":"誤り。範囲拡大の罠。政策金利の変更は市中金利を通じて投資・消費に影響する。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"金融政策",
+      "sub_domain":"金融・通貨",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"3.経済主体"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["政策金利"]
+    },
+    "sources": [{"claim":"Lowering the policy rate is the standard expansionary monetary policy tool in a recession.","source":"IMF, Monetary Policy and Central Banking","year":"2024","url":"https://www.imf.org/en/About/Factsheets/Sheets/2023/monetary-policy-and-central-banking"}]
+  },
+  {
+    "id": 6,
+    "global_id": 12,
+    "title": "問6",
+    "prompt": "株式会社の議決権に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"株主総会での議決権は，出資額にかかわらず1人1票である。","explanation_zh":"陷阱：概念混淆。日本会社法原则采用一股一表决权，并非一人一票。","explanation_ja":"誤り。概念混同の罠。原則は一株一議決権であり，一人一票ではない。"},
+      {"id":2,"text":"議決権は会社の従業員全員に1票ずつ平等に与えられる。","explanation_zh":"陷阱：主体错位。表决权属于股东，并非全体员工。","explanation_ja":"誤り。主体取違の罠。議決権は株主が有し，従業員全員に与えられるものではない。"},
+      {"id":3,"text":"議決権は原則として保有する株式1株につき1票で行使される。","explanation_zh":"正确。日本公司法基本原则为一股一表决权。","explanation_ja":"正解。日本の会社法では原則として一株一議決権である。"},
+      {"id":4,"text":"議決権は，すべての場合において一切行使することができない。","explanation_zh":"陷阱：范围扩大。股东可在股东大会上正常行使表决权。","explanation_ja":"誤り。範囲拡大の罠。株主は株主総会で議決権を行使できる。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"株式会社",
+      "sub_domain":"金融・通貨",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"3.経済主体"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["範囲拡大"],
+      "keywords_to_avoid":["議決権"]
+    },
+    "sources": [{"claim":"Japanese Companies Act follows the one-share-one-vote principle for shareholder voting.","source":"会社法 第308条","year":"2005","url":"https://elaws.e-gov.go.jp/document?lawid=417AC0000000086"}]
+  },
+  {
+    "id": 7,
+    "global_id": 13,
+    "title": "問7",
+    "prompt": "直接税と間接税に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"所得税や法人税は，納税義務者と税負担者が原則として一致する直接税である。","explanation_zh":"正确。直接税的特征是纳税人与负担者一致，所得税与法人税属此类。","explanation_ja":"正解。所得税・法人税は納税者と担税者が一致する直接税である。"},
+      {"id":2,"text":"消費税は，納税義務者である消費者が直接税務署に納める直接税である。","explanation_zh":"陷阱：概念混淆。消费税由事业者代收代缴，纳税人与负担者分离，属间接税。","explanation_ja":"誤り。概念混同の罠。消費税は事業者が納付し，担税者と異なるため間接税。"},
+      {"id":3,"text":"間接税とは，所得の多寡に応じて納税義務者本人が直接所得を申告して納める税である。","explanation_zh":"陷阱：概念混淆。题述实为直接税的特征，并非间接税。","explanation_ja":"誤り。概念混同の罠。所得に応じて本人が納めるのは直接税の特徴である。"},
+      {"id":4,"text":"直接税と間接税の区別は，現在の日本の税制度では一切用いられていない。","explanation_zh":"陷阱：范围扩大。日本税制中明确区分直接税与间接税。","explanation_ja":"誤り。範囲拡大の罠。日本の税制では直接税・間接税の区別が用いられている。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"直接税・間接税",
+      "sub_domain":"財政・租税",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"6. 財政"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["租税収入"]
+    },
+    "sources": [{"claim":"Income tax and corporate tax are direct taxes; consumption tax is an indirect tax in Japan.","source":"国税庁, 税の種類","year":"2024","url":"https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/shoto315.htm"}]
+  },
+  {
+    "id": 8,
+    "global_id": 14,
+    "title": "問8",
+    "prompt": "次の数値は，日本のマネーストック（M3，平均残高，兆円）の推移である。\n2000年：約1,002，2010年：約1,082，2020年：約1,468，2022年：約1,584。\nこのデータから読み取れる内容として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"日本のM3は2000年から2022年にかけて増加傾向にあり，2020年以降は特に増加幅が拡大している。","explanation_zh":"正确。2000 年约 1,002 万亿日元升至 2022 年约 1,584 万亿日元，2020 年后增幅尤为明显。","explanation_ja":"正解。2000年約1,002から2022年約1,584へ増加し，特に2020年以降の伸びが大きい。"},
+      {"id":2,"text":"M3とは中央銀行が発行する紙幣の枚数のみを示す指標である。","explanation_zh":"陷阱：概念混淆。M3 包括现金通货和存款通货等广义货币量，并非仅纸币张数。","explanation_ja":"誤り。概念混同の罠。M3は現金通貨と預金通貨を含む広義の貨幣量で，紙幣枚数のみではない。"},
+      {"id":3,"text":"M3は2000年から2022年まで一貫して減少している。","explanation_zh":"陷阱：因果倒置。数据显示总体增加，并非减少。","explanation_ja":"誤り。因果倒置の罠。データは増加傾向を示しており減少ではない。"},
+      {"id":4,"text":"2022年のM3は2000年の値の100倍を超える。","explanation_zh":"陷阱：数值混同。约 1,584 万亿日元仅约为 1,002 万亿日元的 1.6 倍。","explanation_ja":"誤り。数値混同の罠。約1,584は約1,002の100倍ではなく，1.6倍程度である。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"マネーストック",
+      "sub_domain":"金融・通貨",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"4.国民経済"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["預金通貨"]
+    },
+    "sources": [{"claim":"Japan M3 (monetary aggregate) increased from ~1,000 to ~1,580 trillion yen, 2000–2022.","source":"Bank of Japan, Monetary Survey (Money Stock Statistics)","year":"2022","url":"https://www.boj.or.jp/en/statistics/money/ms/index.htm"}]
+  },
+  {
+    "id": 9,
+    "global_id": 15,
+    "title": "問9",
+    "prompt": "次の数値は，主要国の国民負担率（租税負担率＋社会保障負担率，対国民所得比，％）の比較である。\n日本（2020年）：47.9，アメリカ（2020年）：32.3，ドイツ（2020年）：54.0，フランス（2020年）：69.9，スウェーデン（2020年）：54.5。\nこのデータから読み取れる内容として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"日本の国民負担率は，示された5か国の中で最も高い。","explanation_zh":"陷阱：数值混同。日本约 47.9%，低于法国 69.9%、瑞典 54.5%、德国 54.0%。","explanation_ja":"誤り。数値混同の罠。日本47.9％はフランス69.9％などを下回る。"},
+      {"id":2,"text":"示された中ではフランスの国民負担率が最も高く，アメリカが最も低い。","explanation_zh":"正确。法国 69.9% 最高，美国 32.3% 最低。","explanation_ja":"正解。フランス69.9％が最高，アメリカ32.3％が最低である。"},
+      {"id":3,"text":"アメリカの国民負担率は日本を上回っている。","explanation_zh":"陷阱：数值混同。美国 32.3% 低于日本 47.9%。","explanation_ja":"誤り。数値混同の罠。アメリカ32.3％は日本47.9％を下回る。"},
+      {"id":4,"text":"5か国の値はすべて完全に等しい。","explanation_zh":"陷阱：范围扩大。各国数值差异显著。","explanation_ja":"誤り。範囲拡大の罠。5か国の値は等しくなく明確に差がある。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"国民負担率",
+      "sub_domain":"財政・租税",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"6. 財政"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["数値混同"],
+      "keywords_to_avoid":["負担率"]
+    },
+    "sources": [{"claim":"National burden ratio (taxes + social security) as % of national income, 2020: Japan 47.9, US 32.3, Germany 54.0, France 69.9, Sweden 54.5.","source":"財務省, 国民負担率の国際比較","year":"2020","url":"https://www.mof.go.jp/tax_policy/summary/condition/a04.htm"}]
+  },
+  {
+    "id": 10,
+    "global_id": 16,
+    "title": "問10",
+    "prompt": "日本の食料自給率に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"日本のカロリーベース食料自給率は，1960年代以降一貫して90％以上を保っている。","explanation_zh":"陷阱：时态错位。日本卡路里基础粮食自给率从 1960 年代 70% 多持续下降至 40% 前后。","explanation_ja":"誤り。時態錯位の罠。1960年代から低下を続け，近年は40％前後で推移している。"},
+      {"id":2,"text":"日本のカロリーベース食料自給率は，1960年代以降低下傾向にあり，近年は40％前後で推移している。","explanation_zh":"正确。日本卡路里基础粮食自给率从约 70 多 % 持续下降，近年大致维持在 40% 前后。","explanation_ja":"正解。1960年代の70％台から低下し，近年は40％前後で推移している。"},
+      {"id":3,"text":"日本のカロリーベース食料自給率は現在200％を超えており，世界最大の食料輸出国である。","explanation_zh":"陷阱：数值混同。约 200% 是加拿大水准；日本远未达此水平。","explanation_ja":"誤り。数値混同の罠。日本は約40％であり，200％超は加拿大などの水準。"},
+      {"id":4,"text":"食料自給率とは，国内総生産に占める農業生産額の割合をいう。","explanation_zh":"陷阱：概念混淆。粮食自给率指国内消费中由国内生产所占的比例，并非 GDP 中农业产值占比。","explanation_ja":"誤り。概念混同の罠。食料自給率は国内消費に占める国内生産の割合で，GDP比ではない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"社会",
+      "topic":"農業",
+      "sub_domain":"その他社会",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"6. 財政"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["時態錯位"],
+      "keywords_to_avoid":["食料自給率"]
+    },
+    "sources": [{"claim":"Japan's calorie-based food self-sufficiency ratio has hovered around 38–40% recently, down from ~73% in 1965.","source":"農林水産省, 食料自給率の推移","year":"2022","url":"https://www.maff.go.jp/j/zyukyu/zikyu_ritu/012.html"}]
+  },
+  {
+    "id": 11,
+    "global_id": 17,
+    "title": "問11",
+    "prompt": "北欧諸国とEU（欧州連合）の関係に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"スウェーデンとフィンランドはEU加盟国であるが，ノルウェーとアイスランドはEUには加盟していない。","explanation_zh":"正确。瑞典、芬兰为 EU 成员国；挪威、冰岛非 EU 成员，仅参与 EEA。","explanation_ja":"正解。スウェーデンとフィンランドはEU加盟国，ノルウェーとアイスランドは非加盟である。"},
+      {"id":2,"text":"北欧5か国（スウェーデン・フィンランド・ノルウェー・デンマーク・アイスランド）はすべてEU加盟国である。","explanation_zh":"陷阱：范围扩大。挪威、冰岛并非 EU 成员国。","explanation_ja":"誤り。範囲拡大の罠。ノルウェーとアイスランドはEU加盟国ではない。"},
+      {"id":3,"text":"EUとは，加盟国が主権をすべて放棄して単一国家を形成する軍事同盟である。","explanation_zh":"陷阱：概念混淆。EU 是经济与政治联合体，并非完全单一国家或纯军事同盟。","explanation_ja":"誤り。概念混同の罠。EUは経済・政治統合体で，主権放棄の単一国家ではない。"},
+      {"id":4,"text":"北欧諸国はいずれもEUには加盟しておらず，独自の経済圏を形成している。","explanation_zh":"陷阱：主体错位。瑞典、芬兰、丹麦均为 EU 成员国。","explanation_ja":"誤り。主体取違の罠。スウェーデン・フィンランド・デンマークはEU加盟国である。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"北欧・EU",
+      "sub_domain":"国際政治・外交",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"5. 国際政治"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["EU"]
+    },
+    "sources": [{"claim":"Sweden, Finland, Denmark are EU member states; Norway and Iceland are not.","source":"European Union, Country profiles","year":"2024","url":"https://european-union.europa.eu/principles-countries-history/country-profiles_en"}]
+  },
+  {
+    "id": 12,
+    "global_id": 18,
+    "title": "問12",
+    "prompt": "次の数値は，日本の旅行収支（国際収支ベース，億円）の推移である。\n2010年：約−1.3兆円（赤字），2015年：約＋1.1兆円（黒字），2019年：約＋2.7兆円（黒字），2020年：約＋0.6兆円（黒字），2022年：約＋0.6兆円（黒字）。\nこのデータから読み取れる内容として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"日本の旅行収支は，2010年から2022年まで一貫して赤字である。","explanation_zh":"陷阱：时态错位。2010 年仍为赤字，但 2015 年以后转为顺差。","explanation_ja":"誤り。時態錯位の罠。2010年は赤字でも2015年以降は黒字基調に転換した。"},
+      {"id":2,"text":"日本の旅行収支は2010年に赤字であったが，訪日外国人旅行者の増加を背景に2015年頃に黒字化し，その後も黒字基調が続いている。","explanation_zh":"正确。2010 年赤字，2015 年起转黑字，与访日外国人快速增加吻合。","explanation_ja":"正解。2010年の赤字から2015年頃に黒字化し，以後も黒字基調にある。"},
+      {"id":3,"text":"日本の旅行収支は2019年に−10兆円規模の赤字となった。","explanation_zh":"陷阱：数值混同。2019 年实际上是约 +2.7 万亿日元的顺差。","explanation_ja":"誤り。数値混同の罠。2019年は約＋2.7兆円の黒字で，10兆円規模の赤字ではない。"},
+      {"id":4,"text":"旅行収支とは，金融機関の貸付残高を示す指標である。","explanation_zh":"陷阱：概念混淆。旅游收支属于服务收支项目，与金融贷款无关。","explanation_ja":"誤り。概念混同の罠。旅行収支はサービス収支の項目で，貸付残高ではない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"サービス収支",
+      "sub_domain":"国際経済・貿易",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"5. 金融"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["時態錯位"],
+      "keywords_to_avoid":["旅行"]
+    },
+    "sources": [{"claim":"Japan's travel balance turned from deficit (~-1.3 tn JPY in 2010) to surplus (+1.1 tn in 2015, +2.7 tn in 2019).","source":"日本銀行, 国際収支統計（旅行収支）","year":"2022","url":"https://www.boj.or.jp/statistics/br/bop_06/index.htm"}]
+  },
+  {
+    "id": 13,
+    "global_id": 19,
+    "title": "問13",
+    "prompt": "次の数値は，主要国のエネルギー起源CO₂排出量（百万トン，2021年）である。\n中国：約11,472，アメリカ：約4,752，インド：約2,648，ロシア：約1,756，日本：約1,067。\nこのデータから読み取れる内容として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"日本のCO₂排出量は，示された5か国の中で最大である。","explanation_zh":"陷阱：数值混同。日本约 1,067 百万吨，是 5 国中最少。","explanation_ja":"誤り。数値混同の罠。日本約1,067は5か国中最小である。"},
+      {"id":2,"text":"インドのCO₂排出量は中国を上回る。","explanation_zh":"陷阱：数值混同。中国约 11,472 远高于印度约 2,648。","explanation_ja":"誤り。数値混同の罠。中国約11,472はインド約2,648を大きく上回る。"},
+      {"id":3,"text":"5か国の値はすべてほぼ同じである。","explanation_zh":"陷阱：范围扩大。中国与日本相差约 10 倍。","explanation_ja":"誤り。範囲拡大の罠。中国と日本では約10倍の差がある。"},
+      {"id":4,"text":"示された中では中国のCO₂排出量が最も多く，日本の約10倍に達する。","explanation_zh":"正确。中国约 11,472 百万吨为最多，约为日本约 1,067 百万吨的 10 倍。","explanation_ja":"正解。中国約11,472が最多で，日本約1,067の約10倍に達する。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"社会",
+      "topic":"CO2排出",
+      "sub_domain":"現代社会問題",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の社会","item":"1. 環境と資源"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["数値混同"],
+      "keywords_to_avoid":["日本"]
+    },
+    "sources": [{"claim":"Energy-related CO2 emissions, 2021 (Mt): China ~11,472; US ~4,752; India ~2,648; Russia ~1,756; Japan ~1,067.","source":"IEA, CO2 Emissions in 2021","year":"2021","url":"https://www.iea.org/reports/co2-emissions-in-2022"}]
+  },
+  {
+    "id": 14,
+    "global_id": 20,
+    "title": "問14",
+    "prompt": "ヨーロッパの国々と地域に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"ラトビアは地中海に面する南欧の国であり，主要言語はギリシア語である。","explanation_zh":"陷阱：地域错位。拉脱维亚位于波罗的海沿岸的东北欧，使用拉脱维亚语。","explanation_ja":"誤り。地域取違の罠。ラトビアはバルト海に面する東北欧の国で，言語はラトビア語。"},
+      {"id":2,"text":"スイスは大西洋に面する島国であり，公用語は英語のみである。","explanation_zh":"陷阱：地域错位。瑞士为内陆国，公用语为德语、法语、意大利语、罗曼什语。","explanation_ja":"誤り。地域取違の罠。スイスは内陸国で，公用語は独・仏・伊・ロマンシュ語。"},
+      {"id":3,"text":"ラトビアはバルト海に面する東北ヨーロッパの国であり，リトアニア・エストニアとともにバルト三国を構成する。","explanation_zh":"正确。拉脱维亚位于波罗的海沿岸，与立陶宛、爱沙尼亚共同构成波罗的海三国。","explanation_ja":"正解。ラトビアはバルト海沿岸の国で，リトアニア・エストニアとともにバルト三国を構成する。"},
+      {"id":4,"text":"ノルウェーはバルカン半島に位置し，地中海に面する温帯気候の国である。","explanation_zh":"陷阱：地域错位。挪威位于斯堪的纳维亚半岛，并不在巴尔干半岛。","explanation_ja":"誤り。地域取違の罠。ノルウェーはスカンディナビア半島の国で，バルカン半島ではない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"ヨーロッパ",
+      "sub_domain":"欧米地誌",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["地域取違"],
+      "keywords_to_avoid":["ラトビア"]
+    },
+    "sources": [{"claim":"Latvia is a Baltic state on the Baltic Sea, with Lithuania and Estonia.","source":"CIA World Factbook, Latvia","year":"2024","url":"https://www.cia.gov/the-world-factbook/countries/latvia/"}]
+  },
+  {
+    "id": 15,
+    "global_id": 21,
+    "title": "問15",
+    "prompt": "ある2万5千分の1地形図上で，2点A・Bの直線距離が4cmと測られた。実際の地表上での2点間の直線距離として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"実距離は約100mである。","explanation_zh":"陷阱：数值混同。误把缩尺当 1/2500：4cm×2500=100m，应为 1/25000。","explanation_ja":"誤り。数値混同の罠。1/2,500と取り違えた計算（4cm×2,500=100m）。"},
+      {"id":2,"text":"実距離は約10kmである。","explanation_zh":"陷阱：数值混同。10km 对应缩尺 1/250000：4cm×250000＝10km，与本题不符。","explanation_ja":"誤り。数値混同の罠。1/250,000と取り違えた値であり，本問の縮尺ではない。"},
+      {"id":3,"text":"実距離は約4kmである。","explanation_zh":"陷阱：数值混同。计算误用 4cm×100000＝4km，对应缩尺为 1/100000。","explanation_ja":"誤り。数値混同の罠。1/100,000と取り違えた値である。"},
+      {"id":4,"text":"実距離は約1kmである。","explanation_zh":"正确。4cm × 25000 = 100000cm = 1km，缩尺 1/25000 上 4cm 对应实地 1km。","explanation_ja":"正解。4cm×25,000=100,000cm=1kmで，1/25,000の地形図上の4cmは実距離約1kmに相当する。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"地形図",
+      "sub_domain":"自然地理",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["数値混同"],
+      "keywords_to_avoid":["縮尺"]
+    }
+  },
+  {
+    "id": 16,
+    "global_id": 22,
+    "title": "問16",
+    "prompt": "国際河川に関する記述として最も適当なものはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"ライン川はアフリカ大陸の中央部を流れ，赤道直下の熱帯雨林地域を貫流する。","explanation_zh":"陷阱：地域错位。莱茵河流经西欧，并非非洲赤道地区。","explanation_ja":"誤り。地域取違の罠。ライン川は西ヨーロッパを流れる川で，アフリカ赤道地域ではない。"},
+      {"id":2,"text":"ライン川はもっぱら単一国家の領内のみを流れる国内河川である。","explanation_zh":"陷阱：概念混淆。莱茵河流经瑞士、德国、法国、荷兰等多国，是典型国际河流。","explanation_ja":"誤り。概念混同の罠。ライン川は複数国を流れる国際河川である。"},
+      {"id":3,"text":"ライン川はスイスのアルプス山中に源を発し，ドイツ・フランスの国境を経てオランダで北海に注ぐ，西ヨーロッパの代表的な国際河川である。","explanation_zh":"正确。莱茵河自瑞士阿尔卑斯发源，经德法边界，最终在荷兰注入北海，是西欧代表性国际河流。","explanation_ja":"正解。ライン川はスイスに源を発し，ドイツ・フランス国境を経てオランダで北海に注ぐ西欧の国際河川である。"},
+      {"id":4,"text":"ライン川は完全に内陸湖に注ぎ込み，外洋とは結ばれていない。","explanation_zh":"陷阱：概念混淆。莱茵河最终注入北海，并非内陆湖。","explanation_ja":"誤り。概念混同の罠。ライン川は北海に注ぎ，内陸湖には注がない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"国際河川",
+      "sub_domain":"自然地理",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"10. 国際経済"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["地域取違"],
+      "keywords_to_avoid":["ライン川"]
+    },
+    "sources": [{"claim":"The Rhine flows from the Swiss Alps through Germany–France border to the North Sea via the Netherlands.","source":"Britannica, Rhine River","year":"2024","url":"https://www.britannica.com/place/Rhine-River"}]
+  },
+  {
+    "id": 17,
+    "global_id": 23,
+    "title": "問17",
+    "prompt": "次の数値は，世界のなつめやし（デーツ）の生産量上位国（千トン，2021年）である。\nエジプト：約1,733，サウジアラビア：約1,610，イラン：約1,303，アルジェリア：約1,180，イラク：約735。\nこのデータから読み取れる内容として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"なつめやしの主要生産国は，乾燥帯から半乾燥帯の北アフリカ・西アジア地域に集中している。","explanation_zh":"正确。前 5 大生产国全部位于北非及西亚的干燥/半干燥地区。","explanation_ja":"正解。上位国はいずれも北アフリカ・西アジアの乾燥〜半乾燥地域に位置する。"},
+      {"id":2,"text":"上位国はすべて熱帯雨林気候の東南アジアに位置している。","explanation_zh":"陷阱：地域错位。前 5 名均不在东南亚热带雨林地区。","explanation_ja":"誤り。地域取違の罠。上位国は東南アジアの熱帯雨林ではない。"},
+      {"id":3,"text":"日本はなつめやしの主要生産国であり，世界生産量の半分以上を占める。","explanation_zh":"陷阱：主体错位。日本并非主要生产国，前 5 名中无日本。","explanation_ja":"誤り。主体取違の罠。日本は主要生産国ではない。"},
+      {"id":4,"text":"上位5か国の生産量は完全に同じである。","explanation_zh":"陷阱：范围扩大。数据显示各国数值不同，约 735 至 1,733 千吨之间。","explanation_ja":"誤り。範囲拡大の罠。各国の生産量は同じではなく差がある。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"農産物",
+      "sub_domain":"産業・資源",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["なつめやし"]
+    },
+    "sources": [{"claim":"Top date producers (2021, thousand tonnes): Egypt 1,733; Saudi Arabia 1,610; Iran 1,303; Algeria 1,180; Iraq 735.","source":"FAOSTAT, Crops and livestock products: Dates","year":"2021","url":"https://www.fao.org/faostat/en/#data/QCL"}]
+  },
+  {
+    "id": 18,
+    "global_id": 24,
+    "title": "問18",
+    "prompt": "カトリックの宗教的影響が強いことで知られる国に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"アイルランドは伝統的に正教（東方正教会）が国民の大多数を占める国である。","explanation_zh":"陷阱：主体错位。爱尔兰传统上以天主教为主，并非东正教。","explanation_ja":"誤り。主体取違の罠。アイルランドは伝統的にカトリックが多数で，正教ではない。"},
+      {"id":2,"text":"アイルランドは伝統的にイスラム教スンナ派が国民の大多数を占める国である。","explanation_zh":"陷阱：主体错位。爱尔兰主要宗教是天主教，并非伊斯兰教。","explanation_ja":"誤り。主体取違の罠。アイルランドはカトリックが多数で，イスラム教ではない。"},
+      {"id":3,"text":"アイルランドはローマ・カトリックの信者が国民の多数を占め，歴史的に教会が社会に強い影響を与えてきた国の一つである。","explanation_zh":"正确。爱尔兰长期为天主教国家，教会对社会有深远影响。","explanation_ja":"正解。アイルランドはカトリック信者が多数で，歴史的に教会の社会的影響が大きい。"},
+      {"id":4,"text":"アイルランドは無宗教を国是とし，全国民が宗教を信仰することを憲法で禁じている。","explanation_zh":"陷阱：概念混淆。爱尔兰宪法保障宗教自由，并未禁止全民宗教。","explanation_ja":"誤り。概念混同の罠。アイルランド憲法は宗教の自由を保障し，禁止していない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"社会",
+      "topic":"カトリック",
+      "sub_domain":"教育・文化",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の社会","item":"4.情報・科学技術の発展"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違"],
+      "keywords_to_avoid":["アイルランド"]
+    },
+    "sources": [{"claim":"Ireland is historically a majority Roman Catholic country.","source":"CIA World Factbook, Ireland (Religions)","year":"2024","url":"https://www.cia.gov/the-world-factbook/countries/ireland/"}]
+  },
+  {
+    "id": 19,
+    "global_id": 25,
+    "title": "問19",
+    "prompt": "次のイギリスの民主主義に関する出来事ア〜エを，年代の古い順に並べたものとして最も適当なものはどれですか。\nア：マグナ・カルタ（大憲章）の制定\nイ：権利章典（権利の章典）の成立\nウ：第1回選挙法改正\nエ：成人男性普通選挙の実現（1918年）",
+    "choices": [
+      {"id":1,"text":"ア→ウ→イ→エ","explanation_zh":"陷阱：顺序错乱。权利法案 1689 年早于第一次选举法改革 1832 年。","explanation_ja":"誤り。順序混同の罠。権利章典1689年が第1回選挙法改正1832年より先である。"},
+      {"id":2,"text":"イ→ア→ウ→エ","explanation_zh":"陷阱：顺序错乱。大宪章 1215 年早于权利法案 1689 年。","explanation_ja":"誤り。順序混同の罠。マグナ・カルタ1215年が権利章典1689年より先である。"},
+      {"id":3,"text":"エ→ウ→イ→ア","explanation_zh":"陷阱：顺序错乱。完全是反向，从最新到最旧排序。","explanation_ja":"誤り。順序混同の罠。これは新しい順で，古い順ではない。"},
+      {"id":4,"text":"ア→イ→ウ→エ","explanation_zh":"正确。大宪章 1215 年 → 权利法案 1689 年 → 第一次选举法改革 1832 年 → 男性普选 1918 年。","explanation_ja":"正解。マグナ・カルタ1215年→権利章典1689年→第1回選挙法改正1832年→男性普通選挙1918年の順。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"イギリス民主主義",
+      "sub_domain":"思想・文化史",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"4.政治参加"},
+      "question_form":"時系列整序",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["順序混同"],
+      "keywords_to_avoid":["年代"]
+    },
+    "sources": [{"claim":"Magna Carta 1215; Bill of Rights 1689; Great Reform Act 1832; Representation of the People Act 1918.","source":"UK Parliament, Living Heritage: Reforming the franchise","year":"1918","url":"https://www.parliament.uk/about/living-heritage/transformingsociety/electionsvoting/"}]
+  },
+  {
+    "id": 20,
+    "global_id": 26,
+    "title": "問20",
+    "prompt": "アメリカ合衆国の大統領制に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"大統領は連邦議会議員の中から議会の多数派によって指名される。","explanation_zh":"陷阱：概念混淆。这是议会内阁制特征，美国总统由州选举人团选出。","explanation_ja":"誤り。概念混同の罠。これは議院内閣制の特徴で，アメリカでは選挙人団による選出。"},
+      {"id":2,"text":"大統領は議会から独立した選挙人団を通じて選出され，立法府と行政府が明確に分離されている。","explanation_zh":"正确。美国采用三权分立，总统由各州选举人团选出，与立法机关独立。","explanation_ja":"正解。アメリカの大統領は選挙人団により選ばれ，立法府から独立する厳格な三権分立である。"},
+      {"id":3,"text":"大統領は世襲の君主であり，国民や議会による選挙は一切行われない。","explanation_zh":"陷阱：主体错位。美国是共和国，总统由选举产生，并非世袭君主。","explanation_ja":"誤り。主体取違の罠。アメリカ大統領は世襲ではなく，選挙で選出される。"},
+      {"id":4,"text":"大統領には法案への拒否権が一切認められていない。","explanation_zh":"陷阱：范围扩大。美国总统对国会通过的法案有否决权。","explanation_ja":"誤り。範囲拡大の罠。大統領は連邦議会の法案に対し拒否権を持つ。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"アメリカ大統領",
+      "sub_domain":"政治体制",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"4.政治参加"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["大統領"]
+    },
+    "sources": [{"claim":"The U.S. President is elected indirectly by the Electoral College under Article II of the Constitution.","source":"U.S. Constitution, Article II","year":"1787","url":"https://constitution.congress.gov/constitution/article-2/"}]
+  },
+  {
+    "id": 21,
+    "global_id": 27,
+    "title": "問21",
+    "prompt": "日本国憲法の下での国会の地位と権能に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"国会は「国権の最高機関であって，国の唯一の立法機関」であると憲法第41条に定められている。","explanation_zh":"正确。日本国宪法第 41 条明确规定国会为国权最高机关及唯一立法机关。","explanation_ja":"正解。憲法第41条は国会を「国権の最高機関であって，国の唯一の立法機関」と規定する。"},
+      {"id":2,"text":"立法権は内閣総理大臣に専属し，国会は閣議決定を承認するだけの機関である。","explanation_zh":"陷阱：主体错位。立法权属于国会，并非首相专属。","explanation_ja":"誤り。主体取違の罠。立法権は国会にあり，首相に専属しない。"},
+      {"id":3,"text":"裁判所が単独で法律を制定することが憲法上認められている。","explanation_zh":"陷阱：主体错位。法院负责审判，并无立法权。","explanation_ja":"誤り。主体取違の罠。裁判所には立法権はない。"},
+      {"id":4,"text":"天皇が国会に代わって法律を制定する権限を有する。","explanation_zh":"陷阱：主体错位。天皇是象征性元首，不行使国政权能。","explanation_ja":"誤り。主体取違の罠。天皇は象徴で，国政に関する権能をもたない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"国会統制",
+      "sub_domain":"三権分立・統治機構",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"3. 日本国憲法"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違"],
+      "keywords_to_avoid":["国会"]
+    },
+    "sources": [{"claim":"Article 41 of the Constitution of Japan: The Diet is the highest organ of state power and the sole law-making organ.","source":"日本国憲法 第41条","year":"1947","url":"https://elaws.e-gov.go.jp/document?lawid=321CONSTITUTION"}]
+  },
+  {
+    "id": 22,
+    "global_id": 28,
+    "title": "問22",
+    "prompt": "日本の裁判制度に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"日本では，下級裁判所の判決を不服とする場合でも上級裁判所に訴えることは一切認められていない。","explanation_zh":"陷阱：范围扩大。日本采用三审制，允许上诉至高等法院、最高法院。","explanation_ja":"誤り。範囲拡大の罠。日本は三審制を採り，上訴が認められている。"},
+      {"id":2,"text":"日本では，原則として三審制が採られ，当事者は判決に不服がある場合，上級裁判所に上訴できる。","explanation_zh":"正确。日本采取三审制，当事人原则上可上诉至高等法院和最高法院。","explanation_ja":"正解。日本は原則三審制で，上訴により上級裁判所の判断を仰ぐことができる。"},
+      {"id":3,"text":"最高裁判所は国会の一部門であり，立法権を行使する機関である。","explanation_zh":"陷阱：主体错位。最高法院是司法机关，非立法。","explanation_ja":"誤り。主体取違の罠。最高裁判所は司法機関で立法権はない。"},
+      {"id":4,"text":"裁判官はすべて国民の直接選挙によって選ばれる。","explanation_zh":"陷阱：概念混淆。日本法官原则上由内阁任命，并非直接选举。","explanation_ja":"誤り。概念混同の罠。裁判官は原則として内閣により任命される。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"裁判制度",
+      "sub_domain":"三権分立・統治機構",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"2. 日本の統治機構"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["範囲拡大"],
+      "keywords_to_avoid":["裁判"]
+    },
+    "sources": [{"claim":"Japan uses a three-tier court system with the right to appeal.","source":"裁判所, 三審制","year":"2024","url":"https://www.courts.go.jp/saiban/sosyou_kazi/index.html"}]
+  },
+  {
+    "id": 23,
+    "global_id": 29,
+    "title": "問23",
+    "prompt": "日本国憲法の制定経緯に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"日本国憲法は，江戸幕府が将軍の権威を強化する目的で制定したものである。","explanation_zh":"陷阱：时态错位。日本国宪法是 1946 年公布的现代宪法，与江户幕府无关。","explanation_ja":"誤り。時態錯位の罠。日本国憲法は1946年公布で，江戸幕府とは無関係。"},
+      {"id":2,"text":"日本国憲法は，明治時代に伊藤博文を中心に制定された大日本帝国憲法と完全に同一の内容である。","explanation_zh":"陷阱：主体错位。日本国宪法是战后取代《大日本帝国宪法》制定的全新宪法。","explanation_ja":"誤り。主体取違の罠。日本国憲法は大日本帝国憲法に代わる新憲法である。"},
+      {"id":3,"text":"日本国憲法は，第二次世界大戦後の連合国軍最高司令官総司令部（GHQ）の関与のもと作成され，1946年に公布，1947年に施行された。","explanation_zh":"正确。日本国宪法在 GHQ 监督下制定，1946 年公布，1947 年施行。","explanation_ja":"正解。日本国憲法はGHQの関与のもと作成され，1946年公布・1947年施行である。"},
+      {"id":4,"text":"日本国憲法は国際連合が直接起草し，日本政府の意思を一切反映していない。","explanation_zh":"陷阱：主体错位。宪法由日本政府基于 GHQ 草案修订并由国会通过，并非联合国直接起草。","explanation_ja":"誤り。主体取違の罠。憲法は日本政府が修正し国会が議決したもので，国連が直接起草したものではない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"憲法制定",
+      "sub_domain":"憲法・人権",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"3. 日本国憲法"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違"],
+      "keywords_to_avoid":["占領"]
+    },
+    "sources": [{"claim":"The Constitution of Japan was promulgated on 3 November 1946 and came into force on 3 May 1947.","source":"内閣府, 日本国憲法","year":"1947","url":"https://www.kantei.go.jp/jp/kenpou/"}]
+  },
+  {
+    "id": 24,
+    "global_id": 30,
+    "title": "問24",
+    "prompt": "日本国憲法第26条が定める教育に関する権利・義務に関する記述として最も適当なものはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"憲法第26条は，国民が選挙において投票する権利のみを定めた条文である。","explanation_zh":"陷阱：概念混淆。投票权由其他条文（第 15 条等）规定，第 26 条规定的是教育权。","explanation_ja":"誤り。概念混同の罠。第26条は教育に関する規定で，選挙権は別の条文（第15条等）。"},
+      {"id":2,"text":"憲法第26条は，すべての国民が自由に外国へ移住し外国籍を取得することを保障する条文である。","explanation_zh":"陷阱：概念混淆。这是第 22 条等的内容，并非第 26 条。","explanation_ja":"誤り。概念混同の罠。外国移住は別の条文の内容で，第26条ではない。"},
+      {"id":3,"text":"憲法第26条はすべての国民に「教育を受ける権利」を保障し，保護する子女に普通教育を受けさせる義務と義務教育の無償を定める。","explanation_zh":"正确。第 26 条规定受教育权、监护人对子女接受普通教育的义务及义务教育免费。","explanation_ja":"正解。第26条は教育を受ける権利，普通教育を受けさせる義務，義務教育の無償を定める。"},
+      {"id":4,"text":"憲法第26条は，すべての国民が等しく軍隊に入隊する義務を負うと定めた徴兵規定である。","explanation_zh":"陷阱：概念混淆。日本国宪法不实行征兵，第 26 条与征兵无关。","explanation_ja":"誤り。概念混同の罠。日本国憲法は徴兵を定めず，第26条は教育に関する規定である。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"憲法第26条",
+      "sub_domain":"憲法・人権",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"3. 日本国憲法"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["教育"]
+    },
+    "sources": [{"claim":"Article 26 of the Constitution of Japan guarantees the right to receive education and obliges guardians to have children receive ordinary education, with free compulsory education.","source":"日本国憲法 第26条","year":"1947","url":"https://elaws.e-gov.go.jp/document?lawid=321CONSTITUTION"}]
+  },
+  {
+    "id": 25,
+    "global_id": 31,
+    "title": "問25",
+    "prompt": "日本の地方自治における首長の選出方法に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"地方公共団体の首長（都道府県知事・市町村長）は，その地域の住民による直接選挙で選ばれる。","explanation_zh":"正确。日本宪法第 93 条及地方自治法规定都道府县知事和市町村长由住民直接选举产生。","explanation_ja":"正解。憲法第93条と地方自治法により，首長は住民の直接選挙で選ばれる。"},
+      {"id":2,"text":"都道府県知事は内閣総理大臣によって任命される。","explanation_zh":"陷阱：主体错位。都道府县知事并非首相任命，而是由居民直接选举。","explanation_ja":"誤り。主体取違の罠。知事は内閣総理大臣による任命ではなく，住民の直接選挙。"},
+      {"id":3,"text":"市町村長は天皇が直接任命する。","explanation_zh":"陷阱：主体错位。天皇为象征性元首，并不任命地方首长。","explanation_ja":"誤り。主体取違の罠。天皇は象徴で，市町村長を任命しない。"},
+      {"id":4,"text":"地方公共団体の首長は，国会の議決によってのみ選ばれる。","explanation_zh":"陷阱：主体错位。地方首长由地区住民选举，与国会决议无关。","explanation_ja":"誤り。主体取違の罠。首長は住民の選挙で選ばれ，国会の議決ではない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"地方自治",
+      "sub_domain":"地方自治",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"4.政治参加"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違"],
+      "keywords_to_avoid":["首長"]
+    },
+    "sources": [{"claim":"Article 93 of the Constitution and Local Autonomy Act require the heads of local governments to be elected directly by residents.","source":"日本国憲法 第93条／地方自治法","year":"1947","url":"https://elaws.e-gov.go.jp/document?lawid=321CONSTITUTION"}]
+  },
+  {
+    "id": 26,
+    "global_id": 32,
+    "title": "問26",
+    "prompt": "次の冷戦期の出来事ア〜エを，年代の古い順に並べたものとして最も適当なものはどれですか。\nア：朝鮮戦争の勃発\nイ：キューバ危機\nウ：ベルリンの壁構築\nエ：ソ連の解体",
+    "choices": [
+      {"id":1,"text":"ア→イ→ウ→エ","explanation_zh":"陷阱：顺序错乱。柏林墙 1961 年早于古巴危机 1962 年。","explanation_ja":"誤り。順序混同の罠。ベルリンの壁構築1961年がキューバ危機1962年より先である。"},
+      {"id":2,"text":"ア→ウ→イ→エ","explanation_zh":"正确。朝鲜战争 1950 年 → 柏林墙 1961 年 → 古巴危机 1962 年 → 苏联解体 1991 年。","explanation_ja":"正解。朝鮮戦争1950年→ベルリンの壁1961年→キューバ危機1962年→ソ連解体1991年の順。"},
+      {"id":3,"text":"エ→ア→ウ→イ","explanation_zh":"陷阱：顺序错乱。苏联解体 1991 年是其中最晚的事件。","explanation_ja":"誤り。順序混同の罠。ソ連解体1991年は四つの中で最後である。"},
+      {"id":4,"text":"イ→ア→エ→ウ","explanation_zh":"陷阱：顺序错乱。朝鲜战争 1950 年早于古巴危机 1962 年。","explanation_ja":"誤り。順序混同の罠。朝鮮戦争1950年がキューバ危機1962年より先である。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"冷戦",
+      "sub_domain":"現代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"2. 二つの世界大戦とその影響"},
+      "question_form":"時系列整序",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["順序混同"],
+      "keywords_to_avoid":["年代"]
+    },
+    "sources": [{"claim":"Korean War 1950; Berlin Wall 1961; Cuban Missile Crisis 1962; dissolution of USSR 1991.","source":"Britannica, Cold War timeline","year":"1991","url":"https://www.britannica.com/event/Cold-War"}]
+  },
+  {
+    "id": 27,
+    "global_id": 33,
+    "title": "問27",
+    "prompt": "国際的な人権保障に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"世界人権宣言は，第一次世界大戦中の1915年に国際連盟によって採択された。","explanation_zh":"陷阱：时态错位。世界人权宣言由联合国大会于 1948 年通过，与国联无关。","explanation_ja":"誤り。時態錯位の罠。世界人権宣言は1948年に国連総会で採択された。"},
+      {"id":2,"text":"国際人権規約（A規約・B規約）は，江戸時代に幕府が締結した条約である。","explanation_zh":"陷阱：时态错位。国际人权公约由联合国大会于 1966 年通过。","explanation_ja":"誤り。時態錯位の罠。国際人権規約は1966年に国連で採択された。"},
+      {"id":3,"text":"世界人権宣言は1948年に国連総会で採択され，国際人権規約は1966年に採択され1976年に発効した。","explanation_zh":"正确。世界人权宣言 1948 年，国际人权公约 1966 年通过、1976 年生效。","explanation_ja":"正解。世界人権宣言1948年採択，国際人権規約は1966年採択・1976年発効である。"},
+      {"id":4,"text":"世界人権宣言は法的拘束力を持つ条約として，すべての国に対して即時の義務を課す。","explanation_zh":"陷阱：概念混淆。世界人权宣言为宣言性文件，本身无法律拘束力，公约才有。","explanation_ja":"誤り。概念混同の罠。宣言は宣言文書で，法的拘束力をもつのは条約である規約。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"国際人権",
+      "sub_domain":"国際政治・外交",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の社会","item":"3.雇用・労働"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位"],
+      "keywords_to_avoid":["ハーグ"]
+    },
+    "sources": [{"claim":"Universal Declaration of Human Rights adopted 10 Dec 1948; International Covenants on Human Rights adopted 1966, entered into force 1976.","source":"United Nations, OHCHR","year":"1976","url":"https://www.ohchr.org/en/instruments-mechanisms/universal-declaration-human-rights"}]
+  },
+  {
+    "id": 28,
+    "global_id": 34,
+    "title": "問28",
+    "prompt": "産業革命に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"産業革命は20世紀後半の冷戦期にソ連で始まった。","explanation_zh":"陷阱：时态错位。工业革命起源于 18 世纪后半英国，并非 20 世纪苏联。","explanation_ja":"誤り。時態錯位の罠。産業革命は18世紀後半のイギリスで始まった。"},
+      {"id":2,"text":"産業革命は18世紀後半のイギリスで，綿工業を中心に蒸気機関や工場制機械工業の発展を伴って始まった。","explanation_zh":"正确。工业革命于 18 世纪后半英国，以棉纺织业为中心，伴随蒸汽机和工厂制机械工业的发展。","explanation_ja":"正解。産業革命は18世紀後半のイギリスで，綿工業を中心に蒸気機関と工場制機械工業の発展を伴い始まった。"},
+      {"id":3,"text":"産業革命は中世のフランスで始まり，蒸気機関とは無関係に進行した。","explanation_zh":"陷阱：时态错位。工业革命发生于近代英国，与中世纪法国无关。","explanation_ja":"誤り。時態錯位の罠。産業革命は近代のイギリスで，中世フランスではない。"},
+      {"id":4,"text":"産業革命の中心となった産業は，半導体製造業と人工知能産業であった。","explanation_zh":"陷阱：时态错位。这些是 20 世纪后半至 21 世纪的产业，与工业革命的核心无关。","explanation_ja":"誤り。時態錯位の罠。半導体・AI産業は20世紀後半以降で，産業革命の中心ではない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"産業革命",
+      "sub_domain":"近代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"1. 近代化の進展とその影響"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位"],
+      "keywords_to_avoid":["イギリス"]
+    },
+    "sources": [{"claim":"The Industrial Revolution began in late 18th century Britain, centered on cotton textiles and steam power.","source":"Britannica, Industrial Revolution","year":"1760","url":"https://www.britannica.com/event/Industrial-Revolution"}]
+  },
+  {
+    "id": 29,
+    "global_id": 35,
+    "title": "問29",
+    "prompt": "アメリカ合衆国の南北戦争（1861〜1865年）に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"南北戦争中の1863年，リンカン大統領は奴隷解放宣言を発し，戦後の憲法修正で奴隷制は廃止された。","explanation_zh":"正确。1863 年林肯发表《解放奴隶宣言》，战后宪法第 13 修正案废除奴隶制。","explanation_ja":"正解。1863年リンカンは奴隷解放宣言を出し，戦後の憲法修正第13条で奴隷制が廃止された。"},
+      {"id":2,"text":"南北戦争は18世紀前半に，独立戦争の一部として戦われた。","explanation_zh":"陷阱：时态错位。南北战争发生在 1861–1865 年，独立战争为 1775–1783 年，时间不同。","explanation_ja":"誤り。時態錯位の罠。南北戦争は1861–1865年で，独立戦争とは時期が異なる。"},
+      {"id":3,"text":"南北戦争で勝利したのは南部連合であり，戦後南部主導の連邦体制が確立した。","explanation_zh":"陷阱：因果倒置。实际为北部联邦获胜，南部联盟瓦解。","explanation_ja":"誤り。因果倒置の罠。南北戦争で勝利したのは北部の連邦で，南部連合は崩壊した。"},
+      {"id":4,"text":"南北戦争はアメリカと日本の間で行われた国際戦争である。","explanation_zh":"陷阱：主体错位。南北战争是美国国内的内战，与日本无关。","explanation_ja":"誤り。主体取違の罠。南北戦争はアメリカ国内の内戦で，日本との戦争ではない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"南北戦争",
+      "sub_domain":"近代世界",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"6. 財政"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位"],
+      "keywords_to_avoid":["奴隷"]
+    },
+    "sources": [{"claim":"Lincoln's Emancipation Proclamation was issued in 1863; the 13th Amendment abolished slavery in 1865.","source":"U.S. National Archives, Emancipation Proclamation; 13th Amendment","year":"1865","url":"https://www.archives.gov/exhibits/featured-documents/emancipation-proclamation"}]
+  },
+  {
+    "id": 30,
+    "global_id": 36,
+    "title": "問30",
+    "prompt": "19世紀後半のドイツ帝国に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"ドイツ帝国は1871年にプロイセン国王ヴィルヘルム1世が皇帝として戴冠して成立し，初代宰相は社会主義者のマルクスであった。","explanation_zh":"陷阱：主体错位。德意志帝国首任宰相是俾斯麦，并非马克思。","explanation_ja":"誤り。主体取違の罠。初代宰相はビスマルクで，マルクスではない。"},
+      {"id":2,"text":"ドイツ帝国は1871年にプロイセン国王ヴィルヘルム1世が皇帝となり成立し，ビスマルクが初代宰相として「鉄血政策」と社会立法を進めた。","explanation_zh":"正确。1871 年德意志帝国成立，威廉一世为帝，俾斯麦任首相推动统一与社会立法。","explanation_ja":"正解。1871年ヴィルヘルム1世が皇帝となり，ビスマルクが初代宰相として鉄血政策と社会保険立法を進めた。"},
+      {"id":3,"text":"ドイツ帝国の初代皇帝はナポレオン1世である。","explanation_zh":"陷阱：主体错位。拿破仑一世是法国皇帝，与德意志帝国无关。","explanation_ja":"誤り。主体取違の罠。ナポレオン1世はフランス皇帝で，ドイツ帝国の皇帝ではない。"},
+      {"id":4,"text":"ドイツ帝国は1871年に共和制を採用し，世襲皇帝を置かなかった。","explanation_zh":"陷阱：概念混淆。德意志帝国为帝制，由霍亨索伦家世袭皇帝。","explanation_ja":"誤り。概念混同の罠。ドイツ帝国は帝政で，ホーエンツォレルン家の世襲皇帝が存在した。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"ドイツ帝国",
+      "sub_domain":"近代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"1. 近代化の進展とその影響"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違"],
+      "keywords_to_avoid":["宰相"]
+    },
+    "sources": [{"claim":"German Empire was proclaimed in 1871 with Wilhelm I as emperor and Otto von Bismarck as first chancellor.","source":"Britannica, German Empire","year":"1871","url":"https://www.britannica.com/place/German-Empire"}]
+  },
+  {
+    "id": 31,
+    "global_id": 37,
+    "title": "問31",
+    "prompt": "20世紀のアフリカ諸国の独立に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"アフリカ諸国の大半は19世紀前半までに植民地支配から独立を果たしていた。","explanation_zh":"陷阱：时态错位。19 世纪前半除埃塞俄比亚等少数国家外，大多数非洲地区仍在殖民支配下。","explanation_ja":"誤り。時態錯位の罠。19世紀前半の段階では多くのアフリカ地域はなお植民地支配下にあった。"},
+      {"id":2,"text":"アフリカ諸国の独立は，すべて第二次世界大戦前の1930年代に完了していた。","explanation_zh":"陷阱：时态错位。非洲国家大量独立发生在战后，特别是 1960 年代。","explanation_ja":"誤り。時態錯位の罠。多くのアフリカ諸国の独立は戦後に集中し，1960年代がピークである。"},
+      {"id":3,"text":"アフリカ大陸では現在に至るまで一国も独立を達成していない。","explanation_zh":"陷阱：范围扩大。今日非洲存在 50 余个独立国家。","explanation_ja":"誤り。範囲拡大の罠。現在のアフリカには50以上の独立国家が存在する。"},
+      {"id":4,"text":"1960年は17のアフリカ諸国が独立を達成した「アフリカの年」と呼ばれ，第二次世界大戦後の脱植民地化の象徴となった。","explanation_zh":"正确。1960 年 17 个非洲国家独立，被称为「非洲年」，是去殖民化的象征。","explanation_ja":"正解。1960年は17か国が独立し「アフリカの年」と呼ばれた，戦後脱植民地化の象徴的な年である。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"アフリカ独立",
+      "sub_domain":"現代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"2. 二つの世界大戦とその影響"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位"],
+      "keywords_to_avoid":["独立"]
+    },
+    "sources": [{"claim":"1960 is known as the 'Year of Africa', when 17 African countries gained independence.","source":"United Nations, Decolonization","year":"1960","url":"https://www.un.org/dppa/decolonization/en/history"}]
+  },
+  {
+    "id": 32,
+    "global_id": 38,
+    "title": "問32",
+    "prompt": "日本の戦後経済，特に高度経済成長期に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"日本の高度経済成長期は明治維新直後の1870年代に始まり，1900年に終わった。","explanation_zh":"陷阱：时态错位。高度经济成长是 1950 年代后半至 1970 年代初的事件，并非 1870 年代。","explanation_ja":"誤り。時態錯位の罠。高度経済成長は1950年代後半から1970年代初頭の現象である。"},
+      {"id":2,"text":"高度経済成長期は1980年代後半のバブル経済期と完全に同一の時期を指す。","explanation_zh":"陷阱：时态错位。高度增长期与 1980 年代后半的泡沫经济期为不同时期。","explanation_ja":"誤り。時態錯位の罠。高度経済成長期とバブル期は別の時期である。"},
+      {"id":3,"text":"高度経済成長は1973年の第一次石油危機を契機にむしろ加速した。","explanation_zh":"陷阱：因果倒置。石油危机使高度增长结束，并非加速。","explanation_ja":"誤り。因果倒置の罠。第一次石油危機は高度経済成長の終結契機で，加速ではない。"},
+      {"id":4,"text":"日本の高度経済成長は1950年代後半から1970年代初頭まで続き，1973年の第一次石油危機を境におおむね終了した。","explanation_zh":"正确。高度经济成长大致始于 1950 年代后半，1973 年第一次石油危机后基本结束。","explanation_ja":"正解。日本の高度経済成長は1950年代後半から1970年代初頭まで続き，1973年の石油危機を境に終結した。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"高度経済成長",
+      "sub_domain":"現代日本",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"4.国民経済"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位"],
+      "keywords_to_avoid":["朝鮮"]
+    },
+    "sources": [{"claim":"Japan's high economic growth period lasted roughly from late 1950s to early 1970s and ended with the 1973 oil shock.","source":"内閣府, 高度経済成長","year":"1973","url":"https://www.esri.cao.go.jp/jp/sna/menu.html"}]
+  }
+]
+}

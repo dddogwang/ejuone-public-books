@@ -1,0 +1,1009 @@
+{
+  "subject": "comprehensive",
+  "section": "",
+  "year": 2014,
+  "round": 1,
+  "title": "模擬試験 総合科目 第三回",
+  "image_path": "comprehensive/images/2014-1",
+  "questions": [
+  {
+    "id": 1,
+    "title": "問1",
+    "prompt": "第一次世界大戦とその前後の国際関係について、下の問い（1）〜（4）に答えなさい。",
+    "passage": "20世紀初めの世界では、列強の同盟関係、植民地支配、民族運動、軍備拡張が複雑に絡み合っていた。1914年に始まった大戦はヨーロッパだけでなくアジアや中東にも影響を及ぼし、日本も日英同盟を背景に連合国側で参戦した。戦争後には講和会議で新しい国際秩序が模索され、平和維持のための国際機構もつくられたが、敗戦国への処理や民族自決の適用範囲には限界も残った。",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":1,
+        "prompt":"次の文章は、第一次世界大戦中に参戦した年を示している。資料から読み取れる内容として最も適当なものはどれですか。\n日本：1914年、イタリア：1915年、アメリカ：1917年。",
+        "choices":[
+          {"id":1,"text":"アメリカは日本より早く参戦した。","explanation_zh":"陷阱：时态错位。资料显示日本为 1914 年，美国为 1917 年，美国更晚参战。","explanation_ja":"誤り。時態錯位の罠。資料では日本が1914年、アメリカが1917年であり、アメリカの方が遅い。"},
+          {"id":2,"text":"イタリアはアメリカより後に参戦した。","explanation_zh":"陷阱：数值混同。意大利为 1915 年，美国为 1917 年，意大利更早。","explanation_ja":"誤り。数値混同の罠。イタリアは1915年、アメリカは1917年であり、イタリアの方が早い。"},
+          {"id":3,"text":"三つの中では、日本が最も早く参戦した。","explanation_zh":"正确。资料列出的年份为日本 1914 年、意大利 1915 年、美国 1917 年，日本最早。","explanation_ja":"正解。日本1914年、イタリア1915年、アメリカ1917年なので、三つの中では日本が最も早い。"},
+          {"id":4,"text":"三つの国はすべて同じ年に参戦した。","explanation_zh":"陷阱：范围扩大。三国参战年份分别为 1914、1915、1917 年，并不相同。","explanation_ja":"誤り。範囲拡大の罠。三国の参戦年は1914年、1915年、1917年であり、同じではない。"}
+        ],
+        "answer":3,
+        "tag":{
+          "question_form":"図表読取",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["地域取違"],
+          "keywords_to_avoid":["サライェヴォ","バルカン","ボスニア"],
+          "sub_domain":"近代世界",
+          "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"}
+        },
+        "sources":[{"claim":"日本は1914年、イタリアは1915年、アメリカは1917年に第一次世界大戦へ参戦した","source":"Encyclopaedia Britannica, World War I","year":"1917","url":"https://www.britannica.com/event/World-War-I"}]
+      },
+      {
+        "sub_id":2,
+        "global_id":2,
+        "prompt":"大戦期の国際関係として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"大戦は東アジアだけで起こり、ヨーロッパの列強は関係しなかった。","explanation_zh":"陷阱：地域错位。大战以欧洲列强对立为中心，并扩展到多个地区。","explanation_ja":"誤り。地域取違の罠。大戦はヨーロッパ列強の対立を中心に、多地域へ広がった。"},
+          {"id":2,"text":"ロシア革命は大戦より前の18世紀に起こった。","explanation_zh":"陷阱：时态错位。俄国革命发生在大战期间的 1917 年，不是 18 世纪。","explanation_ja":"誤り。時態錯位の罠。ロシア革命は大戦中の1917年で、18世紀ではない。"},
+          {"id":3,"text":"連合国側には、どの時期にも日本や米国は加わらなかった。","explanation_zh":"陷阱：范围扩大。日本和美国都在不同时间加入连合国侧。","explanation_ja":"誤り。範囲拡大の罠。日本も米国も、それぞれの時期に連合国側へ加わった。"},
+          {"id":4,"text":"大戦では連合国側と同盟国側が対立し、日本は連合国側で参戦した。","explanation_zh":"正确。大战中两大阵营对立，日本依据日英同盟站在连合国侧参战。","explanation_ja":"正解。第一次世界大戦では連合国側と同盟国側が対立し、日本は連合国側で参戦した。"}
+        ],
+        "answer":4,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["主体取違","時態錯位","範囲拡大"],
+          "keywords_to_avoid":["オスマン帝国","アメリカ","ソ連","ドイツ","フランス","イギリス","バルフォア宣言"],
+          "sub_domain":"近代世界"
+        },
+        "sources":[{"claim":"第一次世界大戦は連合国と同盟国の対立であり、日本は連合国側で参戦した","source":"Encyclopaedia Britannica, World War I","year":"1914","url":"https://www.britannica.com/event/World-War-I"}]
+      },
+      {
+        "sub_id":3,
+        "global_id":3,
+        "prompt":"大戦期の好況が国内産業に与えた影響として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"欧州からの輸入が滞る中で、日本の工業生産や輸出が伸びる戦時景気が生じた。","explanation_zh":"正确。大战中，欧州供给减少和军需扩大使日本出现战时景气。","explanation_ja":"正解。欧州からの供給減少や軍需拡大を背景に、日本では輸出や工業生産が伸びる戦時景気が生じた。"},
+          {"id":2,"text":"大戦中の日本では、工業生産と輸出が完全に消滅した。","explanation_zh":"陷阱：范围扩大。日本出现战时景气，不能说生产和出口完全消灭。","explanation_ja":"誤り。範囲拡大の罠。日本では戦時景気が生じており、工業生産や輸出が完全に消えたわけではない。"},
+          {"id":3,"text":"この影響は第二次世界大戦後の高度成長期に初めて起こった。","explanation_zh":"陷阱：时态错位。题目问的是大战期，不是二战后高度增长期。","explanation_ja":"誤り。時態錯位の罠。設問は大戦期の影響を問うており、第二次世界大戦後の高度成長期ではない。"},
+          {"id":4,"text":"日本の経済変化は、戦争とは無関係に古代の農業制度だけで説明できる。","explanation_zh":"陷阱：概念混淆。近代战争下的贸易和军需变化，不能由古代农业制度解释。","explanation_ja":"誤り。概念混同の罠。近代の貿易・軍需の変化を古代の農業制度だけで説明することはできない。"}
+        ],
+        "answer":1,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["時態錯位","範囲拡大"],
+          "keywords_to_avoid":["第一次世界大戦","日本経済","造船業","産業革命","原子力発電","軍需産業"],
+          "sub_domain":"近代世界",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"2.市場経済"}
+        },
+        "sources":[{"claim":"第一次世界大戦期の日本では輸出増加などによる戦時景気が生じた","source":"国立国会図書館 近代日本と経済発展関連資料","year":"1918","url":"https://www.ndl.go.jp/modern/"}]
+      },
+      {
+        "sub_id":4,
+        "global_id":4,
+        "prompt":"第一次世界大戦後の国際秩序に関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"講和会議では、敗戦国の処理や国境問題はまったく扱われなかった。","explanation_zh":"陷阱：范围扩大。战后讲和处理了败战国、领土和新秩序等问题。","explanation_ja":"誤り。範囲拡大の罠。講和会議では敗戦国処理や領土問題、新秩序が扱われた。"},
+          {"id":2,"text":"戦後には国際平和の維持をめざす国際機構が設立された。","explanation_zh":"正确。第一次世界大战后，国际联盟作为维持和平的国际机构成立。","explanation_ja":"正解。第一次世界大戦後、国際平和の維持をめざして国際連盟が設立された。"},
+          {"id":3,"text":"戦後の国際機構は、第二次世界大戦後に初めて構想された。","explanation_zh":"陷阱：时态错位。第一次世界大战后已经成立国际联盟。","explanation_ja":"誤り。時態錯位の罠。第一次世界大戦後に国際連盟が設立されており、第二次世界大戦後が初めてではない。"},
+          {"id":4,"text":"戦後処理では、世界中のすべての民族問題が完全に解決された。","explanation_zh":"陷阱：范围扩大。民族问题并未全部解决，许多矛盾继续存在。","explanation_ja":"誤り。範囲拡大の罠。民族問題がすべて完全に解決されたわけではない。"}
+        ],
+        "answer":2,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["時態錯位","概念混同"],
+          "keywords_to_avoid":["国際連盟","パリ講和会議","ポンド","民族自決","勢力均衡"],
+          "sub_domain":"近代世界",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"5. 金融"}
+        },
+        "sources":[{"claim":"第一次世界大戦後に国際平和維持を目的として国際連盟が設立された","source":"Encyclopaedia Britannica, League of Nations","year":"1920","url":"https://www.britannica.com/topic/League-of-Nations"}]
+      }
+    ],
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"第一次世界大戦",
+      "sub_domain":"近代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"1. 近代化の進展とその影響"},
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "keywords_to_avoid":["サライェヴォ","バルカン半島","オーストリア"]
+    }
+  },
+  {
+    "id": 2,
+    "title": "問2",
+    "prompt": "戦後日本経済の復興と改革について、下の問い（1）〜（4）に答えなさい。",
+    "passage": "敗戦直後の日本では、生産設備の破壊、物資不足、インフレなどが大きな課題となった。復興期には、基礎素材の増産を優先する政策、財政金融の安定化、農村や労働関係の制度改革などが進められた。その後、日本経済は1950年代後半から高い成長率を記録し、産業構造や生活水準も大きく変化した。",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":5,
+        "prompt":"次の文章は、日本の実質国内総生産の成長率を示している。資料から読み取れる内容として最も適当なものはどれですか。\n1956年 6.8％、1960年 12.0％、1965年 5.7％（内閣府長期経済統計）",
+        "choices":[
+          {"id":1,"text":"1956年から1960年にかけて成長率は低下した。","explanation_zh":"陷阱：时态错位。1956 年为 6.8%，1960 年为 12.0%，增长率实际上上升了。","explanation_ja":"誤り。時態錯位の罠。1956年6.8％から1960年12.0％へ上昇している。"},
+          {"id":2,"text":"1965年の成長率は1960年を上回った。","explanation_zh":"陷阱：数值混同。1965 年为 5.7%，低于 1960 年的 12.0%。","explanation_ja":"誤り。数値混同の罠。1965年5.7％は1960年12.0％を下回る。"},
+          {"id":3,"text":"三つの年の成長率はすべて同じであった。","explanation_zh":"陷阱：范围扩大。三个数值分别为 6.8%、12.0%、5.7%，并不相同。","explanation_ja":"誤り。範囲拡大の罠。三つの値は6.8％、12.0％、5.7％であり、同じではない。"},
+          {"id":4,"text":"三つの年の中では、1960年の成長率が最も高い。","explanation_zh":"正确。6.8%、12.0%、5.7% 之中，1960 年的 12.0% 最高。","explanation_ja":"正解。6.8％、12.0％、5.7％の中では、1960年の12.0％が最も高い。"}
+        ],
+        "answer":4,
+        "tag":{
+          "question_form":"図表読取",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["地域取違"],
+          "keywords_to_avoid":["筑豊炭田","九州","日本"],
+          "sub_domain":"経済思想・経済史",
+          "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"}
+        },
+        "sources":[{"claim":"日本の実質GDP成長率は1956年6.8%、1960年12.0%など高度成長期に高い伸びを示した","source":"内閣府 長期経済統計 国民経済計算","year":"1960","url":"https://www5.cao.go.jp/keizai3/2017/0118nk/n17_7_data01.html"}]
+      },
+      {
+        "sub_id":2,
+        "global_id":6,
+        "prompt":"次のア〜ウと説明X〜Zの組合せとして最も適当なものはどれですか。\nア：重点的な生産資源配分　イ：財政金融の安定化　ウ：土地制度改革\nX：基礎素材部門へ資材や資金を優先配分する。\nY：均衡財政や金融引締めによりインフレ抑制を図る。\nZ：地主制を改め、農家の経営基盤を変える。",
+        "choices":[
+          {"id":1,"text":"ア-Y、イ-X、ウ-Z","explanation_zh":"陷阱：概念混淆。资源优先分配和稳定化政策的说明被调换了。","explanation_ja":"誤り。概念混同の罠。重点的な生産資源配分と財政金融の安定化の説明が逆である。"},
+          {"id":2,"text":"ア-X、イ-Y、ウ-Z","explanation_zh":"正确。重点分配、稳定化、土地制度改革的对应关系全部正确。","explanation_ja":"正解。重点的な生産資源配分、財政金融の安定化、土地制度改革の対応がすべて正しい。"},
+          {"id":3,"text":"ア-X、イ-Z、ウ-Y","explanation_zh":"陷阱：概念混淆。财政金融稳定化和土地制度改革的说明被调换了。","explanation_ja":"誤り。概念混同の罠。財政金融の安定化と土地制度改革の説明が逆である。"},
+          {"id":4,"text":"ア-Z、イ-Y、ウ-X","explanation_zh":"陷阱：主体错位。把土地制度改革误当成生产资源分配的说明。","explanation_ja":"誤り。主体取違の罠。土地制度改革を生産資源配分の説明と取り違えている。"}
+        ],
+        "answer":2,
+        "tag":{
+          "question_form":"組合せ",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["概念混同"],
+          "keywords_to_avoid":["傾斜生産方式","民間の貯蓄","日本銀行","債券引き受け"],
+          "sub_domain":"経済思想・経済史",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"5. 金融"}
+        },
+        "sources":[{"claim":"戦後日本では重点的な生産資源配分、財政金融安定化、土地・労働改革が復興期の重要政策であった","source":"Cambridge Core, Priority production; 内閣府資料","year":"1949","url":"https://www.cambridge.org/core/books/economic-ideology-and-japanese-industrial-policy/priority-production/3417C6A8521562897639FE24C830A6D8"}]
+      },
+      {
+        "sub_id":3,
+        "global_id":7,
+        "prompt":"戦後復興期の財政金融政策に関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"インフレが激しい時期には、物価安定のための政策は一切とられなかった。","explanation_zh":"陷阱：范围扩大。复兴期曾采取抑制通胀、稳定财政金融的政策。","explanation_ja":"誤り。範囲拡大の罠。復興期にはインフレ抑制や安定化を目指す政策が実施された。"},
+          {"id":2,"text":"財政金融の安定化は、物資不足をさらに悪化させるためだけに行われた。","explanation_zh":"陷阱：因果倒置。稳定化政策的目的在于物价和财政稳定，不是为了单纯恶化经济。","explanation_ja":"誤り。因果倒置の罠。安定化策は物価・財政の安定を目指すもので、悪化だけを目的としない。"},
+          {"id":3,"text":"戦後復興期の政策は、すべて古代の租税制度だけで説明できる。","explanation_zh":"陷阱：概念混淆。现代复兴政策不能只用古代制度解释。","explanation_ja":"誤り。概念混同の罠。現代の復興政策を古代の租税制度だけで説明することはできない。"},
+          {"id":4,"text":"インフレ抑制や財政の均衡を重視する安定化政策がとられた。","explanation_zh":"正确。复兴期推进了以物价和财政稳定为目标的政策。","explanation_ja":"正解。戦後復興期には、インフレ抑制や財政均衡を重視する安定化政策がとられた。"}
+        ],
+        "answer":4,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["概念混同","範囲拡大"],
+          "keywords_to_avoid":["ドッジ・ライン","歳出削減","為替レート"],
+          "sub_domain":"経済思想・経済史",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"2.市場経済"}
+        },
+        "sources":[{"claim":"戦後日本ではインフレ抑制と財政金融安定化を目的とする政策が実施された","source":"International University of Japan/JICA, Postwar Japanese economic performance","year":"1949","url":"https://www.iuj.ac.jp/research/IUJ-JICA%20Joint%20Research%20Cases/1_The%20reforms%20and%20postwar%20Japanese%20economic%20performance%20from%201946%20to%201993.pdf"}]
+      },
+      {
+        "sub_id":4,
+        "global_id":8,
+        "prompt":"戦後改革と経済社会の変化に関する組合せとして最も適当なものはどれですか。\nア：土地制度改革　イ：労働関係の改革　ウ：財閥解体\nX：農村の土地所有関係を改める。\nY：労働者の団結権などを制度化する。\nZ：巨大企業集団の集中を弱める。",
+        "choices":[
+          {"id":1,"text":"ア-X、イ-Y、ウ-Z","explanation_zh":"正确。土地、劳动、企业集中相关改革内容分别对应正确。","explanation_ja":"正解。土地制度改革、労働関係の改革、財閥解体の説明がそれぞれ正しく対応している。"},
+          {"id":2,"text":"ア-Y、イ-X、ウ-Z","explanation_zh":"陷阱：概念混淆。土地改革和劳动关系改革的说明被调换了。","explanation_ja":"誤り。概念混同の罠。土地制度改革と労働関係改革の説明が逆である。"},
+          {"id":3,"text":"ア-Z、イ-Y、ウ-X","explanation_zh":"陷阱：主体错位。把土地改革和企业集中缓和的对应关系混淆了。","explanation_ja":"誤り。主体取違の罠。土地制度改革と財閥解体の対象を取り違えている。"},
+          {"id":4,"text":"ア-X、イ-Z、ウ-Y","explanation_zh":"陷阱：概念混淆。劳动改革和企业集中缓和的说明被调换了。","explanation_ja":"誤り。概念混同の罠。労働関係の改革と財閥解体の説明が逆である。"}
+        ],
+        "answer":1,
+        "tag":{
+          "question_form":"組合せ",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["概念混同"],
+          "keywords_to_avoid":["農地改革","自作農","労働組合法","産業報国会"],
+          "sub_domain":"経済思想・経済史",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"2. 日本の統治機構"}
+        },
+        "sources":[{"claim":"戦後改革には農地改革、労働改革、財閥解体などが含まれた","source":"国立国会図書館 日本国憲法の誕生 戦後改革","year":"1947","url":"https://www.ndl.go.jp/constitution/"}]
+      }
+    ],
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"戦後日本経済復興",
+      "sub_domain":"経済思想・経済史",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"1. 経済のしくみと資本主義の発展"},
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "keywords_to_avoid":["石炭","鉄鋼","電力","ドッジ・ライン","農地改革"]
+    }
+  },
+  {
+    "id": 3,
+    "global_id": 9,
+    "title": "問3",
+    "prompt": "ある商品の市場で、価格が100円のとき需要量は120個、供給量は80個であった。需要と供給に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"この価格では需要量が供給量を上回り、品不足が生じやすい。","explanation_zh":"正确。需求为 120 个、供给为 80 个，需求大于供给。","explanation_ja":"正解。需要量120個に対し供給量80個であり、需要が供給を上回るため品不足が生じやすい。"},
+      {"id":2,"text":"この価格では供給量が需要量を上回り、売れ残りが生じやすい。","explanation_zh":"陷阱：概念混淆。供给 80 个低于需求 120 个，并不是供给过剩。","explanation_ja":"誤り。概念混同の罠。供給80個は需要120個を下回っており、供給超過ではない。"},
+      {"id":3,"text":"需要量と供給量は等しいため、市場は必ず均衡している。","explanation_zh":"陷阱：数值混同。120 个和 80 个并不相等。","explanation_ja":"誤り。数値混同の罠。120個と80個は等しくないため、均衡とはいえない。"},
+      {"id":4,"text":"価格が変わっても需要量と供給量は常に固定される。","explanation_zh":"陷阱：范围扩大。需求量和供给量会随价格等条件变化。","explanation_ja":"誤り。範囲拡大の罠。需要量と供給量は価格などの条件によって変化しうる。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"需要供給曲線",
+      "sub_domain":"経済原理・市場",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"2.市場経済"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","範囲拡大"],
+      "keywords_to_avoid":["超過需要","超過供給","需要曲線","供給曲線"]
+    },
+    "sources": [{"claim":"需要量が供給量を上回ると不足が生じ、価格調整の圧力が働く","source":"OpenStax, Demand, Supply, and Equilibrium","year":"2022","url":"https://openstax.org/books/principles-economics-3e/pages/3-2-demand-supply-and-equilibrium-in-markets-for-goods-and-services"}]
+  },
+  {
+    "id": 4,
+    "global_id": 10,
+    "title": "問4",
+    "prompt": "日本の財政に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"政府の収入はすべて民間企業の寄付だけでまかなわれる。","explanation_zh":"陷阱：主体错位。政府收入包括税收等，并不只靠企业捐款。","explanation_ja":"誤り。主体取違の罠。政府収入には税などがあり、民間企業の寄付だけではない。"},
+      {"id":2,"text":"国の支出計画は、裁判所が毎年すべて単独で決定する。","explanation_zh":"陷阱：主体错位。国的财政计划由内阁作成，经过国会决议。","explanation_ja":"誤り。主体取違の罠。国の財政計画は内閣が作成し、国会の議決を経る。"},
+      {"id":3,"text":"財政は外交や社会保障とは無関係で、自然地形だけを扱う。","explanation_zh":"陷阱：概念混淆。财政与公共服务、社会保障等有关。","explanation_ja":"誤り。概念混同の罠。財政は公共サービスや社会保障などと関係し、自然地形だけを扱うものではない。"},
+      {"id":4,"text":"国の収支計画は内閣が作成し、国会の議決を経て成立する。","explanation_zh":"正确。日本国宪法规定，内阁作成国的收支计划并提交国会，经议决成立。","explanation_ja":"正解。日本国憲法では、内閣が国の収支計画を作成して国会に提出し、国会の議決を経る。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"日本財政",
+      "sub_domain":"政治思想・政治史",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"2. 日本の統治機構"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","主体取違"],
+      "keywords_to_avoid":["予算","租税","直接税","間接税","所得税","累進課税"]
+    },
+    "sources": [{"claim":"日本国憲法は内閣の予算作成・国会提出と国会の予算議決を定める","source":"日本国憲法 第60条・第73条","year":"1947","url":"https://japan.kantei.go.jp/constitution_and_government_of_japan/constitution_e.html"}]
+  },
+  {
+    "id": 5,
+    "global_id": 11,
+    "title": "問5",
+    "prompt": "日本の国債に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"国債は地方自治体だけが発行し、国は発行できない。","explanation_zh":"陷阱：主体错位。政府发行的债券是由国家发行的债券，不是地方自治体专属。","explanation_ja":"誤り。主体取違の罠。政府が発行する債券は国が発行する債券であり、地方自治体だけのものではない。"},
+      {"id":2,"text":"国債残高が増えても、将来の財政負担を考える必要はまったくない。","explanation_zh":"陷阱：范围扩大。政府发行的债券涉及付息和偿还，需要考虑将来负担。","explanation_ja":"誤り。範囲拡大の罠。政府が発行する債券には利払いと償還があり、将来の財政負担を考える必要がある。"},
+      {"id":3,"text":"国債は国が資金を借り入れるために発行する債券であり、財政運営と関係が深い。","explanation_zh":"正确。政府发行的债券是政府筹措资金的手段，与财政收支和付息相连。","explanation_ja":"正解。政府が発行する債券は国が資金を借り入れるために発行する債券であり、財政運営と密接に関係する。"},
+      {"id":4,"text":"国債は通貨そのものであり、利払いや償還は存在しない。","explanation_zh":"陷阱：概念混淆。政府发行的债券是债券，不是货币本身。","explanation_ja":"誤り。概念混同の罠。政府が発行する債券は債券であり、現金そのものではなく、利払いや償還がある。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"日本国債",
+      "sub_domain":"財政・租税",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"3.経済主体"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違","時態錯位","範囲拡大"],
+      "keywords_to_avoid":["国債","海外投資家","国債残高","日本銀行","金利"]
+    },
+    "sources": [{"claim":"国債は国が資金調達のために発行する債券である","source":"財務省 国債とは","year":"2024","url":"https://www.mof.go.jp/jgbs/individual/kojinmuke/main/guide/"}]
+  },
+  {
+    "id": 6,
+    "global_id": 12,
+    "title": "問6",
+    "prompt": "金融制度に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"銀行は預金を受け入れても、貸出を通じて経済活動に影響を与えることはない。","explanation_zh":"陷阱：范围扩大。银行贷款会影响企业和家庭的资金筹措。","explanation_ja":"誤り。範囲拡大の罠。銀行貸出は企業や家計の資金調達に影響する。"},
+      {"id":2,"text":"日本銀行は物価の安定を目的に、金利や資金供給に働きかける。","explanation_zh":"正确。日本银行通过金融政策影响利率和资金供给，目标之一是物价稳定。","explanation_ja":"正解。日本銀行は金融政策を通じて、金利や資金供給に働きかけ、物価の安定を図る。"},
+      {"id":3,"text":"現代の金融制度では、紙幣と預金は農作物の収穫量だけで決まる。","explanation_zh":"陷阱：概念混淆。金融制度涉及银行、信用和资金供给，不只由收获量决定。","explanation_ja":"誤り。概念混同の罠。金融制度は銀行・信用・資金供給に関わり、農作物の収穫量だけで決まらない。"},
+      {"id":4,"text":"日本銀行は裁判を専門に行う機関で、金融政策とは無関係である。","explanation_zh":"陷阱：主体错位。日本银行负责金融政策，不是法院。","explanation_ja":"誤り。主体取違の罠。日本銀行は金融政策を担う機関であり、裁判所ではない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"通貨金融制度",
+      "sub_domain":"金融・通貨",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"3.経済主体"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","主体取違"],
+      "keywords_to_avoid":["中央銀行","信用創造","通貨","金本位制","ブレトン・ウッズ"]
+    },
+    "sources": [{"claim":"日本銀行は物価の安定を理念として金融政策を運営する","source":"日本銀行 金融政策の概要","year":"2024","url":"https://www.boj.or.jp/mopo/outline/"}]
+  },
+  {
+    "id": 7,
+    "global_id": 13,
+    "title": "問7",
+    "prompt": "次の文章は、ある国の輸出入額を示している。資料から読み取れる内容として最も適当なものはどれですか。\n輸出額：約100.9兆円、輸入額：約110.2兆円（2023年、財務省貿易統計ベース）",
+    "choices": [
+      {"id":1,"text":"輸出額が輸入額を上回っているため、黒字である。","explanation_zh":"陷阱：方向错位。进口额更大，因此不是贸易盈余。","explanation_ja":"誤り。方向取違の罠。輸入額が輸出額を上回っているため、黒字ではない。"},
+      {"id":2,"text":"輸出額と輸入額は完全に同じである。","explanation_zh":"陷阱：数值混同。100.9 兆日元和 110.2 兆日元并不相等。","explanation_ja":"誤り。数値混同の罠。100.9兆円と110.2兆円は等しくない。"},
+      {"id":3,"text":"輸入額が輸出額を上回っているため、赤字である。","explanation_zh":"正确。进口 110.2 兆日元高于出口 100.9 兆日元，差额为赤字。","explanation_ja":"正解。輸入額110.2兆円が輸出額100.9兆円を上回っているため、貿易収支は赤字である。"},
+      {"id":4,"text":"輸入額は輸出額のちょうど2倍である。","explanation_zh":"陷阱：范围扩大。110.2÷100.9 约为 1.09 倍，不是 2 倍。","explanation_ja":"誤り。範囲拡大の罠。110.2÷100.9は約1.09倍であり、2倍ではない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"貿易収支",
+      "sub_domain":"国際経済・貿易",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"10. 国際経済"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["日本","アメリカ","ドイツ","中国","貿易収支"]
+    },
+    "sources": [{"claim":"2023年の日本の貿易は輸出約100.9兆円、輸入約110.2兆円で赤字であった","source":"JETRO 世界貿易投資報告 2024（財務省貿易統計）","year":"2023","url":"https://www.jetro.go.jp/ext_images/world/gtir/2024/no1-3.pdf"}]
+  },
+  {
+    "id": 8,
+    "global_id": 14,
+    "title": "問8",
+    "prompt": "次の文章は、ユーロ圏の域外向け財輸出入額を示している。資料から読み取れる内容として最も適当なものはどれですか。\n2024年1〜10月：輸出 2,387.1十億ユーロ、輸入 2,243.8十億ユーロ（Eurostat）",
+    "choices": [
+      {"id":1,"text":"輸入額が輸出額を上回り、赤字であった。","explanation_zh":"陷阱：方向错位。资料显示出口额更大。","explanation_ja":"誤り。方向取違の罠。資料では輸出額2387.1十億ユーロが輸入額2243.8十億ユーロを上回る。"},
+      {"id":2,"text":"輸出額と輸入額は完全に同じであった。","explanation_zh":"陷阱：数值混同。2387.1 和 2243.8 并不相同。","explanation_ja":"誤り。数値混同の罠。2387.1と2243.8は同じではない。"},
+      {"id":3,"text":"輸出額が輸入額を上回り、財貿易は黒字であった。","explanation_zh":"正确。出口 2387.1 高于进口 2243.8。","explanation_ja":"正解。輸出額2387.1十億ユーロが輸入額2243.8十億ユーロを上回るため、財貿易は黒字である。"},
+      {"id":4,"text":"輸入額は輸出額の3倍を超えた。","explanation_zh":"陷阱：范围扩大。进口额低于出口额，不是出口额的 3 倍。","explanation_ja":"誤り。範囲拡大の罠。輸入額は輸出額を下回っており、3倍を超えていない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"EU経済統合",
+      "sub_domain":"国際政治・外交",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["地域取違"],
+      "keywords_to_avoid":["ユーロ","EU加盟国","2014年"]
+    },
+    "sources": [{"claim":"2024年1〜10月のユーロ圏域外財輸出は2387.1十億ユーロ、輸入は2243.8十億ユーロ","source":"Eurostat Euro indicators, euro area international trade in goods","year":"2024","url":"https://ec.europa.eu/eurostat/web/products-euro-indicators/w/6-17122024-ap"}]
+  },
+  {
+    "id": 9,
+    "global_id": 15,
+    "title": "問9",
+    "prompt": "次の文章は、世界の商品貿易を大きな品目群で見た説明である。資料から読み取れる内容として最も適当なものはどれですか。\nWTO資料では、2022年の商品貿易で燃料・鉱産物や工業製品は主要な品目群として扱われ、農産品とは区別して集計されている。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"世界の商品貿易では、燃料・鉱産物、工業製品、農産品などの品目群を区別して見ることができる。","explanation_zh":"正确。WTO 将商品贸易分为燃料和矿产品、工业制品、农产品等品目群。","explanation_ja":"正解。WTO資料では、燃料・鉱産物、工業製品、農産品などの品目群を区別して示している。"},
+      {"id":2,"text":"世界の商品貿易は農産品だけで構成される。","explanation_zh":"陷阱：范围扩大。商品贸易还包括工业制品以及燃料和矿产品。","explanation_ja":"誤り。範囲拡大の罠。商品貿易には工業製品や燃料・鉱産物も含まれる。"},
+      {"id":3,"text":"燃料・鉱産物はサービス貿易であり、商品貿易には含まれない。","explanation_zh":"陷阱：概念混淆。燃料和矿产品被作为商品贸易的品目群处理。","explanation_ja":"誤り。概念混同の罠。燃料・鉱産物は商品貿易の品目群として扱われる。"},
+      {"id":4,"text":"工業製品と農産品は統計上まったく区別されない。","explanation_zh":"陷阱：概念混淆。WTO 资料会区分不同品目群。","explanation_ja":"誤り。概念混同の罠。WTO資料では工業製品と農産品などを区別している。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"世界貿易品目",
+      "sub_domain":"国際経済・貿易",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"10. 国際経済"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["米","鉄鉱石","医薬品","衣類","輸出"]
+    },
+    "sources": [{"claim":"WTOは世界の商品貿易を農産品、燃料・鉱産物、工業製品などの品目群で示している","source":"WTO World Trade Statistical Review 2023","year":"2022","url":"https://www.wto.org/english/res_e/booksp_e/wtsr_2023_ch2_e.pdf"}]
+  },
+  {
+    "id": 10,
+    "global_id": 16,
+    "title": "問10",
+    "prompt": "次の文章は、2023年の主な国の自動車生産台数を示している。資料から読み取れる内容として最も適当なものはどれですか。\n中国 約2612万台、アメリカ 約889万台、日本 約777万台、ドイツ 約411万台（OICA）",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"日本が四つの中で最も多い。","explanation_zh":"陷阱：地域错位。中国约 2612 万台，才是最多。","explanation_ja":"誤り。地域取違の罠。中国が約2612万台で、四つの中で最も多い。"},
+      {"id":2,"text":"中国が四つの中で最も多い。","explanation_zh":"正确。中国约 2612 万台，高于美国、日本、德国。","explanation_ja":"正解。中国の約2612万台は、アメリカ、日本、ドイツを上回っている。"},
+      {"id":3,"text":"ドイツは中国より生産台数が多い。","explanation_zh":"陷阱：数值混同。德国约 411 万台，低于中国约 2612 万台。","explanation_ja":"誤り。数値混同の罠。ドイツ約411万台は中国約2612万台を下回る。"},
+      {"id":4,"text":"四つの国の生産台数はすべて同じである。","explanation_zh":"陷阱：范围扩大。各国数值差异很大，并非完全相同。","explanation_ja":"誤り。範囲拡大の罠。各国の生産台数は大きく異なり、同じではない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"自動車生産",
+      "sub_domain":"経済発展・産業",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"9. 日本の産業"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["日本","中国","ドイツ","韓国"]
+    },
+    "sources": [{"claim":"2023年の自動車生産台数は中国、米国、日本、ドイツの順に大きい","source":"OICA World Motor Vehicle Production 2023","year":"2023","url":"https://www.oica.net/2023-production/"}]
+  },
+  {
+    "id": 11,
+    "title": "問11",
+    "prompt": "比較生産費の考え方について、下の問いに答えなさい。",
+    "passage": "二つの国が二つの財を作る場合、どちらか一方の国が両方の財を少ない労働で作れるとしても、相対的に得意な財に特化して交換すれば、双方に利益が生じることがある。たとえば、A国では布1単位に2時間、ぶどう酒1単位に4時間かかり、B国では布1単位に6時間、ぶどう酒1単位に8時間かかる。このときA国は両方を少ない時間で作れるが、A国では布の方が相対的に得意で、B国ではぶどう酒の方が相対的に不利が小さい。",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":17,
+        "prompt":"本文の数値に基づき、A国・B国が相対的に得意な財の組合せとして最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"A国：ぶどう酒　B国：布","explanation_zh":"陷阱：数值混同。A国在布上相对有利，B国在葡萄酒上的相对不利较小。","explanation_ja":"誤り。数値混同の罠。A国は布に相対的な有利があり、B国はぶどう酒で不利が小さい。"},
+          {"id":2,"text":"A国：布　B国：布","explanation_zh":"陷阱：范围扩大。不能说两国都只应专门生产同一种财。","explanation_ja":"誤り。範囲拡大の罠。相対的な得意分野は両国で異なる。"},
+          {"id":3,"text":"A国：布　B国：ぶどう酒","explanation_zh":"正确。A国生产布的机会成本较低，B国生产葡萄酒的相对不利较小。","explanation_ja":"正解。A国は布の機会費用が低く、B国はぶどう酒で相対的不利が小さい。"},
+          {"id":4,"text":"A国：ぶどう酒　B国：ぶどう酒","explanation_zh":"陷阱：数值混同。A国相对擅长的是布，不是葡萄酒。","explanation_ja":"誤り。数値混同の罠。A国が相対的に得意なのはぶどう酒ではなく布である。"}
+        ],
+        "answer":3,
+        "tag":{
+          "question_form":"組合せ",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["数値混同"],
+          "keywords_to_avoid":["X国","Y国","衣類","ワイン"],
+          "sub_domain":"経済原理・市場"
+        },
+        "sources":[{"claim":"比較優位では相対的な機会費用の低い財に特化することで貿易利益が生じうる","source":"OpenStax, International Trade and Comparative Advantage","year":"2022","url":"https://openstax.org/books/principles-economics-3e/pages/20-2-international-trade-and-its-effects-on-jobs-wages-and-working-conditions"}]
+      },
+      {
+        "sub_id":2,
+        "global_id":18,
+        "prompt":"比較生産費の考え方に関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"絶対的にすべての財を効率よく作れる国でも、相対的に得意な財に特化する利益がありうる。","explanation_zh":"正确。比较优势看的是相对机会成本，而不是绝对效率高低。","explanation_ja":"正解。比較優位は絶対的な生産性ではなく、相対的な機会費用に注目する。"},
+          {"id":2,"text":"すべての財を効率よく作れる国は、貿易から利益を得ることが絶対にない。","explanation_zh":"陷阱：范围扩大。只要存在比较优势，高效率国家也可能从贸易中受益。","explanation_ja":"誤り。範囲拡大の罠。比較優位があれば、効率の高い国も貿易利益を得る可能性がある。"},
+          {"id":3,"text":"比較ではなく、国名の五十音順だけで特化する財が決まる。","explanation_zh":"陷阱：概念混淆。专业化应根据机会成本比较来判断。","explanation_ja":"誤り。概念混同の罠。特化は国名ではなく機会費用の比較で考える。"},
+          {"id":4,"text":"貿易の利益は、輸送距離がゼロのときだけしか生じない。","explanation_zh":"陷阱：范围扩大。运输成本很重要，但贸易利益并不限于距离为零的情形。","explanation_ja":"誤り。範囲拡大の罠。輸送費は重要だが、貿易利益が距離ゼロの場合だけに限られるわけではない。"}
+        ],
+        "answer":1,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["主体取違"],
+          "keywords_to_avoid":["リカード","リスト","比較優位","保護主義"],
+          "sub_domain":"経済原理・市場",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"10. 国際経済"}
+        },
+        "sources":[{"claim":"比較優位は相対的な機会費用の差によって貿易利益を説明する","source":"OpenStax, Comparative Advantage and the Gains from Trade","year":"2022","url":"https://openstax.org/books/principles-economics-3e/pages/20-1-absolute-and-comparative-advantage"}]
+      }
+    ],
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"比較生産費説",
+      "sub_domain":"経済原理・市場",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"2.市場経済"},
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "keywords_to_avoid":["リカード","比較生産費説","比較優位"]
+    }
+  },
+  {
+    "id": 12,
+    "global_id": 19,
+    "title": "問12",
+    "prompt": "地球を球体として表す模型の特徴として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"地球上の大陸や海洋の位置関係を、球面に近い形で把握できる。","explanation_zh":"正确。球体模型接近地球形状，适合考察位置关系和大圆航路。","explanation_ja":"正解。地球の形に近い球面で、大陸や海洋の位置関係を把握しやすい。"},
+      {"id":2,"text":"球体模型では、すべての地域を同じ縮尺で細かく詳しく示せる。","explanation_zh":"陷阱：范围扩大。球体模型受比例尺限制，细节表示有限。","explanation_ja":"誤り。範囲拡大の罠。縮尺に限界があるため、すべての地域を細かく示せるわけではない。"},
+      {"id":3,"text":"球体模型は平面なので、緯度や経度を示すことができない。","explanation_zh":"陷阱：概念混淆。球体模型也可以表示纬度和经度。","explanation_ja":"誤り。概念混同の罠。球体模型でも緯度や経度を示すことができる。"},
+      {"id":4,"text":"球体模型では、地球が円盤であることを示している。","explanation_zh":"陷阱：概念混淆。地球通常用近似球体来表示。","explanation_ja":"誤り。概念混同の罠。地球は円盤ではなく球体に近い形で表される。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"地球儀",
+      "sub_domain":"自然地理",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","範囲拡大"],
+      "keywords_to_avoid":["地球儀","地図","距離","方位"]
+    },
+    "sources": [{"claim":"地球儀は地球を球体として表し、緯度経度や位置関係を理解するために用いられる","source":"National Geographic, Globe","year":"2024","url":"https://education.nationalgeographic.org/resource/globe/"}]
+  },
+  {
+    "id": 13,
+    "global_id": 20,
+    "title": "問13",
+    "prompt": "次の文章は、三都市の年平均温度と年間雨量の目安を示している。資料から読み取れる内容として最も適当なものはどれですか。\nシンガポール：約27℃・約2400mm、東京：約16℃・約1600mm、カイロ：約22℃・約25mm。",
+    "choices": [
+      {"id":1,"text":"カイロは三都市の中で年間雨量が最も多い。","explanation_zh":"陷阱：地域错位。开罗的年雨量约 25mm，是三都市中最少。","explanation_ja":"誤り。地域取違の罠。カイロの年間雨量は約25mmで、三都市の中で最も少ない。"},
+      {"id":2,"text":"シンガポールは高温で多雨、カイロは雨量が少ない。","explanation_zh":"正确。新加坡约 27℃、2400mm，属于高温多雨；开罗约 25mm，雨量很少。","explanation_ja":"正解。シンガポールは約27℃・約2400mmで高温多雨、カイロは約25mmで雨量が少ない。"},
+      {"id":3,"text":"東京は三都市の中で最も高温である。","explanation_zh":"陷阱：数值混同。东京约 16℃，是三都市中最低。","explanation_ja":"誤り。数値混同の罠。東京約16℃は三都市の中で最も低い。"},
+      {"id":4,"text":"三都市の温度と雨量はすべて同じである。","explanation_zh":"陷阱：范围扩大。三都市的数值差异很大。","explanation_ja":"誤り。範囲拡大の罠。三都市の温度と雨量は大きく異なる。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"気候分布",
+      "sub_domain":"自然地理",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["地域取違"],
+      "keywords_to_avoid":["気候","気温","降水量","ハイサーグラフ"]
+    },
+    "sources": [{"claim":"シンガポール、東京、カイロの気温・降水量には気候地域による差がある","source":"World Bank Climate Change Knowledge Portal, Climatology","year":"2024","url":"https://climateknowledgeportal.worldbank.org/"}]
+  },
+  {
+    "id": 14,
+    "global_id": 21,
+    "title": "問14",
+    "prompt": "標準時に関する記述として最も適当なものはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"標準時は各家庭が自由に決める時刻で、国や地域の基準とは無関係である。","explanation_zh":"陷阱：概念混淆。标准时是作为国家或地区基准来规定的。","explanation_ja":"誤り。概念混同の罠。標準時は地域や国の基準として定められる時刻である。"},
+      {"id":2,"text":"経度が異なっても太陽の見かけの動きによる時刻差は生じない。","explanation_zh":"陷阱：概念混淆。经度差会带来时刻差。","explanation_ja":"誤り。概念混同の罠。経度の違いは太陽の見かけの動きによる時刻差と関係する。"},
+      {"id":3,"text":"標準時は、経度差による時刻の違いを一定の地域ごとにそろえるために用いられる。","explanation_zh":"正确。标准时用于统一一定区域内的时刻，便利社会活动。","explanation_ja":"正解。標準時は経度差による時刻の違いを一定地域ごとにそろえるために用いられる。"},
+      {"id":4,"text":"標準時は温度の高低を表す単位である。","explanation_zh":"陷阱：概念混淆。标准时是时刻基准，不是温度单位。","explanation_ja":"誤り。概念混同の罠。標準時は時刻の基準であり、温度の単位ではない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"標準時",
+      "sub_domain":"自然地理",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["数値混同"],
+      "keywords_to_avoid":["ニューヨーク","サンフランシスコ","標準時","時差"]
+    },
+    "sources": [{"claim":"標準時は地域内の時刻を統一するために用いられる","source":"国立天文台 暦Wiki 標準時","year":"2024","url":"https://eco.mtk.nao.ac.jp/koyomi/wiki/C9B8BDE0BBFE.html"}]
+  },
+  {
+    "id": 15,
+    "global_id": 22,
+    "title": "問15",
+    "prompt": "ヨーロッパのドナウ川に関する記述として最も適当なものはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"この川は南アメリカを流れ、太平洋に注ぐ。","explanation_zh":"陷阱：地域错位。多瑙河流经欧洲。","explanation_ja":"誤り。地域取違の罠。ドナウ川はヨーロッパを流れる川であり、南アメリカの川ではない。"},
+      {"id":2,"text":"この川は砂漠の地下だけを流れ、国境や都市とは関係しない。","explanation_zh":"陷阱：范围扩大。多瑙河与多个国家和城市相关，是国际河流。","explanation_ja":"誤り。範囲拡大の罠。ドナウ川は複数の国や都市と関係する国際河川である。"},
+      {"id":3,"text":"この川は日本列島を東西に横切って流れる。","explanation_zh":"陷阱：地域错位。多瑙河不是日本河流，而是欧洲河流。","explanation_ja":"誤り。地域取違の罠。ドナウ川は日本ではなくヨーロッパの河川である。"},
+      {"id":4,"text":"この川はヨーロッパの複数国を流れ、黒海方面へ注ぐ国際河川である。","explanation_zh":"正确。多瑙河流经欧洲多个国家，并注入黑海。","explanation_ja":"正解。ドナウ川はヨーロッパの複数国を流れ、黒海へ注ぐ国際河川である。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"ドナウ川地理",
+      "sub_domain":"自然地理",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["地域取違"],
+      "keywords_to_avoid":["ドナウ川","ルーマニア","ブルガリア","黒海"]
+    },
+    "sources": [{"claim":"ドナウ川はヨーロッパを流れ黒海へ注ぐ国際河川である","source":"Encyclopaedia Britannica, Danube River","year":"2024","url":"https://www.britannica.com/place/Danube-River"}]
+  },
+  {
+    "id": 16,
+    "global_id": 23,
+    "title": "問16",
+    "prompt": "次の文章は、三つの国の面積と人口の目安を示している。資料から読み取れる内容として最も適当なものはどれですか。\nロシア：面積約1710万km²・人口約1.45億人、カナダ：面積約998万km²・人口約0.39億人、インド：面積約329万km²・人口約14.3億人。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"インドは三つの中で面積が最も大きい。","explanation_zh":"陷阱：数值混同。国土面积最大的是俄罗斯。","explanation_ja":"誤り。数値混同の罠。面積が最も大きいのはロシアである。"},
+      {"id":2,"text":"カナダは三つの中で人口が最も多い。","explanation_zh":"陷阱：地域错位。居民数最多的是印度。","explanation_ja":"誤り。地域取違の罠。人口が最も多いのはインドである。"},
+      {"id":3,"text":"ロシアは三つの中で面積が最も大きく、インドは人口が最も多い。","explanation_zh":"正确。资料显示面积最大的是俄罗斯，人口最多的是印度。","explanation_ja":"正解。資料ではロシアの面積が最大で、インドの人口が最も多い。"},
+      {"id":4,"text":"三つの国は面積も人口も完全に同じである。","explanation_zh":"陷阱：范围扩大。面积和人口都因国家而有很大差异。","explanation_ja":"誤り。範囲拡大の罠。面積も人口も国ごとに大きく異なる。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"世界面積人口",
+      "sub_domain":"産業・資源",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["面積","人口","中国","インド","アメリカ","ブラジル"]
+    },
+    "sources": [{"claim":"ロシア、カナダ、インドの面積・人口は大きく異なり、ロシアが面積最大、インドが人口最大である","source":"World Bank Data; Worldometers country area","year":"2024","url":"https://data.worldbank.org/indicator/SP.POP.TOTL"}]
+  },
+  {
+    "id": 17,
+    "global_id": 24,
+    "title": "問17",
+    "prompt": "議会を中心とする民主政治の考え方に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"法律を定める権限は、常に一人の君主だけに集中し、代表機関は存在しない。","explanation_zh":"陷阱：主体错位。以议会为中心的政治中，代表机关在立法中具有重要作用。","explanation_ja":"誤り。主体取違の罠。議会中心の政治では、代表機関が立法に重要な役割をもつ。"},
+      {"id":2,"text":"議会制では、国民の代表を選ぶ手続きはまったく不要である。","explanation_zh":"陷阱：范围扩大。议会制中，选出代表的程序很重要。","explanation_ja":"誤り。範囲拡大の罠。議会制では国民の代表を選ぶ手続きが重要である。"},
+      {"id":3,"text":"議会は裁判所の別名であり、法律制定とは無関係である。","explanation_zh":"陷阱：概念混淆。议会是参与立法的代表机关，不是法院。","explanation_ja":"誤り。概念混同の罠。議会は立法に関わる代表機関であり、裁判所ではない。"},
+      {"id":4,"text":"国民を代表する機関が、法律制定など政治の重要な役割を担う。","explanation_zh":"正确。代表国民的机关承担法律制定等政治上的重要作用。","explanation_ja":"正解。国民を代表する機関が、法律制定など政治の重要な役割を担う。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"議会主権制",
+      "sub_domain":"政治思想・政治史",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"1.民主政治"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違"],
+      "keywords_to_avoid":["国王","君臨","統治","議会","イギリス"]
+    },
+    "sources": [{"claim":"議会は代表からなる立法機関として政治の重要な役割を担う","source":"UK Parliament, What Parliament does","year":"2024","url":"https://www.parliament.uk/about/how/role/"}]
+  },
+  {
+    "id": 18,
+    "global_id": 25,
+    "title": "問18",
+    "prompt": "権力も法律に従うという原理に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"権力者は法律に拘束されず、自由に人々の権利を制限できるという考え方である。","explanation_zh":"陷阱：概念混淆。法的支配强调权力也必须服从法律。","explanation_ja":"誤り。概念混同の罠。法の支配は、権力も法に従うことを重視する考え方である。"},
+      {"id":2,"text":"国家権力も法に従い、個人の権利を恣意的な支配から守るという考え方である。","explanation_zh":"正确。法的支配用于抑制恣意支配，保护个人权利。","explanation_ja":"正解。法の支配は国家権力も法に従うことを求め、個人の権利を恣意的支配から守る考え方である。"},
+      {"id":3,"text":"この原理とは、自然災害が法律を作るという地理の概念である。","explanation_zh":"陷阱：概念混淆。法的支配是政治和法律原理，不是自然地理概念。","explanation_ja":"誤り。概念混同の罠。法の支配は政治・法の原理であり、自然地理の概念ではない。"},
+      {"id":4,"text":"この原理では、裁判所や手続はすべて不要になる。","explanation_zh":"陷阱：范围扩大。法的支配下，公正程序和法院作用仍然重要。","explanation_ja":"誤り。範囲拡大の罠。法の支配では公正な手続や裁判の役割が重要である。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"法の支配",
+      "sub_domain":"憲法・人権",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"1. 近代化の進展とその影響"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["法の支配","自然法","法治主義"]
+    },
+    "sources": [{"claim":"法の支配は権力が法に従い、恣意的支配を抑える原理である","source":"United Nations, Rule of Law","year":"2024","url":"https://www.un.org/ruleoflaw/what-is-the-rule-of-law/"}]
+  },
+  {
+    "id": 19,
+    "global_id": 26,
+    "title": "問19",
+    "prompt": "民族や国民意識を重視する思想に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"この思想は、民族や国民意識とはまったく関係しない気候区分である。","explanation_zh":"陷阱：概念混淆。民族主义是涉及民族和国民意识的政治思想。","explanation_ja":"誤り。概念混同の罠。ナショナリズムは民族や国民意識に関わる政治思想であり、気候区分ではない。"},
+      {"id":2,"text":"この思想は近代以降にだけ現れ、政治運動には一切影響しなかった。","explanation_zh":"陷阱：范围扩大。民族主义对近代政治运动产生过重要影响。","explanation_ja":"誤り。範囲拡大の罠。ナショナリズムは近代の政治運動に大きな影響を与えた。"},
+      {"id":3,"text":"民族や国民としての一体感を重視し、独立運動や国家形成と結びつくことがある。","explanation_zh":"正确。民族主义与国民意识、独立运动和国家形成相联系。","explanation_ja":"正解。ナショナリズムは民族や国民としての一体感を重視し、独立運動や国家形成と結びつくことがある。"},
+      {"id":4,"text":"この思想は常に国際協調だけを強め、対立を生むことは絶対にない。","explanation_zh":"陷阱：范围扩大。民族主义可能促进整合，也可能引发对立。","explanation_ja":"誤り。範囲拡大の罠。ナショナリズムは統合にも対立にも関わりうるため、絶対に対立を生まないとはいえない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"ナショナリズム",
+      "sub_domain":"国際政治・外交",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"5. 国際政治"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["範囲拡大","時態錯位"],
+      "keywords_to_avoid":["ナショナリズム","民族紛争","国民国家"]
+    },
+    "sources": [{"claim":"ナショナリズムは民族・国民意識、独立運動、国家形成と結びつく思想である","source":"Encyclopaedia Britannica, Nationalism","year":"2024","url":"https://www.britannica.com/topic/nationalism"}]
+  },
+  {
+    "id": 20,
+    "global_id": 27,
+    "title": "問20",
+    "prompt": "1776年に出された北米植民地の独立宣言に関する記述として最も適当なものはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"1776年ではなく、第二次世界大戦後に初めて採択された。","explanation_zh":"陷阱：时态错位。独立宣言是在 1776 年通过的。","explanation_ja":"誤り。時態錯位の罠。独立宣言は1776年に採択され、第二次世界大戦後ではない。"},
+      {"id":2,"text":"13植民地がイギリスからの独立を宣言し、政府は被治者の同意に基づくという考えを示した。","explanation_zh":"正确。独立宣言表明 13 个殖民地独立，并体现被统治者同意的思想。","explanation_ja":"正解。独立宣言は13植民地の独立を宣言し、政府は被治者の同意に基づくという考えを示した。"},
+      {"id":3,"text":"宣言は君主の絶対支配を無条件に支持する内容であった。","explanation_zh":"陷阱：主体错位。宣言是在为脱离英国统治进行正当化。","explanation_ja":"誤り。主体取違の罠。宣言はイギリス支配からの独立を正当化する内容である。"},
+      {"id":4,"text":"宣言は農作物の価格表であり、政治思想とは無関係であった。","explanation_zh":"陷阱：概念混淆。独立宣言是政治思想史上的重要文书。","explanation_ja":"誤り。概念混同の罠。独立宣言は政治思想史上重要な文書であり、価格表ではない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"アメリカ独立宣言",
+      "sub_domain":"政治思想・政治史",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"1. 近代化の進展とその影響"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違"],
+      "keywords_to_avoid":["アメリカ独立宣言","統治者同意","被治者同意"]
+    },
+    "sources": [{"claim":"アメリカ独立宣言は1776年に採択され、被治者の同意などの思想を示した","source":"Encyclopaedia Britannica, Declaration of Independence","year":"1776","url":"https://www.britannica.com/topic/Declaration-of-Independence"}]
+  },
+  {
+    "id": 21,
+    "global_id": 28,
+    "title": "問21",
+    "prompt": "20世紀末の日本政治に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"この時期には日本で内閣制度が廃止され、大統領制に完全移行した。","explanation_zh":"陷阱：概念混淆。日本当时仍维持议院内阁制。","explanation_ja":"誤り。概念混同の罠。1990年代の日本は議院内閣制を維持していた。"},
+      {"id":2,"text":"1996年に成立した橋本龍太郎内閣は、明治維新より前の江戸時代の内閣である。","explanation_zh":"陷阱：时态错位。桥本内阁是 1990 年代现代日本的内阁。","explanation_ja":"誤り。時態錯位の罠。橋本内閣は1990年代の現代日本の内閣であり、江戸時代ではない。"},
+      {"id":3,"text":"橋本龍太郎は1996年に内閣総理大臣となり、省庁再編などを重要課題に掲げた。","explanation_zh":"正确。桥本龙太郎 1996 年成为首相，并推进行政改革。","explanation_ja":"正解。橋本龍太郎は1996年に首相となり、行政改革などを重要課題とした。"},
+      {"id":4,"text":"1990年代の日本では、国会も内閣も存在しなかった。","explanation_zh":"陷阱：范围扩大。日本的统治机构中仍存在国会和内阁。","explanation_ja":"誤り。範囲拡大の罠。1990年代の日本でも国会と内閣は存在していた。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"1990年代日本内閣",
+      "sub_domain":"現代日本",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"2. 日本の統治機構"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違","時態錯位"],
+      "keywords_to_avoid":["自由民主党","首相","1990年代","行政改革"]
+    },
+    "sources": [{"claim":"橋本龍太郎は1996年に首相となり、行政改革などを重要課題にした","source":"外務省 Prime Minister Ryutaro Hashimoto","year":"1996","url":"https://www.mofa.go.jp/policy/economy/summit/1996/participant/hashimoto.html"}]
+  },
+  {
+    "id": 22,
+    "global_id": 29,
+    "title": "問22",
+    "prompt": "次の文章は、衆議院議員の選出区分別定数を示している。資料から読み取れる内容として最も適当なものはどれですか。\n小選挙区 289人、比例代表 176人、合計 465人。",
+    "choices": [
+      {"id":1,"text":"小選挙区の定数は比例代表の定数より多い。","explanation_zh":"正确。289 人多于 176 人。","explanation_ja":"正解。小選挙区289人は比例代表176人より多い。"},
+      {"id":2,"text":"比例代表の定数は小選挙区の定数より多い。","explanation_zh":"陷阱：数值混同。176 人少于 289 人。","explanation_ja":"誤り。数値混同の罠。比例代表176人は小選挙区289人を下回る。"},
+      {"id":3,"text":"合計定数は100人未満である。","explanation_zh":"陷阱：范围扩大。合计为 465 人，不少于 100 人。","explanation_ja":"誤り。範囲拡大の罠。合計は465人であり、100人未満ではない。"},
+      {"id":4,"text":"二つの区分の定数はどちらも同じである。","explanation_zh":"陷阱：数值混同。289 人和 176 人并不相等。","explanation_ja":"誤り。数値混同の罠。289人と176人は同じではない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"選挙制度",
+      "sub_domain":"選挙・政党",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"4.政治参加"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["小選挙区制","比例代表制","得票率","議席率"]
+    },
+    "sources": [{"claim":"衆議院議員定数は小選挙区289人、比例代表176人、合計465人である","source":"総務省/内閣府資料 衆議院議員定数","year":"2024","url":"https://www.gender.go.jp/kaigi/senmon/keikaku_kanshi/siryo/pdf/ka6-1.pdf"}]
+  },
+  {
+    "id": 23,
+    "global_id": 30,
+    "title": "問23",
+    "prompt": "EU統合に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"EUは軍事同盟だけを目的とし、経済や人の移動とは一切関係しない。","explanation_zh":"陷阱：范围扩大。欧盟涉及经济统合和域内合作等广泛领域。","explanation_ja":"誤り。範囲拡大の罠。EUは経済統合や域内協力など幅広い分野に関わる。"},
+      {"id":2,"text":"EUは加盟国間で市場統合や制度協力を進めてきた地域統合の例である。","explanation_zh":"正确。欧盟通过单一市场等推进区域统合。","explanation_ja":"正解。EUは加盟国間で市場統合や制度協力を進めてきた地域統合の例である。"},
+      {"id":3,"text":"EUは19世紀のアジアだけで成立した植民地支配の制度である。","explanation_zh":"陷阱：地域错位。欧盟是欧洲的区域统合。","explanation_ja":"誤り。地域取違の罠。EUはヨーロッパの地域統合であり、19世紀アジアだけの制度ではない。"},
+      {"id":4,"text":"EU加盟国はすべて同じ憲法をもち、国内政治の違いは完全に消えた。","explanation_zh":"陷阱：范围扩大。加盟国仍有各自国内制度，差异并未全部消失。","explanation_ja":"誤り。範囲拡大の罠。加盟国にはそれぞれ国内制度があり、違いが完全に消えたわけではない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"EU統合",
+      "sub_domain":"国際政治・外交",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"5. 国際政治"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["主体取違","時態錯位"],
+      "keywords_to_avoid":["リスボン条約","EU大統領","2007年"]
+    },
+    "sources": [{"claim":"EUは単一市場などを通じて加盟国間の統合を進めてきた","source":"European Union, Single market and EU integration","year":"2024","url":"https://european-union.europa.eu/priorities-and-actions/actions-topic/single-market_en"}]
+  },
+  {
+    "id": 24,
+    "global_id": 31,
+    "title": "問24",
+    "prompt": "国際人道法に関する記述として最も適当なものはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"武力紛争時にも、負傷者や捕虜、民間人などを保護するための国際的なルールがある。","explanation_zh":"正确。国际人道法规定武装冲突时的人道保护。","explanation_ja":"正解。国際人道法は、武力紛争時にも負傷者、捕虜、民間人などを保護するための国際的なルールである。"},
+      {"id":2,"text":"国際人道法は、平時の道路交通だけを定める国内法である。","explanation_zh":"陷阱：概念混淆。国际人道法是关于武装冲突时保护的国际法。","explanation_ja":"誤り。概念混同の罠。国際人道法は武力紛争時の保護に関する国際法である。"},
+      {"id":3,"text":"武力紛争時には、いかなる保護規則も存在しない。","explanation_zh":"陷阱：范围扩大。冲突时仍有人道保护规则。","explanation_ja":"誤り。範囲拡大の罠。武力紛争時にも人道的保護のルールが存在する。"},
+      {"id":4,"text":"国際人道法は、気温や降水量を測る気象統計である。","explanation_zh":"陷阱：概念混淆。国际人道法不是气象统计，而是国际法。","explanation_ja":"誤り。概念混同の罠。国際人道法は気象統計ではなく国際法である。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"国際人道法",
+      "sub_domain":"国際政治・外交",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"5. 国際政治"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["ジュネーヴ諸条約","パリ不戦条約","世界人権宣言"]
+    },
+    "sources": [{"claim":"国際人道法は武力紛争時に負傷者・捕虜・民間人などを保護するルールである","source":"International Committee of the Red Cross, What is IHL?","year":"2024","url":"https://www.icrc.org/en/document/what-international-humanitarian-law"}]
+  },
+  {
+    "id": 25,
+    "title": "問25",
+    "prompt": "国際連合のしくみと関連機関について、下の問いに答えなさい。",
+    "passage": "国際連合は、総会、安全保障理事会、経済社会理事会、国際司法裁判所、事務局など複数の主要機関からなる国際機構である。平和と安全、経済社会協力、人権、教育、保健など多様な分野で活動し、専門機関とも連携する。ただし、それぞれの機関や専門機関の役割は異なるため、名称だけでなく担当分野を区別して理解する必要がある。",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":32,
+        "prompt":"次のア〜ウと説明X〜Zの組合せとして最も適当なものはどれですか。\nア：総会　イ：安全保障理事会　ウ：経済社会理事会\nX：全加盟国が参加して討議する。\nY：国際の平和と安全の維持に主要な責任をもつ。\nZ：経済・社会分野の国際協力を扱う。",
+        "choices":[
+          {"id":1,"text":"ア-Y、イ-X、ウ-Z","explanation_zh":"陷阱：概念混淆。大会和安全理事会的作用被调换了。","explanation_ja":"誤り。概念混同の罠。総会と安全保障理事会の役割が逆である。"},
+          {"id":2,"text":"ア-X、イ-Z、ウ-Y","explanation_zh":"陷阱：概念混淆。安全理事会和经济社会理事会的作用被调换了。","explanation_ja":"誤り。概念混同の罠。安全保障理事会と経済社会理事会の役割が逆である。"},
+          {"id":3,"text":"ア-Z、イ-Y、ウ-X","explanation_zh":"陷阱：主体错位。把经济社会领域的职能固定给大会，混淆了主体。","explanation_ja":"誤り。主体取違の罠。経済社会分野を扱う役割を総会に固定して取り違えている。"},
+          {"id":4,"text":"ア-X、イ-Y、ウ-Z","explanation_zh":"正确。大会、安全理事会、经济社会理事会的基本作用对应正确。","explanation_ja":"正解。総会、安全保障理事会、経済社会理事会の基本的役割が正しく対応している。"}
+        ],
+        "answer":4,
+        "tag":{
+          "question_form":"組合せ",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["概念混同"],
+          "keywords_to_avoid":["集団安全保障","経済社会理事会"],
+          "sub_domain":"国際政治・外交"
+        },
+        "sources":[{"claim":"国連の主要機関には総会、安全保障理事会、経済社会理事会などがあり、それぞれ役割が異なる","source":"United Nations, Main Organs","year":"2024","url":"https://www.un.org/en/about-us/main-bodies"}]
+      },
+      {
+        "sub_id":2,
+        "global_id":33,
+        "prompt":"国際連合と連携する専門機関に関する記述として最も適当でないものはどれですか。",
+        "choices":[
+          {"id":1,"text":"国連教育科学文化機関は教育・科学・文化分野の国際協力を扱う専門機関である。","explanation_zh":"陷阱：设问反转。这一说法本身正确，所以不是“最不恰当”的选项。","explanation_ja":"誤り。設問反転の罠。UNESCOは教育・科学・文化分野を扱う専門機関であり、正しい記述である。"},
+          {"id":2,"text":"世界保健機関は国際司法裁判所の別名であり、保健分野とは関係しない。","explanation_zh":"正确。世界保健机构负责保健领域，并不是国际司法法院的别名。","explanation_ja":"正解。WHOは世界保健機関であり、保健分野を扱う。国際司法裁判所の別名ではないため、この記述が不適当である。"},
+          {"id":3,"text":"専門機関は、それぞれの分野で国際協力を進める。","explanation_zh":"陷阱：设问反转。这是专业机构的一般特征，表述正确。","explanation_ja":"誤り。設問反転の罠。専門機関は各分野で国際協力を進めるため、正しい記述である。"},
+          {"id":4,"text":"世界知的所有権機関は知的財産に関する国際協力を扱う機関である。","explanation_zh":"陷阱：设问反转。这是世界知识产权机构的作用，表述正确。","explanation_ja":"誤り。設問反転の罠。WIPOは知的財産に関する国際協力を扱うため、正しい記述である。"}
+        ],
+        "answer":2,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答誤記述",
+          "trap_patterns":["主体取違"],
+          "keywords_to_avoid":["WIPO","ICC","WHO","UNESCO"],
+          "sub_domain":"国際政治・外交"
+        },
+        "sources":[{"claim":"UNESCOは教育・科学・文化分野の専門機関である","source":"UNESCO, UNESCO in brief","year":"2024","url":"https://www.unesco.org/en/about-us"},{"claim":"WHOは保健分野を扱う専門機関である","source":"World Health Organization, About WHO","year":"2024","url":"https://www.who.int/about"},{"claim":"WIPOは知的財産に関する国際機関である","source":"World Intellectual Property Organization, About WIPO","year":"2024","url":"https://www.wipo.int/about-wipo/en/"}]
+      }
+    ],
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"国際連合",
+      "sub_domain":"国際政治・外交",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"5. 国際政治"},
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "keywords_to_avoid":["国際連合","安全保障理事会","経済社会理事会"]
+    }
+  },
+  {
+    "id": 26,
+    "global_id": 34,
+    "title": "問26",
+    "prompt": "18世紀後半の北米13植民地の独立戦争に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"独立戦争は20世紀末に、アジアの植民地だけで起こった。","explanation_zh":"陷阱：时态错位。美国独立战争是 18 世纪后半期围绕北美殖民地发生的战争。","explanation_ja":"誤り。時態錯位の罠。アメリカ独立戦争は18世紀後半の北米植民地をめぐる戦争である。"},
+      {"id":2,"text":"この戦争では、イギリス本国と北米植民地の対立は存在しなかった。","explanation_zh":"陷阱：主体错位。该战争以英国本国和北美殖民地的对立为背景。","explanation_ja":"誤り。主体取違の罠。イギリス本国と北米植民地の対立が背景にあった。"},
+      {"id":3,"text":"独立戦争の結果、13植民地はイギリスの支配をさらに強めることを決めた。","explanation_zh":"陷阱：因果倒置。战争结果是美国独立得到承认。","explanation_ja":"誤り。因果倒置の罠。戦争の結果、アメリカ合衆国の独立が認められた。"},
+      {"id":4,"text":"13植民地はイギリス本国と対立し、戦争を経て独立を達成した。","explanation_zh":"正确。北美 13 个殖民地与英国作战，最终实现独立。","explanation_ja":"正解。北米13植民地はイギリス本国と対立し、戦争を経て独立を達成した。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"アメリカ独立戦争",
+      "sub_domain":"近代世界",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"6. 財政"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違","時態錯位"],
+      "keywords_to_avoid":["アメリカ独立","フランス","プロイセン","メキシコ"]
+    },
+    "sources": [{"claim":"アメリカ独立戦争は北米13植民地とイギリスの対立から生じ、独立につながった","source":"Encyclopaedia Britannica, American Revolution","year":"1783","url":"https://www.britannica.com/event/American-Revolution"}]
+  },
+  {
+    "id": 27,
+    "global_id": 35,
+    "title": "問27",
+    "prompt": "明治期の近代化に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"明治期には近代的な中央政府や憲法制度はまったく整備されなかった。","explanation_zh":"陷阱：范围扩大。明治期推进了中央集权化和宪法制定等改革。","explanation_ja":"誤り。範囲拡大の罠。明治期には中央集権化や憲法制定などが進められた。"},
+      {"id":2,"text":"明治期の改革は、すべて江戸時代の身分制度を完全に固定するためだけに行われた。","explanation_zh":"陷阱：因果倒置。明治期推进了身份制度重组和近代国家形成。","explanation_ja":"誤り。因果倒置の罠。明治期には身分制の再編や近代国家形成が進められた。"},
+      {"id":3,"text":"明治政府は中央集権化、殖産興業、憲法制定などを通じて近代国家づくりを進めた。","explanation_zh":"正确。明治期推进了政治制度和产业的近代化。","explanation_ja":"正解。明治政府は中央集権化、殖産興業、憲法制定などを通じて近代国家づくりを進めた。"},
+      {"id":4,"text":"明治期の近代化は、第二次世界大戦後の占領政策として初めて始まった。","explanation_zh":"陷阱：时态错位。明治期是 19 世纪后半期，并非二战后。","explanation_ja":"誤り。時態錯位の罠。明治期は19世紀後半であり、第二次世界大戦後ではない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"明治期近代化",
+      "sub_domain":"近代日本",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"1.民主政治"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違","概念混同"],
+      "keywords_to_avoid":["明治時代","三権分立","生産手段","プロイセン憲法"]
+    },
+    "sources": [{"claim":"明治政府は中央集権化、殖産興業、憲法制定などの近代化を進めた","source":"Encyclopaedia Britannica, Meiji Restoration","year":"1889","url":"https://www.britannica.com/event/Meiji-Restoration"}]
+  },
+  {
+    "id": 28,
+    "global_id": 36,
+    "title": "問28",
+    "prompt": "19世紀後半のアフリカ分割に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"ヨーロッパ列強はアフリカ各地を植民地化し、勢力圏をめぐる競争を強めた。","explanation_zh":"正确。19 世纪后半期，列强推进了对非洲的瓜分。","explanation_ja":"正解。19世紀後半にはヨーロッパ列強によるアフリカ分割と植民地化が進んだ。"},
+      {"id":2,"text":"アフリカ分割は15世紀の日本国内だけで完結した出来事である。","explanation_zh":"陷阱：地域错位。非洲瓜分是围绕非洲展开的欧洲列强行动。","explanation_ja":"誤り。地域取違の罠。アフリカ分割はアフリカをめぐるヨーロッパ列強の動きである。"},
+      {"id":3,"text":"19世紀後半には、ヨーロッパ列強は植民地獲得を完全に放棄した。","explanation_zh":"陷阱：时态错位。当时殖民地争夺反而加强了。","explanation_ja":"誤り。時態錯位の罠。19世紀後半にはむしろ植民地獲得競争が強まった。"},
+      {"id":4,"text":"アフリカ分割は、国際貿易や帝国主義とはまったく関係しない気候観測である。","explanation_zh":"陷阱：概念混淆。非洲瓜分与帝国主义和殖民地支配相关。","explanation_ja":"誤り。概念混同の罠。アフリカ分割は帝国主義と植民地支配に関わる歴史である。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"19世紀アフリカ分割",
+      "sub_domain":"近代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"1. 近代化の進展とその影響"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","時態錯位"],
+      "keywords_to_avoid":["ビスマルク","ベルリン会議","ファショダ事件","パン・アフリカ会議"]
+    },
+    "sources": [{"claim":"19世紀後半にはヨーロッパ列強によるアフリカ分割が進んだ","source":"Encyclopaedia Britannica, Scramble for Africa","year":"1885","url":"https://www.britannica.com/event/Scramble-for-Africa"}]
+  },
+  {
+    "id": 29,
+    "global_id": 37,
+    "title": "問29",
+    "prompt": "世界恐慌への各国の対応に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"各国は恐慌後、いずれも政府の経済介入を完全に禁止した。","explanation_zh":"陷阱：范围扩大。许多国家加强了政府经济干预和保护性政策。","explanation_ja":"誤り。範囲拡大の罠。恐慌後には多くの国で政府の経済介入や保護的政策が強まった。"},
+      {"id":2,"text":"米国では恐慌対策として、農業や公共事業に関する政策は一切行われなかった。","explanation_zh":"陷阱：主体错位。美国实施了罗斯福政权下的一系列恐慌对策，包括公共事业等。","explanation_ja":"誤り。主体取違の罠。米国ではローズベルト政権下の一連の恐慌対策により公共事業などが行われた。"},
+      {"id":3,"text":"恐慌対策は、古代ローマの身分制度だけで説明できる。","explanation_zh":"陷阱：概念混淆。世界恐慌对策是近代经济政策问题。","explanation_ja":"誤り。概念混同の罠。世界恐慌対策は近代経済政策の問題である。"},
+      {"id":4,"text":"米国ではローズベルト政権下の一連の恐慌対策が行われ、各国では保護貿易やブロック化も進んだ。","explanation_zh":"正确。恐慌后，美国实施罗斯福政权下的一系列政策，各国保护主义倾向也加强。","explanation_ja":"正解。米国ではローズベルト政権下の一連の恐慌対策が行われ、各国では保護貿易やブロック化も進んだ。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"世界恐慌対策",
+      "sub_domain":"近代世界",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"2.市場経済"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違","時態錯位"],
+      "keywords_to_avoid":["ニューディール政策","オタワ連邦会議","ブロック経済"]
+    },
+    "sources": [{"claim":"世界恐慌後、米国はニューディール政策を行い、各国で保護主義的対応も強まった","source":"Encyclopaedia Britannica, Great Depression and New Deal","year":"1933","url":"https://www.britannica.com/event/Great-Depression"}]
+  },
+  {
+    "id": 30,
+    "global_id": 38,
+    "title": "問30",
+    "prompt": "1970年代の石油危機に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"石油危機は19世紀前半に起こり、蒸気機関の発明だけを原因とした。","explanation_zh":"陷阱：时态错位。第一次石油危机是 1970 年代的事件。","explanation_ja":"誤り。時態錯位の罠。石油危機は1970年代の出来事であり、19世紀前半ではない。"},
+      {"id":2,"text":"原油価格の急上昇は、輸入資源に依存する国の物価や生産活動に大きな影響を与えた。","explanation_zh":"正确。1973 年石油危机导致能源价格上升，给各国经济造成冲击。","explanation_ja":"正解。原油価格の急上昇は、輸入資源に依存する国の物価や生産活動に大きな影響を与えた。"},
+      {"id":3,"text":"石油危機は、原油価格が急落してすべての国の物価が同時に下がった事件である。","explanation_zh":"陷阱：因果倒置。石油危机使许多国家面临通胀和景气恶化压力。","explanation_ja":"誤り。概念混同の罠。石油危機では原油価格の急上昇が問題となった。"},
+      {"id":4,"text":"石油危機は、エネルギー供給や国際経済とはまったく関係しない文化祭である。","explanation_zh":"陷阱：概念混淆。石油危机与能源供应和价格相关，不是古代农业制度。","explanation_ja":"誤り。概念混同の罠。石油危機はエネルギー供給と国際経済に関わる出来事である。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"第一次石油危機",
+      "sub_domain":"経済史",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"2.市場経済"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["時態錯位","概念混同"],
+      "keywords_to_avoid":["第一次石油危機","OECD","湾岸戦争"]
+    },
+    "sources": [{"claim":"1973年の石油危機では原油価格上昇が世界経済に大きな影響を与えた","source":"Encyclopaedia Britannica, Oil crisis","year":"1973","url":"https://www.britannica.com/event/oil-crisis"}]
+  }
+]
+}

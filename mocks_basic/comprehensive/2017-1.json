@@ -1,0 +1,996 @@
+{
+  "subject": "comprehensive",
+  "section": "",
+  "year": 2017,
+  "round": 1,
+  "title": "模擬試験 総合科目 第九回",
+  "image_path": "comprehensive/images/2017-1",
+  "questions": [
+  {
+    "id": 1,
+    "title": "問1",
+    "prompt": "琉球諸島の県県の産業・自然条件について、下の問いに答えなさい。",
+    "passage": "琉球諸島の県県は大戦後後に米国の施政下に置かれ、1972年に日本へ復帰した。島嶼県であるため県外市場との距離が大きく、観光関連産業やサービス業の比重が高い一方、製造業の比重は全国平均より小さい。亜熱帯の自然環境、海洋資源、アジアに近い位置は強みであるが、輸送費や基地跡地利用などの課題もある。",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":1,
+        "prompt":"本文によると、琉球諸島の県県の県内総生産に占める第三次産業の割合（X）と製造業の割合（Y）の組合せとして最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"X：約40％、Y：約20％","explanation_zh":"陷阱：数值混同。文章说第三产业比重大、制造业比重小；40% 与 20% 不符合这种组合。","explanation_ja":"誤り。数値混同の罠。本文は第三次産業の比重が高く、製造業の比重が小さいと述べる。"},
+          {"id":2,"text":"X：約80％、Y：約5％","explanation_zh":"正确。第三产业占比较高、制造业占比较低，约 80% 与约 5% 的组合最符合文章。","explanation_ja":"正解。第三次産業が高く製造業が低いという本文内容に合う。"},
+          {"id":3,"text":"X：約10％、Y：約70％","explanation_zh":"陷阱：因果倒置。这把服务业低、制造业高，和文章方向相反。","explanation_ja":"誤り。因果倒置の罠。第三次産業が低く製造業が高い組合せで、本文と逆である。"},
+          {"id":4,"text":"X：約0％、Y：約0％","explanation_zh":"陷阱：范围扩大。文章并未说两个产业都不存在。","explanation_ja":"誤り。範囲拡大の罠。本文は両産業が存在しないとは述べていない。"}
+        ],
+        "answer":2,
+        "tag":{
+          "question_form":"組合せ",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["数値混同","範囲拡大"],
+          "keywords_to_avoid":["0.6%","2.1%","40%","70%"],
+          "sub_domain":"日本地誌"
+        },
+        "sources":[{"claim":"Okinawa has a high tertiary-industry share and low manufacturing share in prefectural accounts.","source":"沖縄県, 県民経済計算","year":"2021","url":"https://www.pref.okinawa.jp/toukeika/ctv/ctv_index.html"}]
+      },
+      {
+        "sub_id":2,
+        "global_id":2,
+        "prompt":"本文に基づき、琉球諸島の県県の産業の特徴として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"観光関連を含むサービス業の比重が高く、製造業の比重は比較的小さい。","explanation_zh":"正确。文章明确说服务业比重大、制造业比重小。","explanation_ja":"正解。観光関連を含むサービス業の比重が高く、製造業の比重は比較的小さい。"},
+          {"id":2,"text":"重化学工業が県内総生産の大半を占める。","explanation_zh":"陷阱：概念混淆。文章强调服务业，不是重化学工业占大半。","explanation_ja":"誤り。概念混同の罠。本文はサービス業の比重が高いと述べている。"},
+          {"id":3,"text":"大戦後後から現在まで、観光業は一切存在しない。","explanation_zh":"陷阱：范围扩大。该县的观光相关产业是重要产业，不能说不存在。","explanation_ja":"誤り。範囲拡大の罠。観光関連産業は沖縄県の重要な産業である。"},
+          {"id":4,"text":"統治権とは、漁獲量を測る統計単位である。","explanation_zh":"陷阱：概念混淆。施政权是治理权相关概念，不是渔获统计。","explanation_ja":"誤り。概念混同の罠。施政権は統治に関わる概念で、漁獲統計ではない。"}
+        ],
+        "answer":1,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["時態錯位","主体取違","概念混同"],
+          "keywords_to_avoid":["第二次世界大戦","沖縄","施政権","1945年"],
+          "sub_domain":"日本地誌",
+          "syllabus_path":{"area":"III 歴史","field":"歴史","item":"3. 冷戦後の世界"}
+        },
+        "sources":[{"claim":"Okinawa was returned to Japan in 1972 and tourism/services are important.","source":"内閣府沖縄総合事務局, 沖縄振興","year":"2024","url":"https://www.ogb.go.jp/"}]
+      },
+      {
+        "sub_id":3,
+        "global_id":3,
+        "prompt":"本文に基づく琉球諸島の県県の自然・立地に関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"琉球諸島の県県は内陸県で、海洋資源や島嶼性とは関係がない。","explanation_zh":"陷阱：地域错位。沖縄由岛屿组成，与海洋资源和岛屿性密切相关。","explanation_ja":"誤り。地域錯位の罠。沖縄県は島嶼県であり、海洋資源や島嶼性と関わる。"},
+          {"id":2,"text":"亜熱帯の自然環境は観光と一切関係しない。","explanation_zh":"陷阱：范围扩大。自然环境是旅游资源之一。","explanation_ja":"誤り。範囲拡大の罠。亜熱帯の自然環境は観光資源となる。"},
+          {"id":3,"text":"亜熱帯の自然環境や島嶼性は、観光資源である一方、輸送費の課題とも結びつく。","explanation_zh":"正确。自然环境是资源，岛屿性也带来运输成本问题，符合文章。","explanation_ja":"正解。亜熱帯の自然環境は観光資源となり、島嶼性は輸送費の課題とも結びつく。"},
+          {"id":4,"text":"高度機械産業だけが県経済の唯一の産業である。","explanation_zh":"陷阱：范围缩小。文章提到旅游、服务等，不能限定为单一产业。","explanation_ja":"誤り。範囲縮小の罠。沖縄経済は観光・サービスなど複数の産業に関わる。"}
+        ],
+        "answer":3,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["主体取違","範囲拡大","概念混同"],
+          "keywords_to_avoid":["沖縄経済","観光業","公共事業","漁業","精密機械工業"],
+          "sub_domain":"日本地誌"
+        },
+        "sources":[{"claim":"Okinawa’s subtropical islands support tourism but face island-distance constraints.","source":"沖縄県, 沖縄21世紀ビジョン基本計画","year":"2022","url":"https://www.pref.okinawa.jp/site/kikaku/chosei/keikaku/"}]
+      },
+      {
+        "sub_id":4,
+        "global_id":4,
+        "prompt":"本文で触れられている琉球諸島の県県の課題として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"本州より必ず日の出が30時間遅いこと。","explanation_zh":"陷阱：数值混同。经度差会造成时刻差，但“30 小时”这种说法不成立。","explanation_ja":"誤り。数値混同の罠。経度差による時刻差はあるが、30時間遅いとはいえない。"},
+          {"id":2,"text":"東端の島だけで県内総生産がすべて決まること。","explanation_zh":"陷阱：地域错位。南鸟岛不属于沖縄県。","explanation_ja":"誤り。地域錯位の罠。南鳥島は沖縄県ではない。"},
+          {"id":3,"text":"観光客が増えても輸送費や基地跡地利用の課題が完全に消えること。","explanation_zh":"陷阱：因果倒置。文章说这些仍是課題，不是完全消失。","explanation_ja":"誤り。因果倒置の罠。本文は輸送費や基地跡地利用を課題として挙げている。"},
+          {"id":4,"text":"島嶼県であるため輸送費がかかりやすく、基地跡地利用なども課題となること。","explanation_zh":"正确。文章明确列出运输成本和基地旧址利用问题。","explanation_ja":"正解。本文は島嶼性による輸送費や基地跡地利用を課題としている。"}
+        ],
+        "answer":4,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["数値混同","主体取違","時態錯位"],
+          "keywords_to_avoid":["与那国島","南鳥島","経度差30度","日の出時刻"],
+          "sub_domain":"日本地誌"
+        },
+        "sources":[{"claim":"Okinawa faces transport cost and land-use issues related to island geography and bases.","source":"内閣府, 沖縄振興基本方針","year":"2022","url":"https://www8.cao.go.jp/okinawa/"}]
+      }
+    ],
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"沖縄県の地理と経済",
+      "sub_domain":"日本地誌",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "keywords_to_avoid":["沖縄県","アメリカ軍基地","47都道府県","与那国島","南鳥島"]
+    },
+    "sources": [{"claim":"沖縄県は第三次産業が約78%、製造業が約5%で全国最下位水準","source":"内閣府沖縄総合事務局 沖縄の産業構造資料","year":2021,"url":"https://www8.cao.go.jp/okinawa/"},{"claim":"入域観光客数 1972年44万人→2019年1000万人超","source":"沖縄県 入域観光客統計概況","year":2019,"url":"https://www.pref.okinawa.jp/shigoto/kankotokusan/"}]
+  },
+  {
+    "id": 2,
+    "title": "問2",
+    "prompt": "英国の欧州連合離脱と欧州統合について、下の問いに答えなさい。",
+    "passage": "英国では2016年6月、欧州連合離脱の是非を問う国民投票が行われ、離脱支持が残留支持を上回った。欧州連合は欧州共同体条約以来の経済統合を基礎に発展し、欧州連合条約で政治・経済統合を深めた。一方、英国はユーロを採用せずポンドを用い続けた。離脱論では国家の最終決定権、移民、規制、財政負担などが争点となった。",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":5,
+        "prompt":"本文で示された2016年の国民投票の結果について、正しく述べたものはどれですか。",
+        "choices":[
+          {"id":1,"text":"残留支持が100％で、離脱支持は0％であった。","explanation_zh":"陷阱：数值混同。实际结果是离脱支持略过半。","explanation_ja":"誤り。数値混同の罠。実際には離脱支持が過半数を占めた。"},
+          {"id":2,"text":"投票は首都市だけで行われ、全国では実施されなかった。","explanation_zh":"陷阱：范围缩小。英国全国性公投，不限于伦敦。","explanation_ja":"誤り。範囲縮小の罠。国民投票は英国全体で行われた。"},
+          {"id":3,"text":"2016年投票では欧州連合加盟を新たに決めた。","explanation_zh":"陷阱：因果倒置。公投结果是支持离脱过半，不是新加入。","explanation_ja":"誤り。因果倒置の罠。結果は離脱支持が残留支持を上回った。"},
+          {"id":4,"text":"離脱支持が残留支持を上回り、英国の欧州連合離脱方針につながった。","explanation_zh":"正确。2016 年公投中离脱支持超过残留支持。","explanation_ja":"正解。2016年の国民投票では離脱支持が残留支持を上回った。"}
+        ],
+        "answer":4,
+        "tag":{
+          "question_form":"図表読取",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["地域取違","主体取違"],
+          "keywords_to_avoid":["ロンドン","イギリス","地図"],
+          "sub_domain":"国際政治・外交",
+          "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"}
+        },
+        "sources":[{"claim":"The UK 2016 referendum resulted in 51.9% Leave and 48.1% Remain.","source":"UK Electoral Commission, EU referendum results","year":"2016","url":"https://www.electoralcommission.org.uk/research-reports-and-data/our-reports-and-data-past-elections-and-referendums/eu-referendum/results-and-turnout-eu-referendum"}]
+      },
+      {
+        "sub_id":2,
+        "global_id":6,
+        "prompt":"本文に基づく欧州連合の性質として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"欧州連合は気候区分だけを定める自然地理表である。","explanation_zh":"陷阱：概念混淆。EU 是区域统合组织，不是气候表。","explanation_ja":"誤り。概念混同の罠。EUは地域統合の組織であり、気候区分表ではない。"},
+          {"id":2,"text":"欧州共同体条約と欧州連合条約は南米の軍事同盟だけを作った。","explanation_zh":"陷阱：地域错位。两条约属于欧洲统合进程。","explanation_ja":"誤り。地域錯位の罠。両条約は欧州統合に関わる。"},
+          {"id":3,"text":"欧州連合は経済統合を基礎に発展し、欧州連合条約で政治・経済統合を深めた地域統合体である。","explanation_zh":"正确。文章说明 EU 从经济统合发展，并由马斯特里赫特条约深化统合。","explanation_ja":"正解。EUは経済統合を基礎に発展し、マーストリヒト条約で政治・経済統合を深めた。"},
+          {"id":4,"text":"欧州連合加盟国はすべて同じ通貨を必ず使い、例外は存在しない。","explanation_zh":"陷阱：范围扩大。英国等国家并未采用欧元。","explanation_ja":"誤り。範囲拡大の罠。英国などユーロを採用しなかった国がある。"}
+        ],
+        "answer":3,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["概念混同","時態錯位","主体取違"],
+          "keywords_to_avoid":["EU","マーストリヒト条約","ローマ条約","経済共同体","地域共同体"],
+          "sub_domain":"国際政治・外交",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"5. 金融"}
+        },
+        "sources":[{"claim":"The EU developed from the Rome Treaties and Maastricht Treaty.","source":"European Union, History of the EU","year":"1993","url":"https://european-union.europa.eu/principles-countries-history/history-eu_en"}]
+      },
+      {
+        "sub_id":3,
+        "global_id":7,
+        "prompt":"本文に基づくイギリスの通貨についての記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"英国はユーロを採用し、ポンドを完全に廃止した。","explanation_zh":"陷阱：因果倒置。文章说英国未采用欧元，继续使用英镑。","explanation_ja":"誤り。因果倒置の罠。本文は英国がユーロを採用せず、ポンドを用い続けたと述べる。"},
+          {"id":2,"text":"ポンドは避難民政策を表す法律名で、通貨ではない。","explanation_zh":"陷阱：概念混淆。英镑是货币，不是难民法名称。","explanation_ja":"誤り。概念混同の罠。ポンドは通貨であり、難民政策の法律名ではない。"},
+          {"id":3,"text":"英国は欧州連合加盟中もユーロを採用せず、ポンドを用い続けた。","explanation_zh":"正确。文章明确说明英国未采用欧元，继续使用英镑。","explanation_ja":"正解。英国はEU加盟中もユーロを採用せず、ポンドを用い続けた。"},
+          {"id":4,"text":"西アジアの武力対立がある国は、すべて英国ポンドを法定通貨にしなければならない。","explanation_zh":"陷阱：范围扩大。冲突和货币采用没有这种必然关系。","explanation_ja":"誤り。範囲拡大の罠。紛争とポンド採用にそのような必然関係はない。"}
+        ],
+        "answer":3,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["主体取違","時態錯位","因果倒置"],
+          "keywords_to_avoid":["難民","紛争","中東","貧困","移民急増"],
+          "sub_domain":"国際政治・外交"
+        },
+        "sources":[{"claim":"The United Kingdom used the pound and did not adopt the euro.","source":"European Central Bank, EU countries and the euro","year":"2024","url":"https://www.ecb.europa.eu/euro/intro/html/index.en.html"}]
+      },
+      {
+        "sub_id":4,
+        "global_id":8,
+        "prompt":"本文に基づくイギリスの欧州連合離脱の経緯として最も適当でないものはどれですか。",
+        "choices":[
+          {"id":1,"text":"英国は欧州連合離脱を問う国民投票を一度も行わず、王室の命令だけで離脱した。","explanation_zh":"正确。题目要求选不适当项。英国 2016 年举行了国民投票。","explanation_ja":"正解。設問は不適当なものを選ぶ。英国は2016年に国民投票を実施した。"},
+          {"id":2,"text":"離脱論では国家の最終決定権や移民、規制などが争点になった。","explanation_zh":"陷阱：设问反转。这是文章内容，不是不适当项。","explanation_ja":"誤り。設問反転の罠。本文内容と合うため、不適当ではない。"},
+          {"id":3,"text":"国民投票で離脱支持が残留支持を上回った。","explanation_zh":"陷阱：设问反转。这是事实，不能作为不适当项。","explanation_ja":"誤り。設問反転の罠。事実に合うため、不適当ではない。"},
+          {"id":4,"text":"欧州連合離脱は英国の国家の最終決定権や政策決定をめぐる議論と結びついた。","explanation_zh":"陷阱：设问反转。这与文章中的主权争点一致。","explanation_ja":"誤り。設問反転の罠。本文の主権をめぐる争点と合う。"}
+        ],
+        "answer":1,
+        "tag":{
+          "question_form":"正誤判定",
+          "statement_polarity":"正答誤記述",
+          "trap_patterns":["範囲拡大","概念混同"],
+          "keywords_to_avoid":["主権","参政権","独立","最高権力","領土"],
+          "sub_domain":"国際政治・外交"
+        },
+        "sources":[{"claim":"UK held the 2016 EU referendum and Leave won.","source":"UK Electoral Commission, EU referendum results","year":"2016","url":"https://www.electoralcommission.org.uk/research-reports-and-data/our-reports-and-data-past-elections-and-referendums/eu-referendum/results-and-turnout-eu-referendum"}]
+      }
+    ],
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"イギリスのEU離脱",
+      "sub_domain":"国際政治・外交",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"5. 国際政治"},
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "keywords_to_avoid":["イギリス","EU","ブレグジット","ロンドン","国民投票"]
+    },
+    "sources": [{"claim":"2016年国民投票で離脱52%・残留48%、2020年1月末に正式離脱","source":"BBC / UK Electoral Commission EU referendum result","year":2016,"url":"https://www.electoralcommission.org.uk/"},{"claim":"イギリスは加盟中も共通通貨ユーロを導入せずポンドを維持","source":"European Commission, The euro","year":2020,"url":"https://commission.europa.eu/business-economy-euro/euro/countries-using-euro_en"}]
+  },
+  {
+    "id": 3,
+    "global_id": 9,
+    "title": "問3",
+    "prompt": "次の文章は、取引にかかる税導入前後の市場均衡を示している。読み取れる内容として最も適当なものはどれですか。\n税なし：価格100円、取引量100個。税導入後：消費者価格120円、生産者受取価格90円、取引量80個。",
+    "choices": [
+      {"id":1,"text":"税導入後、取引量は100個から120個に増えた。","explanation_zh":"陷阱：数值混同。资料显示从 100 个减少到 80 个。","explanation_ja":"誤り。数値混同の罠。資料では100個から80個へ減少している。"},
+      {"id":2,"text":"税導入後、生産者受取価格は120円である。","explanation_zh":"陷阱：数值混同。120 日元是消费者价格，生产者实际收到价格是 90 日元。","explanation_ja":"誤り。数値混同の罠。120円は消費者価格で、生産者受取価格は90円である。"},
+      {"id":3,"text":"税導入後、消費者価格は上がり、取引量は減少している。","explanation_zh":"正确。税后消费者价格从 100 日元升至 120 日元，交易量从 100 个降至 80 个。","explanation_ja":"正解。税後、消費者価格は100円から120円へ上がり、取引量は100個から80個へ減少した。"},
+      {"id":4,"text":"税導入後も消費者価格と生産者受取価格は同じである。","explanation_zh":"陷阱：因果倒置。资料中分为 120 日元和 90 日元。","explanation_ja":"誤り。因果倒置の罠。資料では120円と90円に分かれている。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"間接税と均衡価格",
+      "sub_domain":"経済原理・市場",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"2.市場経済"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["数値混同","概念混同"],
+      "keywords_to_avoid":["均衡価格","1000円","400円","間接税","税込み価格"]
+    },
+    "passage": "",
+    "sources": [{"claim":"Taxes create a wedge between consumer price and producer price.","source":"OpenStax, Principles of Economics 3e, Taxes","year":"2023","url":"https://openstax.org/books/principles-economics-3e/pages/5-1-price-elasticity-of-demand-and-price-elasticity-of-supply"}]
+  },
+  {
+    "id": 4,
+    "global_id": 10,
+    "title": "問4",
+    "prompt": "価格を通じる調整と市場の失敗に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"市場は常に完全に効率的で、外部性やみんなで利用する財の問題は存在しない。","explanation_zh":"陷阱：范围扩大。市场失灵包括外部性和公共财等问题。","explanation_ja":"誤り。範囲拡大の罠。市場の失敗には外部性や公共財の問題がある。"},
+      {"id":2,"text":"公害は第三者への影響ではなく、企業内部の会計分類だけを意味する。","explanation_zh":"陷阱：概念混淆。公害可作为负外部性的例子。","explanation_ja":"誤り。概念混同の罠。公害は外部不経済の例になりうる。"},
+      {"id":3,"text":"みんなで利用する財は、排除性と競合性がどちらも強い私的財だけを指す。","explanation_zh":"陷阱：概念混淆。公共财以非排他性和非竞争性为特征。","explanation_ja":"誤り。概念混同の罠。公共財は非排除性・非競合性を特徴とする。"},
+      {"id":4,"text":"外部性やみんなで利用する財のために市場だけでは効率的配分が実現しにくい場合、市場の失敗という。","explanation_zh":"正确。外部性和公共财会导致市场难以单独实现有效配置。","explanation_ja":"正解。外部性や公共財により市場だけで効率的配分が難しい場合を市場の失敗という。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"市場メカニズム・市場の失敗",
+      "sub_domain":"経済原理・市場",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"2.市場経済"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["因果倒置","概念混同"],
+      "keywords_to_avoid":["公共財","市場メカニズム","非価格競争","外部経済","外部不経済"]
+    },
+    "sources": [{"claim":"Market failure includes externalities and public goods.","source":"OpenStax, Principles of Economics 3e, Market Failure","year":"2023","url":"https://openstax.org/books/principles-economics-3e/pages/12-introduction-to-positive-externalities-and-public-goods"}]
+  },
+  {
+    "id": 5,
+    "global_id": 11,
+    "title": "問5",
+    "prompt": "国内総生産の物価指数計算に関する記述として最も適当なものはどれですか。\n時価の国内総生産が550兆円、物価変動を除いた国内総生産が500兆円のとき、国内総生産の物価指数はいくらですか。",
+    "choices": [
+      {"id":1,"text":"90","explanation_zh":"陷阱：计算错误。550÷500×100=110，不是 90。","explanation_ja":"誤り。計算ミスの罠。550÷500×100=110で、90ではない。"},
+      {"id":2,"text":"100","explanation_zh":"陷阱：基准混同。名目和实际相等时才为 100；本题名目大于实际。","explanation_ja":"誤り。基準混同の罠。名目と実質が等しい場合は100だが、本問では名目が大きい。"},
+      {"id":3,"text":"110","explanation_zh":"正确。GDP 平减指数=名义 GDP÷实际 GDP×100=550÷500×100=110。","explanation_ja":"正解。GDPデフレーター=名目GDP÷実質GDP×100=550÷500×100=110。"},
+      {"id":4,"text":"550","explanation_zh":"陷阱：公式混同。把名义 GDP 直接当作指数，未除以实际 GDP。","explanation_ja":"誤り。公式混同の罠。名目GDPをそのまま指数にしており、実質GDPで割っていない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"GDPデフレーター計算",
+      "sub_domain":"金融・通貨",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"4.国民経済"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["数値混同"],
+      "keywords_to_avoid":["名目GDP","実質GDP","成長率","GDPデフレーター","基準年"]
+    },
+    "passage": "",
+    "sources": [{"claim":"GDP deflator is nominal GDP divided by real GDP times 100.","source":"IMF, GDP deflator definition","year":"2024","url":"https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/gross-domestic-product-GDP"}]
+  },
+  {
+    "id": 6,
+    "global_id": 12,
+    "title": "問6",
+    "prompt": "1990年代後半日本の金融危機対策に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"日本では1990年代後半に資金仲介機関の破綻や不良債権問題は一切なかった。","explanation_zh":"陷阱：范围扩大。20 世纪 90 年代后半，金融危机和不良债权处理是重要课题。","explanation_ja":"誤り。範囲拡大の罠。1990年代後半には金融危機と不良債権処理が重要課題だった。"},
+      {"id":2,"text":"金融危機に対応して、金融再生法や早期健全化法などにより資金仲介機関の処理と資本注入が進められた。","explanation_zh":"正确。日本通过金融再生法、早期健全化法等推进金融机构处理和注资。","explanation_ja":"正解。金融再生法や早期健全化法などにより金融機関処理と資本注入が進められた。"},
+      {"id":3,"text":"金融危機対策とは、漁業の網目だけを規制する制度である。","explanation_zh":"陷阱：概念混淆。这是金融体系稳定政策，不是渔业规则。","explanation_ja":"誤り。概念混同の罠。金融危機対策は金融システム安定化の政策である。"},
+      {"id":4,"text":"政府資金投入は、資金仲介機関の自己資本を強化する目的では使われなかった。","explanation_zh":"陷阱：因果倒置。公的资金注入用于强化资本和稳定金融系统。","explanation_ja":"誤り。因果倒置の罠。公的資金投入は自己資本強化に用いられた。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"1990年代後半日本の金融危機対策",
+      "sub_domain":"金融・通貨",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"5. 金融"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["時態錯位","因果倒置"],
+      "keywords_to_avoid":["金融機関","銀行破綻","預金保護","BIS規制","公的資金"]
+    },
+    "sources": [{"claim":"Japan enacted Financial Revitalization Act and Early Strengthening Act in 1998.","source":"金融庁, 金融行政の歴史","year":"1998","url":"https://www.fsa.go.jp/"}]
+  },
+  {
+    "id": 7,
+    "global_id": 13,
+    "title": "問7",
+    "prompt": "次の文章は、租税収入構成比の概数である。読み取れる内容として最も適当なものはどれですか。\n日本：個人所得への税31％、消費への税35％、企業所得への税24％。米国：個人所得への税50％、消費への税系8％、企業所得への税10％。",
+    "choices": [
+      {"id":1,"text":"米国は日本より個人所得への税の割合が高い。","explanation_zh":"正确。美国所得税约 50%，日本约 31%，美国更高。","explanation_ja":"正解。米国の所得税割合は約50％で、日本の約31％を上回る。"},
+      {"id":2,"text":"日本では消費への税の割合が0％である。","explanation_zh":"陷阱：数值混同。资料中日本消费税约 35%。","explanation_ja":"誤り。数値混同の罠。資料では日本の消費税は約35％である。"},
+      {"id":3,"text":"米国の消費への税系割合は日本の消費への税割合を上回る。","explanation_zh":"陷阱：因果倒置。美国约 8%，日本约 35%，美国更低。","explanation_ja":"誤り。因果倒置の罠。米国約8％は日本約35％を下回る。"},
+      {"id":4,"text":"三税の構成比は両国で完全に同じである。","explanation_zh":"陷阱：范围扩大。两国各税比例不同。","explanation_ja":"誤り。範囲拡大の罠。両国の構成比は完全には同じでない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"税収構成比の国際比較",
+      "sub_domain":"財政・租税",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"6. 財政"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["地域取違","主体取違"],
+      "keywords_to_avoid":["税収","所得税","消費税","法人税","アメリカ"]
+    },
+    "sources": [{"claim":"Tax revenue composition differs across countries.","source":"OECD Revenue Statistics","year":"2022","url":"https://www.oecd.org/tax/tax-policy/revenue-statistics.htm"}]
+  },
+  {
+    "id": 8,
+    "global_id": 14,
+    "title": "問8",
+    "prompt": "企業の資金調達に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"金融機関からの借入も持分証券発行も、企業の資金調達とは一切関係がない。","explanation_zh":"陷阱：范围扩大。两者都是企业筹资方式。","explanation_ja":"誤り。範囲拡大の罠。銀行借入も株式発行も資金調達手段である。"},
+      {"id":2,"text":"金融機関からの借入は間接金融、持分証券や企業債券の発行は直接金融の代表例である。","explanation_zh":"正确。银行借款属于间接金融，股票和公司债发行属于直接金融。","explanation_ja":"正解。銀行借入は間接金融、株式や社債発行は直接金融の代表例である。"},
+      {"id":3,"text":"持分証券発行とは、企業が商品価格をすべて無料にすることである。","explanation_zh":"陷阱：概念混淆。股票发行是筹集资本，不是免费销售商品。","explanation_ja":"誤り。概念混同の罠。株式発行は資本を集める手段であり、商品無料化ではない。"},
+      {"id":4,"text":"企業債券は企業が投資家から資金を借りる証券ではない。","explanation_zh":"陷阱：因果倒置。公司债是企业向投资者借入资金的证券。","explanation_ja":"誤り。因果倒置の罠。社債は企業が投資家から資金を借りる証券である。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"企業の資金調達",
+      "sub_domain":"金融・通貨",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"3.経済主体"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","因果倒置"],
+      "keywords_to_avoid":["株式","社債","銀行借入","自己資本","他人資本","内部留保"]
+    },
+    "sources": [{"claim":"Direct finance and indirect finance are major corporate financing methods.","source":"金融広報中央委員会, 直接金融と間接金融","year":"2024","url":"https://www.shiruporuto.jp/public/document/container/kinyu/kinyu001.html"}]
+  },
+  {
+    "id": 9,
+    "global_id": 15,
+    "title": "問9",
+    "prompt": "次の文章は、家計最終家計の購入支出の概数（兆米ドル）である。読み取れる内容として最も適当なものはどれですか。\n米国約17.5、中国約6.7、日本国約2.9、ドイツ約2.2。",
+    "choices": [
+      {"id":1,"text":"日本国の家計の購入支出は米国を上回る。","explanation_zh":"陷阱：数值混同。日本约 2.9，低于美国约 17.5。","explanation_ja":"誤り。数値混同の罠。日本約2.9は米国約17.5を下回る。"},
+      {"id":2,"text":"ドイツは示された四国の中で最大である。","explanation_zh":"陷阱：数值混同。德国约 2.2，低于美国、中国、日本。","explanation_ja":"誤り。数値混同の罠。ドイツ約2.2は最大ではない。"},
+      {"id":3,"text":"中国の値は0である。","explanation_zh":"陷阱：数值混同。资料中中国约 6.7。","explanation_ja":"誤り。数値混同の罠。資料では中国約6.7である。"},
+      {"id":4,"text":"示された中では、米国の家計最終家計の購入支出が最も大きい。","explanation_zh":"正确。美国约 17.5，是四国中最大。","explanation_ja":"正解。米国約17.5が示された中で最も大きい。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"国内消費支出の国別比較",
+      "sub_domain":"国民経済・成長",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"3.経済主体"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["主体取違","範囲拡大"],
+      "keywords_to_avoid":["消費支出","アメリカ","日本","ロシア"]
+    },
+    "passage": "",
+    "sources": [{"claim":"Household final consumption expenditure by country.","source":"World Bank, Household final consumption expenditure","year":"2022","url":"https://data.worldbank.org/indicator/NE.CON.PRVT.CD"}]
+  },
+  {
+    "id": 10,
+    "global_id": 16,
+    "title": "問10",
+    "prompt": "自国通貨高と海外資金投入に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"自国通貨高になると、円建てで見た海外資産の購入費用は必ず高くなる。","explanation_zh":"陷阱：因果倒置。自国通货升值时，用本币购买同样的外币资产更容易。","explanation_ja":"誤り。因果倒置の罠。円高では同じ外貨建て資産を円で買いやすくなる。"},
+      {"id":2,"text":"自国通貨高は日本企業の海外資金投入判断と一切関係しない。","explanation_zh":"陷阱：范围扩大。汇率会影响海外投资成本和收益换算。","explanation_ja":"誤り。範囲拡大の罠。為替相場は海外投資の費用や収益換算に影響する。"},
+      {"id":3,"text":"海外資金投入とは国内の気温を測る制度である。","explanation_zh":"陷阱：概念混淆。海外投资是对国外事业或资产投资。","explanation_ja":"誤り。概念混同の罠。海外投資は国外事業や資産への投資である。"},
+      {"id":4,"text":"自国通貨高は海外企業や資産を円建てで取得しやすくし、海外資金投入を促す要因になりうる。","explanation_zh":"正确。日元升值会降低以日元计价的海外资产取得成本，可能促进海外投资。","explanation_ja":"正解。円高は海外資産を円建てで取得しやすくし、海外投資を促す要因になりうる。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"円高と海外投資",
+      "sub_domain":"金融・通貨",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"3.経済主体"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["因果倒置","概念混同"],
+      "keywords_to_avoid":["円高","輸出","投資","ドル","為替"]
+    },
+    "sources": [{"claim":"Exchange rates affect outward investment costs and returns.","source":"JETRO, Japanese outward FDI statistics","year":"2024","url":"https://www.jetro.go.jp/en/reports/statistics/"}]
+  },
+  {
+    "id": 11,
+    "global_id": 17,
+    "title": "問11",
+    "prompt": "戦後国際通貨体制に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"戦後通貨体制は第一次世界大戦前に成立し、ドルとは無関係であった。","explanation_zh":"陷阱：时态错位。布雷顿森林体系成立于二战末期，以美元为中心。","explanation_ja":"誤り。時期錯誤の罠。ブレトンウッズ体制は第二次世界大戦末期に成立し、ドルを中心とした。"},
+      {"id":2,"text":"戦後通貨体制では、ドルを基軸とする通貨価値を固定する制度が戦後国際通貨体制の柱となった。","explanation_zh":"正确。战后布雷顿森林体系以美元为中心并采用固定汇率。","explanation_ja":"正解。ブレトンウッズ体制ではドルを基軸とする固定相場制が柱となった。"},
+      {"id":3,"text":"国際通貨基金は国際通貨協力ではなく、気候区分だけを扱う機関である。","explanation_zh":"陷阱：概念混淆。IMF 是国际货币合作机构。","explanation_ja":"誤り。概念混同の罠。IMFは国際通貨協力に関わる機関である。"},
+      {"id":4,"text":"1970年代以降も主要国の為替相場は完全に1ドル360円で永久固定された。","explanation_zh":"陷阱：范围扩大。1970 年代主要国家转向浮动汇率。","explanation_ja":"誤り。範囲拡大の罠。1970年代以降、主要国は変動相場制へ移行した。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"戦後国際通貨体制",
+      "sub_domain":"金融・通貨",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"5. 金融"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","時態錯位"],
+      "keywords_to_avoid":["IMF","固定相場制","ブレトンウッズ体制","OECD","WTO","GATT"]
+    },
+    "sources": [{"claim":"Bretton Woods created IMF and dollar-based fixed exchange-rate system.","source":"IMF, The Bretton Woods system","year":"1944","url":"https://www.imf.org/external/about/histcoop.htm"}]
+  },
+  {
+    "id": 12,
+    "global_id": 18,
+    "title": "問12",
+    "prompt": "次の文章は、水産物・水産物の国外販売入額の概数である。読み取れる内容として最も適当なものはどれですか。\n北欧の国国外販売約150億ドル、日本国外からの購入約140億ドル、中国国外販売約220億ドル。",
+    "choices": [
+      {"id":1,"text":"日本は示された資料で水産物国外販売額が最大である。","explanation_zh":"陷阱：主体错位。资料中日本列的是进口额，最大出口额是中国。","explanation_ja":"誤り。主体錯位の罠。資料で日本は輸入額として示され、最大輸出は中国である。"},
+      {"id":2,"text":"北欧の国の国外販売額は0である。","explanation_zh":"陷阱：数值混同。资料中挪威出口约 150 亿美元。","explanation_ja":"誤り。数値混同の罠。資料ではノルウェー輸出約150億ドルである。"},
+      {"id":3,"text":"中国の国外販売額は北欧の国を下回る。","explanation_zh":"陷阱：因果倒置。中国约 220 亿美元，高于挪威约 150 亿美元。","explanation_ja":"誤り。因果倒置の罠。中国約220億ドルはノルウェー約150億ドルを上回る。"},
+      {"id":4,"text":"示された国外販売額では、中国が北欧の国を上回っている。","explanation_zh":"正确。中国约 220 亿美元，挪威约 150 亿美元。","explanation_ja":"正解。中国約220億ドルはノルウェー約150億ドルを上回る。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"魚類の国別輸出入",
+      "sub_domain":"国際経済・貿易",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"10. 国際経済"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["主体取違","範囲拡大"],
+      "keywords_to_avoid":["輸出","輸入","魚類","チリ","ノルウェー"]
+    },
+    "passage": "",
+    "sources": [{"claim":"Fishery and aquaculture product trade by country.","source":"FAO, The State of World Fisheries and Aquaculture","year":"2022","url":"https://www.fao.org/publications/sofia/"}]
+  },
+  {
+    "id": 13,
+    "global_id": 19,
+    "title": "問13",
+    "prompt": "日本の生活保障支出増大に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"日本では高年齢人口の増加が進んでも医療・年金・介護給付に影響する可能性は一切ない。","explanation_zh":"陷阱：范围扩大。人口老龄化会影响社会保障给付。","explanation_ja":"誤り。範囲拡大の罠。高齢化は医療・年金・介護給付に影響する。"},
+      {"id":2,"text":"生活保障支出とは、輸出港の水深だけを測る地理指標である。","explanation_zh":"陷阱：概念混淆。社会保障費是年金、医疗、介护等支出。","explanation_ja":"誤り。概念混同の罠。社会保障費は年金・医療・介護などに関わる支出である。"},
+      {"id":3,"text":"少子高年齢人口の増加は社会保障財政の課題と全く関係しない。","explanation_zh":"陷阱：因果倒置。少子高龄化影响负担者和受益者结构。","explanation_ja":"誤り。因果倒置の罠。少子高齢化は負担と給付の構造に影響する。"},
+      {"id":4,"text":"高年齢人口の増加により年金、医療、介護などの給付が増え、生活保障支出増大の要因となっている。","explanation_zh":"正确。高龄化使年金、医疗、介护等给付增加，是社会保障费扩大的因素。","explanation_ja":"正解。高齢化により年金・医療・介護などの給付が増え、社会保障費増大の要因となる。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"日本の社会保障費増大",
+      "sub_domain":"政治思想・政治史",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"4.政治参加"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["因果倒置","時態錯位"],
+      "keywords_to_avoid":["社会保障費","高齢化","出生数","福祉給付","一般会計"]
+    },
+    "sources": [{"claim":"Japan’s social security expenditure rises with population ageing.","source":"厚生労働省, 社会保障給付費","year":"2022","url":"https://www.mhlw.go.jp/stf/newpage_21509.html"}]
+  },
+  {
+    "id": 14,
+    "global_id": 20,
+    "title": "問14",
+    "prompt": "次の数値の説明は、ある都市の月平均温度と雨量の特徴である。読み取れる内容として最も適当なものはどれですか。\n夏：高温で雨量が多い。冬：温和で雨量が少ない。年雨量：約1,500mm。",
+    "choices": [
+      {"id":1,"text":"冬に氷点下が続き、降水がほぼ全て雪になる寒帯気象条件である。","explanation_zh":"陷阱：概念混淆。资料说冬季温和，不是寒带。","explanation_ja":"誤り。概念混同の罠。資料では冬が温和であり、寒帯気候ではない。"},
+      {"id":2,"text":"夏に高温多雨、冬に温和少雨で、温暖湿潤気象条件に近い特徴を示す。","explanation_zh":"正确。夏季高温多雨、冬季温和少雨，接近温暖湿润气候特征。","explanation_ja":"正解。夏に高温多雨、冬に温和少雨で、温暖湿潤気候に近い特徴である。"},
+      {"id":3,"text":"年雨量は0mmである。","explanation_zh":"陷阱：数值混同。资料中年降水量约 1500mm。","explanation_ja":"誤り。数値混同の罠。資料では年降水量約1500mmである。"},
+      {"id":4,"text":"夏は低温乾燥、冬は高温多雨である。","explanation_zh":"陷阱：因果倒置。资料方向正好相反。","explanation_ja":"誤り。因果倒置の罠。資料では夏が高温多雨、冬が温和少雨である。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"気候区分・ハイサーグラフ",
+      "sub_domain":"自然地理",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["地域取違","概念混同"],
+      "keywords_to_avoid":["ハイサーグラフ","気候","気温","降水量"]
+    },
+    "passage": "",
+    "sources": [{"claim":"Humid subtropical climate has hot humid summers and mild winters.","source":"Encyclopaedia Britannica, Humid subtropical climate","year":"2024","url":"https://www.britannica.com/science/humid-subtropical-climate"}]
+  },
+  {
+    "id": 15,
+    "global_id": 21,
+    "title": "問15",
+    "prompt": "熱帯性暴風の性質に関する記述として最も適当でないものはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"熱帯性暴風は熱帯の海上で発達する強い気圧の低い渦である。","explanation_zh":"陷阱：设问反转。这是正确叙述，但题目要求选不适当项。","explanation_ja":"誤り。設問反転の罠。正しい記述だが、設問は不適当なものを求める。"},
+      {"id":2,"text":"熱帯性暴風は陸上でのみ発生し、海面水温とは一切関係がない。","explanation_zh":"正确。题目要求选不适当项。台风在热带海上发展，并与暖海水有关。","explanation_ja":"正解。設問は不適当なものを選ぶ。台風は熱帯海上で発達し、暖かい海水と関係する。"},
+      {"id":3,"text":"熱帯性暴風は強い風や大雨、高潮をもたらすことがある。","explanation_zh":"陷阱：设问反转。这是台风灾害的正确说明。","explanation_ja":"誤り。設問反転の罠。台風災害として正しい説明である。"},
+      {"id":4,"text":"北西太平洋で発達した熱帯気圧の低い渦のうち、一定以上の強さのものを熱帯性暴風という。","explanation_zh":"陷阱：设问反转。这是符合定义的正确叙述。","explanation_ja":"誤り。設問反転の罠。定義に沿う正しい記述である。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"台風の性質",
+      "sub_domain":"自然地理",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"正誤判定",
+      "statement_polarity":"正答誤記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位","概念混同"],
+      "keywords_to_avoid":["台風","低気圧","強風","潮位","勢力"]
+    },
+    "sources": [{"claim":"Typhoons are tropical cyclones over the western North Pacific.","source":"気象庁, 台風とは","year":"2024","url":"https://www.jma.go.jp/jma/kishou/know/typhoon/1-1.html"}]
+  },
+  {
+    "id": 16,
+    "global_id": 22,
+    "title": "問16",
+    "prompt": "ケッペン気候区分・温和で湿潤な気候に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"温和で湿潤な気候は一年中氷雪に覆われる氷雪気候である。","explanation_zh":"陷阱：概念混淆。温暖湿润气候不是冰雪气候。","explanation_ja":"誤り。概念混同の罠。温暖湿潤気候は氷雪気候ではない。"},
+      {"id":2,"text":"温和で湿潤な気候では夏の降水が必ず0mmになる。","explanation_zh":"陷阱：数值混同。这种气候区许多地区夏季降水较多。","explanation_ja":"誤り。数値混同の罠。温暖湿潤気候では夏に降水が多い地域が多い。"},
+      {"id":3,"text":"温和で湿潤な気候は、温暖な冬と高温多湿な夏を特徴とし、日本の太平洋側などに見られる。","explanation_zh":"正确。温暖湿润气候以温和冬季和高温多湿夏季为特征，日本太平洋侧可见。","explanation_ja":"正解。温暖な冬と高温多湿な夏を特徴とし、日本の太平洋側などに見られる。"},
+      {"id":4,"text":"ケッペン気候区分は、企業の資金調達方法だけを分類する制度である。","explanation_zh":"陷阱：概念混淆。柯本气候分类是气候分类，不是企业金融分类。","explanation_ja":"誤り。概念混同の罠。ケッペン気候区分は気候分類である。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"ケッペン気候区分・温暖湿潤気候",
+      "sub_domain":"自然地理",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["範囲拡大","地域取違"],
+      "keywords_to_avoid":["温暖湿潤気候","Cfa","中緯度","大陸東部"]
+    },
+    "sources": [{"claim":"Köppen Cfa humid subtropical climate is found in parts of Japan.","source":"Encyclopaedia Britannica, Köppen climate classification","year":"2024","url":"https://www.britannica.com/science/Koppen-climate-classification"}]
+  },
+  {
+    "id": 17,
+    "global_id": 23,
+    "title": "問17",
+    "prompt": "島と陸を結ぶ砂州（英語名）に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"島と陸を結ぶ砂州は、砂州が島と陸地を結びつけてできる地形である。","explanation_zh":"正确。陆连砂洲是砂洲连接岛屿和陆地形成的地形。","explanation_ja":"正解。陸繋砂州は砂州が島と陸地を結びつけてできる地形である。"},
+      {"id":2,"text":"島と陸を結ぶ砂州は、火山の火口内だけにできる湖である。","explanation_zh":"陷阱：概念混淆。这是海岸地形，不是火口湖。","explanation_ja":"誤り。概念混同の罠。陸繋砂州は海岸地形であり、火口湖ではない。"},
+      {"id":3,"text":"英語名 は大気中のオゾン量を示す単位である。","explanation_zh":"陷阱：概念混淆。tombolo 是地形术语，不是臭氧单位。","explanation_ja":"誤り。概念混同の罠。tomboloは地形用語である。"},
+      {"id":4,"text":"砂州が島と陸を結んでも、地形変化とは一切呼べない。","explanation_zh":"陷阱：因果倒置。这正是典型海岸地形形成。","explanation_ja":"誤り。因果倒置の罠。島と陸を結ぶ砂州は陸繋砂州という地形である。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"陸繋砂州（tombolo）",
+      "sub_domain":"自然地理",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["地域取違","概念混同"],
+      "keywords_to_avoid":["陸繋砂州","tombolo","函館","青森","名古屋","鹿児島"]
+    },
+    "sources": [{"claim":"A tombolo is a sand or gravel bar connecting an island to the mainland.","source":"Encyclopaedia Britannica, Tombolo","year":"2024","url":"https://www.britannica.com/science/tombolo"}]
+  },
+  {
+    "id": 18,
+    "global_id": 24,
+    "title": "問18",
+    "prompt": "次の数値の説明は、チョコレート原料生産量の概数である。読み取れる内容として最も適当なものはどれですか。\nコートジボワール約220万トン、ガーナ約110万トン、インドネシア約67万トン。",
+    "choices": [
+      {"id":1,"text":"インドネシアが三国の中で最大である。","explanation_zh":"陷阱：数值混同。印尼约 67 万吨，低于另外两国。","explanation_ja":"誤り。数値混同の罠。インドネシア約67万トンは最大ではない。"},
+      {"id":2,"text":"ガーナの生産量は0である。","explanation_zh":"陷阱：数值混同。资料中加纳约 110 万吨。","explanation_ja":"誤り。数値混同の罠。資料ではガーナ約110万トンである。"},
+      {"id":3,"text":"示された中では、コートジボワールの生産量が最も多い。","explanation_zh":"正确。科特迪瓦约 220 万吨，高于加纳和印度尼西亚。","explanation_ja":"正解。コートジボワール約220万トンが最も多い。"},
+      {"id":4,"text":"三国の生産量は完全に同じである。","explanation_zh":"陷阱：范围扩大。三个数值不同。","explanation_ja":"誤り。範囲拡大の罠。三国の生産量は同じではない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"産物の生産量ランキング",
+      "sub_domain":"産業・資源",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["主体取違","概念混同"],
+      "keywords_to_avoid":["パーム油","カカオ豆","バナナ","コーヒー豆"]
+    },
+    "passage": "",
+    "sources": [{"claim":"Cocoa bean production by country.","source":"FAOSTAT, Crops and livestock products","year":"2022","url":"https://www.fao.org/faostat/"}]
+  },
+  {
+    "id": 19,
+    "global_id": 25,
+    "title": "問19",
+    "prompt": "トマス・ホッブズの自然状態論に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"ホッブズは自然状態を「万人の万人に対する闘争」と捉え、強い国家権力による秩序を論じた。","explanation_zh":"正确。霍布斯把自然状态理解为“所有人对所有人的战争”，主张强力国家权力维持秩序。","explanation_ja":"正解。ホッブズは自然状態を「万人の万人に対する闘争」と捉え、強い国家権力による秩序を論じた。"},
+      {"id":2,"text":"ホッブズは自然状態を完全な平和と豊かさだけの社会と説明した。","explanation_zh":"陷阱：因果倒置。霍布斯强调不安和斗争，不是完全和平。","explanation_ja":"誤り。因果倒置の罠。ホッブズは自然状態を不安と闘争の状態として論じた。"},
+      {"id":3,"text":"自然状態論は、熱帯雨林の植物分類だけを意味する。","explanation_zh":"陷阱：概念混淆。这是政治思想，不是植物分类。","explanation_ja":"誤り。概念混同の罠。自然状態論は政治思想であり、植物分類ではない。"},
+      {"id":4,"text":"ホッブズは20世紀の日本国憲法制定時の首相である。","explanation_zh":"陷阱：时态错位。霍布斯是 17 世纪英国思想家。","explanation_ja":"誤り。時期錯誤の罠。ホッブズは17世紀イギリスの思想家である。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"トマス・ホッブズの自然状態論",
+      "sub_domain":"思想・文化史",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"1. 近代化の進展とその影響"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","主体取違"],
+      "keywords_to_avoid":["ホッブズ","リヴァイアサン","自然状態","万人の万人に対する闘争","自然権"]
+    },
+    "sources": [{"claim":"Hobbes described the state of nature as war of all against all.","source":"Encyclopaedia Britannica, Thomas Hobbes","year":"1651","url":"https://www.britannica.com/biography/Thomas-Hobbes"}]
+  },
+  {
+    "id": 20,
+    "global_id": 26,
+    "title": "問20",
+    "prompt": "大統領制と首相制の並存に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"大統領制と首相制はどの国でも絶対に同時に存在しない。","explanation_zh":"陷阱：范围扩大。半总统制等制度中，总统和首相可以并存。","explanation_ja":"誤り。範囲拡大の罠。半大統領制などでは大統領と首相が並存する。"},
+      {"id":2,"text":"フランスのように、大統領と首相がともに存在し、権限を分担する制度がある。","explanation_zh":"正确。法国等存在总统和总理并存并分担权限的制度。","explanation_ja":"正解。フランスのように、大統領と首相がともに存在し権限を分担する制度がある。"},
+      {"id":3,"text":"首相制とは企業の社長選任だけを指す。","explanation_zh":"陷阱：概念混淆。这是政治制度，不是企业治理。","explanation_ja":"誤り。概念混同の罠。首相制は政治制度であり、企業の社長選任ではない。"},
+      {"id":4,"text":"大統領は常に儀礼的地位だけで、政治権限を持つことは絶対にない。","explanation_zh":"陷阱：范围扩大。不同国家的总统权限不同。","explanation_ja":"誤り。範囲拡大の罠。大統領の権限は国によって異なる。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"大統領制と首相制の並存",
+      "sub_domain":"政治体制",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"1.民主政治"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違","時態錯位"],
+      "keywords_to_avoid":["大統領","首相","儀礼的役割","ドイツ"]
+    },
+    "sources": [{"claim":"France has a semi-presidential system with president and prime minister.","source":"Constitution of France, Government institutions","year":"2024","url":"https://www.elysee.fr/en/french-presidency/the-institutions-of-the-fifth-republic"}]
+  },
+  {
+    "id": 21,
+    "global_id": 27,
+    "title": "問21",
+    "prompt": "日本の内閣と国会に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"内閣は行政権を担い、国会に対して連帯して責任を負う。","explanation_zh":"正确。日本宪法规定内阁行使行政权，并对国会负连带责任。","explanation_ja":"正解。内閣は行政権を担い、国会に対して連帯して責任を負う。"},
+      {"id":2,"text":"国会は司法権だけを担い、法律制定には関与しない。","explanation_zh":"陷阱：主体错位。国会是立法机关，不是只负责司法。","explanation_ja":"誤り。主体錯位の罠。国会は立法機関であり、司法権だけを担うわけではない。"},
+      {"id":3,"text":"内閣は国会と無関係で、不信任決議を受けても影響を受けない。","explanation_zh":"陷阱：因果倒置。内阁和国会存在责任关系。","explanation_ja":"誤り。因果倒置の罠。内閣は国会に対して責任を負う。"},
+      {"id":4,"text":"内閣とは地方自治体の消防団の別名である。","explanation_zh":"陷阱：概念混淆。内阁是国家行政机关，不是消防团。","explanation_ja":"誤り。概念混同の罠。内閣は国の行政機関である。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"日本の内閣と国会",
+      "sub_domain":"三権分立・統治機構",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"2. 日本の統治機構"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位","範囲拡大"],
+      "keywords_to_avoid":["衆議院","内閣","国会","総理大臣","参議院"]
+    },
+    "sources": [{"claim":"The Cabinet exercises executive power and is collectively responsible to the Diet.","source":"Japanese Law Translation, Constitution of Japan Article 66","year":"1947","url":"https://www.japaneselawtranslation.go.jp/en/laws/view/174"}]
+  },
+  {
+    "id": 22,
+    "global_id": 28,
+    "title": "問22",
+    "prompt": "選挙制度に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"小選挙区制では一選挙区から原則一人を選び、比例代表制では政党得票に応じて議席を配分する。","explanation_zh":"正确。小选区制原则上每区选一人，比例代表制按政党得票分配席位。","explanation_ja":"正解。小選挙区制では一選挙区から原則一人を選び、比例代表制では政党得票に応じて議席を配分する。"},
+      {"id":2,"text":"比例代表制では政党得票は議席配分と一切関係しない。","explanation_zh":"陷阱：因果倒置。比例代表制就是按得票分配席位。","explanation_ja":"誤り。因果倒置の罠。比例代表制は政党得票を議席配分に反映する。"},
+      {"id":3,"text":"小選挙区制とは、一つの企業が株式を一種類だけ発行する制度である。","explanation_zh":"陷阱：概念混淆。这是选举制度，不是股票制度。","explanation_ja":"誤り。概念混同の罠。小選挙区制は選挙制度であり、株式制度ではない。"},
+      {"id":4,"text":"選挙制度はすべての国で完全に同じである。","explanation_zh":"陷阱：范围扩大。各国选举制度不同。","explanation_ja":"誤り。範囲拡大の罠。選挙制度は国により異なる。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"選挙制度",
+      "sub_domain":"選挙・政党",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"4.政治参加"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["因果倒置","概念混同"],
+      "keywords_to_avoid":["選挙区制","小選挙区制","大選挙区制","死票","議席占有率"]
+    },
+    "sources": [{"claim":"Electoral systems include single-member districts and proportional representation.","source":"ACE Electoral Knowledge Network, Electoral Systems","year":"2024","url":"https://aceproject.org/ace-en/topics/es"}]
+  },
+  {
+    "id": 23,
+    "global_id": 29,
+    "title": "問23",
+    "prompt": "労働三権に関する記述として最も適当でないものはどれですか。",
+    "choices": [
+      {"id":1,"text":"労働三権には団結権、団体交渉権、団体行動権が含まれる。","explanation_zh":"陷阱：设问反转。这是正确说明，题目要求选不适当项。","explanation_ja":"誤り。設問反転の罠。正しい説明だが、設問は不適当なものを求める。"},
+      {"id":2,"text":"労働三権は憲法第28条で保障される。","explanation_zh":"陷阱：设问反转。这是正确叙述。","explanation_ja":"誤り。設問反転の罠。憲法第28条に関する正しい説明である。"},
+      {"id":3,"text":"団体交渉権は労働条件をめぐって使用者と交渉する権利である。","explanation_zh":"陷阱：设问反转。这是正确叙述。","explanation_ja":"誤り。設問反転の罠。団体交渉権の説明として正しい。"},
+      {"id":4,"text":"労働三権とは、納税、教育、勤労の三つの義務だけを指す。","explanation_zh":"正确。题目要求选不适当项。劳动三权不是国民三大义务。","explanation_ja":"正解。設問は不適当なものを選ぶ。労働三権は国民の三大義務ではない。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"労働三権",
+      "sub_domain":"憲法・人権",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"3. 日本国憲法"},
+      "question_form":"正誤判定",
+      "statement_polarity":"正答誤記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["範囲拡大","概念混同"],
+      "keywords_to_avoid":["労働三権","交渉権","団結権","ストライキ権","有給休暇"]
+    },
+    "sources": [{"claim":"Constitution of Japan Article 28 guarantees workers’ right to organize, bargain and act collectively.","source":"Japanese Law Translation, Constitution of Japan Article 28","year":"1947","url":"https://www.japaneselawtranslation.go.jp/en/laws/view/174"}]
+  },
+  {
+    "id": 24,
+    "global_id": 30,
+    "title": "問24",
+    "prompt": "日本の刑事司法制度に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"刑事裁判では被告人に弁護人を依頼する権利が一切ない。","explanation_zh":"陷阱：因果倒置。刑事被告人有接受辩护的权利。","explanation_ja":"誤り。因果倒置の罠。刑事被告人には弁護を受ける権利がある。"},
+      {"id":2,"text":"推定無罪とは、有罪判決前から必ず有罪として扱う原則である。","explanation_zh":"陷阱：因果倒置。无罪推定正好相反。","explanation_ja":"誤り。因果倒置の罠。推定無罪は有罪判決まで無罪として扱う原則である。"},
+      {"id":3,"text":"刑事手続では、適正手続や弁護人依頼権など、被疑者・被告人の権利保障が重要である。","explanation_zh":"正确。刑事程序中正当程序和辩护权等权利保障很重要。","explanation_ja":"正解。刑事手続では適正手続や弁護人依頼権などの権利保障が重要である。"},
+      {"id":4,"text":"刑事司法制度とは、気候区分を決める地理制度である。","explanation_zh":"陷阱：概念混淆。这是司法制度，不是地理分类。","explanation_ja":"誤り。概念混同の罠。刑事司法制度は司法制度であり、気候区分ではない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"日本の刑事司法制度",
+      "sub_domain":"三権分立・統治機構",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"2. 日本の統治機構"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位","範囲拡大"],
+      "keywords_to_avoid":["再審","黙秘権","自白","遡及処罰禁止"]
+    },
+    "sources": [{"claim":"Constitution of Japan protects due process and rights of accused persons.","source":"Japanese Law Translation, Constitution of Japan Articles 31-37","year":"1947","url":"https://www.japaneselawtranslation.go.jp/en/laws/view/174"}]
+  },
+  {
+    "id": 25,
+    "global_id": 31,
+    "title": "問25",
+    "prompt": "民族問題と紛争に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"民族問題は世界中で完全に解決済みで、紛争と関係することはない。","explanation_zh":"陷阱：范围扩大。民族问题可能成为冲突因素。","explanation_ja":"誤り。範囲拡大の罠。民族問題は紛争の要因となることがある。"},
+      {"id":2,"text":"民族、宗教、言語、領土をめぐる対立は、地域紛争の背景となることがある。","explanation_zh":"正确。民族、宗教、语言和领土冲突可能成为地区纷争背景。","explanation_ja":"正解。民族、宗教、言語、領土をめぐる対立は地域紛争の背景となることがある。"},
+      {"id":3,"text":"民族対立は鉱物の硬度だけを表す自然科学用語である。","explanation_zh":"陷阱：概念混淆。这是社会政治概念，不是矿物硬度。","explanation_ja":"誤り。概念混同の罠。民族対立は社会・政治上の概念である。"},
+      {"id":4,"text":"領土問題があっても政治的対立に発展する可能性は一切ない。","explanation_zh":"陷阱：范围扩大。领土问题可导致政治冲突。","explanation_ja":"誤り。範囲拡大の罠。領土問題は政治的対立に発展することがある。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"民族問題と紛争",
+      "sub_domain":"現代世界",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の社会","item":"5. 国際社会と平和"},
+      "question_form":"正誤判定",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["主体取違","地域取違","時態錯位"],
+      "keywords_to_avoid":["クロアチア","チェチェン","スーダン","ウクライナ","イラク"]
+    },
+    "sources": [{"claim":"Ethnic, religious and territorial issues can underlie conflicts.","source":"United Nations, Conflict prevention","year":"2024","url":"https://www.un.org/en/our-work/maintain-international-peace-and-security"}]
+  },
+  {
+    "id": 26,
+    "global_id": 32,
+    "title": "問26",
+    "prompt": "国際法に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"国際法は国内の全ての企業会計だけを扱う規則である。","explanation_zh":"陷阱：概念混淆。国际法处理国家、国际组织等关系。","explanation_ja":"誤り。概念混同の罠。国際法は国家間関係などを扱う。"},
+      {"id":2,"text":"条約は国家間の合意であり得ず、常に個人の日記だけを指す。","explanation_zh":"陷阱：概念混淆。条约是国际法的重要形式。","explanation_ja":"誤り。概念混同の罠。条約は国家間合意として国際法の重要な形式である。"},
+      {"id":3,"text":"国際法には条約や国際慣習法などがあり、国家間関係を規律する。","explanation_zh":"正确。国际法包括条约和国际习惯法等，规范国家间关系。","explanation_ja":"正解。国際法には条約や国際慣習法などがあり、国家間関係を規律する。"},
+      {"id":4,"text":"国際法は武力紛争や人権問題と一切関係しない。","explanation_zh":"陷阱：范围扩大。国际法涉及战争法、人权法等。","explanation_ja":"誤り。範囲拡大の罠。国際法は武力紛争や人権問題にも関わる。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"国際法",
+      "sub_domain":"国際政治・外交",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"5. 国際政治"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","時態錯位"],
+      "keywords_to_avoid":["国際法","国連","安保理","総会","加盟国"]
+    },
+    "sources": [{"claim":"International law includes treaties and customary international law.","source":"United Nations, International Law","year":"2024","url":"https://www.un.org/en/our-work/uphold-international-law"}]
+  },
+  {
+    "id": 27,
+    "global_id": 33,
+    "title": "問27",
+    "prompt": "オゾン層破壊に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"フロン類などは成層圏オゾン層を破壊し、有害な紫外線増加を招くおそれがある。","explanation_zh":"正确。氟利昂等会破坏平流层臭氧层，可能增加有害紫外线。","explanation_ja":"正解。フロン類などは成層圏オゾン層を破壊し、有害紫外線増加を招くおそれがある。"},
+      {"id":2,"text":"オゾン層破壊は海岸の砂州形成だけを意味する。","explanation_zh":"陷阱：概念混淆。这是大气环境问题，不是海岸地形。","explanation_ja":"誤り。概念混同の罠。オゾン層破壊は大気環境問題である。"},
+      {"id":3,"text":"モントリオール議定書はオゾン層保護と無関係である。","explanation_zh":"陷阱：因果倒置。该议定书旨在削减消耗臭氧层物质。","explanation_ja":"誤り。因果倒置の罠。モントリオール議定書はオゾン層保護に関わる。"},
+      {"id":4,"text":"紫外線は人体や生態系に影響する可能性が一切ない。","explanation_zh":"陷阱：范围扩大。紫外线增加会影响健康和生态系统。","explanation_ja":"誤り。範囲拡大の罠。紫外線増加は健康や生態系に影響しうる。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"オゾン層破壊",
+      "sub_domain":"産業・資源",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["概念混同","時態錯位"],
+      "keywords_to_avoid":["オゾン層","フロン","紫外線","モントリオール議定書"]
+    },
+    "sources": [{"claim":"Ozone-depleting substances are controlled under the Montreal Protocol.","source":"UNEP Ozone Secretariat, Montreal Protocol","year":"1987","url":"https://ozone.unep.org/treaties/montreal-protocol"}]
+  },
+  {
+    "id": 28,
+    "global_id": 34,
+    "title": "問28",
+    "prompt": "1848年「諸国民の春」に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"諸国民の春は、第一次世界大戦後の1919年にアジアだけで起こった。","explanation_zh":"陷阱：时态错位。诸民族之春是 1848 年欧洲革命。","explanation_ja":"誤り。時期錯誤の罠。諸国民の春は1848年のヨーロッパ革命を指す。"},
+      {"id":2,"text":"1848年にはフランス二月革命をきっかけに、ヨーロッパ各地で自由主義・民族主義運動が広がった。","explanation_zh":"正确。1848 年法国二月革命后，自由主义和民族主义运动扩展至欧洲各地。","explanation_ja":"正解。1848年、フランス二月革命を契機に自由主義・民族主義運動が広がった。"},
+      {"id":3,"text":"諸国民の春は農産物の春小麦だけを意味する農業用語である。","explanation_zh":"陷阱：概念混淆。这是政治革命运动，不是农作物名。","explanation_ja":"誤り。概念混同の罠。諸国民の春は政治運動であり、農業用語ではない。"},
+      {"id":4,"text":"1848年の運動は自由主義や民族主義と一切関係がない。","explanation_zh":"陷阱：范围扩大。这些运动与自由主义、民族主义密切相关。","explanation_ja":"誤り。範囲拡大の罠。1848年の運動は自由主義・民族主義と関係する。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"1848年「諸国民の春」",
+      "sub_domain":"近代世界",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"4.政治参加"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位","主体取違"],
+      "keywords_to_avoid":["1848年","諸国民の春","イギリス","フランス","プロイセン"]
+    },
+    "sources": [{"claim":"The Revolutions of 1848 spread liberal and nationalist movements across Europe.","source":"Encyclopaedia Britannica, Revolutions of 1848","year":"1848","url":"https://www.britannica.com/event/Revolutions-of-1848"}]
+  },
+  {
+    "id": 29,
+    "global_id": 35,
+    "title": "問29",
+    "prompt": "19世紀後半～20世紀初のアフリカ植民地化に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"この時期、欧州列強はアフリカへの進出を完全にやめた。","explanation_zh":"陷阱：因果倒置。这一时期非洲瓜分加速。","explanation_ja":"誤り。因果倒置の罠。この時期は欧州列強によるアフリカ分割が進んだ。"},
+      {"id":2,"text":"ベルリン会議以後、欧州列強によるアフリカ分割が進み、植民地支配が拡大した。","explanation_zh":"正确。柏林会议后欧洲列强推进瓜分非洲，殖民统治扩大。","explanation_ja":"正解。ベルリン会議以後、欧州列強によるアフリカ分割と植民地支配が拡大した。"},
+      {"id":3,"text":"アフリカ植民地化は南極大陸の氷床調査だけを指す。","explanation_zh":"陷阱：地域错位。题目讨论非洲，不是南极调查。","explanation_ja":"誤り。地域錯位の罠。アフリカ植民地化は南極調査ではない。"},
+      {"id":4,"text":"ベルリン会議は日本の米価だけを決めた会議である。","explanation_zh":"陷阱：概念混淆。该会议涉及非洲分割规则。","explanation_ja":"誤り。概念混同の罠。ベルリン会議はアフリカ分割に関わる。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"19世紀後半～20世紀初のアフリカ植民地化",
+      "sub_domain":"近代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"2. 二つの世界大戦とその影響"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["範囲拡大","主体取違"],
+      "keywords_to_avoid":["アフリカ","植民地化","イギリス","フランス","ドイツ"]
+    },
+    "sources": [{"claim":"The Berlin Conference and Scramble for Africa accelerated colonization.","source":"Encyclopaedia Britannica, Berlin West Africa Conference","year":"1884","url":"https://www.britannica.com/event/Berlin-West-Africa-Conference"}]
+  },
+  {
+    "id": 30,
+    "global_id": 36,
+    "title": "問30",
+    "prompt": "1930年代の世界恐慌対策に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"ニューディール政策は19世紀のフランス革命中に実施された。","explanation_zh":"陷阱：时态错位。罗斯福新政是 1930 年代美国政策。","explanation_ja":"誤り。時期錯誤の罠。ニューディール政策は1930年代のアメリカで実施された。"},
+      {"id":2,"text":"世界恐慌後、各国は必ず完全な自由貿易だけを拡大し、ブロック経済はなかった。","explanation_zh":"陷阱：范围扩大。1930 年代出现保护主义和集团经济。","explanation_ja":"誤り。範囲拡大の罠。1930年代には保護主義やブロック経済が広がった。"},
+      {"id":3,"text":"公共事業は雇用対策として使われることが絶対にない。","explanation_zh":"陷阱：因果倒置。公共事业可用于创造就业。","explanation_ja":"誤り。因果倒置の罠。公共事業は雇用対策として用いられた。"},
+      {"id":4,"text":"アメリカではニューディール政策により公共事業や金融改革などが進められた。","explanation_zh":"正确。美国罗斯福新政推进公共事业和金融改革等。","explanation_ja":"正解。アメリカではニューディール政策により公共事業や金融改革などが進められた。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"1930年代の世界恐慌対策",
+      "sub_domain":"近代世界",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"5. 金融"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位","因果倒置"],
+      "keywords_to_avoid":["世界恐慌","1930年代","傾斜生産方式","ブロック経済"]
+    },
+    "sources": [{"claim":"The New Deal used public works and financial reforms to address the Great Depression.","source":"Encyclopaedia Britannica, New Deal","year":"1930s","url":"https://www.britannica.com/event/New-Deal"}]
+  },
+  {
+    "id": 31,
+    "global_id": 37,
+    "title": "問31",
+    "prompt": "GHQの経済民主化施策に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"GHQは戦後日本で財閥解体や農地改革を一切行わなかった。","explanation_zh":"陷阱：因果倒置。财阀解体和农地改革是重要的经济民主化措施。","explanation_ja":"誤り。因果倒置の罠。財閥解体や農地改革は重要な経済民主化施策である。"},
+      {"id":2,"text":"農地改革は工業製品の関税率だけを決める政策である。","explanation_zh":"陷阱：概念混淆。农地改革涉及土地所有和佃农问题。","explanation_ja":"誤り。概念混同の罠。農地改革は土地所有や小作制度に関わる。"},
+      {"id":3,"text":"GHQは戦後日本で財閥解体、農地改革、労働組合育成などの経済民主化を進めた。","explanation_zh":"正确。GHQ 在战后日本推进财阀解体、农地改革和工会培养等经济民主化。","explanation_ja":"正解。GHQは財閥解体、農地改革、労働組合育成などの経済民主化を進めた。"},
+      {"id":4,"text":"財閥解体とは、台風の進路を分類する気象制度である。","explanation_zh":"陷阱：概念混淆。这是经济改革，不是气象制度。","explanation_ja":"誤り。概念混同の罠。財閥解体は経済改革であり、気象制度ではない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"GHQの経済民主化施策",
+      "sub_domain":"現代日本",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の社会","item":"3.雇用・労働"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位","主体取違"],
+      "keywords_to_avoid":["GHQ","経済民主化","身分解放令","持株会社","独占禁止法"]
+    },
+    "sources": [{"claim":"Occupation reforms included zaibatsu dissolution, land reform and labor democratization.","source":"National Diet Library, Modern Japan in archives: Occupation reforms","year":"1945","url":"https://www.ndl.go.jp/modern/e/cha5/index.html"}]
+  },
+  {
+    "id": 32,
+    "global_id": 38,
+    "title": "問32",
+    "prompt": "キューバ危機後の核実験禁止条約に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"1963年の部分的核実験禁止条約は、大気圏内・宇宙空間・水中での核実験を禁止した。","explanation_zh":"正确。1963 年部分禁止核试验条约禁止大气层、外层空间和水下核试验。","explanation_ja":"正解。1963年の部分的核実験禁止条約は、大気圏内・宇宙空間・水中での核実験を禁止した。"},
+      {"id":2,"text":"部分的核実験禁止条約は第一次世界大戦中に日本とオスマン帝国だけで結ばれた。","explanation_zh":"陷阱：时态错位。该条约为 1963 年冷战时期条约。","explanation_ja":"誤り。時期錯誤の罠。同条約は1963年の冷戦期の条約である。"},
+      {"id":3,"text":"条約は地下核実験を含むすべての核実験を完全に禁止した。","explanation_zh":"陷阱：范围扩大。部分禁止条约没有禁止地下核试验。","explanation_ja":"誤り。範囲拡大の罠。部分的核実験禁止条約は地下核実験を禁止していない。"},
+      {"id":4,"text":"キューバ危機は核軍縮交渉と一切関係しなかった。","explanation_zh":"陷阱：因果倒置。危机后，降低核战争风险成为重要课题。","explanation_ja":"誤り。因果倒置の罠。危機後、核戦争リスク低減が重要な課題となった。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"キューバ危機後の核実験禁止条約",
+      "sub_domain":"現代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"2. 二つの世界大戦とその影響"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位","概念混同"],
+      "keywords_to_avoid":["キューバ危機","1963年","核兵器条約","PTBT","CTBT","NPT"]
+    },
+    "sources": [{"claim":"The 1963 Partial Test Ban Treaty banned nuclear tests in the atmosphere, outer space and under water.","source":"U.S. Department of State, Nuclear Test Ban Treaty","year":"1963","url":"https://2009-2017.state.gov/t/isn/4797.htm"}]
+  }
+]
+}

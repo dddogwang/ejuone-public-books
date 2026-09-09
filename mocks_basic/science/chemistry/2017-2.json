@@ -1,0 +1,521 @@
+{
+  "subject": "science",
+  "section": "chemistry",
+  "year": 2017,
+  "round": 2,
+  "title": "模擬試験 化学 第十回",
+  "image_path": "science/chemistry/images/2017-2",
+  "questions": [
+  {
+    "id": 1,
+    "global_id": 1,
+    "title": "問1",
+    "prompt": "原子と原子核に関する記述のうち、正しいものはどれか。",
+    "choices": [
+      {"id":1,"text":"すべての原子は陽子数と中性子数が等しい。","explanation_zh":"陷阱：氢原子的中子数为0，质子数为1，二者不相等，因此并非所有原子的质子数与中子数相等。","explanation_ja":"誤り。¹H（普通の水素）は陽子1個に対し中性子が0個であり、すべての原子で陽子数＝中性子数とはいえない。"},
+      {"id":2,"text":"質量数は陽子の数と中性子の数の和に等しい。","explanation_zh":"正确。质量数=质子数+中子数，这是质量数的定义。例如¹²C有6个质子和6个中子，质量数=12。","explanation_ja":"正解。質量数＝陽子数＋中性子数であり、これは質量数の定義である。"},
+      {"id":3,"text":"同素体とは同じ元素で陽子数が異なる原子のことをいう。","explanation_zh":"陷阱：概念混淆。陽子数異「同位素（）」，「同素体」同元素性質異単体（金刚石碳同素体等）。","explanation_ja":"誤り。陽子数が異なる原子は同位体（アイソトープ）という。同素体とは、同じ元素から構成される性質の異なる単体のことである。"},
+      {"id":4,"text":"同位体は互いに化学的性質が大きく異なる。","explanation_zh":"陷阱：同位体概念错误。同位体（质子数相同、中子数不同）的化学性质几乎相同，因为化学性质主要由电子数（=质子数）决定。","explanation_ja":"誤り。同位体は陽子数（電子数）が同じため化学的性質はほぼ同じである。"},
+      {"id":5,"text":"原子核は陽子と電子から構成される。","explanation_zh":"陷阱：原子核组成错误。原子核由质子和中子组成，电子在核外运动，不在原子核内。","explanation_ja":"誤り。原子核は陽子と中性子から構成される。電子は原子核の外に存在する。"},
+      {"id":6,"text":"電子の質量は陽子の質量とほぼ等しい。","explanation_zh":"陷阱：质量比较错误。电子的质量约为质子质量的1/1836，远小于质子质量。","explanation_ja":"誤り。電子の質量は陽子の質量の約1/1836であり、大きく異なる。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "unit":"I 物質の構成",
+      "sub_domain":"原子構造",
+      "question_form":"知識選択",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["価数・電荷混同"],
+      "keywords_to_avoid":["電子配置","イオン式","組成式"],
+      "syllabus_path":{"area":"I 物質の構成","field":"化学","item":"2. 物質の構成粒子"}
+    },
+    "passage": ""
+  },
+  {
+    "id": 2,
+    "global_id": 2,
+    "title": "問2",
+    "prompt": "共有結合に関する記述のうち、正しいものはどれか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"共有結合は金属原子どうしの間でのみ形成される。","explanation_zh":"陷阱：共价键定义错误。共价键是非金属原子之间通过共用电子对形成的化学键，而金属原子之间形成的是金属键。","explanation_ja":"誤り。金属原子どうしの結合は金属結合であり、共有結合は主に非金属原子間で形成される。"},
+      {"id":2,"text":"共有結合でできた物質はすべて電気をよく通す。","explanation_zh":"陷阱：共价化合物导电性错误。大多数共价化合物不导电（如金刚石、甲烷），只有少数特殊结构（如石墨）才导电。","explanation_ja":"誤り。共有結合の物質の多くは電気を通さない（例：ダイヤモンド、メタン）。"},
+      {"id":3,"text":"共有結合は原子間で電子対を共有することによって形成される。","explanation_zh":"正确。共价键的本质是原子间通过共享电子对（共用电子对）而形成的化学键。","explanation_ja":"正解。共有結合は2つの原子が電子対を共有することで形成される化学結合である。"},
+      {"id":4,"text":"共有結合した分子はすべて無極性である。","explanation_zh":"陷阱：极性与非极性分子混淆。HF、HCl、H₂O等极性共价键极性分子多数存在。","explanation_ja":"誤り。HFやH₂Oのように、共有結合をもつ分子でも極性をもつものが多数ある。"},
+      {"id":5,"text":"共有結合の結晶はすべて柔らかく融点が低い。","explanation_zh":"陷阱：共价键晶体性质例外。金刚石和SiO₂等共价晶体极硬且熔点极高，并非所有共价键晶体都柔软低熔点。","explanation_ja":"誤り。ダイヤモンドやSiO₂などの共有結合の結晶は非常に硬く融点が高い。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "unit":"I 物質の構成",
+      "sub_domain":"イオン・化学結合",
+      "question_form":"知識選択",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["性質の例外見落とし"],
+      "keywords_to_avoid":["金属結合","配位結合","イオン結合"],
+      "syllabus_path":{"area":"I 物質の構成","field":"化学","item":"3. 物質と化学結合"}
+    }
+  },
+  {
+    "id": 3,
+    "global_id": 3,
+    "title": "問3",
+    "prompt": "分子結晶に関する記述のうち、正しいものはどれか。",
+    "choices": [
+      {"id":1,"text":"分子結晶はイオン結晶より一般に融点が高い。","explanation_zh":"陷阱：晶体类型融点比较错误。分子晶体粒子间只有分子间力，熔点一般远低于离子晶体（粒子间有静电引力）。","explanation_ja":"誤り。分子結晶は分子間力で結びついているため、一般にイオン結晶より融点が低い。"},
+      {"id":2,"text":"分子結晶に含まれる分子はすべて無極性分子である。","explanation_zh":"陷阱：极性分子也能形成分子晶体。HCl、H₂O等极性分子也以分子晶体形式存在，并非所有分子晶体都是非极性分子。","explanation_ja":"誤り。H₂OやHClのような極性分子も分子結晶を形成する。"},
+      {"id":3,"text":"分子結晶は固体状態で電気をよく通す。","explanation_zh":"陷阱：分子晶体导电性错误。固体分子晶体中没有自由移动的带电粒子，通常不导电。","explanation_ja":"誤り。分子結晶は固体状態では自由な荷電粒子がなく、一般に電気を通さない。"},
+      {"id":4,"text":"分子結晶では分子間に分子間力がはたらき、分子が規則正しく配列している。","explanation_zh":"正确。分子晶体中，分子之间通过分子间力（范德华力）相互作用，分子有规律地排列在晶格中。","explanation_ja":"正解。分子結晶では分子間力によって分子が引き合い、規則正しい結晶格子を形成している。"},
+      {"id":5,"text":"分子結晶は水に溶けると必ず電解質として電気を通す。","explanation_zh":"陷阱：分子晶体溶液导电性错误。多数分子晶体溶于水后是非电解质，如酒精、砂糖，不导电。","explanation_ja":"誤り。エタノールや砂糖などの分子結晶は水に溶けても電解質にならず電気を通さない。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "unit":"I 物質の構成",
+      "sub_domain":"分子構造・結晶",
+      "question_form":"知識選択",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["性質の例外見落とし"],
+      "keywords_to_avoid":["極性分子","HCl","CH₃Cl"],
+      "syllabus_path":{"area":"I 物質の構成","field":"化学","item":"3. 物質と化学結合"}
+    },
+    "passage": ""
+  },
+  {
+    "id": 4,
+    "global_id": 4,
+    "title": "問4",
+    "prompt": "ネオン Ne（原子量20）3.00 g の物質量はいくらか。",
+    "choices": [
+      {"id":1,"text":"0.100 mol","explanation_zh":"陷阱：原子量误用为30。n=3.00/30=0.100，但M(Ne)=20，正确答案为0.150 mol。","explanation_ja":"誤り。Neの原子量は20であり、n=3.00÷20=0.150 molが正しい。"},
+      {"id":2,"text":"0.200 mol","explanation_zh":"陷阱：原子量误用为15。n=3.00/15=0.200，但M(Ne)=20。","explanation_ja":"誤り。n=3.00÷20=0.150 molが正しい。"},
+      {"id":3,"text":"0.150 mol","explanation_zh":"正确。Ne的原子量=20，n=3.00÷20=0.150 mol。","explanation_ja":"正解。Neの原子量＝20より、n=3.00÷20=0.150 molとなる。"},
+      {"id":4,"text":"0.300 mol","explanation_zh":"陷阱：原子量误用为10。n=3.00/10=0.300，但M(Ne)=20。","explanation_ja":"誤り。n=3.00÷20=0.150 molが正しい。"},
+      {"id":5,"text":"0.0150 mol","explanation_zh":"陷阱：小数点错位，将0.150误缩小了10倍。","explanation_ja":"誤り。小数点の位置を誤った誤答。n=0.150 molが正しい。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "unit":"I 物質の構成",
+      "sub_domain":"気体・状態方程式",
+      "question_form":"計算選択",
+      "required_skill":"法則・公式適用",
+      "requires_image":false,
+      "trap_patterns":["物質量と質量混同"],
+      "keywords_to_avoid":["平均分子量","N₂","H₂"],
+      "syllabus_path":{"area":"I 物質の構成","field":"化学","item":"4. 物質の量的取扱いと化学式"}
+    },
+    "passage": ""
+  },
+  {
+    "id": 5,
+    "global_id": 5,
+    "title": "問5",
+    "prompt": "アルミニウム Al（原子量27）2.70 g を十分な量の希塩酸に溶かした。発生する水素 H₂ の物質量はいくらか。反応式： \\(2\\text{Al} + 6\\text{HCl} \\rightarrow 2\\text{AlCl}_3 + 3\\text{H}_2\\)",
+    "choices": [
+      {"id":1,"text":"0.0500 mol","explanation_zh":"陷阱：将H₂:Al的比例误为1:2。n(Al)=2.70/27=0.100 mol，正确比H₂:Al=3:2，n(H₂)=0.150 mol。","explanation_ja":"誤り。n(Al)=0.100 mol、H₂:Al=3:2よりn(H₂)=0.150 molが正しい。"},
+      {"id":2,"text":"0.100 mol","explanation_zh":"陷阱：将比例误为H₂:Al=1:1。n(Al)=0.100 mol，H₂:Al=3:2，n(H₂)=0.150 mol。","explanation_ja":"誤り。H₂:Al=1:1と誤解した誤答。正しくはn(H₂)=0.150 mol。"},
+      {"id":3,"text":"0.200 mol","explanation_zh":"陷阱：将比例误为H₂:Al=2:1。n(H₂)=0.100×2=0.200，但正确比为3:2。","explanation_ja":"誤り。H₂:Al=2:1と誤解した誤答。正しくはn(H₂)=0.150 mol。"},
+      {"id":4,"text":"0.300 mol","explanation_zh":"陷阱：将比例误为H₂:Al=3:1。n(H₂)=0.100×3=0.300，但正确比为3:2。","explanation_ja":"誤り。H₂:Al=3:1と誤解した誤答。正しくはn(H₂)=0.150 mol。"},
+      {"id":5,"text":"0.0750 mol","explanation_zh":"陷阱：将比例误倒为H₂:Al=3:4。n(H₂)=0.100×3/4=0.0750，但正确比为3:2。","explanation_ja":"誤り。H₂:Al=3:4と誤解した誤答。正しくはn(H₂)=0.150 mol。"},
+      {"id":6,"text":"0.150 mol","explanation_zh":"正确。n(Al)=2.70÷27=0.100 mol，由反应式系数比H₂:Al=3:2，n(H₂)=0.100×3/2=0.150 mol。","explanation_ja":"正解。n(Al)=2.70÷27=0.100 mol、H₂:Al=3:2よりn(H₂)=0.100×3/2=0.150 mol。"}
+    ],
+    "answer": 6,
+    "tag": {
+      "unit":"I 物質の構成",
+      "sub_domain":"化学反応式と量的関係",
+      "question_form":"計算選択",
+      "required_skill":"量的計算",
+      "requires_image":false,
+      "trap_patterns":["係数比誤認"],
+      "keywords_to_avoid":["プロパン","燃焼","酸素"],
+      "syllabus_path":{"area":"I 物質の構成","field":"化学","item":"4. 物質の量的取扱いと化学式"}
+    },
+    "passage": ""
+  },
+  {
+    "id": 6,
+    "global_id": 6,
+    "title": "問6",
+    "prompt": "結晶の種類と電気伝導性に関する記述のうち、正しいものはどれか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"共有結合の結晶はすべて電気をよく通す。","explanation_zh":"陷阱：共价键晶体导电性例外。金刚石石英SiO₂共价键晶体但不导电，只有特殊结构（石墨）才导电。","explanation_ja":"誤り。ダイヤモンドやSiO₂などの共有結合の結晶は電気を通さない。"},
+      {"id":2,"text":"金属結晶では自由電子が結晶全体を移動できるため電気をよく通す。","explanation_zh":"正确。金属晶体中，电子不与特定原子结合，可在整个晶体中自由移动，因此金属具有良好的导电性。","explanation_ja":"正解。金属結晶では価電子が自由電子として結晶全体を動き回れるため、電気を通しやすい。"},
+      {"id":3,"text":"分子結晶はイオン結晶より一般に融点が高い。","explanation_zh":"陷阱：融点比较错误。分子晶体粒子间只有分子间力，熔点一般低于离子晶体。","explanation_ja":"誤り。分子結晶の融点は一般にイオン結晶より低い。"},
+      {"id":4,"text":"イオン結晶は固体状態でも電気をよく通す。","explanation_zh":"陷阱：离子晶体固态导电性错误。固体离子晶体中离子被固定在晶格中无法移动，不导电；熔融或溶于水后才能导电。","explanation_ja":"誤り。イオン結晶は固体状態ではイオンが格子中に固定されており電気を通さない。"},
+      {"id":5,"text":"分子結晶はすべて水に溶けて電解質となる。","explanation_zh":"陷阱：分子晶体溶解性错误。很多分子晶体溶于水后是非电解质（如乙醇、蔗糖）。","explanation_ja":"誤り。エタノールや砂糖などの分子結晶は水に溶けても電解質にならない。"},
+      {"id":6,"text":"共有結合の結晶は一般に金属結晶より電気伝導率が大きい。","explanation_zh":"陷阱：导电性比较错误。共价键晶体（金刚石等）通常不导电，金属晶体导电性极好，前者不如后者。","explanation_ja":"誤り。共有結合の結晶は一般に電気を通さないため、金属結晶より電気伝導率は低い。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "unit":"I 物質の構成",
+      "sub_domain":"分子構造・結晶",
+      "question_form":"知識選択",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["性質の例外見落とし"],
+      "keywords_to_avoid":["最密充填構造","銅","単位格子"],
+      "syllabus_path":{"area":"I 物質の構成","field":"化学","item":"3. 物質と化学結合"}
+    }
+  },
+  {
+    "id": 7,
+    "global_id": 7,
+    "title": "問7",
+    "prompt": "酸と塩基に関する記述のうち、正しいものはどれか。",
+    "choices": [
+      {"id":1,"text":"酸は水に溶けてOH⁻を放出する物質である。","explanation_zh":"陷阱：酸碱定义混淆。酸（定義）水溶H⁺释放物質。OH⁻释放塩基。","explanation_ja":"誤り。酸は水に溶けてH⁺を放出する物質（アレーニウス）。OH⁻を放出するのは塩基である。"},
+      {"id":2,"text":"塩基の水溶液は必ず酸性を示す。","explanation_zh":"陷阱：酸碱水溶液性质混淆。塩基水溶液塩基性（碱性）示，酸性。","explanation_ja":"誤り。塩基の水溶液は塩基性（アルカリ性）を示す。"},
+      {"id":3,"text":"強酸は弱酸より電離度が小さい。","explanation_zh":"陷阱：酸的强弱与电离度关系错误。强酸电离度大（接近100%），弱酸电离度小，二者关系相反。","explanation_ja":"誤り。強酸は電離度が大きく（ほぼ100%）、弱酸は小さい。"},
+      {"id":4,"text":"中和反応では必ず塩と水が生じ、気体は発生しない。","explanation_zh":"陷阱：中和反应产物不仅限于盐和水。例如HCl与NaHCO₃反応CO₂产生。","explanation_ja":"誤り。HClとNaHCO₃のように中和で気体（CO₂）が発生する場合もある。"},
+      {"id":5,"text":"1価の酸と1価の塩基は必ず等物質量で中和する。","explanation_zh":"陷阱：中和时物质的量相等的条件。一価酸一価塩基等中和「十分量」即前提必要。弱酸弱塩基平衡関係。实际上该陈述对于强酸强碱基本正确，但表述有歧义。","explanation_ja":"誤り。弱酸・弱塩基では電離平衡があるため、一概に等物質量で完全中和するとはいえない場合がある。"},
+      {"id":6,"text":"アレーニウスの定義では、水に溶けてH⁺を生じる物質を酸、OH⁻を生じる物質を塩基という。","explanation_zh":"正确。这是阿伦尼乌斯关于酸碱的定义：溶于水产生H⁺的是酸，产生OH⁻的是碱，这是最基础的酸碱理论。","explanation_ja":"正解。アレーニウスの定義では、水に溶けてH⁺を生じる物質を酸、OH⁻を生じる物質を塩基という。"}
+    ],
+    "answer": 6,
+    "tag": {
+      "unit":"II 物質の状態と変化",
+      "sub_domain":"酸・塩基",
+      "question_form":"知識選択",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["濃度条件見落とし"],
+      "keywords_to_avoid":["pH","H₂SO₄","HNO₃"],
+      "syllabus_path":{"area":"II 物質の状態と変化","field":"化学","item":"1. 物質の変化"}
+    },
+    "passage": ""
+  },
+  {
+    "id": 8,
+    "global_id": 8,
+    "title": "問8",
+    "prompt": "化学平衡に関する記述のうち、正しいものはどれか。",
+    "choices": [
+      {"id":1,"text":"可逆反応が平衡状態に達すると、正反応と逆反応の速さが等しくなる。","explanation_zh":"正确。化学平衡状态是正反应速率等于逆反应速率时达到的动态平衡，此时各物质的浓度保持不变。","explanation_ja":"正解。平衡状態では正反応と逆反応の速さが等しくなり、各成分の濃度が一定に保たれる。"},
+      {"id":2,"text":"平衡状態では正反応も逆反応も完全に停止する。","explanation_zh":"陷阱：平衡状态的动态性质理解错误。平衡是动态平衡，正反応逆反応同速継続。","explanation_ja":"誤り。平衡状態は動的平衡であり、正反応と逆反応は同じ速さで進み続けている。"},
+      {"id":3,"text":"触媒を加えると平衡は常に正反応方向に移動する。","explanation_zh":"陷阱：触媒对平衡位置的影响理解错误。触媒正反応逆反応両方同割合加速因此、平衡位置（平衡定数）変化。","explanation_ja":"誤り。触媒は正反応・逆反応の両方を促進するため、平衡位置は変化しない。"},
+      {"id":4,"text":"圧力を高くすると、平衡は常に気体の物質量が増加する方向に移動する。","explanation_zh":"陷阱：勒夏特列原理理解错误。加压时，平衡向气体物质的量减少的方向移动（以减小压力）。","explanation_ja":"誤り。ルシャトリエの原理より、圧力を高くすると平衡は気体の物質量が減少する方向に移動する。"},
+      {"id":5,"text":"温度を上げると、すべての平衡は正反応方向に移動する。","explanation_zh":"陷阱：温度对平衡的影响与反应热有关。温度升高，平衡向吸热方向移动（不一定是正反应方向）。","explanation_ja":"誤り。温度を上げると平衡は吸熱方向に移動するが、これが正反応か逆反応かは反応の吸熱・発熱に依存する。"},
+      {"id":6,"text":"平衡定数は温度によらず常に一定である。","explanation_zh":"陷阱：平衡常数的温度依赖性理解错误。平衡定数K温度变化变化（温度関数）。","explanation_ja":"誤り。平衡定数Kは温度によって変化し、温度に依存する。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "unit":"II 物質の状態と変化",
+      "sub_domain":"化学平衡",
+      "question_form":"知識選択",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["平衡移動方向混同"],
+      "keywords_to_avoid":["N₂O₄","NO₂","Q"],
+      "syllabus_path":{"area":"II 物質の状態と変化","field":"化学","item":"3. 物質の変化と平衡"}
+    },
+    "passage": ""
+  },
+  {
+    "id": 9,
+    "global_id": 9,
+    "title": "問9",
+    "prompt": "次の塩 a〜c と水溶液の性質 X〜Z の組合せとして最も適当なものはどれか。",
+    "passage": "a: KCl（塩化カリウム）　b: NH₄Cl（塩化アンモニウム）　c: Na₂CO₃（炭酸ナトリウム）\nX: 水溶液が中性を示す\nY: 水溶液が酸性を示す\nZ: 水溶液が塩基性を示す",
+    "choices": [
+      {"id":1,"text":"a-Y、b-X、c-Z","explanation_zh":"陷阱：a与b对应关系互换。KCl（a）是强酸强碱盐→水溶液中性(X)，NH₄Cl（b）是弱碱强酸盐→水溶液酸性(Y)。","explanation_ja":"誤り。KCl（a）は中性(X)、NH₄Cl（b）は酸性(Y)に対応する。"},
+      {"id":2,"text":"a-Z、b-Y、c-X","explanation_zh":"陷阱：a与c对应关系互换。KCl（a）→X（中性），Na₂CO₃（c）→Z（塩基性）。","explanation_ja":"誤り。KCl（a）はX（中性）、Na₂CO₃（c）はZ（塩基性）に対応する。"},
+      {"id":3,"text":"a-X、b-Z、c-Y","explanation_zh":"陷阱：b与c对应关系互换。NH₄Cl（b）→Y（酸性），Na₂CO₃（c）→Z（塩基性）。","explanation_ja":"誤り。NH₄Cl（b）はY（酸性）、Na₂CO₃（c）はZ（塩基性）に対応する。"},
+      {"id":4,"text":"a-Y、b-Z、c-X","explanation_zh":"陷阱：KCl(a)→Z，NH₄Cl(b)→X，Na₂CO₃(c)→Y，全部错位。正确为a-X(中性), b-Y(酸性), c-Z(塩基性)。","explanation_ja":"誤り。KCl(a)→Z、NH₄Cl(b)→X、Na₂CO₃(c)→Yと全て誤対応。正しくはKCl→中性(X)、NH₄Cl→酸性(Y)、Na₂CO₃→塩基性(Z)。"},
+      {"id":5,"text":"a-Z、b-X、c-Y","explanation_zh":"陷阱：KCl(a)→Z，NH₄Cl(b)→X，Na₂CO₃(c)→Y，三者全部错位。正确为a-X, b-Y, c-Z。","explanation_ja":"誤り。KCl→Z、NH₄Cl→X、Na₂CO₃→Yと全て誤り。正しくはa-X(中性)、b-Y(酸性)、c-Z(塩基性)。"},
+      {"id":6,"text":"a-X、b-Y、c-Z","explanation_zh":"正确。KCl（a）是强酸强碱盐→水溶液中性(X)；NH₄Cl（b）是弱碱（NH₃）与强酸（HCl）形成的盐，NH₄⁺水解→酸性(Y)；Na₂CO₃（c）是强碱（NaOH）与弱酸（H₂CO₃）形成的盐，CO₃²⁻水解→塩基性(Z)。","explanation_ja":"正解。KCl（a）は強酸強塩基の塩で中性(X)、NH₄Cl（b）はNH₄⁺の加水分解により酸性(Y)、Na₂CO₃（c）はCO₃²⁻の加水分解により塩基性(Z)。"}
+    ],
+    "answer": 6,
+    "tag": {
+      "unit":"II 物質の状態と変化",
+      "sub_domain":"酸・塩基",
+      "question_form":"組合せ",
+      "required_skill":"図表読取",
+      "requires_image":false,
+      "trap_patterns":["濃度条件見落とし"],
+      "keywords_to_avoid":["滴定曲線","CH₃COOH","NaOH"],
+      "syllabus_path":{"area":"II 物質の状態と変化","field":"化学","item":"1. 物質の変化"}
+    }
+  },
+  {
+    "id": 10,
+    "global_id": 10,
+    "title": "問10",
+    "prompt": "電池の原理に関する記述のうち、正しいものはどれか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"ダニエル電池では亜鉛板が正極となる。","explanation_zh":"陷阱：丹尼尔电池极性错误。亜鉛板（Zn）是负极（发生氧化反应：Zn→Zn²⁺+2e⁻），铜板（Cu）是正极。","explanation_ja":"誤り。ダニエル電池では亜鉛板（Zn）が負極（酸化反応）、銅板（Cu）が正極（還元反応）となる。"},
+      {"id":2,"text":"電池の負極では還元反応が起こる。","explanation_zh":"陷阱：正负极反应类型混淆。负极是电子流出的一侧，发生氧化反应（失去电子），而不是还原反应。","explanation_ja":"誤り。電池の負極では酸化反応（電子を放出）が起こる。還元反応が起こるのは正極である。"},
+      {"id":3,"text":"電池の正極では還元反応が起こり、電子を受け取る。","explanation_zh":"正确。在电池中，正极从外部电路接收电子，发生还原反应（得到电子）；负极失去电子发生氧化反应。","explanation_ja":"正解。電池の正極では外部回路から電子を受け取り、還元反応が起こる。"},
+      {"id":4,"text":"電池の起電力は使用する電解質溶液の種類に関係なく一定である。","explanation_zh":"陷阱：电动势的影响因素理解错误。起电功率（起电功率）电极種類电解質濃度種類通过变化。","explanation_ja":"誤り。起電力は電極の材料や電解質溶液の種類・濃度によって変化する。"},
+      {"id":5,"text":"燃料電池では水素と酸素が直接燃焼して電力を発生させる。","explanation_zh":"陷阱：燃料电池原理错误。燃料电池是通过氢气在负极氧化、氧气在正极还原的电化学反应产生电能，不是燃烧反应。","explanation_ja":"誤り。燃料電池は水素の酸化と酸素の還元による電気化学反応で発電し、直接燃焼ではない。"},
+      {"id":6,"text":"一次電池は充電することで繰り返し使用できる。","explanation_zh":"陷阱：一次电池与二次电池概念混淆。可以充电重复使用的是二次电池（蓄电池）；一次电池（锰乾电池等）使用后不能充电再用。","explanation_ja":"誤り。充電して繰り返し使えるのは二次電池（蓄電池）である。一次電池は充電できない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "unit":"II 物質の状態と変化",
+      "sub_domain":"電池・電気分解",
+      "question_form":"知識選択",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["係数比誤認"],
+      "keywords_to_avoid":["Pb蓄電池","質量変化","電流"],
+      "syllabus_path":{"area":"II 物質の状態と変化","field":"化学","item":"3. 物質の変化と平衡"}
+    }
+  },
+  {
+    "id": 11,
+    "global_id": 11,
+    "title": "問11",
+    "prompt": "次の操作 a〜c で発生する気体と性質 X〜Z の組合せとして最も適当なものはどれか。",
+    "choices": [
+      {"id":1,"text":"a-Y、b-X、c-Z","explanation_zh":"陷阱：a与b对应关系互换。H₂O₂+MnO₂（a）产生O₂→助燃性(X)，NaCl+H₂SO₄（b）产生HCl→水溶酸性(Y)。","explanation_ja":"誤り。H₂O₂+MnO₂（a）はO₂→X、NaCl+濃H₂SO₄（b）はHCl→Yに対応する。"},
+      {"id":2,"text":"a-X、b-Y、c-Z","explanation_zh":"正确。H₂O₂+MnO₂（a）生成O₂（助燃性微溶→X）；NaCl+浓H₂SO₄加热（b）生成HCl（极易溶于水→酸性Y）；石灰石+盐酸（c）生成CO₂（微溶→弱酸性Z）。","explanation_ja":"正解。H₂O₂+MnO₂（a）→O₂（支燃性・微溶＝X）；NaCl+濃H₂SO₄加熱（b）→HCl（極易溶・酸性＝Y）；石灰石+希塩酸（c）→CO₂（微溶・弱酸性＝Z）。"},
+      {"id":3,"text":"a-Z、b-Y、c-X","explanation_zh":"陷阱：a与c对应关系互换。H₂O₂+MnO₂→O₂（X），石灰石+塩酸→CO₂（Z）。","explanation_ja":"誤り。H₂O₂+MnO₂（a）→O₂はX、石灰石+塩酸（c）→CO₂はZに対応する。"},
+      {"id":4,"text":"a-X、b-Z、c-Y","explanation_zh":"陷阱：b与c对应关系互换。HCl（b）→水溶液酸性(Y)，CO₂（c）→弱酸性(Z)。","explanation_ja":"誤り。HCl（b）はY、CO₂（c）はZに対応する。"},
+      {"id":5,"text":"a-Y、b-Z、c-X","explanation_zh":"陷阱：全部错位。正确对应为a-X, b-Y, c-Z。","explanation_ja":"誤り。O₂(a)→X、HCl(b)→Y、CO₂(c)→Zが正しい。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "unit":"III 無機化学",
+      "sub_domain":"非金属元素",
+      "question_form":"組合せ",
+      "required_skill":"実験条件判断",
+      "requires_image":false,
+      "trap_patterns":["反応条件見落とし"],
+      "keywords_to_avoid":["SO₂","Zn","FeS"],
+      "syllabus_path":{"area":"III 無機化学","field":"化学","item":"1. 無機物質"}
+    },
+    "passage": "a: H₂O₂水溶液に酸化マンガン(IV) MnO₂ を加える\nb: 塩化ナトリウムに濃硫酸を加えて加熱する\nc: 石灰石（大理石）に希塩酸を加える\nX: 支燃性があり、水に少ししか溶けない無色の気体\nY: 水に非常によく溶け、水溶液が酸性を示す無色の気体\nZ: 水に少ししか溶けず、水溶液が弱酸性を示す無色の気体"
+  },
+  {
+    "id": 12,
+    "global_id": 12,
+    "title": "問12",
+    "prompt": "水酸化ナトリウム NaOH（式量40）6.00 g を水に溶かして 1.00 L の水溶液を作った。この水溶液のモル濃度はいくらか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"0.150 mol/L","explanation_zh":"正确。n(NaOH)=6.00÷40=0.150 mol，c=n/V=0.150÷1.00=0.150 mol/L。","explanation_ja":"正解。n(NaOH)=6.00÷40=0.150 mol、c=0.150÷1.00=0.150 mol/L。"},
+      {"id":2,"text":"0.100 mol/L","explanation_zh":"陷阱：将式量误用为60。n=6.00/60=0.100，但M(NaOH)=40，正确为0.150 mol/L。","explanation_ja":"誤り。NaOHの式量は40であり、n=6.00÷40=0.150 mol、c=0.150 mol/Lが正しい。"},
+      {"id":3,"text":"0.200 mol/L","explanation_zh":"陷阱：将式量误用为30。n=6.00/30=0.200，但M(NaOH)=40。","explanation_ja":"誤り。NaOHの式量は23+16+1=40であり、c=0.150 mol/Lが正しい。"},
+      {"id":4,"text":"0.300 mol/L","explanation_zh":"陷阱：体积误为0.5L或式量误为20。c=0.150/0.5=0.300，但V=1.00L。","explanation_ja":"誤り。体積は1.00 Lであり、c=0.150 mol/Lが正しい。"},
+      {"id":5,"text":"0.0150 mol/L","explanation_zh":"陷阱：小数点错位。0.150误缩小10倍。","explanation_ja":"誤り。小数点の位置を誤った誤答。c=0.150 mol/Lが正しい。"},
+      {"id":6,"text":"0.0500 mol/L","explanation_zh":"陷阱：将n除以3而非V=1。n=0.150 mol，c=0.150/1.00=0.150 mol/L，不是0.0500。","explanation_ja":"誤り。c=n/V=0.150÷1.00=0.150 mol/Lが正しい。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "unit":"II 物質の状態と変化",
+      "sub_domain":"化学反応式と量的関係",
+      "question_form":"計算選択",
+      "required_skill":"量的計算",
+      "requires_image":false,
+      "trap_patterns":["係数比誤認"],
+      "keywords_to_avoid":["CaCO₃","CO₂","強熱"],
+      "syllabus_path":{"area":"II 物質の状態と変化","field":"化学","item":"1. 物質の変化"}
+    }
+  },
+  {
+    "id": 13,
+    "global_id": 13,
+    "title": "問13",
+    "prompt": "次の化合物 a〜c と用途・性質 X〜Z の組合せとして最も適当なものはどれか。",
+    "passage": "a: 尿素 CO(NH₂)₂　b: 硫酸 H₂SO₄　c: リン酸 H₃PO₄\nX: 窒素を含む肥料の原料として工業的に広く使われる\nY: 工業的に最も大量に生産される酸であり、乾燥剤にも使われる\nZ: 生体内でATPなどのエネルギー伝達物質の構成要素となる",
+    "choices": [
+      {"id":1,"text":"a-Y、b-X、c-Z","explanation_zh":"陷阱：a与b对应关系互换。尿素（a）含N肥料原料→X，硫酸（b）工业大量生产→Y。","explanation_ja":"誤り。尿素（a）はX（窒素肥料原料）、硫酸（b）はY（工業大量生産）に対応する。"},
+      {"id":2,"text":"a-X、b-Y、c-Z","explanation_zh":"正确。尿素CO(NH₂)₂（a）含有氮，是氮肥原料→X；硫酸H₂SO₄（b）是工业产量最大的酸，也用作乾燥剤→Y；磷酸H₃PO₄（c）是ATP等生体内能量传递物质的成分→Z。","explanation_ja":"正解。尿素（a）は窒素肥料原料＝X、硫酸（b）は工業大量生産の酸＝Y、リン酸（c）はATP構成要素＝Z。"},
+      {"id":3,"text":"a-Z、b-Y、c-X","explanation_zh":"陷阱：a与c对应关系互换。尿素（a）→X，磷酸（c）→Z。","explanation_ja":"誤り。尿素（a）はX、リン酸（c）はZに対応する。"},
+      {"id":4,"text":"a-X、b-Z、c-Y","explanation_zh":"陷阱：b与c对应关系互换。硫酸（b）→Y，磷酸（c）→Z。","explanation_ja":"誤り。硫酸（b）はY、リン酸（c）はZに対応する。"},
+      {"id":5,"text":"a-Y、b-Z、c-X","explanation_zh":"陷阱：尿素(a)→Z，硫酸(b)→X，磷酸(c)→Y，全部错位。尿素→X（肥料原料）、硫酸→Y（工業大量生産）、磷酸→Z正确的。","explanation_ja":"誤り。尿素(a)→Z、硫酸(b)→X、リン酸(c)→Yと全て誤り。尿素→X、硫酸→Y、リン酸→Zが正しい。"},
+      {"id":6,"text":"a-Z、b-X、c-Y","explanation_zh":"陷阱：尿素(a)→Z，硫酸(b)→X，磷酸(c)→Y，三者错相位反。尿素→X（氮肥）、硫酸→Y（工业大量）、磷酸→Z正确。","explanation_ja":"誤り。尿素(a)→Z、硫酸(b)→X、リン酸(c)→Yと全て誤り。正しくはa-X、b-Y、c-Z。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "unit":"III 無機化学",
+      "sub_domain":"非金属元素",
+      "question_form":"組合せ",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["性質の例外見落とし"],
+      "keywords_to_avoid":["ハロゲン","水","気体"],
+      "syllabus_path":{"area":"III 無機化学","field":"化学","item":"1. 無機物質"}
+    }
+  },
+  {
+    "id": 14,
+    "global_id": 14,
+    "title": "問14",
+    "prompt": "次の金属 a〜c と性質 X〜Z の組合せとして最も適当なものはどれか。",
+    "choices": [
+      {"id":1,"text":"a-Y、b-X、c-Z","explanation_zh":"陷阱：a与b对应关系互换。Fe（a）有磁性→X，Cu（b）红色高导电→Y。","explanation_ja":"誤り。Fe（a）はX（磁性）、Cu（b）はY（赤色・高伝導）に対応する。"},
+      {"id":2,"text":"a-Z、b-Y、c-X","explanation_zh":"陷阱：a与c对应关系互换。Fe（a）→X，Al（c）→Z。","explanation_ja":"誤り。Fe（a）はX、Al（c）はZに対応する。"},
+      {"id":3,"text":"a-X、b-Z、c-Y","explanation_zh":"陷阱：b与c对应关系互换。Cu（b）→Y，Al（c）→Z。","explanation_ja":"誤り。Cu（b）はY、Al（c）はZに対応する。"},
+      {"id":4,"text":"a-X、b-Y、c-Z","explanation_zh":"正确。Fe（a）有磁性且与稀盐酸反应→X；Cu（b）红色、高导电、不与稀盐酸反应→Y；Al（c）轻质、表面形成致密氧化膜保护内部→Z。","explanation_ja":"正解。Fe（a）は磁性・希塩酸反応＝X、Cu（b）は赤色・高伝導率・希塩酸に不反応＝Y、Al（c）は軽量・酸化皮膜形成＝Z。"},
+      {"id":5,"text":"a-Y、b-Z、c-X","explanation_zh":"陷阱：全部错位。正确对应为a-X, b-Y, c-Z。","explanation_ja":"誤り。Fe→X、Cu→Y、Al→Zが正しい。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "unit":"III 無機化学",
+      "sub_domain":"金属元素",
+      "question_form":"組合せ",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["性質の例外見落とし"],
+      "keywords_to_avoid":["Zn²⁺","PbSO₄","アマルガム"],
+      "syllabus_path":{"area":"III 無機化学","field":"化学","item":"1. 無機物質"}
+    },
+    "passage": "a: Fe（鉄）　b: Cu（銅）　c: Al（アルミニウム）\nX: 磁性をもち、希塩酸と反応して水素を発生する\nY: 赤色で電気・熱の伝導率が高く、希塩酸とは反応しにくい\nZ: 軽量で強度が高く、表面に緻密な酸化皮膜を形成し内部を保護する"
+  },
+  {
+    "id": 15,
+    "global_id": 15,
+    "title": "問15",
+    "prompt": "次の金属元素 a〜c と炎色反応の色 X〜Z の組合せとして最も適当なものはどれか。",
+    "passage": "a: Li（リチウム）　b: K（カリウム）　c: Ba（バリウム）\nX: 赤色\nY: 紫色（赤紫色）\nZ: 黄緑色",
+    "choices": [
+      {"id":1,"text":"a-Y、b-X、c-Z","explanation_zh":"陷阱：a与b对应关系互换。Li（a）炎色反应呈红色→X，K（b）呈紫色→Y。","explanation_ja":"誤り。Li（a）は赤色(X)、K（b）は紫色(Y)に対応する。"},
+      {"id":2,"text":"a-X、b-Y、c-Z","explanation_zh":"正确。Li（a）炎色反応＝赤色(X)；K（b）炎色反応＝紫色（赤紫色）(Y)；Ba（c）炎色反応＝黄緑色(Z)。","explanation_ja":"正解。Li（a）は赤色(X)、K（b）は紫色(Y)、Ba（c）は黄緑色(Z)の炎色反応を示す。"},
+      {"id":3,"text":"a-Z、b-Y、c-X","explanation_zh":"陷阱：a与c对应关系互换。Li→赤色(X)，Ba→黄緑色(Z)。","explanation_ja":"誤り。Li（a）は赤色(X)、Ba（c）は黄緑色(Z)に対応する。"},
+      {"id":4,"text":"a-X、b-Z、c-Y","explanation_zh":"陷阱：b与c对应关系互换。K→紫色(Y)，Ba→黄緑色(Z)。","explanation_ja":"誤り。K（b）は紫色(Y)、Ba（c）は黄緑色(Z)に対応する。"},
+      {"id":5,"text":"a-Y、b-Z、c-X","explanation_zh":"陷阱：全部错位。正确对应为a-X, b-Y, c-Z。","explanation_ja":"誤り。Li→赤色(X)、K→紫色(Y)、Ba→黄緑色(Z)が正しい。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "unit":"III 無機化学",
+      "sub_domain":"金属元素",
+      "question_form":"組合せ",
+      "required_skill":"実験条件判断",
+      "requires_image":false,
+      "trap_patterns":["分離操作混同"],
+      "keywords_to_avoid":["Ag⁺","Cu²⁺","Fe³⁺"],
+      "syllabus_path":{"area":"III 無機化学","field":"化学","item":"1. 無機物質"}
+    }
+  },
+  {
+    "id": 16,
+    "global_id": 16,
+    "title": "問16",
+    "prompt": "プロペン C₃H₆（分子量42）6.30 g の物質量はいくらか。",
+    "choices": [
+      {"id":1,"text":"0.100 mol","explanation_zh":"陷阱：分子量误用为63。n=6.30/63=0.100，但M(C₃H₆)=42，正确为0.150 mol。","explanation_ja":"誤り。C₃H₆の分子量は12×3+1×6=42であり、n=6.30÷42=0.150 molが正しい。"},
+      {"id":2,"text":"0.200 mol","explanation_zh":"陷阱：分子量误用为31.5。n=6.30/31.5=0.200，但M(C₃H₆)=42。","explanation_ja":"誤り。n=6.30÷42=0.150 molが正しい。"},
+      {"id":3,"text":"0.300 mol","explanation_zh":"陷阱：分子量误用为21。n=6.30/21=0.300，但M(C₃H₆)=42。","explanation_ja":"誤り。C₃H₆の分子量は42であり、n=0.150 molが正しい。"},
+      {"id":4,"text":"0.0150 mol","explanation_zh":"陷阱：小数点错位，将0.150缩小了10倍。","explanation_ja":"誤り。小数点の位置を誤った誤答。n=0.150 molが正しい。"},
+      {"id":5,"text":"0.150 mol","explanation_zh":"正确。M(C₃H₆)=12×3+1×6=42，n=6.30÷42=0.150 mol。","explanation_ja":"正解。M(C₃H₆)=12×3+1×6=42より、n=6.30÷42=0.150 mol。"},
+      {"id":6,"text":"0.0500 mol","explanation_zh":"陷阱：分子量误用为126。n=6.30/126=0.0500，但M(C₃H₆)=42。","explanation_ja":"誤り。C₃H₆の分子量は42であり、n=0.150 molが正しい。"}
+    ],
+    "answer": 5,
+    "tag": {
+      "unit":"IV 有機化学",
+      "sub_domain":"炭化水素",
+      "question_form":"計算選択",
+      "required_skill":"量的計算",
+      "requires_image":false,
+      "trap_patterns":["物質量と質量混同"],
+      "keywords_to_avoid":["CO₂","C₄H₁₀","完全燃焼"],
+      "syllabus_path":{"area":"IV 有機化学","field":"化学","item":"1. 有機化合物の性質と反応"}
+    },
+    "passage": ""
+  },
+  {
+    "id": 17,
+    "global_id": 17,
+    "title": "問17",
+    "prompt": "エタノール C₂H₅OH（分子量46）6.90 g を水に溶かして 1.00 L の水溶液を作った。このエタノール水溶液のモル濃度はいくらか。",
+    "choices": [
+      {"id":1,"text":"0.100 mol/L","explanation_zh":"陷阱：分子量误用为69。n=6.90/69=0.100，但M(C₂H₅OH)=46，正确为0.150 mol/L。","explanation_ja":"誤り。C₂H₅OHの分子量は12×2+1×6+16=46であり、n=6.90÷46=0.150 mol/Lが正しい。"},
+      {"id":2,"text":"0.200 mol/L","explanation_zh":"陷阱：分子量误用为34.5。n=6.90/34.5=0.200，但M=46。","explanation_ja":"誤り。n=6.90÷46=0.150 mol/Lが正しい。"},
+      {"id":3,"text":"0.300 mol/L","explanation_zh":"陷阱：分子量误用为23。n=6.90/23=0.300，但M(C₂H₅OH)=46。","explanation_ja":"誤り。エタノールの分子量は46であり、c=0.150 mol/Lが正しい。"},
+      {"id":4,"text":"0.0150 mol/L","explanation_zh":"陷阱：小数点错位。0.150误缩小了10倍。","explanation_ja":"誤り。小数点の位置を誤った誤答。c=0.150 mol/Lが正しい。"},
+      {"id":5,"text":"0.150 mol/L","explanation_zh":"正确。M(C₂H₅OH)=12×2+1×5+16+1=46，n=6.90÷46=0.150 mol，c=0.150÷1.00=0.150 mol/L。","explanation_ja":"正解。M(C₂H₅OH)=46より、n=6.90÷46=0.150 mol、c=0.150÷1.00=0.150 mol/L。"},
+      {"id":6,"text":"0.0500 mol/L","explanation_zh":"陷阱：分子量误用为138。n=6.90/138=0.0500，但M(C₂H₅OH)=46。","explanation_ja":"誤り。エタノールの分子量は46であり、c=0.150 mol/Lが正しい。"}
+    ],
+    "answer": 5,
+    "tag": {
+      "unit":"IV 有機化学",
+      "sub_domain":"酸素を含む有機化合物",
+      "question_form":"計算選択",
+      "required_skill":"構造推定",
+      "requires_image":false,
+      "trap_patterns":["構造異性体混同"],
+      "keywords_to_avoid":["C₄H₁₀O","Na","立体異性体"],
+      "syllabus_path":{"area":"IV 有機化学","field":"化学","item":"1. 有機化合物の性質と反応"}
+    },
+    "passage": ""
+  },
+  {
+    "id": 18,
+    "global_id": 18,
+    "title": "問18",
+    "prompt": "有機化合物の特性に関する記述のうち、正しいものはどれか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"すべての有機化合物は水に溶けやすい。","explanation_zh":"陷阱：有机化合物溶解性错误。大多数有机物（如苯、油脂、烷烃）难溶于水，只有醇、低分子酸等部分有机物易溶于水。","explanation_ja":"誤り。ベンゼンやアルカンなど多くの有機化合物は水に溶けにくい。"},
+      {"id":2,"text":"有機化合物を燃焼させると、必ずCO₂とH₂Oだけが生じる。","explanation_zh":"陷阱：有机物燃烧产物不全是CO₂和H₂O。含氮有机物（蛋白质、尿素等）燃烧也生成N₂等，含硫有机物生成SO₂等。","explanation_ja":"誤り。窒素を含む有機化合物（尿素など）はN₂を、硫黄を含む化合物はSO₂を生じることがある。"},
+      {"id":3,"text":"有機化合物の構成元素として最も基本的な元素は炭素（C）である。","explanation_zh":"正确。有机化合物的定义基础是含有碳原子，碳是有机化合物最基本的构成元素，有机化学就是研究含碳化合物的化学。","explanation_ja":"正解。有機化合物は炭素骨格をもつ化合物であり、炭素（C）は最も基本的な構成元素である。"},
+      {"id":4,"text":"有機化合物は必ず炭素と水素だけからなる。","explanation_zh":"陷阱：有机化合物的组成元素范围错误。除碳氢外，有机化合物还可含O、N、S、卤素等多种元素（如乙醇含O，尿素含N）。","explanation_ja":"誤り。有機化合物にはC・H以外にO（アルコール、エーテル等）、N（アミノ酸等）、S、ハロゲンなども含まれうる。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "unit":"IV 有機化学",
+      "sub_domain":"有機化合物の構造決定",
+      "question_form":"知識選択",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["性質の例外見落とし"],
+      "keywords_to_avoid":["ニトロベンゼン","アニリン","FeCl₃"],
+      "syllabus_path":{"area":"IV 有機化学","field":"化学","item":"1. 有機化合物の性質と反応"}
+    }
+  },
+  {
+    "id": 19,
+    "global_id": 19,
+    "title": "問19",
+    "prompt": "次の高分子 a〜c と重合形式 X〜Z の組合せとして最も適当なものはどれか。",
+    "passage": "a: ポリエチレン（PE）　b: ポリ塩化ビニル（PVC）　c: 尿素樹脂（ユリア樹脂）\nX: エチレンCH₂=CH₂の付加重合で得られる合成樹脂\nY: 塩化ビニルCH₂=CHClの付加重合で得られる合成樹脂\nZ: 尿素とホルムアルデヒドの縮合重合で得られる熱硬化性樹脂",
+    "choices": [
+      {"id":1,"text":"a-Y、b-X、c-Z","explanation_zh":"陷阱：a与b对应关系互换。PE（a）是乙烯的加聚→X，PVC（b）是氯乙烯的加聚→Y。","explanation_ja":"誤り。PE（a）はX（エチレンの付加重合）、PVC（b）はY（塩化ビニルの付加重合）に対応する。"},
+      {"id":2,"text":"a-Z、b-Y、c-X","explanation_zh":"陷阱：a与c对应关系互换。PE（a）→X，尿素樹脂（c）→Z。","explanation_ja":"誤り。PE（a）はX、尿素樹脂（c）はZに対応する。"},
+      {"id":3,"text":"a-X、b-Y、c-Z","explanation_zh":"正确。PE（a）是乙烯加聚→X；PVC（b）是氯乙烯加聚→Y；尿素树脂（c）是尿素+甲醛缩聚→Z（热固性）。","explanation_ja":"正解。PE（a）はエチレンの付加重合＝X、PVC（b）は塩化ビニルの付加重合＝Y、尿素樹脂（c）は縮合重合による熱硬化性樹脂＝Z。"},
+      {"id":4,"text":"a-X、b-Z、c-Y","explanation_zh":"陷阱：b与c对应关系互换。PVC（b）→Y，尿素樹脂（c）→Z。","explanation_ja":"誤り。PVC（b）はY、尿素樹脂（c）はZに対応する。"},
+      {"id":5,"text":"a-Y、b-Z、c-X","explanation_zh":"陷阱：PE(a)→Y，PVC(b)→Z，尿素樹脂(c)→X，全部错位。PE→X（乙烯加聚）、PVC→Y（氯乙烯加聚）、尿素樹脂→Z（缩聚）。","explanation_ja":"誤り。PE(a)→Y、PVC(b)→Z、尿素樹脂(c)→Xと全て誤り。PE→X、PVC→Y、尿素樹脂→Zが正しい。"},
+      {"id":6,"text":"a-Z、b-X、c-Y","explanation_zh":"陷阱：PE(a)→Z，PVC(b)→X，尿素樹脂(c)→Y，三者全部错位。正确为PE→X、PVC→Y、尿素樹脂→Z。","explanation_ja":"誤り。PE(a)→Z、PVC(b)→X、尿素樹脂(c)→Yと全て誤り。PE→X、PVC→Y、尿素樹脂→Zが正しい。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "unit":"IV 有機化学",
+      "sub_domain":"高分子・生活化学",
+      "question_form":"組合せ",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["重合形式混同"],
+      "keywords_to_avoid":["PET","ポリ酢酸ビニル","ナイロン66"],
+      "syllabus_path":{"area":"IV 有機化学","field":"化学","item":"2. 有機化合物と人間生活"}
+    }
+  },
+  {
+    "id": 20,
+    "global_id": 20,
+    "title": "問20",
+    "prompt": "天然高分子に関する記述のうち、正しいものはどれか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"セルロースはヒトの消化酵素によってデンプンと同様に容易に分解される。","explanation_zh":"陷阱：纤维素的消化性错误。人体缺乏分解纤维素（β-葡萄糖苷键）的酶，无法消化纤维素；而淀粉（α-葡萄糖苷键）可被淀粉酶分解。","explanation_ja":"誤り。セルロースはβ-グリコシド結合で連なっており、ヒトはこれを分解する酵素をもたないため消化できない。"},
+      {"id":2,"text":"デンプンのアミロースもアミロペクチンもともに分岐した鎖状構造をもつ。","explanation_zh":"陷阱：淀粉结构错误。是直链（α-1,4结合）；才是支链结构（α-1,4和α-1,6结合）。","explanation_ja":"誤り。アミロースは直鎖状構造をもつ。分岐した構造をもつのはアミロペクチンである。"},
+      {"id":3,"text":"天然ゴムはブタジエンの付加重合体である。","explanation_zh":"陷阱：天然橡胶的单体错误。天然橡胶是异戊二烯（2-methylbuta-1,3-diene）的加聚物（聚异戊二烯），不是丁二烯。","explanation_ja":"誤り。天然ゴムはイソプレン（2-メチル-1,3-ブタジエン）の付加重合体であり、ブタジエンではない。"},
+      {"id":4,"text":"核酸（DNAおよびRNA）の糖成分はすべてグルコースである。","explanation_zh":"陷阱：核酸糖成分错误。DNA糖（2--D-）、RNA糖、葡萄糖。","explanation_ja":"誤り。DNAの糖成分はデオキシリボース、RNAの糖成分はリボースであり、グルコースとは異なる。"},
+      {"id":5,"text":"絹（シルク）はアミノ酸がペプチド結合で連なった繊維状のタンパク質からなる。","explanation_zh":"正确。绢（蚕丝）的主要成分是丝素蛋白（丝素蛋白），是氨基酸通过肽键（酰胺键）连接而成的天然纤维状蛋白质。","explanation_ja":"正解。絹（シルク）の主成分はフィブロインというタンパク質であり、アミノ酸がペプチド結合（アミド結合）でつながった繊維状高分子である。"}
+    ],
+    "answer": 5,
+    "tag": {
+      "unit":"IV 有機化学",
+      "sub_domain":"高分子・生活化学",
+      "question_form":"知識選択",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["重合形式混同"],
+      "keywords_to_avoid":["タンパク質","ニンヒドリン","黄色"],
+      "syllabus_path":{"area":"IV 有機化学","field":"化学","item":"2. 有機化合物と人間生活"}
+    }
+  }
+]
+}

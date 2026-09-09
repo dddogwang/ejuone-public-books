@@ -1,0 +1,1015 @@
+{
+  "subject": "comprehensive",
+  "section": "",
+  "year": 2019,
+  "round": 1,
+  "title": "模擬試験 総合科目 第三回",
+  "image_path": "comprehensive/images/2019-1",
+  "questions": [
+  {
+    "id": 1,
+    "title": "問1",
+    "prompt": "次の文章を読み、下の問い（1）〜（4）に答えなさい。",
+    "passage": "オセアニアは、おおむね日付変更線付近を境にした太平洋の島々と、オーストラリア大陸・ニュージーランドからなる地域である。島々は文化・地理的な特徴から、ハワイやニュージーランドを含む東部のポリネシア、赤道以北の小さな島々が広がるミクロネシア、ニューギニア島周辺のメラネシアに大きく分けられる。オーストラリアは南半球に位置し、大陸の内陸部には乾燥帯が広く分布する。ニュージーランドは温帯に属し、牧羊・酪農がさかんである。これらの地域を理解するには、どの島がどの区分に属するか（範囲）、各地の自然環境（気候）、住民や産業の特徴を区別してとらえる必要がある。",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":1,
+        "prompt":"オセアニアの地域区分に関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"ハワイ諸島はメラネシアに含まれ、ニューギニア島はポリネシアに含まれる。","explanation_zh":"陷阱：地域错位。夏威夷属波利尼西亚，新几内亚岛属美拉尼西亚，归属正好相反。","explanation_ja":"誤り。地域取違の罠。ハワイはポリネシア、ニューギニア島はメラネシアに属し、所属が逆である。"},
+          {"id":2,"text":"ミクロネシアとは、オーストラリア大陸内陸部の乾燥地帯を指す呼称である。","explanation_zh":"陷阱：概念混淆。密克罗尼西亚指赤道以北的太平洋小岛群，并非澳大利亚内陆。","explanation_ja":"誤り。概念混同の罠。ミクロネシアは赤道以北の島々を指し、大陸内陸の乾燥帯ではない。"},
+          {"id":3,"text":"ニュージーランドは熱帯に属し、一年を通して高温多雨である。","explanation_zh":"陷阱：主体错位。新西兰属温带，并非热带，牧羊酪农发达。","explanation_ja":"誤り。主体取違の罠。ニュージーランドは温帯に属し、熱帯ではない。"},
+          {"id":4,"text":"オセアニアの島々は、ポリネシア・ミクロネシア・メラネシアに大きく区分される。","explanation_zh":"正确。本文明确将岛屿分为波利尼西亚、密克罗尼西亚、美拉尼西亚三区。","explanation_ja":"正解。本文の通り、島々はポリネシア・ミクロネシア・メラネシアに大別される。"}
+        ],
+        "answer":4,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["主体取違","地域取違"],
+          "keywords_to_avoid":["ニューギニア","ドイツ","オランダ","イギリス"],
+          "sub_domain":"アフリカ・オセアニア"
+        },
+        "sources":[{"claim":"Oceania subregions (Polynesia/Micronesia/Melanesia); Australia arid interior; NZ temperate.","source":"Encyclopaedia Britannica, Oceania; Australia; New Zealand","year":"2024","url":"https://www.britannica.com/place/Oceania-region-Pacific-Ocean"}]
+      },
+      {
+        "sub_id":2,
+        "global_id":2,
+        "prompt":"次の数値は、オセアニア主要国の総人口（2023年、世界銀行）の概数である。読み取れる内容として最も適当なものはどれですか。\nオーストラリア 約2,640万人、ニュージーランド 約522万人、パプアニューギニア 約1,000万人。",
+        "choices":[
+          {"id":1,"text":"ニュージーランドの総人口はオーストラリアを上回る。","explanation_zh":"陷阱：地域错位。新西兰约522万人，远低于澳大利亚约2640万人。","explanation_ja":"誤り。地域取違の罠。ニュージーランド約522万人はオーストラリア約2,640万人を下回る。"},
+          {"id":2,"text":"パプアニューギニアの総人口はオーストラリアの3倍を超える。","explanation_zh":"陷阱：顺序混乱。巴新约1000万人，未达澳大利亚约2640万人，更非3倍。","explanation_ja":"誤り。順序混同の罠。パプアニューギニア約1,000万人はオーストラリアの3倍に達しない。"},
+          {"id":3,"text":"示された3か国の中では、オーストラリアの総人口が最も多い。","explanation_zh":"正确。澳大利亚约2640万人，多于巴新约1000万人和新西兰约522万人。","explanation_ja":"正解。オーストラリア約2,640万人が、パプアニューギニア・ニュージーランドを上回る。"},
+          {"id":4,"text":"3か国の総人口はいずれも同じである。","explanation_zh":"陷阱：范围扩大。三国人口数值明显不同。","explanation_ja":"誤り。範囲拡大の罠。3か国の人口は同じではない。"}
+        ],
+        "answer":3,
+        "tag":{
+          "question_form":"図表読取",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["地域取違","順序混同"],
+          "keywords_to_avoid":["ポリネシア","ミクロネシア","メラネシア"],
+          "sub_domain":"アフリカ・オセアニア"
+        },
+        "sources":[{"claim":"Population total: Australia, New Zealand, Papua New Guinea (2023).","source":"World Bank, Population total","year":"2023","url":"https://data.worldbank.org/indicator/SP.POP.TOTL"}]
+      },
+      {
+        "sub_id":3,
+        "global_id":3,
+        "prompt":"オーストラリアとニュージーランドの自然・社会に関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"オーストラリア大陸の内陸部は、年間を通じて降水量が非常に多い湿潤地域である。","explanation_zh":"陷阱：概念混淆。澳大利亚内陆以干燥带为主，降水稀少。","explanation_ja":"誤り。概念混同の罠。オーストラリア内陸部は乾燥帯が広く、降水は少ない。"},
+          {"id":2,"text":"ニュージーランドは赤道直下に位置し、サバナ気候が広がる。","explanation_zh":"陷阱：概念混淆。新西兰位于温带，并非赤道直下的萨瓦纳气候。","explanation_ja":"誤り。概念混同の罠。ニュージーランドは温帯で、赤道直下のサバナ気候ではない。"},
+          {"id":3,"text":"オセアニアの島々はすべて大陸プレートの中央に位置し、火山活動とは無縁である。","explanation_zh":"陷阱：范围扩大。许多太平洋岛屿位于板块边界，火山活动活跃。","explanation_ja":"誤り。範囲拡大の罠。多くの島はプレート境界付近にあり、火山活動と関わる。"},
+          {"id":4,"text":"ニュージーランドでは温帯の気候を生かし、牧羊や酪農がさかんである。","explanation_zh":"正确。本文指出新西兰属温带，牧羊与酪农发达。","explanation_ja":"正解。本文の通り、ニュージーランドは温帯で牧羊・酪農がさかんである。"}
+        ],
+        "answer":4,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["概念混同"],
+          "keywords_to_avoid":["ニュージーランド","立憲君主","エリザベス2世"],
+          "sub_domain":"アフリカ・オセアニア",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"1.民主政治"}
+        },
+        "sources":[{"claim":"Oceania subregions (Polynesia/Micronesia/Melanesia); Australia arid interior; NZ temperate.","source":"Encyclopaedia Britannica, Oceania; Australia; New Zealand","year":"2024","url":"https://www.britannica.com/place/Oceania-region-Pacific-Ocean"}]
+      },
+      {
+        "sub_id":4,
+        "global_id":4,
+        "prompt":"オセアニアに関する記述として最も適当でないものはどれですか。",
+        "choices":[
+          {"id":1,"text":"オーストラリアの内陸部には乾燥帯が広く分布している。","explanation_zh":"陷阱：设问反转。这是正确事实，题目要求选不适当项。","explanation_ja":"誤り。設問反転の罠。正しい記述であり、最も適当でないものではない。"},
+          {"id":2,"text":"オセアニアの島々は、文化・地理上いっさい区分されず、すべて単一の地域とされる。","explanation_zh":"正确。题目要求选不适当项。岛屿实际分为波利尼西亚等三区，本项错误。","explanation_ja":"正解。設問は不適当なものを選ぶ。島々はポリネシア等に区分され、本項は誤り。"},
+          {"id":3,"text":"ニュージーランドは温帯に属し、牧羊・酪農がさかんである。","explanation_zh":"陷阱：设问反转。这是正确事实，不是不适当项。","explanation_ja":"誤り。設問反転の罠。正しい記述であり、不適当なものではない。"},
+          {"id":4,"text":"ポリネシアにはハワイやニュージーランドが含まれる。","explanation_zh":"陷阱：设问反转。这是正确的区分，不是不适当项。","explanation_ja":"誤り。設問反転の罠。正しい区分であり、不適当なものではない。"}
+        ],
+        "answer":2,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答誤記述",
+          "trap_patterns":["時態錯位"],
+          "keywords_to_avoid":["TPP協定","2018年","中国","CPTPP"],
+          "sub_domain":"アフリカ・オセアニア"
+        },
+        "sources":[{"claim":"Oceania subregions (Polynesia/Micronesia/Melanesia); Australia arid interior; NZ temperate.","source":"Encyclopaedia Britannica, Oceania; Australia; New Zealand","year":"2024","url":"https://www.britannica.com/place/Oceania-region-Pacific-Ocean"}]
+      }
+    ],
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"オセアニア地域地誌",
+      "sub_domain":"アフリカ・オセアニア",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"2. 現代世界の諸地域"},
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "keywords_to_avoid":["太平洋","ポリネシア","ミクロネシア","メラネシア","オセアニア","ニューギニア島","TPP"]
+    }
+  },
+  {
+    "id": 2,
+    "title": "問2",
+    "prompt": "次の文章を読み、下の問い（1）〜（4）に答えなさい。",
+    "passage": "19世紀末から20世紀初頭のヨーロッパでは、植物の曲線などをモチーフにした新しい装飾様式が建築や工芸の分野で流行した。この様式は「新しい芸術」を意味する名でよばれ、各国に広まった。一方、政治の面では、長く多民族を抱える大帝国の支配下にあった中央ヨーロッパの諸民族が、民族自決の動きの中で独立を求めた。第一次世界大戦（1914〜1918年）が終わると、それまでオーストリア・ハンガリー帝国の一部であった地域に、チェコ人とスロバキア人を中心とする新しい共和国が1918年に成立した。芸術様式の広がりと国家の成立は、いずれも19世紀末〜20世紀初めという時期に重なって展開した。",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":5,
+        "prompt":"本文で述べられた新しい装飾様式に関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"この装飾様式は古代ローマ時代に成立し、中世を通じて流行した。","explanation_zh":"陷阱：时态错位。新艺术运动是19世纪末至20世纪初的样式，并非古罗马时代。","explanation_ja":"誤り。時態錯位の罠。本様式は19世紀末〜20世紀初頭のもので、古代ローマではない。"},
+          {"id":2,"text":"この様式は第二次世界大戦後の1950年代に初めて登場した。","explanation_zh":"陷阱：时态错位。该样式流行于战前的19世纪末，并非1950年代。","explanation_ja":"誤り。時態錯位の罠。本様式は戦前の19世紀末に流行しており、1950年代ではない。"},
+          {"id":3,"text":"この様式は政治制度の名称であり、建築や工芸とは関係がない。","explanation_zh":"陷阱：概念混淆。这是装饰艺术样式，并非政治制度名。","explanation_ja":"誤り。概念混同の罠。これは装飾様式であり、政治制度の名称ではない。"},
+          {"id":4,"text":"この様式は「新しい芸術」を意味し、植物の曲線などをモチーフとして各国に広まった。","explanation_zh":"正确。本文说明该样式以植物曲线为母题，意为“新艺术”并广为流传。","explanation_ja":"正解。本文の通り、「新しい芸術」を意味し、植物の曲線を用いて各国に広まった。"}
+        ],
+        "answer":4,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["時態錯位"],
+          "keywords_to_avoid":["シュンペーターとイノベーション"],
+          "sub_domain":"現代世界"
+        },
+        "sources":[{"claim":"Art Nouveau (late 19th-early 20th c.); Czechoslovakia founded 1918 after WWI.","source":"Encyclopaedia Britannica, Art Nouveau; Czechoslovakia","year":"1918","url":"https://www.britannica.com/place/Czechoslovakia"}]
+      },
+      {
+        "sub_id":2,
+        "global_id":6,
+        "prompt":"次の数値は、現在のチェコとスロバキアの総人口（2023年、世界銀行）の概数である。読み取れる内容として最も適当なものはどれですか。\nチェコ 約1,090万人、スロバキア 約545万人。",
+        "choices":[
+          {"id":1,"text":"スロバキアの総人口はチェコの総人口を上回る。","explanation_zh":"陷阱：地域错位。斯洛伐克约545万人，少于捷克约1090万人。","explanation_ja":"誤り。地域取違の罠。スロバキア約545万人はチェコ約1,090万人を下回る。"},
+          {"id":2,"text":"チェコの総人口はスロバキアの3倍を超える。","explanation_zh":"陷阱：顺序混乱。捷克约1090万人，约为斯洛伐克约545万人的两倍，未超3倍。","explanation_ja":"誤り。順序混同の罠。チェコ約1,090万人はスロバキアの約2倍で、3倍は超えない。"},
+          {"id":3,"text":"示された2か国の中では、チェコの総人口が多い。","explanation_zh":"正确。捷克约1090万人，多于斯洛伐克约545万人。","explanation_ja":"正解。チェコ約1,090万人がスロバキア約545万人を上回る。"},
+          {"id":4,"text":"両国の総人口はいずれも0人である。","explanation_zh":"陷阱：范围扩大。两国人口均为数百万规模。","explanation_ja":"誤り。範囲拡大の罠。両国とも数百万人規模であり、0人ではない。"}
+        ],
+        "answer":3,
+        "tag":{
+          "question_form":"図表読取",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["地域取違","順序混同"],
+          "keywords_to_avoid":["ポリネシア","ミクロネシア","メラネシア"],
+          "sub_domain":"現代世界",
+          "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"}
+        },
+        "sources":[{"claim":"Population total: Czechia and Slovakia (2023).","source":"World Bank, Population total","year":"2023","url":"https://data.worldbank.org/indicator/SP.POP.TOTL"}]
+      },
+      {
+        "sub_id":3,
+        "global_id":7,
+        "prompt":"本文で述べられた新しい共和国の成立に関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"この共和国は第一次世界大戦が始まる前の18世紀に成立した。","explanation_zh":"陷阱：时态错位。该共和国成立于一战结束后的1918年，并非18世纪。","explanation_ja":"誤り。時態錯位の罠。本共和国は第一次世界大戦後の1918年成立で、18世紀ではない。"},
+          {"id":2,"text":"この共和国はアフリカ大陸に位置する熱帯の国である。","explanation_zh":"陷阱：地域错位。该国位于中欧，并非非洲热带国家。","explanation_ja":"誤り。地域取違の罠。本国は中央ヨーロッパに位置し、アフリカの熱帯国ではない。"},
+          {"id":3,"text":"この共和国は、チェコ人とスロバキア人を中心に1918年に成立した。","explanation_zh":"正确。本文指出该共和国于一战后1918年由捷克人与斯洛伐克人为中心成立。","explanation_ja":"正解。本文の通り、チェコ人とスロバキア人を中心に1918年に成立した。"},
+          {"id":4,"text":"この共和国は、新しい装飾様式の正式名称である。","explanation_zh":"陷阱：概念混淆。这是国家名称，并非装饰样式名。","explanation_ja":"誤り。概念混同の罠。これは国家の名であり、装飾様式の名称ではない。"}
+        ],
+        "answer":3,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["概念混同"],
+          "keywords_to_avoid":["ニュージーランド","立憲君主","エリザベス2世"],
+          "sub_domain":"現代世界"
+        },
+        "sources":[{"claim":"Art Nouveau (late 19th-early 20th c.); Czechoslovakia founded 1918 after WWI.","source":"Encyclopaedia Britannica, Art Nouveau; Czechoslovakia","year":"1918","url":"https://www.britannica.com/place/Czechoslovakia"}]
+      },
+      {
+        "sub_id":4,
+        "global_id":8,
+        "prompt":"本文の内容に関する記述として最も適当でないものはどれですか。",
+        "choices":[
+          {"id":1,"text":"新しい共和国は、第一次世界大戦が始まるより前にすでに独立国家として存在していた。","explanation_zh":"正确。题目要求选不适当项。该共和国成立于一战结束后的1918年，本项时态错误。","explanation_ja":"正解。設問は不適当なものを選ぶ。共和国は大戦後の1918年成立で、本項は誤り。"},
+          {"id":2,"text":"新しい装飾様式は19世紀末から20世紀初頭にかけて各国に広まった。","explanation_zh":"陷阱：设问反转。这是正确事实，不是不适当项。","explanation_ja":"誤り。設問反転の罠。正しい記述であり、不適当なものではない。"},
+          {"id":3,"text":"チェコ人とスロバキア人を中心とする共和国は1918年に成立した。","explanation_zh":"陷阱：设问反转。这是正确事实，不是不适当项。","explanation_ja":"誤り。設問反転の罠。正しい記述であり、不適当なものではない。"},
+          {"id":4,"text":"芸術様式の広がりと国家の成立は、いずれも19世紀末〜20世紀初めに展開した。","explanation_zh":"陷阱：设问反转。这与本文一致，不是不适当项。","explanation_ja":"誤り。設問反転の罠。本文と一致し、不適当なものではない。"}
+        ],
+        "answer":1,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答誤記述",
+          "trap_patterns":["時態錯位"],
+          "keywords_to_avoid":["TPP協定","2018年","中国","CPTPP"],
+          "sub_domain":"現代世界"
+        },
+        "sources":[{"claim":"Art Nouveau (late 19th-early 20th c.); Czechoslovakia founded 1918 after WWI.","source":"Encyclopaedia Britannica, Art Nouveau; Czechoslovakia","year":"1918","url":"https://www.britannica.com/place/Czechoslovakia"}]
+      }
+    ],
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"アール・ヌーヴォーとチェコスロバキア建国",
+      "sub_domain":"現代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"2. 二つの世界大戦とその影響"},
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "keywords_to_avoid":["ミュシャ","チェコスロバキア","1918年","第一次世界大戦"]
+    }
+  },
+  {
+    "id": 3,
+    "global_id": 9,
+    "title": "問3",
+    "prompt": "比較生産費説に関する記述として最も適当なものはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"各国はあらゆる財を他国より絶対的に安く生産できなければ貿易の利益を得られない。","explanation_zh":"陷阱：因果倒置。比较生产费说强调相对优势，并非要求绝对优势。","explanation_ja":"誤り。因果倒置の罠。比較生産費説は相対的な優位に着目し、絶対優位は必要としない。"},
+      {"id":2,"text":"貿易を行うと、どの国も必ずすべての産業で生産量が増える。","explanation_zh":"陷阱：范围扩大。理论说明各国应专业化生产相对优势品，并非所有产业都增产。","explanation_ja":"誤り。範囲拡大の罠。各国は相対的に得意な財に特化するのであり、全産業の増産ではない。"},
+      {"id":3,"text":"各国が相対的に得意な財の生産に特化して交換すれば、双方が貿易の利益を得られる。","explanation_zh":"正确。比较生产费说指出按相对优势特化分工可使双方获益。","explanation_ja":"正解。比較生産費説は、相対的に得意な財に特化して交換すれば双方が利益を得るとする。"},
+      {"id":4,"text":"比較生産費説とは、為替相場を政府が固定する制度の名称である。","explanation_zh":"陷阱：概念混淆。这是国际贸易理论，并非汇率制度名称。","explanation_ja":"誤り。概念混同の罠。比較生産費説は貿易理論であり、為替制度の名称ではない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"比較生産費説",
+      "sub_domain":"経済原理・市場",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"10. 国際経済"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["因果倒置","範囲拡大","概念混同"],
+      "keywords_to_avoid":["比較生産費説","労働生産性","特化","貿易利益"]
+    },
+    "sources": [{"claim":"Comparative advantage: countries gain from specializing where relatively efficient.","source":"OpenStax, Principles of Economics 3e, Comparative Advantage","year":"2023","url":"https://openstax.org/books/principles-economics-3e/pages/19-2-what-happens-when-a-country-has-an-absolute-advantage-in-all-goods"}]
+  },
+  {
+    "id": 4,
+    "global_id": 10,
+    "title": "問4",
+    "prompt": "次の数値は、ある財の価格と需要量・供給量の関係を表したものである。読み取れる内容として最も適当なものはどれですか。\n価格100円：需要量150個・供給量70個、価格200円：需要量110個・供給量110個、価格300円：需要量80個・供給量150個。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"価格が上がるほど需要量は増加している。","explanation_zh":"陷阱：范围扩大。资料中价格从100升至300日元时，需求量由150减至80个，是减少。","explanation_ja":"誤り。範囲拡大の罠。価格上昇に伴い需要量は150個から80個へ減少している。"},
+      {"id":2,"text":"価格が200円のとき、需要量と供給量がともに110個で一致する。","explanation_zh":"正确。资料中200日元时需求量与供给量都是110个，达到均衡。","explanation_ja":"正解。資料では価格200円のとき需要量・供給量がともに110個で一致する。"},
+      {"id":3,"text":"価格が上がるほど供給量は減少している。","explanation_zh":"陷阱：因果倒置。资料中价格上升时供给量由70增至150个，是增加。","explanation_ja":"誤り。因果倒置の罠。価格上昇に伴い供給量は70個から150個へ増加している。"},
+      {"id":4,"text":"価格100円のとき、需要量より供給量のほうが多い。","explanation_zh":"陷阱：时态错位。100日元时需求量150个多于供给量70个。","explanation_ja":"誤り。時態錯位の罠。価格100円では需要量150個が供給量70個を上回る。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"需要曲線と供給曲線",
+      "sub_domain":"経済原理・市場",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"2.市場経済"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["範囲拡大","因果倒置","時態錯位"],
+      "keywords_to_avoid":["需要曲線","供給曲線","市場均衡","価格水準"]
+    }
+  },
+  {
+    "id": 5,
+    "global_id": 11,
+    "title": "問5",
+    "prompt": "国内総生産（GDP）の考え方に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"中古品の売買額は、その年に生み出された価値としてGDPに新たに計上される。","explanation_zh":"陷阱：概念混淆。二手交易并非当年新生产，原则上不计入GDP。","explanation_ja":"誤り。概念混同の罠。中古品の取引はその年の新たな生産ではなく、原則GDPに計上しない。"},
+      {"id":2,"text":"GDPは、各生産段階の売上高をそのまま単純に合計して求める。","explanation_zh":"陷阱：数值混同。直接合计销售额会重复计算中间投入，应合计附加价值。","explanation_ja":"誤り。数値混同の罠。売上の単純合計は中間投入を重複計算するため、付加価値を合計する。"},
+      {"id":3,"text":"GDPは、一定期間に国内で新たに生み出された付加価値の合計である。","explanation_zh":"正确。GDP是一定期间国内新增付加价值的合计。","explanation_ja":"正解。GDPは一定期間に国内で新たに生み出された付加価値の合計である。"},
+      {"id":4,"text":"GDPには、家計が受け取る給与の額だけが含まれ、企業の生産は含まれない。","explanation_zh":"陷阱：概念混淆。GDP衡量国内全部生产活动，不仅限于工资。","explanation_ja":"誤り。概念混同の罠。GDPは国内の生産活動全体を対象とし、給与だけではない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"GDP計算",
+      "sub_domain":"国民経済・成長",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"4.国民経済"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","数値混同"],
+      "keywords_to_avoid":["国内総生産","新規生産","中古取引","給与"]
+    },
+    "passage": "",
+    "sources": [{"claim":"GDP is the total value added (final goods and services) produced in a period.","source":"IMF, Gross Domestic Product: An Economy's All","year":"2024","url":"https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/gross-domestic-product-GDP"}]
+  },
+  {
+    "id": 6,
+    "global_id": 12,
+    "title": "問6",
+    "prompt": "インフレーションとデフレーションに関する記述として最も適当でないものはどれですか。",
+    "choices": [
+      {"id":1,"text":"インフレーションが続くと、貨幣の実質的な価値は低下する傾向がある。","explanation_zh":"陷阱：设问反转。这是正确事实，题目要求选不适当项。","explanation_ja":"誤り。設問反転の罠。正しい記述であり、最も適当でないものではない。"},
+      {"id":2,"text":"デフレーションでは、物価が継続的に下落する。","explanation_zh":"陷阱：设问反转。这是正确事实，不是不适当项。","explanation_ja":"誤り。設問反転の罠。正しい記述であり、不適当なものではない。"},
+      {"id":3,"text":"デフレーションが進むと、貨幣の実質的な価値は必ず低下し続ける。","explanation_zh":"正确。题目要求选不适当项。通缩下物价下跌，货币实质价值反而上升，本项错误。","explanation_ja":"正解。設問は不適当なものを選ぶ。デフレでは貨幣の実質価値はむしろ上がり、本項は誤り。"},
+      {"id":4,"text":"需要が供給を上回る状態が続くと、物価には上昇圧力がかかる。","explanation_zh":"陷阱：设问反转。这是正确事实，不是不适当项。","explanation_ja":"誤り。設問反転の罠。正しい記述であり、不適当なものではない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"インフレとデフレ",
+      "sub_domain":"金融・通貨",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"2.市場経済"},
+      "question_form":"正誤判定",
+      "statement_polarity":"正答誤記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位","因果倒置"],
+      "keywords_to_avoid":["インフレーション","デフレーション","実質価値","累進課税"]
+    },
+    "passage": "",
+    "sources": [{"claim":"Deflation raises the real value of money; inflation lowers it.","source":"IMF, Inflation: Prices on the Rise","year":"2024","url":"https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Inflation"}]
+  },
+  {
+    "id": 7,
+    "global_id": 13,
+    "title": "問7",
+    "prompt": "株式会社に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"株主は会社が倒産した場合、出資額を超えて会社の債務を無限に負う。","explanation_zh":"陷阱：范围扩大。股东原则上承担限于出资额的有限责任。","explanation_ja":"誤り。範囲拡大の罠。株主の責任は原則として出資額に限られる有限責任である。"},
+      {"id":2,"text":"株式会社は株式を発行して資金を集めることが法律で禁じられている。","explanation_zh":"陷阱：时态错位。股份公司正是通过发行股票筹集资金的企业形态。","explanation_ja":"誤り。時態錯位の罠。株式会社は株式発行で資金を集める企業形態である。"},
+      {"id":3,"text":"株主総会は存在せず、株主は会社の経営方針に一切関与できない。","explanation_zh":"陷阱：范围扩大。股东通过股东大会行使表决权参与重要决策。","explanation_ja":"誤り。範囲拡大の罠。株主は株主総会で議決権を行使し、重要事項に関与する。"},
+      {"id":4,"text":"株式会社は株式を発行して広く資金を集め、株主の責任は原則として出資額に限られる。","explanation_zh":"正确。股份公司发行股票筹资，股东原则上承担限于出资额的有限责任。","explanation_ja":"正解。株式会社は株式発行で資金を集め、株主は原則として出資額限りの有限責任を負う。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"株式会社",
+      "sub_domain":"金融・通貨",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"3.経済主体"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["範囲拡大","時態錯位"],
+      "keywords_to_avoid":["株主","議決権","配当","上場"]
+    },
+    "passage": "",
+    "sources": [{"claim":"Shareholders have limited liability; corporations raise funds via shares.","source":"SEC Investor.gov, Stocks","year":"2024","url":"https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks"}]
+  },
+  {
+    "id": 8,
+    "global_id": 14,
+    "title": "問8",
+    "prompt": "戦後日本の経済安定化政策（ドッジ・ライン）に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"ドッジ・ラインは積極的に財政支出を拡大し、意図的にインフレを起こす政策であった。","explanation_zh":"陷阱：时态错位。道奇路线是1949年的紧缩政策，目的在抑制通胀，并非扩张。","explanation_ja":"誤り。時態錯位の罠。ドッジ・ラインは1949年の緊縮政策で、インフレ抑制を目的とした。"},
+      {"id":2,"text":"ドッジ・ラインは緊縮的な財政運営と1ドル＝360円の単一為替レート設定を柱とした。","explanation_zh":"正确。道奇路线以紧缩财政和设定1美元=360日元单一汇率为核心。","explanation_ja":"正解。ドッジ・ラインは緊縮財政と1ドル360円の単一為替レート設定を柱とした。"},
+      {"id":3,"text":"ドッジ・ラインは江戸時代の幕府が行った貨幣改鋳政策である。","explanation_zh":"陷阱：时态错位。道奇路线是二战后1949年的政策，并非江户时代。","explanation_ja":"誤り。時態錯位の罠。ドッジ・ラインは戦後1949年の政策で、江戸時代ではない。"},
+      {"id":4,"text":"ドッジ・ラインは日本国内の選挙制度を定めた法律の名称である。","explanation_zh":"陷阱：主体错位。这是经济安定政策，并非选举制度法律。","explanation_ja":"誤り。主体取違の罠。経済安定化政策であり、選挙制度の法律ではない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"ドッジ・ライン",
+      "sub_domain":"財政・租税",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"5. 金融"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位","主体取違"],
+      "keywords_to_avoid":["ドッジ・ライン","固定為替レート","金融引き締め"]
+    },
+    "passage": "",
+    "sources": [{"claim":"The Dodge Line (1949) imposed austerity and set a single 360 yen/USD rate.","source":"Encyclopaedia Britannica, Dodge Line; Bank of Japan history","year":"1949","url":"https://www.britannica.com/topic/Dodge-Line"}]
+  },
+  {
+    "id": 9,
+    "global_id": 15,
+    "title": "問9",
+    "prompt": "ア：明治維新、イ：日清戦争、ウ：日露戦争、エ：戦後改革を、年代の古い順に並べたものはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"イ → ア → ウ → エ","explanation_zh":"陷阱：顺序混乱。明治维新（1868）早于日清战争（1894），不应将日清放在最前。","explanation_ja":"誤り。順序混同の罠。明治維新（1868年）は日清戦争（1894年）より前である。"},
+      {"id":2,"text":"ア → ウ → イ → エ","explanation_zh":"陷阱：时态错位。日清战争（1894）早于日露战争（1904），二者顺序颠倒。","explanation_ja":"誤り。時態錯位の罠。日清戦争（1894年）は日露戦争（1904年）より前である。"},
+      {"id":3,"text":"エ → ア → イ → ウ","explanation_zh":"陷阱：顺序混乱。战后改革（1945以降）是四者中最晚，不应排在最前。","explanation_ja":"誤り。順序混同の罠。戦後改革（1945年以降）は四つの中で最も遅い。"},
+      {"id":4,"text":"ア → イ → ウ → エ","explanation_zh":"正确。明治维新1868→日清战争1894→日露战争1904→战后改革1945以降。","explanation_ja":"正解。明治維新1868年→日清戦争1894年→日露戦争1904年→戦後改革1945年以降の順である。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"日本の国際社会復帰",
+      "sub_domain":"現代日本",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"5. 国際政治"},
+      "question_form":"時系列整序",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["順序混同","時態錯位"],
+      "keywords_to_avoid":["GATT加盟","IMF加盟","国連加盟","平和条約"]
+    },
+    "sources": [{"claim":"Meiji Restoration 1868, First Sino-Japanese War 1894, Russo-Japanese War 1904, postwar reforms from 1945.","source":"Encyclopaedia Britannica, History of Japan","year":"1904","url":"https://www.britannica.com/place/Japan/Meiji-Restoration"}]
+  },
+  {
+    "id": 10,
+    "global_id": 16,
+    "title": "問10",
+    "prompt": "高度経済成長期の日本にみられた「国際収支の天井」に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"好況で輸入が増えて国際収支が悪化すると、金融引き締めで景気を抑える必要が生じ、成長の制約となった。","explanation_zh":"正确。景气扩张使进口增加、国际收支恶化，被迫紧缩，从而制约成长，即“国际收支天花板”。","explanation_ja":"正解。好況で輸入増・国際収支悪化が進むと金融引き締めを迫られ、成長の制約となった。"},
+      {"id":2,"text":"国際収支の天井とは、輸出が増えるほど必ず物価が下落する現象をいう。","explanation_zh":"陷阱：因果倒置。该现象指国际收支恶化制约景气，并非物价必然下跌。","explanation_ja":"誤り。因果倒置の罠。これは国際収支悪化が景気を制約する現象で、物価下落の話ではない。"},
+      {"id":3,"text":"国際収支の天井は、変動相場制が完全に定着した現在の日本で最も強く働いている。","explanation_zh":"陷阱：时态错位。这是高度成长期固定汇率下显著的现象，并非现在最强。","explanation_ja":"誤り。時態錯位の罠。固定相場制下の高度成長期に顕著で、現在最も強いわけではない。"},
+      {"id":4,"text":"国際収支の天井とは、建築物の高さを制限する都市計画上の規制のことである。","explanation_zh":"陷阱：概念混淆。这是宏观经济现象，并非建筑高度限制。","explanation_ja":"誤り。概念混同の罠。これはマクロ経済の現象で、建築規制ではない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"国際収支の天井",
+      "sub_domain":"国際経済・貿易",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"10. 国際経済"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["因果倒置","時態錯位"],
+      "keywords_to_avoid":["国際収支の天井","経常収支","景気循環"]
+    },
+    "passage": "",
+    "sources": [{"claim":"Under fixed rates in high-growth Japan, balance-of-payments deficits forced tightening (the 'BOP ceiling').","source":"Bank of Japan, Postwar economic history","year":"1960s","url":"https://www.boj.or.jp/en/about/outline/history/"}]
+  },
+  {
+    "id": 11,
+    "global_id": 17,
+    "title": "問11",
+    "prompt": "国際収支統計における第二次所得収支に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"第二次所得収支は、財の輸出入の差額だけを記録する項目である。","explanation_zh":"陷阱：范围扩大。财货进出口差额属于贸易收支，并非第二次所得收支。","explanation_ja":"誤り。範囲拡大の罠。財の輸出入の差は貿易収支であり、第二次所得収支ではない。"},
+      {"id":2,"text":"第二次所得収支は、海外への投資から得た利子・配当だけを記録する。","explanation_zh":"陷阱：时态错位。利子和配当属于第一次所得收支，本项混淆。","explanation_ja":"誤り。時態錯位の罠。利子・配当は第一次所得収支であり、第二次所得収支ではない。"},
+      {"id":3,"text":"第二次所得収支は、対価を伴わない無償の援助や送金などの収支を記録する項目である。","explanation_zh":"正确。第二次所得收支记录无偿援助、汇款等不伴随对价的收支。","explanation_ja":"正解。第二次所得収支は、無償の援助・送金など対価を伴わない収支を記録する。"},
+      {"id":4,"text":"第二次所得収支とは、国会の二度目の議決を経た予算のことである。","explanation_zh":"陷阱：概念混淆。这是国际收支项目，并非预算审议。","explanation_ja":"誤り。概念混同の罠。国際収支の項目であり、予算審議ではない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"第二次所得収支",
+      "sub_domain":"国際経済・貿易",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"3.経済主体"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["範囲拡大","時態錯位"],
+      "keywords_to_avoid":["所得収支","寄付","援助","送金"]
+    },
+    "passage": "",
+    "sources": [{"claim":"Secondary income records current transfers without a quid pro quo (aid, remittances).","source":"IMF, Balance of Payments Manual (BPM6)","year":"2009","url":"https://www.imf.org/external/pubs/ft/bop/2007/bopman6.htm"}]
+  },
+  {
+    "id": 12,
+    "global_id": 18,
+    "title": "問12",
+    "prompt": "次の数値は、日本の化石燃料輸入の特徴（資源エネルギー庁・財務省貿易統計）を示したものである。読み取れる内容として最も適当なものはどれですか。\n原油の輸入：中東地域が約9割を占める。石炭の輸入：オーストラリアが最大の相手国。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"日本の原油輸入では、中東地域が約9割と大きな割合を占めている。","explanation_zh":"正确。资料显示日本原油约九成来自中东地区。","explanation_ja":"正解。資料の通り、日本の原油輸入は中東地域が約9割を占める。"},
+      {"id":2,"text":"日本の石炭の最大の輸入相手国は中東地域である。","explanation_zh":"陷阱：地域错位。资料显示日本石炭最大进口对象国是澳大利亚。","explanation_ja":"誤り。地域取違の罠。資料では石炭の最大輸入相手はオーストラリアである。"},
+      {"id":3,"text":"日本は原油をまったく輸入しておらず、全量を国内で生産している。","explanation_zh":"陷阱：主体错位。日本原油几乎全部依赖进口，并非国内自产。","explanation_ja":"誤り。主体取違の罠。日本の原油はほぼ全量を輸入に依存している。"},
+      {"id":4,"text":"原油・石炭はいずれも国内産だけでまかなわれ、輸入は行われていない。","explanation_zh":"陷阱：范围扩大。资料明确显示日本依赖进口。","explanation_ja":"誤り。範囲拡大の罠。資料は日本が輸入に依存することを示している。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"エネルギー資源輸入",
+      "sub_domain":"産業・資源",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"10. 国際経済"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["主体取違","地域取違"],
+      "keywords_to_avoid":["原油輸入","LNG輸入","石炭輸入","サウジアラビア"]
+    },
+    "sources": [{"claim":"About 90% of Japan's crude oil comes from the Middle East; Australia is the top coal supplier.","source":"資源エネルギー庁 エネルギー白書／財務省 貿易統計","year":"2022","url":"https://www.enecho.meti.go.jp/about/whitepaper/2023/html/2-1-3.html"}]
+  },
+  {
+    "id": 13,
+    "global_id": 19,
+    "title": "問13",
+    "prompt": "次の数値は、日本の合計特殊出生率（厚生労働省 人口動態統計）の推移である。読み取れる内容として最も適当なものはどれですか。\n2000年 約1.36、2010年 約1.39、2020年 約1.33。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"3つの年のうち、合計特殊出生率が最も高いのは2020年である。","explanation_zh":"陷阱：地域错位。2020年约1.33是三者中最低，最高的是2010年约1.39。","explanation_ja":"誤り。地域取違の罠。2020年約1.33は最も低く、最高は2010年約1.39である。"},
+      {"id":2,"text":"3つの年を通じて、合計特殊出生率はおおむね1.3〜1.4程度の低い水準で推移している。","explanation_zh":"正确。三个年份均在1.33~1.39之间，处于低水平。","explanation_ja":"正解。3つの年はいずれも約1.33〜1.39で、低い水準で推移している。"},
+      {"id":3,"text":"合計特殊出生率は2000年から2020年にかけて一貫して上昇し続けた。","explanation_zh":"陷阱：概念混淆。2010年略升后2020年回落至约1.33，并非一贯上升。","explanation_ja":"誤り。概念混同の罠。2010年に上昇後2020年は約1.33へ低下し、一貫上昇ではない。"},
+      {"id":4,"text":"3つの年の合計特殊出生率はいずれも3.0を超えている。","explanation_zh":"陷阱：地域错位。资料中各值约1.3前后，远低于3.0。","explanation_ja":"誤り。地域取違の罠。各値は約1.3前後で、3.0を超えない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"社会",
+      "topic":"合計特殊出生率",
+      "sub_domain":"人口・家族",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"7.社会保障"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["概念混同","地域取違"],
+      "keywords_to_avoid":["出生率","人口推移","少子化","先進国"]
+    },
+    "sources": [{"claim":"Japan total fertility rate: 2000=1.36, 2010=1.39, 2020=1.33.","source":"厚生労働省 人口動態統計","year":"2020","url":"https://www.e-stat.go.jp/dbview?sid=0003411595"}]
+  },
+  {
+    "id": 14,
+    "global_id": 20,
+    "title": "問14",
+    "prompt": "次の記述は、海流の性質（気象庁・海洋情報）に基づくものである。読み取れる内容として最も適当なものはどれですか。\n暖流：低緯度から高緯度へ流れ、周辺に比べ水温が高い（例：日本列島の太平洋側を北上する黒潮）。寒流：高緯度から低緯度へ流れ、周辺に比べ水温が低い（例：千島列島方面から南下する親潮）。",
+    "choices": [
+      {"id":1,"text":"黒潮は日本列島の太平洋側を北上する暖流で、周辺より水温が高い。","explanation_zh":"正确。资料指出黑潮是北上的暖流，水温较高。","explanation_ja":"正解。資料の通り、黒潮は太平洋側を北上する暖流で水温が高い。"},
+      {"id":2,"text":"親潮は低緯度から赤道に向かって流れる暖流である。","explanation_zh":"陷阱：地域错位。亲潮是自高纬度南下的寒流，并非低纬来的暖流。","explanation_ja":"誤り。地域取違の罠。親潮は高緯度から南下する寒流であり、暖流ではない。"},
+      {"id":3,"text":"暖流は高緯度から低緯度へ流れ、周辺より水温が低い。","explanation_zh":"陷阱：概念混淆。暖流自低纬流向高纬、水温较高，本项与寒流定义混淆。","explanation_ja":"誤り。概念混同の罠。暖流は低緯度から高緯度へ流れ水温が高い。寒流の説明と取り違えている。"},
+      {"id":4,"text":"黒潮と親潮はいずれも水温がまったく同じで区別できない。","explanation_zh":"陷阱：范围扩大。资料明确区分暖流与寒流的水温差异。","explanation_ja":"誤り。範囲拡大の罠。資料は暖流・寒流の水温差を明確に区別している。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"海流",
+      "sub_domain":"自然地理",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["地域取違"],
+      "keywords_to_avoid":["海流","暖流","寒流","循環"]
+    },
+    "passage": "",
+    "sources": [{"claim":"Kuroshio is a warm current flowing north along Japan's Pacific side; Oyashio is a cold current.","source":"気象庁 海洋の知識（海流）","year":"2024","url":"https://www.data.jma.go.jp/kaiyou/db/kaikyo/knowledge/index.html"}]
+  },
+  {
+    "id": 15,
+    "global_id": 21,
+    "title": "問15",
+    "prompt": "ケッペンの気候区分に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"ケッペンの気候区分は、各国の政治体制の違いによって区分される。","explanation_zh":"陷阱：概念混淆。柯本气候区分依据气温和降水，并非政治体制。","explanation_ja":"誤り。概念混同の罠。ケッペンの区分は気温と降水量に基づき、政治体制ではない。"},
+      {"id":2,"text":"ケッペンの気候区分は、気温と降水量を指標として気候帯を区分するものである。","explanation_zh":"正确。柯本气候区分以气温和降水量为指标划分气候带。","explanation_ja":"正解。ケッペンの気候区分は、気温と降水量を指標として気候帯を区分する。"},
+      {"id":3,"text":"熱帯雨林気候は、年間を通じて降水量がほとんどない乾燥地帯に分布する。","explanation_zh":"陷阱：概念混淆。热带雨林气候全年高温多雨，并非干燥地带。","explanation_ja":"誤り。概念混同の罠。熱帯雨林気候は年中高温多雨で、乾燥地帯ではない。"},
+      {"id":4,"text":"気候区分は標高だけで決まり、気温や降水量とは無関係である。","explanation_zh":"陷阱：数值混同。气候区分主要依据气温和降水，而非仅标高。","explanation_ja":"誤り。数値混同の罠。気候区分は主に気温・降水量に基づく。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"ケッペン気候区分",
+      "sub_domain":"自然地理",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","数値混同"],
+      "keywords_to_avoid":["熱帯雨林気候","サバナ気候","降水量"]
+    },
+    "passage": "",
+    "sources": [{"claim":"The Koppen system classifies climate using temperature and precipitation.","source":"Encyclopaedia Britannica, Koppen climate classification","year":"2024","url":"https://www.britannica.com/science/Koppen-climate-classification"}]
+  },
+  {
+    "id": 16,
+    "global_id": 22,
+    "title": "問16",
+    "prompt": "次の記述は、地中海性気候の特徴（理科年表・気候統計に基づく一般的特徴）を示したものである。読み取れる内容として最も適当なものはどれですか。\n地中海性気候：夏は高温で乾燥し降水が少なく、冬は比較的温暖で降水がやや多い。例として地中海沿岸地域があげられる。",
+    "choices": [
+      {"id":1,"text":"地中海性気候では、夏に降水が集中し冬は極端に乾燥する。","explanation_zh":"陷阱：概念混淆。地中海性气候是夏干冬雨，本项把季节降水反过来了。","explanation_ja":"誤り。概念混同の罠。地中海性気候は夏に乾燥し冬に降水がある。説明が逆である。"},
+      {"id":2,"text":"地中海性気候は一年を通じて気温が氷点下で、降水はすべて雪である。","explanation_zh":"陷阱：地域错位。地中海性气候属温带，冬季也较温暖，并非全年冰点下。","explanation_ja":"誤り。地域取違の罠。地中海性気候は温帯で、冬も比較的温暖である。"},
+      {"id":3,"text":"地中海性気候は赤道直下にのみ分布し、四季の区別がない。","explanation_zh":"陷阱：地域错位。该气候多分布于中纬度地区，并非仅赤道直下。","explanation_ja":"誤り。地域取違の罠。地中海性気候は中緯度に分布し、赤道直下に限らない。"},
+      {"id":4,"text":"地中海性気候は、夏に高温乾燥となり、冬は比較的温暖で降水がやや多い。","explanation_zh":"正确。资料指出地中海性气候夏季高温干燥、冬季温暖多雨。","explanation_ja":"正解。資料の通り、地中海性気候は夏に高温乾燥、冬に温暖でやや降水が多い。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"地中海性気候",
+      "sub_domain":"自然地理",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["地域取違","概念混同"],
+      "keywords_to_avoid":["地中海性気候","ハイサーグラフ","温暖冬季"]
+    },
+    "passage": "",
+    "sources": [{"claim":"Mediterranean climate: hot dry summers, mild wetter winters.","source":"Encyclopaedia Britannica, Mediterranean climate","year":"2024","url":"https://www.britannica.com/science/Mediterranean-climate"}]
+  },
+  {
+    "id": 17,
+    "global_id": 23,
+    "title": "問17",
+    "prompt": "世界の主な湖の標高・水面の高さに関する記述として最も適当なものはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"チチカカ湖は標高の高いアンデス山中に位置し、死海の水面は海面より低い位置にある。","explanation_zh":"正确。的的喀喀湖位于安第斯高地，死海水面低于海平面，二者高度差异显著。","explanation_ja":"正解。チチカカ湖は標高の高いアンデスにあり、死海の水面は海面より低い。"},
+      {"id":2,"text":"死海の水面は世界の湖の中で最も標高が高い位置にある。","explanation_zh":"陷阱：数值混同。死海水面低于海平面，并非标高最高。","explanation_ja":"誤り。数値混同の罠。死海の水面は海面より低く、最も標高が高いのではない。"},
+      {"id":3,"text":"チチカカ湖は海面より低い位置にある内陸の湖である。","explanation_zh":"陷阱：顺序混乱。的的喀喀湖位于高海拔，并非低于海面。","explanation_ja":"誤り。順序混同の罠。チチカカ湖は高標高にあり、海面より低くはない。"},
+      {"id":4,"text":"すべての湖は同じ標高に位置し、高低の差は存在しない。","explanation_zh":"陷阱：数值混同。湖泊标高差异显著，并非全部相同。","explanation_ja":"誤り。数値混同の罠。湖の標高には大きな差があり、同一ではない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"湖沼標高",
+      "sub_domain":"自然地理",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["数値混同","順序混同"],
+      "keywords_to_avoid":["チチカカ湖","バイカル湖","アラル海","死海"]
+    },
+    "sources": [{"claim":"Lake Titicaca lies high in the Andes (~3,800 m); the Dead Sea surface is below sea level.","source":"Encyclopaedia Britannica, Lake Titicaca; Dead Sea","year":"2024","url":"https://www.britannica.com/place/Lake-Titicaca"}]
+  },
+  {
+    "id": 18,
+    "global_id": 24,
+    "title": "問18",
+    "prompt": "次の数値は、カカオ豆の国別生産量（2023年、FAO）の概数である。読み取れる内容として最も適当なものはどれですか。\nコートジボワール 約238万トン、ガーナ 約65万トン、インドネシア 約64万トン。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"示された中では、コートジボワールのカカオ豆生産量が最も多い。","explanation_zh":"正确。科特迪瓦约238万吨，远高于加纳约65万吨与印尼约64万吨。","explanation_ja":"正解。コートジボワール約238万トンが、ガーナ・インドネシアを大きく上回る。"},
+      {"id":2,"text":"ガーナのカカオ豆生産量はコートジボワールを上回る。","explanation_zh":"陷阱：主体错位。加纳约65万吨，远低于科特迪瓦约238万吨。","explanation_ja":"誤り。主体取違の罠。ガーナ約65万トンはコートジボワール約238万トンを下回る。"},
+      {"id":3,"text":"インドネシアのカカオ豆生産量は0トンである。","explanation_zh":"陷阱：数值混同。资料中印尼约64万吨。","explanation_ja":"誤り。数値混同の罠。資料ではインドネシアは約64万トンである。"},
+      {"id":4,"text":"3か国の生産量はいずれも完全に同じである。","explanation_zh":"陷阱：范围扩大。三国数值差异显著。","explanation_ja":"誤り。範囲拡大の罠。3か国の生産量は同じではない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"カカオ・コーヒー豆生産",
+      "sub_domain":"産業・資源",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["主体取違","数値混同"],
+      "keywords_to_avoid":["カカオ豆","コーヒー豆","インドネシア"]
+    },
+    "sources": [{"claim":"Cocoa bean production by country (2023): Cote d'Ivoire ~2.38M t, Ghana ~0.65M t, Indonesia ~0.64M t.","source":"FAOSTAT, Crops production","year":"2023","url":"https://www.fao.org/faostat/en/#data/QCL"}]
+  },
+  {
+    "id": 19,
+    "global_id": 25,
+    "title": "問19",
+    "prompt": "社会契約説に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"社会契約説は、国家の権力が神から君主に直接与えられたとする考え方である。","explanation_zh":"陷阱：主体错位。这是王权神授说，社会契约说主张权力源于人民的同意。","explanation_ja":"誤り。主体取違の罠。それは王権神授説で、社会契約説は人民の同意に基づくとする。"},
+      {"id":2,"text":"社会契約説では、政府が成立する前から人々は財産をもつことが禁じられていた。","explanation_zh":"陷阱：因果倒置。社会契约说认为人们先有自然权利，再通过契约成立政府。","explanation_ja":"誤り。因果倒置の罠。社会契約説では自然権が先にあり、契約で政府が成立する。"},
+      {"id":3,"text":"社会契約説は、人々が契約を結ぶことで政府をつくり、政治権力の正当性を説明する考え方である。","explanation_zh":"正确。社会契约说以人民缔结契约成立政府来说明政治权力的正当性。","explanation_ja":"正解。社会契約説は、人々が契約を結んで政府をつくると考え、権力の正当性を説明する。"},
+      {"id":4,"text":"社会契約説は、気候帯ごとの農業の違いを説明する地理学の理論である。","explanation_zh":"陷阱：概念混淆。这是政治思想，并非地理学理论。","explanation_ja":"誤り。概念混同の罠。これは政治思想であり、地理学の理論ではない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"社会契約説",
+      "sub_domain":"憲法・人権",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の社会","item":"2. 私法と契約"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違","因果倒置"],
+      "keywords_to_avoid":["ロック","自然権","革命権","信託説"]
+    },
+    "passage": "",
+    "sources": [{"claim":"Social contract theory grounds political authority in agreement among the governed.","source":"Stanford Encyclopedia of Philosophy, Contractarianism","year":"2021","url":"https://plato.stanford.edu/entries/contractarianism/"}]
+  },
+  {
+    "id": 20,
+    "global_id": 26,
+    "title": "問20",
+    "prompt": "「法の支配」に関する記述として最も適当なものはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"法の支配とは、支配者が法に縛られず自由に統治できる原理のことである。","explanation_zh":"陷阱：概念混淆。法治要求权力本身受法律约束，本项混淆为人治。","explanation_ja":"誤り。概念混同の罠。法の支配は権力も法に従う原理で、人の支配と取り違えている。"},
+      {"id":2,"text":"法の支配は、20世紀後半に初めて生まれた新しい考え方である。","explanation_zh":"陷阱：时态错位。法治源流可追溯到中世纪英国的传统，并非20世纪后半才出现。","explanation_ja":"誤り。時態錯位の罠。法の支配は中世イギリス以来の伝統で、20世紀後半が起源ではない。"},
+      {"id":3,"text":"法の支配のもとでは、国王や政府は法律を超えて自由に人々を処罰できる。","explanation_zh":"陷阱：概念混淆。法治正是限制权力任意处罚，本项与之相反。","explanation_ja":"誤り。概念混同の罠。法の支配は恣意的な処罰を制限するもので、本項は逆である。"},
+      {"id":4,"text":"法の支配は、政治権力もまた法に従わなければならないとする原理である。","explanation_zh":"正确。法治指包括政治权力在内都必须服从法律。","explanation_ja":"正解。法の支配は、政治権力もまた法に従わなければならないとする原理である。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"法の支配",
+      "sub_domain":"憲法・人権",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"1. 近代化の進展とその影響"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","時態錯位"],
+      "keywords_to_avoid":["エドワード・コーク","法の支配","コモン・ロー"]
+    },
+    "sources": [{"claim":"Rule of law: government and rulers are themselves bound by law.","source":"Encyclopaedia Britannica, Rule of law","year":"2024","url":"https://www.britannica.com/topic/rule-of-law"}]
+  },
+  {
+    "id": 21,
+    "global_id": 27,
+    "title": "問21",
+    "prompt": "国家の三要素に関する記述として最も適当でないものはどれですか。",
+    "choices": [
+      {"id":1,"text":"国家が成立するには、領域（領土・領海・領空）が必要である。","explanation_zh":"陷阱：设问反转。这是正确事实，题目要求选不适当项。","explanation_ja":"誤り。設問反転の罠。正しい記述であり、最も適当でないものではない。"},
+      {"id":2,"text":"国家の三要素のうち、主権とは一定の領域に住む住民の総数のことをいう。","explanation_zh":"正确。题目要求选不适当项。主权是统治权而非住民总数，住民属国民要素，本项错误。","explanation_ja":"正解。設問は不適当なものを選ぶ。主権は統治権で住民数ではなく、本項は誤り。"},
+      {"id":3,"text":"国家が成立するには、その構成員である国民が必要である。","explanation_zh":"陷阱：设问反转。这是正确事实，不是不适当项。","explanation_ja":"誤り。設問反転の罠。正しい記述であり、不適当なものではない。"},
+      {"id":4,"text":"主権とは、対外的に独立し対内的に最高の統治権をもつことを指す。","explanation_zh":"陷阱：设问反转。这是正确事实，不是不适当项。","explanation_ja":"誤り。設問反転の罠。正しい記述であり、不適当なものではない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"国家の三要素",
+      "sub_domain":"政治思想・政治史",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"1.民主政治"},
+      "question_form":"正誤判定",
+      "statement_polarity":"正答誤記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["範囲拡大","概念混同"],
+      "keywords_to_avoid":["国家の三要素","主権","領域","国民"]
+    },
+    "passage": "",
+    "sources": [{"claim":"The three elements of a state are territory, people (population), and sovereignty.","source":"Encyclopaedia Britannica, State (political science)","year":"2024","url":"https://www.britannica.com/topic/state-sovereign-political-entity"}]
+  },
+  {
+    "id": 22,
+    "global_id": 28,
+    "title": "問22",
+    "prompt": "福祉国家に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"福祉国家では、政府が社会保障などを通じて国民生活の安定をはかる役割を担う。","explanation_zh":"正确。福利国家中政府通过社会保障等保障国民生活稳定。","explanation_ja":"正解。福祉国家では、政府が社会保障などを通じて国民生活の安定をはかる。"},
+      {"id":2,"text":"福祉国家とは、政府の役割を防衛と治安だけに限る「夜警国家」と同じ意味である。","explanation_zh":"陷阱：时态错位。福利国家与仅限治安防卫的夜警国家相反，扩大了政府职能。","explanation_ja":"誤り。時態錯位の罠。福祉国家は夜警国家と逆で、政府の役割を拡大したものである。"},
+      {"id":3,"text":"福祉国家では、社会保障の支出はいっさい行われない。","explanation_zh":"陷阱：因果倒置。福利国家正是扩大社会保障支出。","explanation_ja":"誤り。因果倒置の罠。福祉国家はむしろ社会保障支出を拡大する。"},
+      {"id":4,"text":"福祉国家とは、気候の温暖な地域だけを指す地理上の用語である。","explanation_zh":"陷阱：概念混淆。这是关于政府职能的政治经济概念，并非地理用语。","explanation_ja":"誤り。概念混同の罠。これは政府の役割に関する概念で、地理用語ではない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"福祉国家",
+      "sub_domain":"政治思想・政治史",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"6. 財政"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["時態錯位","因果倒置"],
+      "keywords_to_avoid":["福祉国家","行政拡大","所得格差"]
+    },
+    "passage": "",
+    "sources": [{"claim":"Welfare state: government provides social security to support citizens' welfare.","source":"Encyclopaedia Britannica, Welfare state","year":"2024","url":"https://www.britannica.com/topic/welfare-state"}]
+  },
+  {
+    "id": 23,
+    "global_id": 29,
+    "title": "問23",
+    "prompt": "議院内閣制に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"議院内閣制では、国民が行政府の長を直接選挙で選出する。","explanation_zh":"陷阱：概念混淆。这是总统制的特征，议院内阁制由议会多数派产生内阁。","explanation_ja":"誤り。概念混同の罠。それは大統領制の特徴で、議院内閣制は議会から内閣が生まれる。"},
+      {"id":2,"text":"議院内閣制は、立法府と行政府が完全に分離し、相互に関与しない制度である。","explanation_zh":"陷阱：时态错位。议院内阁制中立法与行政紧密联动，并非完全分离。","explanation_ja":"誤り。時態錯位の罠。議院内閣制は立法府と行政府が連動し、完全分離ではない。"},
+      {"id":3,"text":"議院内閣制では、内閣は議会の信任に基づいて成立し、議会に対して責任を負う。","explanation_zh":"正确。议院内阁制中内阁依议会信任成立并对议会负责。","explanation_ja":"正解。議院内閣制では、内閣は議会の信任に基づいて成立し、議会に責任を負う。"},
+      {"id":4,"text":"議院内閣制とは、裁判官が行政の長を任命する司法主導の制度である。","explanation_zh":"陷阱：概念混淆。内阁由议会多数派组成，并非司法任命。","explanation_ja":"誤り。概念混同の罠。内閣は議会多数派から成り、司法が任命するものではない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"議院内閣制",
+      "sub_domain":"三権分立・統治機構",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"1.民主政治"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","時態錯位"],
+      "keywords_to_avoid":["議院内閣制","国務大臣","内閣総理大臣"]
+    },
+    "passage": "",
+    "sources": [{"claim":"In parliamentary systems, the cabinet derives from and is responsible to the legislature.","source":"Encyclopaedia Britannica, Parliamentary system","year":"2024","url":"https://www.britannica.com/topic/parliamentary-system"}]
+  },
+  {
+    "id": 24,
+    "global_id": 30,
+    "title": "問24",
+    "prompt": "日本国憲法における基本的人権に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"基本的人権は、政府が必要と認めたときだけ国民に与えられる権利である。","explanation_zh":"陷阱：概念混淆。宪法把基本人权规定为侵犯不得的永久权利，并非政府恩赐。","explanation_ja":"誤り。概念混同の罠。基本的人権は侵すことのできない永久の権利で、政府の恩恵ではない。"},
+      {"id":2,"text":"日本国憲法は、基本的人権を侵すことのできない永久の権利として保障している。","explanation_zh":"正确。日本国宪法保障基本人权为不可侵犯的永久权利。","explanation_ja":"正解。日本国憲法は、基本的人権を侵すことのできない永久の権利として保障する。"},
+      {"id":3,"text":"基本的人権は、選挙で多数を得た政党によって自由に廃止できる。","explanation_zh":"陷阱：范围扩大。基本人权是永久权利，不能由多数随意废除。","explanation_ja":"誤り。範囲拡大の罠。基本的人権は永久の権利で、多数決で自由に廃止できない。"},
+      {"id":4,"text":"基本的人権とは、国家がもつ対外的な主権のことを指す。","explanation_zh":"陷阱：概念混淆。基本人权是个人的权利，并非国家主权。","explanation_ja":"誤り。概念混同の罠。基本的人権は個人の権利で、国家主権ではない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"基本的人権",
+      "sub_domain":"憲法・人権",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"3. 日本国憲法"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["基本的人権","公共の福祉","濫用"]
+    },
+    "passage": "",
+    "sources": [{"claim":"The Constitution of Japan guarantees fundamental human rights as eternal and inviolable.","source":"日本国憲法 第11条・第97条","year":"1947","url":"https://japan.kantei.go.jp/constitution_and_government_of_japan/constitution_e.html"}]
+  },
+  {
+    "id": 25,
+    "global_id": 31,
+    "title": "問25",
+    "prompt": "日本の地方自治における住民の直接請求権に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"直接請求権は、住民が一人でいつでも首長を罷免できる権利である。","explanation_zh":"陷阱：范围扩大。直接请求需达到法定连署人数等要件，并非一人随时即可。","explanation_ja":"誤り。範囲拡大の罠。直接請求には一定数の署名など要件があり、一人で随時ではない。"},
+      {"id":2,"text":"住民は一定数の署名を集めることで、条例の制定・改廃の請求などができる。","explanation_zh":"正确。住民可凭一定数量连署请求制定或改废条例等。","explanation_ja":"正解。住民は一定数の署名を集めて、条例の制定・改廃の請求などを行える。"},
+      {"id":3,"text":"直接請求権は、国の法律を住民が直接制定できる権利のことである。","explanation_zh":"陷阱：时态错位。直接请求权属于地方自治制度，并非制定国家法律。","explanation_ja":"誤り。時態錯位の罠。直接請求権は地方自治の制度で、国の法律制定ではない。"},
+      {"id":4,"text":"直接請求権とは、住民が気象観測を国に依頼できる権利のことである。","explanation_zh":"陷阱：概念混淆。这是地方自治的政治权利，并非气象观测请求。","explanation_ja":"誤り。概念混同の罠。これは地方自治の政治的権利で、気象観測の依頼ではない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"住民による直接請求権",
+      "sub_domain":"憲法・人権",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"2. 日本の統治機構"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["範囲拡大","時態錯位"],
+      "keywords_to_avoid":["直接請求権","首長解職","有権者"]
+    },
+    "passage": "",
+    "sources": [{"claim":"Japan's local autonomy law lets residents demand ordinance enactment/recall via signatures.","source":"総務省 地方自治制度（直接請求）","year":"2024","url":"https://www.soumu.go.jp/main_sosiki/jichi_gyousei/bunken/chihou-koukyoudantai.html"}]
+  },
+  {
+    "id": 26,
+    "global_id": 32,
+    "title": "問26",
+    "prompt": "国際連合における「平和のための結集」決議に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"この決議は、安全保障理事会の常任理事国の数を増やすために採択された。","explanation_zh":"陷阱：因果倒置。该决议是为在安理会因否决权而瘫痪时由大会发挥作用，并非增加常任理事国。","explanation_ja":"誤り。因果倒置の罠。これは安保理が拒否権で機能しない際に総会が動く仕組みで、常任理事国増設ではない。"},
+      {"id":2,"text":"この決議によって、国際連盟が新たに設立されることになった。","explanation_zh":"陷阱：概念混淆。这是联合国大会的决议，并非设立国际联盟。","explanation_ja":"誤り。概念混同の罠。これは国連総会の決議で、国際連盟の設立ではない。"},
+      {"id":3,"text":"安全保障理事会が拒否権で機能しない場合、総会が集まって平和維持のための勧告を行えるとした。","explanation_zh":"正确。该决议规定安理会因否决权停滞时，大会可召开并就维和作出建议。","explanation_ja":"正解。安保理が拒否権で機能しないとき、総会が集まり平和維持の勧告を行えるとした。"},
+      {"id":4,"text":"この決議は、各国の関税率をすべて統一することを定めたものである。","explanation_zh":"陷阱：概念混淆。这是关于维和的决议，并非关税统一。","explanation_ja":"誤り。概念混同の罠。これは平和維持に関する決議で、関税統一ではない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"朝鮮戦争と平和のための結集決議",
+      "sub_domain":"国際政治・外交",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"4.政治参加"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["因果倒置","概念混同"],
+      "keywords_to_avoid":["平和のための結集","朝鮮戦争","拒否権"]
+    },
+    "passage": "",
+    "sources": [{"claim":"The 1950 Uniting for Peace resolution lets the General Assembly act when the Security Council is deadlocked by veto.","source":"United Nations, Uniting for Peace (GA Res 377)","year":"1950","url":"https://www.un.org/en/sections/un-charter/uniting-peace/"}]
+  },
+  {
+    "id": 27,
+    "global_id": 33,
+    "title": "問27",
+    "prompt": "地球環境問題に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"化石燃料の大量消費による二酸化炭素などの増加が、地球温暖化の要因とされている。","explanation_zh":"正确。大量燃烧化石燃料排放二氧化碳等被认为是全球变暖的主要原因。","explanation_ja":"正解。化石燃料の大量消費による二酸化炭素などの増加が地球温暖化の要因とされる。"},
+      {"id":2,"text":"地球温暖化は、太陽が地球から遠ざかったことだけが原因であると確定している。","explanation_zh":"陷阱：概念混淆。温暖化主要与温室气体增加有关，并非太阳远离地球。","explanation_ja":"誤り。概念混同の罠。温暖化は主に温室効果ガスの増加と関わり、太陽の距離ではない。"},
+      {"id":3,"text":"オゾン層の破壊は、二酸化炭素を増やすことで防ぐことができる。","explanation_zh":"陷阱：因果倒置。臭氧层破坏与氟氯碳化物等有关，增加二氧化碳不能防止。","explanation_ja":"誤り。因果倒置の罠。オゾン層破壊はフロン類などが関与し、CO2増加で防げない。"},
+      {"id":4,"text":"地球環境問題とは、各国の国内総生産を比較する経済指標のことである。","explanation_zh":"陷阱：概念混淆。这是环境问题，并非GDP经济指标。","explanation_ja":"誤り。概念混同の罠。これは環境問題であり、GDPの経済指標ではない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"社会",
+      "topic":"地球環境問題",
+      "sub_domain":"現代社会問題",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の社会","item":"1. 環境と資源"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["因果倒置","概念混同"],
+      "keywords_to_avoid":["化石燃料","地球温暖化","京都議定書","オゾン層"]
+    },
+    "passage": "",
+    "sources": [{"claim":"Rising CO2 from fossil fuel combustion is a primary driver of global warming.","source":"IPCC, AR6 Synthesis Report","year":"2023","url":"https://www.ipcc.ch/report/ar6/syr/"}]
+  },
+  {
+    "id": 28,
+    "global_id": 34,
+    "title": "問28",
+    "prompt": "蒸気機関と産業革命に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"産業革命は、機械の動力源として蒸気機関が使われる前の中世に完成していた。","explanation_zh":"陷阱：时态错位。产业革命发生在18世纪后半的近代，并非中世纪。","explanation_ja":"誤り。時態錯位の罠。産業革命は18世紀後半の近代の出来事で、中世ではない。"},
+      {"id":2,"text":"蒸気機関の改良と利用が広がり、工場での機械生産が拡大して産業革命が進んだ。","explanation_zh":"正确。蒸汽机改良普及，工厂机械化生产扩大，推动了产业革命。","explanation_ja":"正解。蒸気機関の改良と普及により工場の機械生産が拡大し、産業革命が進んだ。"},
+      {"id":3,"text":"産業革命では、機械生産が衰退して手工業だけにもどった。","explanation_zh":"陷阱：概念混淆。产业革命使机械生产扩大，并非退回手工业。","explanation_ja":"誤り。概念混同の罠。産業革命は機械生産を拡大させ、手工業に戻したのではない。"},
+      {"id":4,"text":"蒸気機関とは、選挙で議員を選ぶための投票装置の名称である。","explanation_zh":"陷阱：概念混淆。蒸汽机是动力机械，并非投票装置。","explanation_ja":"誤り。概念混同の罠。蒸気機関は動力機械であり、投票装置ではない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"蒸気機関と産業革命",
+      "sub_domain":"近代世界",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"2.市場経済"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位","概念混同"],
+      "keywords_to_avoid":["蒸気機関","ワット","産業革命","機械化"]
+    },
+    "passage": "",
+    "sources": [{"claim":"The Industrial Revolution (late 18th c.) spread steam-powered factory machine production.","source":"Encyclopaedia Britannica, Industrial Revolution","year":"2024","url":"https://www.britannica.com/event/Industrial-Revolution"}]
+  },
+  {
+    "id": 29,
+    "global_id": 35,
+    "title": "問29",
+    "prompt": "19世紀のイタリア統一に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"イタリア統一は、第二次世界大戦の終結後の20世紀後半に達成された。","explanation_zh":"陷阱：时态错位。意大利统一是19世纪的进程，1861年成立意大利王国。","explanation_ja":"誤り。時態錯位の罠。イタリア統一は19世紀の出来事で、20世紀後半ではない。"},
+      {"id":2,"text":"イタリア統一は、アメリカ合衆国の独立運動の一部として進められた。","explanation_zh":"陷阱：主体错位。意大利统一是欧洲意大利半岛的进程，与美国独立无关。","explanation_ja":"誤り。主体取違の罠。イタリア統一はイタリア半島の動きで、米国独立とは無関係である。"},
+      {"id":3,"text":"イタリア統一によって、イタリアは複数の国家に分裂することになった。","explanation_zh":"陷阱：因果倒置。统一是把分裂的诸邦合为一个国家，并非分裂。","explanation_ja":"誤り。因果倒置の罠。統一は分立していた諸国を一つにまとめたもので、分裂ではない。"},
+      {"id":4,"text":"19世紀に、サルデーニャ王国を中心とする動きの中でイタリア王国が成立した。","explanation_zh":"正确。19世纪以撒丁王国为中心推进统一，1861年成立意大利王国。","explanation_ja":"正解。19世紀、サルデーニャ王国を中心とする動きでイタリア王国が成立した。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"イタリア統一",
+      "sub_domain":"近代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"1. 近代化の進展とその影響"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違","時態錯位"],
+      "keywords_to_avoid":["イタリア統一","カヴール","ガリバルディ","統一"]
+    },
+    "passage": "",
+    "sources": [{"claim":"Italian unification (Risorgimento) created the Kingdom of Italy in 1861, led by Sardinia-Piedmont.","source":"Encyclopaedia Britannica, Risorgimento / Italian unification","year":"1861","url":"https://www.britannica.com/event/Risorgimento"}]
+  },
+  {
+    "id": 30,
+    "global_id": 36,
+    "title": "問30",
+    "prompt": "次の記述は、開港後（1859年〜）の日本の貿易の特徴に関する歴史的事実である。読み取れる内容として最も適当なものはどれですか。\n開港後の輸出：生糸が輸出品の中で最も大きな割合を占めた。主要な貿易港：横浜。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"開港後の日本では、生糸が輸出品の中で最も大きな割合を占めた。","explanation_zh":"正确。资料指出开港后生丝是日本最主要的出口品。","explanation_ja":"正解。資料の通り、開港後の日本では生糸が最大の輸出品であった。"},
+      {"id":2,"text":"開港後の日本では、輸出はいっさい行われず輸入だけが行われた。","explanation_zh":"陷阱：主体错位。资料明确显示生丝等出口品的存在。","explanation_ja":"誤り。主体取違の罠。資料は生糸などの輸出品の存在を示している。"},
+      {"id":3,"text":"生糸は輸出品の中で最も小さな割合しか占めなかった。","explanation_zh":"陷阱：数值混同。资料指出生丝占比最大，本项与之相反。","explanation_ja":"誤り。数値混同の罠。資料では生糸が最大の割合で、本項は逆である。"},
+      {"id":4,"text":"開港後の主要な貿易港は内陸の山間部に置かれた。","explanation_zh":"陷阱：主体错位。资料指出主要贸易港是横滨等港口，并非内陆山间。","explanation_ja":"誤り。主体取違の罠。資料では主要貿易港は横浜などの港で、内陸山間部ではない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"江戸末期の貿易",
+      "sub_domain":"近世日本",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"10. 国際経済"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["数値混同","主体取違"],
+      "keywords_to_avoid":["生糸","横浜港","江戸末期"]
+    },
+    "sources": [{"claim":"After Japan's 1859 opening, raw silk was the leading export, mainly through Yokohama.","source":"Encyclopaedia Britannica, Japan: Foreign trade after the opening of ports","year":"1859","url":"https://www.britannica.com/place/Japan/The-opening-of-Japan"}]
+  },
+  {
+    "id": 31,
+    "global_id": 37,
+    "title": "問31",
+    "prompt": "20世紀前半のインドの独立運動に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"インドの独立運動は、武力による暴力闘争だけを唯一の手段としていた。","explanation_zh":"陷阱：主体错位。运动以非暴力不服从为重要手段，并非仅靠武力。","explanation_ja":"誤り。主体取違の罠。運動は非暴力・不服従を重要な手段とし、武力だけではない。"},
+      {"id":2,"text":"インドはこの時期にすでにアジア最大の工業国として完全に独立していた。","explanation_zh":"陷阱：时态错位。当时印度仍在英国统治下，尚未独立。","explanation_ja":"誤り。時態錯位の罠。当時インドはイギリスの統治下で、まだ独立していない。"},
+      {"id":3,"text":"インドの独立運動は、ヨーロッパ諸国を植民地支配するために行われた。","explanation_zh":"陷阱：主体错位。运动是争取摆脱殖民统治的独立，并非去殖民他国。","explanation_ja":"誤り。主体取違の罠。運動は植民地支配からの独立を目指すもので、他国支配ではない。"},
+      {"id":4,"text":"ガンディーらが非暴力・不服従の運動を進め、植民地支配からの独立を目指した。","explanation_zh":"正确。甘地等推进非暴力不服从运动，争取摆脱殖民统治实现独立。","explanation_ja":"正解。ガンディーらが非暴力・不服従の運動を進め、植民地支配からの独立を目指した。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"インド独立運動",
+      "sub_domain":"近代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"2. 二つの世界大戦とその影響"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違","時態錯位"],
+      "keywords_to_avoid":["ガンディー","非暴力不服従","独立運動"]
+    },
+    "passage": "",
+    "sources": [{"claim":"Gandhi led the nonviolent (satyagraha) civil disobedience movement for Indian independence.","source":"Encyclopaedia Britannica, Mahatma Gandhi; Indian independence movement","year":"1947","url":"https://www.britannica.com/biography/Mahatma-Gandhi"}]
+  },
+  {
+    "id": 32,
+    "global_id": 38,
+    "title": "問32",
+    "prompt": "ゴルバチョフと冷戦の終結に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"ゴルバチョフは、軍備拡張を推し進めて冷戦の対立を激化させた指導者である。","explanation_zh":"陷阱：时态错位。戈尔巴乔夫推进改革与缓和，推动冷战走向终结，并非加剧对立。","explanation_ja":"誤り。時態錯位の罠。ゴルバチョフは改革と緊張緩和を進め、冷戦終結に向かわせた。"},
+      {"id":2,"text":"ゴルバチョフはソ連で改革を進め、東西対立の緩和を通じて冷戦の終結に向かった。","explanation_zh":"正确。戈尔巴乔夫在苏联推进改革，缓和东西方对立，推动冷战走向终结。","explanation_ja":"正解。ゴルバチョフはソ連で改革を進め、東西対立の緩和により冷戦終結へ向かった。"},
+      {"id":3,"text":"ゴルバチョフは19世紀のロシアで農奴解放を行った皇帝である。","explanation_zh":"陷阱：时态错位。戈尔巴乔夫是20世纪后半的苏联领导人，并非19世纪皇帝。","explanation_ja":"誤り。時態錯位の罠。ゴルバチョフは20世紀後半のソ連の指導者で、19世紀の皇帝ではない。"},
+      {"id":4,"text":"ゴルバチョフは、冷戦の対立を固定するために東西ドイツの分断を新たに始めた。","explanation_zh":"陷阱：因果倒置。柏林墙倒塌等缓和正发生于其执政时期，并非新设分断。","explanation_ja":"誤り。因果倒置の罠。彼の時期には壁の崩壊など緊張緩和が進み、新たな分断ではない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"ゴルバチョフと冷戦終結",
+      "sub_domain":"現代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"2. 二つの世界大戦とその影響"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位"],
+      "keywords_to_avoid":["ゴルバチョフ","新思考外交","冷戦","INF条約"]
+    },
+    "passage": "",
+    "sources": [{"claim":"Gorbachev's reforms (perestroika/glasnost) and detente led to the end of the Cold War.","source":"Encyclopaedia Britannica, Mikhail Gorbachev; Cold War","year":"1991","url":"https://www.britannica.com/biography/Mikhail-Gorbachev"}]
+  }
+]
+}

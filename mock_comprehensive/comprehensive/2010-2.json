@@ -1,0 +1,1034 @@
+{
+  "subject": "comprehensive",
+  "section": "",
+  "year": 2010,
+  "round": 2,
+  "title": "総合科目問題集 第六回",
+  "image_path": "comprehensive/images/2010-2",
+  "questions": [
+  {
+    "id": 1,
+    "title": "トルコに関する文章",
+    "prompt": "次の文章を読み、下の問い(1)〜(4)に答えなさい。",
+    "passage": "トルコ（Turkey）は、アジア（Asia）とヨーロッパ（Europe）にまたがって位置し、[ a ]海峡とダーダネルス海峡（the Dardanelles）によって隔てられている。国土の大半は[ b ]が占めている。ローマ帝国（Roman Empire）以来この地域の中心都市であった、₁都市I（Istanbul）は、現在もトルコ最大の都市である。第一次世界大戦（WWI）後トルコは、[ c ]が主導したトルコ革命により、[ d ]から[ e ]へ移行した。₂現在、政治的には欧米諸国との関係を重視している。",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":1,
+        "prompt":"上の文章中の空欄[ a ]、[ b ]に当てはまる地名の組み合わせとして最も適当なものを、次の①〜④の中から一つ選びなさい。",
+        "choices":[
+          {"id":1,"text":"a: 海峡B / b: 欧州南東部","explanation_zh":"陷阱：方向相反。该项与题干事实、资料条件或文章内容不一致。（题1-1选项1）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+          {"id":2,"text":"a: 海峡G / b: 欧州南東部","explanation_zh":"陷阱：对象错位。该项与题干事实、资料条件或文章内容不一致。（题1-1选项2）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+          {"id":3,"text":"a: 海峡B / b: 小アジア地域","explanation_zh":"正确。该项与题干事实、资料条件或文章内容一致，能够唯一满足题意。（题1-1选项3）","explanation_ja":"正解。設問の事実、資料条件、または文章内容と一致する。"},
+          {"id":4,"text":"a: 海峡G / b: 小アジア地域","explanation_zh":"陷阱：概念混淆。该项与题干事实、资料条件或文章内容不一致。（题1-1选项4）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"}
+        ],
+        "answer":3,
+        "tag":{
+          "question_form":"組合せ",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["地域取違","概念混同"],
+          "keywords_to_avoid":["ボスポラス","ジブラルタル","アナトリア","バルカン半島"],
+          "sub_domain":"アジア地誌"
+        },
+        "sources":[{"claim":"トルコはボスポラス海峡をはさみ、アナトリアを中心とする国土を持つ。","source":"Encyclopaedia Britannica","year":"2026","url":"https://www.britannica.com/place/Turkey"}]
+      },
+      {
+        "sub_id":2,
+        "global_id":2,
+        "prompt":"下線部1に関して、都市Iの位置として正しいものを、次の地域説明中の①〜④の中から一つ選びなさい。",
+        "choices":[
+          {"id":1,"text":"①","explanation_zh":"陷阱：方向相反。该项与题干事实、资料条件或文章内容不一致。（题1-2选项1）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+          {"id":2,"text":"②","explanation_zh":"陷阱：对象错位。该项与题干事实、资料条件或文章内容不一致。（题1-2选项2）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+          {"id":3,"text":"③","explanation_zh":"陷阱：数值错读。该项与题干事实、资料条件或文章内容不一致。（题1-2选项3）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+          {"id":4,"text":"④","explanation_zh":"正确。该项与题干事实、资料条件或文章内容一致，能够唯一满足题意。（题1-2选项4）","explanation_ja":"正解。設問の事実、資料条件、または文章内容と一致する。"}
+        ],
+        "answer":4,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["地域取違","範囲拡大"],
+          "keywords_to_avoid":["イスタンブール","ボスポラス海峡","地図"],
+          "sub_domain":"アジア地誌",
+          "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"}
+        },
+        "sources":[{"claim":"トルコはボスポラス海峡をはさみ、アナトリアを中心とする国土を持つ。","source":"Encyclopaedia Britannica","year":"2026","url":"https://www.britannica.com/place/Turkey"}]
+      },
+      {
+        "sub_id":3,
+        "global_id":3,
+        "prompt":"上の文章中の空欄[ c ]〜[ e ]に当てはまる語の組み合わせとして正しいものを、次の①〜④の中から一つ選びなさい。",
+        "choices":[
+          {"id":1,"text":"c: 政治家M / d: 君主制度 / e: 憲法下の君主制度","explanation_zh":"陷阱：方向相反。该项与题干事实、资料条件或文章内容不一致。（题1-3选项1）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+          {"id":2,"text":"c: 改革者K / d: 君主制度 / e: 共和国制度","explanation_zh":"正确。该项与题干事实、资料条件或文章内容一致，能够唯一满足题意。（题1-3选项2）","explanation_ja":"正解。設問の事実、資料条件、または文章内容と一致する。"},
+          {"id":3,"text":"c: 政治家M / d: 絶対王政 / e: 共和国制度","explanation_zh":"陷阱：数值错读。该项与题干事实、资料条件或文章内容不一致。（题1-3选项3）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+          {"id":4,"text":"c: 改革者K / d: 絶対王政 / e: 憲法下の君主制度","explanation_zh":"陷阱：概念混淆。该项与题干事实、资料条件或文章内容不一致。（题1-3选项4）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"}
+        ],
+        "answer":2,
+        "tag":{
+          "question_form":"組合せ",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["主体取違","時態錯位"],
+          "keywords_to_avoid":["ムスタファ・ケマル","ミドハト・パシャ","スルタン制","共和制","立憲君主制"],
+          "sub_domain":"アジア地誌"
+        },
+        "sources":[{"claim":"トルコはボスポラス海峡をはさみ、アナトリアを中心とする国土を持つ。","source":"Encyclopaedia Britannica","year":"2026","url":"https://www.britannica.com/place/Turkey"}]
+      },
+      {
+        "sub_id":4,
+        "global_id":4,
+        "prompt":"下線部2に関して、トルコが加盟している国際組織として正しいものを、次の①〜④の中から一つ選びなさい。",
+        "choices":[
+          {"id":1,"text":"アジア太平洋経済協力","explanation_zh":"陷阱：方向相反。该项与题干事实、资料条件或文章内容不一致。（题1-4选项1）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+          {"id":2,"text":"欧州連合","explanation_zh":"陷阱：对象错位。该项与题干事实、资料条件或文章内容不一致。（题1-4选项2）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+          {"id":3,"text":"北大西洋条約機構","explanation_zh":"正确。该项与题干事实、资料条件或文章内容一致，能够唯一满足题意。（题1-4选项3）","explanation_ja":"正解。設問の事実、資料条件、または文章内容と一致する。"},
+          {"id":4,"text":"石油輸出国機構","explanation_zh":"陷阱：概念混淆。该项与题干事实、资料条件或文章内容不一致。（题1-4选项4）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"}
+        ],
+        "answer":3,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["範囲拡大","地域取違"],
+          "keywords_to_avoid":["NATO","APEC","EU","OPEC","国際機関"],
+          "sub_domain":"アジア地誌",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"5. 国際政治"}
+        },
+        "sources":[{"claim":"トルコはボスポラス海峡をはさみ、アナトリアを中心とする国土を持つ。","source":"Encyclopaedia Britannica","year":"2026","url":"https://www.britannica.com/place/Turkey"}]
+      }
+    ],
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"トルコの地政学",
+      "sub_domain":"アジア地誌",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"2. 現代世界の諸地域"},
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "keywords_to_avoid":["トルコ","ボスポラス","ダーダネルス","アナトリア","バルカン半島"]
+    }
+  },
+  {
+    "id": 2,
+    "title": "日本の公共事業に関する会話",
+    "prompt": "次の会話を読み、下の問い(1)〜(3)に答えなさい。",
+    "passage": "よし子：わが国では、₁公共事業のあり方が最近、よくニュースになりますね。\n先　生：財政赤字が深刻化していると言われていますからね。国の借金をあまり増やさない政策が必要です。\nよし子：でも、₂公共事業には景気安定策の意味もあるのではないでしょうか。\n先　生：そうですね。しかし、公共事業は汚職につながりかねないので、₃政治過程の透明性の確保が必要です。",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":5,
+        "prompt":"下線部1に関して、次の数値の説明を見て、わが国の公共事業に関する記述として最も適当なものを、下の①〜④の中から一つ選びなさい。",
+        "choices":[
+          {"id":1,"text":"2000年代半ば以降の公共部門投資の対国内総生産比は、1980年代初めの半分以下に減少している。","explanation_zh":"正确。该项与题干事实、资料条件或文章内容一致，能够唯一满足题意。（题2-1选项1）","explanation_ja":"正解。設問の事実、資料条件、または文章内容と一致する。"},
+          {"id":2,"text":"公共部門投資の金額は近年減っているが、公共部門投資の対国内総生産比ではむしろ増加傾向にある。","explanation_zh":"陷阱：对象错位。该项与题干事实、资料条件或文章内容不一致。（题2-1选项2）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+          {"id":3,"text":"公共部門投資の対国内総生産比は、1980年代から一貫して増加し、わが国の財政を圧迫している。","explanation_zh":"陷阱：数值错读。该项与题干事实、资料条件或文章内容不一致。（题2-1选项3）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+          {"id":4,"text":"公共部門投資の金額は、わが国が不況に陥った1990年代後半から一貫して増え続けている。","explanation_zh":"陷阱：概念混淆。该项与题干事实、资料条件或文章内容不一致。（题2-1选项4）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"}
+        ],
+        "answer":1,
+        "tag":{
+          "question_form":"図表読取",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["範囲拡大","時態錯位"],
+          "keywords_to_avoid":["公共投資","GDP比率","1981年","2005年","表"],
+          "sub_domain":"財政・租税",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"4.国民経済"}
+        },
+        "sources":[{"claim":"日本の公共投資や財政支出は内閣府・財務省統計で確認できる。","source":"内閣府 国民経済計算","year":"2026","url":"https://www.esri.cao.go.jp/jp/sna/menu.html"}]
+      },
+      {
+        "sub_id":2,
+        "global_id":6,
+        "prompt":"下線部2に関して、公共事業の持つ景気安定策の意義を明らかにした経済学者とその代数値の説明的著書として正しいものを、次の①〜④の中から一つ選びなさい。",
+        "choices":[
+          {"id":1,"text":"経済学者M（Thomas Malthus） / 住民数論","explanation_zh":"陷阱：方向相反。该项与题干事实、资料条件或文章内容不一致。（题2-2选项1）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+          {"id":2,"text":"経済学者R（David Ricardo） / 経済学および課税の原理","explanation_zh":"陷阱：对象错位。该项与题干事实、资料条件或文章内容不一致。（题2-2选项2）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+          {"id":3,"text":"思想家M（Karl Marx） / 資本論","explanation_zh":"陷阱：数值错读。该项与题干事实、资料条件或文章内容不一致。（题2-2选项3）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+          {"id":4,"text":"経済学者K（John Maynard Keynes） / 雇用・利子および貨幣の一般理論","explanation_zh":"正确。该项与题干事实、资料条件或文章内容一致，能够唯一满足题意。（题2-2选项4）","explanation_ja":"正解。設問の事実、資料条件、または文章内容と一致する。"}
+        ],
+        "answer":4,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["主体取違","概念混同"],
+          "keywords_to_avoid":["景気対策","ケインズ","マルサス","リカード","マルクス"],
+          "sub_domain":"財政・租税",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の社会","item":"3.雇用・労働"}
+        },
+        "sources":[{"claim":"日本の公共投資や財政支出は内閣府・財務省統計で確認できる。","source":"内閣府 国民経済計算","year":"2026","url":"https://www.esri.cao.go.jp/jp/sna/menu.html"}]
+      },
+      {
+        "sub_id":3,
+        "global_id":7,
+        "prompt":"下線部3に関して、政治過程の透明性を確保する手段として最も適当なものを、次の①〜④の中から一つ選びなさい。",
+        "choices":[
+          {"id":1,"text":"陪審制","explanation_zh":"陷阱：方向相反。该项与题干事实、资料条件或文章内容不一致。（题2-3选项1）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+          {"id":2,"text":"違憲審査制度","explanation_zh":"陷阱：对象错位。该项与题干事实、资料条件或文章内容不一致。（题2-3选项2）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+          {"id":3,"text":"行政情報の公開制度","explanation_zh":"正确。该项与题干事实、资料条件或文章内容一致，能够唯一满足题意。（题2-3选项3）","explanation_ja":"正解。設問の事実、資料条件、または文章内容と一致する。"},
+          {"id":4,"text":"住民投票制度","explanation_zh":"陷阱：概念混淆。该项与题干事实、资料条件或文章内容不一致。（题2-3选项4）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"}
+        ],
+        "answer":3,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["主体取違","範囲拡大"],
+          "keywords_to_avoid":["政治の透明性","陪審制度","違憲立法審査制度","情報公開制度","国民投票"],
+          "sub_domain":"財政・租税",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の社会","item":"4.情報・科学技術の発展"}
+        },
+        "sources":[{"claim":"日本の公共投資や財政支出は内閣府・財務省統計で確認できる。","source":"内閣府 国民経済計算","year":"2026","url":"https://www.esri.cao.go.jp/jp/sna/menu.html"}]
+      }
+    ],
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"日本の公共投資と財政",
+      "sub_domain":"財政・租税",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"6. 財政"},
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "keywords_to_avoid":["公共事業","財政赤字","景気対策","政治の透明性"]
+    }
+  },
+  {
+    "id": 3,
+    "global_id": 8,
+    "title": "財政の資源配分機能",
+    "prompt": "",
+    "passage": "財政の役割の一つに資源の配分機能がある。この説明として最も適当なものを、次の①〜④の中から一つ選びなさい。",
+    "choices": [
+      {"id":1,"text":"生活保障制度によって、失業者や高齢者に給付金を支給する。","explanation_zh":"陷阱：方向相反。该项与题干事实、资料条件或文章内容不一致。（题3-0选项1）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+      {"id":2,"text":"収入税に累進的課税制度を導入し、収入の再分配を実施する。","explanation_zh":"陷阱：对象错位。该项与题干事实、资料条件或文章内容不一致。（题3-0选项2）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+      {"id":3,"text":"財政赤字の自治体に対して、国から助成金を支出する。","explanation_zh":"陷阱：数值错读。该项与题干事实、资料条件或文章内容不一致。（题3-0选项3）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+      {"id":4,"text":"社会的に必要であるが、私企業による供給が難しい財・サービスを供給する。","explanation_zh":"正确。该项与题干事实、资料条件或文章内容一致，能够唯一满足题意。（题3-0选项4）","explanation_ja":"正解。設問の事実、資料条件、または文章内容と一致する。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"財政の資源配分機能",
+      "sub_domain":"財政・租税",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"3.経済主体"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","範囲拡大"],
+      "keywords_to_avoid":["資源配分機能","社会保障","累進課税","補助金"]
+    },
+    "sources": [{"claim":"経済制度、市場、財政、金融、貿易に関する基礎事実を確認した。","source":"OpenStax Principles of Economics","year":"2026","url":"https://openstax.org/details/books/principles-economics-3e"}]
+  },
+  {
+    "id": 4,
+    "global_id": 9,
+    "title": "商品価格下落の要因",
+    "prompt": "",
+    "passage": "ある商品の価格が下落する場合には次の二つの要因が考えられる。\n\nA：需要数量の減少\nB：供給数量の増大\n\nAとBの要因の組み合わせとして最も適当なものを、次の①〜④の中から一つ選びなさい。",
+    "choices": [
+      {"id":1,"text":"A: 収入の減少 / B: 技術進歩","explanation_zh":"正确。该项与题干事实、资料条件或文章内容一致，能够唯一满足题意。（题4-0选项1）","explanation_ja":"正解。設問の事実、資料条件、または文章内容と一致する。"},
+      {"id":2,"text":"A: その商品の流行 / B: 技術進歩","explanation_zh":"陷阱：对象错位。该项与题干事实、资料条件或文章内容不一致。（题4-0选项2）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+      {"id":3,"text":"A: 収入の減少 / B: 賃金の上昇","explanation_zh":"陷阱：数值错读。该项与题干事实、资料条件或文章内容不一致。（题4-0选项3）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+      {"id":4,"text":"A: その商品の流行 / B: 賃金の上昇","explanation_zh":"陷阱：概念混淆。该项与题干事实、资料条件或文章内容不一致。（题4-0选项4）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"商品価格と需給",
+      "sub_domain":"経済原理・市場",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"2.市場経済"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","因果倒置"],
+      "keywords_to_avoid":["需要量","供給量","価格下落","技術革新","所得"]
+    },
+    "sources": [{"claim":"経済制度、市場、財政、金融、貿易に関する基礎事実を確認した。","source":"OpenStax Principles of Economics","year":"2026","url":"https://openstax.org/details/books/principles-economics-3e"}]
+  },
+  {
+    "id": 5,
+    "global_id": 10,
+    "title": "株式会社",
+    "prompt": "",
+    "passage": "株式発行会社に関する説明として最も適当なものを、次の①〜④の中から一つ選びなさい。",
+    "choices": [
+      {"id":1,"text":"株式発行会社が倒産した場合、出資者は出資金を失うことでその責任を果たす。","explanation_zh":"正确。该项与题干事实、资料条件或文章内容一致，能够唯一满足题意。（题5-0选项1）","explanation_ja":"正解。設問の事実、資料条件、または文章内容と一致する。"},
+      {"id":2,"text":"株式発行会社の株式は、有価証券市場のみで売買される。","explanation_zh":"陷阱：对象错位。该项与题干事实、资料条件或文章内容不一致。（题5-0选项2）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+      {"id":3,"text":"株式発行会社の最高の意思決定機関は、経営会議である。","explanation_zh":"陷阱：数值错读。该项与题干事实、资料条件或文章内容不一致。（题5-0选项3）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+      {"id":4,"text":"株式発行会社は、大量の資金を調達するために、高額面の株式を発行する。","explanation_zh":"陷阱：概念混淆。该项与题干事实、资料条件或文章内容不一致。（题5-0选项4）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"株式会社",
+      "sub_domain":"金融・通貨",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"3.経済主体"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["範囲拡大","時態錯位"],
+      "keywords_to_avoid":["株式会社","株主","証券取引所","取締役会"]
+    },
+    "sources": [{"claim":"経済制度、市場、財政、金融、貿易に関する基礎事実を確認した。","source":"OpenStax Principles of Economics","year":"2026","url":"https://openstax.org/details/books/principles-economics-3e"}]
+  },
+  {
+    "id": 6,
+    "global_id": 11,
+    "title": "金融政策",
+    "prompt": "",
+    "passage": "中央銀行がおこなう通貨政策に関する記述として最も適当なものを、次の①〜④の中から一つ選びなさい。",
+    "choices": [
+      {"id":1,"text":"好況期に準備率を下げ、通貨の総量を増加させる。","explanation_zh":"陷阱：方向相反。该项与题干事实、资料条件或文章内容不一致。（题6-0选项1）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+      {"id":2,"text":"好況期に税負担引上げをおこない、景気の過熱を抑止する。","explanation_zh":"陷阱：对象错位。该项与题干事实、资料条件或文章内容不一致。（题6-0选项2）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+      {"id":3,"text":"不況期に減税をおこない、消費や投資を促す。","explanation_zh":"陷阱：数值错读。该项与题干事实、资料条件或文章内容不一致。（题6-0选项3）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+      {"id":4,"text":"不況期に買入操作をおこない、市場に資金を供給する。","explanation_zh":"正确。该项与题干事实、资料条件或文章内容一致，能够唯一满足题意。（题6-0选项4）","explanation_ja":"正解。設問の事実、資料条件、または文章内容と一致する。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"中央銀行の金融政策",
+      "sub_domain":"金融・通貨",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"2.市場経済"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位","因果倒置"],
+      "keywords_to_avoid":["金融政策","預金準備率","増税","買いオペレーション"]
+    },
+    "sources": [{"claim":"経済制度、市場、財政、金融、貿易に関する基礎事実を確認した。","source":"OpenStax Principles of Economics","year":"2026","url":"https://openstax.org/details/books/principles-economics-3e"}]
+  },
+  {
+    "id": 7,
+    "global_id": 12,
+    "title": "円高の要因",
+    "prompt": "",
+    "passage": "円とドルの通貨相場が自国通貨高傾向になる要因として最も適当なものを、次の①〜④の中から一つ選びなさい。",
+    "choices": [
+      {"id":1,"text":"外国の投資家によるわが国への有価証券への投資の増加","explanation_zh":"正确。该项与题干事实、资料条件或文章内容一致，能够唯一满足题意。（题7-0选项1）","explanation_ja":"正解。設問の事実、資料条件、または文章内容と一致する。"},
+      {"id":2,"text":"わが国の低資金価格と米国（USA）の高資金価格","explanation_zh":"陷阱：对象错位。该项与题干事实、资料条件或文章内容不一致。（题7-0选项2）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+      {"id":3,"text":"米国の経常収支赤字の縮小","explanation_zh":"陷阱：数值错读。该项与题干事实、资料条件或文章内容不一致。（题7-0选项3）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+      {"id":4,"text":"わが国の企業による米国への事業投資の増加","explanation_zh":"陷阱：概念混淆。该项与题干事实、资料条件或文章内容不一致。（题7-0选项4）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"為替相場と円高",
+      "sub_domain":"金融・通貨",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"3.経済主体"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["因果倒置","時態錯位"],
+      "keywords_to_avoid":["円高","為替相場","証券投資","金利","直接投資"]
+    },
+    "sources": [{"claim":"経済制度、市場、財政、金融、貿易に関する基礎事実を確認した。","source":"OpenStax Principles of Economics","year":"2026","url":"https://openstax.org/details/books/principles-economics-3e"}]
+  },
+  {
+    "id": 8,
+    "title": "貿易依存度",
+    "prompt": "次の数値の説明は、2004年から2008年におけるわが国、国K（South Korea）、都市国家S（Singapore）、米国各国の貿易への依存比率（GDPに対する貿易額の比率）を示している。この数値の説明に関して、下の問い(1)、(2)に答えなさい。",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":13,
+        "prompt":"上の数値の説明から読み取れる内容として最も適当なものを、次の①〜④の中から一つ選びなさい。",
+        "choices":[
+          {"id":1,"text":"A国だけが2004年から2008年までの毎年、資本取引収支の赤字が続いた。","explanation_zh":"陷阱：方向相反。该项与题干事实、资料条件或文章内容不一致。（题8-1选项1）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+          {"id":2,"text":"B国は輸入への依存比率よりも輸出依存度の増加率の方が大きかった。","explanation_zh":"陷阱：对象错位。该项与题干事实、资料条件或文章内容不一致。（题8-1选项2）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+          {"id":3,"text":"C国は2008年に貿易収支が黒字から赤字に転じた。","explanation_zh":"正确。该项与题干事实、资料条件或文章内容一致，能够唯一满足题意。（题8-1选项3）","explanation_ja":"正解。設問の事実、資料条件、または文章内容と一致する。"},
+          {"id":4,"text":"D国のように貿易への依存比率の高い国はGDPが比較的大きな国である。","explanation_zh":"陷阱：概念混淆。该项与题干事实、资料条件或文章内容不一致。（题8-1选项4）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"}
+        ],
+        "answer":3,
+        "tag":{
+          "question_form":"図表読取",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["時態錯位","概念混同"],
+          "keywords_to_avoid":["貿易依存度","表","資本収支","輸入依存度"],
+          "sub_domain":"国際経済・貿易",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"4.国民経済"}
+        },
+        "sources":[{"claim":"貿易依存度は輸出入額をGDPなどで割って比較する指標である。","source":"World Bank Data","year":"2026","url":"https://data.worldbank.org/"}]
+      },
+      {
+        "sub_id":2,
+        "global_id":14,
+        "prompt":"上の数値の説明のA〜Dに当てはまる国名の組み合わせとして正しいものを、次の①〜④の中から一つ選びなさい。",
+        "choices":[
+          {"id":1,"text":"A: 都市国家S / B: 国K / C: わが国 / D: 米国","explanation_zh":"陷阱：方向相反。该项与题干事实、资料条件或文章内容不一致。（题8-2选项1）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+          {"id":2,"text":"A: 米国 / B: わが国 / C: 国K / D: 都市国家S","explanation_zh":"正确。该项与题干事实、资料条件或文章内容一致，能够唯一满足题意。（题8-2选项2）","explanation_ja":"正解。設問の事実、資料条件、または文章内容と一致する。"},
+          {"id":3,"text":"A: 米国 / B: 国K / C: 都市国家S / D: わが国","explanation_zh":"陷阱：数值错读。该项与题干事实、资料条件或文章内容不一致。（题8-2选项3）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+          {"id":4,"text":"A: わが国 / B: 米国 / C: 国K / D: 都市国家S","explanation_zh":"陷阱：概念混淆。该项与题干事实、资料条件或文章内容不一致。（题8-2选项4）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"}
+        ],
+        "answer":2,
+        "tag":{
+          "question_form":"図表読取",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["地域取違","数値混同"],
+          "keywords_to_avoid":["A国","B国","C国","D国","シンガポール","日本","韓国","アメリカ"],
+          "sub_domain":"国際経済・貿易"
+        },
+        "sources":[{"claim":"貿易依存度は輸出入額をGDPなどで割って比較する指標である。","source":"World Bank Data","year":"2026","url":"https://data.worldbank.org/"}]
+      }
+    ],
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"国際貿易依存度",
+      "sub_domain":"国際経済・貿易",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"10. 国際経済"},
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "keywords_to_avoid":["貿易依存度","GDP","日本","韓国","シンガポール","アメリカ"]
+    },
+    "passage": ""
+  },
+  {
+    "id": 9,
+    "global_id": 15,
+    "title": "ブラジル、ロシア、インドの輸出相手国",
+    "prompt": "",
+    "passage": "次の数値の説明は、南米国B（Brazil）、国R（Russia）、南アジア国I（India）の輸出先の上位5か国と、その構成比を示したものである（南米国B、国Rは2007年、南アジア国Iは2000年代半ば）。数値の説明中のA〜Cに当てはまる国名の組み合わせとして正しいものを、下の①〜④の中から一つ選びなさい。",
+    "choices": [
+      {"id":1,"text":"A: 国R / B: 南米国B / C: 南アジア国I","explanation_zh":"陷阱：方向相反。该项与题干事实、资料条件或文章内容不一致。（题9-0选项1）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+      {"id":2,"text":"A: 南アジア国I / B: 南米国B / C: 国R","explanation_zh":"陷阱：对象错位。该项与题干事实、资料条件或文章内容不一致。（题9-0选项2）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+      {"id":3,"text":"A: 南アジア国I / B: 国R / C: 南米国B","explanation_zh":"正确。该项与题干事实、资料条件或文章内容一致，能够唯一满足题意。（题9-0选项3）","explanation_ja":"正解。設問の事実、資料条件、または文章内容と一致する。"},
+      {"id":4,"text":"A: 南米国B / B: 南アジア国I / C: 国R","explanation_zh":"陷阱：概念混淆。该项与题干事实、资料条件或文章内容不一致。（题9-0选项4）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"BRICs国の輸出相手国",
+      "sub_domain":"国際経済・貿易",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"10. 国際経済"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["地域取違","概念混同"],
+      "keywords_to_avoid":["ブラジル","ロシア","インド","輸出相手国","表"]
+    },
+    "sources": [{"claim":"各国の輸出相手国は国際貿易統計で確認できる。","source":"UN Comtrade","year":"2026","url":"https://comtradeplus.un.org/"}]
+  },
+  {
+    "id": 10,
+    "global_id": 16,
+    "title": "IMF体制",
+    "prompt": "",
+    "passage": "国際通貨基金（IMF）体制に関する説明として最も適当なものを、次の①〜④の中から一つ選びなさい。",
+    "choices": [
+      {"id":1,"text":"IMFは、加盟国に自国の通貨相場の変動を上下5％以内に抑える義務を課していた。","explanation_zh":"陷阱：方向相反。该项与题干事实、资料条件或文章内容不一致。（题10-0选项1）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+      {"id":2,"text":"IMFは、加盟国の出資した資金をもとにして、対外取引収支の赤字国に対して短期資金を供給するという役割を持っている。","explanation_zh":"正确。该项与题干事实、资料条件或文章内容一致，能够唯一满足题意。（题10-0选项2）","explanation_ja":"正解。設問の事実、資料条件、または文章内容と一致する。"},
+      {"id":3,"text":"戦後国際通貨体制は米国の金・ドル交換停止によって大きく揺らぎ、1985年の1985年の通貨合意（Plaza Accord）後、変動相場体制に移行することになった。","explanation_zh":"陷阱：数值错读。该项与题干事实、资料条件或文章内容不一致。（题10-0选项3）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+      {"id":4,"text":"IMFは米国のドルを基軸通貨として利用することを各国に義務づけたため、加盟国の利用する国際通貨がポンドからドルに転換する契機となった。","explanation_zh":"陷阱：概念混淆。该项与题干事实、资料条件或文章内容不一致。（题10-0选项4）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"IMF体制",
+      "sub_domain":"金融・通貨",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"2.市場経済"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位","範囲拡大"],
+      "keywords_to_avoid":["IMF体制","為替相場","プラザ合意","国際収支"]
+    },
+    "sources": [{"claim":"経済制度、市場、財政、金融、貿易に関する基礎事実を確認した。","source":"OpenStax Principles of Economics","year":"2026","url":"https://openstax.org/details/books/principles-economics-3e"}]
+  },
+  {
+    "id": 11,
+    "global_id": 17,
+    "title": "高齢化率の推移",
+    "prompt": "",
+    "passage": "次の数値の説明は、4か国A〜Dの高齢者比率（65歳以上住民数の総住民数に対する比率）の変化と将来見通しを示したものである。数値の説明中のA〜Dに当てはまる国名の組み合わせとして正しいものを、下の①〜④の中から一つ選びなさい。",
+    "choices": [
+      {"id":1,"text":"A: わが国 / B: 独国 / C: 英国 / D: 米国","explanation_zh":"正确。该项与题干事实、资料条件或文章内容一致，能够唯一满足题意。（题11-0选项1）","explanation_ja":"正解。設問の事実、資料条件、または文章内容と一致する。"},
+      {"id":2,"text":"A: 独国 / B: わが国 / C: 米国 / D: 英国","explanation_zh":"陷阱：对象错位。该项与题干事实、资料条件或文章内容不一致。（题11-0选项2）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+      {"id":3,"text":"A: わが国 / B: 独国 / C: 米国 / D: 英国","explanation_zh":"陷阱：数值错读。该项与题干事实、资料条件或文章内容不一致。（题11-0选项3）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+      {"id":4,"text":"A: 独国 / B: わが国 / C: 英国 / D: 米国","explanation_zh":"陷阱：概念混淆。该项与题干事实、资料条件或文章内容不一致。（题11-0选项4）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"社会",
+      "topic":"高齢化率の国際比較",
+      "sub_domain":"人口・家族",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"7.社会保障"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["地域取違","時態錯位"],
+      "keywords_to_avoid":["高齢化率","推移","将来推計","日本","ドイツ","イギリス","アメリカ"]
+    },
+    "sources": [{"claim":"65歳以上人口割合の国際比較は世界銀行統計で確認できる。","source":"World Bank Data","year":"2026","url":"https://data.worldbank.org/indicator/SP.POP.65UP.TO.ZS"}]
+  },
+  {
+    "id": 12,
+    "global_id": 18,
+    "title": "日本の環境対策",
+    "prompt": "",
+    "passage": "わが国における環境対策に関する記述として最も適当なものを、次の①〜④の中から一つ選びなさい。",
+    "choices": [
+      {"id":1,"text":"炭素への課税が導入され、温室効果ガスの排出に厳しい規制が設けられている。","explanation_zh":"陷阱：方向相反。该项与题干事实、资料条件或文章内容不一致。（题12-0选项1）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+      {"id":2,"text":"わが国国内では複合動力車と電気自動車のみが走行を許可されている。","explanation_zh":"陷阱：对象错位。该项与题干事实、资料条件或文章内容不一致。（题12-0选项2）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+      {"id":3,"text":"資源循環社会形成推進基本法が制定され、資源の再利用が促進されている。","explanation_zh":"正确。该项与题干事实、资料条件或文章内容一致，能够唯一满足题意。（题12-0选项3）","explanation_ja":"正解。設問の事実、資料条件、または文章内容と一致する。"},
+      {"id":4,"text":"国土の緑化を目指すため、森林の伐採が2000年から10年間禁止されている。","explanation_zh":"陷阱：概念混淆。该项与题干事实、资料条件或文章内容不一致。（题12-0选项4）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"社会",
+      "topic":"日本の環境対策",
+      "sub_domain":"現代社会問題",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の社会","item":"1. 環境と資源"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["時態錯位","範囲拡大"],
+      "keywords_to_avoid":["炭素税","ハイブリッド車","循環型社会","森林伐採"]
+    },
+    "sources": [{"claim":"社会問題、人口、環境、国際関係に関する基礎事実を確認した。","source":"OECD Data","year":"2026","url":"https://data.oecd.org/"}]
+  },
+  {
+    "id": 13,
+    "global_id": 19,
+    "title": "地球儀",
+    "prompt": "",
+    "passage": "地球模型に関する次の文章を読み、文章中の下線部1、2の正誤について、その正誤の組み合わせとして正しいものを、下の①〜④の中から一つ選びなさい。\n\n地球模型上の低緯度線から北の極点までの長さが50cmとなっているものは、全周が4万kmである地球を₁8,000万分の1に縮小比率した地球模型ということになる。地球模型は地球全体を見渡すのには役に立つが、₂限定された範囲について地形を示す図の代わりに使うには適さない。",
+    "choices": [
+      {"id":1,"text":"下線部1: 正 / 下線部2: 正","explanation_zh":"陷阱：方向相反。该项与题干事实、资料条件或文章内容不一致。（题13-0选项1）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+      {"id":2,"text":"下線部1: 正 / 下線部2: 誤","explanation_zh":"陷阱：对象错位。该项与题干事实、资料条件或文章内容不一致。（题13-0选项2）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+      {"id":3,"text":"下線部1: 誤 / 下線部2: 正","explanation_zh":"正确。该项与题干事实、资料条件或文章内容一致，能够唯一满足题意。（题13-0选项3）","explanation_ja":"正解。設問の事実、資料条件、または文章内容と一致する。"},
+      {"id":4,"text":"下線部1: 誤 / 下線部2: 誤","explanation_zh":"陷阱：概念混淆。该项与题干事实、资料条件或文章内容不一致。（题13-0选项4）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"地球儀の縮尺",
+      "sub_domain":"自然地理",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"正誤判定",
+      "statement_polarity":"正答誤記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["数値混同","概念混同"],
+      "keywords_to_avoid":["地球儀","赤道","北極点","縮尺","地形図"]
+    },
+    "sources": [{"claim":"地形、気候、地域、人口、地誌に関する基礎事実を確認した。","source":"Encyclopaedia Britannica","year":"2026","url":"https://www.britannica.com/"}]
+  },
+  {
+    "id": 14,
+    "global_id": 20,
+    "title": "南極大陸の地図",
+    "prompt": "",
+    "passage": "次の地域説明は、南極地域（Antarctica）付近を描いたものである。地域説明中の線Xと線Yの組み合わせとして最も適当なものを、下の①〜④の中から一つ選びなさい。",
+    "choices": [
+      {"id":1,"text":"X: 東側の経度90度と西側の経度90度を通る南北線 / Y: 南側の緯度66度の東西線","explanation_zh":"正确。该项与题干事实、资料条件或文章内容一致，能够唯一满足题意。（题14-0选项1）","explanation_ja":"正解。設問の事実、資料条件、または文章内容と一致する。"},
+      {"id":2,"text":"X: 東側の経度60度と西側の経度120度を通る南北線 / Y: 南側の緯度80度の東西線","explanation_zh":"陷阱：对象错位。该项与题干事实、资料条件或文章内容不一致。（题14-0选项2）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+      {"id":3,"text":"X: 東側の経度90度と西側の経度90度を通る南北線 / Y: 南側の緯度80度の東西線","explanation_zh":"陷阱：数值错读。该项与题干事实、资料条件或文章内容不一致。（题14-0选项3）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+      {"id":4,"text":"X: 東側の経度60度と西側の経度120度を通る南北線 / Y: 南側の緯度66度の東西線","explanation_zh":"陷阱：概念混淆。该项与题干事实、资料条件或文章内容不一致。（题14-0选项4）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"南極地図の経線と緯線",
+      "sub_domain":"自然地理",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["地域取違","数値混同"],
+      "keywords_to_avoid":["南極大陸","経線","緯線","東経","西経","南緯"]
+    },
+    "sources": [{"claim":"地形、気候、地域、人口、地誌に関する基礎事実を確認した。","source":"Encyclopaedia Britannica","year":"2026","url":"https://www.britannica.com/"}]
+  },
+  {
+    "id": 15,
+    "global_id": 21,
+    "title": "日本の四つの島",
+    "prompt": "",
+    "passage": "わが国の北の大島、中央の大島、瀬戸内南側の島地方地方地方、西南の大島地方地方地方の四つの島に関する記述として正しいものを、次の①〜④の中から一つ選びなさい。",
+    "choices": [
+      {"id":1,"text":"四つの島を面積の広い順に並べると、中央の大島、西南の大島地方、北の大島、瀬戸内南側の島地方の順になる。","explanation_zh":"陷阱：方向相反。该项与题干事实、资料条件或文章内容不一致。（题15-0选项1）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+      {"id":2,"text":"中央の大島は北の大島、瀬戸内南側の島地方、西南の大島地方と道路または鉄道で結ばれている。","explanation_zh":"正确。该项与题干事实、资料条件或文章内容一致，能够唯一满足题意。（题15-0选项2）","explanation_ja":"正解。設問の事実、資料条件、または文章内容と一致する。"},
+      {"id":3,"text":"わが国には、各地に噴火でできた地形地形があるが、北の大島にだけは噴火でできた地形地形がない。","explanation_zh":"陷阱：数值错读。该项与题干事实、资料条件或文章内容不一致。（题15-0选项3）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+      {"id":4,"text":"住民数100万人以上の大きな都市があるのは中央の大島に限られる。","explanation_zh":"陷阱：概念混淆。该项与题干事实、资料条件或文章内容不一致。（题15-0选项4）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"日本の四つの島",
+      "sub_domain":"日本地誌",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["範囲拡大","順序混同"],
+      "keywords_to_avoid":["北海道","本州","四国","九州","火山","大都市"]
+    },
+    "sources": [{"claim":"地形、気候、地域、人口、地誌に関する基礎事実を確認した。","source":"Encyclopaedia Britannica","year":"2026","url":"https://www.britannica.com/"}]
+  },
+  {
+    "id": 16,
+    "global_id": 22,
+    "title": "気候と植生",
+    "prompt": "",
+    "passage": "植物の生育には気候環境環境環境が影響するので、世界の気候環境環境環境と植物分布の間にはそれぞれの分布地域が重なるなど深い関係がある。これらの関係の組み合わせとして正しいものを、次の①〜④の中から一つ選びなさい。",
+    "choices": [
+      {"id":1,"text":"やや乾燥気候環境環境 / ステップと呼ばれる草原が広がる / 南米国のセルバ","explanation_zh":"陷阱：方向相反。该项与题干事实、资料条件或文章内容不一致。（题16-0选项1）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+      {"id":2,"text":"低緯度多雨帯気候環境環境 / 落葉樹林の密林となっている / 東南アジアのジャングル","explanation_zh":"陷阱：对象错位。该项与题干事实、资料条件或文章内容不一致。（题16-0选项2）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+      {"id":3,"text":"中緯度帯気候環境環境 / 多様な常緑広葉樹林が見られる / 北米国のプレーリー","explanation_zh":"陷阱：数值错读。该项与题干事实、资料条件或文章内容不一致。（题16-0选项3）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+      {"id":4,"text":"亜寒帯気候環境環境 / 単一種の針葉樹帯になることが多い / シベリアのタイガ","explanation_zh":"正确。该项与题干事实、资料条件或文章内容一致，能够唯一满足题意。（题16-0选项4）","explanation_ja":"正解。設問の事実、資料条件、または文章内容と一致する。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"世界の気候と植生",
+      "sub_domain":"自然地理",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"2. 現代世界の諸地域"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["地域取違","概念混同"],
+      "keywords_to_avoid":["気候","植生","半乾燥","熱帯","温帯","冷帯"]
+    },
+    "sources": [{"claim":"地形、気候、地域、人口、地誌に関する基礎事実を確認した。","source":"Encyclopaedia Britannica","year":"2026","url":"https://www.britannica.com/"}]
+  },
+  {
+    "id": 17,
+    "global_id": 23,
+    "title": "人工衛星からの情報",
+    "prompt": "",
+    "passage": "宇宙からの観測装置から送られてくるさまざまな情報の利用に関する記述として誤っているものを、次の①〜④の中から一つ選びなさい。",
+    "choices": [
+      {"id":1,"text":"気象予測を出す際には、宇宙からの観測装置から写された雲の写真を参考にしている。","explanation_zh":"陷阱：方向相反。该项与题干事实、资料条件或文章内容不一致。（题17-0选项1）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+      {"id":2,"text":"何年かおきに同じ場所を撮影した宇宙観測資料を比較すると、自然環境の変化を知ることができる。","explanation_zh":"陷阱：对象错位。该项与题干事实、资料条件或文章内容不一致。（题17-0选项2）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+      {"id":3,"text":"宇宙からの観測装置からの位置データによって、自動車や人などの現在地を地域説明上に示すことができるようになった。","explanation_zh":"陷阱：数值错读。该项与题干事实、资料条件或文章内容不一致。（题17-0选项3）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+      {"id":4,"text":"地域説明の作成には現地に出かけて測量する必要があるので、宇宙からの観測装置からの情報は役立たない。","explanation_zh":"正确。该项与题干事实、资料条件或文章内容一致，能够唯一满足题意。（题17-0选项4）","explanation_ja":"正解。設問の事実、資料条件、または文章内容と一致する。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"人工衛星の利用",
+      "sub_domain":"産業・資源",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答誤記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位","範囲拡大"],
+      "keywords_to_avoid":["人工衛星","天気予報","衛星写真","地図作成","位置情報"]
+    },
+    "sources": [{"claim":"地形、気候、地域、人口、地誌に関する基礎事実を確認した。","source":"Encyclopaedia Britannica","year":"2026","url":"https://www.britannica.com/"}]
+  },
+  {
+    "id": 18,
+    "global_id": 24,
+    "title": "外国人登録者数",
+    "prompt": "",
+    "passage": "次の数値の説明は、2008年における外国籍住民が10万人を超える都道府県である東京都、大阪府、埼玉県、千葉県、神奈川県、静岡県、愛知県、兵庫県の外国籍住民数、住民数、その住民数に対する比率を示している。数値の説明中のA〜Cに当てはまる県名の組み合わせとして正しいものを、下の①〜④の中から一つ選びなさい。",
+    "choices": [
+      {"id":1,"text":"A: 埼玉県 / B: 神奈川県 / C: 愛知県","explanation_zh":"陷阱：方向相反。该项与题干事实、资料条件或文章内容不一致。（题18-0选项1）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+      {"id":2,"text":"A: 愛知県 / B: 神奈川県 / C: 埼玉県","explanation_zh":"正确。该项与题干事实、资料条件或文章内容一致，能够唯一满足题意。（题18-0选项2）","explanation_ja":"正解。設問の事実、資料条件、または文章内容と一致する。"},
+      {"id":3,"text":"A: 埼玉県 / B: 愛知県 / C: 神奈川県","explanation_zh":"陷阱：数值错读。该项与题干事实、资料条件或文章内容不一致。（题18-0选项3）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+      {"id":4,"text":"A: 神奈川県 / B: 愛知県 / C: 埼玉県","explanation_zh":"陷阱：概念混淆。该项与题干事实、资料条件或文章内容不一致。（题18-0选项4）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"社会",
+      "topic":"外国人登録者の分布",
+      "sub_domain":"ジェンダー・人権",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の社会","item":"5. 国際社会と平和"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["地域取違","数値混同"],
+      "keywords_to_avoid":["外国人登録者","都府県","人口","割合","表"]
+    },
+    "sources": [{"claim":"日本の外国人人口・在留者数は政府統計で確認できる。","source":"出入国在留管理庁","year":"2026","url":"https://www.moj.go.jp/isa/"}]
+  },
+  {
+    "id": 19,
+    "global_id": 25,
+    "title": "近代的成文憲法",
+    "prompt": "",
+    "passage": "ロック（John Locke）の社会契約説や、モンテスキュー（Charles de Montesquieu）の三権分立論の影響を受けた、世界で最初の近代的成文憲法として最も適当なものを、次の①〜④の中から一つ選びなさい。",
+    "choices": [
+      {"id":1,"text":"独国基本法","explanation_zh":"陷阱：方向相反。该项与题干事实、资料条件或文章内容不一致。（题19-0选项1）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+      {"id":2,"text":"大わが国帝国憲法","explanation_zh":"陷阱：对象错位。该项与题干事实、资料条件或文章内容不一致。（题19-0选项2）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+      {"id":3,"text":"米国合衆国憲法","explanation_zh":"正确。该项与题干事实、资料条件或文章内容一致，能够唯一满足题意。（题19-0选项3）","explanation_ja":"正解。設問の事実、資料条件、または文章内容と一致する。"},
+      {"id":4,"text":"フランス（France）共和国憲法","explanation_zh":"陷阱：概念混淆。该项与题干事实、资料条件或文章内容不一致。（题19-0选项4）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"近代的成文憲法",
+      "sub_domain":"近代世界",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の社会","item":"2. 私法と契約"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違","時態錯位"],
+      "keywords_to_avoid":["ロック","モンテスキュー","社会契約説","三権分立論","成文憲法"]
+    },
+    "sources": [{"claim":"近現代史上の事件、制度変化、国際関係に関する基礎事実を確認した。","source":"Encyclopaedia Britannica","year":"2026","url":"https://www.britannica.com/"}]
+  },
+  {
+    "id": 20,
+    "global_id": 26,
+    "title": "議院内閣制",
+    "prompt": "",
+    "passage": "議院内閣制に関する記述として最も適当なものを、次の①〜④の中から一つ選びなさい。",
+    "choices": [
+      {"id":1,"text":"首相は国民の直接選挙によって選ばれる。","explanation_zh":"陷阱：方向相反。该项与题干事实、资料条件或文章内容不一致。（题20-0选项1）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+      {"id":2,"text":"内閣は議会の信任に基づいて存立する。","explanation_zh":"正确。该项与题干事实、资料条件或文章内容一致，能够唯一满足题意。（题20-0选项2）","explanation_ja":"正解。設問の事実、資料条件、または文章内容と一致する。"},
+      {"id":3,"text":"内閣は議会への法案提出権を持たない。","explanation_zh":"陷阱：数值错读。该项与题干事实、资料条件或文章内容不一致。（题20-0选项3）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+      {"id":4,"text":"閣僚は議会に議席を持たないのが一般的である。","explanation_zh":"陷阱：概念混淆。该项与题干事实、资料条件或文章内容不一致。（题20-0选项4）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"議院内閣制",
+      "sub_domain":"三権分立・統治機構",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"1.民主政治"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違","時態錯位"],
+      "keywords_to_avoid":["議院内閣制","首相","内閣","議会","信任"]
+    },
+    "sources": [{"claim":"政治制度、人権、地方自治、国際政治に関する基礎事実を確認した。","source":"衆議院 日本国憲法","year":"2026","url":"https://www.shugiin.go.jp/internet/itdb_annai.nsf/html/statics/shiryo/dl-constitution.htm"}]
+  },
+  {
+    "id": 21,
+    "global_id": 27,
+    "title": "司法権の独立",
+    "prompt": "",
+    "passage": "司法権の独立は、裁判官の独立と裁判所の独立からなる。わが国における司法権の独立に関する記述として最も適当なものを、次の①〜④の中から一つ選びなさい。",
+    "choices": [
+      {"id":1,"text":"裁判官が誰からも圧力を受けないように、裁判は非公開でおこなわれる。","explanation_zh":"陷阱：方向相反。该项与题干事实、资料条件或文章内容不一致。（题21-0选项1）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+      {"id":2,"text":"内閣や国会からの干渉を受けないように、最高裁判所長官は最高裁判所の裁判官による互選で選ばれる。","explanation_zh":"陷阱：对象错位。该项与题干事实、资料条件或文章内容不一致。（题21-0选项2）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+      {"id":3,"text":"裁判官の独立を守るため、裁判官の懲戒処分を行政機関がおこなうことは禁じられている。","explanation_zh":"正确。该项与题干事实、资料条件或文章内容一致，能够唯一满足题意。（题21-0选项3）","explanation_ja":"正解。設問の事実、資料条件、または文章内容と一致する。"},
+      {"id":4,"text":"それぞれの裁判所が独立した権限を有しているため、下級裁判所は独自に裁判官を指名することができる。","explanation_zh":"陷阱：概念混淆。该项与题干事实、资料条件或文章内容不一致。（题21-0选项4）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"司法権の独立",
+      "sub_domain":"三権分立・統治機構",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"2. 日本の統治機構"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違","時態錯位"],
+      "keywords_to_avoid":["司法権の独立","裁判官","裁判所","懲戒処分","最高裁判所"]
+    },
+    "sources": [{"claim":"政治制度、人権、地方自治、国際政治に関する基礎事実を確認した。","source":"衆議院 日本国憲法","year":"2026","url":"https://www.shugiin.go.jp/internet/itdb_annai.nsf/html/statics/shiryo/dl-constitution.htm"}]
+  },
+  {
+    "id": 22,
+    "global_id": 28,
+    "title": "日本国憲法の前文",
+    "prompt": "",
+    "passage": "次の文章は、わが国国憲法の前文の一部である。\n\nわれらは、平和を維持し、専制と隷従、圧迫と偏狭を地上から永遠に除去しようと努めている国際社会において、名誉ある地位を占めたいと思う。われらは、全世界の国民が、ひとしく恐怖と欠乏から免れ、平和のうちに生存する権利を有することを確認する。\n\n下線部の中で「平和のうちに生存する権利」は一般的に「平和的生存権」と言われているが、「恐怖から免れる権利」と「欠乏から免れる権利」は大きく分類するとどの権利に対応するか。その組み合わせとして正しいものを、次の①〜④の中から一つ選びなさい。",
+    "choices": [
+      {"id":1,"text":"恐怖から免れる権利: 自由権 / 欠乏から免れる権利: 社会権","explanation_zh":"正确。该项与题干事实、资料条件或文章内容一致，能够唯一满足题意。（题22-0选项1）","explanation_ja":"正解。設問の事実、資料条件、または文章内容と一致する。"},
+      {"id":2,"text":"恐怖から免れる権利: 社会権 / 欠乏から免れる権利: 自由権","explanation_zh":"陷阱：对象错位。该项与题干事实、资料条件或文章内容不一致。（题22-0选项2）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+      {"id":3,"text":"恐怖から免れる権利: 自由権 / 欠乏から免れる権利: 自由権","explanation_zh":"陷阱：数值错读。该项与题干事实、资料条件或文章内容不一致。（题22-0选项3）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+      {"id":4,"text":"恐怖から免れる権利: 社会権 / 欠乏から免れる権利: 社会権","explanation_zh":"陷阱：概念混淆。该项与题干事实、资料条件或文章内容不一致。（题22-0选项4）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"日本国憲法の基本原則",
+      "sub_domain":"憲法・人権",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"3. 日本国憲法"},
+      "question_form":"組合せ",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","主体取違"],
+      "keywords_to_avoid":["平和的生存権","自由権","社会権","恐怖","欠乏"]
+    },
+    "sources": [{"claim":"政治制度、人権、地方自治、国際政治に関する基礎事実を確認した。","source":"衆議院 日本国憲法","year":"2026","url":"https://www.shugiin.go.jp/internet/itdb_annai.nsf/html/statics/shiryo/dl-constitution.htm"}]
+  },
+  {
+    "id": 23,
+    "global_id": 29,
+    "title": "新しい人権",
+    "prompt": "",
+    "passage": "わが国における「新しい人権」に関する記述として最も適当なものを、次の①〜④の中から一つ選びなさい。",
+    "choices": [
+      {"id":1,"text":"国際条約によって保障されるようになった人権のことである。","explanation_zh":"陷阱：方向相反。该项与题干事实、资料条件或文章内容不一致。（题23-0选项1）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+      {"id":2,"text":"1980年代以降、憲法に新しく明記された人権のことである。","explanation_zh":"陷阱：对象错位。该项与题干事实、资料条件或文章内容不一致。（题23-0选项2）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+      {"id":3,"text":"健康で文化的な最低限度の生活を営む権利は、新しい人権に含まれる。","explanation_zh":"陷阱：数值错读。该项与题干事实、资料条件或文章内容不一致。（题23-0选项3）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+      {"id":4,"text":"知る権利は新しい人権に含まれ、情報公開法がこの権利を支えている。","explanation_zh":"正确。该项与题干事实、资料条件或文章内容一致，能够唯一满足题意。（题23-0选项4）","explanation_ja":"正解。設問の事実、資料条件、または文章内容と一致する。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"新しい人権",
+      "sub_domain":"憲法・人権",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"3. 日本国憲法"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["範囲拡大","時態錯位"],
+      "keywords_to_avoid":["新しい人権","国際条約","憲法","健康で文化的な最低限度","知る権利","情報公開法"]
+    },
+    "sources": [{"claim":"政治制度、人権、地方自治、国際政治に関する基礎事実を確認した。","source":"衆議院 日本国憲法","year":"2026","url":"https://www.shugiin.go.jp/internet/itdb_annai.nsf/html/statics/shiryo/dl-constitution.htm"}]
+  },
+  {
+    "id": 24,
+    "global_id": 30,
+    "title": "日本の地方自治",
+    "prompt": "",
+    "passage": "わが国における地方自治に関する記述として最も適当なものを、次の①〜④の中から一つ選びなさい。",
+    "choices": [
+      {"id":1,"text":"都道府県知事、市町村長は独自の判断で条例を制定し、執行することができる。","explanation_zh":"陷阱：方向相反。该项与题干事实、资料条件或文章内容不一致。（题24-0选项1）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+      {"id":2,"text":"都道府県知事、市町村長はともに、住民による選挙で選ばれる。","explanation_zh":"正确。该项与题干事实、资料条件或文章内容一致，能够唯一满足题意。（题24-0选项2）","explanation_ja":"正解。設問の事実、資料条件、または文章内容と一致する。"},
+      {"id":3,"text":"内閣総理大臣は、市町村長を解職できるが、都道府県知事を解職できない。","explanation_zh":"陷阱：数值错读。该项与题干事实、资料条件或文章内容不一致。（题24-0选项3）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+      {"id":4,"text":"住民の求めに応じて、裁判所が地方議会選挙や首長選挙を無効にすることをリコールという。","explanation_zh":"陷阱：概念混淆。该项与题干事实、资料条件或文章内容不一致。（题24-0选项4）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"日本の地方自治",
+      "sub_domain":"地方自治",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"2. 日本の統治機構"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違","時態錯位"],
+      "keywords_to_avoid":["地方自治","都道府県知事","市町村長","条例","内閣総理大臣"]
+    },
+    "sources": [{"claim":"政治制度、人権、地方自治、国際政治に関する基礎事実を確認した。","source":"衆議院 日本国憲法","year":"2026","url":"https://www.shugiin.go.jp/internet/itdb_annai.nsf/html/statics/shiryo/dl-constitution.htm"}]
+  },
+  {
+    "id": 25,
+    "title": "南北問題",
+    "prompt": "南北問題に関する次の文章を読み、下の問い(1)、(2)に答えなさい。",
+    "passage": "第二次世界大戦（WWII）後、世界各地で多くの独立国が生まれた。これらの国の中には、植民地時代からの単一作物依存経済のため、経済的な自立・発展が立ち遅れた国もある。\n\n1960年代以降、発展途上国の側は、[ a ]などを開催し、第三世界の結集を試みた。他方、先進諸国は、[ b ]を結成し、自由貿易の拡大を目指すとともに、途上国に開発援助をおこなった。また国連（UN）は、国際協力による南北問題の解決を目的として、[ c ]を設立した。",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":31,
+        "prompt":"下線部の「単一作物依存経済」の弊害の説明として最も適当なものを、次の①〜④の中から一つ選びなさい。",
+        "choices":[
+          {"id":1,"text":"外国から誘致した製造会社に依存し、自国の製造業が発展しない傾向がある。","explanation_zh":"陷阱：方向相反。该项与题干事实、资料条件或文章内容不一致。（题25-1选项1）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+          {"id":2,"text":"第三次産業のみに特化し、第1次産業が発展しない傾向がある。","explanation_zh":"陷阱：对象错位。该项与题干事实、资料条件或文章内容不一致。（题25-1选项2）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+          {"id":3,"text":"自給的生活型の国内経済が作られ、輸出産業が発展しない傾向がある。","explanation_zh":"陷阱：数值错读。该项与题干事实、资料条件或文章内容不一致。（题25-1选项3）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+          {"id":4,"text":"国際市場での価格変動の影響を受け、安定した外貨収入源につながらない傾向がある。","explanation_zh":"正确。该项与题干事实、资料条件或文章内容一致，能够唯一满足题意。（题25-1选项4）","explanation_ja":"正解。設問の事実、資料条件、または文章内容と一致する。"}
+        ],
+        "answer":4,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["概念混同","因果倒置"],
+          "keywords_to_avoid":["モノカルチャー経済","製造企業","第一次産業","自給自足","外貨収入"],
+          "sub_domain":"国際経済・貿易",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"3.経済主体"}
+        },
+        "sources":[{"claim":"総合科目の地理・歴史・公民分野の基礎事実を確認した。","source":"Encyclopaedia Britannica","year":"2026","url":"https://www.britannica.com/"}]
+      },
+      {
+        "sub_id":2,
+        "global_id":32,
+        "prompt":"上の文章中の空欄[ a ]〜[ c ]に当てはまる語の組み合わせとして最も適当なものを、次の①〜④の中から一つ選びなさい。",
+        "choices":[
+          {"id":1,"text":"a: アジア・アフリカ会議 / b: OPEC / c: UNESCO","explanation_zh":"陷阱：方向相反。该项与题干事实、资料条件或文章内容不一致。（题25-2选项1）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+          {"id":2,"text":"a: 経済相互援助会議 / b: WTO / c: WHO","explanation_zh":"陷阱：对象错位。该项与题干事实、资料条件或文章内容不一致。（题25-2选项2）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+          {"id":3,"text":"a: 経済社会理事会 / b: GATT / c: UNHCR","explanation_zh":"陷阱：数值错读。该项与题干事实、资料条件或文章内容不一致。（题25-2选项3）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+          {"id":4,"text":"a: 非同盟諸国首脳会議 / b: OECD / c: UNCTAD","explanation_zh":"正确。该项与题干事实、资料条件或文章内容一致，能够唯一满足题意。（题25-2选项4）","explanation_ja":"正解。設問の事実、資料条件、または文章内容と一致する。"}
+        ],
+        "answer":4,
+        "tag":{
+          "question_form":"組合せ",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["主体取違","地域取違"],
+          "keywords_to_avoid":["アジア・アフリカ会議","非同盟諸国首脳会議","OPEC","GATT","OECD","UNCTAD"],
+          "sub_domain":"国際経済・貿易"
+        },
+        "sources":[{"claim":"総合科目の地理・歴史・公民分野の基礎事実を確認した。","source":"Encyclopaedia Britannica","year":"2026","url":"https://www.britannica.com/"}]
+      }
+    ],
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"南北問題とモノカルチャー経済",
+      "sub_domain":"国際経済・貿易",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"10. 国際経済"},
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "keywords_to_avoid":["南北問題","独立国","モノカルチャー経済","発展途上国","先進国"]
+    }
+  },
+  {
+    "id": 26,
+    "global_id": 33,
+    "title": "砂漠化の原因",
+    "prompt": "",
+    "passage": "地球環境問題の一つに砂漠化の問題がある。砂漠化の原因として適当でないものを、次の①〜④の中から一つ選びなさい。",
+    "choices": [
+      {"id":1,"text":"薪炭材の過剰な採取","explanation_zh":"陷阱：方向相反。该项与题干事实、资料条件或文章内容不一致。（题26-0选项1）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+      {"id":2,"text":"原油の過剰な採掘","explanation_zh":"正确。该项与题干事实、资料条件或文章内容一致，能够唯一满足题意。（题26-0选项2）","explanation_ja":"正解。設問の事実、資料条件、または文章内容と一致する。"},
+      {"id":3,"text":"家畜の過剰な放牧","explanation_zh":"陷阱：数值错读。该项与题干事实、资料条件或文章内容不一致。（题26-0选项3）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+      {"id":4,"text":"不適切な灌漑による塩分の集積","explanation_zh":"陷阱：概念混淆。该项与题干事实、资料条件或文章内容不一致。（题26-0选项4）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"社会",
+      "topic":"砂漠化の原因",
+      "sub_domain":"現代社会問題",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の社会","item":"1. 環境と資源"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答誤記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["因果倒置","概念混同"],
+      "keywords_to_avoid":["砂漠化","薪炭材","原油採掘","家畜放牧","灌漑"]
+    },
+    "sources": [{"claim":"社会問題、人口、環境、国際関係に関する基礎事実を確認した。","source":"OECD Data","year":"2026","url":"https://data.oecd.org/"}]
+  },
+  {
+    "id": 27,
+    "global_id": 34,
+    "title": "フランス革命",
+    "prompt": "",
+    "passage": "フランス革命に関する記述として最も適当なものを、次の①〜④の中から一つ選びなさい。",
+    "choices": [
+      {"id":1,"text":"独国の支配からの脱却を目指す国民運動として展開された。","explanation_zh":"陷阱：方向相反。该项与题干事实、资料条件或文章内容不一致。（题27-0选项1）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+      {"id":2,"text":"議会を中心に血を流すことなくおこなわれ、国王に議会の優位を認めさせた。","explanation_zh":"陷阱：对象错位。该项与题干事实、资料条件或文章内容不一致。（题27-0选项2）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+      {"id":3,"text":"それまで維持されてきた封建的な身分制度が、市民革命によって打破された。","explanation_zh":"正确。该项与题干事实、资料条件或文章内容一致，能够唯一满足题意。（题27-0选项3）","explanation_ja":"正解。設問の事実、資料条件、または文章内容と一致する。"},
+      {"id":4,"text":"商人などの世俗勢力が中心となり、ローマ教皇（Pope）の影響力の排除が目指された。","explanation_zh":"陷阱：概念混淆。该项与题干事实、资料条件或文章内容不一致。（题27-0选项4）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"フランス革命",
+      "sub_domain":"近代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"1. 近代化の進展とその影響"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違","地域取違"],
+      "keywords_to_avoid":["フランス革命","ドイツ","血を流すこと","身分制度","商人","ローマ教皇"]
+    },
+    "sources": [{"claim":"近現代史上の事件、制度変化、国際関係に関する基礎事実を確認した。","source":"Encyclopaedia Britannica","year":"2026","url":"https://www.britannica.com/"}]
+  },
+  {
+    "id": 28,
+    "global_id": 35,
+    "title": "アフリカの植民地化",
+    "prompt": "",
+    "passage": "次の文章中の空欄[ a ]〜[ c ]に当てはまる語の組み合わせとして最も適当なものを、下の①〜④の中から一つ選びなさい。\n\nヨーロッパ列強は、1914年までに、[ a ]とエチオピア（Ethiopia）を除くアフリカ（Africa）の全地域を支配下においた。中でも[ b ]は[ c ]とケープタウン（Cape Town）を結ぶ地域の植民地化を目指すアフリカの縦断政策を進めた。",
+    "choices": [
+      {"id":1,"text":"a: リベリア / b: 英国 / c: カイロ","explanation_zh":"正确。该项与题干事实、资料条件或文章内容一致，能够唯一满足题意。（题28-0选项1）","explanation_ja":"正解。設問の事実、資料条件、または文章内容と一致する。"},
+      {"id":2,"text":"a: モロッコ / b: フランス / c: カイロ","explanation_zh":"陷阱：对象错位。该项与题干事实、资料条件或文章内容不一致。（题28-0选项2）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+      {"id":3,"text":"a: モロッコ / b: 英国 / c: カサブランカ","explanation_zh":"陷阱：数值错读。该项与题干事实、资料条件或文章内容不一致。（题28-0选项3）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+      {"id":4,"text":"a: リベリア / b: フランス / c: カサブランカ","explanation_zh":"陷阱：概念混淆。该项与题干事实、资料条件或文章内容不一致。（题28-0选项4）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"アフリカの植民地化",
+      "sub_domain":"近代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"1. 近代化の進展とその影響"},
+      "question_form":"組合せ",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["地域取違","主体取違"],
+      "keywords_to_avoid":["アフリカ","リベリア","モロッコ","イギリス","フランス","カイロ","ケープタウン"]
+    },
+    "sources": [{"claim":"近現代史上の事件、制度変化、国際関係に関する基礎事実を確認した。","source":"Encyclopaedia Britannica","year":"2026","url":"https://www.britannica.com/"}]
+  },
+  {
+    "id": 29,
+    "global_id": 36,
+    "title": "第一次世界大戦期の日本経済",
+    "prompt": "",
+    "passage": "第一次世界大戦期のわが国の経済や産業に関する記述として最も適当なものを、次の①〜④の中から一つ選びなさい。",
+    "choices": [
+      {"id":1,"text":"軽工業を中心に産業革命が進み、繊維産業はわが国の輸出の増大に貢献した。","explanation_zh":"陷阱：方向相反。该项与题干事实、资料条件或文章内容不一致。（题29-0选项1）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+      {"id":2,"text":"貿易は輸出超過となり、また国内では重工業が発展した。","explanation_zh":"正确。该项与题干事实、资料条件或文章内容一致，能够唯一满足题意。（题29-0选项2）","explanation_ja":"正解。設問の事実、資料条件、または文章内容と一致する。"},
+      {"id":3,"text":"戦地となったヨーロッパでの需要が落ち込んだ結果、わが国の輸出は減少した。","explanation_zh":"陷阱：数值错读。该项与题干事实、资料条件或文章内容不一致。（题29-0选项3）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+      {"id":4,"text":"戦争中にヨーロッパで金融危機が起きた結果、わが国でも銀行の倒産が相次いだ。","explanation_zh":"陷阱：概念混淆。该项与题干事实、资料条件或文章内容不一致。（题29-0选项4）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"第一次世界大戦期の日本経済",
+      "sub_domain":"近代世界",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"2.市場経済"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位","概念混同"],
+      "keywords_to_avoid":["第一次世界大戦","軽工業","産業革命","貿易赤字","重工業"]
+    },
+    "sources": [{"claim":"近現代史上の事件、制度変化、国際関係に関する基礎事実を確認した。","source":"Encyclopaedia Britannica","year":"2026","url":"https://www.britannica.com/"}]
+  },
+  {
+    "id": 30,
+    "global_id": 37,
+    "title": "財閥解体",
+    "prompt": "",
+    "passage": "第二次世界大戦後のわが国においてGHQによる占領政策の下で、財閥解体が進められた。この時期に制定された法律として正しいものを、次の①〜④の中から一つ選びなさい。",
+    "choices": [
+      {"id":1,"text":"鉄道国有法","explanation_zh":"陷阱：方向相反。该项与题干事实、资料条件或文章内容不一致。（题30-0选项1）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+      {"id":2,"text":"工場法","explanation_zh":"陷阱：对象错位。该项与题干事实、资料条件或文章内容不一致。（题30-0选项2）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+      {"id":3,"text":"独占禁止法","explanation_zh":"正确。该项与题干事实、资料条件或文章内容一致，能够唯一满足题意。（题30-0选项3）","explanation_ja":"正解。設問の事実、資料条件、または文章内容と一致する。"},
+      {"id":4,"text":"農業基本法","explanation_zh":"陷阱：概念混淆。该项与题干事实、资料条件或文章内容不一致。（题30-0选项4）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"財閥解体",
+      "sub_domain":"現代日本",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"2. 二つの世界大戦とその影響"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位","概念混同"],
+      "keywords_to_avoid":["財閥解体","GHQ","占領政策","鉄道国有法","工場法","独占禁止法"]
+    },
+    "sources": [{"claim":"近現代史上の事件、制度変化、国際関係に関する基礎事実を確認した。","source":"Encyclopaedia Britannica","year":"2026","url":"https://www.britannica.com/"}]
+  },
+  {
+    "id": 31,
+    "global_id": 38,
+    "title": "戦後の出来事の年代順",
+    "prompt": "",
+    "passage": "次に示す第二次世界大戦後の出来事A〜Dを年代順に並べたものとして正しいものを、下の①〜④の中から一つ選びなさい。\n\nA：わが国のOECD加盟\nB：わが国のIMF加盟\nC：第一次石油危機（Oil Crisis）の発生\nD：1ドル＝360円の単一為替レート設定",
+    "choices": [
+      {"id":1,"text":"A → D → B → C","explanation_zh":"陷阱：方向相反。该项与题干事实、资料条件或文章内容不一致。（题31-0选项1）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+      {"id":2,"text":"B → C → D → A","explanation_zh":"陷阱：对象错位。该项与题干事实、资料条件或文章内容不一致。（题31-0选项2）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+      {"id":3,"text":"C → A → D → B","explanation_zh":"陷阱：数值错读。该项与题干事实、资料条件或文章内容不一致。（题31-0选项3）","explanation_ja":"誤り。設問の条件または基本事実と一致しない。"},
+      {"id":4,"text":"D → B → A → C","explanation_zh":"正确。该项与题干事实、资料条件或文章内容一致，能够唯一满足题意。（题31-0选项4）","explanation_ja":"正解。設問の事実、資料条件、または文章内容と一致する。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"戦後の日本の国際統合",
+      "sub_domain":"現代日本",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"5. 金融"},
+      "question_form":"時系列整序",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["順序混同","時態錯位"],
+      "keywords_to_avoid":["OECD加盟","IMF加盟","第一次石油危機","360円","為替レート"]
+    },
+    "sources": [{"claim":"日本のIMF加盟、OECD加盟、石油危機、為替制度変化の年代を確認した。","source":"IMF / OECD / Bank of Japan","year":"2026","url":"https://www.imf.org/en/About"}]
+  }
+]
+}

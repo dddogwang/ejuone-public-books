@@ -1,0 +1,1014 @@
+{
+  "subject": "comprehensive",
+  "section": "",
+  "year": 2009,
+  "round": 2,
+  "title": "総合科目問題集 第四回",
+  "image_path": "comprehensive/images/2009-2",
+  "questions": [
+  {
+    "id": 1,
+    "title": "金融危機に関する会話",
+    "prompt": "次の文章を読み、下の問いに答えなさい。",
+    "passage": "以下の小問は、それぞれ独立した資料や事実を扱う。各小問の本文に示された条件をもとに判断しなさい。",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":1,
+        "prompt":"2008年の国際金融危機では、銀行間の信用不安が広がり、各国の通貨当局は短い期間資金価格を下げたり資金供給を増やしたりした。この説明と合う組合せはどれですか。",
+        "choices":[
+          {"id":1,"text":"信用不安の拡大―短い期間資金価格の大幅引上げ","explanation_zh":"陷阱：方向相反。金融危机中通常通过下调短期利率和供给流动性缓和信用紧张，本项却写成上调利率。","explanation_ja":"誤り。方向相反の罠。信用不安時には資金繰り支援のため資金価格引下げが行われた。"},
+          {"id":2,"text":"住宅価格上昇―銀行破綻が完全に回避された","explanation_zh":"陷阱：事实夸大。2008 年危机中确有金融机构破产、重组或救助，并不是完全避免破产。","explanation_ja":"誤り。事実誇大の罠。危機では金融機関破綻や救済が起きた。"},
+          {"id":3,"text":"中央銀行の対応―通貨供給の急速な縮小","explanation_zh":"陷阱：政策反向。主要货币当局为稳定市场扩大流动性供给，不是急速收缩货币供给。","explanation_ja":"誤り。政策反向の罠。主要中央銀行は流動性供給を増やした。"},
+          {"id":4,"text":"信用不安の拡大―短い期間資金価格の引下げや流動性供給","explanation_zh":"正确。2008 年金融危机中信用市场混乱，美联储等采取降息和流动性供给措施。","explanation_ja":"正解。2008年危機では信用市場の混乱に対し、資金価格引下げと流動性供給が行われた。"}
+        ],
+        "answer":4,
+        "tag":{
+          "question_form":"組合せ",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["概念混同","範囲拡大","時態錯位"],
+          "keywords_to_avoid":["信用収縮","政策金利","引き下げ"],
+          "sub_domain":"金融・通貨"
+        },
+        "sources":[{"claim":"2008年の金融危機時、米連邦準備制度は政策金利を大幅に引き下げ、信用市場安定化策を行った。","source":"Federal Reserve History","year":"2026","url":"https://www.federalreservehistory.org/essays/great-recession-and-its-aftermath"}]
+      },
+      {
+        "sub_id":2,
+        "global_id":2,
+        "prompt":"1930年代の米国では、大恐慌への対応としてルーズベルト政権が公共事業・金融制度改革・社会保障制度などを含むニューディールを進めた。最も適当な説明はどれですか。",
+        "choices":[
+          {"id":1,"text":"ニューディールは第一次世界大戦前に始まった保守的な減税政策である","explanation_zh":"陷阱：时代错位。该政策群不是第一次世界大战前的政策，而是 1933 年以后应对 1930 年代经济危机的措施。","explanation_ja":"誤り。時代錯位の罠。ニューディールは1933年以後の大恐慌対策である。"},
+          {"id":2,"text":"ニューディールは連邦政府の経済関与をほぼなくした政策である","explanation_zh":"陷阱：性质相反。公共工程、金融监管和社会保障改革都体现联邦政府经济干预增强。","explanation_ja":"誤り。性質相反の罠。公共事業や金融規制など政府関与を強めた。"},
+          {"id":3,"text":"ニューディールはルーズベルト政権が大恐慌に対応して進めた政策群である","explanation_zh":"正确。F.D.罗斯福就任后，为应对 1930 年代经济危机推行一系列新政策。","explanation_ja":"正解。1933年就任のルーズベルト政権が大恐慌対応としてニューディールを進めた。"},
+          {"id":4,"text":"ニューディールは国際通貨基金を創設した条約である","explanation_zh":"陷阱：制度混淆。国际货币基金组织属于战后国际金融秩序，不是美国国内新政策本身。","explanation_ja":"誤り。制度混同の罠。国際通貨基金はブレトン・ウッズ体制に関わる機関である。"}
+        ],
+        "answer":3,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["主体取違","時態錯位","数値混同"],
+          "keywords_to_avoid":["ルーズベルト","民主党","大恐慌","ニューディール"],
+          "sub_domain":"金融・通貨",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"4.政治参加"}
+        },
+        "sources":[{"claim":"ニューディールは1933年に就任したフランクリン・D・ルーズベルト政権の大恐慌対策である。","source":"Franklin D. Roosevelt Presidential Library","year":"2026","url":"https://www.fdrlibrary.org/new-deal"}]
+      },
+      {
+        "sub_id":3,
+        "global_id":3,
+        "prompt":"2008年金融危機後、米国政府は自動車大手の一部に公的支援を行った。この事例の説明として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"支援対象は農産物価格だけで、自動車企業は含まれなかった","explanation_zh":"陷阱：对象错位。美国财政部的汽车救助包含通用汽车、克莱斯勒等企业，并非只涉及农产品。","explanation_ja":"誤り。対象錯位の罠。GMやクライスラーなどへの支援があった。"},
+          {"id":2,"text":"政府支援により全企業が破綻手続を一切経ずに存続した","explanation_zh":"陷阱：事实夸大。救助和重组并不等于所有企业都完全不经过破产程序。","explanation_ja":"誤り。事実誇大の罠。支援と再建はあったが破綻手続も伴った。"},
+          {"id":3,"text":"自動車支援は19世紀の鉄道建設補助を指す","explanation_zh":"陷阱：时代错位。题干讨论的是 2008 年金融危机后的汽车产业支援，不是 19 世纪铁路补助。","explanation_ja":"誤り。時代錯位の罠。対象は2008年危機後の自動車産業支援である。"},
+          {"id":4,"text":"GM やクライスラーなどに公的資金支援が行われた","explanation_zh":"正确。美国财政部汽车产业支援计划确实涉及通用汽车和克莱斯勒等企业。","explanation_ja":"正解。米財務省の自動車産業支援ではGMやクライスラーなどが対象となった。"}
+        ],
+        "answer":4,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["主体取違","範囲拡大","時態錯位"],
+          "keywords_to_avoid":["自動車産業","ビッグスリー","GM","フォード","クライスラー"],
+          "sub_domain":"金融・通貨"
+        },
+        "sources":[{"claim":"2008年金融危機後、米国政府はGMとクライスラーなど自動車産業に支援を行った。","source":"U.S. Department of the Treasury","year":"2026","url":"https://home.treasury.gov/data/troubled-assets-relief-program/automotive-programs"}]
+      },
+      {
+        "sub_id":4,
+        "global_id":4,
+        "prompt":"第二次世界大戦末期に開かれたブレトン・ウッズ会議では、戦後の国際通貨秩序が構想され、IMF などの設立につながった。合う組合せはどれですか。",
+        "choices":[
+          {"id":1,"text":"1944年の会議―国際保健機関の創設だけを決めた","explanation_zh":"陷阱：机构错配。第二次大战末期的该会议重点是国际货币金融秩序，并非只创设卫生组织。","explanation_ja":"誤り。機関錯配の罠。中心はIMFや世界銀行につながる通貨・金融制度である。"},
+          {"id":2,"text":"ブレトン・ウッズ会議―IMF 設立につながる国際通貨体制","explanation_zh":"正确。布雷顿森林会议推动形成战后国际货币体系，并与国际货币基金组织的成立相连。","explanation_ja":"正解。1944年の会議はIMFなど戦後国際金融秩序の出発点となった。"},
+          {"id":3,"text":"1929年の会議―新政策群の国内法制定","explanation_zh":"陷阱：时代错位。会议发生在第二次世界大战末期，不是 1929 年，也不是美国国内新政策立法。","explanation_ja":"誤り。時代錯位の罠。会議は1944年で、新政策群の国内立法ではない。"},
+          {"id":4,"text":"1973年の会議―液体化石燃料輸出国機構の解散","explanation_zh":"陷阱：事实不存在。该会议没有决定解散石油输出国组织。","explanation_ja":"誤り。事実不存在の罠。OPEC解散を決めた会議ではない。"}
+        ],
+        "answer":2,
+        "tag":{
+          "question_form":"組合せ",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["地域取違","主体取違","数値混同"],
+          "keywords_to_avoid":["ブレトン・ウッズ協定","IMF","ワシントン","1944年"],
+          "sub_domain":"金融・通貨"
+        },
+        "sources":[{"claim":"IMFは1944年のブレトン・ウッズ会議で構想され、国際通貨協力を目的とする。","source":"International Monetary Fund","year":"2026","url":"https://www.imf.org/en/About"}]
+      }
+    ],
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"金融危機と経済政策",
+      "sub_domain":"金融・通貨",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"5. 金融"},
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "keywords_to_avoid":["サブプライムローン","2008年金融危機","オバマ","基幹産業","IMF"]
+    }
+  },
+  {
+    "id": 2,
+    "title": "伝染病の歴史に関する会話",
+    "prompt": "次の文章を読み、下の問いに答えなさい。",
+    "passage": "以下の小問は、それぞれ独立した資料や事実を扱う。各小問の本文に示された条件をもとに判断しなさい。",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":5,
+        "prompt":"14世紀の黒死病について、最も適当な説明はどれですか。",
+        "choices":[
+          {"id":1,"text":"米国大陸で20世紀にだけ発生した工業災害である","explanation_zh":"陷阱：地域和时代错位。中世纪疫病主要指 14 世纪欧亚范围的大流行，不是 20 世纪美洲工业灾害。","explanation_ja":"誤り。地域・時代錯位の罠。14世紀に欧州などで大被害を出した。"},
+          {"id":2,"text":"人口への影響はほとんどなく、都市の労働市場にも影響しなかった","explanation_zh":"陷阱：影响否定。该疫病造成严重人口损失，并深刻影响劳动力和社会经济结构。","explanation_ja":"誤り。影響否定の罠。大規模な人口減少と社会経済への影響があった。"},
+          {"id":3,"text":"原因はCO2濃度の上昇そのものだった","explanation_zh":"陷阱：因果混淆。该事件是传染病大流行，不是温室气体浓度上升本身造成的。","explanation_ja":"誤り。因果混同の罠。黒死病は伝染病で、温室効果気体燃料問題ではない。"},
+          {"id":4,"text":"14世紀に欧州などで広がり、大きな人口減少をもたらした","explanation_zh":"正确。14 世纪黑死病在欧洲等地造成大规模人口减少。","explanation_ja":"正解。黒死病は14世紀に欧州を中心に深刻な人口減少をもたらした。"}
+        ],
+        "answer":4,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["時態錯位","地域取違","概念混同"],
+          "keywords_to_avoid":["ペスト","黒死病","14世紀","人口減少"],
+          "sub_domain":"近代世界"
+        },
+        "sources":[{"claim":"14世紀の黒死病は欧州などに大きな人口減少をもたらした。","source":"Encyclopaedia Britannica","year":"2026","url":"https://www.britannica.com/event/Black-Death"}]
+      },
+      {
+        "sub_id":2,
+        "global_id":6,
+        "prompt":"地球温暖化をめぐる国際的枠組みについて、合う組合せはどれですか。",
+        "choices":[
+          {"id":1,"text":"京都議定書―国際保健機関の憲章","explanation_zh":"陷阱：制度错配。京都相关国际框架处理温室气体减排，不是卫生组织章程。","explanation_ja":"誤り。制度錯配の罠。京都議定書は温室効果気体燃料削減を扱う。"},
+          {"id":2,"text":"京都議定書―1997年採択の温室効果気体燃料削減枠組み","explanation_zh":"正确。京都议定书于 1997 年通过，规定温室气体减排目标。","explanation_ja":"正解。京都議定書は1997年に採択され、温室効果気体燃料削減目標を定めた。"},
+          {"id":3,"text":"京都議定書―金本位制の復帰を定めた通貨協定","explanation_zh":"陷阱：领域错位。该框架属于气候变化治理，不是金本位相关的货币协定。","explanation_ja":"誤り。領域錯位の罠。地球温暖化の枠組みで、通貨協定ではない。"},
+          {"id":4,"text":"京都議定書―第一次世界大戦の講和条約","explanation_zh":"陷阱：时代错位。它是 20 世纪末的气候框架，不是第一次世界大战后的和约。","explanation_ja":"誤り。時代錯位の罠。1997年採択で、第一次世界大戦後の講和条約ではない。"}
+        ],
+        "answer":2,
+        "tag":{
+          "question_form":"組合せ",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["概念混同","主体取違","時態錯位"],
+          "keywords_to_avoid":["地球温暖化","二酸化炭素","京都議定書","1997年"],
+          "sub_domain":"近代世界",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の社会","item":"1. 環境と資源"}
+        },
+        "sources":[{"claim":"京都議定書は1997年に採択され、温室効果ガス排出削減を定めた。","source":"UNFCCC","year":"2026","url":"https://unfccc.int/kyoto_protocol"}]
+      },
+      {
+        "sub_id":3,
+        "global_id":7,
+        "prompt":"WHOについて、最も適当な説明はどれですか。",
+        "choices":[
+          {"id":1,"text":"国際貿易収支を調整する中央銀行の連合体である","explanation_zh":"陷阱：机构功能错位。世界卫生组织处理公共卫生事务，不是中央银行联合体。","explanation_ja":"誤り。機能錯位の罠。WHOは保健を扱う国際機関である。"},
+          {"id":2,"text":"軍事同盟として加盟国の集団防衛だけを担当する","explanation_zh":"陷阱：领域错位。世界卫生组织不是军事同盟，不承担集体防卫职能。","explanation_ja":"誤り。領域錯位の罠。WHOは軍事同盟ではなく国際保健を担当する。"},
+          {"id":3,"text":"国際連合の専門機関として国際保健を扱う","explanation_zh":"正确。世界卫生组织是联合国系统的专门机构，主要负责国际公共卫生。","explanation_ja":"正解。WHOは国際連合の専門機関で、国際保健を主要任務とする。"},
+          {"id":4,"text":"農作物の原産地だけを認定する国際機関である","explanation_zh":"陷阱：对象错位。它不负责认定农作物原产地，核心领域是卫生。","explanation_ja":"誤り。対象錯位の罠。WHOの対象は保健である。"}
+        ],
+        "answer":3,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["主体取違","概念混同","範囲拡大"],
+          "keywords_to_avoid":["WHO","感染症","世界保健機関","UN機関"],
+          "sub_domain":"近代世界"
+        },
+        "sources":[{"claim":"WHOは国際連合の専門機関として国際保健を扱う。","source":"World Health Organization","year":"2026","url":"https://www.who.int/about"}]
+      }
+    ],
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"感染症の歴史と国際機関",
+      "sub_domain":"近代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"1. 近代化の進展とその影響"},
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "keywords_to_avoid":["ペスト","黒死病","14世紀","ヨーロッパ","温暖化","京都議定書"]
+    }
+  },
+  {
+    "id": 3,
+    "global_id": 8,
+    "title": "景気動向を示す経済指標",
+    "prompt": "景気動向指数の系列について、最も適当な組合せはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"先行系列―新しい求人件数、一致系列―工業生産、遅行系列―完全完全仕事を得られない状態の比率","explanation_zh":"正确。景气动向指数把指标分为先行、一致、滞后系列，用来判断经济景气变化。","explanation_ja":"正解。景気動向指数は景気に先行・一致・遅行する系列を分けて把握する。"},
+      {"id":2,"text":"先行系列―完全完全仕事を得られない状態の比率、一致系列―国際条約、遅行系列―降水量","explanation_zh":"陷阱：指标混入。降水量和国际条约不是景气动向指数的基本经济系列。","explanation_ja":"誤り。指標混入の罠。降水量や国際条約は景気動向指数の基本系列ではない。"},
+      {"id":3,"text":"先行系列―国会議席数、一致系列―最高裁判決、遅行系列―投影法","explanation_zh":"陷阱：领域错位。国会议席、最高法院判决和地图投影不属于景气指标系列。","explanation_ja":"誤り。領域錯位の罠。政治制度や投影法は景気指標系列ではない。"},
+      {"id":4,"text":"先行系列―物価指数だけ、一致系列―物価指数だけ、遅行系列―物価指数だけ","explanation_zh":"陷阱：单一化。景气判断需要多个系列，不能全部简化为单一物价指数。","explanation_ja":"誤り。単一化の罠。景気動向指数は複数系列を組み合わせる。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"経済指標（先行・一致・遅行）",
+      "sub_domain":"国民経済・成長",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"4.国民経済"},
+      "question_form":"組合せ",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["順序混同","概念混同","主体取違"],
+      "keywords_to_avoid":["株価","鉱工業生産","設備投資","新規求人数","失業率"]
+    },
+    "sources": [{"claim":"景気動向指数は先行・一致・遅行系列から景気の動きを把握する統計である。","source":"内閣府 景気動向指数","year":"2026","url":"https://www.esri.cao.go.jp/jp/stat/di/di.html"}]
+  },
+  {
+    "id": 4,
+    "global_id": 9,
+    "title": "租税の種類",
+    "prompt": "税の種類について、最も適当な組合せはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"個人所得への税―直接税、支出税―間接税、輸入品への税―国税","explanation_zh":"正确。所得税属于直接税，消费税通常作为间接税处理，关税属于国税。","explanation_ja":"正解。個人所得への税は直接税、支出税は間接税、輸入品への税は国税に分類される。"},
+      {"id":2,"text":"個人所得への税―地方税だけ、支出税―直接税だけ、輸入品への税―市町村税","explanation_zh":"陷阱：分类错配。所得税和关税不是单纯地方税，消费税也不是所得税式直接税。","explanation_ja":"誤り。分類錯配の罠。個人所得への税や輸入品への税は国税で、支出税は間接税である。"},
+      {"id":3,"text":"遺産移転への税―物品購入ごとの税、支出税―所得所得移転機能だけを目的とする税","explanation_zh":"陷阱：对象混淆。相続税关注财产转移，消费税关注消费支出。","explanation_ja":"誤り。対象混同の罠。遺産移転への税は財産移転、支出税は支出に着目する。"},
+      {"id":4,"text":"輸入品への税―自治体議会の解散請求、個人所得への税―国際機関の分担金","explanation_zh":"陷阱：制度混入。地方自治和国际组织分担金不是税种分类。","explanation_ja":"誤り。制度混入の罠。地方自治や国際機関分担金は税分類ではない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"租税の種類（受益と能力）",
+      "sub_domain":"財政・租税",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"6. 財政"},
+      "question_form":"組合せ",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","主体取違","範囲拡大"],
+      "keywords_to_avoid":["固定資産税","所得税","相続税","均等割地方税"]
+    },
+    "sources": [{"claim":"日本の租税には直接税・間接税、国税・地方税などの分類がある。","source":"財務省","year":"2026","url":"https://www.mof.go.jp/tax_policy/summary/condition/index.htm"}]
+  },
+  {
+    "id": 5,
+    "title": "賃金と雇用量のグラフ",
+    "prompt": "次の文章を読み、下の問いに答えなさい。",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":10,
+        "prompt":"次の数値の説明は、ある地域の労働需要を示す。賃金が時給1000円のとき雇用需要は80人、1200円のとき60人、1400円のとき45人である。読み取れる内容として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"賃金が上がるほど雇用需要は増える","explanation_zh":"陷阱：方向相反。资料中工资从 1000 日元升到 1400 日元时，雇用需求从 80 人降到 45 人。","explanation_ja":"誤り。方向相反の罠。賃金上昇に伴い雇用需要は80人から45人へ減る。"},
+          {"id":2,"text":"賃金が上がるほど雇用需要は減る","explanation_zh":"正确。资料显示工资越高，雇用需求越少，符合劳动需求曲线向右下方倾斜的关系。","explanation_ja":"正解。時給1000円で80人、1200円で60人、1400円で45人となり、賃金上昇とともに需要が減る。"},
+          {"id":3,"text":"どの賃金でも雇用需要は80人で一定である","explanation_zh":"陷阱：数值无视。1200 日元为 60 人、1400 日元为 45 人，并非始终 80 人。","explanation_ja":"誤り。数値無視の罠。1200円で60人、1400円で45人であり一定ではない。"},
+          {"id":4,"text":"1400円の雇用需要は1000円の雇用需要を上回る","explanation_zh":"陷阱：大小关系逆。1400 日元时的 45 人低于 1000 日元时的 80 人。","explanation_ja":"誤り。大小関係逆の罠。1400円の45人は1000円の80人を下回る。"}
+        ],
+        "answer":2,
+        "tag":{
+          "question_form":"図表読取",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["順序混同","概念混同","数値混同"],
+          "keywords_to_avoid":["D₁","D₂","供給完全弾力的","均衡点X","V","Y","Z","E₁","W₁","W₂"],
+          "sub_domain":"経済原理・市場"
+        },
+        "sources":[{"claim":"需要曲線では、他の条件が一定なら価格が上がると需要量は減少する。","source":"OpenStax Principles of Economics","year":"2026","url":"https://openstax.org/details/books/principles-economics-3e"}]
+      },
+      {
+        "sub_id":2,
+        "global_id":11,
+        "prompt":"次の数値の説明は、最低賃金が均衡賃金を上回る場合を示す。賃金1000円では需要80人・供給80人、賃金1300円では需要55人・供給90人である。読み取れる内容として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"1300円では労働需要が労働供給を上回る","explanation_zh":"陷阱：大小关系逆。1300 日元时需求 55 人、供给 90 人，是供给大于需求。","explanation_ja":"誤り。大小関係逆の罠。1300円では需要55人、供給90人で供給の方が多い。"},
+          {"id":2,"text":"1000円では35人の人手不足が生じる","explanation_zh":"陷阱：数值错读。1000 日元时需求和供给均为 80 人，没有 35 人短缺。","explanation_ja":"誤り。数値錯読の罠。1000円では需要80人、供給80人で不足はない。"},
+          {"id":3,"text":"1300円では供給が需要を35人上回り、仕事を得られない状態が生じやすい","explanation_zh":"正确。1300 日元时供给 90 人、需求 55 人，供给超出需求 35 人，容易出现失业。","explanation_ja":"正解。1300円では供給90人、需要55人で、供給超過は35人である。"},
+          {"id":4,"text":"最低賃金が高いほど雇用需要は必ず無限大になる","explanation_zh":"陷阱：过度一般化。资料显示工资升高时需求减少到 55 人，并非无限增加。","explanation_ja":"誤り。過度一般化の罠。資料では賃金上昇時に需要が55人へ減っている。"}
+        ],
+        "answer":3,
+        "tag":{
+          "question_form":"図表読取",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["概念混同","数値混同","順序混同"],
+          "keywords_to_avoid":["D₁","S₂","W₂","失業","労働力不足","E₂","E₃","E₀"],
+          "sub_domain":"経済原理・市場"
+        },
+        "sources":[{"claim":"需要曲線では、他の条件が一定なら価格が上がると需要量は減少する。","source":"OpenStax Principles of Economics","year":"2026","url":"https://openstax.org/details/books/principles-economics-3e"}]
+      }
+    ],
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"労働市場の需給均衡（グラフ）",
+      "sub_domain":"経済原理・市場",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"2.市場経済"},
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "keywords_to_avoid":["供給曲線","需要曲線","均衡点","賃金","雇用量","完全弾力性"]
+    },
+    "passage": "以下の小問は、それぞれ独立した資料や事実を扱う。各小問の本文に示された条件をもとに判断しなさい。"
+  },
+  {
+    "id": 6,
+    "global_id": 12,
+    "title": "国民所得",
+    "prompt": "所得指標や GDP の範囲について、最も適当な説明はどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"家庭内の無償家庭内の無償労働は市場取引がなくても必ず GDP に全額計上される","explanation_zh":"陷阱：范围扩大。通常 GDP 以市场交易的最终财和服务为中心，无偿家务劳动一般不直接计入。","explanation_ja":"誤り。範囲拡大の罠。通常のGDPは市場取引を中心に測る。"},
+      {"id":2,"text":"株式や預金の残高そのものは、その年の生産額として GDP に全額入る","explanation_zh":"陷阱：存量流量混淆。股票和存款余额是存量，不等同于当年新生产的价值。","explanation_ja":"誤り。ストック・フロー混同の罠。金融上の保有額残高は生産額そのものではない。"},
+      {"id":3,"text":"仕事を得られない状態給付などの移転支出は、新たな財・サービス生産としてそのまま加算される","explanation_zh":"陷阱：转移支付混淆。失业给付等转移支付不是新生产的财和服务的对价。","explanation_ja":"誤り。移転支出混同の罠。移転支出は生産物の対価ではない。"},
+      {"id":4,"text":"GDP は一定期間に国内で生産された最終財・サービスの価値を測る指標である","explanation_zh":"正确。GDP 衡量一定期间内一国国内生产的最终财和服务的价值。","explanation_ja":"正解。GDPは国内で一定期間に生産された最終財・サービスの付加価値を測る。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"国民所得の定義と範囲",
+      "sub_domain":"国民経済・成長",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"4.国民経済"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["範囲拡大","概念混同","主体取違"],
+      "keywords_to_avoid":["国民所得","金融資産","社会保障給付","家事労働","自家消費","農業"]
+    },
+    "sources": [{"claim":"GDPは市場で取引される最終財・サービスの価値を測り、無償家事労働などは通常含まれない。","source":"内閣府 国民経済計算","year":"2026","url":"https://www.esri.cao.go.jp/jp/sna/menu.html"}]
+  },
+  {
+    "id": 7,
+    "global_id": 13,
+    "title": "家計貯蓄率",
+    "prompt": "世帯の貯蓄比率について、最も適当な説明はどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"使える所得のうち支出されなかった部分の比率として把握される","explanation_zh":"正确。家庭储蓄可理解为可支配收入中未用于消费支出的部分。","explanation_ja":"正解。家計貯蓄は使える所得から支出支出を差し引いた部分として考えられる。"},
+      {"id":2,"text":"支出が所得を上回っても貯蓄率は必ず高くなる","explanation_zh":"陷阱：方向相反。消费超过可支配收入时，储蓄会减少，甚至可能为负。","explanation_ja":"誤り。方向相反の罠。支出が所得を上回ると貯蓄は小さくなるかマイナスになり得る。"},
+      {"id":3,"text":"税引前の企業利益だけで計算され、家計の所得は使わない","explanation_zh":"陷阱：主体错位。家庭储蓄率涉及家庭部门，不是只用企业税前利润计算。","explanation_ja":"誤り。主体錯位の罠。家計部門の使える所得と支出に関わる。"},
+      {"id":4,"text":"資金価格が変わっても家計行動には一切影響しないと定義される","explanation_zh":"陷阱：绝对化。利率和收入预期可能影响家庭储蓄与消费行为。","explanation_ja":"誤り。絶対化の罠。資金価格や所得見通しは家計行動に影響し得る。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"家計貯蓄率と消費行動",
+      "sub_domain":"国民経済・成長",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"3.経済主体"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["因果倒置","概念混同","時態錯位"],
+      "keywords_to_avoid":["家計貯蓄率","可処分所得","消費","不景気","好景気"]
+    },
+    "sources": [{"claim":"家計貯蓄は可処分所得から消費支出を除いた部分として把握される。","source":"OECD Data","year":"2026","url":"https://data.oecd.org/hha/household-savings.htm"}]
+  },
+  {
+    "id": 8,
+    "title": "国家の歳入と租税",
+    "prompt": "次の文章を読み、下の問いに答えなさい。",
+    "passage": "以下の小問は、それぞれ独立した資料や事実を扱う。各小問の本文に示された条件をもとに判断しなさい。",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":14,
+        "prompt":"税と所得所得移転機能について、最も適当な説明はどれですか。",
+        "choices":[
+          {"id":1,"text":"累進的な個人所得への税は、高所得者ほど高い税率を課すことで所得移転機能機能を持ち得る","explanation_zh":"正确。累进所得税按收入高低调整负担比例，能够发挥所得再分配功能。","explanation_ja":"正解。累進課税は所得に応じて負担比率を変え、所得所得移転機能の機能を持ち得る。"},
+          {"id":2,"text":"支出税は所得の高低に応じて必ず税率が自動的に変わる","explanation_zh":"陷阱：制度错配。消费税通常按消费额课税，不像所得税那样按收入设置累进税率。","explanation_ja":"誤り。制度錯配の罠。支出税は個人所得への税のような累進税率ではない。"},
+          {"id":3,"text":"輸入品への税は国内個人所得への税の累進税率を直接決める税である","explanation_zh":"陷阱：对象混淆。关税课于进口品等对象，不直接决定国内所得税税率。","explanation_ja":"誤り。対象混同の罠。輸入品への税は輸入品などに課される税である。"},
+          {"id":4,"text":"遺産移転への税は財産移転と無関係で、輸入数量だけに課される","explanation_zh":"陷阱：税目错配。相続税与继承财产转移有关，不是只对进口数量课税。","explanation_ja":"誤り。税目錯配の罠。遺産移転への税は相続による財産移転に関わる。"}
+        ],
+        "answer":1,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["主体取違","概念混同","時態錯位"],
+          "keywords_to_avoid":["所得税","相続税","関税","消費税","再分配"],
+          "sub_domain":"財政・租税"
+        },
+        "sources":[{"claim":"日本の租税には直接税・間接税、国税・地方税などの分類がある。","source":"財務省","year":"2026","url":"https://www.mof.go.jp/tax_policy/summary/condition/index.htm"}]
+      },
+      {
+        "sub_id":2,
+        "global_id":15,
+        "prompt":"財政赤字と政府債について、合う組合せはどれですか。",
+        "choices":[
+          {"id":1,"text":"政府債発行―政府債務の残高を必ずゼロにする","explanation_zh":"陷阱：方向相反。发行国债通常会增加政府债务余额，而不是把债务归零。","explanation_ja":"誤り。方向相反の罠。政府債発行は通常、政府債務残高を増やす。"},
+          {"id":2,"text":"税収入の低下―財政赤字を必ず縮小させる","explanation_zh":"陷阱：因果反向。在支出不变时，税收减少会扩大财政赤字。","explanation_ja":"誤り。因果反向の罠。支出一定なら税収減は赤字拡大要因である。"},
+          {"id":3,"text":"公共投資の上昇―その年度の支出を必ず減らす","explanation_zh":"陷阱：概念反向。公共投资增加通常意味着支出增加，不会必然减少当年支出。","explanation_ja":"誤り。概念反向の罠。公共投資上昇は支出上昇要因になり得る。"},
+          {"id":4,"text":"財政赤字―政府債発行によって資金調達されることがある","explanation_zh":"正确。当岁出超过岁入时，政府可能通过发行国债筹措资金。","explanation_ja":"正解。歳出が歳入を上回る場合、政府債発行で資金調達することがある。"}
+        ],
+        "answer":4,
+        "tag":{
+          "question_form":"組合せ",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["概念混同","因果倒置","時態錯位"],
+          "keywords_to_avoid":["国債","租税","消費","増加","減少","長期","短期"],
+          "sub_domain":"財政・租税"
+        },
+        "sources":[{"claim":"日本の租税には直接税・間接税、国税・地方税などの分類がある。","source":"財務省","year":"2026","url":"https://www.mof.go.jp/tax_policy/summary/condition/index.htm"}]
+      }
+    ],
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"国債と租税の経済効果",
+      "sub_domain":"財政・租税",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"6. 財政"},
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "keywords_to_avoid":["国債","所得再分配","租税","消費","長期","短期"]
+    }
+  },
+  {
+    "id": 9,
+    "global_id": 16,
+    "title": "国際経済",
+    "prompt": "比較優位と貿易について、最も適当な説明はどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"貿易で利益を得るには、すべての財で絶対優位を持つ必要がある","explanation_zh":"陷阱：绝对优势混淆。比较优势看的是相对机会成本，不要求一国在所有产品上都有绝对优势。","explanation_ja":"誤り。絶対優位混同の罠。比較優位では機会費用の低さが重要である。"},
+      {"id":2,"text":"各国が相対的に機会費用の低い財に特化すれば、交換で利益が生じ得る","explanation_zh":"正确。各国专门生产相对机会成本较低的产品并交换，双方都可能受益。","explanation_ja":"正解。比較優位では相対的に得意な財に特化し交換することで双方の利益が可能になる。"},
+      {"id":3,"text":"輸出超過の国だけが必ず比較優位を持ち、赤字国にはない","explanation_zh":"陷阱：指标混淆。贸易顺差或逆差与是否具有比较优势不是同一概念。","explanation_ja":"誤り。指標混同の罠。貿易収支と比較優位は同じ概念ではない。"},
+      {"id":4,"text":"通貨交換相場が存在すると比較優位は完全に消滅する","explanation_zh":"陷阱：过度一般化。汇率会影响贸易条件，但不会使比较优势概念完全消失。","explanation_ja":"誤り。過度一般化の罠。為替相場は比較優位の考え方を消滅させない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"国際経済（比較優位と貿易）",
+      "sub_domain":"国際経済・貿易",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"2.市場経済"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["因果倒置","概念混同","範囲拡大"],
+      "keywords_to_avoid":["比較生産費説","貿易黒字","外国為替","金利","労働力移動"]
+    },
+    "sources": [{"claim":"比較優位に基づく分業と貿易は、各国が相対的に得意な財を生産することで利益を生む。","source":"OpenStax Principles of Economics","year":"2026","url":"https://openstax.org/details/books/principles-economics-3e"}]
+  },
+  {
+    "id": 10,
+    "global_id": 17,
+    "title": "日本の金本位制離脱",
+    "prompt": "わが国の金本位制離脱と貿易について、合う組合せはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"1931年の金輸出再禁止―円相場の上昇だけを目的とした政策","explanation_zh":"陷阱：方向混淆。日本脱离金本位后日元贬值，并推动出口扩大。","explanation_ja":"誤り。方向混同の罠。離脱後には円安が進み、輸出拡大の要因となった。"},
+      {"id":2,"text":"金本位制離脱―輸出を制度上すべて禁止した政策","explanation_zh":"陷阱：事实相反。脱离金本位是货币制度变化，不是全面禁止出口。","explanation_ja":"誤り。事実相反の罠。離脱は輸出禁止ではなく通貨制度の変更である。"},
+      {"id":3,"text":"1931年の金輸出再禁止―円安を通じて輸出拡大につながった","explanation_zh":"正确。1931 年金输出再禁止后，日本脱离金本位，日元贬值并带动出口扩大。","explanation_ja":"正解。1931年の金輸出再禁止で金本位制から離脱し、円安と輸出拡大が進んだ。"},
+      {"id":4,"text":"金本位制離脱―国際連盟加盟を定めた外交条約","explanation_zh":"陷阱：领域错位。金本位问题属于货币制度，不是国际联盟加盟条约。","explanation_ja":"誤り。領域錯位の罠。通貨制度の問題で、国際連盟加盟条約ではない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"日本の金本位制離脱と貿易拡大",
+      "sub_domain":"経済史",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"10. 国際経済"},
+      "question_form":"組合せ",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違","地域取違","概念混同"],
+      "keywords_to_avoid":["1931年","金本位制離脱","円安","生糸","綿織物","インド","香港"]
+    },
+    "sources": [{"claim":"日本は1931年12月に金輸出再禁止を行い、金本位制から離脱した。","source":"日本銀行金融研究所 貨幣博物館","year":"2026","url":"https://www.imes.boj.or.jp/cm/history/"}]
+  },
+  {
+    "id": 11,
+    "title": "世界の一次エネルギー供給の推移",
+    "prompt": "次の文章を読み、下の問いに答えなさい。",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":18,
+        "prompt":"次の数値の説明は、世界の基礎的エネルギー供給のおおまかな構成を示す。液体化石燃料31%、固体化石燃料27%、天然気体燃料23%、水の力による発電・核エネルギー・再生可能等19%。読み取れる内容として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"水の力による発電・核エネルギー・再生可能等が液体化石燃料を上回る","explanation_zh":"陷阱：大小关系逆。资料中水力、核能和可再生等合计 19%，低于石油 31%。","explanation_ja":"誤り。大小関係逆の罠。19%は液体化石燃料31%を下回る。"},
+          {"id":2,"text":"固体化石燃料は天然気体燃料より小さい","explanation_zh":"陷阱：大小关系逆。煤炭为 27%，天然气为 23%，煤炭更大。","explanation_ja":"誤り。大小関係逆の罠。固体化石燃料27%は天然気体燃料23%を上回る。"},
+          {"id":3,"text":"四分類はすべて同じ比率である","explanation_zh":"陷阱：数值无视。31%、27%、23%、19% 四类明显不同。","explanation_ja":"誤り。数値無視の罠。各分類の比率には差がある。"},
+          {"id":4,"text":"液体化石燃料が最も大きく、固体化石燃料と天然気体燃料も大きな比率を占める","explanation_zh":"正确。石油 31% 最大，煤炭 27% 和天然气 23% 也占较大比重。","explanation_ja":"正解。液体化石燃料31%が最大で、固体化石燃料27%、天然気体燃料23%も大きい。"}
+        ],
+        "answer":4,
+        "tag":{
+          "question_form":"図表読取",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["順序混同","概念混同","数値混同"],
+          "keywords_to_avoid":["A","B","C","D","石炭","原子力","水力","ガス"],
+          "sub_domain":"産業・資源"
+        },
+        "sources":[{"claim":"世界の一次エネルギー供給は石油・石炭・天然ガスが大きな割合を占める。","source":"International Energy Agency","year":"2026","url":"https://www.iea.org/reports/key-world-energy-statistics-2021/supply"}]
+      },
+      {
+        "sub_id":2,
+        "global_id":19,
+        "prompt":"次の数値の説明は、世界の基礎的エネルギー供給の変化を示す。1990年を100とすると、2019年は液体化石燃料135、固体化石燃料165、天然気体燃料190、再生可能等220である。読み取れる内容として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"液体化石燃料の伸びが最も大きい","explanation_zh":"陷阱：最大值错读。指数最大的是可再生等 220，不是石油 135。","explanation_ja":"誤り。最大値錯読の罠。最大は再生可能等の220である。"},
+          {"id":2,"text":"再生可能等の指数が最も高い","explanation_zh":"正确。2019 年指数中可再生等为 220，高于天然气 190、煤炭 165 和石油 135。","explanation_ja":"正解。2019年指数は再生可能等220が最大である。"},
+          {"id":3,"text":"全ての指数が100を下回る","explanation_zh":"陷阱：基准误读。所有指数都高于 100，说明都高于 1990 年基准。","explanation_ja":"誤り。基準誤読の罠。示された値はいずれも100を上回る。"},
+          {"id":4,"text":"天然気体燃料は液体化石燃料より低い","explanation_zh":"陷阱：大小关系逆。天然气 190 高于石油 135。","explanation_ja":"誤り。大小関係逆の罠。天然気体燃料190は液体化石燃料135を上回る。"}
+        ],
+        "answer":2,
+        "tag":{
+          "question_form":"図表読取",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["範囲拡大","概念混同","時態錯位"],
+          "keywords_to_avoid":["一次エネルギー供給","石油","増加率","割合","代替エネルギー"],
+          "sub_domain":"産業・資源",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"2.市場経済"}
+        },
+        "sources":[{"claim":"世界の一次エネルギー供給は石油・石炭・天然ガスが大きな割合を占める。","source":"International Energy Agency","year":"2026","url":"https://www.iea.org/reports/key-world-energy-statistics-2021/supply"}]
+      }
+    ],
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"一次エネルギー供給の推移（グラフ）",
+      "sub_domain":"産業・資源",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "keywords_to_avoid":["石炭","原子力","水力","ガス","石油","1965年","2005年"]
+    },
+    "passage": "以下の小問は、それぞれ独立した資料や事実を扱う。各小問の本文に示された条件をもとに判断しなさい。"
+  },
+  {
+    "id": 12,
+    "global_id": 20,
+    "title": "メルカトル図法",
+    "prompt": "ある円筒正角図法の面積拡大率を、赤道を1倍として比べると、緯度30度で約1.3倍、60度で約4.0倍、80度で約33倍となる。読み取れる内容として最も適当なものはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"高緯度ほど面積は実際より小さく表される","explanation_zh":"陷阱：方向相反。资料显示纬度越高，面积扩大率越大，不是越小。","explanation_ja":"誤り。方向相反の罠。高緯度ほど面積は拡大する。"},
+      {"id":2,"text":"緯度60度の面積拡大率は赤道と同じ1倍である","explanation_zh":"陷阱：数值错读。纬度 60 度约为 4.0 倍，不等于赤道的 1 倍。","explanation_ja":"誤り。数値錯読の罠。緯度60度は約4.0倍である。"},
+      {"id":3,"text":"緯度80度は緯度30度より面積拡大率が小さい","explanation_zh":"陷阱：大小关系逆。纬度 80 度约 33 倍，远高于纬度 30 度约 1.3 倍。","explanation_ja":"誤り。大小関係逆の罠。80度は約33倍で、30度の約1.3倍を大きく上回る。"},
+      {"id":4,"text":"角度は保たれるが、高緯度ほど面積が大きく誇張される","explanation_zh":"正确。该圆筒正角投影保持角度，但高纬度面积会被显著夸大。","explanation_ja":"正解。緯度が高いほど拡大率が1.3倍、4.0倍、約33倍へ大きくなる。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"メルカトル図法と投影方法",
+      "sub_domain":"自然地理",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","順序混同","主体取違"],
+      "keywords_to_avoid":["メルカトル図法","円筒図法","正角図","投影方法","特徴"]
+    },
+    "sources": [{"claim":"メルカトル図法は角度を正しく表す正角図法で、緯度が高いほど面積が拡大される。","source":"Encyclopaedia Britannica","year":"2026","url":"https://www.britannica.com/science/Mercator-projection"}]
+  },
+  {
+    "id": 13,
+    "global_id": 21,
+    "title": "日本の都市の月別平均降水量",
+    "prompt": "次の数値の説明は、気象庁平年値をもとにした都市別降水の性質である。那覇は6月260mm・9月240mm、札幌は6月47mm・12月112mm、東京は6月168mm・12月51mm。読み取れる内容として最も適当なものはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"那覇は6月と9月の降水が多く、台風期や梅雨期の影響が読み取れる","explanation_zh":"正确。那霸 6 月 260mm、9 月 240mm，显示梅雨期和台风期降水多。","explanation_ja":"正解。那覇は6月260mm、9月240mmと大きく、南西諸島の降水特性を示す。"},
+      {"id":2,"text":"札幌は6月の降水が三都市で最大である","explanation_zh":"陷阱：最大值错读。6 月札幌 47mm，低于东京 168mm 和那霸 260mm。","explanation_ja":"誤り。最大値錯読の罠。6月の札幌47mmは最大ではない。"},
+      {"id":3,"text":"東京は12月が6月より多い","explanation_zh":"陷阱：大小关系逆。东京 6 月 168mm，高于 12 月 51mm。","explanation_ja":"誤り。大小関係逆の罠。東京は6月168mm、12月51mmである。"},
+      {"id":4,"text":"三都市とも6月と12月の値が同じである","explanation_zh":"陷阱：数值无视。三座城市 6 月和 12 月数值都不同。","explanation_ja":"誤り。数値無視の罠。各都市で6月と12月の値は異なる。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"日本の都市の降水特性（グラフ解析）",
+      "sub_domain":"日本地誌",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["地域取違","順序混同","概念混同"],
+      "keywords_to_avoid":["月別平均降水量","X市","Y市","A地点","B地点","C地点","D地点"]
+    },
+    "sources": [{"claim":"日本の月別平年値では、那覇は梅雨期や台風期に降水が多く、札幌は冬季に降雪・降水がみられる。","source":"気象庁 過去の気象データ検索","year":"2026","url":"https://www.data.jma.go.jp/obd/stats/etrn/index.php"}]
+  },
+  {
+    "id": 14,
+    "global_id": 22,
+    "title": "産業別就業人口割合の変化",
+    "prompt": "次の数値の説明は、わが国の就業構造の長い期間変化を示す。第1次産業は1950年48%から2020年3%へ低下し、第3次産業は1950年30%から2020年73%へ上昇した。読み取れる内容として最も適当なものはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"第1次産業の比率は一貫して上昇している","explanation_zh":"陷阱：方向相反。第 1 次产业比例从 48% 降到 3%。","explanation_ja":"誤り。方向相反の罠。第1次産業は48%から3%へ低下している。"},
+      {"id":2,"text":"第3次産業の比率は1950年より2020年の方が低い","explanation_zh":"陷阱：大小关系逆。第 3 次产业比例从 30% 升到 73%。","explanation_ja":"誤り。大小関係逆の罠。第3次産業は30%から73%へ上昇している。"},
+      {"id":3,"text":"就業構造は農林水産中心からサービス業中心へ大きく変化した","explanation_zh":"正确。资料显示日本就业结构从农业等初级产业中心转向服务业中心。","explanation_ja":"正解。第1次産業は大幅に低下し、第3次産業が大幅に上昇している。"},
+      {"id":4,"text":"1950年と2020年で産業別比率は全く変わらない","explanation_zh":"陷阱：变化否定。1950 年和 2020 年的产业别就业比例差异很大。","explanation_ja":"誤り。変化否定の罠。資料は大きな構造変化を示している。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"産業発展と就業構造の変化",
+      "sub_domain":"産業・資源",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["順序混同","概念混同","概念混同"],
+      "keywords_to_avoid":["産業別就業人口","高度化","矢印","第一次産業","第二次産業","第三次産業"]
+    },
+    "sources": [{"claim":"日本では長期的に第1次産業就業者割合が低下し、第3次産業就業者割合が上昇している。","source":"総務省統計局 労働力調査","year":"2026","url":"https://www.stat.go.jp/data/roudou/"}]
+  },
+  {
+    "id": 15,
+    "global_id": 23,
+    "title": "農作物の発祥地",
+    "prompt": "世界の農作物の起源について、最も適当な説明はどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"ジャガイモは地中海沿岸だけで栽培化された","explanation_zh":"陷阱：地域错位。马铃薯起源通常与安第斯地区相关，不是地中海沿岸。","explanation_ja":"誤り。地域錯位の罠。ジャガイモはアンデス地域が起源とされる。"},
+      {"id":2,"text":"トウモロコシはメソ米国で栽培化された作物である","explanation_zh":"正确。玉米是中美洲起源的代表性作物。","explanation_ja":"正解。トウモロコシはメソ米国起源の作物として知られる。"},
+      {"id":3,"text":"小麦は南極で栽培化された作物である","explanation_zh":"陷阱：事实不存在。小麦与西亚肥沃新月地带相关，不可能起源于南极。","explanation_ja":"誤り。事実不存在の罠。小麦は西アジア方面と結び付けられる。"},
+      {"id":4,"text":"稲は近代ヨーロッパの工場で初めて作られた","explanation_zh":"陷阱：概念混淆。稻米是农作物，不是近代欧洲工厂制造的工业品。","explanation_ja":"誤り。概念混同の罠。稲は農作物であり工業製品ではない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"世界の農作物発祥地",
+      "sub_domain":"産業・資源",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["地域取違","概念混同","主体取違"],
+      "keywords_to_avoid":["ジャガイモ","トウモロコシ","小麦","稲","発祥地","中央アメリカ"]
+    },
+    "sources": [{"claim":"トウモロコシはメソアメリカ、ジャガイモはアンデス地域が起源とされる。","source":"Encyclopaedia Britannica","year":"2026","url":"https://www.britannica.com/plant/corn-plant"}]
+  },
+  {
+    "id": 16,
+    "global_id": 24,
+    "title": "ヨーロッパの都市の歴史的沿革",
+    "prompt": "ヨーロッパの都市の歴史的性質について、合う組合せはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"ウィーン―大西洋奴隷貿易だけで発展した港湾都市","explanation_zh":"陷阱：城市错配。维也纳以哈布斯堡王朝都城闻名，不是只靠大西洋奴隶贸易发展的港口。","explanation_ja":"誤り。都市錯配の罠。ウィーンはハプスブルク家の都として知られる。"},
+      {"id":2,"text":"アムステルダム―産業革命期の綿工業都市だけを指す","explanation_zh":"陷阱：城市错配。工业革命时期的棉纺织工业城市典型是曼彻斯特。","explanation_ja":"誤り。都市錯配の罠。綿工業都市としてはマンチェスターが典型である。"},
+      {"id":3,"text":"ウィーン―ハプスブルク家、アムステルダム―近世貿易、マンチェスター―産業革命","explanation_zh":"正确。维也纳、阿姆斯特丹、曼彻斯特分别对应王朝都城、近世贸易和工业革命。","explanation_ja":"正解。三都市はいずれも欧州史の異なる発展を代表する組合せである。"},
+      {"id":4,"text":"マンチェスター―古代ギリシアのポリス、ウィーン―北海漁村","explanation_zh":"陷阱：时代和地域错位。曼彻斯特不是古希腊城邦，维也纳也不是北海渔村。","explanation_ja":"誤り。時代・地域錯位の罠。マンチェスターは産業革命期、ウィーンは中欧の宮廷都市として重要である。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"ヨーロッパ各都市の歴史的発展",
+      "sub_domain":"現代世界",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"10. 国際経済"},
+      "question_form":"組合せ",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違","時態錯位","概念混同"],
+      "keywords_to_avoid":["ウィーン","ハプスブルク家","アムステルダム","マンチェスター","産業革命","大航海時代"]
+    },
+    "sources": [{"claim":"ウィーンはハプスブルク家の都、アムステルダムは近世貿易都市、マンチェスターは産業革命期の工業都市として知られる。","source":"Encyclopaedia Britannica","year":"2026","url":"https://www.britannica.com/place/Europe"}]
+  },
+  {
+    "id": 17,
+    "global_id": 25,
+    "title": "65歳以上の人口割合の推移",
+    "prompt": "次の数値の説明は、65歳以上人口比率の国際比較である。2022年頃の値は、日本29%、イギリス19%、アメリカ17%である。読み取れる内容として最も適当なものはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"日本の65歳以上人口比率が三国の中で最も高い","explanation_zh":"正确。资料中日本 29%、英国 19%、美国 17%，日本的老年人口比例最高。","explanation_ja":"正解。日本29%、イギリス19%、アメリカ17%で、日本が最も高い。"},
+      {"id":2,"text":"アメリカの比率が日本を上回る","explanation_zh":"陷阱：大小关系逆。美国 17% 低于日本 29%。","explanation_ja":"誤り。大小関係逆の罠。アメリカ17%は日本29%を下回る。"},
+      {"id":3,"text":"三国の比率はすべて同じである","explanation_zh":"陷阱：数值无视。三国分别为 29%、19%、17%，并不相同。","explanation_ja":"誤り。数値無視の罠。29%、19%、17%と差がある。"},
+      {"id":4,"text":"イギリスは0%で高齢者が存在しない","explanation_zh":"陷阱：极端化。英国为 19%，并不是 0%。","explanation_ja":"誤り。極端化の罠。資料ではイギリスは19%である。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"社会",
+      "topic":"65歳以上人口比率の国別推移",
+      "sub_domain":"人口・家族",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"7.社会保障"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["主体取違","順序混同","数値混同"],
+      "keywords_to_avoid":["65歳以上","人口比率","高齢化","日本","イギリス","アメリカ"]
+    },
+    "sources": [{"claim":"世界銀行の65歳以上人口割合では、日本は米国・英国より高い水準にある。","source":"World Bank Data","year":"2026","url":"https://data.worldbank.org/indicator/SP.POP.65UP.TO.ZS"}]
+  },
+  {
+    "id": 18,
+    "global_id": 26,
+    "title": "民主主義の類型",
+    "prompt": "民主政の類型について、最も適当な説明はどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"多数決重視型は少数派の合意形成を常に最優先し、政権交代を認めない","explanation_zh":"陷阱：概念混淆。多数决型重视多数派统治，但不等于否认政权交替。","explanation_ja":"誤り。概念混同の罠。多数決重視型は多数派統治を重視するが、政権交代を否定しない。"},
+      {"id":2,"text":"合意重視型は選挙や議会をすべて廃止する制度である","explanation_zh":"陷阱：极端化。合意型重视联合和权力分有，并不是废除选举或议会。","explanation_ja":"誤り。極端化の罠。合意重視型は連立や権力分有を重視する。"},
+      {"id":3,"text":"多数決重視型と合意重視型の区別は経済の拡大率の高低だけで決まる","explanation_zh":"陷阱：指标错位。两种类型区别的是政治制度的决策结构，不是只看经济增长率。","explanation_ja":"誤り。指標錯位の罠。類型は政治制度の意思決定構造に関する区別である。"},
+      {"id":4,"text":"多数決重視型は多数派形成を、合意重視型は連立や権力分有を重視する傾向がある","explanation_zh":"正确。多数决型强调多数派形成，合意型强调联合、协商和权力分有。","explanation_ja":"正解。多数決重視型と合意重視型は統治の意思決定様式の違いを示す。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"民主主義の類型（多数決型と合意型）",
+      "sub_domain":"政治思想・政治史",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"4.政治参加"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違","概念混同","範囲拡大"],
+      "keywords_to_avoid":["民主主義","多数決型","合意型","議会制","イギリス","オランダ"]
+    },
+    "sources": [{"claim":"多数決型民主主義と合意型民主主義は、レイプハルトが比較政治で整理した民主主義類型である。","source":"Encyclopaedia Britannica","year":"2026","url":"https://www.britannica.com/topic/democracy"}]
+  },
+  {
+    "id": 19,
+    "global_id": 27,
+    "title": "国政調査権",
+    "prompt": "わが国国憲法の国政調査権について、最も適当な説明はどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"裁判所だけに認められる違憲審査権の別名である","explanation_zh":"陷阱：机构错位。国政调查权属于国会两院，并非司法违宪审查权的别名。","explanation_ja":"誤り。機関錯位の罠。国政調査権は両議院に認められる。"},
+      {"id":2,"text":"内閣が国会議員を罷免するための権限である","explanation_zh":"陷阱：主体错位。国政调查权主体是国会两院，不是内阁罢免国会议员的权限。","explanation_ja":"誤り。主体錯位の罠。主体は国会の両議院である。"},
+      {"id":3,"text":"両議院が国政に関する調査を行い、証人出頭などを求め得る権限である","explanation_zh":"正确。日本国宪法第 62 条规定两院可调查国政，并要求证人出席、作证或提交记录。","explanation_ja":"正解。憲法62条は両議院の国政調査権と証人出頭・証言・記録提出要求を定める。"},
+      {"id":4,"text":"地方自治体だけが自治体の法規で創設できる行政サービスである","explanation_zh":"陷阱：层级错位。国政调查权是国会权限，不是地方自治体行政服务。","explanation_ja":"誤り。階層錯位の罠。国政調査権は国会の権限である。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"国政調査権の行使例",
+      "sub_domain":"三権分立・統治機構",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"3. 日本国憲法"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","主体取違","範囲拡大"],
+      "keywords_to_avoid":["国政調査権","違憲立法審査","弾劾裁判","証人喚問","議院"]
+    },
+    "sources": [{"claim":"日本国憲法62条は両議院の国政調査権を定めている。","source":"衆議院 日本国憲法","year":"2026","url":"https://www.shugiin.go.jp/internet/itdb_annai.nsf/html/statics/shiryo/dl-constitution.htm"}]
+  },
+  {
+    "id": 20,
+    "global_id": 28,
+    "title": "参政権",
+    "prompt": "政治参加の権利について、不適当な説明はどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"選挙権は代表者を選ぶ政治参加の権利である","explanation_zh":"陷阱：陈述正确。选举权是选择代表的政治参与权利，因此不是不适当项。","explanation_ja":"誤り。陳述正しい罠。これは政治参加の権利の説明として適当である。"},
+      {"id":2,"text":"候補者となる権利は一定条件のもとで公職候補者となる権利である","explanation_zh":"陷阱：陈述正确。被选举权是在一定条件下成为公职候选人的权利。","explanation_ja":"誤り。陳述正しい罠。候補者となる権利は政治参加の権利の一部である。"},
+      {"id":3,"text":"公務就任に関わる権利も広い意味の政治参加に関わる","explanation_zh":"陷阱：范围正确。公职就任权也与广义政治参与相关。","explanation_ja":"誤り。範囲正しい罠。公職に就く権利は政治参加の権利に関連する。"},
+      {"id":4,"text":"政治参加の権利とは、裁判所が刑罰を自由に後から作る権利である","explanation_zh":"正确。参政权不是法院事后自由创设刑罚的权利；本项把概念完全错置。","explanation_ja":"正解。これは刑罰法規に関する誤った説明で、政治参加の権利ではない。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"参政権の定義と範囲",
+      "sub_domain":"憲法・人権",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"4.政治参加"},
+      "question_form":"正誤判定",
+      "statement_polarity":"正答誤記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["範囲拡大","概念混同","概念混同"],
+      "keywords_to_avoid":["参政権","投票率","被選挙権","公務就任権","ニュージーランド","女性参政権"]
+    },
+    "sources": [{"claim":"参政権には選挙権・被選挙権など政治参加に関する権利が含まれる。","source":"総務省 選挙制度","year":"2026","url":"https://www.soumu.go.jp/senkyo/senkyo_s/index.html"}]
+  },
+  {
+    "id": 21,
+    "global_id": 29,
+    "title": "直接請求権",
+    "prompt": "地方自治における住民の直接請求について、不適当な説明はどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"住民による請求権とは、地方財源調整金の金額を個々の住民が自由に決める権利である","explanation_zh":"正确。直接请求包括条例制定改废、议会解散、首长或议员解职等，不是居民个人决定地方交付税金额。","explanation_ja":"正解。直接請求は自治体の法規制定改廃、議会解散、職を解く請求請求などであり、地方財源調整金額を住民個人が決める権利ではない。"},
+      {"id":2,"text":"自治体の法規の制定や改廃を求める請求が含まれる","explanation_zh":"陷阱：范围内正例。请求条例制定或改废属于直接请求制度。","explanation_ja":"誤り。範囲内正例の罠。陳述正しい罠。自治体の法規制定改廃請求は直接請求の一つである。"},
+      {"id":3,"text":"自治体議会の解散請求が含まれる","explanation_zh":"陷阱：制度内正例。地方议会解散请求属于直接请求制度。","explanation_ja":"誤り。制度内正例の罠。陳述正しい罠。自治体議会解散請求は直接請求制度に含まれる。"},
+      {"id":4,"text":"首長や議員の職を解く請求請求が含まれる","explanation_zh":"陷阱：主体正确。首长或议员解职请求也是居民自治中的直接请求。","explanation_ja":"誤り。主体正しい罠。陳述正しい罠。職を解く請求請求は直接請求の一種である。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"直接請求権と住民自治",
+      "sub_domain":"憲法・人権",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"4.政治参加"},
+      "question_form":"正誤判定",
+      "statement_polarity":"正答誤記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["範囲拡大","概念混同","概念混同"],
+      "keywords_to_avoid":["直接請求権","住民自治","地方交付税","条例","地方議会","解職"]
+    },
+    "sources": [{"claim":"地方自治法は条例制定・議会解散・議員や長の解職など住民の直接請求を定める。","source":"総務省 地方自治制度","year":"2026","url":"https://www.soumu.go.jp/main_sosiki/jichi_gyousei/bunken/"}]
+  },
+  {
+    "id": 22,
+    "global_id": 30,
+    "title": "罪刑法定主義",
+    "prompt": "法律なくして刑罰なしの原則について、最も適当な説明はどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"裁判官が事件後に自由に犯罪と刑罰を作れるという原則である","explanation_zh":"陷阱：原则相反。罪刑法定主义要求事先由法律规定犯罪和刑罚，不允许事后自由创设。","explanation_ja":"誤り。原則相反の罠。あらかじめ法律で犯罪と刑罰を定めることを求める。"},
+      {"id":2,"text":"犯罪と刑罰は、行為時に存在する法律に基づかなければならないという原則である","explanation_zh":"正确。罪刑法定主义即“法无明文规定不为罪，法无明文规定不处罚”。","explanation_ja":"正解。法律なくして刑罰なしの原則は「法律なければ犯罪なく、法律なければ刑罰なし」という考え方である。"},
+      {"id":3,"text":"同じ行為に何度でも刑罰を科すことを義務づける原則である","explanation_zh":"陷阱：内容错配。重复处罚不是罪刑法定主义，且与禁止双重处罚原则相反。","explanation_ja":"誤り。内容錯配の罠。法律なくして刑罰なしの原則ではなく、重ねて罰しない原則とも反対である。"},
+      {"id":4,"text":"刑事裁判の対象者を犯罪成立の判断と推定してから裁判を始める原則である","explanation_zh":"陷阱：人权原则反向。刑事程序重视无罪推定，不是先推定被告有罪。","explanation_ja":"誤り。人権原則反向の罠。刑事手続では無罪推定などが重要である。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"罪刑法定主義の原則",
+      "sub_domain":"憲法・人権",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"2. 日本の統治機構"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","主体取違","範囲拡大"],
+      "keywords_to_avoid":["罪刑法定主義","遡及処罰禁止","二重処罰禁止","被告人","有罪"]
+    },
+    "sources": [{"claim":"罪刑法定主義は、法律なくして犯罪・刑罰なしという原則である。","source":"法務省","year":"2026","url":"https://www.moj.go.jp/"}]
+  },
+  {
+    "id": 23,
+    "global_id": 31,
+    "title": "規範的命題",
+    "prompt": "価値判断文と事実確認文について、最も適当な説明はどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"「平均気温は何度である」は価値判断だけを述べる価値判断文である","explanation_zh":"陷阱：分类错配。平均气温这类可观察、可测量的陈述属于经验命题。","explanation_ja":"誤り。分類錯配の罠。観察や測定で確かめられる文は事実確認文である。"},
+      {"id":2,"text":"「投票した人の割合は60%であった」は「望ましい」を含む価値判断文である","explanation_zh":"陷阱：事实陈述误判。投票率 60% 是数值事实陈述，属于经验命题。","explanation_ja":"誤り。事実陳述誤判の罠。数値事実を述べる文は事実確認文である。"},
+      {"id":3,"text":"事実確認文は観察や資料によって検証できない文だけを指す","explanation_zh":"陷阱：定义相反。经验命题正是可以通过观察或资料检验的命题。","explanation_ja":"誤り。定義相反の罠。事実確認文は観察や資料によって検証可能である。"},
+      {"id":4,"text":"「政府は弱者保護を重視す望ましいだ」は価値判断を含む価値判断文である","explanation_zh":"正确。“政府应当重视弱者保护”包含价值判断，属于规范命题。","explanation_ja":"正解。「望ましい」を含み望ましい状態を述べるため、価値判断文である。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"規範的命題と経験的命題",
+      "sub_domain":"政治思想・政治史",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"4.政治参加"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","主体取違","範囲拡大"],
+      "keywords_to_avoid":["規範的命題","経験的命題","事実化","理想","べき"]
+    },
+    "sources": [{"claim":"規範的命題は価値判断や「べき」を含み、経験的命題は観察や検証可能な事実を述べる。","source":"OpenStax Introduction to Sociology","year":"2026","url":"https://openstax.org/details/books/introduction-sociology-3e"}]
+  },
+  {
+    "id": 24,
+    "title": "明治維新後の日本",
+    "prompt": "次の文章を読み、下の問いに答えなさい。",
+    "passage": "以下の小問は、それぞれ独立した資料や事実を扱う。各小問の本文に示された条件をもとに判断しなさい。",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":32,
+        "prompt":"明治期の憲法制定過程について、最も適当な説明はどれですか。",
+        "choices":[
+          {"id":1,"text":"伊藤博文は欧州で憲法制度を調査し、大わが国帝国憲法制定に深く関わった","explanation_zh":"正确。伊藤博文赴欧洲考察立宪制度，并深度参与大日本帝国宪法制定。","explanation_ja":"正解。伊藤博文は欧州で立憲制度を調査し、憲法制定の中心人物となった。"},
+          {"id":2,"text":"大隈重信は初代首相として1885年に就任した","explanation_zh":"陷阱：人物错位。1885 年初代内阁总理大臣是伊藤博文，不是大隈重信。","explanation_ja":"誤り。人物錯位の罠。1885年の初代首相は伊藤博文である。"},
+          {"id":3,"text":"福沢諭吉はプロイセン憲法の公式起草者として内閣を率いた","explanation_zh":"陷阱：角色夸大。福泽谕吉是思想家、教育者，并非官方宪法起草首相。","explanation_ja":"誤り。役割誇大の罠。福沢諭吉は思想家・教育者である。"},
+          {"id":4,"text":"山県有朋は米国独立文書を起草した","explanation_zh":"陷阱：时代地域错位。美国独立宣言是 18 世纪北美文书，不是山县有朋起草。","explanation_ja":"誤り。時代・地域錯位の罠。米国独立文書は18世紀北米の文書である。"}
+        ],
+        "answer":1,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["主体取違","時態錯位","概念混同"],
+          "keywords_to_avoid":["伊藤博文","大隈重信","福沢諭吉","山県有朋","憲法調査"],
+          "sub_domain":"近代日本"
+        },
+        "sources":[{"claim":"伊藤博文は欧州で憲法制度を調査し、大日本帝国憲法制定に関わった。","source":"国立公文書館","year":"2026","url":"https://www.archives.go.jp/"}]
+      },
+      {
+        "sub_id":2,
+        "global_id":33,
+        "prompt":"わが国の近代内閣制度について、最も適当な説明はどれですか。",
+        "choices":[
+          {"id":1,"text":"初代内閣総理大臣はわが国銀行総裁であった","explanation_zh":"陷阱：职位错配。初代内阁总理大臣是伊藤博文，不是日本银行总裁。","explanation_ja":"誤り。職位錯配の罠。初代内閣総理大臣は伊藤博文である。"},
+          {"id":2,"text":"初代内閣総理大臣は衆国会の各院議長から自動的に選ばれた","explanation_zh":"陷阱：制度错配。1885 年内阁制度建立时，初代首相为伊藤博文。","explanation_ja":"誤り。制度錯配の罠。1885年の初代内閣総理大臣は伊藤博文である。"},
+          {"id":3,"text":"初代内閣総理大臣は大審院長であった","explanation_zh":"陷阱：三权混淆。大审院长属于司法职位，不是初代首相。","explanation_ja":"誤り。三権混同の罠。大審院長は司法の職で、初代内閣総理大臣ではない。"},
+          {"id":4,"text":"1885年に伊藤博文が初代内閣総理大臣となった","explanation_zh":"正确。1885 年伊藤博文成为日本初代内阁总理大臣。","explanation_ja":"正解。内閣総理大臣官邸の歴代内閣資料でも、初代内閣総理大臣は伊藤博文である。"}
+        ],
+        "answer":4,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["主体取違","時態錯位","概念混同"],
+          "keywords_to_avoid":["日本銀行総裁","衆議院議長","大審院長","内閣総理大臣"],
+          "sub_domain":"近代日本",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"2. 日本の統治機構"}
+        },
+        "sources":[{"claim":"伊藤博文は1885年に初代内閣総理大臣となった。","source":"首相官邸 歴代内閣","year":"2026","url":"https://www.kantei.go.jp/jp/rekidainaikaku/"}]
+      }
+    ],
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"明治維新後の日本（伊藤博文と立憲政友会）",
+      "sub_domain":"近代日本",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"1. 近代化の進展とその影響"},
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "keywords_to_avoid":["伊藤博文","1882年","1885年","1900年","立憲政友会","明治憲法","首相"]
+    }
+  },
+  {
+    "id": 25,
+    "title": "アメリカの独立",
+    "prompt": "次の文章を読み、下の問いに答えなさい。",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":34,
+        "prompt":"米国独立運動の背景について、最も適当な説明はどれですか。",
+        "choices":[
+          {"id":1,"text":"綿花栽培の機械化だけが独立運動の直接原因であった","explanation_zh":"陷阱：单因化。独立运动背景包括税收和代表权问题，不只是棉花栽培机械化。","explanation_ja":"誤り。単因化の罠。課税政策や代表の問題などが重要である。"},
+          {"id":2,"text":"本国による課税政策への反発が、独立運動の重要な背景となった","explanation_zh":"正确。北美殖民地对本国课税政策，尤其“无代表不纳税”的反感，是独立运动重要背景。","explanation_ja":"正解。植民地では代表なき課税への反発が高まり、独立運動の背景となった。"},
+          {"id":3,"text":"フランス工業化が1776年以前に北米植民地を完全独立させた","explanation_zh":"陷阱：时代错位。美国独立宣言是 1776 年文书，本项时代关系不成立。","explanation_ja":"誤り。時代錯位の罠。米国独立文書は1776年である。"},
+          {"id":4,"text":"経済成長があったため政治的対立は存在しなかった","explanation_zh":"陷阱：矛盾否定。经济发展并未消除课税与代表权上的政治冲突。","explanation_ja":"誤り。矛盾否定の罠。課税と代表をめぐる政治的対立が存在した。"}
+        ],
+        "answer":2,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["時態錯位","因果倒置","主体取違"],
+          "keywords_to_avoid":["課税政策","綿花栽培","フランス","産業革命","経済成長"],
+          "sub_domain":"近代世界"
+        },
+        "sources":[{"claim":"アメリカ独立運動では、植民地への課税政策が対立の一因となった。","source":"U.S. National Archives","year":"2026","url":"https://www.archives.gov/founding-docs/declaration-history"}]
+      },
+      {
+        "sub_id":2,
+        "global_id":35,
+        "prompt":"米国独立宣言について、最も適当な説明はどれですか。",
+        "choices":[
+          {"id":1,"text":"独立宣言は政党政治の廃止だけを定めた20世紀の法律である","explanation_zh":"陷阱：时代和内容错位。独立宣言是 1776 年文书，不是 20 世纪废除政党政治的法律。","explanation_ja":"誤り。時代・内容錯位の罠。独立宣言は1776年の文書である。"},
+          {"id":2,"text":"独立宣言は植民地の抵抗権を完全に否定した","explanation_zh":"陷阱：内容相反。独立宣言并未否定抵抗不当统治的权利。","explanation_ja":"誤り。内容相反の罠。宣言は不当な統治に対する権利を述べている。"},
+          {"id":3,"text":"独立宣言は、平等や生命・自由・幸福追求などの権利を掲げた","explanation_zh":"正确。美国独立宣言宣示人人平等，并拥有生命、自由和追求幸福等不可让渡权利。","explanation_ja":"正解。1776年の独立宣言は、平等と基本的人権を掲げた。"},
+          {"id":4,"text":"独立宣言は国際通貨基金の設立協定である","explanation_zh":"陷阱：制度错配。国际货币基金组织属于 20 世纪战后国际金融秩序。","explanation_ja":"誤り。制度錯配の罠。国際通貨基金は20世紀のブレトン・ウッズ体制に関わる。"}
+        ],
+        "answer":3,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["概念混同","主体取違","範囲拡大"],
+          "keywords_to_avoid":["独立宣言","基本的人権","議会制民主主義","政党政治","抵抗権"],
+          "sub_domain":"近代世界",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"3. 日本国憲法"}
+        },
+        "sources":[{"claim":"1776年のアメリカ独立宣言は、すべての人は平等に造られ不可譲の権利を持つと述べた。","source":"U.S. National Archives","year":"2026","url":"https://www.archives.gov/founding-docs/declaration-transcript"}]
+      }
+    ],
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"アメリカの独立と民主主義原理",
+      "sub_domain":"近代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"1. 近代化の進展とその影響"},
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "keywords_to_avoid":["アメリカ独立","イギリス","課税","フランス植民地","独立宣言"]
+    },
+    "passage": "以下の小問は、それぞれ独立した資料や事実を扱う。各小問の本文に示された条件をもとに判断しなさい。"
+  },
+  {
+    "id": 26,
+    "global_id": 36,
+    "title": "ウィーン会議",
+    "prompt": "ウィーン会議について、最も適当な説明はどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"1814年の欧州秩序を再編し、大国間の勢力均衡を重視した","explanation_zh":"正确。维也纳会议在拿破仑战争后重建欧洲秩序，并重视大国间势力均衡。","explanation_ja":"正解。ウィーン会議は1814年の国際秩序再建をめざした。"},
+      {"id":2,"text":"ビスマルクが主催し、第一次世界大戦後の講和を決めた","explanation_zh":"陷阱：时代错位。维也纳会议发生在拿破仑战争后，不是第一次世界大战后。","explanation_ja":"誤り。時代錯位の罠。ウィーン会議は1814年である。"},
+      {"id":3,"text":"メッテルニヒは工業化期の英国工場主で、会議と無関係である","explanation_zh":"陷阱：人物错配。梅特涅是会议中的重要奥地利政治家，不是与会议无关的英国工厂主。","explanation_ja":"誤り。人物錯配の罠。メッテルニヒは会議で重要な役割を果たした政治家である。"},
+      {"id":4,"text":"会議は米国独立文書の本文を採択した","explanation_zh":"陷阱：文书错配。美国独立宣言是 1776 年北美殖民地文书，不是该会议文件。","explanation_ja":"誤り。文書錯配の罠。米国独立文書は1776年の文書である。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"ウィーン会議と大国間の勢力均衡",
+      "sub_domain":"近代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"1. 近代化の進展とその影響"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違","時態錯位","概念混同"],
+      "keywords_to_avoid":["ウィーン会議","メッテルニヒ","ビスマルク","1814年","勢力均衡"]
+    },
+    "sources": [{"claim":"ウィーン会議はナポレオン戦争後の欧州秩序を再編し、勢力均衡を重視した。","source":"Encyclopaedia Britannica","year":"2026","url":"https://www.britannica.com/event/Congress-of-Vienna"}]
+  },
+  {
+    "id": 27,
+    "global_id": 37,
+    "title": "1925年の法律改正",
+    "prompt": "1925年の普通選挙法について、最も適当な説明はどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"納税額による制限を強め、選挙権を高額納税者だけに限定した","explanation_zh":"陷阱：方向相反。1925 年普通选举法扩大男子选举权，并废除纳税资格限制。","explanation_ja":"誤り。方向相反の罠。1925年法は男子普通選挙を実現し、納税資格を撤廃した。"},
+      {"id":2,"text":"資格試験に合格した女性だけに選挙権を認めた","explanation_zh":"陷阱：条件错配。该法面向一定年龄以上男子，女性参政权在战后实现。","explanation_ja":"誤り。条件錯配の罠。1925年法は満25歳の男子を対象とした。"},
+      {"id":3,"text":"満25歳の男子に衆国会の各院議員選挙権を広げ、納税資格を撤廃した","explanation_zh":"正确。1925 年普通选举法取消纳税资格限制，将众议院选举权扩大到一定年龄以上男子。","explanation_ja":"正解。1925年の普通選挙法は男子普通選挙を実現し、納税資格制限をなくした。"},
+      {"id":4,"text":"選挙権を満50歳以上の華族だけに限定した","explanation_zh":"陷阱：事实不存在。1925 年普通选举法并不是只限 50 岁以上华族投票的制度。","explanation_ja":"誤り。事実不存在の罠。1925年法は華族限定制度ではない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"1925年の普通選挙法と選挙権拡大",
+      "sub_domain":"選挙・政党",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"4.政治参加"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","範囲拡大","時態錯位"],
+      "keywords_to_avoid":["1925年","普通選挙法","納税額","資格試験","満25歳"]
+    },
+    "sources": [{"claim":"1925年の普通選挙法で、日本の衆議院議員選挙は一定年齢以上の男子普通選挙となった。","source":"国立国会図書館","year":"2026","url":"https://www.ndl.go.jp/modern/cha3/description14.html"}]
+  }
+]
+}

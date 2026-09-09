@@ -1,0 +1,773 @@
+{
+  "subject": "science",
+  "section": "physics",
+  "year": 2014,
+  "round": 2,
+  "title": "2014年 第二回 物理",
+  "image_path": "science/physics/images/2014-2",
+  "questions": [
+  {
+    "id": 1,
+    "title": "Ⅰ_A",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":1,
+        "choices":[
+          {"id":1,"text":"T1 = Mgsinβ/cos(α+β)","explanation_zh":"陷阱：符号混淆。分母误用cos(α+β)，正确应为sin(α+β)；分子应为cosβ非sinβ。","explanation_ja":"誤り。符号・向き混同の罠。分母はsin(α+β)が正しく，cos(α+β)ではない。"},
+          {"id":2,"text":"T1 = Mgcosα/sin(α+β)","explanation_zh":"陷阱：角度混淆。分子应用cosβ（糸2的方向），误用了cosα（糸1自身角）。","explanation_ja":"誤り。角度混同の罠。分子はcosβが正しい。cosαを使うのは誤り。"},
+          {"id":3,"text":"T1 = Mgsinβ/sin(α+β)","explanation_zh":"陷阱：分量方向混淆。水平分量应用cosβ，误用了sinβ（竖直分量）。","explanation_ja":"誤り。分力方向混同の罠。水平成分はcosβを用いるべきでsinβは鉛直成分。"},
+          {"id":4,"text":"T1 = Mgcosβ/sin(α+β)","explanation_zh":"正确。水平方向：T1sinα=T2sinβ，竖直方向：T1cosα+T2cosβ=Mg，联立解得T1=Mgcosβ/sin(α+β)。","explanation_ja":"正解。水平方向：T1sinα＝T2sinβ，鉛直方向：T1cosα＋T2cosβ＝Mg，連立してT1＝Mgcosβ/sin(α+β)。"},
+          {"id":5,"text":"T1 = Mg(sinα+cosβ)/sin(α+β)","explanation_zh":"陷阱：多余项叠加。分子不能将sinα与cosβ相加，两者来自不同方向的方程。","explanation_ja":"誤り。余分な項の罠。sinαとcosβを足し合わせることはできない。"},
+          {"id":6,"text":"T1 = Mgcosα/cos(α-β)","explanation_zh":"陷阱：公式完全错误。分母应为sin(α+β)，分子应为cosβ，两者均用错。","explanation_ja":"誤り。公式の誤りの罠。分母・分子ともに正しくない。"}
+        ],
+        "answer":4,
+        "tag":{
+          "unit":"I 力学",
+          "sub_domain":"力のつり合い",
+          "question_form":"式変形",
+          "required_skill":"法則・公式適用",
+          "requires_image":false,
+          "trap_patterns":["符号・向き混同","条件見落とし"],
+          "keywords_to_avoid":[],
+          "syllabus_path":{"area":"I 力学","field":"物理","item":"1. 運動と力"}
+        },
+        "prompt":"なめらかな天井から2本の糸で質量Mの小球をつり下げる。糸1は天井と角αをなし，糸2は天井と角βをなしている。糸1の張力T1，糸2の張力T2，重力加速度gとして，T1を表す式はどれか。"
+      }
+    ],
+    "tag": {
+      "unit":"I 力学",
+      "sub_domain":"力のつり合い",
+      "question_form":"式変形",
+      "required_skill":"法則・公式適用",
+      "requires_image":false,
+      "trap_patterns":["符号・向き混同","条件見落とし"],
+      "keywords_to_avoid":[],
+      "syllabus_path":{"area":"I 力学","field":"物理","item":"1. 運動と力"}
+    },
+    "prompt": "なめらかな天井から2本の糸で質量Mの小球をつり下げる。糸1は天井と角αをなし，糸2は天井と角βをなしている。"
+  },
+  {
+    "id": 2,
+    "title": "Ⅰ_B",
+    "sub_questions": [
+      {
+        "sub_id":2,
+        "global_id":2,
+        "choices":[
+          {"id":1,"text":"N = mg","explanation_zh":"陷阱：方向混淆。mg是重力大小，法向力是重力在法线方向的分量N=mgcosθ，不等于mg。","explanation_ja":"誤り。方向混同の罠。法線方向に分解するとN＝mgcosθとなる。"},
+          {"id":2,"text":"N = mgcosθ","explanation_zh":"正确。斜面法线方向力平衡：N=mgcosθ，这是斜面问题的基本结论。","explanation_ja":"正解。斜面の法線方向のつり合い：N＝mgcosθ。"},
+          {"id":3,"text":"N = mgsinθ","explanation_zh":"陷阱：分量方向混淆。mgsinθ是沿斜面方向（切线）的分量，不是法线方向的分量。","explanation_ja":"誤り。分力方向混同の罠。mgsinθは斜面方向の成分であり，法線方向ではない。"},
+          {"id":4,"text":"N = mg/cosθ","explanation_zh":"陷阱：除法方向错误。mg/cosθ大于mg，物理上不合理；斜面法向力不能大于重力。","explanation_ja":"誤り。計算誤りの罠。mg/cosθはmgより大きくなり物理的に不合理。"}
+        ],
+        "answer":2,
+        "tag":{
+          "unit":"I 力学",
+          "sub_domain":"力のつり合い",
+          "question_form":"計算選択",
+          "required_skill":"概念理解",
+          "requires_image":false,
+          "trap_patterns":["符号・向き混同","条件見落とし"],
+          "keywords_to_avoid":[],
+          "syllabus_path":{"area":"I 力学","field":"物理","item":"1. 運動と力"}
+        },
+        "prompt":"傾角θのなめらかな斜面上に，質量mの物体が静止している。重力加速度をgとする。物体が斜面から受ける垂直抗力Nの大きさはどれか。"
+      }
+    ],
+    "tag": {
+      "unit":"I 力学",
+      "sub_domain":"力のつり合い",
+      "question_form":"計算選択",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["符号・向き混同","条件見落とし"],
+      "keywords_to_avoid":[],
+      "syllabus_path":{"area":"I 力学","field":"物理","item":"1. 運動と力"}
+    },
+    "prompt": "傾角θのなめらかな斜面上に，質量mの物体が静止している。重力加速度をgとする。"
+  },
+  {
+    "id": 3,
+    "title": "Ⅰ_C",
+    "sub_questions": [
+      {
+        "sub_id":3,
+        "global_id":3,
+        "choices":[
+          {"id":1,"text":"24m","explanation_zh":"陷阱：只计算了一半。仅取匀加速段三角形面积(1/2×4×8=16m)加部分值，未正确叠加匀速段。","explanation_ja":"誤り。計算の一部を忘れた罠。等加速・等速両方の区間を計算する必要がある。"},
+          {"id":2,"text":"32m","explanation_zh":"陷阱：只计算了匀速段（8m/s×4s=32m），忽略了匀加速阶段的位移（16m）。","explanation_ja":"誤り。条件見落としの罠。等速区間のみ計算し，等加速区間(16m)を忘れている。"},
+          {"id":3,"text":"40m","explanation_zh":"陷阱：匀加速段误用末速度计算，8m/s×4s=32m（应为面积16m），漏减了一半。","explanation_ja":"誤り。等加速区間を8×4=32mとしてしまう誤り。正しくは三角形の面積(1/2)×4×8=16m。"},
+          {"id":4,"text":"48m","explanation_zh":"正确。匀加速段位移=梯形(三角形)面积=(1/2)×4s×8m/s=16m；匀速段位移=8m/s×4s=32m；总位移=16+32=48m。","explanation_ja":"正解。等加速区間：(1/2)×4×8＝16m，等速区間：8×4＝32m，合計48m。"},
+          {"id":5,"text":"64m","explanation_zh":"陷阱：将匀加速段也按8m/s×4s=32m计算，总和错误为64m，忽略了加速段实际是三角形面积。","explanation_ja":"誤り。等加速区間も8×4=32mとして計算してしまう誤り。三角形面積で計算が必要。"}
+        ],
+        "answer":4,
+        "tag":{
+          "unit":"I 力学",
+          "sub_domain":"等加速度運動",
+          "question_form":"図表読取",
+          "required_skill":"グラフ読取",
+          "requires_image":false,
+          "trap_patterns":["符号・向き混同","単位換算ミス"],
+          "keywords_to_avoid":[],
+          "syllabus_path":{"area":"I 力学","field":"物理","item":"1. 運動と力"}
+        },
+        "prompt":"水平な直線上を運動する物体の速度v（m/s）と時刻t（s）の関係を調べたところ，t=0からt=4sまでは速度が0から8m/sまで一定の割合で増加し，t=4sからt=8sまでは速度が8m/sのまま一定であった。この物体がt=0からt=8sまでに移動した距離はいくらか。"
+      }
+    ],
+    "tag": {
+      "unit":"I 力学",
+      "sub_domain":"等加速度運動",
+      "question_form":"図表読取",
+      "required_skill":"グラフ読取",
+      "requires_image":false,
+      "trap_patterns":["符号・向き混同","単位換算ミス"],
+      "keywords_to_avoid":[],
+      "syllabus_path":{"area":"I 力学","field":"物理","item":"1. 運動と力"}
+    },
+    "prompt": "水平な直線上を運動する物体の速度v（m/s）と時刻t（s）の関係を調べたところ，t=0からt=4sまでは速度が0から8m/sまで一定の割合で増加し，t=4sからt=8sまでは速度が8m/sのまま一定であった。"
+  },
+  {
+    "id": 4,
+    "title": "Ⅰ_D",
+    "sub_questions": [
+      {
+        "sub_id":4,
+        "global_id":4,
+        "choices":[
+          {"id":1,"text":"t = h/g","explanation_zh":"陷阱：直接用h除以g（量纲错误）。自由落体h=(1/2)gt²，需要解出t=sqrt(2h/g)。","explanation_ja":"誤り。h/gは次元が合わない計算の罠。h＝(1/2)gt²より平方根を取る必要がある。"},
+          {"id":2,"text":"t = 2h/g","explanation_zh":"陷阱：忘记对h=(1/2)gt²开平方，直接得t=2h/g（量纲错误）。","explanation_ja":"誤り。平方根を取り忘れた誤り。h＝(1/2)gt²をtについて解くと√が必要。"},
+          {"id":3,"text":"t = sqrt(h/g)","explanation_zh":"陷阱：缺少因子2。正确是sqrt(2h/g)，此选项的分子缺少系数2。","explanation_ja":"誤り。係数2の抜けの罠。正しくはsqrt(2h/g)。sqrt(h/g)はsqrt(2)倍小さい。"},
+          {"id":4,"text":"t = sqrt(h/2g)","explanation_zh":"陷阱：2的位置放错。h=(1/2)gt²解得sqrt(2h/g)，此选项等于前者的1/2，完全错误。","explanation_ja":"誤り。係数2の位置誤りの罠。正しくはsqrt(2h/g)であり，sqrt(h/2g)はその1/2。"},
+          {"id":5,"text":"t = sqrt(2h/g)","explanation_zh":"正确。竖直方向自由落体：h=(1/2)gt²，解得t=sqrt(2h/g)，与水平初速u无关。","explanation_ja":"正解。鉛直方向の自由落下：h＝(1/2)gt²，t＝sqrt(2h/g)。水平初速uは無関係。"},
+          {"id":6,"text":"t = sqrt(2h/u)","explanation_zh":"陷阱：将水平初速u混入竖直方向公式，落地时间仅由竖直运动决定，与u无关。","explanation_ja":"誤り。水平初速uを鉛直方向の式に入れた誤り。落下時間は鉛直方向のみで決まる。"}
+        ],
+        "answer":5,
+        "tag":{
+          "unit":"I 力学",
+          "sub_domain":"力のつり合い",
+          "question_form":"式変形",
+          "required_skill":"法則・公式適用",
+          "requires_image":false,
+          "trap_patterns":["符号・向き混同","条件見落とし"],
+          "keywords_to_avoid":["v₀"],
+          "syllabus_path":{"area":"I 力学","field":"物理","item":"1. 運動と力"}
+        },
+        "prompt":"高さhの水平な台の端から，質量mの小球を水平方向に初速uで投げ出した。重力加速度をgとするとき，小球が地面に達するまでの時間tはどれか。"
+      }
+    ],
+    "tag": {
+      "unit":"I 力学",
+      "sub_domain":"力のつり合い",
+      "question_form":"式変形",
+      "required_skill":"法則・公式適用",
+      "requires_image":false,
+      "trap_patterns":["符号・向き混同","条件見落とし"],
+      "keywords_to_avoid":["v₀"],
+      "syllabus_path":{"area":"I 力学","field":"物理","item":"1. 運動と力"}
+    },
+    "prompt": "高さhの水平な台の端から，質量mの小球を水平方向に初速uで投げ出した。"
+  },
+  {
+    "id": 5,
+    "title": "Ⅰ_E",
+    "sub_questions": [
+      {
+        "sub_id":5,
+        "global_id":5,
+        "choices":[
+          {"id":1,"text":"x = u*sqrt(h/g)","explanation_zh":"陷阱：落地时间误用sqrt(h/g)（少√2），x=u*sqrt(h/g)，比正确值小√2倍。","explanation_ja":"誤り。落下時間をsqrt(h/g)とした誤り。正しくはt＝sqrt(2h/g)。"},
+          {"id":2,"text":"x = sqrt(2uh/g)","explanation_zh":"陷阱：将u放入根号内，与sqrt(2h/g)混淆。正确是x=u*sqrt(2h/g)，u在根号外作乘法。","explanation_ja":"誤り。uを√の中に入れた誤りの罠。x＝u・sqrt(2h/g)であり，uは√の外。"},
+          {"id":3,"text":"x = uh/g","explanation_zh":"陷阱：落地时间误用t=h/g（量纲错误），代入x=ut得x=uh/g。","explanation_ja":"誤り。落下時間をt＝h/gとした誤り。h/gは次元が正しくない。"},
+          {"id":4,"text":"x = u*sqrt(2h/g)","explanation_zh":"正确。落地时间t=sqrt(2h/g)，水平匀速运动x=u*t=u*sqrt(2h/g)。","explanation_ja":"正解。落下時間t＝sqrt(2h/g)，水平距離x＝u・t＝u*sqrt(2h/g)。"},
+          {"id":5,"text":"x = 2uh/g","explanation_zh":"陷阱：落地时间误用t=2h/g（忘记开平方），代入x=ut得x=2uh/g。","explanation_ja":"誤り。t＝2h/g（平方根を取らない誤り）を代入した計算結果。"}
+        ],
+        "answer":4,
+        "tag":{
+          "unit":"I 力学",
+          "sub_domain":"力のつり合い",
+          "question_form":"式変形",
+          "required_skill":"法則・公式適用",
+          "requires_image":false,
+          "trap_patterns":["符号・向き混同","条件見落とし"],
+          "keywords_to_avoid":["v₀"],
+          "syllabus_path":{"area":"I 力学","field":"物理","item":"1. 運動と力"}
+        },
+        "prompt":"高さhの水平な台の端から，質量mの小球を水平方向に初速uで投げ出した。重力加速度をgとするとき，小球が地面に達したときの水平方向の移動距離xはどれか。"
+      }
+    ],
+    "tag": {
+      "unit":"I 力学",
+      "sub_domain":"力のつり合い",
+      "question_form":"式変形",
+      "required_skill":"法則・公式適用",
+      "requires_image":false,
+      "trap_patterns":["符号・向き混同","条件見落とし"],
+      "keywords_to_avoid":["v₀"],
+      "syllabus_path":{"area":"I 力学","field":"物理","item":"1. 運動と力"}
+    },
+    "prompt": "高さhの水平な台の端から，質量mの小球を水平方向に初速uで投げ出した。"
+  },
+  {
+    "id": 6,
+    "title": "Ⅰ_F",
+    "sub_questions": [
+      {
+        "sub_id":6,
+        "global_id":6,
+        "choices":[
+          {"id":1,"text":"Mv/m（右向き）","explanation_zh":"陷阱：分子分母颠倒且方向错误。正确是V=mv/M且台车向左。","explanation_ja":"誤り。分子分母逆転かつ向き誤りの罠。正しくはV＝mv/M，左向き。"},
+          {"id":2,"text":"mv/M（右向き）","explanation_zh":"陷阱：大小正确但方向错误。人向右跳，台车因反冲应向左运动，非向右。","explanation_ja":"誤り。符号・向き混同の罠。大きさはmv/Mで正しいが，台車は左向きに動く。"},
+          {"id":3,"text":"(m+M)v/M（左向き）","explanation_zh":"陷阱：动量计算错误。初始总动量为零，mv-MV=0，V=mv/M，分子不应出现(m+M)。","explanation_ja":"誤り。運動量計算誤りの罠。初期運動量はゼロ：mv＋M(−V)＝0，V＝mv/M。"},
+          {"id":4,"text":"mv/M（左向き）","explanation_zh":"正确。动量守恒：初总动量=0，mv + M(-V)=0，V=mv/M，台车向左。","explanation_ja":"正解。運動量保存：0＝mv−MV，V＝mv/M，台車は左向きに動く。"},
+          {"id":5,"text":"mv/(M-m)（左向き）","explanation_zh":"陷阱：分母错误。动量守恒方程中分母应为M，不是(M-m)。","explanation_ja":"誤り。分母の誤りの罠。運動量保存の分母はMであり，(M−m)ではない。"},
+          {"id":6,"text":"Mv/m（左向き）","explanation_zh":"陷阱：分子分母颠倒。正确是V=mv/M，M和m的位置互换了。","explanation_ja":"誤り。分子分母の逆転の罠。正しくはV＝mv/M。"}
+        ],
+        "answer":4,
+        "tag":{
+          "unit":"I 力学",
+          "sub_domain":"運動量・力積",
+          "question_form":"計算選択",
+          "required_skill":"グラフ読取",
+          "requires_image":false,
+          "trap_patterns":["保存則選択ミス","初期条件混同"],
+          "keywords_to_avoid":[],
+          "syllabus_path":{"area":"I 力学","field":"物理","item":"2. エネルギーと運動量"}
+        },
+        "prompt":"摩擦のないなめらかな水平面上で，質量Mの台車が静止している。台車の上に乗った質量mの人が，水平方向右向きに速度v（地面に対して）でとびおりた。このとき台車の速度の大きさはどれか。ただし，右向きを正とする。"
+      }
+    ],
+    "tag": {
+      "unit":"I 力学",
+      "sub_domain":"運動量・力積",
+      "question_form":"計算選択",
+      "required_skill":"グラフ読取",
+      "requires_image":false,
+      "trap_patterns":["保存則選択ミス","初期条件混同"],
+      "keywords_to_avoid":[],
+      "syllabus_path":{"area":"I 力学","field":"物理","item":"2. エネルギーと運動量"}
+    },
+    "prompt": "摩擦のないなめらかな水平面上で，質量Mの台車が静止している。台車の上に乗った質量mの人が，水平方向右向きに速度v（地面に対して）でとびおりた。このとき台車の速度の大きさはどれか。ただし，右向きを正とする。"
+  },
+  {
+    "id": 7,
+    "title": "Ⅰ_G",
+    "sub_questions": [
+      {
+        "sub_id":7,
+        "global_id":7,
+        "choices":[
+          {"id":1,"text":"F = ρ₀g/V","explanation_zh":"陷阱：除法方向错误。浮力F=ρ₀Vg，应是密度×体积×g，而非密度×g÷体积（量纲不对）。","explanation_ja":"誤り。計算誤りの罠。浮力はF＝ρ₀Vg。ρ₀g/Vは次元が合わない。"},
+          {"id":2,"text":"F = ρ₀Vg","explanation_zh":"正确。阿基米德原理：浮力等于排开液体的重力=ρ₀×V×g，物体完全浸没时排开体积为V。","explanation_ja":"正解。アルキメデスの原理：F＝ρ₀Vg。完全に沈んでいるので排除した液体の体積はV。"},
+          {"id":3,"text":"F = ρ₀V²g","explanation_zh":"陷阱：多乘一个V。浮力公式为F=ρ₀Vg，体积V只出现一次，不能平方。","explanation_ja":"誤り。Vを余分に掛けた誤りの罠。正しくはF＝ρ₀Vg。"},
+          {"id":4,"text":"F = ρ₀g*sqrt(V)","explanation_zh":"陷阱：将V误处理为sqrt(V)，浮力公式不含根号运算。","explanation_ja":"誤り。Vにsqrtを付けた誤りの罠。浮力の公式に根号は登場しない。"},
+          {"id":5,"text":"F = 2ρ₀Vg","explanation_zh":"陷阱：多乘因子2，没有物理依据，浮力公式无系数2。","explanation_ja":"誤り。係数2の誤りの罠。浮力の公式に2は含まれない。"},
+          {"id":6,"text":"F = ρ₀Vg/2","explanation_zh":"陷阱：出现1/2系数，可能与动能公式(1/2)mv²混淆，浮力公式无1/2系数。","explanation_ja":"誤り。1/2係数の罠。運動エネルギーの式と混同している。浮力の式に1/2は不要。"}
+        ],
+        "answer":2,
+        "tag":{
+          "unit":"I 力学",
+          "sub_domain":"力のつり合い",
+          "question_form":"計算選択",
+          "required_skill":"概念理解",
+          "requires_image":false,
+          "trap_patterns":["符号・向き混同","条件見落とし"],
+          "keywords_to_avoid":[],
+          "syllabus_path":{"area":"I 力学","field":"物理","item":"1. 運動と力"}
+        },
+        "prompt":"密度ρ₀の液体の中に，体積Vの物体が完全に沈んで静止している。重力加速度をgとするとき，物体が液体から受ける浮力Fの大きさはどれか。"
+      }
+    ],
+    "tag": {
+      "unit":"I 力学",
+      "sub_domain":"力のつり合い",
+      "question_form":"計算選択",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["符号・向き混同","条件見落とし"],
+      "keywords_to_avoid":[],
+      "syllabus_path":{"area":"I 力学","field":"物理","item":"1. 運動と力"}
+    },
+    "prompt": "密度ρ₀の液体の中に，体積Vの物体が完全に沈んで静止している。"
+  },
+  {
+    "id": 8,
+    "title": "Ⅱ_A",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":8,
+        "choices":[
+          {"id":1,"text":"A（比熱200 J/(kg・K)）","explanation_zh":"陷阱：条件见落。A的比热=8000/(2×20)=200J/(kg·K)，并非最小，C的30才是最小。","explanation_ja":"誤り。条件見落としの罠。AのcA＝8000/(2×20)＝200J/(kg·K)。最小はC。"},
+          {"id":2,"text":"B（比熱600 J/(kg・K)）","explanation_zh":"陷阱：比例关係误认。B的比热=6000/(0.5×20)=600J/(kg·K)，是三者中最大，不是最小。","explanation_ja":"誤り。比例関係誤認の罠。BのcB＝6000/(0.5×20)＝600J/(kg·K)。これが最大。"},
+          {"id":3,"text":"C（比熱30 J/(kg・K)）","explanation_zh":"正确。C的比热=Q/(mΔT)=900/(1×30)=30J/(kg·K)，远小于A的200和B的600，比热最小。","explanation_ja":"正解。CのcC＝900/(1×30)＝30J/(kg·K)，A(200)・B(600)より最も小さい。"},
+          {"id":4,"text":"AとC（比熱が等しい）","explanation_zh":"陷阱：计算错误。A比热200J/(kg·K)，C比热30J/(kg·K)，两者不相等。","explanation_ja":"誤り。比例関係誤認の罠。AとCの比熱は異なる(A:200，C:30)。"}
+        ],
+        "answer":3,
+        "tag":{
+          "unit":"II 熱",
+          "sub_domain":"熱量・比熱",
+          "question_form":"計算選択",
+          "required_skill":"量的計算",
+          "requires_image":false,
+          "trap_patterns":["単位換算ミス","比例関係誤認"],
+          "keywords_to_avoid":["4.2J","2.1J"],
+          "syllabus_path":{"area":"II 熱","field":"物理","item":"1. 熱と温度"}
+        },
+        "prompt":"3種類の物質A，B，CについてそれぞれQ（J）の熱を与えたときの温度上昇ΔT（K）と質量m（kg）を測定した。A：m=2kg，Q=8000J，ΔT=20K。B：m=0.5kg，Q=6000J，ΔT=20K。C：m=1kg，Q=900J，ΔT=30K。比熱が最も小さい物質はどれか。"
+      }
+    ],
+    "tag": {
+      "unit":"II 熱",
+      "sub_domain":"熱量・比熱",
+      "question_form":"計算選択",
+      "required_skill":"量的計算",
+      "requires_image":false,
+      "trap_patterns":["単位換算ミス","比例関係誤認"],
+      "keywords_to_avoid":["4.2J","2.1J"],
+      "syllabus_path":{"area":"II 熱","field":"物理","item":"1. 熱と温度"}
+    },
+    "prompt": "3種類の物質A，B，CについてそれぞれQ（J）の熱を与えたときの温度上昇ΔT（K）と質量m（kg）を測定した。A：m=2kg，Q=8000J，ΔT=20K。B：m=0.5kg，Q=6000J，ΔT=20K。C：m=1kg，Q=900J，ΔT=30K。"
+  },
+  {
+    "id": 9,
+    "title": "Ⅱ_B",
+    "sub_questions": [
+      {
+        "sub_id":2,
+        "global_id":9,
+        "choices":[
+          {"id":1,"text":"V' = V/2","explanation_zh":"陷阱：比例关係逆转。等压过程V∝T（绝对温度），温度加倍体积应加倍，不是减半。","explanation_ja":"誤り。比例関係逆転の罠。等圧過程ではV∝T。温度が2倍になれば体積も2倍。"},
+          {"id":2,"text":"V' = sqrt(2)*V","explanation_zh":"陷阱：误用平方根关系。等压过程V与T成正比（一次方），不是平方根关系。","explanation_ja":"誤り。平方根関係誤認の罠。シャルルの法則はV∝T（比例）であり，√関係ではない。"},
+          {"id":3,"text":"V' = 2V","explanation_zh":"正确。等压过程（查理定律）：V/T=const，V/T₀=V'/2T₀，解得V'=2V。","explanation_ja":"正解。等圧過程（シャルルの法則）：V'/V＝2T₀/T₀＝2，V'＝2V。"},
+          {"id":4,"text":"V' = 4V","explanation_zh":"陷阱：误用T的平方关系。等压过程V∝T（一次方），温度加倍体积加倍，非四倍。","explanation_ja":"誤り。T²関係誤認の罠。等圧過程はV∝T（1乗）であり，V∝T²ではない。"}
+        ],
+        "answer":3,
+        "tag":{
+          "unit":"II 熱",
+          "sub_domain":"気体分子運動論",
+          "question_form":"式変形",
+          "required_skill":"法則・公式適用",
+          "requires_image":false,
+          "trap_patterns":["比例関係誤認","単位換算ミス"],
+          "keywords_to_avoid":[],
+          "syllabus_path":{"area":"II 熱","field":"物理","item":"2. 気体の性質"}
+        },
+        "prompt":"密閉容器内の理想気体が，圧力P，体積V，絶対温度T₀の状態にある。この気体を圧力Pを一定に保ちながら，絶対温度が2T₀になるまで加熱した。加熱後の体積V'はどれか。"
+      }
+    ],
+    "tag": {
+      "unit":"II 熱",
+      "sub_domain":"気体分子運動論",
+      "question_form":"式変形",
+      "required_skill":"法則・公式適用",
+      "requires_image":false,
+      "trap_patterns":["比例関係誤認","単位換算ミス"],
+      "keywords_to_avoid":[],
+      "syllabus_path":{"area":"II 熱","field":"物理","item":"2. 気体の性質"}
+    },
+    "prompt": "密閉容器内の理想気体が，圧力P，体積V，絶対温度T₀の状態にある。この気体を圧力Pを一定に保ちながら，絶対温度が2T₀になるまで加熱した。"
+  },
+  {
+    "id": 10,
+    "title": "Ⅱ_C",
+    "sub_questions": [
+      {
+        "sub_id":3,
+        "global_id":10,
+        "choices":[
+          {"id":1,"text":"アのみ","explanation_zh":"陷阱：条件见落。正确（玻意耳定律），也正确（查理定律），只选不完整。","explanation_ja":"誤り。条件見落としの罠。アもイも正しい。アだけを選ぶのは不十分。"},
+          {"id":2,"text":"イのみ","explanation_zh":"陷阱：条件见落。正确，但也正确，只选不完整。","explanation_ja":"誤り。条件見落としの罠。イは正しいが，アも正しい。"},
+          {"id":3,"text":"ウのみ","explanation_zh":"陷阱：是错误命题。断热压缩时外力做功使内能增加，温度升高而非降低。","explanation_ja":"誤り。ウは誤りの命題の罠。断熱圧縮では外力が仕事をして内部エネルギーが増え，温度は上昇する。"},
+          {"id":4,"text":"アとウ","explanation_zh":"正确。等熵压缩时气体温度升高、压强增大，各状态量的变化组合符合绝热过程规律。","explanation_ja":"正解。ウは誤りの罠。断熱圧縮で温度が下がるとするウは間違い。"},
+          {"id":5,"text":"アとイ","explanation_zh":"陷阱：（玻意耳定律）和（查理定律）均正确；错误（断热压缩温度升高不降低）。","explanation_ja":"誤り。ア（ボイルの法則）とイ（シャルルの法則）はともに正しい。ウ：断熱圧縮は温度上昇，誤り。"},
+          {"id":6,"text":"イとウ","explanation_zh":"陷阱：是错误命题，与其组合的答案整体错误。","explanation_ja":"誤り。ウは誤りの罠。断熱圧縮で温度が上がるが誤りとしている。"}
+        ],
+        "answer":4,
+        "tag":{
+          "unit":"II 熱",
+          "sub_domain":"気体分子運動論",
+          "question_form":"組合せ",
+          "required_skill":"条件整理",
+          "requires_image":false,
+          "trap_patterns":["比例関係誤認","単位換算ミス"],
+          "keywords_to_avoid":[],
+          "syllabus_path":{"area":"II 熱","field":"物理","item":"2. 気体の性質"}
+        },
+        "prompt":"理想気体の状態変化について，次のア〜ウを考える。ア：温度一定のまま体積を半分にすると圧力は2倍になる。イ：圧力一定のまま体積を2倍に膨張させると絶対温度は2倍になる。ウ：断熱的に圧縮すると温度は下がる。正しいものの組み合わせはどれか。"
+      }
+    ],
+    "tag": {
+      "unit":"II 熱",
+      "sub_domain":"気体分子運動論",
+      "question_form":"組合せ",
+      "required_skill":"条件整理",
+      "requires_image":false,
+      "trap_patterns":["比例関係誤認","単位換算ミス"],
+      "keywords_to_avoid":[],
+      "syllabus_path":{"area":"II 熱","field":"物理","item":"2. 気体の性質"}
+    },
+    "prompt": "理想気体の状態変化について，次のア〜ウを考える。ア：温度一定のまま体積を半分にすると圧力は2倍になる。イ：圧力一定のまま体積を2倍に膨張させると絶対温度は2倍になる。ウ：断熱的に圧縮すると温度は下がる。"
+  },
+  {
+    "id": 11,
+    "title": "Ⅲ_A",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":11,
+        "choices":[
+          {"id":1,"text":"a = 2 m/s²","explanation_zh":"正确。加速度a=(v₂-v₁)/t=(8-2)/3=6/3=2m/s²，匀加速直线运动的基本公式。","explanation_ja":"正解。加速度a＝(v₂−v₁)/t＝(8−2)/3＝2m/s²。"},
+          {"id":2,"text":"a = 3 m/s²","explanation_zh":"陷阱：末速度除以时间，忽略了初速度。a=(8-0)/3≒2.67m/s²取近似，或直接8/3≒2.67，均非正确。","explanation_ja":"誤り。符号・向き混同の罠。初速度を0として計算したときの誤り。正しくはa＝(8−2)/3＝2m/s²。"},
+          {"id":3,"text":"a = 4 m/s²","explanation_zh":"陷阱：速度差计算错误。(8-2)=6，除以时间3s得2，不是4。4m/s²需要速度差12，不符合题意。","explanation_ja":"誤り。速度差計算の誤り。(8−2)÷3＝2m/s²が正しい。"},
+          {"id":4,"text":"a = 6 m/s²","explanation_zh":"陷阱：忘记除以时间。速度差为6m/s但未除以3s，直接把速度差当加速度，单位量纲错误。","explanation_ja":"誤り。単位換算ミスの罠。速度差6m/sを時間3sで割るのを忘れた誤り。"}
+        ],
+        "answer":1,
+        "tag":{
+          "unit":"I 力学",
+          "sub_domain":"等加速度運動",
+          "question_form":"図表読取",
+          "required_skill":"グラフ読取",
+          "requires_image":false,
+          "trap_patterns":["符号・向き混同","単位換算ミス"],
+          "keywords_to_avoid":[],
+          "syllabus_path":{"area":"I 力学","field":"物理","item":"1. 運動と力"}
+        },
+        "prompt":"水平面上を一定の加速度で動く物体の速度vと時刻tの関係を調べた。t=0でv=2m/s，t=3sでv=8m/sであった。この物体の加速度aはどれか。"
+      }
+    ],
+    "tag": {
+      "unit":"I 力学",
+      "sub_domain":"等加速度運動",
+      "question_form":"図表読取",
+      "required_skill":"グラフ読取",
+      "requires_image":false,
+      "trap_patterns":["符号・向き混同","単位換算ミス"],
+      "keywords_to_avoid":[],
+      "syllabus_path":{"area":"I 力学","field":"物理","item":"1. 運動と力"}
+    },
+    "prompt": "水平面上を一定の加速度で動く物体の速度vと時刻tの関係を調べた。t=0でv=2m/s，t=3sでv=8m/sであった。"
+  },
+  {
+    "id": 12,
+    "title": "Ⅲ_B",
+    "sub_questions": [
+      {
+        "sub_id":2,
+        "global_id":12,
+        "choices":[
+          {"id":1,"text":"f = V/(2L)","explanation_zh":"正确。开管基本振动时，管长等于半波长，即L=λ/2，所以λ=2L，f=V/λ=V/(2L)。","explanation_ja":"正解。開管の基本振動では管長L＝λ/2，λ＝2L，f＝V/(2L)。"},
+          {"id":2,"text":"f = V/L","explanation_zh":"陷阱：忘记基本振动时λ=2L。将L直接代入f=V/L，相当于λ=L（二次谐波），多乘了2。","explanation_ja":"誤り。条件見落としの罠。基本振動ではλ＝2Lなのに，λ＝Lとして計算している。"},
+          {"id":3,"text":"f = V/(4L)","explanation_zh":"陷阱：混淆了闭管公式。闭管基本振动λ=4L，f=V/(4L)，但此题为开管，应用λ=2L。","explanation_ja":"誤り。閉管の公式を使った罠。閉管ではf＝V/(4L)だが，開管ではf＝V/(2L)。"},
+          {"id":4,"text":"f = 2V/L","explanation_zh":"陷阱：将开管公式颠倒，误算为f=2V/L（相当于λ=L/2，是第二泛音而非基本振动）。","explanation_ja":"誤り。公式の逆転の罠。f＝2V/Lはλ＝L/2に相当し，基本振動ではない。"},
+          {"id":5,"text":"f = 3V/(4L)","explanation_zh":"陷阱：闭管的第一泛音（三次谐波），与开管基本振动无关。","explanation_ja":"誤り。閉管の第1倍音の罠。f＝3V/(4L)は閉管の第1倍音であり，開管基本振動ではない。"},
+          {"id":6,"text":"f = V/(3L)","explanation_zh":"陷阱：无物理依据的错误选项。开管基本振动f=V/(2L)，与1/3L无关。","explanation_ja":"誤り。根拠のない計算の罠。開管の基本振動はf＝V/(2L)であり，V/(3L)とは無関係。"}
+        ],
+        "answer":1,
+        "tag":{
+          "unit":"III 波",
+          "sub_domain":"音波",
+          "question_form":"式変形",
+          "required_skill":"法則・公式適用",
+          "requires_image":false,
+          "trap_patterns":["符号・向き混同","条件見落とし"],
+          "keywords_to_avoid":["L₁","L₂","f₁"],
+          "syllabus_path":{"area":"III 波","field":"物理","item":"2. 音"}
+        },
+        "prompt":"両端が開いた管（開管）に音波を当てて共鳴させる。管の長さをLとし，音速をVとするとき，この開管の基本振動（最低次の共鳴）の振動数fはどれか。"
+      }
+    ],
+    "tag": {
+      "unit":"III 波",
+      "sub_domain":"音波",
+      "question_form":"式変形",
+      "required_skill":"法則・公式適用",
+      "requires_image":false,
+      "trap_patterns":["符号・向き混同","条件見落とし"],
+      "keywords_to_avoid":["L₁","L₂","f₁"],
+      "syllabus_path":{"area":"III 波","field":"物理","item":"2. 音"}
+    },
+    "prompt": "両端が開いた管（開管）に音波を当てて共鳴させる。"
+  },
+  {
+    "id": 13,
+    "title": "Ⅲ_C",
+    "sub_questions": [
+      {
+        "sub_id":3,
+        "global_id":13,
+        "choices":[
+          {"id":1,"text":"Δx = dL/λ","explanation_zh":"陷阱：分子分母颠倒。正确公式Δx=λL/d，此选项分子分母颠倒。d越小条纹间距越大，而非越小。","explanation_ja":"誤り。分子分母逆転の罠。正しくはΔx＝λL/d。dが小さいほど縞間隔は広がる。"},
+          {"id":2,"text":"Δx = λL/d","explanation_zh":"正确。双缝干涉条纹间距Δx=λL/d，这是杨氏双缝实验的基本公式。","explanation_ja":"正解。ヤングの二重スリット実験の明線間隔：Δx＝λL/d。"},
+          {"id":3,"text":"Δx = λd/L","explanation_zh":"陷阱：将L和d的位置互换。正确是λ乘以L除以d，此选项误乘d除以L。","explanation_ja":"誤り。近似条件見落としの罠。LとdをΔxの式で逆に使っている。正しくはΔx＝λL/d。"},
+          {"id":4,"text":"Δx = 2λL/d","explanation_zh":"陷阱：多乘因子2。双缝干涉条纹间距无系数2，Δx=λL/d为标准公式。","explanation_ja":"誤り。係数2の誤りの罠。ヤングの実験の縞間隔にはΔx＝λL/dを用い，係数2は不要。"}
+        ],
+        "answer":2,
+        "tag":{
+          "unit":"III 波",
+          "sub_domain":"光波",
+          "question_form":"計算選択",
+          "required_skill":"グラフ読取",
+          "requires_image":false,
+          "trap_patterns":["条件見落とし","近似条件見落とし"],
+          "keywords_to_avoid":[],
+          "syllabus_path":{"area":"III 波","field":"物理","item":"3. 光"}
+        },
+        "prompt":"ヤングの二重スリット実験を行った。スリット間隔をd，スリットからスクリーンまでの距離をL，光の波長をλとするとき，スクリーン上の明線の間隔Δxはどれか。ただしd<<Lとする。"
+      }
+    ],
+    "tag": {
+      "unit":"III 波",
+      "sub_domain":"光波",
+      "question_form":"計算選択",
+      "required_skill":"グラフ読取",
+      "requires_image":false,
+      "trap_patterns":["条件見落とし","近似条件見落とし"],
+      "keywords_to_avoid":[],
+      "syllabus_path":{"area":"III 波","field":"物理","item":"3. 光"}
+    },
+    "prompt": "ヤングの二重スリット実験を行った。スリット間隔をd，スリットからスクリーンまでの距離をL，光の波長をλとするとき，スクリーン上の明線の間隔Δxはどれか。ただしd<<Lとする。"
+  },
+  {
+    "id": 14,
+    "title": "Ⅳ_A",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":14,
+        "choices":[
+          {"id":1,"text":"E = k₀Q/r","explanation_zh":"陷阱：分母应为r²，不是r。库仑定律和点电荷电场公式均使用距离的平方。","explanation_ja":"誤り。比例関係誤認の罠。電場はE＝k₀Q/r²（距離の2乗に反比例）。r²ではなくrを使っている。"},
+          {"id":2,"text":"E = k₀Q/r²","explanation_zh":"正确。点电荷产生的电场大小E=kQ/r²，与距离平方成反比，这是基本的电场公式。","explanation_ja":"正解。点電荷による電場：E＝k₀Q/r²（距離の2乗に反比例）。"},
+          {"id":3,"text":"E = k₀Q²/r²","explanation_zh":"陷阱：电荷Q被平方。电场公式E=kQ/r²，Q本身不平方。","explanation_ja":"誤り。Qを2乗した誤りの罠。電場の式ではQは1乗。E＝k₀Q/r²が正しい。"},
+          {"id":4,"text":"E = k₀Q/r³","explanation_zh":"陷阱：距离r的指数错误。点电荷电场与r²成反比，不是r³。","explanation_ja":"誤り。距離の指数誤りの罠。点電荷の電場はr²に反比例する。r³ではない。"},
+          {"id":5,"text":"E = k₀/Qr²","explanation_zh":"陷阱：Q在分母。电场公式E=kQ/r²，Q在分子，代表产生电场的电荷量。","explanation_ja":"誤り。Qの位置誤りの罠。電場の式ではQは分子にある。E＝k₀Q/r²が正しい。"},
+          {"id":6,"text":"E = k₀Q²/r","explanation_zh":"陷阱：Q被平方且分母只有r。两处均错：Q不平方，r应为r²。","explanation_ja":"誤り。QとrをともiK誤った罠。Q²とrという2か所の誤り。正しくはE＝k₀Q/r²。"}
+        ],
+        "answer":2,
+        "tag":{
+          "unit":"IV 電気と磁気",
+          "sub_domain":"電場・電位",
+          "question_form":"式変形",
+          "required_skill":"法則・公式適用",
+          "requires_image":false,
+          "trap_patterns":["比例関係誤認","符号・向き混同"],
+          "keywords_to_avoid":["E₀","E₁"],
+          "syllabus_path":{"area":"IV 電気と磁気","field":"物理","item":"1. 電場"}
+        },
+        "prompt":"真空中に電荷量Qの点電荷がある。クーロンの法則の比例定数をk₀として，この点電荷からrの距離にある点での電場の大きさEはどれか。"
+      }
+    ],
+    "tag": {
+      "unit":"IV 電気と磁気",
+      "sub_domain":"電場・電位",
+      "question_form":"式変形",
+      "required_skill":"法則・公式適用",
+      "requires_image":false,
+      "trap_patterns":["比例関係誤認","符号・向き混同"],
+      "keywords_to_avoid":["E₀","E₁"],
+      "syllabus_path":{"area":"IV 電気と磁気","field":"物理","item":"1. 電場"}
+    },
+    "prompt": "真空中に電荷量Qの点電荷がある。"
+  },
+  {
+    "id": 15,
+    "title": "Ⅳ_B",
+    "sub_questions": [
+      {
+        "sub_id":2,
+        "global_id":15,
+        "choices":[
+          {"id":1,"text":"0","explanation_zh":"陷阱：符号处理错误。+q和-q产生的电场在M点方向相同（均指向-q），叠加后不为零。","explanation_ja":"誤り。符号・向き混同の罠。+qと−qによる電場はM点で同じ向きとなり，打ち消し合わない。"},
+          {"id":2,"text":"k₀q/a²（+q側向き）","explanation_zh":"陷阱：只计算了+q的贡献（k₀q/a²），忽略了-q在M点的电场（方向相同，也是k₀q/a²）。","explanation_ja":"誤り。初期条件混同の罠。+qのみの電場。−qの寄与も加算する必要がある。"},
+          {"id":3,"text":"k₀q/a²（−q側向き）","explanation_zh":"陷阱：方向正确但大小只取了单个电荷的贡献，漏了另一个电荷的叠加。","explanation_ja":"誤り。保存則選択ミスの罠。−qのみの電場。+qの寄与を加算していない。"},
+          {"id":4,"text":"2k₀q/a（+q側向き）","explanation_zh":"陷阱：分母误用a（非a²），且方向应指向-q。","explanation_ja":"誤り。比例関係誤認の罠。分母はa²が正しい。aを使うのは誤り。また向きも誤り。"},
+          {"id":5,"text":"k₀q/a（−q側向き）","explanation_zh":"陷阱：分母误用a代替a²。点电荷电场与距离的平方成反比，应使用a²。","explanation_ja":"誤り。距離の指数誤りの罠。点電荷の電場はa²に反比例する。aではない。"},
+          {"id":6,"text":"2k₀q/a²（−q側向き）","explanation_zh":"正确。+q在M点产生的电场大小k₀q/a²，方向从+q指向M（即指向-q方向）；-q在M点也产生k₀q/a²，方向也从M指向-q。两者相同方向叠加，总电场=2k₀q/a²，方向指向-q。","explanation_ja":"正解。+qによる電場k₀q/a²（−q向き）と−qによる電場k₀q/a²（−q向き）が同方向に重なり，合計2k₀q/a²，向きは−q側。"},
+          {"id":7,"text":"2k₀q/a²（+q側向き）","explanation_zh":"陷阱：叠加大小正确（2k₀q/a²）但方向错误。两个电场均指向-q方向，合场应指向-q，非+q。","explanation_ja":"誤り。向き誤りの罠。2つの電場はともに−q側を向くため，合成電場も−q側。"},
+          {"id":8,"text":"k₀q/(2a²)（−q側向き）","explanation_zh":"陷阱：用2a²代替a²，错误地认为需要将距离加倍后再平方，大小偏小4倍。","explanation_ja":"誤り。初期条件混同の罠。距離aをそのまま使うべきであり，2aにする必要はない。"}
+        ],
+        "answer":6,
+        "tag":{
+          "unit":"IV 電気と磁気",
+          "sub_domain":"電場・電位",
+          "question_form":"図表読取",
+          "required_skill":"グラフ読取",
+          "requires_image":false,
+          "trap_patterns":["比例関係誤認","符号・向き混同"],
+          "keywords_to_avoid":["E₀","E₁"],
+          "syllabus_path":{"area":"IV 電気と磁気","field":"物理","item":"1. 電場"}
+        },
+        "prompt":"真空中の直線上にある2点P，Q間の中点Mに，電荷+q（P側）と電荷−q（Q側）をそれぞれPからa，Qからaの距離に置いた。クーロンの法則の比例定数をk₀として，点Mでの電場の大きさはどれか。ただし，+q側からMへ向かう方向を正とする。"
+      }
+    ],
+    "tag": {
+      "unit":"IV 電気と磁気",
+      "sub_domain":"電場・電位",
+      "question_form":"図表読取",
+      "required_skill":"グラフ読取",
+      "requires_image":false,
+      "trap_patterns":["比例関係誤認","符号・向き混同"],
+      "keywords_to_avoid":["E₀","E₁"],
+      "syllabus_path":{"area":"IV 電気と磁気","field":"物理","item":"1. 電場"}
+    },
+    "prompt": "真空中の直線上にある2点P，Q間の中点Mに，電荷+q（P側）と電荷−q（Q側）をそれぞれPからa，Qからaの距離に置いた。クーロンの法則の比例定数をk₀として，点Mでの電場の大きさはどれか。ただし，+q側からMへ向かう方向を正とする。"
+  },
+  {
+    "id": 16,
+    "title": "Ⅳ_C",
+    "sub_questions": [
+      {
+        "sub_id":3,
+        "global_id":16,
+        "choices":[
+          {"id":1,"text":"I = V/R₁","explanation_zh":"陷阱：忽略了R₂。串联电路总电阻为R₁+R₂，分母只用R₁相当于忽视了R₂。","explanation_ja":"誤り。条件見落としの罠。直列回路の合成抵抗はR₁＋R₂。R₁だけを分母にするのは誤り。"},
+          {"id":2,"text":"I = V/R₂","explanation_zh":"陷阱：忽略了R₁。串联电路总电阻为R₁+R₂，分母只用R₂相当于忽视了R₁。","explanation_ja":"誤り。条件見落としの罠。直列回路の合成抵抗はR₁＋R₂。R₂だけを分母にするのは誤り。"},
+          {"id":3,"text":"I = V/(R₁+R₂)","explanation_zh":"正确。串联回路总电阻为R₁+R₂，由欧姆定律I=V/(R₁+R₂)。","explanation_ja":"正解。直列回路の合成抵抗はR₁＋R₂，オームの法則よりI＝V/(R₁＋R₂)。"},
+          {"id":4,"text":"I = V/(R₁*R₂)","explanation_zh":"陷阱：使用了并联公式的分子形式。串联总阻为R₁+R₂，并联才涉及R₁R₂乘积形式。","explanation_ja":"誤り。比例関係誤認の罠。直列ではR₁＋R₂，R₁×R₂を分母にするのは誤り。"}
+        ],
+        "answer":3,
+        "tag":{
+          "unit":"IV 電気と磁気",
+          "sub_domain":"直流回路",
+          "question_form":"式変形",
+          "required_skill":"法則・公式適用",
+          "requires_image":false,
+          "trap_patterns":["条件見落とし","比例関係誤認"],
+          "keywords_to_avoid":[],
+          "syllabus_path":{"area":"IV 電気と磁気","field":"物理","item":"2. 電流"}
+        },
+        "prompt":"起電力Vの電池（内部抵抗なし）に，抵抗R₁とR₂を直列につないだ回路がある。この回路に流れる電流Iはどれか。"
+      }
+    ],
+    "tag": {
+      "unit":"IV 電気と磁気",
+      "sub_domain":"直流回路",
+      "question_form":"式変形",
+      "required_skill":"法則・公式適用",
+      "requires_image":false,
+      "trap_patterns":["条件見落とし","比例関係誤認"],
+      "keywords_to_avoid":[],
+      "syllabus_path":{"area":"IV 電気と磁気","field":"物理","item":"2. 電流"}
+    },
+    "prompt": "起電力Vの電池（内部抵抗なし）に，抵抗R₁とR₂を直列につないだ回路がある。"
+  },
+  {
+    "id": 17,
+    "title": "Ⅳ_D",
+    "sub_questions": [
+      {
+        "sub_id":4,
+        "global_id":17,
+        "choices":[
+          {"id":1,"text":"U = CV","explanation_zh":"陷阱：这是电荷量公式Q=CV，不是能量公式。能量公式有额外的因子1/2和V。","explanation_ja":"誤り。比例関係誤認の罠。CV＝Qは電荷量の式。エネルギーはU＝(1/2)CV²。"},
+          {"id":2,"text":"U = CV²","explanation_zh":"陷阱：忘记了1/2系数。电容器能量公式U=(1/2)CV²，缺少1/2。","explanation_ja":"誤り。係数1/2を忘れた罠。コンデンサーのエネルギーはU＝(1/2)CV²であり，1/2が必要。"},
+          {"id":3,"text":"U = CV²/2","explanation_zh":"正确。电容器存储的电能U=(1/2)CV²，由Q=CV和U=QV/2导出。","explanation_ja":"正解。コンデンサーに蓄えられるエネルギー：U＝(1/2)CV²。Q＝CVとU＝QV/2から導出。"},
+          {"id":4,"text":"U = C²V/2","explanation_zh":"陷阱：将C平方放入公式。能量公式中C是一次方，V是平方，此选项C和V的指数互换了。","explanation_ja":"誤り。条件見落としの罠。エネルギー式ではCは1乗，Vは2乗。CとVの指数を逆にしている。"}
+        ],
+        "answer":3,
+        "tag":{
+          "unit":"IV 電気と磁気",
+          "sub_domain":"コンデンサー",
+          "question_form":"式変形",
+          "required_skill":"法則・公式適用",
+          "requires_image":false,
+          "trap_patterns":["比例関係誤認","条件見落とし"],
+          "keywords_to_avoid":[],
+          "syllabus_path":{"area":"IV 電気と磁気","field":"物理","item":"2. 電流"}
+        },
+        "prompt":"電気容量Cのコンデンサーに電圧Vをかけた。このコンデンサーに蓄えられる電気エネルギーUはどれか。"
+      }
+    ],
+    "tag": {
+      "unit":"IV 電気と磁気",
+      "sub_domain":"コンデンサー",
+      "question_form":"式変形",
+      "required_skill":"法則・公式適用",
+      "requires_image":false,
+      "trap_patterns":["比例関係誤認","条件見落とし"],
+      "keywords_to_avoid":[],
+      "syllabus_path":{"area":"IV 電気と磁気","field":"物理","item":"2. 電流"}
+    },
+    "prompt": "電気容量Cのコンデンサーに電圧Vをかけた。"
+  },
+  {
+    "id": 18,
+    "title": "Ⅳ_E",
+    "sub_questions": [
+      {
+        "sub_id":5,
+        "global_id":18,
+        "choices":[
+          {"id":1,"text":"F = BIL","explanation_zh":"正确。安培力公式F=BIL（导线垂直磁场时），B、I、L三者相互垂直时力最大，公式F=BILsinθ，θ=90°时sinθ=1。","explanation_ja":"正解。アンペールの力：F＝BIL（導線が磁場に垂直のとき）。F＝BILsinθにθ＝90°を代入。"},
+          {"id":2,"text":"F = BIL²","explanation_zh":"陷阱：多乘了一个L。安培力公式F=BIL，长度L只出现一次，不能平方。","explanation_ja":"誤り。符号・向き混同の罠。アンペールの力はF＝BIL。Lを2乗するのは誤り。"},
+          {"id":3,"text":"F = BI/L","explanation_zh":"陷阱：将L放到分母。安培力公式中L是乘以的，不是除以的。","explanation_ja":"誤り。ベクトル成分混同の罠。アンペールの力はF＝BIL，LはF＝BI/Lのように分母ではなく分子。"},
+          {"id":4,"text":"F = B²IL","explanation_zh":"陷阱：将B平方。安培力公式F=BIL，B是一次方，不是二次方。","explanation_ja":"誤り。Bを2乗した誤りの罠。アンペールの力ではBは1乗。F＝BILが正しい。"}
+        ],
+        "answer":1,
+        "tag":{
+          "unit":"IV 電気と磁気",
+          "sub_domain":"磁場と電流",
+          "question_form":"式変形",
+          "required_skill":"法則・公式適用",
+          "requires_image":false,
+          "trap_patterns":["符号・向き混同","ベクトル成分混同"],
+          "keywords_to_avoid":["I₀","x₀","y₀"],
+          "syllabus_path":{"area":"IV 電気と磁気","field":"物理","item":"3. 電流と磁場"}
+        },
+        "prompt":"磁束密度Bの一様な磁場の中に，電流Iが流れる長さLの直線導線が磁場に垂直に置かれている。この導線が磁場から受ける力Fの大きさはどれか。"
+      }
+    ],
+    "tag": {
+      "unit":"IV 電気と磁気",
+      "sub_domain":"磁場と電流",
+      "question_form":"式変形",
+      "required_skill":"法則・公式適用",
+      "requires_image":false,
+      "trap_patterns":["符号・向き混同","ベクトル成分混同"],
+      "keywords_to_avoid":["I₀","x₀","y₀"],
+      "syllabus_path":{"area":"IV 電気と磁気","field":"物理","item":"3. 電流と磁場"}
+    },
+    "prompt": "磁束密度Bの一様な磁場の中に，電流Iが流れる長さLの直線導線が磁場に垂直に置かれている。"
+  },
+  {
+    "id": 19,
+    "title": "Ⅳ_F",
+    "sub_questions": [
+      {
+        "sub_id":6,
+        "global_id":19,
+        "choices":[
+          {"id":1,"text":"V = 0","explanation_zh":"正确。中点到+Q距离为a，到-Q也是a。+Q在中点产生电位k₀Q/a，-Q产生-k₀Q/a，叠加得V=0。","explanation_ja":"正解。中点から+Qまでの距離はa，−Qまでもa。電位の重ね合わせ：k₀Q/a＋k₀(−Q)/a＝0。"},
+          {"id":2,"text":"V = k₀Q/a","explanation_zh":"陷阱：只计算了+Q的贡献，忽略了-Q产生的负电位，两者叠加后应为零。","explanation_ja":"誤り。比例関係誤認の罠。+Qの寄与のみ計算し，−Qの負の電位を加えていない。"},
+          {"id":3,"text":"V = 2k₀Q/a","explanation_zh":"陷阱：将两个电荷的电位按绝对值直接相加。但-Q产生负电位，叠加应互相抵消为零。","explanation_ja":"誤り。符号・向き混同の罠。絶対値を足し合わせた誤り。−Qは負の電位を作るので打ち消し合う。"},
+          {"id":4,"text":"V = k₀Q/(2a)","explanation_zh":"陷阱：将距离误用为2a（总间距）而非a（中点到各电荷的距离）。","explanation_ja":"誤り。初期条件混同の罠。中点から各電荷までの距離はaであり，2aではない。"},
+          {"id":5,"text":"V = 2k₀Q/(2a)","explanation_zh":"陷阱：分母用2a且按绝对值加，双重错误。","explanation_ja":"誤り。比例関係誤認の罠。距離と符号の両方で誤りがある。"},
+          {"id":6,"text":"V = −k₀Q/a","explanation_zh":"陷阱：只计算了-Q的贡献，忽略了+Q产生的正电位，叠加应为零。","explanation_ja":"誤り。比例関係誤認の罠。−Qの寄与のみ計算し，+Qの正の電位を加えていない。"}
+        ],
+        "answer":1,
+        "tag":{
+          "unit":"IV 電気と磁気",
+          "sub_domain":"電場・電位",
+          "question_form":"組合せ",
+          "required_skill":"条件整理",
+          "requires_image":false,
+          "trap_patterns":["比例関係誤認","符号・向き混同"],
+          "keywords_to_avoid":[],
+          "syllabus_path":{"area":"IV 電気と磁気","field":"物理","item":"1. 電場"}
+        },
+        "prompt":"真空中の直線上に，距離2aを隔てて電荷+Qと電荷−Qを置いた。クーロンの法則の比例定数をk₀として，+Qと−Qの中点での電位Vはどれか。"
+      }
+    ],
+    "tag": {
+      "unit":"IV 電気と磁気",
+      "sub_domain":"電場・電位",
+      "question_form":"組合せ",
+      "required_skill":"条件整理",
+      "requires_image":false,
+      "trap_patterns":["比例関係誤認","符号・向き混同"],
+      "keywords_to_avoid":[],
+      "syllabus_path":{"area":"IV 電気と磁気","field":"物理","item":"1. 電場"}
+    },
+    "prompt": "真空中の直線上に，距離2aを隔てて電荷+Qと電荷−Qを置いた。"
+  }
+]
+}

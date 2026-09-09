@@ -1,0 +1,499 @@
+{
+  "subject": "science",
+  "section": "chemistry",
+  "year": 2023,
+  "round": 2,
+  "title": "模擬試験 化学 第十回",
+  "image_path": "science/chemistry/images/2023-2",
+  "questions": [
+  {
+    "id": 1,
+    "global_id": 1,
+    "title": "問1",
+    "prompt": "物質の構造や結合に関する記述として最も適当なものはどれか。",
+    "choices": [
+      {"id":1,"text":"共有結合結晶（ダイヤモンドなど）はすべて電気の良導体である。","explanation_zh":"陷阱：共价键晶体（金刚石）不导电，因为没有自由电子或自由离子，只有半导体如 Si 例外。","explanation_ja":"誤り。共有結合結晶（ダイヤモンドなど）は自由電子がなく電気を通しにくい。Siは例外的に半導体。"},
+      {"id":2,"text":"金属結合では、電子が特定の原子に固定されているため延性が低い。","explanation_zh":"陷阱：金属键中自由电子不固定于特定原子，正因如此金属才具有延展性。","explanation_ja":"誤り。金属結合では電子は自由電子として動き回るため、延性・展性が高い。"},
+      {"id":3,"text":"分子間力（ファンデルワールス力）は共有結合より強い。","explanation_zh":"陷阱：分子间力远弱于共价键（共价键约200~900 kJ/mol，分子间力仅几kJ/mol）。","explanation_ja":"誤り。ファンデルワールス力は共有結合より非常に弱い（数kJ/mol対数百kJ/mol）。"},
+      {"id":4,"text":"イオン結晶は、固体状態では電気を通しにくいが、融解すると電気を通しやすくなる。","explanation_zh":"正确。固体离子晶体中离子被固定无法移动，熔融后离子可自由移动，因此能导电。","explanation_ja":"正解。固体では陽イオンと陰イオンが格子点に固定され電気を通さないが、融解するとイオンが自由に動けるため導電性が生じる。"},
+      {"id":5,"text":"水素結合は F、O、N と結合した水素原子が別の F、O、N 原子と形成するが、HF より H₂O の沸点の方が低い。","explanation_zh":"陷阱：水分子可形成4个氢键（HF只能形成2个方向），所以H₂O沸点（100°C）远高于HF（19.5°C）。","explanation_ja":"誤り。H₂Oは1分子あたり最大4本の水素結合を形成でき、HFより沸点が高い（100 °C対19.5 °C）。"},
+      {"id":6,"text":"極性共有結合では、電気陰性度の大きい原子側に結合電子対が引き寄せられ、正の部分電荷を帯びる。","explanation_zh":"陷阱：电负性大的原子获得更多电子，因此带负的部分电荷（δ-），而非正电荷。","explanation_ja":"誤り。電気陰性度の大きい原子側は結合電子対を引き寄せるため負の部分電荷（δ⁻）を帯びる。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "unit":"I 物質の構成",
+      "sub_domain":"原子構造",
+      "question_form":"知識選択",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["周期表位置混同"],
+      "keywords_to_avoid":["陽子","中性子","電子"],
+      "syllabus_path":{"area":"I 物質の構成","field":"化学","item":"2. 物質の構成粒子"}
+    }
+  },
+  {
+    "id": 2,
+    "global_id": 2,
+    "title": "問2",
+    "prompt": "元素の周期表に関する記述として最も適当なものはどれか。",
+    "choices": [
+      {"id":1,"text":"同族元素は同じ最外殻電子数をもつため、化学的性質が完全に一致する。","explanation_zh":"陷阱：同族元素最外层电子数相同，化学性质相似但不完全一致（如F与其他卤素有差异）。","explanation_ja":"誤り。同族元素は化学的性質が似ているが、完全には一致しない（例：Fは他のハロゲンと異なる点がある）。"},
+      {"id":2,"text":"典型元素では、族番号が大きいほど電気陰性度は必ず大きくなる。","explanation_zh":"陷阱：同周期内从左到右电负性增大，但同族内是从上到下减小，而非族号越大电负性越大。","explanation_ja":"誤り。同一周期では族番号が大きいほど電気陰性度は大きくなるが、同族内では原子番号が大きいほど小さくなる。"},
+      {"id":3,"text":"希ガス元素は化学的に不活性であるため、化合物を一切形成しない。","explanation_zh":"陷阱：稀有气体通常惰性，但Xe和Kr已知能与F₂等形成化合物（如XeF₂）。","explanation_ja":"誤り。希ガスは化学的に不活性だが、Xeは XeF₂ などの化合物を形成することが知られている。"},
+      {"id":4,"text":"同周期元素では、原子番号が増加するにつれて原子半径は一般に減少する傾向がある。","explanation_zh":"正确。同周期内原子序数增大时，核电荷数增大，对最外层电子的吸引力增强，因此原子半径减小。","explanation_ja":"正解。同じ周期では原子番号が増えるほど核電荷が増し、最外殻電子への引力が強まるため原子半径は一般に小さくなる。"},
+      {"id":5,"text":"イオン化エネルギーは、同族では原子番号が大きいほど大きくなる。","explanation_zh":"陷阱：同族内原子序数越大，原子半径越大，价电子距核越远，第一电离能反而减小。","explanation_ja":"誤り。同族では原子番号が大きいほど原子半径が大きく、イオン化エネルギーは小さくなる傾向がある。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "unit":"I 物質の構成",
+      "sub_domain":"電子配置・周期表",
+      "question_form":"知識選択",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["周期表位置混同"],
+      "keywords_to_avoid":["電子配置","原子","イオン"],
+      "syllabus_path":{"area":"I 物質の構成","field":"化学","item":"2. 物質の構成粒子"}
+    }
+  },
+  {
+    "id": 3,
+    "global_id": 3,
+    "title": "問3",
+    "prompt": "分子 a〜c の立体構造と X〜Z の対応として最も適当なものはどれか。\n\na: \\(\\ce{NH3}\\)　b: \\(\\ce{CO2}\\)　c: \\(\\ce{H2O}\\)\n\nX: 直線形　Y: 三角錐形　Z: 折れ線形",
+    "choices": [
+      {"id":1,"text":"a:Y、b:X、c:Z","explanation_zh":"正确。NH₃有一个孤对电子，为三角锥形(Y)；CO₂直线形(X)；H₂O两个孤对电子，折线形(Z)。","explanation_ja":"正解。NH₃は非共有電子対1組で三角錐形(Y)、CO₂は直線形(X)、H₂Oは非共有電子対2組で折れ線形(Z)。"},
+      {"id":2,"text":"a:Z、b:Y、c:X","explanation_zh":"陷阱：将CO₂误判为角形，实际CO₂为直线形，两侧双键对称，偶极矩相消。","explanation_ja":"誤り。CO₂は直線形であり三角錐形ではない。双極子モーメントが打ち消し合い無極性分子。"},
+      {"id":3,"text":"a:X、b:Z、c:Y","explanation_zh":"陷阱：NH₃非直线形，H₂O非三角锥形，两者均因孤对电子使结构偏转。","explanation_ja":"誤り。NH₃は非共有電子対で直線形ではなく三角錐形、H₂Oは折れ線形。"},
+      {"id":4,"text":"a:X、b:Y、c:Z","explanation_zh":"陷阱：NH₃不是直线形，而是三角锥形，因为N上有一对孤对电子。","explanation_ja":"誤り。NH₃のNには非共有電子対が1組あり直線形ではなく三角錐形。"},
+      {"id":5,"text":"a:Y、b:Z、c:X","explanation_zh":"陷阱：CO₂不是折线形，H₂O不是直线形，判断时须注意孤对电子的影响。","explanation_ja":"誤り。CO₂は折れ線形ではなく直線形、H₂Oは直線形ではなく折れ線形。"},
+      {"id":6,"text":"a:Z、b:X、c:Y","explanation_zh":"陷阱：H₂O不是三角锥形而是折线形，两个孤对电子与两个成键电子对构成折线形结构。","explanation_ja":"誤り。H₂Oは非共有電子対2組で折れ線形であり三角錐形ではない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "unit":"I 物質の構成",
+      "sub_domain":"分子構造・結晶",
+      "question_form":"組合せ",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["性質の例外見落とし"],
+      "keywords_to_avoid":["非共有電子対","CO₂","H₂S"],
+      "syllabus_path":{"area":"I 物質の構成","field":"化学","item":"3. 物質と化学結合"}
+    }
+  },
+  {
+    "id": 4,
+    "global_id": 4,
+    "title": "問4",
+    "prompt": "結晶の種類と性質に関する記述として最も適当なものはどれか。",
+    "choices": [
+      {"id":1,"text":"共有結合結晶は、一般に融点が低く、有機溶媒に溶けやすい。","explanation_zh":"陷阱：共价键晶体（如金刚石、石英）融点极高，不溶于有机溶剂，这是分子晶体的性质。","explanation_ja":"誤り。共有結合結晶（ダイヤモンド・石英など）は融点が非常に高く、有機溶媒には溶けにくい。"},
+      {"id":2,"text":"金属結晶は、固体でも液体でも電気を通さない。","explanation_zh":"陷阱：金属晶体无论固态还是液态都因自由电子而导电。","explanation_ja":"誤り。金属結晶は固体・液体いずれの状態でも自由電子により電気を通す。"},
+      {"id":3,"text":"分子結晶は、一般に融点が高く、電気を通しやすい。","explanation_zh":"陷阱：分子晶体融点低，分子间只有分子间力，且无自由离子或自由电子，不导电。","explanation_ja":"誤り。分子結晶は分子間力のみで結合しているため融点が低く、電気を通しにくい。"},
+      {"id":4,"text":"イオン結晶は、水溶液では電気を通すが、融解状態では電気を通さない。","explanation_zh":"陷阱：离子晶体无论水溶液还是熔融状态都能导电，因为都有自由移动的离子。","explanation_ja":"誤り。イオン結晶は水溶液でも融解状態でも電気を通す（いずれもイオンが自由に動ける）。"},
+      {"id":5,"text":"共有結合結晶のうちダイヤモンドは絶縁体であるが、炭素の同素体である黒鉛は電気を通す。","explanation_zh":"正确。金刚石形成四面体网状共价键，无自由电子，为绝缘体；石墨层内碳原子形成平面六方网格，剩余π电子可自由移动，能导电。","explanation_ja":"正解。ダイヤモンドはsp³混成で自由電子なく絶縁体、黒鉛（炭素の同素体）は層内でπ電子が非局在化し電気を通す。"},
+      {"id":6,"text":"分子結晶は格子点に分子が配置されており、昇華するものはない。","explanation_zh":"陷阱：许多分子晶体可以升华，如碘（I₂）、干冰（固体CO₂）在常温常压下即可升华。","explanation_ja":"誤り。ヨウ素（I₂）やドライアイス（固体CO₂）など昇華する分子結晶は多数ある。"}
+    ],
+    "answer": 5,
+    "tag": {
+      "unit":"I 物質の構成",
+      "sub_domain":"分子構造・結晶",
+      "question_form":"知識選択",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["性質の例外見落とし"],
+      "keywords_to_avoid":["極性分子","平面","同一平面"],
+      "syllabus_path":{"area":"I 物質の構成","field":"化学","item":"3. 物質と化学結合"}
+    }
+  },
+  {
+    "id": 5,
+    "global_id": 5,
+    "title": "問5",
+    "prompt": "ある一価の酸 20.0 mL を完全に中和するのに、0.100 mol/L の一価の塩基水溶液 30.0 mL を要した。この酸の濃度として最も適当なものはどれか。",
+    "choices": [
+      {"id":1,"text":"0.100 mol/L","explanation_zh":"陷阱：直接采用碱的浓度，忽视了中和计算 C酸×V酸=C碱×V碱，0.100×30.0/20.0=0.150，不等于0.100。","explanation_ja":"誤り。塩基の濃度をそのまま用いた誤り。中和の式 C酸×20.0=0.100×30.0 より C酸=0.150 mol/L。"},
+      {"id":2,"text":"0.150 mol/L","explanation_zh":"正确。一价酸与一价碱中和：C酸×V酸=C碱×V碱 → C酸=0.100×30.0/20.0=0.150 mol/L。","explanation_ja":"正解。一価同士の中和：C酸×20.0 mL=0.100 mol/L×30.0 mL、よってC酸=0.150 mol/L。"},
+      {"id":3,"text":"0.200 mol/L","explanation_zh":"陷阱：可能误用30.0/20.0=1.5倍关系错误运算为0.100×2=0.200 mol/L。","explanation_ja":"誤り。0.100×2=0.200 という誤った計算。正しくは0.100×30.0/20.0=0.150。"},
+      {"id":4,"text":"0.300 mol/L","explanation_zh":"陷阱：可能将酸碱体积比倒置，用20.0/30.0代替30.0/20.0计算，或其他运算失误。","explanation_ja":"誤り。体積比を逆にするなどの計算ミス。正しい計算では0.150 mol/L。"},
+      {"id":5,"text":"0.015 mol/L","explanation_zh":"陷阱：将mL未换算直接代入，使用0.100×30.0×(1/200)等错误运算。","explanation_ja":"誤り。体積をリットルへの換算を二重にしてしまうなどの単位ミス。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "unit":"II 物質の状態と変化",
+      "sub_domain":"溶液・濃度",
+      "question_form":"計算選択",
+      "required_skill":"量的計算",
+      "requires_image":false,
+      "trap_patterns":["濃度条件見落とし"],
+      "keywords_to_avoid":["NaOH","質量パーセント","混合"],
+      "syllabus_path":{"area":"II 物質の状態と変化","field":"化学","item":"2. 物質の状態と平衡"}
+    }
+  },
+  {
+    "id": 6,
+    "global_id": 6,
+    "title": "問6",
+    "prompt": "物質 a〜c を酸・塩基の強弱 X〜Z に分類したとき、最も適当な組合せはどれか。\n\na: 塩酸（\\(\\ce{HCl}\\)）　b: 酢酸（\\(\\ce{CH3COOH}\\)）　c: 水酸化ナトリウム（\\(\\ce{NaOH}\\)）\n\nX: 強酸　Y: 弱酸　Z: 強塩基",
+    "choices": [
+      {"id":1,"text":"a＝Y、b＝X、c＝Z","explanation_zh":"陷阱：颠倒了HCl和CH₃COOH的强弱。HCl是强酸（完全电离），CH₃COOH是弱酸（部分电离）。","explanation_ja":"誤り。HClとCH₃COOHの強弱を逆にしている。HClは強酸、CH₃COOHは弱酸。"},
+      {"id":2,"text":"a＝Z、b＝Y、c＝X","explanation_zh":"陷阱：将NaOH误分为强酸，将HCl误分为强碱，分类完全错误。","explanation_ja":"誤り。NaOHを強酸、HClを強塩基に誤分類している。"},
+      {"id":3,"text":"a＝X、b＝Z、c＝Y","explanation_zh":"陷阱：将CH₃COOH误认为强碱，将NaOH误认为弱酸，分类错误。","explanation_ja":"誤り。CH₃COOHを強塩基、NaOHを弱酸に誤分類している。"},
+      {"id":4,"text":"a＝X、b＝Y、c＝Z","explanation_zh":"正确。HCl是强酸（X），CH₃COOH是弱酸（Y），NaOH是强碱（Z）。","explanation_ja":"正解。HClは強酸(X)、CH₃COOHは弱酸(Y)、NaOHは強塩基(Z)。"},
+      {"id":5,"text":"a＝Y、b＝Z、c＝X","explanation_zh":"陷阱：三者分类全部错误，HCl弱、醋酸强碱、NaOH强酸，均不正确。","explanation_ja":"誤り。3物質すべての分類が誤っている。"},
+      {"id":6,"text":"a＝Z、b＝X、c＝Y","explanation_zh":"陷阱：HCl误为强碱，醋酸误为强酸，NaOH误为弱酸。","explanation_ja":"誤り。HClを強塩基、CH₃COOHを強酸、NaOHを弱酸に誤分類している。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "unit":"II 物質の状態と変化",
+      "sub_domain":"酸・塩基",
+      "question_form":"組合せ",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["濃度条件見落とし"],
+      "keywords_to_avoid":["pH","中和","OH⁻"],
+      "syllabus_path":{"area":"II 物質の状態と変化","field":"化学","item":"1. 物質の変化"}
+    }
+  },
+  {
+    "id": 7,
+    "global_id": 7,
+    "title": "問7",
+    "prompt": "酸化・還元に関する記述として最も適当なものはどれか。",
+    "choices": [
+      {"id":1,"text":"酸化とは物質が酸素を失う変化であり、還元とは酸素を得る変化である。","explanation_zh":"陷阱：定义完全相反。氧化=得到氧（或失去氢/失去电子），还原=失去氧（或得到氢/得到电子）。","explanation_ja":"誤り。酸化と還元の定義が逆。酸化は酸素を得る（または水素を失う・電子を失う）変化。"},
+      {"id":2,"text":"酸化剤は反応の中で自身が酸化される物質である。","explanation_zh":"陷阱：酸化剂自身被还原（得到电子），而不是被氧化；还原剂自身被氧化。","explanation_ja":"誤り。酸化剤は自身が還元される（電子を受け取る）物質。自身が酸化されるのは還元剤。"},
+      {"id":3,"text":"\\(\\ce{MnO4-}\\) は酸性溶液中で強力な酸化剤として働き、自身は \\(\\ce{Mn^{2+}}\\) に還元される。","explanation_zh":"正确。在酸性溶液中，MnO₄⁻（锰氧化态+7）得到5个电子被还原为Mn²⁺（氧化态+2），是常见的强氧化剂。","explanation_ja":"正解。酸性溶液中でMnO₄⁻（Mn酸化数+7）は5電子を受け取りMn²⁺（+2）に還元される強力な酸化剤。"},
+      {"id":4,"text":"酸化数は常に整数であり、単体の酸化数は必ず +1 である。","explanation_zh":"陷阱：单质的氧化数为0（不是+1），且酸化数可以是分数（如Fe₃O₄中Fe平均氧化数为+8/3）。","explanation_ja":"誤り。単体の酸化数は0。また酸化数に分数が現れる場合もある（例：Fe₃O₄中のFeの平均酸化数は+8/3）。"},
+      {"id":5,"text":"還元剤は電子を受け取る物質であり、相手を還元する。","explanation_zh":"陷阱：还原剂是失去电子（被氧化）的物质，从而使对方得到电子（被还原）。","explanation_ja":"誤り。還元剤は電子を与える（失う）物質であり、相手（酸化剤）を還元する。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "unit":"III 無機化学",
+      "sub_domain":"酸化還元",
+      "question_form":"知識選択",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["酸化数誤判定"],
+      "keywords_to_avoid":["水","酸化剤","還元剤"],
+      "syllabus_path":{"area":"III 無機化学","field":"化学","item":"1. 無機物質"}
+    }
+  },
+  {
+    "id": 8,
+    "global_id": 8,
+    "title": "問8",
+    "prompt": "物質の状態変化 a〜c と変化の名称 X〜Z の組合せとして最も適当なものはどれか。\n\na: 水蒸気が冷却されて液体の水になる変化\nb: 固体のドライアイスが直接気体の \\(\\ce{CO2}\\) になる変化\nc: 液体の水が冷却されて氷になる変化\n\nX: 凝固　Y: 凝縮　Z: 昇華",
+    "choices": [
+      {"id":1,"text":"a:X、b:X、c:Z","explanation_zh":"陷阱：将b的固体→气体误判为凝固，将c的液体→固体误判为升华，错误。","explanation_ja":"誤り。固体→気体は昇華(Z)であり凝固(X)ではない。液体→固体は凝固(X)であり昇華ではない。"},
+      {"id":2,"text":"a:Z、b:Y、c:X","explanation_zh":"陷阱：将a的气体→液体误判为升华，将b的固体→气体误判为凝縮，均错。","explanation_ja":"誤り。気体→液体は凝縮(Y)であり昇華(Z)ではない。固体→気体は昇華(Z)であり凝縮(Y)ではない。"},
+      {"id":3,"text":"a:X、b:Z、c:Y","explanation_zh":"陷阱：将a的气体→液体误判为凝固，将c的液体→固体误判为凝縮，均错。","explanation_ja":"誤り。気体→液体は凝縮(Y)であり凝固(X)ではない。液体→固体は凝固(X)であり凝縮(Y)ではない。"},
+      {"id":4,"text":"a:X、b:Y、c:Z","explanation_zh":"陷阱：三项均错，气体→液体应为凝縮，固体→气体应为升华，液体→固体应为凝固。","explanation_ja":"誤り。3つすべて誤り。a=凝縮(Y)、b=昇華(Z)、c=凝固(X)が正しい。"},
+      {"id":5,"text":"a:Y、b:Z、c:X","explanation_zh":"正确。气体→液体为凝縮(Y)，固体→气体为升华(Z)，液体→固体为凝固(X)。","explanation_ja":"正解。気体→液体は凝縮(Y)、固体→気体は昇華(Z)、液体→固体は凝固(X)。"},
+      {"id":6,"text":"a:Z、b:X、c:Y","explanation_zh":"陷阱：三项均错，正确应为a-Y(凝縮),b-Z(昇華),c-X(凝固)。","explanation_ja":"誤り。3つすべて誤り。正しくはa-Y(凝縮)、b-Z(昇華)、c-X(凝固)。"}
+    ],
+    "answer": 5,
+    "tag": {
+      "unit":"II 物質の状態と変化",
+      "sub_domain":"物質の三態・状態図",
+      "question_form":"組合せ",
+      "required_skill":"図表読取",
+      "requires_image":false,
+      "trap_patterns":["平衡移動方向混同"],
+      "keywords_to_avoid":["状態図","氷","水滴"],
+      "syllabus_path":{"area":"II 物質の状態と変化","field":"化学","item":"2. 物質の状態と平衡"}
+    }
+  },
+  {
+    "id": 9,
+    "global_id": 9,
+    "title": "問9",
+    "prompt": "\\(\\ce{CH4}\\) の燃焼エンタルピーは −890 kJ/mol である。\\(\\ce{CH4}\\) 8.00 g を完全燃焼させたとき発生する熱量として最も適当なものはどれか。ただし、\\(\\ce{CH4}\\) の分子量を 16.0 とする。",
+    "choices": [
+      {"id":1,"text":"100 kJ","explanation_zh":"陷阱：未正确用mol数计算，8.00g÷16.0=0.500mol，发热量=0.500×890=445kJ。","explanation_ja":"誤り。8.00 g÷16.0 g/mol=0.500 mol、発熱量は0.500×890=445 kJ。"},
+      {"id":2,"text":"445 kJ","explanation_zh":"正确。8.00g÷16.0g/mol=0.500mol，发热量=0.500mol×890kJ/mol=445kJ。","explanation_ja":"正解。8.00 g÷16.0 g/mol=0.500 mol、発熱量=0.500×890=445 kJ。"},
+      {"id":3,"text":"890 kJ","explanation_zh":"陷阱：将8.00g误认为1mol，直接用摩尔焓变值，但8.00g只有0.500mol。","explanation_ja":"誤り。8.00 gを1 molと誤認している。8.00 g=0.500 molなので発熱量は445 kJ。"},
+      {"id":4,"text":"1780 kJ","explanation_zh":"陷阱：将mol数错误算为2mol，890×2=1780，错误。","explanation_ja":"誤り。890×2=1780という誤った計算。8.00 gは0.500 molであり発熱量は445 kJ。"},
+      {"id":5,"text":"222.5 kJ","explanation_zh":"陷阱：将计算结果再除以2，可能误认为生成水等副产物分走了一半热量。","explanation_ja":"誤り。445÷2=222.5という誤った計算。燃焼エンタルピーは反応全体の熱量を示す。"},
+      {"id":6,"text":"178.0 kJ","explanation_zh":"陷阱：错误使用890÷16.0×8.00÷（错误系数）等运算方式，结果不正确。","explanation_ja":"誤り。計算過程に誤りがある。正しくは0.500 mol×890 kJ/mol=445 kJ。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "unit":"II 物質の状態と変化",
+      "sub_domain":"熱化学",
+      "question_form":"計算選択",
+      "required_skill":"量的計算",
+      "requires_image":false,
+      "trap_patterns":["係数比誤認"],
+      "keywords_to_avoid":["アセチレン","生成熱","燃焼熱"],
+      "syllabus_path":{"area":"II 物質の状態と変化","field":"化学","item":"1. 物質の変化"}
+    }
+  },
+  {
+    "id": 10,
+    "global_id": 10,
+    "title": "問10",
+    "prompt": "硫酸銅(II)水溶液を 0.965 A の電流で 100 秒間電気分解したとき、陰極に析出する銅の質量として最も適当なものはどれか。ただし、\\(\\ce{Cu}\\) の原子量を 63.5、ファラデー定数を \\(9.65\\times10^4\\) C/mol とする。",
+    "choices": [
+      {"id":1,"text":"\\(6.35\\times10^{-2}\\) g","explanation_zh":"陷阱：误将mol(e⁻)直接当作mol(Cu)（忽略了Cu²⁺需要2个电子），导致质量翻倍。mol(Cu)=mol(e⁻)/2=5.00×10⁻⁴mol。","explanation_ja":"誤り。Cu²⁺は電子2個必要なのに1電子で計算した誤り。mol(Cu)=mol(e⁻)/2=5.00×10⁻⁴ mol。"},
+      {"id":2,"text":"\\(1.27\\times10^{-1}\\) g","explanation_zh":"陷阱：将mol(e⁻)误算为1.00×10⁻³mol的Cu，再乘以2倍计算，导致结果偏大4倍。","explanation_ja":"誤り。mol(e⁻)=1.00×10⁻³ molをmol(Cu)と誤り、さらに2倍した誤り。"},
+      {"id":3,"text":"\\(3.18\\times10^{-3}\\) g","explanation_zh":"陷阱：电荷量计算错误（如用0.0965A），导致质量偏小10倍。","explanation_ja":"誤り。電気量の計算ミス。正しくは0.965 A×100 s=96.5 C=1.00×10⁻³ mol e⁻。"},
+      {"id":4,"text":"\\(3.18\\times10^{-2}\\) g","explanation_zh":"正确。电荷量=0.965×100=96.5C，mol(e⁻)=96.5/96500=1.00×10⁻³mol，Cu²⁺+2e⁻→Cu，mol(Cu)=5.00×10⁻⁴mol，质量=5.00×10⁻⁴×63.5=3.18×10⁻²g。","explanation_ja":"正解。電気量=0.965×100=96.5 C、mol(e⁻)=96.5÷(9.65×10⁴)=1.00×10⁻³ mol、Cu²⁺+2e⁻→Cuよりmol(Cu)=5.00×10⁻⁴ mol、質量=5.00×10⁻⁴×63.5=3.18×10⁻² g。"},
+      {"id":5,"text":"\\(6.35\\times10^{-3}\\) g","explanation_zh":"陷阱：mol(Cu)计算过程出现错误，如将电荷量除以10倍的F等。","explanation_ja":"誤り。mol(Cu)の計算過程に誤りがある。"},
+      {"id":6,"text":"\\(1.59\\times10^{-2}\\) g","explanation_zh":"陷阱：可能计算mol(Cu)时使用了错误的电子数（如3个电子）导致结果偏小。","explanation_ja":"誤り。電子数を誤って3と計算するなどのミス。正しくはCu²⁺は電子2個。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "unit":"II 物質の状態と変化",
+      "sub_domain":"電池・電気分解",
+      "question_form":"計算選択",
+      "required_skill":"量的計算",
+      "requires_image":false,
+      "trap_patterns":["係数比誤認"],
+      "keywords_to_avoid":["Al₂O₃","氷晶石","融解塩"],
+      "syllabus_path":{"area":"II 物質の状態と変化","field":"化学","item":"3. 物質の変化と平衡"}
+    }
+  },
+  {
+    "id": 11,
+    "global_id": 11,
+    "title": "問11",
+    "prompt": "金属元素に関する記述として最も適当なものはどれか。",
+    "choices": [
+      {"id":1,"text":"アルミニウムは空気中では酸化されず、常に金属光沢を保つ。","explanation_zh":"陷阱：铝会被空气氧化，但形成致密的氧化铝（Al₂O₃）保护膜从而防止进一步腐蚀（钝化），并非不被氧化。","explanation_ja":"誤り。アルミニウムは空気中で酸化され緻密なAl₂O₃の酸化被膜を形成し内部を保護する（不動態）。"},
+      {"id":2,"text":"鉄は希塩酸や希硫酸と反応しないが、濃硫酸には溶ける。","explanation_zh":"陷阱：铁与稀盐酸和稀硫酸反应生成H₂，与浓硫酸（或浓硝酸）则发生钝化，而非溶解。","explanation_ja":"誤り。鉄は希塩酸・希硫酸と反応してH₂を発生する。濃硫酸・濃硝酸では不動態を形成し溶けにくい。"},
+      {"id":3,"text":"銅は希塩酸とも希硫酸とも反応して水素を発生する。","explanation_zh":"陷阱：铜在金属活动性序列中位于H之后，不与稀盐酸或稀硫酸反应生成H₂。","explanation_ja":"誤り。銅はイオン化傾向がHより小さく、希塩酸・希硫酸とは反応しない。"},
+      {"id":4,"text":"ナトリウムは水と激しく反応し、水素を発生しながら水酸化ナトリウムを生成する。","explanation_zh":"正确。2Na + 2H₂O → 2NaOH + H₂，钠与水剧烈反应，生成NaOH并放出H₂，反应放热。","explanation_ja":"正解。2Na + 2H₂O → 2NaOH + H₂。ナトリウムは水と激しく反応しNaOHとH₂を生成する。"},
+      {"id":5,"text":"金は王水（硝酸と塩酸の混合物）にも溶けない最も安定な金属である。","explanation_zh":"陷阱：金虽然化学惰性，但能溶于王水（浓硝酸:浓盐酸=1:3的混合物）。","explanation_ja":"誤り。金は王水（濃硝酸1：濃塩酸3の混合液）には溶解する。白金も同様。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "unit":"III 無機化学",
+      "sub_domain":"金属元素",
+      "question_form":"知識選択",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["性質の例外見落とし"],
+      "keywords_to_avoid":["Al","Fe","希塩酸"],
+      "syllabus_path":{"area":"III 無機化学","field":"化学","item":"1. 無機物質"}
+    }
+  },
+  {
+    "id": 12,
+    "global_id": 12,
+    "title": "問12",
+    "prompt": "ハロゲン単体 a〜c と常温での状態・色 X〜Z の組合せとして最も適当なものはどれか。\n\na: フッ素（\\(\\ce{F2}\\)）　b: 塩素（\\(\\ce{Cl2}\\)）　c: 臭素（\\(\\ce{Br2}\\)）\n\nX: 常温で液体、赤褐色　Y: 常温で気体、黄緑色　Z: 常温で気体、淡黄色",
+    "choices": [
+      {"id":1,"text":"a→Y、b→X、c→Z","explanation_zh":"陷阱：将Cl₂误判为液体赤褐色，将Br₂误判为淡黄色气体。实际上Br₂是唯一常温液态卤素。","explanation_ja":"誤り。Cl₂は黄緑色気体(Y)、Br₂は常温で赤褐色の液体(X)。"},
+      {"id":2,"text":"a→Z、b→Y、c→X","explanation_zh":"正确。F₂是淡黄色气体(Z)，Cl₂是黄绿色气体(Y)，Br₂是常温下唯一液态卤素，赤褐色(X)。","explanation_ja":"正解。F₂は淡黄色気体(Z)、Cl₂は黄緑色気体(Y)、Br₂は常温で赤褐色の液体(X)。"},
+      {"id":3,"text":"a→X、b→Z、c→Y","explanation_zh":"陷阱：将F₂误判为液体赤褐色，将Cl₂误判为淡黄色，将Br₂误判为黄绿色气体。均不正确。","explanation_ja":"誤り。3つすべて誤り。F₂=淡黄色気体、Cl₂=黄緑色気体、Br₂=赤褐色液体。"},
+      {"id":4,"text":"a→X、b→Y、c→Z","explanation_zh":"陷阱：将F₂误判为液体赤褐色，将Br₂误判为淡黄色气体，均不正确。","explanation_ja":"誤り。F₂を赤褐色液体(X)、Br₂を淡黄色気体(Z)と誤認している。"},
+      {"id":5,"text":"a→Y、b→Z、c→X","explanation_zh":"陷阱：将F₂误判为黄绿色气体，将Cl₂误判为淡黄色气体。F₂是淡黄色，Cl₂是黄绿色。","explanation_ja":"誤り。F₂とCl₂の色を入れ替えている。F₂=淡黄色、Cl₂=黄緑色。"},
+      {"id":6,"text":"a→Z、b→X、c→Y","explanation_zh":"陷阱：将Cl₂误判为液体赤褐色，将Br₂误判为黄绿色气体。Cl₂是气体，Br₂是液体。","explanation_ja":"誤り。Cl₂を赤褐色液体(X)、Br₂を黄緑色気体(Y)と誤認している。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "unit":"III 無機化学",
+      "sub_domain":"非金属元素",
+      "question_form":"組合せ",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["性質の例外見落とし"],
+      "keywords_to_avoid":["F₂","HF","AgCl"],
+      "syllabus_path":{"area":"III 無機化学","field":"化学","item":"1. 無機物質"}
+    }
+  },
+  {
+    "id": 13,
+    "global_id": 13,
+    "title": "問13",
+    "prompt": "窒素・硫黄の化合物に関する記述として最も適当なものはどれか。",
+    "choices": [
+      {"id":1,"text":"希硫酸（\\(\\ce{H2SO4}\\) 希薄溶液）は亜鉛や鉄などの金属と反応して水素を発生する。","explanation_zh":"正确。稀硫酸与活泼金属（Zn、Fe等）反应置换出H₂：Zn + H₂SO₄ → ZnSO₄ + H₂↑。","explanation_ja":"正解。希硫酸は活性金属（Zn、Feなど）と反応してH₂を発生する（例：Zn + H₂SO₄ → ZnSO₄ + H₂）。"},
+      {"id":2,"text":"アンモニア（\\(\\ce{NH3}\\)）は水に溶けにくく、水溶液は酸性を示す。","explanation_zh":"陷阱：NH₃极易溶于水，其水溶液（氨水）是弱碱性（NH₃·H₂O ⇌ NH₄⁺ + OH⁻）。","explanation_ja":"誤り。NH₃は水に非常に溶けやすく、水溶液は弱塩基性を示す（NH₃ + H₂O ⇌ NH₄⁺ + OH⁻）。"},
+      {"id":3,"text":"窒素（\\(\\ce{N2}\\)）は常温で他の物質と容易に反応する反応性の高い気体である。","explanation_zh":"陷阱：N₂虽含三重键（N≡N），化学性质极不活泼，常温下几乎不与其他物质反应。","explanation_ja":"誤り。N₂は三重結合のため常温では非常に安定で反応性が低い。"},
+      {"id":4,"text":"\\(\\ce{SO2}\\) は水に溶けると強酸性の亜硫酸を生成し、pH は 1 未満になる。","explanation_zh":"陷阱：SO₂溶于水生成亚硫酸（H₂SO₃），是弱酸而非强酸，pH不会低至1以下（通常pH2~3）。","explanation_ja":"誤り。SO₂が水に溶けて生成する亜硫酸（H₂SO₃）は弱酸であり、pHは1未満にはならない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "unit":"III 無機化学",
+      "sub_domain":"非金属元素",
+      "question_form":"知識選択",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["反応条件見落とし"],
+      "keywords_to_avoid":["気体","下方置換","捕集"],
+      "syllabus_path":{"area":"III 無機化学","field":"化学","item":"1. 無機物質"}
+    }
+  },
+  {
+    "id": 14,
+    "global_id": 14,
+    "title": "問14",
+    "prompt": "遷移元素に関する記述として最も適当なものはどれか。",
+    "choices": [
+      {"id":1,"text":"遷移元素はすべて金属元素であり、d 軌道に電子が入ることで多様な酸化数や有色化合物を形成する特徴を示す。","explanation_zh":"正确。过渡元素都是金属元素，d轨道的逐步填充赋予其多种氧化态、有色化合物、催化活性等特性。","explanation_ja":"正解。遷移元素はすべて金属元素であり、d軌道への電子充填により多様な酸化数、有色化合物、触媒活性などの特徴を示す。"},
+      {"id":2,"text":"鉄（\\(\\ce{Fe}\\)）は酸化数が +2 のみで、+3 の酸化数は取らない。","explanation_zh":"陷阱：铁常见的氧化态有+2（Fe²⁺）和+3（Fe³⁺），如FeCl₂和FeCl₃，两者都很稳定。","explanation_ja":"誤り。鉄は+2（Fe²⁺）と+3（Fe³⁺）の両方の酸化数を取る（例：FeCl₂とFeCl₃）。"},
+      {"id":3,"text":"銅（\\(\\ce{Cu}\\)）の化合物はすべて無色である。","explanation_zh":"陷阱：Cu²⁺的水溶液（如CuSO₄水溶液）是蓝色，Cu(OH)₂是蓝色沉淀，CuO是黑色，并非无色。","explanation_ja":"誤り。Cu²⁺を含む化合物（CuSO₄水溶液など）は青色、Cu(OH)₂は青白色沈殿で無色ではない。"},
+      {"id":4,"text":"クロム（\\(\\ce{Cr}\\)）は酸化数 +3 の化合物のみを形成し、他の酸化数は存在しない。","explanation_zh":"陷阱：铬有多种氧化态，如+2（CrO）、+3（Cr₂O₃，绿色）、+6（CrO₃，橙红；K₂Cr₂O₇，橙红）。","explanation_ja":"誤り。クロムは+2、+3、+6など複数の酸化数を取る。CrO₄²⁻（黄色）やCr₂O₇²⁻（橙赤色）は+6の化合物。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "unit":"III 無機化学",
+      "sub_domain":"金属元素",
+      "question_form":"知識選択",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["性質の例外見落とし"],
+      "keywords_to_avoid":["金属","共通性","物理的性質"],
+      "syllabus_path":{"area":"III 無機化学","field":"化学","item":"1. 無機物質"}
+    }
+  },
+  {
+    "id": 15,
+    "global_id": 15,
+    "title": "問15",
+    "prompt": "金属イオン a〜c を確認する試薬・反応 X〜Z の組合せとして最も適当なものはどれか。\n\na: \\(\\ce{Fe^{3+}}\\)　b: \\(\\ce{Cu^{2+}}\\)　c: \\(\\ce{Ag+}\\)\n\nX: チオシアン酸カリウム水溶液（\\(\\ce{KSCN}\\)）を加えると血赤色になる\nY: アンモニア水を過剰に加えると深青色の錯イオンを生成して溶解する\nZ: 塩酸を加えると白色沈殿が生じる",
+    "choices": [
+      {"id":1,"text":"a/Y、b/X、c/Z","explanation_zh":"陷阱：将Fe³⁺和Cu²⁺的反应特征对调，KSCN血红色是Fe³⁺的特征，深蓝色是Cu²⁺(銅)的特征。","explanation_ja":"誤り。KSCNで血赤色を示すのはFe³⁺、過剰NH₃で深青色はCu²⁺。"},
+      {"id":2,"text":"a/X、b/Y、c/Z","explanation_zh":"正确。Fe³⁺加KSCN显血红色(X)；Cu²⁺与过量NH₃形成[Cu(NH₃)₄]²⁺深蓝色(Y)；Ag⁺加HCl生成AgCl白色沉淀(Z)。","explanation_ja":"正解。Fe³⁺はKSCNで血赤色(X)、Cu²⁺は過剰NH₃で[Cu(NH₃)₄]²⁺の深青色(Y)、Ag⁺はHClでAgCl白色沈殿(Z)。"},
+      {"id":3,"text":"a/Z、b/Y、c/X","explanation_zh":"陷阱：将Fe³⁺误判为与Cl⁻生成白色沉淀，实际上FeCl₃是可溶盐。","explanation_ja":"誤り。Fe³⁺はHCl（Cl⁻）で沈殿しない（FeCl₃は水溶性）。"},
+      {"id":4,"text":"a/X、b/Z、c/Y","explanation_zh":"陷阱：将Cu²⁺和Ag⁺的反应特征对调，Ag⁺与Cl⁻生成白色沉淀，Cu²⁺与NH₃生成深蓝色络合物。","explanation_ja":"誤り。Cu²⁺とAg⁺の確認反応を入れ替えている。HClで白色沈殿はAg⁺、深青色はCu²⁺。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "unit":"III 無機化学",
+      "sub_domain":"金属元素",
+      "question_form":"組合せ",
+      "required_skill":"実験条件判断",
+      "requires_image":false,
+      "trap_patterns":["分離操作混同"],
+      "keywords_to_avoid":["Ag⁺","Cu²⁺","Zn²⁺"],
+      "syllabus_path":{"area":"III 無機化学","field":"化学","item":"1. 無機物質"}
+    }
+  },
+  {
+    "id": 16,
+    "global_id": 16,
+    "title": "問16",
+    "prompt": "分子式 \\(\\ce{C4H8}\\) のアルケン 2.80 g を完全燃焼させたとき発生する \\(\\ce{CO2}\\) の体積として最も適当なものはどれか。ただし、\\(\\ce{C4H8}\\) の分子量を 56.0 とし、気体は標準状態（0 ℃、1 atm）とする。",
+    "choices": [
+      {"id":1,"text":"4.48 L","explanation_zh":"正确。C₄H₈(M=56)：2.80/56.0=0.0500mol，C₄H₈+6O₂→4CO₂+4H₂O，mol(CO₂)=4×0.0500=0.200mol，体积=0.200×22.4=4.48L。","explanation_ja":"正解。2.80÷56.0=0.0500 mol、C₄H₈+6O₂→4CO₂+4H₂Oよりmol(CO₂)=4×0.0500=0.200 mol、体積=0.200×22.4=4.48 L。"},
+      {"id":2,"text":"2.24 L","explanation_zh":"陷阱：将CO₂的mol数误算为1:1（忘记了1mol C₄H₈生成4mol CO₂），0.0500×22.4=1.12L，也不是此值。","explanation_ja":"誤り。mol(CO₂)をmol(C₄H₈)と等しいと誤計算するなどのミス。1 mol C₄H₈から4 mol CO₂が生成する。"},
+      {"id":3,"text":"8.96 L","explanation_zh":"陷阱：将mol(C₄H₈)误算为0.100mol（如用2.80/28计算），再×4×22.4=8.96L，错误。","explanation_ja":"誤り。mol(C₄H₈)を誤計算（例：2.80÷28=0.100 mol）するなどのミス。"},
+      {"id":4,"text":"1.12 L","explanation_zh":"陷阱：仅算了mol(C₄H₈)的体积（0.0500×22.4=1.12L），忘记乘以4（CO₂的化学计量系数）。","explanation_ja":"誤り。0.0500×22.4=1.12 LはC₄H₈自体の体積。CO₂は4倍のmol数が発生する。"},
+      {"id":5,"text":"22.4 L","explanation_zh":"陷阱：直接将1mol气体的摩尔体积误用为答案，忽略了实际mol数的计算。","explanation_ja":"誤り。標準モル体積22.4 L/molをそのまま答えとする誤り。実際に生成するCO₂は0.200 mol=4.48 L。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "unit":"IV 有機化学",
+      "sub_domain":"炭化水素",
+      "question_form":"計算選択",
+      "required_skill":"量的計算",
+      "requires_image":false,
+      "trap_patterns":["物質量と質量混同"],
+      "keywords_to_avoid":["双結合","三重結合","鎖式"],
+      "syllabus_path":{"area":"IV 有機化学","field":"化学","item":"1. 有機化合物の性質と反応"}
+    }
+  },
+  {
+    "id": 17,
+    "global_id": 17,
+    "title": "問17",
+    "prompt": "有機化合物 a〜c と性質 X〜Z の組合せとして最も適当なものはどれか。\n\na: ホルムアルデヒド（\\(\\ce{HCHO}\\)）　b: アセトン（\\(\\ce{CH3COCH3}\\)）　c: エタノール（\\(\\ce{C2H5OH}\\)）\n\nX: 銀鏡反応を示す\nY: ナトリウム金属と反応して \\(\\ce{H2}\\) を発生する\nZ: フェーリング液を還元しない",
+    "choices": [
+      {"id":1,"text":"a-Y、b-X、c-Z","explanation_zh":"陷阱：将a、b的性质对调，HCHO是醛能银镜反应，丙酮是酮不能；且乙醇能与Na反应生成H₂。","explanation_ja":"誤り。銀鏡反応を示すのはアルデヒド基をもつHCHO(a)であり、ケトンのアセトン(b)ではない。"},
+      {"id":2,"text":"a-Z、b-Y、c-X","explanation_zh":"陷阱：HCHO不是不与磷液反應，丙酮不能与Na生成H₂（无OH基）。","explanation_ja":"誤り。HCHOはフェーリング液を還元する（銀鏡反応も示す）。アセトンはOH基がなくNaと反応しない。"},
+      {"id":3,"text":"a-X、b-Z、c-Y","explanation_zh":"正确。HCHO（醛）显银镜反应(X)；丙酮（酮）无醛基，不还原磷液(Z)；乙醇有OH基，与Na反应生成H₂(Y)。","explanation_ja":"正解。HCHOはアルデヒド基により銀鏡反応(X)、アセトンはケトンでフェーリング液を還元しない(Z)、C₂H₅OHはOH基でNaと反応しH₂発生(Y)。"},
+      {"id":4,"text":"a-X、b-Y、c-Z","explanation_zh":"陷阱：将b和c的性质对调，丙酮无OH基不与Na反应，乙醇有OH基能与Na生成H₂。","explanation_ja":"誤り。アセトンにはOH基がなくNa(Y)と反応しない。Naと反応するのはOH基をもつエタノール(c)。"},
+      {"id":5,"text":"a/Y、b/Z、c/X","explanation_zh":"陷阱：将a误判为与Na反应生成H₂，将c误判为显银镜反应。HCHO显银镜反应，乙醇与Na反应生成H₂。","explanation_ja":"誤り。HCHOはNa反応ではなく銀鏡反応(X)、C₂H₅OHは銀鏡反応でなくNa反応(Y)を示す。"},
+      {"id":6,"text":"a/Z、b/X、c/Y","explanation_zh":"陷阱：将HCHO误判为不与磷液反應，将丙酮误判为显银镜反应。醛类能还原磷液，酮类不能。","explanation_ja":"誤り。HCHO（アルデヒド）はフェーリング液を還元する。アセトン（ケトン）は銀鏡反応を示さない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "unit":"IV 有機化学",
+      "sub_domain":"酸素を含む有機化合物",
+      "question_form":"組合せ",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["構造異性体混同"],
+      "keywords_to_avoid":["2-ブタノール","鏡像異性体","脱水"],
+      "syllabus_path":{"area":"IV 有機化学","field":"化学","item":"1. 有機化合物の性質と反応"}
+    }
+  },
+  {
+    "id": 18,
+    "global_id": 18,
+    "title": "問18",
+    "prompt": "プロピン（\\(\\ce{C3H4}\\)）1.00 g を完全燃焼させるのに必要な酸素（\\(\\ce{O2}\\)）の質量として最も適当なものはどれか。ただし、\\(\\ce{C3H4}\\) の分子量を 40.0、\\(\\ce{O2}\\) の分子量を 32.0 とする。",
+    "choices": [
+      {"id":1,"text":"0.800 g","explanation_zh":"陷阱：未乘以化学计量系数4，0.0250×32.0=0.800g，错误。应为4×0.0250×32.0=3.20g。","explanation_ja":"誤り。係数4を考慮せずmol(C₃H₄)×32を計算した誤り。正しくは×4×32.0=3.20 g。"},
+      {"id":2,"text":"3.20 g","explanation_zh":"正确。mol(C₃H₄)=1.00/40.0=0.0250mol，C₃H₄+4O₂→3CO₂+2H₂O，mol(O₂)=4×0.0250=0.100mol，质量=0.100×32.0=3.20g。","explanation_ja":"正解。1.00÷40.0=0.0250 mol、C₃H₄+4O₂→3CO₂+2H₂Oより mol(O₂)=4×0.0250=0.100 mol、質量=0.100×32.0=3.20 g。"},
+      {"id":3,"text":"6.40 g","explanation_zh":"陷阱：将O₂的化学计量系数误用为8，0.0250×8×32.0=6.40g，错误。","explanation_ja":"誤り。係数を誤って8と計算するなどのミス。正しくは係数4。"},
+      {"id":4,"text":"1.60 g","explanation_zh":"陷阱：将O₂的化学计量系数误用为2（而非4），mol(O₂)=2×0.0250=0.0500mol，质量=1.60g，错误。","explanation_ja":"誤り。係数を4でなく2と計算した誤り。C₃H₄の燃焼では係数4のO₂が必要。"},
+      {"id":5,"text":"0.100 g","explanation_zh":"陷阱：仅计算了mol数0.100mol，未乘以分子量32.0，将mol误认为g。","explanation_ja":"誤り。mol数0.100 molをそのままグラムと誤認した。質量はmol×32.0=3.20 g。"},
+      {"id":6,"text":"12.8 g","explanation_zh":"陷阱：将mol(C₃H₄)误算为0.100mol（如1.00/10.0），再×4×32.0=12.8g，错误。","explanation_ja":"誤り。mol(C₃H₄)を0.100 molと誤計算するなどのミス。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "unit":"IV 有機化学",
+      "sub_domain":"炭化水素",
+      "question_form":"計算選択",
+      "required_skill":"量的計算",
+      "requires_image":false,
+      "trap_patterns":["係数比誤認"],
+      "keywords_to_avoid":["シス・トランス","アルケン","燃焼"],
+      "syllabus_path":{"area":"IV 有機化学","field":"化学","item":"1. 有機化合物の性質と反応"}
+    }
+  },
+  {
+    "id": 19,
+    "global_id": 19,
+    "title": "問19",
+    "prompt": "芳香族化合物 a〜c と検出反応 X〜Z の組合せとして最も適当なものはどれか。\n\na: アニリン（\\(\\ce{C6H5NH2}\\)）　b: 安息香酸（\\(\\ce{C6H5COOH}\\)）　c: フェノール（\\(\\ce{C6H5OH}\\)）\n\nX: 塩化鉄(III)水溶液を加えると紫色になる\nY: さらし粉水溶液を加えると赤紫色になる\nZ: 炭酸水素ナトリウム水溶液を加えると \\(\\ce{CO2}\\) が発生する",
+    "choices": [
+      {"id":1,"text":"a-Y、b-X、c-Z","explanation_zh":"陷阱：将b和c的反应特征对调，FeCl₃使苯酚变紫色，NaHCO₃与苯甲酸反应放CO₂。","explanation_ja":"誤り。塩化鉄(III)で紫色はフェノール(c)、NaHCO₃でCO₂は安息香酸(b)。"},
+      {"id":2,"text":"a-Z、b-Y、c-X","explanation_zh":"陷阱：将苯胺误判为与NaHCO₃反应放CO₂（苯胺是碱，不与NaHCO₃放CO₂），将苯甲酸误判为粉赤紫色。","explanation_ja":"誤り。アニリンは塩基性でNaHCO₃と反応してもCO₂は発生しない。安息香酸はさらし粉で赤紫色にならない。"},
+      {"id":3,"text":"a-X、b-Z、c-Y","explanation_zh":"陷阱：将苯胺误判为FeCl₃变紫色（实际上是苯酚），将苯酚误判为粉赤紫色（实际上是苯胺）。","explanation_ja":"誤り。FeCl₃で紫色はフェノール(c)であり、アニリン(a)ではない。さらし粉で赤紫はアニリン(a)。"},
+      {"id":4,"text":"a-X、b-Y、c-Z","explanation_zh":"陷阱：将三者反应特征全部错误分配。苯胺不显FeCl₃紫色，苯甲酸不与粉变赤紫，苯酚不与NaHCO₃放CO₂。","explanation_ja":"誤り。3つすべて誤り。FeCl₃紫色=フェノール、さらし粉赤紫=アニリン、NaHCO₃でCO₂=安息香酸。"},
+      {"id":5,"text":"a-Y、b-Z、c-X","explanation_zh":"正确。苯胺粉赤紫色(Y)；苯甲酸（羧酸）NaHCO₃反応CO₂発生(Z)；苯酚FeCl₃紫色(X)。","explanation_ja":"正解。アニリン(a)はさらし粉で赤紫色(Y)、安息香酸(b)はNaHCO₃でCO₂発生(Z)、フェノール(c)は塩化鉄(III)で紫色(X)。"},
+      {"id":6,"text":"a-Z、b-X、c-Y","explanation_zh":"陷阱：将苯甲酸和苯酚的反应特征对调，并将苯胺误判为与NaHCO₃反应。","explanation_ja":"誤り。安息香酸とフェノールの検出反応が逆。NaHCO₃でCO₂は安息香酸(b)、FeCl₃紫色はフェノール(c)。"}
+    ],
+    "answer": 5,
+    "tag": {
+      "unit":"IV 有機化学",
+      "sub_domain":"有機化合物の構造決定",
+      "question_form":"組合せ",
+      "required_skill":"構造推定",
+      "requires_image":false,
+      "trap_patterns":["反応条件見落とし"],
+      "keywords_to_avoid":["アニリン","サリチル酸","無水酢酸"],
+      "syllabus_path":{"area":"IV 有機化学","field":"化学","item":"1. 有機化合物の性質と反応"}
+    }
+  },
+  {
+    "id": 20,
+    "global_id": 20,
+    "title": "問20",
+    "prompt": "高分子化合物に関する記述として最も適当なものはどれか。",
+    "choices": [
+      {"id":1,"text":"ポリエチレンは付加重合によって生成し、エステル結合を多数含む。","explanation_zh":"陷阱：聚乙烯（polyethylene）是由乙烯加聚生成，含的是C-C单键，不含酯键。酯键出现在缩合聚合物如聚酯中。","explanation_ja":"誤り。ポリエチレンは付加重合で生成するが、エステル結合は含まない（C-C単結合のみ）。エステル結合を含むのはポリエステルなど縮合重合体。"},
+      {"id":2,"text":"ナイロン-6,6 はアミド結合をもつ付加重合体である。","explanation_zh":"陷阱：尼龙-6,6是缩聚物（缩合重合体），由己二酸和己二胺缩合，含酰胺键（-CO-NH-），不是加聚物。","explanation_ja":"誤り。ナイロン-6,6はアジピン酸とヘキサメチレンジアミンの縮合重合体であり、付加重合体ではない。"},
+      {"id":3,"text":"天然ゴム（ポリイソプレン）は炭素間二重結合を多数含み、硫黄で加硫すると弾性が増す。","explanation_zh":"正确。天然橡胶是聚异戊二烯，含C=C双键，加硫（硫化）后硫形成交联，提高弾性和耐热性。","explanation_ja":"正解。天然ゴム（ポリイソプレン）はC=C二重結合を多く含み、硫黄による加硫で架橋が形成され弾性・耐熱性が向上する。"},
+      {"id":4,"text":"デンプン（アミロース）はグルコースが 1,4 結合したポリマーで、ヨウ素デンプン反応では黄色を示す。","explanation_zh":"陷阱：确实是葡萄糖α-1,4-糖苷键的聚合物，但碘淀粉反应显蓝紫色（蓝黑色），不是黄色。","explanation_ja":"誤り。アミロースはグルコースのα-1,4結合ポリマーであるが、ヨウ素デンプン反応では青紫色（青黒色）を示し、黄色ではない。"},
+      {"id":5,"text":"セルロースはグルコースが α-1,4 結合した直鎖状高分子で、ヒトの消化酵素で分解できる。","explanation_zh":"陷阱：纤维素是葡萄糖β-1,4-糖苷键（不是α），人体缺乏分解β-1,4键的酶，因此不能消化纤维素。","explanation_ja":"誤り。セルロースはグルコースのβ-1,4結合（α-1,4ではない）であり、ヒトはβ-グルコシダーゼを持たないため消化できない。"},
+      {"id":6,"text":"タンパク質のペプチド結合は加水分解によりアミノ酸に分解されるが、この反応は強酸・強塩基では起こらない。","explanation_zh":"陷阱：肽键（-CO-NH-）在酸、碱或酶的条件下均可水解为氨基酸，强酸（如6N HCl，110°C）常用于蛋白质的完全水解分析。","explanation_ja":"誤り。タンパク質のペプチド結合は強酸（例：6 N HCl、110 ℃）や強塩基でも加水分解される。酵素による加水分解も可能。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "unit":"IV 有機化学",
+      "sub_domain":"高分子・生活化学",
+      "question_form":"知識選択",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["重合形式混同"],
+      "keywords_to_avoid":["高分子","二重結合","単結合"],
+      "syllabus_path":{"area":"IV 有機化学","field":"化学","item":"2. 有機化合物と人間生活"}
+    }
+  }
+]
+}

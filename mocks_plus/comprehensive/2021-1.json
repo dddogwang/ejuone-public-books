@@ -1,0 +1,1000 @@
+{
+  "subject": "comprehensive",
+  "section": "",
+  "year": 2021,
+  "round": 1,
+  "title": "模擬試験 総合科目 第五回",
+  "image_path": "comprehensive/images/2021-1",
+  "questions": [
+  {
+    "id": 1,
+    "title": "問1",
+    "prompt": "次の問い(1)〜(4)に答えなさい。",
+    "passage": "日本の近現代は、明治維新による近代国家の建設に始まり、対外戦争や戦後改革を経て大きく変化した。経済面では戦後の改革と工業化が進み、産業構造も農業中心から工業・サービス業中心へと移っていった。歴史を理解するには、出来事の前後関係と、各国・各地域の位置や産業の特徴を区別して捉えることが重要である。",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":1,
+        "prompt":"ア: 明治維新、イ: 日清戦争、ウ: 日露戦争、エ: 第二次世界大戦後の戦後改革を、年代の古い順に並べたものはどれですか。",
+        "choices":[
+          {"id":1,"text":"イ → ア → ウ → エ","explanation_zh":"陷阱：顺序混乱。明治维新（1868年）早于日清战争（1894年），不应排在其后。","explanation_ja":"誤り。順序混同の罠。明治維新（1868年）は日清戦争（1894年）より前である。"},
+          {"id":2,"text":"ア → ウ → イ → エ","explanation_zh":"陷阱：顺序混乱。日清战争（1894年）早于日露战争（1904年），二者顺序颠倒。","explanation_ja":"誤り。順序混同の罠。日清戦争（1894年）は日露戦争（1904年）より前である。"},
+          {"id":3,"text":"ア → イ → ウ → エ","explanation_zh":"正确。明治维新1868年、日清战争1894年、日露战争1904年、战后改革1945年以后，由旧到新即此顺序。","explanation_ja":"正解。明治維新1868年、日清戦争1894年、日露戦争1904年、戦後改革1945年以降の順である。"},
+          {"id":4,"text":"エ → ア → イ → ウ","explanation_zh":"陷阱：顺序混乱。战后改革是1945年以后，是四者中最晚，不应排在最前。","explanation_ja":"誤り。順序混同の罠。戦後改革は1945年以降で四つの中で最も遅い。"}
+        ],
+        "answer":3,
+        "tag":{
+          "question_form":"時系列整序",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["順序混同"],
+          "keywords_to_avoid":["マルタ会談","1989年","ベルリンの壁","ソ連消滅","1991年"],
+          "sub_domain":"近代世界"
+        },
+        "sources":[{"claim":"明治維新1868, 日清戦争1894, 日露戦争1904-05, 戦後改革1945-","source":"Encyclopaedia Britannica, History of Japan","year":1904,"url":"https://www.britannica.com/place/Japan/History"}]
+      },
+      {
+        "sub_id":2,
+        "global_id":2,
+        "prompt":"次の文章は、2021年の主要国の大豆生産量（百万トン、概数）である。読み取れる内容として最も適当なものはどれですか。\nブラジル約130、アメリカ約121、アルゼンチン約51、中国約16。",
+        "choices":[
+          {"id":1,"text":"中国の生産量がこの中で最も多い。","explanation_zh":"陷阱：地域错位。中国约16百万吨，是四国中最少，并非最多。","explanation_ja":"誤り。地域取違の罠。中国は約16百万トンで、四か国の中で最も少ない。"},
+          {"id":2,"text":"ブラジルの生産量がこの中で最も多い。","explanation_zh":"正确。巴西约130百万吨，高于美国约121、阿根廷约51、中国约16。","explanation_ja":"正解。ブラジルは約130百万トンで、米国・アルゼンチン・中国を上回り最多である。"},
+          {"id":3,"text":"アルゼンチンの生産量はブラジルを上回る。","explanation_zh":"陷阱：数值混同。阿根廷约51百万吨，远低于巴西约130。","explanation_ja":"誤り。数値混同の罠。アルゼンチン約51はブラジル約130を下回る。"},
+          {"id":4,"text":"四か国の生産量はすべて同じである。","explanation_zh":"陷阱：范围扩大。资料中四国数值（130/121/51/16）明显不同。","explanation_ja":"誤り。範囲拡大の罠。四か国の値は同じではない。"}
+        ],
+        "answer":2,
+        "tag":{
+          "question_form":"図表読取",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["地域取違"],
+          "keywords_to_avoid":["ベルリン","ドイツ中東部","北緯52°","東経13°"],
+          "sub_domain":"近代世界",
+          "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"}
+        },
+        "sources":[{"claim":"Soybean production 2021/22: Brazil ~130, USA ~121, Argentina ~51, China ~16 Mt","source":"USDA FAS / FAOSTAT, soybean production","year":2021,"url":"https://www.fas.usda.gov/data/production/commodity/2222000"}]
+      },
+      {
+        "sub_id":3,
+        "global_id":3,
+        "prompt":"1990年のドイツ統一に関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"ドイツ統一は東ドイツが西ドイツを併合する形で進められた。","explanation_zh":"陷阱：主体错位。统一是西德吸收东德（东德加入西德体制），主体方向相反。","explanation_ja":"誤り。主体取違の罠。統一は西ドイツが東ドイツを編入する形で、主体が逆である。"},
+          {"id":2,"text":"ドイツは統一後、すべての地方自治を廃止した中央集権の単一国家となった。","explanation_zh":"陷阱：概念混淆。统一后的德国是由州组成的联邦制国家，并非中央集权单一国家。","explanation_ja":"誤り。概念混同の罠。統一後のドイツは州から成る連邦制国家である。"},
+          {"id":3,"text":"ドイツ統一は第一次世界大戦の直後、1919年に実現した。","explanation_zh":"陷阱：时态错位。东西德统一在1990年，1919年是魏玛共和国成立期。","explanation_ja":"誤り。時態錯位の罠。東西ドイツ統一は1990年で、1919年ではない。"},
+          {"id":4,"text":"1990年に東西ドイツが統一され、統一ドイツは州から構成される連邦制国家となった。","explanation_zh":"正确。1990年东西德实现统一，统一后德国为由各州组成的联邦制国家。","explanation_ja":"正解。1990年に東西ドイツが統一し、統一ドイツは州から成る連邦制国家となった。"}
+        ],
+        "answer":4,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["主体取違","概念混同"],
+          "keywords_to_avoid":["連邦政府","連邦大統領","連邦首相","16の州","連邦制"],
+          "sub_domain":"近代世界",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"1.民主政治"}
+        },
+        "sources":[{"claim":"German reunification took place on 3 October 1990; Germany is a federal state of Länder","source":"Encyclopaedia Britannica, German reunification","year":1990,"url":"https://www.britannica.com/event/German-reunification"}]
+      },
+      {
+        "sub_id":4,
+        "global_id":4,
+        "prompt":"次のア〜ウの語句と、その説明X〜Zの組合せとして最も適当なものはどれですか。\nア: ECSC（欧州石炭鉄鋼共同体） イ: マーシャル・プラン ウ: EEC（欧州経済共同体）\nX: 1952年に発足し、石炭・鉄鋼を共同管理した イ Y: 1947年にアメリカが示した欧州への経済援助計画 ウ Z: 1958年に発足し、共同市場の形成をめざした",
+        "choices":[
+          {"id":1,"text":"ア-Y、イ-X、ウ-Z","explanation_zh":"陷阱：主体错位。ECSC是煤钢共同管理（X），马歇尔计划是美国援助（Y），二者对调错误。","explanation_ja":"誤り。主体取違の罠。ECSCはX、マーシャル・プランはYで、対応が入れ替わっている。"},
+          {"id":2,"text":"ア-Z、イ-Y、ウ-X","explanation_zh":"陷阱：范围扩大。EEC（1958年共同市场）对应Z，将其与ECSC的Z混置，对应错误。","explanation_ja":"誤り。範囲拡大の罠。EECはZ、ECSCはXで、対応が誤っている。"},
+          {"id":3,"text":"ア-X、イ-Y、ウ-Z","explanation_zh":"正确。ECSC（1952年煤钢共管）对应X、马歇尔计划（1947年美援）对应Y、EEC（1958年共同市场）对应Z。","explanation_ja":"正解。ECSCはX、マーシャル・プランはY、EECはZで対応が正しい。"},
+          {"id":4,"text":"ア-X、イ-Z、ウ-Y","explanation_zh":"陷阱：范围扩大。马歇尔计划是美国援助（Y），EEC是共同市场（Z），二者对调错误。","explanation_ja":"誤り。範囲拡大の罠。マーシャル・プランはY、EECはZで、対応が入れ替わっている。"}
+        ],
+        "answer":3,
+        "tag":{
+          "question_form":"組合せ",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["主体取違","範囲拡大"],
+          "keywords_to_avoid":["機械類","自動車","鉄鋼","化学製品","輸出品"],
+          "sub_domain":"近代世界",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"10. 国際経済"}
+        },
+        "sources":[{"claim":"ECSC founded 1952, Marshall Plan 1947, EEC founded 1958","source":"European Union, The history of the European Union","year":1958,"url":"https://european-union.europa.eu/principles-countries-history/history-eu_en"}]
+      }
+    ],
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"ドイツ統一",
+      "sub_domain":"近代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"1. 近代化の進展とその影響"},
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "keywords_to_avoid":["1990年","ベルリン","ドイツ再統一","東ドイツ","西ドイツ"]
+    }
+  },
+  {
+    "id": 2,
+    "title": "問2",
+    "prompt": "次の問い(1)〜(4)に答えなさい。",
+    "passage": "世界の資源・エネルギーは地域ごとに偏って分布しており、産出地と消費地が一致しないことが多い。石炭は古期造山帯の周辺に多く、石油は西アジアなど特定の地域に集中する。20世紀には資源の供給と価格をめぐって国際的な動きが相次ぎ、各国はエネルギー政策の見直しを迫られた。",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":5,
+        "prompt":"石炭の分布に関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"石炭は新期造山帯であるアンデス山脈に最も多く分布する。","explanation_zh":"陷阱：地域错位。石炭多分布于古期造山带，安第斯是新期造山带，对应错误。","explanation_ja":"誤り。地域取違の罠。石炭は古期造山帯に多く、新期造山帯のアンデスではない。"},
+          {"id":2,"text":"石炭は地球上のどの地域にもまったく分布していない。","explanation_zh":"陷阱：范围扩大。石炭在世界多地有产出，并非完全不存在。","explanation_ja":"誤り。範囲拡大の罠。石炭は世界各地で産出され、存在しないわけではない。"},
+          {"id":3,"text":"石炭の主産地は赤道直下の熱帯雨林地域だけである。","explanation_zh":"陷阱：地域错位。石炭主产地多在中纬度古期造山带，不限于赤道热带。","explanation_ja":"誤り。地域取違の罠。石炭は中緯度の古期造山帯に多く、赤道直下に限らない。"},
+          {"id":4,"text":"石炭は古期造山帯やその周辺に多く分布する傾向がある。","explanation_zh":"正确。石炭多形成于古生代，常分布于古期造山带及其周边。","explanation_ja":"正解。石炭は古生代に形成され、古期造山帯やその周辺に多く分布する。"}
+        ],
+        "answer":4,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["地域取違"],
+          "keywords_to_avoid":["アンデス","アルプス","アトラス","アパラチア","造山帯","石炭"],
+          "sub_domain":"産業・資源"
+        },
+        "sources":[{"claim":"Coal deposits are associated with old (Paleozoic) orogenic belts","source":"Encyclopaedia Britannica, Coal: occurrence","year":2024,"url":"https://www.britannica.com/science/coal-fossil-fuel"}]
+      },
+      {
+        "sub_id":2,
+        "global_id":6,
+        "prompt":"1952年に発足した欧州石炭鉄鋼共同体（ECSC）に関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"ECSCはフランスや西ドイツなどが石炭・鉄鋼を共同管理するために発足させた組織である。","explanation_zh":"正确。ECSC由法国、西德等六国为共同管理煤钢而设立，是欧洲一体化的起点。","explanation_ja":"正解。ECSCはフランス・西ドイツなど6か国が石炭・鉄鋼を共同管理するため発足した。"},
+          {"id":2,"text":"ECSCはアメリカが単独で石油を独占するために設立した組織である。","explanation_zh":"陷阱：主体错位。ECSC是欧洲多国共同管理煤钢，并非美国独占石油。","explanation_ja":"誤り。主体取違の罠。ECSCは欧州諸国による煤鋼の共同管理で、米国の石油独占ではない。"},
+          {"id":3,"text":"ECSCは日本と中国が結成したアジアの軍事同盟である。","explanation_zh":"陷阱：主体错位。ECSC的主体是欧洲国家，与日中军事同盟无关。","explanation_ja":"誤り。主体取違の罠。ECSCは欧州諸国の組織で、日中の軍事同盟ではない。"},
+          {"id":4,"text":"ECSCは石炭・鉄鋼の生産を全面的に禁止するために発足した。","explanation_zh":"陷阱：范围扩大。ECSC旨在共同管理而非全面禁止煤钢生产。","explanation_ja":"誤り。範囲拡大の罠。ECSCは共同管理が目的で、生産の全面禁止ではない。"}
+        ],
+        "answer":1,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["主体取違"],
+          "keywords_to_avoid":["ECSC","フランス","西ドイツ","イギリス","スペイン","1951年"],
+          "sub_domain":"産業・資源"
+        },
+        "sources":[{"claim":"ECSC established 1952 by six European states to pool coal and steel","source":"European Union, The history of the European Union","year":1952,"url":"https://european-union.europa.eu/principles-countries-history/history-eu_en"}]
+      },
+      {
+        "sub_id":3,
+        "global_id":7,
+        "prompt":"次の文章は、2021年の主要産油国の原油生産量（日量、百万バレル、概数）である。読み取れる内容として最も適当なものはどれですか。\nアメリカ約11.2、サウジアラビア約10.0、ロシア約10.5。",
+        "choices":[
+          {"id":1,"text":"この中ではアメリカの原油生産量が最も多い。","explanation_zh":"正确。美国约11.2百万桶/日，高于俄罗斯约10.5、沙特约10.0。","explanation_ja":"正解。米国約11.2はロシア約10.5、サウジアラビア約10.0を上回り最多である。"},
+          {"id":2,"text":"サウジアラビアの生産量がこの中で最も多い。","explanation_zh":"陷阱：数值混同。沙特约10.0百万桶/日，低于美国约11.2。","explanation_ja":"誤り。数値混同の罠。サウジアラビア約10.0は米国約11.2を下回る。"},
+          {"id":3,"text":"ロシアの生産量は0バレルである。","explanation_zh":"陷阱：数值混同。资料中俄罗斯约10.5百万桶/日，并非0。","explanation_ja":"誤り。数値混同の罠。資料ではロシアは約10.5で0ではない。"},
+          {"id":4,"text":"三か国の生産量はすべて同じである。","explanation_zh":"陷阱：范围扩大。资料中三国数值（11.2/10.0/10.5）不同。","explanation_ja":"誤り。範囲拡大の罠。三か国の値は同じではない。"}
+        ],
+        "answer":1,
+        "tag":{
+          "question_form":"図表読取",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["数値混同"],
+          "keywords_to_avoid":["中国","インド","インドネシア","コロンビア","オーストラリア"],
+          "sub_domain":"産業・資源",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"10. 国際経済"}
+        },
+        "sources":[{"claim":"2021 crude oil production: USA ~11.2, Russia ~10.5, Saudi Arabia ~10.0 Mb/d","source":"U.S. Energy Information Administration, International data","year":2021,"url":"https://www.eia.gov/international/data/world"}]
+      },
+      {
+        "sub_id":4,
+        "global_id":8,
+        "prompt":"次のア〜ウの出来事と、その説明X〜Zの組合せとして最も適当なものはどれですか。\nア: 第四次中東戦争 イ: 第一次石油危機 ウ: イラン革命\nX: 1973年に始まり、原油価格の急騰をもたらした イ Y: 1973年に起こり、第一次石油危機の契機となった ア Z: 1979年に起こり、第二次石油危機の一因となった ウ",
+        "choices":[
+          {"id":1,"text":"ア-Y、イ-Z、ウ-X","explanation_zh":"陷阱：时态错位。第一次石油危机是1973年（X），将其与1979年的伊朗革命对调，时间错位。","explanation_ja":"誤り。時態錯位の罠。第一次石油危機は1973年でX、対応が入れ替わっている。"},
+          {"id":2,"text":"ア-Z、イ-X、ウ-Y","explanation_zh":"陷阱：时态错位。伊朗革命是1979年（Z），第四次中东战争是1973年（Y），二者对调错误。","explanation_ja":"誤り。時態錯位の罠。イラン革命は1979年でZ、対応が誤っている。"},
+          {"id":3,"text":"ア-X、イ-Y、ウ-Z","explanation_zh":"陷阱：时态错位。第四次中东战争是契机（Y），第一次石油危机是价格急涨（X），二者对调错误。","explanation_ja":"誤り。時態錯位の罠。第四次中東戦争はY、第一次石油危機はXで、入れ替わっている。"},
+          {"id":4,"text":"ア-Y、イ-X、ウ-Z","explanation_zh":"正确。第四次中东战争1973年（Y）触发第一次石油危机（X，价格急涨），伊朗革命1979年（Z）。","explanation_ja":"正解。第四次中東戦争はY、第一次石油危機はX、イラン革命はZで対応が正しい。"}
+        ],
+        "answer":4,
+        "tag":{
+          "question_form":"組合せ",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["時態錯位"],
+          "keywords_to_avoid":["第二次中東戦争","第四次中東戦争","イラン革命","1973年","1979年"],
+          "sub_domain":"産業・資源",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"5. 国際政治"}
+        },
+        "sources":[{"claim":"1973 Yom Kippur War triggered the first oil crisis; 1979 Iranian Revolution led to the second","source":"Encyclopaedia Britannica, oil crisis","year":1979,"url":"https://www.britannica.com/money/oil-crisis"}]
+      }
+    ],
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"資源分布・エネルギー",
+      "sub_domain":"産業・資源",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "keywords_to_avoid":["古期造山帯","ECSC","石炭","可採埋蔵量","石油危機"]
+    }
+  },
+  {
+    "id": 3,
+    "title": "問3",
+    "prompt": "次の問い(1)に答えなさい。",
+    "passage": "経済政策をめぐっては、政府や中央銀行がどこまで市場に介入すべきかについて、立場の異なる考え方が示されてきた。ある立場は、有効需要を生み出すために政府が積極的に支出すべきだと説き、別の立場は、貨幣量の安定的な管理を重視し、裁量的な介入には慎重であるべきだと主張した。政策を理解するには、誰が、いつ、どの手段を用いるのかを区別する必要がある。",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":9,
+        "prompt":"経済学者の主張に関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"ケインズは、政府は経済に一切介入すべきでないと主張した。","explanation_zh":"陷阱：主体错位。凯恩斯主张政府通过有效需求积极干预，与此相反。","explanation_ja":"誤り。主体取違の罠。ケインズは有効需要のための政府介入を説いた。"},
+          {"id":2,"text":"ケインズは有効需要を重視し、不況時には政府の財政支出による需要創出を主張した。","explanation_zh":"正确。凯恩斯重视有效需求，主张萧条期由政府支出创造需求。","explanation_ja":"正解。ケインズは有効需要を重視し、不況時の政府支出による需要創出を説いた。"},
+          {"id":3,"text":"フリードマンは、財政赤字を無制限に拡大すべきだと説いた経済学者である。","explanation_zh":"陷阱：概念混淆。弗里德曼重视货币量稳定管理，并非主张无限扩大财政赤字。","explanation_ja":"誤り。概念混同の罠。フリードマンは貨幣量の安定的管理を重視した。"},
+          {"id":4,"text":"経済学者の主張は時代や立場と無関係に常に一致する。","explanation_zh":"陷阱：概念混淆。不同学者立场各异，并非始终一致。","explanation_ja":"誤り。概念混同の罠。学者の主張は立場により異なり、常に一致しない。"}
+        ],
+        "answer":2,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["主体取違","概念混同"],
+          "keywords_to_avoid":["フリードマン","ケインズ","マルクス","シュンペーター"],
+          "sub_domain":"金融・通貨"
+        },
+        "sources":[{"claim":"Keynes advocated active fiscal demand management; Friedman emphasised stable money supply","source":"Encyclopaedia Britannica, Keynesian economics / Monetarism","year":2024,"url":"https://www.britannica.com/topic/Keynesian-economics"}]
+      }
+    ],
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"金融政策・経済学者",
+      "sub_domain":"金融・通貨",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"5. 金融"},
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "keywords_to_avoid":["フリードマン","ケインズ","マルクス","ルール","裁量的"]
+    }
+  },
+  {
+    "id": 4,
+    "global_id": 10,
+    "title": "問4",
+    "prompt": "次の文章の内容と合っているものはどれですか。",
+    "choices": [
+      {"id":1,"text":"ある政策がうまくいけば、条件の異なる地域でも必ず同じ効果が得られる。","explanation_zh":"陷阱：因果倒置。文章主张政策效果取决于地区条件，并非到处同效。","explanation_ja":"誤り。因果倒置の罠。本文は地域条件によって効果が異なると述べている。"},
+      {"id":2,"text":"政策の効果は地域の条件に左右されるため、条件に応じて手段を調整する必要がある。","explanation_zh":"正确。文章中心主张是政策效果受地区条件影响，应据条件调整手段。","explanation_ja":"正解。本文は、政策効果は地域条件に左右されるため手段の調整が必要だと述べている。"},
+      {"id":3,"text":"政策を決める際には、長期的な影響を一切考えなくてよい。","explanation_zh":"陷阱：范围扩大。文章主张兼顾短期与长期，并非忽视长期。","explanation_ja":"誤り。範囲拡大の罠。本文は短期と長期の双方を考慮すべきだとしている。"},
+      {"id":4,"text":"どの地域でも一律の手段を用いれば、必ず最善の結果になる。","explanation_zh":"陷阱：范围扩大。文章否定一律手段，强调因地制宜。","explanation_ja":"誤り。範囲拡大の罠。本文は一律の手段を否定し、地域に応じた調整を求めている。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"供給曲線・税制",
+      "sub_domain":"経済原理・市場",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"3.経済主体"},
+      "question_form":"文章読解",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["因果倒置","範囲拡大"],
+      "keywords_to_avoid":["供給曲線","間接税","販売量","販売価格","需要曲線"]
+    },
+    "passage": "ある経済政策を評価するとき、その政策が成功したかどうかは、政策そのものの内容だけでなく、それが実施された地域の条件にも大きく左右される。同じ補助金政策であっても、産業が集積し人口が増えている地域では新たな投資を呼び込みやすいが、人口が流出し産業基盤の弱い地域では効果が限られることがある。また、短期的には需要を押し上げても、長期的には財政負担として残る場合もある。したがって、政策を立案する際には、地域ごとの条件と、短期・長期の両面を見極め、用いる手段を調整していくことが求められる。一律の手段をすべての地域に当てはめれば最善の結果になるとは限らないのである。"
+  },
+  {
+    "id": 5,
+    "global_id": 11,
+    "title": "問5",
+    "prompt": "フローとストックに関する記述として最も適当でないものはどれですか。",
+    "choices": [
+      {"id":1,"text":"ストックは一定期間内に新たに生み出された量を表し、フローはある時点の蓄積量を表す。","explanation_zh":"正确。题目要求选不适当项。该项把流量与存量的定义颠倒，故为错误陈述。","explanation_ja":"正解。設問は不適当なものを選ぶ。フローとストックの定義が逆で、これが誤り。"},
+      {"id":2,"text":"国内総生産（GDP）は一定期間の経済活動を表すフローの概念である。","explanation_zh":"陷阱：设问反转。GDP是一定期间的流量，叙述正确，不是要选的项。","explanation_ja":"誤り。設問反転の罠。GDPはフローで、記述は正しく不適当なものではない。"},
+      {"id":3,"text":"ある時点での国民の資産残高はストックの概念である。","explanation_zh":"陷阱：设问反转。资产残高是某时点的存量，叙述正确。","explanation_ja":"誤り。設問反転の罠。資産残高はストックで、記述は正しい。"},
+      {"id":4,"text":"一年間に得た利子収入はフロー、預金残高はストックとして区別できる。","explanation_zh":"陷阱：设问反转。利息收入为流量、存款余额为存量，区分正确。","explanation_ja":"誤り。設問反転の罠。利子収入はフロー、預金残高はストックで正しい。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"フロー・ストック",
+      "sub_domain":"国民経済・成長",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"4.国民経済"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答誤記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["フロー","ストック","利子収入","預金金利","財政赤字","国債残高"]
+    },
+    "sources": [{"claim":"Flow is measured over a period; stock is measured at a point in time","source":"OpenStax, Principles of Macroeconomics, national income accounting","year":2023,"url":"https://openstax.org/books/principles-macroeconomics-3e/pages/6-1-measuring-the-size-of-the-economy-gross-domestic-product"}]
+  },
+  {
+    "id": 6,
+    "global_id": 12,
+    "title": "問6",
+    "prompt": "寡占市場に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"寡占市場とは、無数の小規模な企業が完全に自由に競争している市場のことである。","explanation_zh":"陷阱：概念混淆。无数小企业自由竞争是完全竞争，并非寡占。","explanation_ja":"誤り。概念混同の罠。多数の小企業の自由競争は完全競争で、寡占ではない。"},
+      {"id":2,"text":"寡占市場とは、少数の大企業が市場の大きな部分を占め、価格支配力をもちやすい市場である。","explanation_zh":"正确。寡占指少数大企业占据市场大部分、易具价格支配力。","explanation_ja":"正解。寡占市場は少数の大企業が市場の大部分を占め、価格支配力をもちやすい。"},
+      {"id":3,"text":"寡占市場では、価格は常に需要と供給だけで瞬時に決まり、企業の影響は全くない。","explanation_zh":"陷阱：概念混淆。寡占下企业有价格支配力，并非完全由供求即时决定。","explanation_ja":"誤り。概念混同の罠。寡占では企業が価格支配力をもち、供給と需要だけではない。"},
+      {"id":4,"text":"寡占市場では新規参入が常に容易で、参入障壁は存在しない。","explanation_zh":"陷阱：范围扩大。寡占常伴随较高参入门槛，并非总是容易。","explanation_ja":"誤り。範囲拡大の罠。寡占はしばしば参入障壁を伴い、参入は容易とは限らない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"寡占市場",
+      "sub_domain":"経済原理・市場",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"2.市場経済"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["寡占市場","参入障壁","価格競争","過剰生産"]
+    },
+    "sources": [{"claim":"An oligopoly is a market dominated by a few large firms with price-setting power","source":"OpenStax, Principles of Microeconomics, Monopolistic Competition and Oligopoly","year":2023,"url":"https://openstax.org/books/principles-microeconomics-3e/pages/10-3-oligopoly"}]
+  },
+  {
+    "id": 7,
+    "global_id": 13,
+    "title": "問7",
+    "prompt": "次の文章は、家計の金融資産構成（概数）である。読み取れる内容として最も適当なものはどれですか。\n日本: 現金・預金 約53％、保険・年金 約25％、株式等 約13％。アメリカ: 現金・預金 約13％、株式等・投資信託 約51％。",
+    "choices": [
+      {"id":1,"text":"日本では株式等の割合が現金・預金の割合を上回っている。","explanation_zh":"陷阱：数值混同。日本现金存款约53%，高于股票约13%。","explanation_ja":"誤り。数値混同の罠。日本は現金・預金約53％が株式等約13％を上回る。"},
+      {"id":2,"text":"アメリカでは現金・預金の割合が株式等・投資信託を上回っている。","explanation_zh":"陷阱：数值混同。美国股票投信约51%，高于现金存款约13%。","explanation_ja":"誤り。数値混同の罠。米国は株式等・投資信託約51％が現金・預金約13％を上回る。"},
+      {"id":3,"text":"日本とアメリカの現金・預金の割合は完全に同じである。","explanation_zh":"陷阱：数值混同。日本约53%、美国约13%，明显不同。","explanation_ja":"誤り。数値混同の罠。日本約53％と米国約13％は同じではない。"},
+      {"id":4,"text":"日本では現金・預金が金融資産の半分以上を占め、アメリカより現金・預金の比率が高い。","explanation_zh":"正确。日本现金存款约53%过半、远高于美国约13%。","explanation_ja":"正解。日本は現金・預金が約53％と過半を占め、米国の約13％より高い。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"日本の家計金融資産",
+      "sub_domain":"金融・通貨",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"3.経済主体"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["数値混同"],
+      "keywords_to_avoid":["株式","現金・預金","金融資産","日本家計"]
+    },
+    "sources": [{"claim":"Japan household assets: cash/deposits ~53%, equities ~13%; US cash ~13%, equities/funds ~51%","source":"日本銀行 資金循環統計（日米欧比較）","year":2023,"url":"https://www.boj.or.jp/statistics/sj/index.htm"}]
+  },
+  {
+    "id": 8,
+    "global_id": 14,
+    "title": "問8",
+    "prompt": "消費税と所得税の比較に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"所得税は累進課税により高所得者ほど税率が高く、消費税は所得に関係なく同じ税率がかかる。","explanation_zh":"正确。所得税多采累进、消费税对消费按同一税率，故对低所得者负担相对重。","explanation_ja":"正解。所得税は累進課税で高所得ほど税率が高く、消費税は所得に関係なく同率である。"},
+      {"id":2,"text":"消費税は累進課税の代表例で、高所得者ほど税率が高くなる。","explanation_zh":"陷阱：概念混淆。累进课税是所得税的特征，消费税为比例课税。","explanation_ja":"誤り。概念混同の罠。累進課税は所得税の特徴で、消費税は比例課税である。"},
+      {"id":3,"text":"所得税は江戸時代に廃止され、現在の日本には存在しない。","explanation_zh":"陷阱：时态错位。所得税现今仍是日本主要税种，并未废止。","explanation_ja":"誤り。時態錯位の罠。所得税は現在も日本の主要な税であり、廃止されていない。"},
+      {"id":4,"text":"消費税と所得税はいずれも、税率が必ず所得に比例して上がる税である。","explanation_zh":"陷阱：概念混淆。消费税不随所得变动，叙述与事实不符。","explanation_ja":"誤り。概念混同の罠。消費税は所得に比例して上がる税ではない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"消費税と所得税の比較",
+      "sub_domain":"財政・租税",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"6. 財政"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","時態錯位"],
+      "keywords_to_avoid":["消費税","所得税","景気循環","再分配","徴税"]
+    },
+    "sources": [{"claim":"Income tax is progressive; consumption (VAT) tax applies a flat rate regardless of income","source":"OECD, Tax policy / consumption taxes","year":2024,"url":"https://www.oecd.org/en/topics/consumption-taxes.html"}]
+  },
+  {
+    "id": 9,
+    "global_id": 15,
+    "title": "問9",
+    "prompt": "次の文章は、京浜工業地帯の製造品出荷額等の全国シェア（％、概数）の推移である。読み取れる内容として最も適当なものはどれですか。\n1960年 約26％、1990年 約16％、2019年 約8％。",
+    "choices": [
+      {"id":1,"text":"京浜工業地帯の全国シェアは1960年から2019年にかけて上昇し続けた。","explanation_zh":"陷阱：时态错位。资料显示份额由约26%降至约8%，是持续下降。","explanation_ja":"誤り。時態錯位の罠。シェアは約26％から約8％へ低下している。"},
+      {"id":2,"text":"2019年のシェアは1960年のシェアを上回っている。","explanation_zh":"陷阱：数值混同。2019年约8%，低于1960年约26%。","explanation_ja":"誤り。数値混同の罠。2019年約8％は1960年約26％を下回る。"},
+      {"id":3,"text":"京浜工業地帯の全国シェアは1960年から2019年にかけて低下している。","explanation_zh":"正确。份额由约26%（1960）降至约16%（1990）、约8%（2019），呈下降趋势。","explanation_ja":"正解。シェアは1960年約26％から2019年約8％へと低下している。"},
+      {"id":4,"text":"1990年のシェアは0％であった。","explanation_zh":"陷阱：数值混同。资料中1990年约16%，并非0。","explanation_ja":"誤り。数値混同の罠。1990年は約16％で0％ではない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"日本工業地帯",
+      "sub_domain":"日本地誌",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位"],
+      "keywords_to_avoid":["京浜工業地帯","製造品出荷額","1950年","2017年","割合"]
+    },
+    "sources": [{"claim":"Keihin industrial zone's national share of manufacturing shipments declined over decades","source":"経済産業省 工業統計調査","year":2019,"url":"https://www.meti.go.jp/statistics/tyo/kougyo/result-2.html"}]
+  },
+  {
+    "id": 10,
+    "global_id": 16,
+    "title": "問10",
+    "prompt": "次の文章の内容と合っているものはどれですか。",
+    "choices": [
+      {"id":1,"text":"各国がより低い機会費用で生産できる財に特化して交換すれば、双方の利益が増えうる。","explanation_zh":"正确。文章中心主张是按机会费用比较优势进行专业化分工可使双方获益。","explanation_ja":"正解。本文は、機会費用の小さい財に特化して交換すれば双方が利益を得ると述べている。"},
+      {"id":2,"text":"ある国が両方の財を相手国より少ない労働で作れる場合、貿易の利益は決して生じない。","explanation_zh":"陷阱：概念混淆。即便有绝对优势，按比较优势分工仍可获益，与文章相反。","explanation_ja":"誤り。概念混同の罠。絶対優位があっても比較優位による利益は生じうる。"},
+      {"id":3,"text":"比較優位は、生産量の絶対的な大きさだけで決まる。","explanation_zh":"陷阱：概念混淆。比较优势取决于机会费用，不只看绝对产量。","explanation_ja":"誤り。概念混同の罠。比較優位は機会費用で決まり、絶対量だけではない。"},
+      {"id":4,"text":"特化と交換を行うと、双方の総生産量は必ず半分に減る。","explanation_zh":"陷阱：数值混同。文章指出分工可增加总产出，并非减半。","explanation_ja":"誤り。数値混同の罠。特化と交換は総生産を増やしうるもので、半減ではない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"比較優位",
+      "sub_domain":"国際経済・貿易",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の社会","item":"3.雇用・労働"},
+      "question_form":"文章読解",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","数値混同"],
+      "keywords_to_avoid":["比較優位","絶対劣位","労働者","生産効率"]
+    },
+    "passage": "二つの国が二種類の財を生産している場面を考えよう。一方の国が両方の財を相手国より少ない労働力で生産できるとしても、それぞれの財を作るために手放さなければならないもう一方の財の量、すなわち機会費用は国によって異なる。各国が、自国にとって機会費用の小さい財の生産に特化し、それを互いに交換すれば、両国を合わせた総生産量は増え、双方がより多くの財を手にすることができる。これが、絶対的な生産力の差だけでなく機会費用の違いに着目する考え方であり、相手国より何を作るのが相対的に得意かを基準に分業を行うことの利点を示している。"
+  },
+  {
+    "id": 11,
+    "global_id": 17,
+    "title": "問11",
+    "prompt": "発展途上国の経済課題に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"発展途上国の累積債務問題は、すべて先進国が一方的に解決したため現在は存在しない。","explanation_zh":"陷阱：主体错位。债务问题非由先进国单方解决，至今仍是重要课题。","explanation_ja":"誤り。主体取違の罠。累積債務問題は今も課題で、先進国が一方的に解決したのではない。"},
+      {"id":2,"text":"モノカルチャー経済とは、先進国が複数の高度な工業製品を輸出する経済を指す。","explanation_zh":"陷阱：概念混淆。单一栽培经济指依赖少数初级产品出口，与此相反。","explanation_ja":"誤り。概念混同の罠。モノカルチャーは少数の一次産品に依存する経済である。"},
+      {"id":3,"text":"特定の一次産品の輸出に依存するモノカルチャー経済は、価格変動の影響を受けやすいという課題をもつ。","explanation_zh":"正确。依赖单一初级产品出口的经济易受国际价格波动冲击。","explanation_ja":"正解。モノカルチャー経済は一次産品の価格変動の影響を受けやすい課題をもつ。"},
+      {"id":4,"text":"発展途上国はすべて、すでに先進国と同じ一人当たり所得水準に達している。","explanation_zh":"陷阱：范围扩大。多数发展中国家人均所得仍低于先进国，叙述过度概括。","explanation_ja":"誤り。範囲拡大の罠。多くの途上国の所得水準は先進国に達していない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"発展途上国の経済課題",
+      "sub_domain":"経済発展・産業",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"5. 国際政治"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違","時態錯位"],
+      "keywords_to_avoid":["WTO","GATT","特恵関税","債務危機","デフォルト","資源ナショナリズム"]
+    },
+    "sources": [{"claim":"Monoculture economies dependent on few primary exports are vulnerable to price volatility","source":"UNCTAD, Commodity dependence","year":2024,"url":"https://unctad.org/topic/commodities/state-of-commodity-dependence"}]
+  },
+  {
+    "id": 12,
+    "global_id": 18,
+    "title": "問12",
+    "prompt": "次の文章は、医療費の対GDP比（％、概数）である。読み取れる内容として最も適当なものはどれですか。\nアメリカ 約16.5、ドイツ 約12.7、フランス 約12.1、日本 約11.5。",
+    "choices": [
+      {"id":1,"text":"この中ではアメリカの医療費の対GDP比が最も高い。","explanation_zh":"正确。美国约16.5%，高于德国约12.7、法国约12.1、日本约11.5。","explanation_ja":"正解。米国約16.5％が最も高く、独・仏・日を上回る。"},
+      {"id":2,"text":"日本の医療費の対GDP比はアメリカを上回る。","explanation_zh":"陷阱：数值混同。日本约11.5%，低于美国约16.5%。","explanation_ja":"誤り。数値混同の罠。日本約11.5％は米国約16.5％を下回る。"},
+      {"id":3,"text":"フランスの値は0％である。","explanation_zh":"陷阱：数值混同。资料中法国约12.1%，并非0。","explanation_ja":"誤り。数値混同の罠。フランスは約12.1％で0ではない。"},
+      {"id":4,"text":"四か国の値はすべて完全に同じである。","explanation_zh":"陷阱：范围扩大。资料中四国数值（16.5/12.7/12.1/11.5）不同。","explanation_ja":"誤り。範囲拡大の罠。四か国の値は同じではない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"医療支出の国際比較",
+      "sub_domain":"国際経済・貿易",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"4.国民経済"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["数値混同"],
+      "keywords_to_avoid":["アメリカ","公的保健支出","私的保健支出","GDP比"]
+    },
+    "sources": [{"claim":"Health expenditure % of GDP: USA ~16-17, Germany ~12.7, France ~12, Japan ~11","source":"OECD, Health at a Glance: health expenditure in relation to GDP","year":2022,"url":"https://www.oecd.org/en/publications/2023/11/health-at-a-glance-2023_e04f8239.html"}]
+  },
+  {
+    "id": 13,
+    "global_id": 19,
+    "title": "問13",
+    "prompt": "次の文章は、ブラジルの大豆生産量（百万トン、概数）の推移である。読み取れる内容として最も適当なものはどれですか。\n2000年 約33、2010年 約69、2021年 約130。",
+    "choices": [
+      {"id":1,"text":"ブラジルの大豆生産量は2000年から2021年にかけて減少し続けた。","explanation_zh":"陷阱：时态错位。资料显示由约33增至约130，是持续增加。","explanation_ja":"誤り。時態錯位の罠。生産量は約33から約130へ増加している。"},
+      {"id":2,"text":"2021年の生産量は2000年の生産量を下回る。","explanation_zh":"陷阱：数值混同。2021年约130，远高于2000年约33。","explanation_ja":"誤り。数値混同の罠。2021年約130は2000年約33を上回る。"},
+      {"id":3,"text":"ブラジルの大豆生産量は2000年から2021年にかけて増加している。","explanation_zh":"正确。生产量由约33（2000）增至约69（2010）、约130（2021），呈增加趋势。","explanation_ja":"正解。生産量は2000年約33から2021年約130へ増加している。"},
+      {"id":4,"text":"2010年の生産量は0トンであった。","explanation_zh":"陷阱：数值混同。资料中2010年约69百万吨，并非0。","explanation_ja":"誤り。数値混同の罠。2010年は約69百万トンで0ではない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"大豆生産の推移",
+      "sub_domain":"産業・資源",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["地域取違","時態錯位"],
+      "keywords_to_avoid":["大豆","中国","アメリカ","ブラジル","アルゼンチン","生産量"]
+    },
+    "sources": [{"claim":"Brazil soybean output rose from ~33 (2000) to ~130 (2021/22) million tonnes","source":"USDA FAS / FAOSTAT, Brazil soybean production","year":2021,"url":"https://ipad.fas.usda.gov/countrysummary/Default.aspx?id=BR&crop=Soybean"}]
+  },
+  {
+    "id": 14,
+    "global_id": 20,
+    "title": "問14",
+    "prompt": "次の文章は、オーストラリアの3都市の年平均降水量（mm、概数）である。読み取れる内容として最も適当なものはどれですか。\nダーウィン（北部）約1700、シドニー（東岸）約1200、アリススプリングス（内陸）約280。",
+    "choices": [
+      {"id":1,"text":"内陸のアリススプリングスの降水量がこの中で最も多い。","explanation_zh":"陷阱：地域错位。内陆爱丽斯泉约280mm，是三者中最少。","explanation_ja":"誤り。地域取違の罠。内陸のアリススプリングス約280mmは最も少ない。"},
+      {"id":2,"text":"シドニーの降水量はダーウィンを上回る。","explanation_zh":"陷阱：数值混同。悉尼约1200mm，低于达尔文约1700mm。","explanation_ja":"誤り。数値混同の罠。シドニー約1200はダーウィン約1700を下回る。"},
+      {"id":3,"text":"三都市の降水量はすべて同じである。","explanation_zh":"陷阱：范围扩大。资料中三都市数值（1700/1200/280）明显不同。","explanation_ja":"誤り。範囲拡大の罠。三都市の値は同じではない。"},
+      {"id":4,"text":"北部のダーウィンの降水量がこの中で最も多く、内陸ほど少ない傾向がみられる。","explanation_zh":"正确。北部达尔文约1700mm最多，内陆爱丽斯泉约280mm最少，内陆趋干。","explanation_ja":"正解。北部のダーウィン約1700mmが最も多く、内陸ほど少ない傾向がみられる。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"オーストラリアの気候",
+      "sub_domain":"自然地理",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["地域取違"],
+      "keywords_to_avoid":["オーストラリア","ハイサーグラフ","気候","都市"]
+    },
+    "sources": [{"claim":"Annual rainfall: Darwin ~1700mm, Sydney ~1200mm, Alice Springs ~280mm","source":"Australian Bureau of Meteorology, Climate statistics","year":2024,"url":"http://www.bom.gov.au/climate/data/"}]
+  },
+  {
+    "id": 15,
+    "global_id": 21,
+    "title": "問15",
+    "prompt": "次の文章は、4都市のおおよその緯度である。読み取れる内容として最も適当でないものはどれですか。\nロンドン 北緯約51度、ニューオーリンズ 北緯約30度、シドニー 南緯約34度、ダッカ 北緯約24度。",
+    "choices": [
+      {"id":1,"text":"ロンドンは4都市の中で最も高緯度に位置する。","explanation_zh":"陷阱：设问反转。伦敦北纬约51度最高纬度，叙述正确，不是要选项。","explanation_ja":"誤り。設問反転の罠。ロンドン北緯約51度は最も高緯度で、記述は正しい。"},
+      {"id":2,"text":"シドニーは南半球に位置している。","explanation_zh":"陷阱：设问反转。悉尼南纬约34度位于南半球，叙述正确。","explanation_ja":"誤り。設問反転の罠。シドニーは南緯約34度で南半球にあり、記述は正しい。"},
+      {"id":3,"text":"ダッカはロンドンより高緯度に位置している。","explanation_zh":"正确。题目要求选不适当项。达卡北纬约24度低于伦敦约51度，故此项错误。","explanation_ja":"正解。設問は不適当なものを選ぶ。ダッカ北緯約24度はロンドン約51度より低緯度で誤り。"},
+      {"id":4,"text":"ニューオーリンズは北半球に位置している。","explanation_zh":"陷阱：设问反转。新奥尔良北纬约30度位于北半球，叙述正确。","explanation_ja":"誤り。設問反転の罠。ニューオーリンズは北緯約30度で北半球にあり、記述は正しい。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"地理的位置",
+      "sub_domain":"自然地理",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答誤記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["地域取違"],
+      "keywords_to_avoid":["ロンドン","ニューオーリンズ","シドニー","ダッカ","北極点"]
+    },
+    "sources": [{"claim":"Latitudes: London ~51N, New Orleans ~30N, Sydney ~34S, Dhaka ~24N","source":"GeoNames, city coordinates","year":2024,"url":"https://www.geonames.org/"}]
+  },
+  {
+    "id": 16,
+    "global_id": 22,
+    "title": "問16",
+    "prompt": "次の文章は、3地点のおおよその位置（緯度・経度）である。読み取れる内容として最も適当なものはどれですか。\n地点P 北緯35度・東経139度（東京付近）、地点Q 北緯51度・東経0度（ロンドン付近）、地点R 南緯34度・東経151度（シドニー付近）。",
+    "choices": [
+      {"id":1,"text":"地点Pは南半球に位置している。","explanation_zh":"陷阱：地域错位。地点P北纬35度位于北半球，并非南半球。","explanation_ja":"誤り。地域取違の罠。地点Pは北緯35度で北半球にある。"},
+      {"id":2,"text":"3地点のうち、南半球に位置するのは地点Rだけである。","explanation_zh":"正确。地点R南纬34度在南半球，P与Q均在北半球，故仅R在南半球。","explanation_ja":"正解。地点Rは南緯34度で南半球、PとQは北半球で、南半球はRだけである。"},
+      {"id":3,"text":"地点Qは東経151度に位置している。","explanation_zh":"陷阱：数值混同。地点Q在东经0度附近，东经151度是地点R。","explanation_ja":"誤り。数値混同の罠。地点Qは東経0度付近で、東経151度は地点Rである。"},
+      {"id":4,"text":"3地点はすべて同じ緯度に位置している。","explanation_zh":"陷阱：范围扩大。三地点纬度（35N/51N/34S）各不相同。","explanation_ja":"誤り。範囲拡大の罠。三地点の緯度は同じではない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"地図読取",
+      "sub_domain":"産業・資源",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["地域取違"],
+      "keywords_to_avoid":["地図","地域","位置"]
+    },
+    "sources": [{"claim":"Coordinates: Tokyo ~35N139E, London ~51N0E, Sydney ~34S151E","source":"GeoNames, city coordinates","year":2024,"url":"https://www.geonames.org/"}]
+  },
+  {
+    "id": 17,
+    "global_id": 23,
+    "title": "問17",
+    "prompt": "次の文章は、地域別の年平均人口増加率（％、概数、2020年頃）である。読み取れる内容として最も適当なものはどれですか。\nアフリカ 約2.5、アジア 約0.9、ラテンアメリカ 約0.9、ヨーロッパ 約0.0。",
+    "choices": [
+      {"id":1,"text":"ヨーロッパの人口増加率がこの中で最も高い。","explanation_zh":"陷阱：数值混同。欧洲约0.0%，是四地区中最低。","explanation_ja":"誤り。数値混同の罠。ヨーロッパ約0.0％は最も低い。"},
+      {"id":2,"text":"この中ではアフリカの人口増加率が最も高い。","explanation_zh":"正确。非洲约2.5%，高于亚洲、拉丁美洲约0.9%和欧洲约0.0%。","explanation_ja":"正解。アフリカ約2.5％が最も高く、他地域を上回る。"},
+      {"id":3,"text":"アジアの人口増加率はアフリカを上回る。","explanation_zh":"陷阱：数值混同。亚洲约0.9%，低于非洲约2.5%。","explanation_ja":"誤り。数値混同の罠。アジア約0.9％はアフリカ約2.5％を下回る。"},
+      {"id":4,"text":"四地域の人口増加率はすべて同じである。","explanation_zh":"陷阱：范围扩大。资料中数值（2.5/0.9/0.9/0.0）并非完全相同。","explanation_ja":"誤り。範囲拡大の罠。四地域の値は同じではない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"世界人口推移",
+      "sub_domain":"人口・都市",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["数値混同"],
+      "keywords_to_avoid":["人口増加率","アフリカ","北アメリカ","ラテンアメリカ"]
+    },
+    "sources": [{"claim":"Regional annual population growth ~2020: Africa ~2.5%, Asia ~0.9%, Latin America ~0.9%, Europe ~0%","source":"UN World Population Prospects / World Bank, population growth (annual %)","year":2020,"url":"https://data.worldbank.org/indicator/SP.POP.GROW"}]
+  },
+  {
+    "id": 18,
+    "global_id": 24,
+    "title": "問18（続き）",
+    "prompt": "次の文章は、2021年の牛肉生産量（百万トン、概数）である。読み取れる内容として最も適当なものはどれですか。\nアメリカ 約12.7、ブラジル 約9.5、中国 約7.0。",
+    "choices": [
+      {"id":1,"text":"中国の牛肉生産量がこの中で最も多い。","explanation_zh":"陷阱：数值混同。中国约7.0百万吨，是三国中最少。","explanation_ja":"誤り。数値混同の罠。中国約7.0は三か国の中で最も少ない。"},
+      {"id":2,"text":"ブラジルの生産量はアメリカを上回る。","explanation_zh":"陷阱：数值混同。巴西约9.5百万吨，低于美国约12.7。","explanation_ja":"誤り。数値混同の罠。ブラジル約9.5は米国約12.7を下回る。"},
+      {"id":3,"text":"三か国の生産量はすべて同じである。","explanation_zh":"陷阱：范围扩大。资料中数值（12.7/9.5/7.0）不同。","explanation_ja":"誤り。範囲拡大の罠。三か国の値は同じではない。"},
+      {"id":4,"text":"この中ではアメリカの牛肉生産量が最も多い。","explanation_zh":"正确。美国约12.7百万吨，高于巴西约9.5、中国约7.0。","explanation_ja":"正解。米国約12.7が最も多く、ブラジル・中国を上回る。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"畜産物の生産",
+      "sub_domain":"産業・資源",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["数値混同"],
+      "keywords_to_avoid":["牛","豚","鶏","羊","生産量"]
+    },
+    "sources": [{"claim":"2021 beef production: USA ~12.7, Brazil ~9.5, China ~7.0 million tonnes","source":"USDA FAS / FAOSTAT, beef and veal production","year":2021,"url":"https://www.fas.usda.gov/data/production/commodity/0111000"}]
+  },
+  {
+    "id": 19,
+    "global_id": 25,
+    "title": "問19",
+    "prompt": "国家のあり方をめぐる考え方に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"夜警国家は国家の役割を治安や国防など最小限に限る考え方で、福祉国家は社会保障など積極的な役割を国家に求める。","explanation_zh":"正确。夜警国家主张国家职能最小化，福祉国家主张积极介入社会保障。","explanation_ja":"正解。夜警国家は国家の役割を最小限とし、福祉国家は社会保障など積極的役割を求める。"},
+      {"id":2,"text":"夜警国家は、国家が経済や社会保障に積極的に介入する考え方を指す。","explanation_zh":"陷阱：概念混淆。积极介入是福祉国家的特征，与夜警国家相反。","explanation_ja":"誤り。概念混同の罠。積極的介入は福祉国家の特徴で、夜警国家ではない。"},
+      {"id":3,"text":"福祉国家とは、国家の役割を国防だけに限定する考え方である。","explanation_zh":"陷阱：概念混淆。仅限国防是夜警国家，福祉国家强调社会保障。","explanation_ja":"誤り。概念混同の罠。役割を国防に限るのは夜警国家で、福祉国家ではない。"},
+      {"id":4,"text":"国家観は時代や立場と無関係に常に一つに定まっている。","explanation_zh":"陷阱：范围扩大。国家观随时代立场不同而变化，并非始终单一。","explanation_ja":"誤り。範囲拡大の罠。国家観は時代や立場で異なり、一つに定まらない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"国家観の歴史",
+      "sub_domain":"国際政治・外交",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"5. 国際政治"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違"],
+      "keywords_to_avoid":["ラッサール","夜警国家","自由放任","福祉国家"]
+    },
+    "sources": [{"claim":"Night-watchman state limits the state to minimal functions; welfare state expands social roles","source":"Encyclopaedia Britannica, welfare state / night-watchman state","year":2024,"url":"https://www.britannica.com/topic/welfare-state"}]
+  },
+  {
+    "id": 20,
+    "global_id": 26,
+    "title": "問20",
+    "prompt": "日本の選挙制度に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"小選挙区制では、一つの選挙区から多数の議員を選出するため死票が生じにくい。","explanation_zh":"陷阱：概念混淆。小选区每区选一名、死票较多，叙述与事实相反。","explanation_ja":"誤り。概念混同の罠。小選挙区は1区1名で死票が多くなりやすい。"},
+      {"id":2,"text":"比例代表制は、得票数に関係なく第一党だけが全議席を獲得する制度である。","explanation_zh":"陷阱：概念混淆。比例代表按得票比例分配议席，并非赢者通吃。","explanation_ja":"誤り。概念混同の罠。比例代表は得票に応じて議席を配分する。"},
+      {"id":3,"text":"日本の衆議院は、戦前から一貫して小選挙区比例代表並立制だけを採用してきた。","explanation_zh":"陷阱：时态错位。该并立制是1990年代引入，并非战前一贯采用。","explanation_ja":"誤り。時態錯位の罠。並立制は1990年代の導入で、戦前から一貫ではない。"},
+      {"id":4,"text":"日本の衆議院議員選挙では、小選挙区制と比例代表制を組み合わせた小選挙区比例代表並立制が採られている。","explanation_zh":"正确。众议院采小选区比例代表并立制，兼用两种方式。","explanation_ja":"正解。衆議院では小選挙区比例代表並立制が採られている。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"小選挙区比例代表制",
+      "sub_domain":"選挙・政党",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"4.政治参加"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違","時態錯位"],
+      "keywords_to_avoid":["衆議院選挙","小選挙区","比例代表","重複立候補"]
+    },
+    "sources": [{"claim":"Japan's House of Representatives uses a parallel mixed system (single-member + PR)","source":"総務省, 選挙制度","year":2024,"url":"https://www.soumu.go.jp/senkyo/senkyo_s/news/senkyo/senkyo_4.html"}]
+  },
+  {
+    "id": 21,
+    "global_id": 27,
+    "title": "問21",
+    "prompt": "日本の国会の機能に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"法律を制定する権限は内閣がもち、国会はこれに関与しない。","explanation_zh":"陷阱：主体错位。立法权属于国会，内阁负责行政，主体颠倒。","explanation_ja":"誤り。主体取違の罠。立法権は国会にあり、内閣ではない。"},
+      {"id":2,"text":"国会は法律の制定や予算の議決を行い、内閣総理大臣の指名も行う。","explanation_zh":"正确。国会行使立法权、议决预算并指名内阁总理大臣。","explanation_ja":"正解。国会は立法、予算の議決、内閣総理大臣の指名を行う。"},
+      {"id":3,"text":"最高裁判所の長官が国会に代わって法律を制定する。","explanation_zh":"陷阱：主体错位。立法权属于国会，并非最高法院长官。","explanation_ja":"誤り。主体取違の罠。立法権は国会にあり、最高裁長官ではない。"},
+      {"id":4,"text":"国会は天皇の任命によって法律案を一切審議しない機関である。","explanation_zh":"陷阱：概念混淆。国会是审议立法的机关，并非不审议法案。","explanation_ja":"誤り。概念混同の罠。国会は法律案を審議する機関である。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"国会の機能",
+      "sub_domain":"三権分立・統治機構",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"3. 日本国憲法"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違"],
+      "keywords_to_avoid":["国会","決算検査","総理大臣指名","条約締結","憲法判断"]
+    },
+    "sources": [{"claim":"The Diet enacts laws, approves the budget, and designates the Prime Minister","source":"日本国憲法 第41条・第60条・第67条","year":1947,"url":"https://japan.kantei.go.jp/constitution_and_government_of_japan/constitution_e.html"}]
+  },
+  {
+    "id": 22,
+    "global_id": 28,
+    "title": "問22",
+    "prompt": "日本の刑事裁判の原則に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"被告人は有罪が確定するまで無罪と推定され、裁判では令状主義などの原則が保障される。","explanation_zh":"正确。日本刑事程序采无罪推定与令状主义等原则保障被告人权。","explanation_ja":"正解。被告人は有罪確定まで無罪と推定され、令状主義などの原則が保障される。"},
+      {"id":2,"text":"被告人は裁判を受ける前から必ず有罪とみなされ、弁護人をつけることはできない。","explanation_zh":"陷阱：概念混淆。被告人享有无罪推定与辩护权，与此相反。","explanation_ja":"誤り。概念混同の罠。被告人には無罪推定と弁護人依頼権がある。"},
+      {"id":3,"text":"現在の日本では、捜査機関は令状なしにいつでも自由に逮捕・捜索できる。","explanation_zh":"陷阱：时态错位。现行宪法采令状主义，原则上需令状，叙述与现行制度不符。","explanation_ja":"誤り。時態錯位の罠。現行制度は令状主義で、原則として令状が必要である。"},
+      {"id":4,"text":"刑罰は、行為の後に作られた法律をさかのぼって適用してよい。","explanation_zh":"陷阱：概念混淆。溯及处罚被禁止，与罪刑法定主义相违。","explanation_ja":"誤り。概念混同の罠。事後法による遡及処罰は禁止されている。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"刑事裁判の原則",
+      "sub_domain":"三権分立・統治機構",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"3. 日本国憲法"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位"],
+      "keywords_to_avoid":["遡及処罰禁止","二重起訴禁止","令状主義","弁護人権"]
+    },
+    "sources": [{"claim":"Presumption of innocence and warrant requirement are guaranteed in Japanese criminal procedure","source":"日本国憲法 第33条・第39条","year":1947,"url":"https://japan.kantei.go.jp/constitution_and_government_of_japan/constitution_e.html"}]
+  },
+  {
+    "id": 23,
+    "global_id": 29,
+    "title": "問23",
+    "prompt": "社会権と憲法に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"社会権は18世紀の市民革命の時点で、自由権より先に確立した権利である。","explanation_zh":"陷阱：时态错位。社会权确立晚于自由权，20世纪初才被宪法明文保障。","explanation_ja":"誤り。時態錯位の罠。社会権は自由権より後の20世紀に確立した。"},
+      {"id":2,"text":"社会権とは、国家からの干渉を排除する自由権とまったく同じ概念である。","explanation_zh":"陷阱：概念混淆。社会权要求国家积极保障，与排除干涉的自由权不同。","explanation_ja":"誤り。概念混同の罠。社会権は国家の積極的保障を求める権利で、自由権とは異なる。"},
+      {"id":3,"text":"社会権を世界で初めて本格的に保障した憲法として、1919年のワイマール憲法が知られる。","explanation_zh":"正确。1919年魏玛宪法被视为首部全面保障社会权的宪法。","explanation_ja":"正解。1919年のワイマール憲法は社会権を本格的に保障した憲法として知られる。"},
+      {"id":4,"text":"日本国憲法には、生存権をはじめとする社会権の規定は一切存在しない。","explanation_zh":"陷阱：范围扩大。日本宪法第25条等明文规定生存权等社会权。","explanation_ja":"誤り。範囲拡大の罠。日本国憲法は第25条などで社会権を定めている。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"社会権と憲法",
+      "sub_domain":"憲法・人権",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"3. 日本国憲法"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位"],
+      "keywords_to_avoid":["社会権","ワイマール憲法","スターリン憲法","日本国憲法"]
+    },
+    "sources": [{"claim":"The 1919 Weimar Constitution was the first to broadly guarantee social rights","source":"Encyclopaedia Britannica, Weimar Constitution","year":1919,"url":"https://www.britannica.com/topic/Weimar-Constitution"}]
+  },
+  {
+    "id": 24,
+    "global_id": 30,
+    "title": "問24",
+    "prompt": "日本国憲法における基本的人権の制限に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"基本的人権はいかなる場合も一切制限されることがない絶対的な権利である。","explanation_zh":"陷阱：范围扩大。人权可因公共福祉受到一定制约，并非绝对无限制。","explanation_ja":"誤り。範囲拡大の罠。人権は公共の福祉により一定の制約を受けうる。"},
+      {"id":2,"text":"日本国憲法では、出版物の検閲が国家の権限として広く認められている。","explanation_zh":"陷阱：概念混淆。宪法禁止检阅，叙述与事实相反。","explanation_ja":"誤り。概念混同の罠。憲法は検閲を禁止している。"},
+      {"id":3,"text":"基本的人権の制限は、戦前にのみ存在し、現在の日本ではまったく考慮されない。","explanation_zh":"陷阱：时态错位。现行宪法以公共福祉为由仍可作必要制约。","explanation_ja":"誤り。時態錯位の罠。現行憲法でも公共の福祉による制約は考慮される。"},
+      {"id":4,"text":"基本的人権は、他者の人権との調整のため「公共の福祉」によって制約されることがある。","explanation_zh":"正确。宪法规定人权可因公共福祉而受调整与制约。","explanation_ja":"正解。基本的人権は「公共の福祉」により制約されることがある。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"基本的人権の制限",
+      "sub_domain":"憲法・人権",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"3. 日本国憲法"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位"],
+      "keywords_to_avoid":["公共福祉","基本的人権","検閲","土地収用","立候補"]
+    },
+    "sources": [{"claim":"Fundamental human rights may be limited by the public welfare; censorship is prohibited","source":"日本国憲法 第12条・第13条・第21条","year":1947,"url":"https://japan.kantei.go.jp/constitution_and_government_of_japan/constitution_e.html"}]
+  },
+  {
+    "id": 25,
+    "global_id": 31,
+    "title": "問25",
+    "prompt": "国際的な環境保全に関する条約についての記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"ワシントン条約は、温室効果ガスの排出量を削減することを主な目的とする条約である。","explanation_zh":"陷阱：概念混淆。华盛顿公约规范濒危物种贸易，温室气体属京都议定书。","explanation_ja":"誤り。概念混同の罠。ワシントン条約は絶滅危惧種の取引規制で、温室効果ガスではない。"},
+      {"id":2,"text":"京都議定書は、先進国に温室効果ガスの排出削減目標を定めた国際的な取り決めである。","explanation_zh":"正确。京都议定书为先进国设定温室气体减排目标。","explanation_ja":"正解。京都議定書は先進国に温室効果ガスの排出削減目標を定めた。"},
+      {"id":3,"text":"モントリオール議定書は、絶滅のおそれのある野生生物の取引を規制する条約である。","explanation_zh":"陷阱：主体错位。蒙特利尔议定书规制破坏臭氧层物质，野生生物取引属华盛顿公约。","explanation_ja":"誤り。主体取違の罠。モントリオール議定書はオゾン層破壊物質の規制である。"},
+      {"id":4,"text":"これらの環境条約は、いずれも環境問題とはまったく無関係な貿易協定である。","explanation_zh":"陷阱：范围扩大。这些条约均涉及环境保护，并非无关贸易协定。","explanation_ja":"誤り。範囲拡大の罠。これらは環境保護に関わる条約で、無関係な貿易協定ではない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"国際環境保全条約",
+      "sub_domain":"産業・資源",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"5. 金融"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違"],
+      "keywords_to_avoid":["京都議定書","ワシントン条約","モントリオール議定書","バーゼル条約"]
+    },
+    "sources": [{"claim":"Kyoto Protocol set GHG targets; Montreal Protocol limits ozone-depleting substances; CITES regulates species trade","source":"UNFCCC / UNEP, environmental treaties","year":1997,"url":"https://unfccc.int/kyoto_protocol"}]
+  },
+  {
+    "id": 26,
+    "global_id": 32,
+    "title": "問26",
+    "prompt": "国際法の起源に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"国際法は20世紀の国際連合の成立によって初めて生まれ、それ以前には全く存在しなかった。","explanation_zh":"陷阱：时态错位。国际法的奠基早至17世纪格劳秀斯，并非始于联合国。","explanation_ja":"誤り。時態錯位の罠。国際法の基礎は17世紀に遡り、国連成立が起源ではない。"},
+      {"id":2,"text":"17世紀のグロティウスは『戦争と平和の法』を著し、近代国際法の基礎を築いたとされる。","explanation_zh":"正确。格劳秀斯17世纪著《战争与和平法》，被视为近代国际法之父。","explanation_ja":"正解。グロティウスは『戦争と平和の法』を著し、近代国際法の基礎を築いた。"},
+      {"id":3,"text":"グロティウスは、国家間の関係には一切の法やルールが及ばないと主張した。","explanation_zh":"陷阱：概念混淆。格劳秀斯主张自然法应规范国际关系，与此相反。","explanation_ja":"誤り。概念混同の罠。グロティウスは国家間にも法が及ぶと説いた。"},
+      {"id":4,"text":"近代国際法は、産業革命期のイギリスの工場法を起源としている。","explanation_zh":"陷阱：概念混淆。工厂法是国内劳动立法，与国际法起源无关。","explanation_ja":"誤り。概念混同の罠。工場法は国内労働立法で、国際法の起源ではない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"国際法の起源",
+      "sub_domain":"思想・文化史",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"1. 近代化の進展とその影響"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位"],
+      "keywords_to_avoid":["グロティウス","自然法","戦争と平和の法","1625年"]
+    },
+    "sources": [{"claim":"Hugo Grotius wrote De Jure Belli ac Pacis (1625), a foundation of modern international law","source":"Encyclopaedia Britannica, Hugo Grotius","year":1625,"url":"https://www.britannica.com/biography/Hugo-Grotius"}]
+  },
+  {
+    "id": 27,
+    "global_id": 33,
+    "title": "問27",
+    "prompt": "国際司法裁判所（ICJ）に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"国際司法裁判所は国家間の紛争を裁く国際連合の主要機関で、原則として当事国の同意に基づいて裁判を行う。","explanation_zh":"正确。ICJ是联合国主要司法机关，原则上需当事国同意方可受理。","explanation_ja":"正解。ICJは国連の主要機関で、原則として当事国の同意に基づいて裁判を行う。"},
+      {"id":2,"text":"国際司法裁判所は、個人の刑事責任を裁くことを主な任務とする裁判所である。","explanation_zh":"陷阱：主体错位。审判个人刑责的是国际刑事法院（ICC），并非ICJ。","explanation_ja":"誤り。主体取違の罠。個人の刑事責任を裁くのはICCで、ICJではない。"},
+      {"id":3,"text":"国際司法裁判所は、すべての国にいつでも強制的に出廷を命じることができる。","explanation_zh":"陷阱：范围扩大。ICJ原则上需当事国同意，无普遍强制管辖。","explanation_ja":"誤り。範囲拡大の罠。ICJは原則として当事国の同意を要し、強制管轄は限定的である。"},
+      {"id":4,"text":"国際司法裁判所は、各国の国内法を制定する立法機関である。","explanation_zh":"陷阱：概念混淆。ICJ是司法机关，并非制定国内法的立法机关。","explanation_ja":"誤り。概念混同の罠。ICJは司法機関で、国内法の立法機関ではない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"国際司法裁判所",
+      "sub_domain":"国際政治・外交",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"2. 日本の統治機構"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違"],
+      "keywords_to_avoid":["国際司法裁判所","ICJ","拘束力","強制管轄","戦争犯罪"]
+    },
+    "sources": [{"claim":"The ICJ settles disputes between states based on their consent; it is a principal UN organ","source":"International Court of Justice, How the Court works","year":2024,"url":"https://www.icj-cij.org/how-the-court-works"}]
+  },
+  {
+    "id": 28,
+    "global_id": 34,
+    "title": "問28",
+    "prompt": "産業革命期のイギリスの交通に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"イギリスでは20世紀後半に初めて蒸気機関車が実用化され、鉄道が敷設された。","explanation_zh":"陷阱：时态错位。蒸汽机车与铁路在19世纪前半即实用化，并非20世纪后半。","explanation_ja":"誤り。時態錯位の罠。蒸気機関車・鉄道は19世紀前半に実用化された。"},
+      {"id":2,"text":"産業革命期のイギリスでは、鉄道も運河もまったく利用されなかった。","explanation_zh":"陷阱：概念混淆。当时运河与铁路均为重要运输手段，叙述与事实相反。","explanation_ja":"誤り。概念混同の罠。当時は運河・鉄道とも重要な輸送手段であった。"},
+      {"id":3,"text":"産業革命期のイギリスでは、運河の整備に続いて鉄道が発達し、原料や製品の輸送が拡大した。","explanation_zh":"正确。工业革命期英国先发展运河、继而铁路，扩大了原料与产品运输。","explanation_ja":"正解。産業革命期のイギリスは運河に続き鉄道が発達し、輸送が拡大した。"},
+      {"id":4,"text":"鉄道はイギリスの工業生産と無関係で、輸送には全く貢献しなかった。","explanation_zh":"陷阱：因果倒置。铁路大幅促进了原料与产品运输，贡献显著。","explanation_ja":"誤り。因果倒置の罠。鉄道は原料・製品輸送に大きく貢献した。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"産業革命とイギリスの交通",
+      "sub_domain":"近代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"1. 近代化の進展とその影響"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位"],
+      "keywords_to_avoid":["産業革命","蒸気機関車","運河","18世紀","19世紀"]
+    },
+    "sources": [{"claim":"Canals then railways developed in Britain during the Industrial Revolution, expanding transport","source":"Encyclopaedia Britannica, Industrial Revolution: transport","year":2024,"url":"https://www.britannica.com/event/Industrial-Revolution"}]
+  },
+  {
+    "id": 29,
+    "global_id": 35,
+    "title": "問29",
+    "prompt": "アロー戦争（第二次アヘン戦争）に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"アロー戦争は日本とアメリカの間で起こり、日米和親条約が結ばれた。","explanation_zh":"陷阱：主体错位。亚罗战争是英法对清，与日美无关。","explanation_ja":"誤り。主体取違の罠。アロー戦争は英仏と清の戦争で、日米ではない。"},
+      {"id":2,"text":"アロー戦争はイギリス・フランスと清との間で起こり、その後に天津条約などが結ばれた。","explanation_zh":"正确。亚罗战争为英法对清，战后缔结天津条约等。","explanation_ja":"正解。アロー戦争は英仏と清の戦争で、のちに天津条約などが結ばれた。"},
+      {"id":3,"text":"アロー戦争は20世紀の冷戦期に起こった東西陣営の戦争である。","explanation_zh":"陷阱：时态错位。亚罗战争发生于19世纪中叶，并非冷战期。","explanation_ja":"誤り。時態錯位の罠。アロー戦争は19世紀半ばで、冷戦期ではない。"},
+      {"id":4,"text":"アロー戦争の結果、清はキリスト教の布教を全面的に禁止した。","explanation_zh":"陷阱：因果倒置。条约结果反而扩大了通商与布教，叙述方向相反。","explanation_ja":"誤り。因果倒置の罠。条約により通商や布教はむしろ拡大した。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"アロー戦争と天津条約",
+      "sub_domain":"近代世界",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"10. 国際経済"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違","時態錯位"],
+      "keywords_to_avoid":["アロー戦争","天津条約","清","アヘン","キリスト教"]
+    },
+    "sources": [{"claim":"The Arrow (Second Opium) War was between Britain/France and Qing China; Treaties of Tianjin followed","source":"Encyclopaedia Britannica, Opium Wars","year":1858,"url":"https://www.britannica.com/topic/Opium-Wars"}]
+  },
+  {
+    "id": 30,
+    "global_id": 36,
+    "title": "問30",
+    "prompt": "19世紀末から20世紀初頭のドイツ皇帝ヴィルヘルム2世の外交政策に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"ヴィルヘルム2世は対外進出を控え、ビスマルクの同盟網を忠実に維持し続けた。","explanation_zh":"陷阱：主体错位。威廉二世推行积极对外政策，并未维持俾斯麦同盟体系。","explanation_ja":"誤り。主体取違の罠。ヴィルヘルム2世は積極外交を採り、ビスマルク路線を継承しなかった。"},
+      {"id":2,"text":"ヴィルヘルム2世は20世紀後半の冷戦期に登場した政治家である。","explanation_zh":"陷阱：时态错位。威廉二世活跃于19世纪末20世纪初，并非冷战期。","explanation_ja":"誤り。時態錯位の罠。ヴィルヘルム2世は19世紀末〜20世紀初頭の人物である。"},
+      {"id":3,"text":"ヴィルヘルム2世は積極的な世界政策を進め、海軍の増強によりイギリスとの建艦競争を招いた。","explanation_zh":"正确。威廉二世推行世界政策、扩张海军，引发与英国的建舰竞争。","explanation_ja":"正解。ヴィルヘルム2世は世界政策を進め、海軍増強で英国との建艦競争を招いた。"},
+      {"id":4,"text":"ヴィルヘルム2世は、ドイツの軍備を全面的に放棄する政策をとった。","explanation_zh":"陷阱：概念混淆。其政策为扩张军备，与全面放弃相反。","explanation_ja":"誤り。概念混同の罠。ヴィルヘルム2世は軍備拡張を進め、放棄ではない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"ヴィルヘルム2世の外交政策",
+      "sub_domain":"近代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"1. 近代化の進展とその影響"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違","時態錯位"],
+      "keywords_to_avoid":["ヴィルヘルム2世","海軍力","建艦競争","スエズ運河","再保障条約"]
+    },
+    "sources": [{"claim":"Wilhelm II pursued Weltpolitik and naval expansion, fuelling an arms race with Britain","source":"Encyclopaedia Britannica, William II of Germany","year":2024,"url":"https://www.britannica.com/biography/William-II-emperor-of-Germany"}]
+  },
+  {
+    "id": 31,
+    "global_id": 37,
+    "title": "問31",
+    "prompt": "マーシャル・プランに関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"マーシャル・プランは、アジアの開発途上国だけを対象とした経済援助計画であった。","explanation_zh":"陷阱：地域错位。马歇尔计划针对欧洲复兴，并非亚洲发展中国家。","explanation_ja":"誤り。地域取違の罠。マーシャル・プランは欧州復興のための計画である。"},
+      {"id":2,"text":"マーシャル・プランは、ソ連が東ヨーロッパ諸国に対して実施した援助計画である。","explanation_zh":"陷阱：主体错位。马歇尔计划由美国实施，并非苏联。","explanation_ja":"誤り。主体取違の罠。マーシャル・プランはアメリカによる計画である。"},
+      {"id":3,"text":"マーシャル・プランは、19世紀の産業革命期にイギリスが立案した計画である。","explanation_zh":"陷阱：时态错位。马歇尔计划是1947年提出，并非19世纪。","explanation_ja":"誤り。時態錯位の罠。マーシャル・プランは1947年で、19世紀ではない。"},
+      {"id":4,"text":"マーシャル・プランは、1947年にアメリカが示した西ヨーロッパの戦後復興のための経済援助計画である。","explanation_zh":"正确。马歇尔计划是1947年美国提出的西欧战后复兴经济援助计划。","explanation_ja":"正解。マーシャル・プランは1947年にアメリカが示した西欧復興のための援助計画である。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"マーシャル・プラン",
+      "sub_domain":"経済史",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"2. 二つの世界大戦とその影響"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["地域取違"],
+      "keywords_to_avoid":["マーシャル・プラン","ヨーロッパ","経済援助","1947年"]
+    },
+    "sources": [{"claim":"The Marshall Plan (1947) was US economic aid for the recovery of Western Europe","source":"Encyclopaedia Britannica, Marshall Plan","year":1947,"url":"https://www.britannica.com/event/Marshall-Plan"}]
+  },
+  {
+    "id": 32,
+    "global_id": 38,
+    "title": "問32",
+    "prompt": "次の文章は、日本の高度経済成長期における白黒テレビの世帯普及率（％、概数）の推移である。読み取れる内容として最も適当なものはどれですか。\n1957年 約8、1961年 約62、1964年 約90。",
+    "choices": [
+      {"id":1,"text":"白黒テレビの普及率は1957年から1964年にかけて低下し続けた。","explanation_zh":"陷阱：时态错位。资料显示由约8%升至约90%，是持续上升。","explanation_ja":"誤り。時態錯位の罠。普及率は約8％から約90％へ上昇している。"},
+      {"id":2,"text":"1964年の普及率は1957年の普及率を下回る。","explanation_zh":"陷阱：数值混同。1964年约90%，远高于1957年约8%。","explanation_ja":"誤り。数値混同の罠。1964年約90％は1957年約8％を上回る。"},
+      {"id":3,"text":"白黒テレビの普及率は1957年から1964年にかけて急速に上昇した。","explanation_zh":"正确。普及率由约8%（1957）升至约62%（1961）、约90%（1964），急速上升。","explanation_ja":"正解。普及率は1957年約8％から1964年約90％へ急速に上昇した。"},
+      {"id":4,"text":"1961年の普及率は0％であった。","explanation_zh":"陷阱：数值混同。资料中1961年约62%，并非0。","explanation_ja":"誤り。数値混同の罠。1961年は約62％で0ではない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"日本の高度経済成長期",
+      "sub_domain":"現代日本",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"2. 二つの世界大戦とその影響"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位"],
+      "keywords_to_avoid":["乗用車","普及率","テレビ","冷蔵庫","洗濯機"]
+    },
+    "sources": [{"claim":"Black-and-white TV household diffusion in Japan rose from ~8% (1957) to ~90% (1964)","source":"内閣府 消費動向調査 主要耐久消費財等の普及率","year":1964,"url":"https://www.esri.cao.go.jp/jp/stat/shouhi/shouhi.html"}]
+  }
+]
+}

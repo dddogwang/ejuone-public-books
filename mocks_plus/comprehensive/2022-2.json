@@ -1,0 +1,988 @@
+{
+  "subject": "comprehensive",
+  "section": "",
+  "year": 2022,
+  "round": 2,
+  "title": "模擬試験 総合科目 第八回",
+  "image_path": "comprehensive/images/2022-2",
+  "questions": [
+  {
+    "id": 1,
+    "title": "問1",
+    "prompt": "次の文章を読み、下の問い(1)〜(4)に答えなさい。",
+    "passage": "アメリカ合衆国は連邦制を採用しており、各州が独自の議会と憲法をもつ。南部のテキサス州はメキシコと国境を接し、石油・天然ガスや航空宇宙産業が発達した州である。米国国勢調査局(U.S. Census Bureau)の集計によると、テキサス州の人口は2010年に約2,514万人であったが、2020年には約2,914万人へと増加し、同期間にカリフォルニア州は約3,725万人から約3,954万人、フロリダ州は約1,880万人から約2,154万人へと推移した。一方で、政治制度の比較も国際理解の鍵となる。日本は国民が選挙で選んだ国会議員の中から国会が内閣総理大臣を指名する議院内閣制を採用し、アメリカ合衆国は国民の選挙人を介して大統領を選出する大統領制を採用している。",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":1,
+        "prompt":"本文の米国国勢調査局による2010年と2020年の人口データから読み取れる内容として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"カリフォルニア州の人口は2010年から2020年にかけて減少した。","explanation_zh":"陷阱：数值混同。本文中加州由3,725万人增至3,954万人，属增加而非减少。","explanation_ja":"誤り。数値混同の罠。本文ではカリフォルニア州人口は2010年3,725万人→2020年3,954万人と増加しており、減少していない。"},
+          {"id":2,"text":"テキサス州の人口は2010年から2020年にかけて約400万人増加した。","explanation_zh":"正确。本文得州人口2010年约2,514万、2020年约2,914万，相差约400万。","explanation_ja":"正解。テキサス州人口は2,514万人→2,914万人と約400万人増加した。米国国勢調査局の人口統計と一致する。"},
+          {"id":3,"text":"フロリダ州は2020年時点でテキサス州の人口を上回った。","explanation_zh":"陷阱：地域错位。2020年得州约2,914万、佛州约2,154万，佛州少于得州。","explanation_ja":"誤り。地域取違の罠。2020年時点でフロリダ州は約2,154万人、テキサス州は約2,914万人で、テキサス州のほうが多い。"},
+          {"id":4,"text":"三州の中でカリフォルニア州の増加率が最も高い。","explanation_zh":"陷阱：数值混同。三州增加率得州约16%、佛州约15%、加州约6%，加州最低。","explanation_ja":"誤り。数値混同の罠。増加率はテキサス約16%、フロリダ約15%、カリフォルニア約6%で、カリフォルニアが最も低い。"}
+        ],
+        "answer":2,
+        "tag":{
+          "question_form":"図表読取",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["地域取違"],
+          "keywords_to_avoid":["テキサス州","地図"],
+          "sub_domain":"欧米地誌",
+          "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"}
+        },
+        "sources":[{"claim":"テキサス州人口 2010=25,145,561 / 2020=29,145,505","source":"U.S. Census Bureau, Decennial Census","year":2020,"url":"https://www.census.gov/library/stories/state-by-state/texas-population-change-between-census-decade.html"}]
+      },
+      {
+        "sub_id":2,
+        "global_id":2,
+        "prompt":"本文で触れられた日本の内閣総理大臣の選出方法に関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"内閣総理大臣は国民の直接選挙によって選出される。","explanation_zh":"陷阱：主体错位。日本宪法规定首相由国会议员中由国会指名，并非国民直选。","explanation_ja":"誤り。主体取違の罠。日本国憲法第67条により、内閣総理大臣は国会議員の中から国会の議決で指名され、国民の直接選挙ではない。"},
+          {"id":2,"text":"内閣総理大臣は国会議員の中から国会の議決で指名される。","explanation_zh":"正确。符合日本国宪法第67条「由国会议员中、由国会议决指名」之规定。","explanation_ja":"正解。日本国憲法第67条「内閣総理大臣は、国会議員の中から国会の議決で、これを指名する」に一致する。"},
+          {"id":3,"text":"内閣総理大臣は天皇により国会の同意なく任命される。","explanation_zh":"陷阱：主体错位。天皇仅基于国会指名任命，并无独自任命之权(宪法第6条)。","explanation_ja":"誤り。主体取違の罠。天皇は国会の指名に基づき任命するだけで、国会の指名なしに任命することはできない（憲法第6条）。"},
+          {"id":4,"text":"内閣総理大臣は最高裁判所長官により指名される。","explanation_zh":"陷阱：概念混淆。最高裁判所長官与首相指名无关，混淆三权之间的关系。","explanation_ja":"誤り。概念混同の罠。最高裁判所長官は内閣の指名に基づき天皇が任命するもので、首相指名とは無関係。"}
+        ],
+        "answer":2,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["時態錯位","主体取違"],
+          "keywords_to_avoid":["スペイン","19世紀"],
+          "sub_domain":"欧米地誌",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"2. 日本の統治機構"}
+        },
+        "sources":[{"claim":"内閣総理大臣は国会議員の中から国会の議決で指名される","source":"日本国憲法 第67条","year":1947,"url":"https://elaws.e-gov.go.jp/document?lawid=321CONSTITUTION"}]
+      },
+      {
+        "sub_id":3,
+        "global_id":3,
+        "prompt":"日本とアメリカ合衆国の元首・行政長官の選出方法の比較として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"両国とも国民が議会議員を選び、議会が行政長官を指名する。","explanation_zh":"陷阱：概念混淆。美国总统由选举人团选出，并非由国会指名，两国制度不同。","explanation_ja":"誤り。概念混同の罠。米国大統領は選挙人を通じて国民が選び、議会の指名によらない。両国の制度は異なる。"},
+          {"id":2,"text":"両国とも国民が直接選挙で行政長官を選出する。","explanation_zh":"陷阱：主体错位。日本是国会指名首相，并非国民直选行政长官。","explanation_ja":"誤り。主体取違の罠。日本は国会が内閣総理大臣を指名する仕組みであり、国民の直接選挙ではない。"},
+          {"id":3,"text":"日本は議院内閣制で国会が首相を指名し、アメリカは国民が選挙人を通じて大統領を選ぶ。","explanation_zh":"正确。两国制度差异本文已述明：日本议院内阁制、美国总统制。","explanation_ja":"正解。日本は議院内閣制(憲法67条)、米国は大統領制(合衆国憲法第2条)で選挙人を介する点が本文と一致する。"},
+          {"id":4,"text":"アメリカでは連邦議会の上院議長が大統領を任命する。","explanation_zh":"陷阱：概念混淆。美国总统不由参议院议长任命，副总统兼任参议院议长。","explanation_ja":"誤り。概念混同の罠。副大統領が上院議長を兼ねるが、上院議長が大統領を任命する仕組みはない。"}
+        ],
+        "answer":3,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["概念混同","主体取違"],
+          "keywords_to_avoid":["大統領","議会"],
+          "sub_domain":"欧米地誌",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"4.政治参加"}
+        },
+        "sources":[{"claim":"米国大統領は選挙人団(Electoral College)によって選出される","source":"合衆国憲法 第2条 / 修正第12条","year":1804,"url":"https://www.archives.gov/electoral-college/about"}]
+      },
+      {
+        "sub_id":4,
+        "global_id":4,
+        "prompt":"本文の人口データに基づき、三州の人口変化に関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"三州の中でテキサス州の2020年人口が最大である。","explanation_zh":"陷阱：数值混同。2020年加州约3,954万，超过得州约2,914万。","explanation_ja":"誤り。数値混同の罠。2020年人口はカリフォルニア州約3,954万人が最大で、テキサス州は約2,914万人。"},
+          {"id":2,"text":"フロリダ州の人口は2010年から2020年にかけて減少した。","explanation_zh":"陷阱：数值混同。佛州由约1,880万增至约2,154万，属增加。","explanation_ja":"誤り。数値混同の罠。フロリダ州人口は1,880万→2,154万人と増加しており、減少していない。"},
+          {"id":3,"text":"テキサス州の2020年人口は2010年と比べて増加した。","explanation_zh":"正确。得州2010年约2,514万→2020年约2,914万，确实增加。","explanation_ja":"正解。テキサス州人口は2,514万人→2,914万人と増加。米国国勢調査局のデータと一致する。"},
+          {"id":4,"text":"三州とも2010年から2020年にかけて人口が減少した。","explanation_zh":"陷阱：范围扩大。三州均增加，沒有任何一州减少。","explanation_ja":"誤り。範囲拡大の罠。三州とも増加しており、「減少」と断ずるのは事実に反する。"}
+        ],
+        "answer":3,
+        "tag":{
+          "question_form":"図表読取",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["順序混同"],
+          "keywords_to_avoid":["原油","グラフ"],
+          "sub_domain":"欧米地誌"
+        },
+        "sources":[{"claim":"三州人口の2010年→2020年比較(テキサス・カリフォルニア・フロリダ)","source":"U.S. Census Bureau, 2020 Decennial Census","year":2020,"url":"https://www.census.gov/library/stories/state-by-state.html"}]
+      }
+    ],
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"アメリカ地誌・テキサス州",
+      "sub_domain":"欧米地誌",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"2. 現代世界の諸地域"},
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "keywords_to_avoid":["テキサス州","USA","メキシコ"]
+    }
+  },
+  {
+    "id": 2,
+    "title": "問2",
+    "prompt": "次の文章を読み、下の問い(1)〜(4)に答えなさい。",
+    "passage": "第一次世界大戦は1914年に勃発し1918年に終結した。戦後の国際秩序を再編するため、1919年にパリ講和会議が開かれ、ヴェルサイユ条約が締結された。アメリカ大統領ウィルソンが提唱した「十四か条」に基づき、1920年に国際連盟が設立された。設立時の原加盟国は42か国であった。もっとも、提唱国アメリカは上院の批准が得られず加盟しなかった。ドイツは1926年、ソ連は1934年に加盟したが、日本・ドイツは1933年に、イタリアは1937年に脱退するなど、加盟国数は時期によって大きく変動した。イギリスでは戦後、ロイド=ジョージ挙国一致内閣が講和外交を主導し、1921〜22年のワシントン会議では、海軍主力艦の比率を米英日仏伊で5：5：3：1.67：1.67と定める五カ国条約が締結された。",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":5,
+        "prompt":"本文で述べられた第一次世界大戦後の国際秩序に関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"国際連盟はアメリカ大統領ウィルソンの提唱で設立され、アメリカも当初から加盟した。","explanation_zh":"陷阱：主体错位。美国虽提倡，但因参议院反对未加入。","explanation_ja":"誤り。主体取違の罠。ウィルソンが提唱したが、米上院がヴェルサイユ条約批准を拒否し、米国は加盟しなかった。"},
+          {"id":2,"text":"ヴェルサイユ条約はワシントン会議で締結された。","explanation_zh":"陷阱：地域错位。凡尔赛条约是1919年巴黎和会签订，并非华盛顿会议。","explanation_ja":"誤り。地域取違の罠。ヴェルサイユ条約はパリ講和会議(1919年)で締結された。ワシントン会議(1921-22)は別の枠組み。"},
+          {"id":3,"text":"国際連盟は第二次世界大戦中の1940年に設立された。","explanation_zh":"陷阱：时态错位。国联设立于1920年，与二战时期无关。","explanation_ja":"誤り。時態錯位の罠。国際連盟は1920年に設立された。1940年設立とするのは時期を誤っている。"},
+          {"id":4,"text":"国際連盟設立後も、日本・ドイツ・イタリアなどが脱退し加盟国数が変動した。","explanation_zh":"正确。本文明确指出日德1933年、意大利1937年脱退，加盟国数持续变动。","explanation_ja":"正解。本文に「日本・ドイツは1933年に、イタリアは1937年に脱退」とあり、加盟国数の変動と一致する。"}
+        ],
+        "answer":4,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["主体取違"],
+          "keywords_to_avoid":["宗教"],
+          "sub_domain":"近代世界"
+        },
+        "sources":[{"claim":"米国は国際連盟に加盟しなかった/日独は1933年、伊は1937年に脱退","source":"国際連盟 公式記録(UN Geneva 所蔵 League of Nations Archives)","year":1933,"url":"https://www.ungeneva.org/en/about/league-of-nations"}]
+      },
+      {
+        "sub_id":2,
+        "global_id":6,
+        "prompt":"本文の五カ国条約における主力艦比率データから読み取れる内容として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"日本の比率はアメリカ・イギリスと等しく定められた。","explanation_zh":"陷阱：数值混同。日本3，美英各5，并不相等。","explanation_ja":"誤り。数値混同の罠。日本は3、米英は各5で、日本は米英より小さい比率に定められた。"},
+          {"id":2,"text":"フランスとイタリアは日本より大きい比率を割り当てられた。","explanation_zh":"陷阱：数值混同。法意各1.67，小于日本3。","explanation_ja":"誤り。数値混同の罠。フランス・イタリアは1.67で、日本3より小さい。順序が逆。"},
+          {"id":3,"text":"アメリカとイギリスは同じ比率を割り当てられ、日本はその60%に相当した。","explanation_zh":"正确。美英各5、日本3，3÷5=60%，与本文5:5:3之比一致。","explanation_ja":"正解。本文「5：5：3：1.67：1.67」より米英は同比率5、日本は3で米英の60%にあたる。"},
+          {"id":4,"text":"比率は陸軍兵力の上限を定めたものである。","explanation_zh":"陷阱：概念混淆。五国条约限制的是主力舰(海军)，非陆军兵力。","explanation_ja":"誤り。概念混同の罠。五カ国条約は主力艦(戦艦)の保有比率を定めたもので、陸軍兵力ではない。"}
+        ],
+        "answer":3,
+        "tag":{
+          "question_form":"図表読取",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["地域取違"],
+          "keywords_to_avoid":["バルフォア"],
+          "sub_domain":"近代世界",
+          "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"}
+        },
+        "sources":[{"claim":"ワシントン海軍軍縮条約の主力艦比率は米英日仏伊=5:5:3:1.67:1.67","source":"Washington Naval Treaty 1922 (外務省 条約集)","year":1922,"url":"https://www.mofa.go.jp/mofaj/annai/honsho/shiryo/shozo/page25_001255.html"}]
+      },
+      {
+        "sub_id":3,
+        "global_id":7,
+        "prompt":"本文で述べられた第一次世界大戦後の国際秩序に関する記述として最も適当でないものはどれですか。",
+        "choices":[
+          {"id":1,"text":"国際連盟は1920年に設立され、原加盟国は42か国であった。","explanation_zh":"陷阱：时态错位。题目要求选不适当项。本项与本文一致，属正确陈述。","explanation_ja":"誤り。時態錯位の罠。本項は本文に一致する正しい陳述で、設問が求める「不適当」ではない。"},
+          {"id":2,"text":"アメリカはウィルソン大統領の主導で国際連盟の常任理事国となった。","explanation_zh":"正确。正确(不適当項)。美国未加入国联，更非常任理事国，与史实违背。","explanation_ja":"正解。正解(誤った記述)。米上院の反対で米国は国際連盟に加盟しておらず、常任理事国にはなっていない。"},
+          {"id":3,"text":"ロイド=ジョージは戦後イギリスの講和外交を主導した。","explanation_zh":"陷阱：时态错位。题目要求选不适当项。本项与本文「劳合·乔治挙国一致内阁主导讲和外交」一致，是正确陈述。","explanation_ja":"誤り。時態錯位の罠。本文の記述と一致する正しい陳述であり、設問が求める「不適当」ではない。"},
+          {"id":4,"text":"ワシントン会議では海軍の主力艦比率を定めた五カ国条約が締結された。","explanation_zh":"陷阱：时态错位。本项与本文1921-22年华盛顿会议缔结五国条约的表述一致，属正确陈述。","explanation_ja":"誤り。時態錯位の罠。本文と一致する正しい陳述であり、設問が求める「不適当」ではない。"}
+        ],
+        "answer":2,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答誤記述",
+          "trap_patterns":["主体取違"],
+          "keywords_to_avoid":["国際連盟"],
+          "sub_domain":"近代世界",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"5. 金融"}
+        },
+        "sources":[{"claim":"アメリカは国際連盟に加盟していない","source":"U.S. Senate Historical Office","year":1920,"url":"https://www.senate.gov/about/powers-procedures/treaties/treaty-of-versailles.htm"}]
+      },
+      {
+        "sub_id":4,
+        "global_id":8,
+        "prompt":"本文で触れられた1929年以降の時期にも関連する戦間期の国際情勢に関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"1933年に日本とドイツが国際連盟から脱退した。","explanation_zh":"正确。本文已述日德两国1933年脱退国际联盟，与史实一致。","explanation_ja":"正解。本文に「日本・ドイツは1933年に…脱退」とあり、史実(日本2月通告・独10月通告)と一致する。"},
+          {"id":2,"text":"ソ連は1920年に国際連盟の原加盟国となった。","explanation_zh":"陷阱：时态错位。本文明记苏联1934年加盟，并非1920年原加盟国。","explanation_ja":"誤り。時態錯位の罠。本文「ソ連は1934年に加盟」とあり、原加盟国ではない。"},
+          {"id":3,"text":"国際連盟の本部はワシントンに置かれた。","explanation_zh":"陷阱：地域错位。国联本部在日内瓦，非华盛顿。","explanation_ja":"誤り。地域取違の罠。国際連盟本部はスイスのジュネーヴに置かれた。"},
+          {"id":4,"text":"ヴェルサイユ条約はドイツに賠償義務を課さなかった。","explanation_zh":"陷阱：概念混淆。凡尔赛条约对德国课以巨额赔偿，本项与史实相反。","explanation_ja":"誤り。概念混同の罠。ヴェルサイユ条約はドイツに莫大な賠償義務を課した(第231条戦争責任条項)。"}
+        ],
+        "answer":1,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["概念混同"],
+          "keywords_to_avoid":["1929年"],
+          "sub_domain":"近代世界",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"4.政治参加"}
+        },
+        "sources":[{"claim":"日本は1933年3月、ドイツは1933年10月に国際連盟脱退を通告","source":"League of Nations Archives","year":1933,"url":"https://www.ungeneva.org/en/about/league-of-nations"}]
+      }
+    ],
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"ロイド=ジョージ・WWI後",
+      "sub_domain":"近代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"1. 近代化の進展とその影響"},
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "keywords_to_avoid":["ロイド","1916年","バルフォア","パリ講和会議"]
+    }
+  },
+  {
+    "id": 3,
+    "global_id": 9,
+    "title": "問3",
+    "prompt": "ある市場における財Xの2020年の需給データは次の通りである。価格100円のとき需要量120個・供給量60個、価格200円のとき需要量100個・供給量100個、価格300円のとき需要量80個・供給量140個であった。この需給データから読み取れる内容として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"価格が上昇するにつれて需要量も増加する。","explanation_zh":"陷阱：概念混淆。数据显示价格上升时需要量从120→80个减少，违反需求法则。","explanation_ja":"誤り。概念混同の罠。本データでは価格上昇に伴い需要量は120→80個と減少しており、需要法則と一致しない。"},
+      {"id":2,"text":"価格が上昇するにつれて供給量は減少する。","explanation_zh":"陷阱：概念混淆。数据中供给量60→140个增加，并非减少。","explanation_ja":"誤り。概念混同の罠。供給量は60→140個と増加しており、減少するという記述は誤り。"},
+      {"id":3,"text":"均衡価格は200円であり、そのとき需要量と供給量はともに100個である。","explanation_zh":"正确。価格200円時需要供给均为100个，相符即均衡价格。","explanation_ja":"正解。価格200円のとき需要量・供給量がともに100個で一致しており、均衡価格200円・均衡数量100個と読み取れる。"},
+      {"id":4,"text":"価格300円のとき需要量が供給量を上回り、超過需要が発生する。","explanation_zh":"陷阱：数值混同。300円时需要80供给140，供给反而过剩。","explanation_ja":"誤り。数値混同の罠。300円では需要80・供給140となり、超過供給が発生する。超過需要ではない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"需要曲線・供給曲線",
+      "sub_domain":"経済原理・市場",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"2.市場経済"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["曲線","グラフ"]
+    }
+  },
+  {
+    "id": 4,
+    "global_id": 10,
+    "title": "問4",
+    "prompt": "国民経済計算に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"GDPは一国の国民が国内外で生産した付加価値の合計である。","explanation_zh":"陷阱：概念混淆。此为GNI(GNP)定义，非GDP。","explanation_ja":"誤り。概念混同の罠。国民が国外でも稼いだ所得を含むのはGNI(GNP)の定義。GDPは国内で生み出された付加価値。"},
+      {"id":2,"text":"名目GDPと実質GDPの差を物価変動を考慮しない指標と呼ぶ。","explanation_zh":"陷阱：概念混淆。调整物价的是实质GDP，本项颠倒了名义/实质的定义。","explanation_ja":"誤り。概念混同の罠。物価変動を考慮しないのが名目GDP、考慮するのが実質GDP。両者の定義を取り違えている。"},
+      {"id":3,"text":"中古品の売買はGDPに新規付加価値として計上される。","explanation_zh":"陷阱：概念混淆。二手交易不计入GDP，因不是新增产值。","explanation_ja":"誤り。概念混同の罠。中古品の取引は既に過去にGDPに計上された生産物の移転にすぎず、新規付加価値ではない。"},
+      {"id":4,"text":"GDPは一定期間内に国内で生み出された付加価値の合計を示す指標である。","explanation_zh":"正确。符合国民経済計算(SNA)中GDP的标准定义。","explanation_ja":"正解。国連SNA(System of National Accounts)におけるGDPの標準的定義に合致する。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"国民経済計算",
+      "sub_domain":"国民経済・成長",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"4.国民経済"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["GDP","GNI"]
+    },
+    "sources": [{"claim":"GDPの定義(国内で生み出された付加価値の合計)","source":"内閣府 国民経済計算 (SNA)","year":2020,"url":"https://www.esri.cao.go.jp/jp/sna/menu.html"}]
+  },
+  {
+    "id": 5,
+    "global_id": 11,
+    "title": "問5",
+    "prompt": "カルテルなどの企業結合に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"カルテルとは複数の企業が合併して一つの会社となる行為を指す。","explanation_zh":"陷阱：概念混淆。此为企业合并(M&A)，并非卡特尔。卡特尔系独立企业间的协定。","explanation_ja":"誤り。概念混同の罠。複数企業が一社に統合するのは合併。カルテルは独立した企業同士の協定。"},
+      {"id":2,"text":"日本ではすべてのカルテルが独占禁止法のもとで合法とされている。","explanation_zh":"陷阱：范围扩大。独占禁止法原则上禁止价格、产量等卡特尔，并非合法。","explanation_ja":"誤り。範囲拡大の罠。独占禁止法は価格・数量カルテルなどを原則禁止しており、合法とは言えない。"},
+      {"id":3,"text":"トラストは同業種の独立企業が販売価格のみを協定する形態である。","explanation_zh":"陷阱：概念混淆。价格协定属卡特尔特征；托拉斯是资本上合为一体的企业结合形态。","explanation_ja":"誤り。概念混同の罠。販売価格の協定はカルテルの特徴。トラストは資本面で企業を一体化する形態。"},
+      {"id":4,"text":"カルテルとは同業種の独立した企業が価格や生産量などを協定する企業結合の一形態である。","explanation_zh":"正确。符合经济学教科书对卡特尔的标准定义。","explanation_ja":"正解。カルテルは独立企業が価格・生産量・販売地域などを協定する企業結合形態。教科書通りの定義。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"カルテル・企業結合",
+      "sub_domain":"経済原理・市場",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"3.経済主体"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["カルテル"]
+    },
+    "sources": [{"claim":"カルテルの定義および独占禁止法による原則禁止","source":"公正取引委員会 独占禁止法第3条","year":1947,"url":"https://www.jftc.go.jp/dk/dk_qa.html"}]
+  },
+  {
+    "id": 6,
+    "global_id": 12,
+    "title": "問6",
+    "prompt": "日本の国債と財政に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"国債の大量発行は将来の財政負担を必ず軽減する。","explanation_zh":"陷阱：因果倒置。国债大量发行会增加未来偿还和利息负担，方向相反。","explanation_ja":"誤り。因果倒置の罠。国債の大量発行は将来の元利償還負担を増加させる。軽減するは因果が逆。"},
+      {"id":2,"text":"1947年の財政法により、原則として赤字国債の発行が無制限に認められている。","explanation_zh":"陷阱：时态错位。财政法第4条原则禁止赤字国债，要发行需另立特例法。","explanation_ja":"誤り。時態錯位の罠。財政法第4条は赤字国債を原則禁止しており、発行には特例公債法が必要。"},
+      {"id":3,"text":"国債の利払い増加は財政の硬直化の原因ではなく結果である。","explanation_zh":"陷阱：因果倒置。国债利息支出增加是导致财政硬直化的原因之一，因果方向颠倒。","explanation_ja":"誤り。因果倒置の罠。国債費の増加が歳出を圧迫し財政硬直化の「原因」となる。因果が逆。"},
+      {"id":4,"text":"建設国債は財政法第4条に基づき公共事業など特定の経費に限り発行が認められている。","explanation_zh":"正确。符合财政法第4条但书所示建设公债原则。","explanation_ja":"正解。財政法第4条但書に基づき、公共事業費・出資金・貸付金の財源に限り建設国債の発行が認められている。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"国債・財政",
+      "sub_domain":"財政・租税",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"5. 金融"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["因果倒置","時態錯位"],
+      "keywords_to_avoid":["国債"]
+    },
+    "sources": [{"claim":"建設国債は財政法第4条但書に基づき公共事業等に限り発行可能","source":"財政法 第4条","year":1947,"url":"https://elaws.e-gov.go.jp/document?lawid=322AC0000000034"}]
+  },
+  {
+    "id": 7,
+    "global_id": 13,
+    "title": "問7",
+    "prompt": "景気動向指数に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"景気動向指数は日本銀行が毎月作成・公表する物価指数の一つである。","explanation_zh":"陷阱：主体错位。由内阁府发布，并非日銀的物价指数。","explanation_ja":"誤り。主体取違の罠。景気動向指数は内閣府が作成・公表するもので、日本銀行の物価指数ではない。"},
+      {"id":2,"text":"景気動向指数は先行・一致・遅行の3系列から構成され、景気の現状や将来を把握するために用いられる。","explanation_zh":"正确。符合内閣府公布的景気動向指数三系列分类。","explanation_ja":"正解。内閣府が公表する景気動向指数は先行(Leading)・一致(Coincident)・遅行(Lagging)の3系列で構成される。"},
+      {"id":3,"text":"景気動向指数はGDP成長率そのものを直接示す指標である。","explanation_zh":"陷阱：概念混淆。景气动向指数综合多种指标，并非直接=GDP成长率。","explanation_ja":"誤り。概念混同の罠。景気動向指数は採用系列を合成した指標で、GDP成長率そのものではない。"},
+      {"id":4,"text":"完全失業率は景気動向指数の先行系列に分類される。","explanation_zh":"陷阱：概念混淆。完全失业率属于遅行系列，并非先行系列。","explanation_ja":"誤り。概念混同の罠。完全失業率は遅行系列の代表的指標であり、先行系列ではない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"景気動向指数",
+      "sub_domain":"国民経済・成長",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"6. 財政"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["指数"]
+    },
+    "sources": [{"claim":"景気動向指数は先行・一致・遅行の3系列で構成","source":"内閣府 経済社会総合研究所","year":2022,"url":"https://www.esri.cao.go.jp/jp/stat/di/di.html"}]
+  },
+  {
+    "id": 8,
+    "global_id": 14,
+    "title": "問8",
+    "prompt": "日本の公的年金制度に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"日本の公的年金は20歳以上60歳未満の国民全員が国民年金に加入する国民皆年金の仕組みである。","explanation_zh":"正确。符合国民年金法之「国民皆年金」原則(1961年实现)。","explanation_ja":"正解。国民年金法に基づき20歳以上60歳未満のすべての国民が国民年金に加入する国民皆年金体制(1961年確立)。"},
+      {"id":2,"text":"公的年金は完全な積立方式のみで運営されている。","explanation_zh":"陷阱：概念混淆。现行制度以世代间扶养(賦課方式)为主，并非完全积立。","explanation_ja":"誤り。概念混同の罠。現行制度は世代間扶養の賦課方式を基本とし、完全な積立方式ではない。"},
+      {"id":3,"text":"厚生年金は自営業者のみが加入する制度である。","explanation_zh":"陷阱：主体错位。厚生年金为雇佣劳动者，自营业者加入国民年金。","explanation_ja":"誤り。主体取違の罠。厚生年金は会社員・公務員などの被用者が対象。自営業者は国民年金(第1号被保険者)。"},
+      {"id":4,"text":"国民年金の受給開始は通常50歳からである。","explanation_zh":"陷阱：数值混同。国民年金标准支给开始年龄为65岁，并非50岁。","explanation_ja":"誤り。数値混同の罠。国民年金(老齢基礎年金)の原則支給開始年齢は65歳。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"社会",
+      "topic":"日本公的年金",
+      "sub_domain":"社会保障・労働",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"7.社会保障"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["年金"]
+    },
+    "sources": [{"claim":"国民皆年金(20歳以上60歳未満全員加入)","source":"国民年金法 / 厚生労働省 年金制度の仕組み","year":1961,"url":"https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/nenkin/nenkin/zaisei01/index.html"}]
+  },
+  {
+    "id": 9,
+    "global_id": 15,
+    "title": "問9",
+    "prompt": "日米の金利差と円ドル相場の関係に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"アメリカの金利が日本より上昇すると、一般に円高ドル安が進む。","explanation_zh":"陷阱：因果倒置。美国利率上升→资金流向美国，通常造成日元贬值美元升值，方向相反。","explanation_ja":"誤り。因果倒置の罠。米金利が日本より上昇すれば、ドル資産の魅力が増しドル買い・円売りが進み、円安ドル高傾向となる。"},
+      {"id":2,"text":"円安が進むと一般に日本の輸入価格は低下する。","explanation_zh":"陷阱：因果倒置。円安使输入品変贵，价格上升而非下降。","explanation_ja":"誤り。因果倒置の罠。円安では1ドルあたりの円換算額が増えるため輸入品価格は上昇する。"},
+      {"id":3,"text":"為替相場は中央銀行の金利政策の影響を受けない。","explanation_zh":"陷阱：范围扩大。汇率受货币政策直接影响，这是错误的过大说法。","explanation_ja":"誤り。範囲拡大の罠。為替相場は中央銀行の政策金利や量的緩和の影響を強く受ける。"},
+      {"id":4,"text":"アメリカの金利が日本より上昇すると、ドル買い円売りが進み、一般に円安ドル高が進行する。","explanation_zh":"正确。符合利差→资金移动→汇率変動的基本机制。","explanation_ja":"正解。内外金利差が拡大すれば高金利通貨に資金が流入する。ドル買い・円売りが進み円安ドル高傾向。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"為替・利差",
+      "sub_domain":"金融・通貨",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"5. 金融"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["因果倒置"],
+      "keywords_to_avoid":["金利"]
+    },
+    "sources": [{"claim":"内外金利差と為替相場の関係(円安ドル高の方向)","source":"日本銀行 金融政策と為替","year":2022,"url":"https://www.boj.or.jp/about/education/oshiete/intl/g08.htm"}]
+  },
+  {
+    "id": 10,
+    "global_id": 16,
+    "title": "問10",
+    "prompt": "金本位制に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"金本位制では通貨発行量に金準備の制約がない。","explanation_zh":"陷阱：主体错位。金本位制以金为担保，发行量受金準備限制。","explanation_ja":"誤り。主体取違の罠。金本位制では通貨発行量が金準備に拘束される。これが金本位制の本質。"},
+      {"id":2,"text":"金本位制とは、通貨価値を一定量の金と結びつけ、紙幣と金との兌換が保証される制度である。","explanation_zh":"正确。符合金本位制(金兌換本位)的标准定義。","explanation_ja":"正解。金本位制は通貨価値を一定量の金で定義し、紙幣と金との兌換性を保証する制度。"},
+      {"id":3,"text":"日本は第二次世界大戦後の1955年に金本位制を確立した。","explanation_zh":"陷阱：时态错位。日本1897年金本位制确立、1931年最终停止，与1955年无关。","explanation_ja":"誤り。時態錯位の罠。日本は1897年に金本位制を確立し、1931年に金輸出を再禁止して事実上離脱。1955年とは無関係。"},
+      {"id":4,"text":"1971年のニクソン・ショックにより米ドルと金との兌換が再開された。","explanation_zh":"陷阱：因果倒置。尼克松冲击是停止金兑换，并非再开。","explanation_ja":"誤り。因果倒置の罠。ニクソン・ショックは金とドルの兌換を停止する政策で、再開ではない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"金本位制",
+      "sub_domain":"金融・通貨",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"2. 二つの世界大戦とその影響"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違","時態錯位"],
+      "keywords_to_avoid":["金本位"]
+    },
+    "sources": [{"claim":"金本位制の定義および日本の金本位制(1897年確立)","source":"日本銀行 金融研究所","year":1897,"url":"https://www.imes.boj.or.jp/research/papers/japanese/kk16-3-2.pdf"}]
+  },
+  {
+    "id": 11,
+    "global_id": 17,
+    "title": "問11",
+    "prompt": "EUおよび共通通貨ユーロに関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"ユーロはEU加盟国すべてで法定通貨として導入されている。","explanation_zh":"陷阱：范围扩大。丹麦、瑞典、波兰等部分EU加盟国未导入欧元，并非全部加盟国。","explanation_ja":"誤り。範囲拡大の罠。デンマーク・スウェーデン・ポーランド等はユーロ未導入。EU全加盟国ではない。"},
+      {"id":2,"text":"ユーロは1999年に決済通貨として導入され、2002年に現金紙幣・硬貨の流通が開始された。","explanation_zh":"正确。符合欧元导入两阶段史实(1999电子→2002现金)。","explanation_ja":"正解。1999年1月にユーロが決済通貨として導入され、2002年1月に紙幣・硬貨の流通が開始された(欧州中央銀行公式)。"},
+      {"id":3,"text":"ユーロ加盟国の金融政策は各国中央銀行が独立して決定する。","explanation_zh":"陷阱：主体错位。欧元区金融政策由欧洲中央银行(ECB)统一决定，各国央行无独立决定权。","explanation_ja":"誤り。主体取違の罠。ユーロ圏の金融政策は欧州中央銀行(ECB)が一元的に決定する。各国独立ではない。"},
+      {"id":4,"text":"EUは1990年代に設立された軍事同盟である。","explanation_zh":"陷阱：概念混淆。EU是经济政治同盟，非军事同盟(军事是NATO)。","explanation_ja":"誤り。概念混同の罠。EUは経済・政治統合体であり、軍事同盟ではない。軍事同盟はNATO。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"EU・ユーロ",
+      "sub_domain":"金融・通貨",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"5. 金融"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["主体取違"],
+      "keywords_to_avoid":["EU"]
+    },
+    "sources": [{"claim":"ユーロは1999年導入、2002年に現金流通開始","source":"European Central Bank (ECB) - The euro","year":2002,"url":"https://www.ecb.europa.eu/euro/intro/html/index.en.html"}]
+  },
+  {
+    "id": 12,
+    "global_id": 18,
+    "title": "問12",
+    "prompt": "世界銀行のWorld Development Indicatorsに基づくG7各国の2020年名目GDP(億ドル)は次のとおりである:アメリカ約20兆9,372億ドル、日本約5兆400億ドル、ドイツ約3兆8,461億ドル、イギリス約2兆7,564億ドル、フランス約2兆6,303億ドル、イタリア約1兆8,886億ドル、カナダ約1兆6,453億ドル。このデータから読み取れる内容として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"G7のなかで2020年の名目GDPが最大なのはドイツである。","explanation_zh":"陷阱：数值混同。美国约20.9万亿美元最大，并非德国。","explanation_ja":"誤り。数値混同の罠。G7最大は米国(約20.9兆ドル)。ドイツは約3.8兆ドルで3位。"},
+      {"id":2,"text":"2020年時点でカナダの名目GDPはイギリスを上回った。","explanation_zh":"陷阱：数值混同。加拿大1.65兆美元低于英国2.76兆美元。","explanation_ja":"誤り。数値混同の罠。カナダ1.64兆ドルはイギリス2.76兆ドルを下回る。"},
+      {"id":3,"text":"フランスとイタリアの名目GDPの合計はアメリカを上回る。","explanation_zh":"陷阱：数值混同。法+意约4.5兆美元，远小于美约20.9兆美元。","explanation_ja":"誤り。数値混同の罠。仏(2.63)+伊(1.89)=約4.5兆ドルで、米20.9兆ドルを大きく下回る。"},
+      {"id":4,"text":"日本の名目GDPはG7のなかで第2位であり、アメリカに次ぐ規模である。","explanation_zh":"正确。根据World Bank数据，日本5.04兆美元位于G7第2位、次于美国。","explanation_ja":"正解。世界銀行データに基づき、日本の名目GDPは約5.04兆ドルでG7第2位、米国に次ぐ規模。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"G7・GDP",
+      "sub_domain":"国民経済・成長",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"4.国民経済"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["順序混同"],
+      "keywords_to_avoid":["GDP"]
+    },
+    "sources": [{"claim":"G7各国の2020年名目GDP(米ドル)","source":"World Bank, World Development Indicators (NY.GDP.MKTP.CD)","year":2020,"url":"https://data.worldbank.org/indicator/NY.GDP.MKTP.CD"}]
+  },
+  {
+    "id": 13,
+    "global_id": 19,
+    "title": "問13",
+    "prompt": "資源エネルギー庁「エネルギー白書」によると、日本の総発電電力量に占める再生可能エネルギー(水力含む)の比率は2010年度に約10%、2015年度に約14%、2020年度に約20%へ推移した。うち太陽光発電の比率は2010年度に約0.3%、2015年度に約3.3%、2020年度に約8.5%へと急増した。このデータから読み取れる内容として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"日本の再生可能エネルギー比率は2010年度から2020年度にかけて約2倍に上昇した。","explanation_zh":"正确。从约10%升至约20%，恰为约2倍，与白书一致。","explanation_ja":"正解。約10%→約20%は約2倍。資源エネルギー庁エネルギー白書の数値と一致する。"},
+      {"id":2,"text":"太陽光発電の比率は2020年度時点で再生可能エネルギー比率を上回っている。","explanation_zh":"陷阱：数值混同。太阳光约8.5% < 再生能源约20%，方向相反。","explanation_ja":"誤り。数値混同の罠。太陽光8.5%は再生可能エネルギー全体20%の一部であり、上回ることはない。"},
+      {"id":3,"text":"日本の再生可能エネルギー比率は2010年度から2020年度にかけて減少した。","explanation_zh":"陷阱：数值混同。数据明确显示上升约2倍，并非减少。","explanation_ja":"誤り。数値混同の罠。10%→20%と増加しており、減少という記述は誤り。"},
+      {"id":4,"text":"太陽光発電の比率は全期間を通じて変化しなかった。","explanation_zh":"陷阱：数值混同。从0.3%→8.5%大幅上升，并非不变。","explanation_ja":"誤り。数値混同の罠。太陽光は0.3%→8.5%と大幅増加しており、変化なしという記述は誤り。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"再生可能エネルギー",
+      "sub_domain":"産業・資源",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["数値混同"],
+      "keywords_to_avoid":["エネルギー"]
+    },
+    "sources": [{"claim":"日本の総発電電力量に占める再生可能エネルギー比率の推移","source":"資源エネルギー庁「エネルギー白書2022」","year":2022,"url":"https://www.enecho.meti.go.jp/about/whitepaper/2022/"}]
+  },
+  {
+    "id": 14,
+    "global_id": 20,
+    "title": "問14",
+    "prompt": "気象庁および世界気象機関(WMO)のデータに基づく3都市の年平均気温と年降水量は次のとおりである:シンガポール(年平均気温約27.5℃、年降水量約2,166mm、最寒月平均気温約26℃)、カイロ(年平均気温約21.7℃、年降水量約25mm)、東京(年平均気温約15.8℃、年降水量約1,529mm、最寒月平均気温約5℃)。ケッペンの気候区分から読み取れる内容として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"シンガポールはケッペン区分の砂漠気候(BW)に分類される。","explanation_zh":"陷阱：概念混淆。新加坡年降水2,166mm属热带雨林气候(Af)，并非砂漠气候。","explanation_ja":"誤り。概念混同の罠。年降水量2,166mmの多雨で熱帯雨林気候(Af)。砂漠気候(BW)は誤り。"},
+      {"id":2,"text":"カイロは温暖湿潤気候(Cfa)に分類される。","explanation_zh":"陷阱：概念混淆。开罗年降水仅约25mm属热带砂漠气候(BWh)，并非Cfa。","explanation_ja":"誤り。概念混同の罠。カイロは年降水約25mmの極乾燥地で砂漠気候(BWh)。温暖湿潤(Cfa)ではない。"},
+      {"id":3,"text":"東京は最寒月平均気温が−3℃以上18℃未満で温暖湿潤気候(Cfa)に該当する。","explanation_zh":"正确。东京最寒月约5℃符合Cfa的−3至18℃区间，与气象厅数据一致。","explanation_ja":"正解。東京の最寒月平均気温約5℃は−3℃以上18℃未満の条件を満たし、年中降雨で温暖湿潤気候(Cfa)に該当する。"},
+      {"id":4,"text":"三都市はいずれも亜寒帯(D)に属する。","explanation_zh":"陷阱：地域错位。三个城市均不属于亜寒帯，分布于热带乾燥温帯。","explanation_ja":"誤り。地域取違の罠。三都市はそれぞれAf・BWh・Cfaに分類され、亜寒帯(D)はいずれにも該当しない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"ケッペン気候区分",
+      "sub_domain":"自然地理",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"2. 現代世界の諸地域"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["地域取違"],
+      "keywords_to_avoid":["気候"]
+    },
+    "sources": [{"claim":"シンガポール・カイロ・東京の年平均気温と年降水量","source":"気象庁 世界の天候データツール / WMO Climatological Normals","year":2020,"url":"https://www.data.jma.go.jp/gmd/cpd/monitor/climatview/"}]
+  },
+  {
+    "id": 15,
+    "global_id": 21,
+    "title": "問15",
+    "prompt": "東京(東経135度)が3月15日午後8時のとき、ロンドン(経度0度)の現地時刻として最も適当なものはどれですか。ただし、サマータイムは考慮しないものとする。",
+    "choices": [
+      {"id":1,"text":"3月15日午後5時。","explanation_zh":"陷阱：数值混同。经度差135度对应9小时，下午8时减9时应为上午11时。","explanation_ja":"誤り。数値混同の罠。経度差135度=時差9時間。20:00−9=11:00。17:00は誤り。"},
+      {"id":2,"text":"3月16日午前5時。","explanation_zh":"陷阱：时态错位。伦敦位于东京以西，时刻应比东京慢9小时，不应跨入次日。","explanation_ja":"誤り。時態錯位の罠。ロンドンは東京の西側に位置し時刻は遅れる。日付が翌日になることはない。"},
+      {"id":3,"text":"3月15日午前11時。","explanation_zh":"正确。経度差135度即9小时时差，東京20时减去9时为同日上午11时。","explanation_ja":"正解。東経135度−経度0度=135度→時差9時間。3月15日20:00−9時間=同日11:00。"},
+      {"id":4,"text":"3月14日午後11時。","explanation_zh":"陷阱：数值混同。伦敦与东京时差仅9小时，应为同日11时而非前一日深夜。","explanation_ja":"誤り。数値混同の罠。9時間の時差で前日に戻ることはない。20:00−9=同日11:00。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"時差計算",
+      "sub_domain":"自然地理",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["数値混同"],
+      "keywords_to_avoid":["時差"]
+    }
+  },
+  {
+    "id": 16,
+    "global_id": 22,
+    "title": "問16",
+    "prompt": "世界の主要国の国土面積に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"世界で最も国土面積が大きい国は中国である。","explanation_zh":"陷阱：地域错位。最大是俄罗斯約1,710万km²，中国約960万km²居第3。","explanation_ja":"誤り。地域取違の罠。世界最大はロシア(約1,710万km²)。中国は約960万km²で3位。"},
+      {"id":2,"text":"日本の国土面積は世界で最大級であり、ロシアに次ぐ規模である。","explanation_zh":"陷阱：范围扩大。日本约37.8万km²远小于俄罗斯约1,710万km²，并非世界最大级。","explanation_ja":"誤り。範囲拡大の罠。日本の国土面積は約37.8万km²で世界第61位前後。世界最大級というのは過大評価。"},
+      {"id":3,"text":"ロシア・カナダ・アメリカ合衆国・中国は、いずれも国土面積が日本より大きい。","explanation_zh":"正确。四国国土均大于日本约37.8万km²，符合事实。","explanation_ja":"正解。ロシア約1,710万、カナダ約998万、米国約983万、中国約960万km²はいずれも日本約37.8万km²より大きい。"},
+      {"id":4,"text":"オーストラリアは国土面積が日本より小さい。","explanation_zh":"陷阱：数值混同。澳大利亚约769万km²远大于日本37.8万km²。","explanation_ja":"誤り。数値混同の罠。オーストラリアは約769万km²で日本(約37.8万km²)より大きい。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"国土面積",
+      "sub_domain":"産業・資源",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["順序混同"],
+      "keywords_to_avoid":["面積"]
+    },
+    "sources": [{"claim":"主要国の国土面積(ロシア・カナダ・米国・中国・日本)","source":"United Nations Statistics Division - Demographic Yearbook","year":2020,"url":"https://unstats.un.org/unsd/demographic-social/products/dyb/"}]
+  },
+  {
+    "id": 17,
+    "global_id": 23,
+    "title": "問17",
+    "prompt": "ケルト諸語(ケルト語派)に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"ケルト諸語はインド・ヨーロッパ語族に属し、現代ではアイルランド語やウェールズ語などが話されている。","explanation_zh":"正确。符合语言学分类：爱尔兰语、威尔士语为现代凯尔特系语言。","explanation_ja":"正解。ケルト諸語は印欧語族の一語派で、現代もアイルランド語・ウェールズ語などが話されている。"},
+      {"id":2,"text":"ケルト諸語はウラル語族に属し、フィンランド語と近縁である。","explanation_zh":"陷阱：概念混淆。乌拉尔语族包含芬兰语、匈牙利语等，与凯尔特诸语无关。","explanation_ja":"誤り。概念混同の罠。ウラル語族はフィン語・ハンガリー語などで、ケルトは印欧語族。語族が異なる。"},
+      {"id":3,"text":"ケルト諸語は中国・チベット語族の一分派である。","explanation_zh":"陷阱：概念混淆。汉藏语系与凯尔特诸语分属不同语系，本项错误。","explanation_ja":"誤り。概念混同の罠。ケルト諸語はインド・ヨーロッパ語族。中国・チベット語族とは無関係。"},
+      {"id":4,"text":"ケルト諸語は古代エジプトで唯一使用されていた言語である。","explanation_zh":"陷阱：地域错位。古代埃及主要使用埃及语(亚非语系)，与凯尔特诸语无关。","explanation_ja":"誤り。地域取違の罠。古代エジプトの言語はアフロ・アジア語族のエジプト語。ケルトとは無関係。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"社会",
+      "topic":"ケルト語族",
+      "sub_domain":"教育・文化",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の社会","item":"4.情報・科学技術の発展"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["言語"]
+    },
+    "sources": [{"claim":"ケルト諸語はインド・ヨーロッパ語族に属する","source":"Ethnologue: Languages of the World / Encyclopaedia Britannica - Celtic languages","year":2020,"url":"https://www.britannica.com/topic/Celtic-languages"}]
+  },
+  {
+    "id": 18,
+    "global_id": 24,
+    "title": "問18",
+    "prompt": "FAOSTAT(国連食糧農業機関統計)による2020年の主要国の牛肉生産量は、アメリカ合衆国約1,239万トン、ブラジル約1,010万トン、中国約672万トン、アルゼンチン約317万トン、オーストラリア約237万トンであった。同年の鶏肉生産量は、アメリカ合衆国約2,026万トン、中国約1,460万トン、ブラジル約1,390万トンであった。このデータから読み取れる内容として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"2020年の牛肉生産量はアメリカ合衆国が世界最大であり、ブラジルがそれに次ぐ。","explanation_zh":"正确。FAOSTAT显示美国1239万吨>巴西1010万吨，居前两位。","explanation_ja":"正解。FAOSTAT 2020年の牛肉生産量は米国約1,239万トンが世界最大、ブラジル約1,010万トンが2位。"},
+      {"id":2,"text":"2020年のブラジルの牛肉生産量はアメリカ合衆国を上回った。","explanation_zh":"陷阱：数值混同。巴西1010万吨低于美国1239万吨，未上回。","explanation_ja":"誤り。数値混同の罠。ブラジル1,010万トン<米国1,239万トンで、上回っていない。"},
+      {"id":3,"text":"アルゼンチンの牛肉生産量は中国を上回った。","explanation_zh":"陷阱：数值混同。阿根廷317万吨远低于中国672万吨。","explanation_ja":"誤り。数値混同の罠。アルゼンチン317万トン<中国672万トン。順位が逆。"},
+      {"id":4,"text":"中国の鶏肉生産量はアメリカ合衆国を上回った。","explanation_zh":"陷阱：数值混同。中国1460万吨低于美国2026万吨。","explanation_ja":"誤り。数値混同の罠。中国1,460万トン<米国2,026万トンで、上回っていない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"畜産物生産",
+      "sub_domain":"産業・資源",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["順序混同"],
+      "keywords_to_avoid":["肉"]
+    },
+    "sources": [{"claim":"2020年主要国の牛肉・鶏肉生産量","source":"FAOSTAT - Production: Crops and livestock products","year":2020,"url":"https://www.fao.org/faostat/en/#data/QCL"}]
+  },
+  {
+    "id": 19,
+    "global_id": 25,
+    "title": "問19",
+    "prompt": "トクヴィルが『アメリカのデモクラシー』で指摘した「多数者の専制」に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"トクヴィルは多数者の専制を防ぐためにすべての国で君主制を復活させるべきだと主張した。","explanation_zh":"陷阱：概念混淆。他主张通过结社地方自治法制约束多数者，并非复辟君主制。","explanation_ja":"誤り。概念混同の罠。トクヴィルは結社・地方自治・司法による抑制を提示。君主制復活を主張したのではない。"},
+      {"id":2,"text":"多数者の専制とは少数派が多数派を抑圧する現象を指す。","explanation_zh":"陷阱：主体错位。正好相反：多数者借民主名义压迫少数者。","explanation_ja":"誤り。主体取違の罠。多数者の専制は多数派が民主主義の名で少数派を抑圧する現象。主体が逆。"},
+      {"id":3,"text":"民主主義のもとで多数派が少数派の自由や権利を侵害する危険性をトクヴィルは指摘した。","explanation_zh":"正确。符合『美国的民主』中关于多数派暴政的核心论述。","explanation_ja":"正解。『アメリカのデモクラシー』(1835/40)で多数派が少数派の権利を侵害する危険(多数者の専制)を指摘した。"},
+      {"id":4,"text":"多数者の専制は経済学の概念であり、独占企業の行動を指す。","explanation_zh":"陷阱：概念混淆。此为政治哲学概念，与垄断企业无关。","explanation_ja":"誤り。概念混同の罠。多数者の専制は政治思想の概念で、独占企業の行動とは無関係。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"トックビル・多数者専制",
+      "sub_domain":"政治思想・政治史",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"1.民主政治"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["トックビル"]
+    },
+    "sources": [{"claim":"「多数者の専制」(tyranny of the majority)はトクヴィル『アメリカのデモクラシー』の中心概念","source":"Alexis de Tocqueville, De la démocratie en Amérique","year":1835,"url":"https://www.britannica.com/biography/Alexis-de-Tocqueville"}]
+  },
+  {
+    "id": 20,
+    "global_id": 26,
+    "title": "問20",
+    "prompt": "日本の国会・内閣・裁判所の関係に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"内閣総理大臣は最高裁判所長官の指名により選出される。","explanation_zh":"陷阱：主体错位。首相由国会议员中由国会指名(宪法67条)、并非由最高裁長官指名。","explanation_ja":"誤り。主体取違の罠。内閣総理大臣は国会が議員の中から指名する(憲法67条)。最高裁長官の指名ではない。"},
+      {"id":2,"text":"国会は内閣のすべての裁判官を罷免する権限をもつ。","explanation_zh":"陷阱：范围扩大。国会通过弹劾裁判所罢免裁判官，但仅限职务违反等，并非全员可罢免。","explanation_ja":"誤り。範囲拡大の罠。国会は弾劾裁判所により裁判官を罷免できるが、対象は職務違反等であり「すべて」罷免はできない。"},
+      {"id":3,"text":"最高裁判所長官は内閣総理大臣が単独で罷免できる。","explanation_zh":"陷阱：概念混淆。最高裁长官罢免依据弹劾裁判与国民审查，首相不能单独罢免。","explanation_ja":"誤り。概念混同の罠。最高裁長官の罷免は弾劾裁判・国民審査によるもので、首相単独では罷免できない。"},
+      {"id":4,"text":"最高裁判所は法律や行政処分が憲法に適合するか否かを判断する違憲審査権をもつ。","explanation_zh":"正确。符合宪法第81条最高裁判所「終審裁判所」违宪审查权。","explanation_ja":"正解。日本国憲法第81条により、最高裁判所は法律・命令等が憲法に適合するか否かを決定する違憲審査権をもつ。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"日本国会・内閣・裁判所",
+      "sub_domain":"三権分立・統治機構",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"3. 日本国憲法"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["権力"]
+    },
+    "sources": [{"claim":"最高裁判所は違憲審査権をもつ","source":"日本国憲法 第81条","year":1947,"url":"https://elaws.e-gov.go.jp/document?lawid=321CONSTITUTION"}]
+  },
+  {
+    "id": 21,
+    "global_id": 27,
+    "title": "問21",
+    "prompt": "日本の裁判員制度に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"裁判員制度は、国民から選ばれた裁判員が裁判官とともに重大な刑事事件の第一審に参加する制度である。","explanation_zh":"正确。符合裁判员法关于刑事第一审审理的规定(2009年实施)。","explanation_ja":"正解。裁判員法に基づき、有権者から選ばれた裁判員が裁判官と共に重大な刑事事件の第一審を担当する制度(2009年施行)。"},
+      {"id":2,"text":"裁判員制度は1990年に施行された行政訴訟の制度である。","explanation_zh":"陷阱：时态错位。本制度2009年施行、且适用于刑事而非行政。","explanation_ja":"誤り。時態錯位の罠。裁判員制度は2009年施行で対象は重大刑事事件。1990年・行政訴訟は誤り。"},
+      {"id":3,"text":"裁判員は民事事件の控訴審に参加する。","explanation_zh":"陷阱：概念混淆。裁判员只参与刑事一审，不参与民事或控诉审。","explanation_ja":"誤り。概念混同の罠。裁判員の対象は重大刑事事件の第一審のみで、民事事件や控訴審には参加しない。"},
+      {"id":4,"text":"裁判員は裁判官の意見に従い投票する義務がある。","explanation_zh":"陷阱：范围扩大。裁判员独立形成意见，与裁判官同票决，并非义务跟从。","explanation_ja":"誤り。範囲拡大の罠。裁判員は独立して評議に参加し、裁判官の意見に従う義務はない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"裁判員制度",
+      "sub_domain":"三権分立・統治機構",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"4.政治参加"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位"],
+      "keywords_to_avoid":["制度"]
+    },
+    "sources": [{"claim":"裁判員制度の対象は重大刑事事件の第一審","source":"裁判員の参加する刑事裁判に関する法律(裁判員法)","year":2009,"url":"https://www.saibanin.courts.go.jp/introduction/"}]
+  },
+  {
+    "id": 22,
+    "global_id": 28,
+    "title": "問22",
+    "prompt": "日本国憲法第27条に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"第27条は国民の生存権を定めた条文である。","explanation_zh":"陷阱：概念混淆。生存权是宪法25条，非27条。","explanation_ja":"誤り。概念混同の罠。生存権は第25条。第27条は勤労に関する規定。"},
+      {"id":2,"text":"第27条はすべて国民の勤労の権利および義務、ならびに勤労条件の基準を定めている。","explanation_zh":"正确。符合宪法第27条第1項及第2項之规定。","explanation_ja":"正解。第27条1項で勤労の権利と義務、2項で勤労条件の基準、3項で児童酷使の禁止を定めている。"},
+      {"id":3,"text":"第27条は信教の自由を保障している。","explanation_zh":"陷阱：概念混淆。信教自由是宪法20条。","explanation_ja":"誤り。概念混同の罠。信教の自由は第20条。第27条と無関係。"},
+      {"id":4,"text":"第27条は天皇の国事行為について定めている。","explanation_zh":"陷阱：概念混淆。天皇国事行为规定在宪法第6条与第7条，与第27条无关。","explanation_ja":"誤り。概念混同の罠。天皇の国事行為は第6条・第7条で規定。第27条とは無関係。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"日本国憲法第27条",
+      "sub_domain":"憲法・人権",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"3. 日本国憲法"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["憲法"]
+    },
+    "sources": [{"claim":"憲法第27条は勤労の権利・義務、勤労条件の基準、児童酷使の禁止","source":"日本国憲法 第27条","year":1947,"url":"https://elaws.e-gov.go.jp/document?lawid=321CONSTITUTION"}]
+  },
+  {
+    "id": 23,
+    "global_id": 29,
+    "title": "問23",
+    "prompt": "基本的人権の歴史に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"1789年のフランス人権宣言は、自由・平等・所有・抵抗の権利を「人の生まれながらの権利」として宣言した。","explanation_zh":"正确。符合法国人权宣言第1条及第2条所述自然权利之内容。","explanation_ja":"正解。1789年フランス人権宣言は自由・平等・所有・安全・圧政への抵抗を自然権として宣言した(第2条)。"},
+      {"id":2,"text":"1215年のマグナ・カルタはアメリカ独立宣言として制定された。","explanation_zh":"陷阱：主体错位。马格纳卡尔塔是英国国王约翰所签，并非美国独立宣言。","explanation_ja":"誤り。主体取違の罠。マグナ・カルタは1215年イングランド王ジョンが署名した文書。米独立宣言(1776)とは別物。"},
+      {"id":3,"text":"1948年の世界人権宣言はソ連単独の宣言として採択された。","explanation_zh":"陷阱：主体错位。世界人权宣言由联合国大会通过，并非苏联単独。","explanation_ja":"誤り。主体取違の罠。世界人権宣言は1948年国連総会で採択された国際宣言で、ソ連単独ではない。"},
+      {"id":4,"text":"1919年のワイマール憲法は自由権を一切認めなかった。","explanation_zh":"陷阱：概念混淆。魏玛宪法首次明文规定生存权等社会权，同时保障古典自由权。","explanation_ja":"誤り。概念混同の罠。ワイマール憲法は古典的自由権に加え世界初の社会権を規定した憲法。「一切認めなかった」は誤り。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"基本的人権歴史",
+      "sub_domain":"憲法・人権",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"3. 日本国憲法"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違"],
+      "keywords_to_avoid":["人権"]
+    },
+    "sources": [{"claim":"フランス人権宣言の内容(自由・平等・所有・抵抗)","source":"Déclaration des Droits de l'Homme et du Citoyen 1789","year":1789,"url":"https://www.elysee.fr/la-presidence/la-declaration-des-droits-de-l-homme-et-du-citoyen"}]
+  },
+  {
+    "id": 24,
+    "global_id": 30,
+    "title": "問24",
+    "prompt": "日本における環境権など「新しい人権」に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"環境権は日本国憲法第9条に明文で規定されている。","explanation_zh":"陷阱：概念混淆。宪法9条是放弃战争条款、非环境权。","explanation_ja":"誤り。概念混同の罠。第9条は戦争放棄に関する条文で環境権ではない。環境権は明文規定はない。"},
+      {"id":2,"text":"環境権はプライバシー権・知る権利などとともに、憲法第13条の幸福追求権を根拠に主張される「新しい人権」である。","explanation_zh":"正确。符合公法学通说：以宪法第13条为根据的新人权范畴。","explanation_ja":"正解。環境権はプライバシー権・知る権利と同様、第13条幸福追求権を根拠とする「新しい人権」と位置付けられる。"},
+      {"id":3,"text":"最高裁判所は環境権を明確な憲法上の権利として確立する判決を下している。","explanation_zh":"陷阱：时态错位。最高裁迄今未明确肯定环境权作为宪法权利。","explanation_ja":"誤り。時態錯位の罠。最高裁は環境権を独立した憲法上の権利として明確に承認した判決を出していない。"},
+      {"id":4,"text":"新しい人権はすべて国会の議決によって既に憲法に追加されている。","explanation_zh":"陷阱：范围扩大。宪法迄今未为新人权增订条文。","explanation_ja":"誤り。範囲拡大の罠。新しい人権を憲法本文に追加する改正は行われていない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"環境権・新権利",
+      "sub_domain":"憲法・人権",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"3. 日本国憲法"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["権利"]
+    },
+    "sources": [{"claim":"新しい人権は憲法第13条幸福追求権を根拠とする","source":"日本国憲法 第13条 / 最高裁判例(京都府学連事件 等)","year":1969,"url":"https://www.courts.go.jp/app/hanrei_jp/detail2?id=51220"}]
+  },
+  {
+    "id": 25,
+    "global_id": 31,
+    "title": "問25",
+    "prompt": "日本における選挙権年齢の引き下げに関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"選挙権年齢はすべての地方選挙でのみ18歳に引き下げられ、国政選挙では20歳のままである。","explanation_zh":"陷阱：范围扩大。国政地方均下调至18岁，没有区别。","explanation_ja":"誤り。範囲拡大の罠。国政・地方を問わずすべての公職選挙で18歳。国政が20歳のままという記述は誤り。"},
+      {"id":2,"text":"選挙権年齢は2010年に16歳に引き下げられた。","explanation_zh":"陷阱：时态错位。2015年公職選挙法改正、2016年6月施行、下调到18岁，非16岁。","explanation_ja":"誤り。時態錯位の罠。2015年公職選挙法改正・2016年施行で18歳に引下げ。16歳ではない。"},
+      {"id":3,"text":"2015年の公職選挙法改正により選挙権年齢は20歳から18歳に引き下げられ、2016年7月の参議院選挙から適用された。","explanation_zh":"正确。符合公职选举法第9条修订及施行时间事实。","explanation_ja":"正解。2015年公職選挙法改正により選挙権年齢は18歳に引下げ、2016年7月10日参議院選挙から適用された。"},
+      {"id":4,"text":"被選挙権年齢も同時に衆議院議員で18歳に引き下げられた。","explanation_zh":"陷阱：范围扩大。下调的只是選挙権、被选举权(衆25/参30)未变更。","explanation_ja":"誤り。範囲拡大の罠。被選挙権年齢は衆25歳・参30歳のままで、選挙権年齢のみ18歳に引下げ。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"選挙権・18歳",
+      "sub_domain":"選挙・政党",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"4.政治参加"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["範囲拡大"],
+      "keywords_to_avoid":["選挙"]
+    },
+    "sources": [{"claim":"選挙権年齢18歳引下げ(2015年改正・2016年施行)","source":"公職選挙法第9条改正 / 総務省 選挙年齢の引下げ","year":2016,"url":"https://www.soumu.go.jp/senkyo/senkyo_s/news/senkyo/h28_sansenkyo.html"}]
+  },
+  {
+    "id": 26,
+    "global_id": 32,
+    "title": "問26",
+    "prompt": "日本の地方自治における直接請求権に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"条例の制定・改廃の請求はすべての有権者の3分の2以上の署名が必要である。","explanation_zh":"陷阱：数值混同。条例制定改废请求所需署名为有权者总数的50分之1以上，并非3分之2。","explanation_ja":"誤り。数値混同の罠。条例の制定・改廃請求は有権者の50分の1以上の署名で足り、3分の2は誤り。"},
+      {"id":2,"text":"首長の解職請求は国の総選挙でしか実施できない。","explanation_zh":"陷阱：概念混淆。解职请求(罢免)属地方自治制度，与国政选举无关。","explanation_ja":"誤り。概念混同の罠。首長の解職請求は地方自治法上の住民投票で行われ、国政選挙とは無関係。"},
+      {"id":3,"text":"直接請求権は日本国憲法第9条に基づく権利である。","explanation_zh":"陷阱：概念混淆。直接请求权根据是地方自治法、宪法第8章地方自治、非9条(放弃战争)。","explanation_ja":"誤り。概念混同の罠。直接請求権の根拠は地方自治法と憲法第8章。第9条(戦争放棄)とは無関係。"},
+      {"id":4,"text":"首長や議員の解職請求(リコール)は、原則として有権者の3分の1以上の署名を集めて選挙管理委員会に対して行う。","explanation_zh":"正确。符合地方自治法第8081条解職請求要件。","explanation_ja":"正解。地方自治法に基づき、首長や議員の解職請求は原則として有権者の3分の1以上の署名を集め、選挙管理委員会に提出する。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"地方自治・直接請求權",
+      "sub_domain":"地方自治",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"2. 日本の統治機構"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["範囲拡大"],
+      "keywords_to_avoid":["自治"]
+    },
+    "sources": [{"claim":"首長・議員の解職請求は原則3分の1以上の署名","source":"地方自治法 第80条・第81条","year":1947,"url":"https://elaws.e-gov.go.jp/document?lawid=322AC0000000067"}]
+  },
+  {
+    "id": 27,
+    "global_id": 33,
+    "title": "問27",
+    "prompt": "日本における集団的自衛権の行使容認をめぐる動きに関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"日本国憲法第9条が改正され、集団的自衛権の行使が明文で認められた。","explanation_zh":"陷阱：时态错位。宪法9条本身未修改，仅通过閣議决定与法案実施变更解釋。","explanation_ja":"誤り。時態錯位の罠。憲法第9条そのものは改正されておらず、解釈変更と安保関連法によって対応された。"},
+      {"id":2,"text":"2014年に政府は閣議決定で憲法第9条の解釈を変更し、限定的に集団的自衛権の行使を認める方針を示した。","explanation_zh":"正确。符合2014年7月1日閣議决定，限定容认集团自卫权。","explanation_ja":"正解。2014年7月1日の閣議決定で従来の憲法解釈を変更し、限定的な集団的自衛権の行使容認を示した。"},
+      {"id":3,"text":"集団的自衛権は日本国憲法第25条に明文で規定された権利である。","explanation_zh":"陷阱：概念混淆。宪法25条是生存权条款，与集团自卫权无关。","explanation_ja":"誤り。概念混同の罠。第25条は生存権の条文。集団的自衛権の根拠条文ではない。"},
+      {"id":4,"text":"集団的自衛権の行使容認に伴う安全保障関連法は2014年に国会で成立した。","explanation_zh":"陷阱：时态错位。安全保障関連法在2015年9月成立、2016年3月施行，并非2014年。","explanation_ja":"誤り。時態錯位の罠。安全保障関連法は2015年9月成立・2016年3月施行。2014年は閣議決定の年。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"集団的自衛権・2014年",
+      "sub_domain":"国際政治・外交",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"5. 国際政治"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["2014年"]
+    },
+    "sources": [{"claim":"2014年7月1日閣議決定で集団的自衛権の限定的行使を容認","source":"内閣官房 国の存立を全うし、国民を守るための切れ目のない安全保障法制の整備について","year":2014,"url":"https://www.cas.go.jp/jp/gaiyou/jimu/pdf/anpohosei.pdf"}]
+  },
+  {
+    "id": 28,
+    "global_id": 34,
+    "title": "問28",
+    "prompt": "次の日本近現代史の出来事を年代の古い順に並べたものとして正しいものはどれですか。ア: 明治維新の開始、イ: 日清戦争の勃発、ウ: 日露戦争の勃発、エ: 戦後の民主化改革。",
+    "choices": [
+      {"id":1,"text":"イ → ア → ウ → エ","explanation_zh":"陷阱：顺序混乱。明治维新1868→日清1894，明治维新在日清前。","explanation_ja":"誤り。順序混同の罠。明治維新(1868)は日清戦争(1894)より前。先頭をイにしているのは誤り。"},
+      {"id":2,"text":"ア → イ → ウ → エ","explanation_zh":"正确。符合日本近现代年代序列：1868→1894→1904→1945年以降。","explanation_ja":"正解。明治維新(1868)→日清戦争(1894)→日露戦争(1904)→戦後改革(1945-)の順で正しい。"},
+      {"id":3,"text":"ア → ウ → イ → エ","explanation_zh":"陷阱：顺序混乱。日清战争(1894)早于日俄战争(1904)，本选项将这两个事件的顺序颠倒。","explanation_ja":"誤り。順序混同の罠。日清戦争(1894)は日露戦争(1904)より前。ウ→イとするのは順序が逆。"},
+      {"id":4,"text":"エ → ア → イ → ウ","explanation_zh":"陷阱：顺序混乱。戦後改革(1945-)是最新、不可作开头。","explanation_ja":"誤り。順序混同の罠。戦後改革は1945年以降で最も新しい出来事。先頭にするのは時系列が逆。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"フランス革命年代順",
+      "sub_domain":"近代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"1. 近代化の進展とその影響"},
+      "question_form":"時系列整序",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["順序混同"],
+      "keywords_to_avoid":["革命"]
+    },
+    "sources": [{"claim":"明治維新1868 / 日清戦争1894 / 日露戦争1904 / 戦後改革1945-","source":"山川出版社 詳説日本史 (高校日本史教科書)","year":2020,"url":"https://www.yamakawa.co.jp/product/05213"}]
+  },
+  {
+    "id": 29,
+    "global_id": 35,
+    "title": "問29",
+    "prompt": "日清戦争およびその後の三国干渉に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"日清戦争(1894-95年)は朝鮮をめぐる対立から始まり、下関条約で日本は遼東半島・台湾・澎湖諸島の割譲と賠償金を得たが、ロシア・ドイツ・フランスの三国干渉により遼東半島を清に返還した。","explanation_zh":"正确。符合下関条约及三国干涉的史实。","explanation_ja":"正解。下関条約(1895)で遼東半島・台湾・澎湖諸島の割譲を受けたが、露独仏の三国干渉で遼東半島を清に返還(後に賠償金で代替)。"},
+      {"id":2,"text":"三国干渉はイギリス・アメリカ・フランスの三国によって行われた。","explanation_zh":"陷阱：主体错位。三国干涉是俄独法、并非英美法。","explanation_ja":"誤り。主体取違の罠。三国干渉はロシア・ドイツ・フランスの三国。イギリス・アメリカは含まれない。"},
+      {"id":3,"text":"日清戦争後、日本は遼東半島を最終的に保持した。","explanation_zh":"陷阱：时态错位。三国干涉后日本被迫归还遼東半岛。","explanation_ja":"誤り。時態錯位の罠。三国干渉により日本は遼東半島を清に返還した。保持し続けたという記述は誤り。"},
+      {"id":4,"text":"下関条約は1905年にロシアと結ばれた条約である。","explanation_zh":"陷阱：时态错位。下关条约是1895年与清朝所签，与1905年朴茨茅斯条约(对俄)无关。","explanation_ja":"誤り。時態錯位の罠。下関条約は1895年に清国と締結。1905年のポーツマス条約(対露)とは別。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"日清戰爭・三國干渉",
+      "sub_domain":"近代日本",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"1. 近代化の進展とその影響"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違"],
+      "keywords_to_avoid":["干渉"]
+    },
+    "sources": [{"claim":"下関条約と三国干渉(露・独・仏)","source":"外務省 日本外交文書 / 山川出版社 詳説日本史","year":1895,"url":"https://www.mofa.go.jp/mofaj/annai/honsho/shiryo/archives/c_1.html"}]
+  },
+  {
+    "id": 30,
+    "global_id": 36,
+    "title": "問30",
+    "prompt": "20世紀初頭のイギリスの自治領(Dominion)に関する記述として最も適当でないものはどれですか。",
+    "choices": [
+      {"id":1,"text":"オーストラリア連邦は1950年代になって初めてイギリスから自治領の地位を与えられた。","explanation_zh":"正确。正确(不适当项)。澳大利亚联邦1901年成立、与1950年代不符。","explanation_ja":"正解。正解(誤った記述)。オーストラリア連邦は1901年1月1日に自治領として成立した。1950年代は誤り。"},
+      {"id":2,"text":"カナダ連邦は1867年の英領北アメリカ法により自治領として成立した。","explanation_zh":"陷阱：时态错位。题目要选不适当项。本项与史实一致(1867年)，是正确陈述。","explanation_ja":"誤り。時態錯位の罠。本項は1867年成立の史実に合致する正しい陳述であり、設問が求める「不適当」ではない。"},
+      {"id":3,"text":"ニュージーランドは1907年に自治領の地位を得た。","explanation_zh":"陷阱：时态错位。本项与史实一致(1907)、是正确陈述。","explanation_ja":"誤り。時態錯位の罠。1907年9月のニュージーランド自治領化は史実通りで、正しい陳述。設問の「不適当」ではない。"},
+      {"id":4,"text":"南アフリカ連邦は1910年に自治領として成立した。","explanation_zh":"陷阱：时态错位。本项与史实一致(1910)、是正确陈述。","explanation_ja":"誤り。時態錯位の罠。南アフリカ連邦は1910年5月成立の史実通りで、正しい陳述。設問の「不適当」ではない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"自治領・Dominion・20世紀初",
+      "sub_domain":"近代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"1. 近代化の進展とその影響"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答誤記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位"],
+      "keywords_to_avoid":["自治領"]
+    },
+    "sources": [{"claim":"オーストラリア連邦の成立は1901年(1950年代ではない)","source":"National Museum of Australia - Federation","year":1901,"url":"https://www.nma.gov.au/defining-moments/resources/federation"}]
+  },
+  {
+    "id": 31,
+    "global_id": 37,
+    "title": "問31",
+    "prompt": "1921〜22年のワシントン会議および四カ国条約に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"四カ国条約は太平洋地域の現状維持を定め、結果として日英同盟が更新・継続された。","explanation_zh":"陷阱：概念混淆。四国条约缔结同时废弃了日英同盟，并非继续。","explanation_ja":"誤り。概念混同の罠。四カ国条約の締結により日英同盟は廃棄された。継続ではない。"},
+      {"id":2,"text":"ワシントン会議はソ連が主催した社会主義国際会議である。","explanation_zh":"陷阱：主体错位。华盛顿会议是美国主导、与苏联无关。","explanation_ja":"誤り。主体取違の罠。ワシントン会議はアメリカ主導の軍縮・極東問題会議。ソ連主催ではない。"},
+      {"id":3,"text":"ワシントン会議では日清戦争の戦後処理が主題となった。","explanation_zh":"陷阱：时态错位。日清战争(1894-95)与1921-22的华盛顿会议无关。","explanation_ja":"誤り。時態錯位の罠。日清戦争は1894-95年で、ワシントン会議の議題ではない。"},
+      {"id":4,"text":"ワシントン会議では四カ国条約・九カ国条約・海軍軍縮(五カ国)条約が締結され、東アジア・太平洋の国際秩序が再編された。","explanation_zh":"正确。符合华盛顿体系三大条约(四国九国五国)的史实。","explanation_ja":"正解。ワシントン会議では四カ国条約(太平洋現状維持)・九カ国条約(中国主権尊重)・海軍軍縮条約が締結された。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"ワシントン會議・四國條約",
+      "sub_domain":"近代日本",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"1. 近代化の進展とその影響"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["會議"]
+    },
+    "sources": [{"claim":"ワシントン会議で四カ国・九カ国・海軍軍縮条約を締結","source":"外務省 条約集 / Britannica - Washington Conference","year":1922,"url":"https://www.britannica.com/event/Washington-Conference"}]
+  },
+  {
+    "id": 32,
+    "global_id": 38,
+    "title": "問32",
+    "prompt": "1948〜49年のベルリン封鎖に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"ベルリン封鎖はアメリカが東ベルリンを封鎖した行動である。","explanation_zh":"陷阱：主体错位。封锁是苏联对西柏林、并非美国対东柏林。","explanation_ja":"誤り。主体取違の罠。ベルリン封鎖はソ連が西ベルリンへの陸路を封鎖した行動。主体・対象が逆。"},
+      {"id":2,"text":"ベルリン封鎖は1939年に第二次世界大戦の開戦と同時に始まった。","explanation_zh":"陷阱：时态错位。封锁始于1948年6月、与1939年战争开始无关。","explanation_ja":"誤り。時態錯位の罠。ベルリン封鎖は1948年6月から1949年5月。1939年とは無関係。"},
+      {"id":3,"text":"ソ連は1948年6月、西側占領地区から西ベルリンへの陸路を封鎖し、米英はベルリン大空輸により西ベルリンへの物資補給を行った。","explanation_zh":"正确。符合冷战初期柏林封锁(1948.6-1949.5)的史实。","explanation_ja":"正解。1948年6月ソ連が西側占領地区から西ベルリンへの陸路を封鎖し、米英は大空輸(Berlin Airlift)で補給を継続した。"},
+      {"id":4,"text":"ベルリン封鎖の結果、東西ドイツが直ちに統一された。","explanation_zh":"陷阱：时态错位。封锁后东西德分裂(1949年成立)，统一在1990年。","explanation_ja":"誤り。時態錯位の罠。封鎖後の1949年に東西ドイツが分裂成立。統一は1990年で、直ちに統一は誤り。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"ベルリン封鎖・1948年",
+      "sub_domain":"現代世界",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"5. 金融"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["地域取違"],
+      "keywords_to_avoid":["封鎖"]
+    },
+    "sources": [{"claim":"ベルリン封鎖(1948.6-1949.5)とベルリン大空輸","source":"U.S. Department of State - Office of the Historian, Berlin Airlift","year":1948,"url":"https://history.state.gov/milestones/1945-1952/berlin-airlift"}]
+  }
+]
+}

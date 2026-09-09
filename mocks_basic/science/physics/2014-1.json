@@ -1,0 +1,774 @@
+{
+  "subject": "science",
+  "section": "physics",
+  "year": 2014,
+  "round": 1,
+  "title": "2014年 第一回 物理",
+  "image_path": "science/physics/images/2014-1",
+  "questions": [
+  {
+    "id": 1,
+    "title": "Ⅰ_A",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":1,
+        "choices":[
+          {"id":1,"text":"\\(\\dfrac{v_0}{2g\\sin\\theta}\\)","explanation_zh":"陷阱：比例关系误认。分母多了因子2，等加速度停止条件是v=v₀-at=0，故t=v₀/a，a=gsinθ，t=v₀/(gsinθ)，分母不含2。","explanation_ja":"誤り。比例関係誤認の罠。分母に余分な因子2が含まれている。等加速度で止まる条件はv=v₀-at=0なのでt=v₀/aであり、a=gsinθだからt=v₀/(gsinθ)となる。"},
+          {"id":2,"text":"\\(\\dfrac{v_0}{g\\sin\\theta\\cos\\theta}\\)","explanation_zh":"陷阱：公式错误。分母多了cosθ，斜面方向加速度仅为gsinθ，与cosθ无关。","explanation_ja":"誤り。公式誤用の罠。分母に不要なcosθが含まれる。斜面方向の加速度はgsinθだけであり、cosθは無関係である。"},
+          {"id":3,"text":"\\(\\dfrac{2v_0}{g\\sin\\theta}\\)","explanation_zh":"陷阱：比例关系误认。此式是往返总时间，到达最高点只需一半即t=v₀/(gsinθ)。","explanation_ja":"誤り。比例関係誤認の罠。この式は往復全体の時間であり、最高点に達するまではその半分のt=v₀/(gsinθ)である。"},
+          {"id":4,"text":"\\(\\dfrac{v_0}{g\\sin\\theta}\\)","explanation_zh":"正确。斜面方向加速度a=gsinθ（向下），初速v₀向上，由v=v₀-at=0得t=v₀/(gsinθ)。","explanation_ja":"正解。斜面方向の加速度はa=gsinθ（下向き）、初速はv₀（上向き）。v=v₀-at=0よりt=v₀/(gsinθ)となる。"},
+          {"id":5,"text":"\\(\\dfrac{v_0\\cos\\theta}{g}\\)","explanation_zh":"陷阱：方向混同。将水平分量代入了，斜面上运动应使用沿斜面加速度gsinθ，不含cosθ/g的组合。","explanation_ja":"誤り。方向混同の罠。水平成分を代入してしまっている。斜面上の運動では加速度gsinθを用いるべきであり、cosθ/gの組み合わせは不適切である。"},
+          {"id":6,"text":"\\(\\dfrac{v_0\\sin\\theta}{g}\\)","explanation_zh":"陷阱：符号·方向混同。sinθ/g是将分子分母颠倒的错误形式，正确应为v₀/(gsinθ)。","explanation_ja":"誤り。符号・向き混同の罠。sinθ/gは分子と分母を逆にした誤りである。正しくはv₀/(gsinθ)となる。"}
+        ],
+        "answer":4,
+        "tag":{
+          "unit":"I 力学",
+          "sub_domain":"等加速度運動",
+          "question_form":"式変形",
+          "required_skill":"法則・公式適用",
+          "requires_image":false,
+          "trap_patterns":["符号・向き混同","単位換算ミス"],
+          "keywords_to_avoid":[],
+          "syllabus_path":{"area":"I 力学","field":"物理","item":"1. 運動と力"}
+        },
+        "prompt":"水平面に対して角度θの滑らかな斜面上で、物体が斜面方向の初速度v₀で上向きに打ち出された。斜面に沿って上方向を正とし、重力加速度の大きさをgとする。物体が最高点に達するまでの時間はいくらか。"
+      }
+    ],
+    "tag": {
+      "unit":"I 力学",
+      "sub_domain":"等加速度運動",
+      "question_form":"式変形",
+      "required_skill":"法則・公式適用",
+      "requires_image":false,
+      "trap_patterns":["符号・向き混同","単位換算ミス"],
+      "keywords_to_avoid":[],
+      "syllabus_path":{"area":"I 力学","field":"物理","item":"1. 運動と力"}
+    },
+    "prompt": "水平面に対して角度θの滑らかな斜面上で、物体が斜面方向の初速度v₀で上向きに打ち出された。斜面に沿って上方向を正とし、重力加速度の大きさをgとする。"
+  },
+  {
+    "id": 2,
+    "title": "Ⅰ_B",
+    "sub_questions": [
+      {
+        "sub_id":2,
+        "global_id":2,
+        "choices":[
+          {"id":1,"text":"\\(\\sqrt{2gH}\\)","explanation_zh":"陷阱：遗漏条件。此为落到地面时的速度，题目要求高度h处（尚未落地）的速度。","explanation_ja":"誤り。条件見落とし罠。これは地面に到達したときの速さであり、問題は高さhの点での速さを求めている。"},
+          {"id":2,"text":"\\(\\sqrt{2gh}\\)","explanation_zh":"陷阱：符号·方向混同。应用高度差(H-h)而非h，从H下落到h处，下落距离为H-h。","explanation_ja":"誤り。符号・向き混同の罠。高さの差は(H-h)であってhではない。HからhまでH-hだけ落下する。"},
+          {"id":3,"text":"\\(\\sqrt{g(H-h)}\\)","explanation_zh":"陷阱：比例关系误认。系数应为2，自由落体公式v²=2gΔh，遗漏了因子2。","explanation_ja":"誤り。比例関係誤認の罠。係数は2でなければならない。自由落体ではv²=2gΔhであり、因子2を省いている。"},
+          {"id":4,"text":"\\(\\sqrt{2g(H-h)}\\)","explanation_zh":"正确。从高度H落至高度h，下落距离ΔH=H-h，由v²=2gΔH得v=√(2g(H-h))。","explanation_ja":"正解。高さHからhまで落下距離はΔH=H-hであり、v²=2gΔHよりv=√(2g(H-h))となる。"},
+          {"id":5,"text":"\\(g(H-h)\\)","explanation_zh":"陷阱：单位换算错误。g(H-h)的量纲为m²/s²，不是速度，速度应取平方根。","explanation_ja":"誤り。単位換算ミスの罠。g(H-h)の次元はm²/s²であり速さではない。速さは√をとる必要がある。"}
+        ],
+        "answer":4,
+        "tag":{
+          "unit":"I 力学",
+          "sub_domain":"等加速度運動",
+          "question_form":"計算選択",
+          "required_skill":"ベクトル判断",
+          "requires_image":false,
+          "trap_patterns":["符号・向き混同","単位換算ミス"],
+          "keywords_to_avoid":[],
+          "syllabus_path":{"area":"I 力学","field":"物理","item":"1. 運動と力"}
+        },
+        "prompt":"地上からの高さHの点から小球を静かに放した。地上からの高さhの点（h < H）を通過するときの小球の速さはいくらか。ただし、重力加速度の大きさをgとし、空気抵抗は無視する。"
+      }
+    ],
+    "tag": {
+      "unit":"I 力学",
+      "sub_domain":"等加速度運動",
+      "question_form":"計算選択",
+      "required_skill":"ベクトル判断",
+      "requires_image":false,
+      "trap_patterns":["符号・向き混同","単位換算ミス"],
+      "keywords_to_avoid":[],
+      "syllabus_path":{"area":"I 力学","field":"物理","item":"1. 運動と力"}
+    },
+    "prompt": "地上からの高さHの点から小球を静かに放した。空気抵抗は無視し、重力加速度の大きさをgとする。"
+  },
+  {
+    "id": 3,
+    "title": "Ⅰ_C",
+    "sub_questions": [
+      {
+        "sub_id":3,
+        "global_id":3,
+        "choices":[
+          {"id":1,"text":"\\(p_1 \\cdot \\dfrac{T_2}{T_1}\\)","explanation_zh":"正确。体积恒定时，由查理定律p/T=const，得p₂=p₁·(T₂/T₁)。","explanation_ja":"正解。体積一定のとき、シャルルの法則p/T=constより、p₂=p₁·(T₂/T₁)となる。"},
+          {"id":2,"text":"\\(p_1 \\cdot \\dfrac{T_1}{T_2}\\)","explanation_zh":"陷阱：比例关系误认。T₁和T₂位置颠倒，温度升高压强应升高，但此式使p₂<p₁（当T₂>T₁时）。","explanation_ja":"誤り。比例関係誤認の罠。T₁とT₂が逆になっている。温度が上がると圧力は上がるはずだが、この式ではT₂>T₁のときp₂<p₁となってしまう。"},
+          {"id":3,"text":"\\(p_1 \\cdot \\dfrac{T_2 - T_1}{T_1}\\)","explanation_zh":"陷阱：公式错误。这是压强的增量部分，不是变化后的压强。正确应为p₁·T₂/T₁。","explanation_ja":"誤り。公式誤用の罠。これは圧力の増分であり、変化後の圧力ではない。正しくはp₁·T₂/T₁である。"},
+          {"id":4,"text":"\\(p_1 + \\dfrac{T_2 - T_1}{T_1}\\)","explanation_zh":"陷阱：比例关系误认。将乘法关系错误地写成了加法，气体定律是乘比值而非加差值。","explanation_ja":"誤り。比例関係誤認の罠。乗法の関係を加法で表してしまっている。気体の法則は比を乗じるものであり、差を加えるのではない。"}
+        ],
+        "answer":1,
+        "tag":{
+          "unit":"II 熱",
+          "sub_domain":"気体分子運動論",
+          "question_form":"計算選択",
+          "required_skill":"量的計算",
+          "requires_image":false,
+          "trap_patterns":["比例関係誤認","単位換算ミス"],
+          "keywords_to_avoid":[],
+          "syllabus_path":{"area":"II 熱","field":"物理","item":"2. 気体の性質"}
+        },
+        "prompt":"密閉容器内の理想気体の温度を絶対温度T₁からT₂に上げた。容器の体積は変化しない。このとき、気体の圧力はどのように変化するか。ただし、変化前の圧力をp₁とする。"
+      }
+    ],
+    "tag": {
+      "unit":"II 熱",
+      "sub_domain":"気体分子運動論",
+      "question_form":"計算選択",
+      "required_skill":"量的計算",
+      "requires_image":false,
+      "trap_patterns":["比例関係誤認","単位換算ミス"],
+      "keywords_to_avoid":[],
+      "syllabus_path":{"area":"II 熱","field":"物理","item":"2. 気体の性質"}
+    },
+    "prompt": "密閉容器内の理想気体の温度を絶対温度T₁からT₂に上げた。容器の体積は変化せず、変化前の圧力をp₁とする。"
+  },
+  {
+    "id": 4,
+    "title": "Ⅰ_D",
+    "sub_questions": [
+      {
+        "sub_id":4,
+        "global_id":4,
+        "choices":[
+          {"id":1,"text":"\\(v + \\dfrac{Ft}{m}\\)","explanation_zh":"陷阱：符号·方向混同。摩擦力与运动方向相反（向左），力积应为负，速度减小，不是增大。","explanation_ja":"誤り。符号・向き混同の罠。摩擦力は運動方向と逆向き（左向き）なので力積は負となり、速度は減少する。"},
+          {"id":2,"text":"\\(mv - Ft\\)","explanation_zh":"陷阱：单位换算错误。mv-Ft的量纲为kg·m/s，不是速度(m/s)，需要除以质量m。","explanation_ja":"誤り。単位換算ミスの罠。mv-Ftの次元はkg·m/sであり、速さ(m/s)ではない。質量mで割る必要がある。"},
+          {"id":3,"text":"\\(v - \\dfrac{Ft}{m}\\)","explanation_zh":"正确。由运动量定理mv'=mv-Ft（摩擦力向左取负），得v'=v-Ft/m。","explanation_ja":"正解。運動量の定理mv'=mv-Ft（摩擦力は左向きで負）より、v'=v-Ft/mとなる。"},
+          {"id":4,"text":"\\(\\dfrac{mv}{Ft}\\)","explanation_zh":"陷阱：保存则选择错误。此式无物理意义，运动量定理是差的关系，不是分式。","explanation_ja":"誤り。保存則選択ミスの罠。この式に物理的意味はない。運動量の定理は差の関係であり、分数の形ではない。"}
+        ],
+        "answer":3,
+        "tag":{
+          "unit":"I 力学",
+          "sub_domain":"運動量・力積",
+          "question_form":"計算選択",
+          "required_skill":"量的計算",
+          "requires_image":false,
+          "trap_patterns":["保存則選択ミス","初期条件混同"],
+          "keywords_to_avoid":[],
+          "syllabus_path":{"area":"I 力学","field":"物理","item":"2. エネルギーと運動量"}
+        },
+        "prompt":"質量mの物体が水平面上を初速度v（右向き）で滑り始めた。水平面から大きさFの摩擦力（左向き）を受けながら時間tが経過した。このとき物体の速度はいくらか。ただし、右向きを正とする。"
+      }
+    ],
+    "tag": {
+      "unit":"I 力学",
+      "sub_domain":"運動量・力積",
+      "question_form":"計算選択",
+      "required_skill":"量的計算",
+      "requires_image":false,
+      "trap_patterns":["保存則選択ミス","初期条件混同"],
+      "keywords_to_avoid":[],
+      "syllabus_path":{"area":"I 力学","field":"物理","item":"2. エネルギーと運動量"}
+    },
+    "prompt": "質量mの物体が水平面上を初速度v（右向き）で滑り始め、大きさFの摩擦力（左向き）を受けながら運動した。右向きを正とする。"
+  },
+  {
+    "id": 5,
+    "title": "Ⅰ_E",
+    "sub_questions": [
+      {
+        "sub_id":5,
+        "global_id":5,
+        "choices":[
+          {"id":1,"text":"\\(\\dfrac{mg}{2\\sin\\theta}\\)","explanation_zh":"陷阱：符号·方向混同。力矩臂计算错误，糸张力（水平）绕左端的力矩臂为Lsinθ，重力绕左端的力矩臂为(L/2)cosθ，故T=mgcosθ/(2sinθ)而非mg/(2sinθ)。","explanation_ja":"誤り。符号・向き混同の罠。モーメントの腕の計算が誤っている。張力（水平）の左端周りのモーメントの腕はLsinθ、重力の腕は(L/2)cosθなのでT=mgcosθ/(2sinθ)となる。"},
+          {"id":2,"text":"\\(\\dfrac{mg\\cos\\theta}{2\\sin\\theta}\\)","explanation_zh":"正确。以左端为支点，张力力矩：T·Lsinθ，重力力矩：mg·(L/2)cosθ，平衡：T·Lsinθ=mg(L/2)cosθ，化简得T=mgcosθ/(2sinθ)。","explanation_ja":"正解。左端を支点として、張力のモーメント：T·Lsinθ、重力のモーメント：mg·(L/2)cosθ。つり合いよりT·Lsinθ=mg(L/2)cosθ、整理してT=mgcosθ/(2sinθ)。"},
+          {"id":3,"text":"\\(\\dfrac{mg}{\\cos\\theta}\\)","explanation_zh":"陷阱：遗漏条件。将竖直力与斜面关系混淆，此式不适用本题力矩平衡。","explanation_ja":"誤り。条件見落とし罠。鉛直力と斜面の関係を混同している。この式は本問のモーメントのつり合いには適用できない。"},
+          {"id":4,"text":"\\(mg\\sin\\theta\\)","explanation_zh":"陷阱：遗漏条件。此式与力矩臂的正确关系无关，遗漏了水平张力绕铰接点的几何关系。","explanation_ja":"誤り。条件見落とし罠。モーメントの腕の正しい関係と無関係である。水平方向の張力が蝶番周りに作るモーメントの幾何学的関係を見落としている。"}
+        ],
+        "answer":2,
+        "tag":{
+          "unit":"I 力学",
+          "sub_domain":"力のつり合い",
+          "question_form":"計算選択",
+          "required_skill":"概念理解",
+          "requires_image":false,
+          "trap_patterns":["符号・向き混同","条件見落とし"],
+          "keywords_to_avoid":[],
+          "syllabus_path":{"area":"I 力学","field":"物理","item":"1. 運動と力"}
+        },
+        "prompt":"長さLの均一な棒の左端が壁に蝶番（ちょうつがい）で固定され、棒は水平面と角度θをなして斜め上方に伸びている。棒の右端には水平方向の張力Tの糸が取り付けられ、棒は静止している。棒の質量をmとし、重力加速度をgとするとき、糸の張力Tの大きさを求めよ。"
+      }
+    ],
+    "tag": {
+      "unit":"I 力学",
+      "sub_domain":"力のつり合い",
+      "question_form":"計算選択",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["符号・向き混同","条件見落とし"],
+      "keywords_to_avoid":[],
+      "syllabus_path":{"area":"I 力学","field":"物理","item":"1. 運動と力"}
+    },
+    "prompt": "長さLの均一な棒の左端が壁に蝶番で固定され、水平方向と角度θをなして斜め上方に伸びている。棒の右端には水平方向の糸が取り付けられ、棒は静止している。棒の質量をmとし、重力加速度の大きさをgとする。"
+  },
+  {
+    "id": 6,
+    "title": "Ⅰ_F",
+    "sub_questions": [
+      {
+        "sub_id":6,
+        "global_id":6,
+        "choices":[
+          {"id":1,"text":"\\(2\\pi\\sqrt{\\dfrac{k}{m}}\\)","explanation_zh":"陷阱：比例关系误认。m和k位置颠倒，正确为√(m/k)，弹簧振子周期随质量增大而增大，随弹力常数增大而减小。","explanation_ja":"誤り。比例関係誤認の罠。mとkの位置が逆である。正しくは√(m/k)であり、周期は質量が大きいほど長く、バネ定数が大きいほど短い。"},
+          {"id":2,"text":"\\(2\\pi\\sqrt{\\dfrac{m}{k}}\\)","explanation_zh":"正确。弹簧振子的运动方程为mẍ=-kx，角频率ω=√(k/m)，周期T=2π/ω=2π√(m/k)。","explanation_ja":"正解。バネ振り子の運動方程式はmẍ=-kxであり、角振動数ω=√(k/m)、周期T=2π/ω=2π√(m/k)となる。"},
+          {"id":3,"text":"\\(\\pi\\sqrt{\\dfrac{m}{k}}\\)","explanation_zh":"陷阱：比例关系误认。系数应为2π，不是π，遗漏了因子2。","explanation_ja":"誤り。比例関係誤認の罠。係数は2πであってπではない。因子2を省いている。"},
+          {"id":4,"text":"\\(2\\pi\\sqrt{\\dfrac{m}{k^2}}\\)","explanation_zh":"陷阱：遗漏条件。分母k²是错误的，运动方程给出ω²=k/m，周期中出现√(m/k)而非√(m/k²)。","explanation_ja":"誤り。条件見落とし罠。分母のk²は誤りである。運動方程式よりω²=k/mであり、周期にはk²でなくkが現れる。"},
+          {"id":5,"text":"\\(\\dfrac{1}{2\\pi}\\sqrt{\\dfrac{k}{m}}\\)","explanation_zh":"陷阱：比例关系误认。此式是频率f的表达式（f=1/T），不是周期T本身，且m/k颠倒。","explanation_ja":"誤り。比例関係誤認の罠。この式は振動数f（f=1/T）の表式であり、周期Tではない。また分数内のmとkも逆になっている。"}
+        ],
+        "answer":2,
+        "tag":{
+          "unit":"I 力学",
+          "sub_domain":"単振動",
+          "question_form":"式変形",
+          "required_skill":"法則・公式適用",
+          "requires_image":false,
+          "trap_patterns":["比例関係誤認","条件見落とし"],
+          "keywords_to_avoid":[],
+          "syllabus_path":{"area":"I 力学","field":"物理","item":"3. さまざまな力と運動"}
+        },
+        "prompt":"なめらかな水平面上でバネ定数kのバネに連結された質量mの物体が単振動している。このとき、振動の周期Tはいくらか。"
+      }
+    ],
+    "tag": {
+      "unit":"I 力学",
+      "sub_domain":"単振動",
+      "question_form":"式変形",
+      "required_skill":"法則・公式適用",
+      "requires_image":false,
+      "trap_patterns":["比例関係誤認","条件見落とし"],
+      "keywords_to_avoid":[],
+      "syllabus_path":{"area":"I 力学","field":"物理","item":"3. さまざまな力と運動"}
+    },
+    "prompt": "なめらかな水平面上でバネ定数kのバネに連結された質量mの物体が単振動している。"
+  },
+  {
+    "id": 7,
+    "title": "Ⅰ_G",
+    "sub_questions": [
+      {
+        "sub_id":7,
+        "global_id":7,
+        "choices":[
+          {"id":1,"text":"\\(-\\dfrac{\\pi A}{2}\\) m/s（負の方向）","explanation_zh":"正确。x=Acos(2πt/T)，速度v=-Aω·sin(2πt/T)，ω=2π/T=π/2，t=T/4=1s sin(π/2)=1，故v=-Aω=-πA/2（负方向）。","explanation_ja":"正解。x=Acos(2πt/T)より速度v=-Aω·sin(2πt/T)、ω=2π/T=π/2。t=T/4=1sでsin(π/2)=1となりv=-Aω=-πA/2（負方向）。"},
+          {"id":2,"text":"\\(+\\dfrac{\\pi A}{2}\\) m/s（正の方向）","explanation_zh":"陷阱：符号·方向混同。t=1s时物体在x=0处从正侧向负侧运动，速度为负，不是正方向。","explanation_ja":"誤り。符号・向き混同の罠。t=1sのとき物体はx=0で正側から負側へ移動しており、速度は負方向である。"},
+          {"id":3,"text":"0 m/s","explanation_zh":"陷阱：遗漏条件。x=0时速度最大（不为零），x=A或x=-A时速度才为零。","explanation_ja":"誤り。条件見落とし罠。x=0のとき速度は最大値（ゼロではない）となる。速度がゼロになるのはx=±Aのときである。"},
+          {"id":4,"text":"\\(+A\\omega^2\\) m/s","explanation_zh":"陷阱：比例关系误认。Aω²是加速度的量级（加速度a=-ω²x），不是速度，速度最大值为Aω。","explanation_ja":"誤り。比例関係誤認の罠。Aω²は加速度のオーダー（a=-ω²x）であり速度ではない。速度の最大値はAωである。"}
+        ],
+        "answer":1,
+        "tag":{
+          "unit":"I 力学",
+          "sub_domain":"単振動",
+          "question_form":"図表読取",
+          "required_skill":"グラフ読取",
+          "requires_image":false,
+          "trap_patterns":["比例関係誤認","条件見落とし"],
+          "keywords_to_avoid":[],
+          "syllabus_path":{"area":"I 力学","field":"物理","item":"3. さまざまな力と運動"}
+        },
+        "prompt":"なめらかな水平面上の物体が単振動しており、時刻t=0において正の最大変位A（=0.20m）にある。周期をT（=4.0s）とする。t=1.0sにおける物体の速度を求めよ。速度の正方向を変位の正方向と一致させる。"
+      }
+    ],
+    "tag": {
+      "unit":"I 力学",
+      "sub_domain":"単振動",
+      "question_form":"図表読取",
+      "required_skill":"グラフ読取",
+      "requires_image":false,
+      "trap_patterns":["比例関係誤認","条件見落とし"],
+      "keywords_to_avoid":[],
+      "syllabus_path":{"area":"I 力学","field":"物理","item":"3. さまざまな力と運動"}
+    },
+    "prompt": "なめらかな水平面上の物体が単振動しており、振幅A = 0.20 m、周期T = 4.0 s で、t = 0 において正の最大変位にある。速度の正方向を変位の正方向と一致させる。"
+  },
+  {
+    "id": 8,
+    "title": "Ⅱ_A",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":8,
+        "choices":[
+          {"id":1,"text":"900 J","explanation_zh":"陷阱：单位换算错误。只用了温差(60K)×比热(0.90)=54，漏乘质量200g，正确为200×0.90×60=10800J。","explanation_ja":"誤り。単位換算ミスの罠。温度差(60K)×比熱(0.90)=54のみで質量200gを掛け忘れている。正しくは200×0.90×60=10800Jとなる。"},
+          {"id":2,"text":"5400 J","explanation_zh":"陷阱：比例关系误认。温差算成了30K（以为是平均），正确温差为80-20=60K。","explanation_ja":"誤り。比例関係誤認の罠。温度差を30Kと誤算している。正しい温度差は80-20=60Kである。"},
+          {"id":3,"text":"10800 J","explanation_zh":"正确。Q=mcΔT=200g×0.90J/(g·K)×(80-20)K=200×0.90×60=10800J。","explanation_ja":"正解。Q=mcΔT=200g×0.90J/(g·K)×(80-20)K=200×0.90×60=10800J。"},
+          {"id":4,"text":"14400 J","explanation_zh":"陷阱：遗漏条件。误将初温80℃当作温差，用200×0.90×80=14400，但温差应为60K。","explanation_ja":"誤り。条件見落とし罠。初温の80℃を温度差と誤解し、200×0.90×80=14400と計算しているが、温度差は60Kが正しい。"}
+        ],
+        "answer":3,
+        "tag":{
+          "unit":"II 熱",
+          "sub_domain":"熱量・比熱",
+          "question_form":"式変形",
+          "required_skill":"法則・公式適用",
+          "requires_image":false,
+          "trap_patterns":["単位換算ミス","比例関係誤認"],
+          "keywords_to_avoid":["4.2J","0.72J"],
+          "syllabus_path":{"area":"II 熱","field":"物理","item":"1. 熱と温度"}
+        },
+        "prompt":"質量200gのアルミニウム製の物体を80℃から20℃まで冷却した。このとき物体が放出した熱量は何Jか。ただし、アルミニウムの比熱を0.90 J/(g·K)とする。"
+      }
+    ],
+    "tag": {
+      "unit":"II 熱",
+      "sub_domain":"熱量・比熱",
+      "question_form":"式変形",
+      "required_skill":"法則・公式適用",
+      "requires_image":false,
+      "trap_patterns":["単位換算ミス","比例関係誤認"],
+      "keywords_to_avoid":["4.2J","0.72J"],
+      "syllabus_path":{"area":"II 熱","field":"物理","item":"1. 熱と温度"}
+    },
+    "prompt": "質量200gのアルミニウム製の物体を80℃から20℃まで冷却した。アルミニウムの比熱を0.90 J/(g·K)とする。"
+  },
+  {
+    "id": 9,
+    "title": "Ⅱ_B",
+    "sub_questions": [
+      {
+        "sub_id":2,
+        "global_id":9,
+        "choices":[
+          {"id":1,"text":"\\(V_1 \\cdot \\dfrac{T_1}{T_2}\\)","explanation_zh":"陷阱：比例关系误认。T₁和T₂颠倒，温度升高体积应增大，但此式在T₂>T₁时给出V₂<V₁。","explanation_ja":"誤り。比例関係誤認の罠。T₁とT₂が逆になっている。温度が上がると体積は増加するはずだが、この式ではT₂>T₁のときV₂<V₁となってしまう。"},
+          {"id":2,"text":"\\(V_1 \\cdot \\dfrac{T_2}{T_1}\\)","explanation_zh":"正确。等压过程由查理定律V/T=const，得V₂/T₂=V₁/T₁，故V₂=V₁·T₂/T₁。","explanation_ja":"正解。等圧過程ではシャルルの法則V/T=constより、V₂/T₂=V₁/T₁となり、V₂=V₁·T₂/T₁。"},
+          {"id":3,"text":"\\(V_1 \\cdot \\dfrac{T_2 - T_1}{T_1}\\)","explanation_zh":"陷阱：比例关系误认。此式只是体积的增量ΔV，不是加热后的总体积V₂=V₁·T₂/T₁。","explanation_ja":"誤り。比例関係誤認の罠。この式は体積の増分ΔVにすぎず、加熱後の全体積V₂=V₁·T₂/T₁ではない。"},
+          {"id":4,"text":"\\(V_1 + T_2 - T_1\\)","explanation_zh":"陷阱：单位换算错误。V₁是体积（m³），T₂-T₁是温度差（K），量纲不同，不能直接相加。","explanation_ja":"誤り。単位換算ミスの罠。V₁は体積(m³)、T₂-T₁は温度差(K)であり次元が異なるため直接足すことはできない。"}
+        ],
+        "answer":2,
+        "tag":{
+          "unit":"II 熱",
+          "sub_domain":"気体分子運動論",
+          "question_form":"式変形",
+          "required_skill":"法則・公式適用",
+          "requires_image":false,
+          "trap_patterns":["比例関係誤認","単位換算ミス"],
+          "keywords_to_avoid":[],
+          "syllabus_path":{"area":"II 熱","field":"物理","item":"2. 気体の性質"}
+        },
+        "prompt":"なめらかに動くピストンで密閉された気筒内の理想気体が、一定圧力を保ちながら絶対温度T₁からT₂へと加熱された。加熱前の体積をV₁とするとき、加熱後の体積V₂はいくらか。"
+      }
+    ],
+    "tag": {
+      "unit":"II 熱",
+      "sub_domain":"気体分子運動論",
+      "question_form":"式変形",
+      "required_skill":"法則・公式適用",
+      "requires_image":false,
+      "trap_patterns":["比例関係誤認","単位換算ミス"],
+      "keywords_to_avoid":[],
+      "syllabus_path":{"area":"II 熱","field":"物理","item":"2. 気体の性質"}
+    },
+    "prompt": "なめらかに動くピストンで密閉された気筒内の理想気体が、一定圧力を保ちながら絶対温度T₁からT₂へと加熱された。加熱前の体積をV₁とする。"
+  },
+  {
+    "id": 10,
+    "title": "Ⅱ_C",
+    "sub_questions": [
+      {
+        "sub_id":3,
+        "global_id":10,
+        "choices":[
+          {"id":1,"text":"\\(W = Q\\)","explanation_zh":"陷阱：遗漏条件。若W=Q则ΔU=0，但题目说ΔU=Q/3，矛盾。","explanation_ja":"誤り。条件見落とし罠。W=Qならば ΔU=0となるが、問題ではΔU=Q/3とされており矛盾する。"},
+          {"id":2,"text":"\\(W = \\dfrac{Q}{3}\\)","explanation_zh":"陷阱：比例关系误认。W=Q/3时ΔU=Q-Q/3=2Q/3，与题目ΔU=Q/3不符。","explanation_ja":"誤り。比例関係誤認の罠。W=Q/3ならばΔU=Q-Q/3=2Q/3となり、問題のΔU=Q/3と一致しない。"},
+          {"id":3,"text":"\\(W = \\dfrac{Q}{4}\\)","explanation_zh":"陷阱：比例关系误认。W=Q/4时ΔU=3Q/4，与题目ΔU=Q/3不符。","explanation_ja":"誤り。比例関係誤認の罠。W=Q/4ならばΔU=3Q/4となり、ΔU=Q/3と一致しない。"},
+          {"id":4,"text":"\\(W = \\dfrac{3Q}{4}\\)","explanation_zh":"陷阱：遗漏条件。W=3Q/4时ΔU=Q/4，与题目ΔU=Q/3不符。","explanation_ja":"誤り。条件見落とし罠。W=3Q/4ならばΔU=Q/4となり、ΔU=Q/3と一致しない。"},
+          {"id":5,"text":"\\(W = 0\\)","explanation_zh":"陷阱：遗漏条件。W=0意味着等容过程，但此时ΔU=Q，与题目ΔU=Q/3不符。","explanation_ja":"誤り。条件見落とし罠。W=0は等積過程を意味するが、そのときΔU=QとなりΔU=Q/3と一致しない。"},
+          {"id":6,"text":"\\(W = -\\dfrac{Q}{3}\\)","explanation_zh":"陷阱：符号·方向混同。负功表示外界对气体做功，此时ΔU=Q+Q/3=4Q/3，与题目不符。","explanation_ja":"誤り。符号・向き混同の罠。負の仕事は外部が気体にする仕事を意味するが、そのときΔU=Q+Q/3=4Q/3となりΔU=Q/3と一致しない。"},
+          {"id":7,"text":"\\(W = \\dfrac{2Q}{3}\\)","explanation_zh":"正确。由热力学第一法则ΔU=Q-W，得W=Q-ΔU=Q-Q/3=2Q/3。","explanation_ja":"正解。熱力学第一法則ΔU=Q-Wより、W=Q-ΔU=Q-Q/3=2Q/3となる。"},
+          {"id":8,"text":"\\(W = \\dfrac{4Q}{3}\\)","explanation_zh":"陷阱：符号·方向混同。将ΔU和W位置颠倒，误算为W=Q+Q/3=4Q/3，正确为W=Q-Q/3=2Q/3。","explanation_ja":"誤り。符号・向き混同の罠。ΔUとWの位置を逆にしてW=Q+Q/3=4Q/3と誤算している。正しくはW=Q-Q/3=2Q/3である。"}
+        ],
+        "answer":7,
+        "tag":{
+          "unit":"II 熱",
+          "sub_domain":"熱力学第一法則",
+          "question_form":"計算選択",
+          "required_skill":"概念理解",
+          "requires_image":false,
+          "trap_patterns":["符号・向き混同","条件見落とし"],
+          "keywords_to_avoid":["p₀"],
+          "syllabus_path":{"area":"II 熱","field":"物理","item":"1. 熱と温度"}
+        },
+        "prompt":"ある理想気体が外部から熱量Qを吸収したところ、内部エネルギーがΔU = Q/3だけ増加した。この過程において気体が外部にした仕事Wはいくらか。熱力学第一法則 ΔU = Q - W を用いよ。"
+      }
+    ],
+    "tag": {
+      "unit":"II 熱",
+      "sub_domain":"熱力学第一法則",
+      "question_form":"計算選択",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["符号・向き混同","条件見落とし"],
+      "keywords_to_avoid":["p₀"],
+      "syllabus_path":{"area":"II 熱","field":"物理","item":"1. 熱と温度"}
+    },
+    "prompt": "ある理想気体が外部から熱量Qを吸収したところ、内部エネルギーがΔU = Q/3だけ増加した。熱力学第一法則 ΔU = Q − W を用いる。"
+  },
+  {
+    "id": 11,
+    "title": "Ⅲ_A",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":11,
+        "choices":[
+          {"id":1,"text":"2.0 m/s","explanation_zh":"陷阱：比例关系误认。用了半波长（2m）而非波长（4m），速度=波长×频率=4m×2Hz=8m/s，不是2m/s。","explanation_ja":"誤り。比例関係誤認の罠。波長(4m)でなく半波長(2m)を用いている。速さ=波長×振動数=4m×2Hz=8m/sであり、2m/sではない。"},
+          {"id":2,"text":"8.0 m/s","explanation_zh":"正确。波长λ=2×2.0=4.0m，频率f=1/T=1/0.50=2.0Hz，波速v=fλ=2.0×4.0=8.0m/s。","explanation_ja":"正解。波長λ=2×2.0=4.0m、振動数f=1/T=1/0.50=2.0Hz、波速v=fλ=2.0×4.0=8.0m/s。"},
+          {"id":3,"text":"4.0 m/s","explanation_zh":"陷阱：比例关系误认。误用半波长除以周期：v=2/0.50=4m/s，但应用全波长λ=4m。","explanation_ja":"誤り。比例関係誤認の罠。半波長(2m)を周期(0.50s)で割りv=2/0.50=4m/sとしているが、正しい波長は4mである。"},
+          {"id":4,"text":"1.0 m/s","explanation_zh":"陷阱：单位换算错误。将频率误算为0.25Hz（T=4s错误），v=4×0.25=1m/s，实际T=0.50s，f=2Hz。","explanation_ja":"誤り。単位換算ミスの罠。振動数を0.25Hz（T=4sと誤算）としたためv=4×0.25=1m/sとなっているが、正しくはT=0.50s、f=2Hzである。"},
+          {"id":5,"text":"16.0 m/s","explanation_zh":"陷阱：比例关系误认。误将半周期(0.25s)当作周期，v=4/0.25=16m/s，但T=0.50s才是正确周期。","explanation_ja":"誤り。比例関係誤認の罠。半周期(0.25s)を周期として用い、v=4/0.25=16m/sとしてしまっている。正しい周期はT=0.50sである。"}
+        ],
+        "answer":2,
+        "tag":{
+          "unit":"III 波",
+          "sub_domain":"波の性質",
+          "question_form":"図表読取",
+          "required_skill":"グラフ読取",
+          "requires_image":false,
+          "trap_patterns":["グラフ軸読取ミス","条件見落とし"],
+          "keywords_to_avoid":[],
+          "syllabus_path":{"area":"III 波","field":"物理","item":"1. 波"}
+        },
+        "prompt":"ある横波が一方向に伝わっている。この波の波形を観察したところ、隣り合う山と谷の間の距離（半波長）が2.0mであった。また、ある点の変位が1回振動するのに要する時間（周期）は0.50sであった。この波の伝わる速さはいくらか。"
+      }
+    ],
+    "tag": {
+      "unit":"III 波",
+      "sub_domain":"波の性質",
+      "question_form":"図表読取",
+      "required_skill":"グラフ読取",
+      "requires_image":false,
+      "trap_patterns":["グラフ軸読取ミス","条件見落とし"],
+      "keywords_to_avoid":[],
+      "syllabus_path":{"area":"III 波","field":"物理","item":"1. 波"}
+    },
+    "prompt": "ある横波が一方向に伝わっており、隣り合う山と谷の間の距離（半波長）が2.0 m、周期が0.50 sであった。"
+  },
+  {
+    "id": 12,
+    "title": "Ⅲ_B",
+    "sub_questions": [
+      {
+        "sub_id":2,
+        "global_id":12,
+        "choices":[
+          {"id":1,"text":"ア：正しい　イ：正しい","explanation_zh":"陷阱：遗漏条件。错误：日本物理中「第2倍音」=基音×2=2f₁（第3次高調波3f₁是「第2泛音」，不是「第2倍音」）。正确（闭管基频=v/(4L)=f₁/2）。故都判为正确的错误。","explanation_ja":"誤り。条件見落とし罠。ア は誤り：「第2倍音」は基音の2倍=2f₁であり（3f₁は第2倍音ではなく第3次高調波）、イは正しい（閉管基本振動数=v/(4L)=f₁/2）。"},
+          {"id":2,"text":"ア：正しい　イ：誤り","explanation_zh":"陷阱：遗漏条件。错误（第2倍音=2f₁≠3f₁）且正确（闭管基频=f₁/2），故两者判断均错误。","explanation_ja":"誤り。条件見落とし罠。ア は誤り（第2倍音=2f₁≠3f₁）、イ は正しい（閉管基本振動数=f₁/2）。"},
+          {"id":3,"text":"ア：誤り　イ：正しい","explanation_zh":"正确。：「第2倍音」=基频×2=2f₁，而非3f₁（3f₁是第3次高调波，即「第2泛音」），故错。：闭管基频=v/(4L)，开管基频f₁=v/(2L)，故闭管基频=f₁/2，正。","explanation_ja":"正解。ア：「第2倍音」は基本振動数の2倍=2f₁であり、3f₁は第3次高調波（第2倍音ではない）なのでア は誤り。イ：閉管の基本振動数=v/(4L)、開管f₁=v/(2L)なので閉管基本振動数=f₁/2、イは正しい。"},
+          {"id":4,"text":"ア：誤り　イ：誤り","explanation_zh":"陷阱：遗漏条件。确实错误，但是正确的（闭管基频=f₁/2），不能判为两者都错。","explanation_ja":"誤り。条件見落とし罠。ア は確かに誤りだが、イ は正しい（閉管基本振動数=f₁/2）ため、両方誤りとするのは不正解である。"},
+          {"id":5,"text":"ア：正しい　イ：判断できない","explanation_zh":"陷阱：遗漏条件。本身就错误（第2倍音=2f₁≠3f₁），且完全可以判断正确，不存在无法判断的情况。","explanation_ja":"誤り。条件見落とし罠。ア 自体が誤り（第2倍音=2f₁≠3f₁）であり、イ も明確に判断できる（正しい）。"},
+          {"id":6,"text":"ア：誤り　イ：判断できない","explanation_zh":"陷阱：遗漏条件。完全可以判断：闭管基频=f₁/2，正确，不存在无法判断的情况。","explanation_ja":"誤り。条件見落とし罠。イ は明確に判断できる。閉管基本振動数=v/(4L)=f₁/2であり正しいため「判断できない」は誤りである。"}
+        ],
+        "answer":3,
+        "tag":{
+          "unit":"III 波",
+          "sub_domain":"音波",
+          "question_form":"組合せ",
+          "required_skill":"条件整理",
+          "requires_image":false,
+          "trap_patterns":["符号・向き混同","条件見落とし"],
+          "keywords_to_avoid":[],
+          "syllabus_path":{"area":"III 波","field":"物理","item":"2. 音"}
+        },
+        "prompt":"両端が開いた管（開管）の長さをLとし、音速をvとする。この開管の基本振動の振動数をf₁とするとき、以下のア・イの記述の正誤の組み合わせとして正しいものはどれか。\nア：この開管の第2倍音（第3次高調波）の振動数は3f₁である。\nイ：同じ長さLの閉管（片端閉鎖）の基本振動の振動数は f₁/2 である。"
+      }
+    ],
+    "tag": {
+      "unit":"III 波",
+      "sub_domain":"音波",
+      "question_form":"組合せ",
+      "required_skill":"条件整理",
+      "requires_image":false,
+      "trap_patterns":["符号・向き混同","条件見落とし"],
+      "keywords_to_avoid":[],
+      "syllabus_path":{"area":"III 波","field":"物理","item":"2. 音"}
+    },
+    "prompt": "両端が開いた管（開管）の長さをL、音速をvとする。この開管の基本振動の振動数をf₁として振動のようすを考える。"
+  },
+  {
+    "id": 13,
+    "title": "Ⅲ_C",
+    "sub_questions": [
+      {
+        "sub_id":3,
+        "global_id":13,
+        "choices":[
+          {"id":1,"text":"ア：正　イ：正　ウ：正","explanation_zh":"陷阱：遗漏条件。Δy=λL/d，d增大时Δy减小（错），L增大时Δy增大（说法错），λ增大时Δy增大（正）。和都是错误的。","explanation_ja":"誤り。条件見落とし罠。Δy=λL/dより、d増大でΔy減少（ア は誤り）、L増大でΔy増大（ウ は誤り）、λ増大でΔy増大（イ は正）。"},
+          {"id":2,"text":"ア：正　イ：正　ウ：誤","explanation_zh":"陷阱：近似遗漏条件。判断正确（誤）但错误（d增大→Δy减小，应为誤），不能判为正。","explanation_ja":"誤り。近似条件見落とし罠。ウの判断は正しいが（ウは誤り）、ア はd増大でΔy減少するため「Δy大きくなる」は誤りである。"},
+          {"id":3,"text":"ア：正　イ：誤　ウ：正","explanation_zh":"陷阱：遗漏条件。λ大→Δy大，正确的（此选项将判为誤）；也是错的；错的。","explanation_ja":"誤り。条件見落とし罠。λ増大でΔy増大するのでイは正しいが（この選択肢ではイを誤りとしている）、さらにア もウ も誤りである。"},
+          {"id":4,"text":"ア：正　イ：誤　ウ：誤","explanation_zh":"陷阱：遗漏条件。是错的（d大→Δy小），且正（λ大→Δy大）。","explanation_ja":"誤り。条件見落とし罠。ア はd増大でΔy減少するため誤り。またλ増大でΔy増大するのでイは正しいが、この選択肢ではイを誤りとしている。"},
+          {"id":5,"text":"ア：誤　イ：正　ウ：正","explanation_zh":"陷阱：近似遗漏条件。和判断正确，但错误：L大→Δy大（与的说法相反），应判为誤。","explanation_ja":"誤り。近似条件見落とし罠。ア とイ の判断は正しいが、ウ はL増大でΔy増大するため誤り（ウ を正しいとする本選択肢は不正解）。"},
+          {"id":6,"text":"ア：誤　イ：正　ウ：誤","explanation_zh":"正确。Δy=λL/d。：d增大→Δy减小，的说法错（誤）。：λ增大→Δy增大，正确（正）。：L增大→Δy增大，的说法错（誤）。","explanation_ja":"正解。Δy=λL/d。ア：d増大でΔy減少するので「Δy増大」は誤り（ア 誤）。イ：λ増大でΔy増大するので正しい（イ 正）。ウ：L増大でΔy増大するので「Δy小さくなる」は誤り（ウ 誤）。"},
+          {"id":7,"text":"ア：誤　イ：誤　ウ：正","explanation_zh":"陷阱：遗漏条件。λ大→Δy大所以正确的（此选项将判为誤）。L大→Δy大所以错误。","explanation_ja":"誤り。条件見落とし罠。λ増大でΔy増大するのでイは正しいが（この選択肢ではイを誤りとしている）。さらにウ もL増大でΔy増大するため誤りである。"},
+          {"id":8,"text":"ア：誤　イ：誤　ウ：誤","explanation_zh":"陷阱：遗漏条件。正确的（λ大→Δy大），将判为誤是错的。","explanation_ja":"誤り。条件見落とし罠。λ増大でΔy増大するのでイは正しいが、この選択肢ではイを誤りとしている。"}
+        ],
+        "answer":6,
+        "tag":{
+          "unit":"III 波",
+          "sub_domain":"光波",
+          "question_form":"組合せ",
+          "required_skill":"条件整理",
+          "requires_image":false,
+          "trap_patterns":["条件見落とし","近似条件見落とし"],
+          "keywords_to_avoid":[],
+          "syllabus_path":{"area":"III 波","field":"物理","item":"3. 光"}
+        },
+        "prompt":"ヤングの実験において、2つのスリットの間隔をd、スリットからスクリーンまでの距離をL、使用する光の波長をλとする。スクリーン上の明線の間隔をΔyとするとき、以下のア・イ・ウの記述の正誤の組み合わせとして正しいものはどれか。\nア：スリット間隔dを大きくすると、Δyは大きくなる。\nイ：光の波長λを大きくすると、Δyは大きくなる。\nウ：スクリーンまでの距離Lを大きくすると、Δyは小さくなる。"
+      }
+    ],
+    "tag": {
+      "unit":"III 波",
+      "sub_domain":"光波",
+      "question_form":"組合せ",
+      "required_skill":"条件整理",
+      "requires_image":false,
+      "trap_patterns":["条件見落とし","近似条件見落とし"],
+      "keywords_to_avoid":[],
+      "syllabus_path":{"area":"III 波","field":"物理","item":"3. 光"}
+    },
+    "prompt": "ヤングの実験において、2つのスリットの間隔をd、スリットからスクリーンまでの距離をL、使用する光の波長をλ、明線の間隔をΔyとする。"
+  },
+  {
+    "id": 14,
+    "title": "Ⅳ_A",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":14,
+        "choices":[
+          {"id":1,"text":"\\(E = \\dfrac{kQ}{r^2}\\)","explanation_zh":"正确。点电荷产生的电场强度E=kQ/r²，方向从正电荷向外（径向）。","explanation_ja":"正解。点電荷による電場の強さはE=kQ/r²であり、正電荷から外向き（径方向）の向きをもつ。"},
+          {"id":2,"text":"\\(E = \\dfrac{kQ}{r}\\)","explanation_zh":"陷阱：比例关系误认。此式是电位V=kQ/r的形式，不是电场强度。电场强度是电位对距离的负导数E=-dV/dr=kQ/r²。","explanation_ja":"誤り。比例関係誤認の罠。この式は電位V=kQ/rの形であり、電場の強さではない。電場は電位の距離に対する負の微分E=-dV/dr=kQ/r²である。"},
+          {"id":3,"text":"\\(E = \\dfrac{kQ^2}{r^2}\\)","explanation_zh":"陷阱：比例关系误认。分子Q²是库仑力的形式（两个电荷间的力F=kQ₁Q₂/r²），单个点电荷电场只含Q一次方。","explanation_ja":"誤り。比例関係誤認の罠。分子Q²はクーロン力の形（F=kQ₁Q₂/r²）であり、単一点電荷の電場にはQが1乗で現れる。"},
+          {"id":4,"text":"\\(E = kQr\\)","explanation_zh":"陷阱：比例关系误认。电场强度与距离的平方成反比，此式量纲也不正确。","explanation_ja":"誤り。比例関係誤認の罠。電場の強さは距離の2乗に反比例するが、この式は距離に比例している。次元も正しくない。"}
+        ],
+        "answer":1,
+        "tag":{
+          "unit":"IV 電気と磁気",
+          "sub_domain":"電場・電位",
+          "question_form":"計算選択",
+          "required_skill":"概念理解",
+          "requires_image":false,
+          "trap_patterns":["比例関係誤認","符号・向き混同"],
+          "keywords_to_avoid":[],
+          "syllabus_path":{"area":"IV 電気と磁気","field":"物理","item":"1. 電場"}
+        },
+        "prompt":"真空中の原点に正の点電荷+Qが置かれている。原点から距離rの点における電場の強さEはいくらか。ただし、クーロンの定数をkとする。"
+      }
+    ],
+    "tag": {
+      "unit":"IV 電気と磁気",
+      "sub_domain":"電場・電位",
+      "question_form":"計算選択",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["比例関係誤認","符号・向き混同"],
+      "keywords_to_avoid":[],
+      "syllabus_path":{"area":"IV 電気と磁気","field":"物理","item":"1. 電場"}
+    },
+    "prompt": "真空中の原点に正の点電荷+Qが置かれている。クーロンの定数をkとし、原点から距離rの点での電場を考える。"
+  },
+  {
+    "id": 15,
+    "title": "Ⅳ_B",
+    "sub_questions": [
+      {
+        "sub_id":2,
+        "global_id":15,
+        "choices":[
+          {"id":1,"text":"電荷は変化しない。電圧はV₀のままである。","explanation_zh":"陷阱：遗漏条件。电荷确实不变（已切离电源），但间距变为2d后电容减半C'=C/2，电压V'=Q/C'=2Q/C=2V₀，不是V₀不变。","explanation_ja":"誤り。条件見落とし罠。電荷は確かに変化しないが（電源から切り離しているため）、間隔が2dになると容量はC'=C/2となり、電圧はV'=Q/C'=2V₀となる。"},
+          {"id":2,"text":"電荷は半分になる。電圧はV₀のままである。","explanation_zh":"陷阱：保存则选择错误。切离电源后电荷守恒（不会减半），电荷不变。","explanation_ja":"誤り。保存則選択ミスの罠。電源から切り離した後は電荷は保存される（半分にはならない）。"},
+          {"id":3,"text":"電荷は半分になる。電圧は2V₀になる。","explanation_zh":"陷阱：保存则选择错误。切离电源后电荷守恒，不会减半。","explanation_ja":"誤り。保存則選択ミスの罠。電源切り離し後の電荷は保存される。電荷が半分になることはない。"},
+          {"id":4,"text":"電荷は変化しない。電圧は2V₀になる。","explanation_zh":"正确。电源切离后电荷Q守恒，间距变为2d后C'=ε₀S/(2d)=C/2，新电压V'=Q/C'=2Q/C=2V₀。","explanation_ja":"正解。電源切り離し後は電荷Qが保存される。間隔が2dになるとC'=ε₀S/(2d)=C/2となり、新たな電圧はV'=Q/C'=2Q/C=2V₀となる。"},
+          {"id":5,"text":"電荷は2倍になる。電圧は2V₀になる。","explanation_zh":"陷阱：遗漏条件。切离电源后不会有电荷流入，电荷不变，不会变为2倍。","explanation_ja":"誤り。条件見落とし罠。電源を切り離した後は電荷の流入がないため、電荷は2倍にはならない。"}
+        ],
+        "answer":4,
+        "tag":{
+          "unit":"IV 電気と磁気",
+          "sub_domain":"コンデンサー",
+          "question_form":"式変形",
+          "required_skill":"法則・公式適用",
+          "requires_image":false,
+          "trap_patterns":["比例関係誤認","条件見落とし"],
+          "keywords_to_avoid":["U₁","U₂"],
+          "syllabus_path":{"area":"IV 電気と磁気","field":"物理","item":"2. 電流"}
+        },
+        "prompt":"極板面積S、極板間隔dの平行板コンデンサーを起電力V₀の電池に接続して充電した後、電池から切り離した。その後、極板を引き離して極板間隔を2dにした。このとき、コンデンサーに蓄えられた電荷と極板間の電圧の変化として正しいものはどれか。"
+      }
+    ],
+    "tag": {
+      "unit":"IV 電気と磁気",
+      "sub_domain":"コンデンサー",
+      "question_form":"式変形",
+      "required_skill":"法則・公式適用",
+      "requires_image":false,
+      "trap_patterns":["比例関係誤認","条件見落とし"],
+      "keywords_to_avoid":["U₁","U₂"],
+      "syllabus_path":{"area":"IV 電気と磁気","field":"物理","item":"2. 電流"}
+    },
+    "prompt": "極板面積S、極板間隔dの平行板コンデンサーを起電力V₀の電池に接続して充電した後、電池から切り離した。その後、極板間隔を2dに広げた状況を考える。"
+  },
+  {
+    "id": 16,
+    "title": "Ⅳ_C",
+    "sub_questions": [
+      {
+        "sub_id":3,
+        "global_id":16,
+        "choices":[
+          {"id":1,"text":"ア：上向き（下の極板から上の極板へ）　イ：増加する","explanation_zh":"陷阱：符号·方向混同。电场从正极（上）→负极（下），即向下，是错的；正电荷从高电位A→低电位B，电位能减少，也是错的。","explanation_ja":"誤り。符号・向き混同の罠。電場は正極板（上）から負極板（下）に向かうため下向きが正しく、ア は誤り。また正電荷はA（高電位）からB（低電位）へ移動するため電位エネルギーは減少し、イ も誤り。"},
+          {"id":2,"text":"ア：上向き（下の極板から上の極板へ）　イ：変化しない","explanation_zh":"陷阱：符号·方向混同。错（电场向下），也错（电位能减少，不是不变）。","explanation_ja":"誤り。符号・向き混同の罠。電場は下向き（ア は誤り）、電位エネルギーは減少する（イ は誤り）。"},
+          {"id":3,"text":"ア：上向き（下の極板から上の極板へ）　イ：減少する","explanation_zh":"陷阱：符号·方向混同。正确（电位能减少），但错误（电场向下，不是向上）。","explanation_ja":"誤り。符号・向き混同の罠。イ は正しい（電位エネルギーは減少する）が、ア は誤り（電場は下向きであり上向きではない）。"},
+          {"id":4,"text":"ア：下向き（上の極板から下の極板へ）　イ：増加する","explanation_zh":"陷阱：比例关系误认。正确（电场向下），但错误：正电荷从高电位A→低电位B，电位能减少，不是增加。","explanation_ja":"誤り。比例関係誤認の罠。ア は正しい（電場は下向き）が、イ は誤り。正電荷がA（高電位）からB（低電位）へ移動すると電位エネルギーは減少する。"},
+          {"id":5,"text":"ア：下向き（上の極板から下の極板へ）　イ：変化しない","explanation_zh":"陷阱：遗漏条件。正确，但错误（电位能改变，不是不变）。","explanation_ja":"誤り。条件見落とし罠。ア は正しいが、イ は誤り。均一な電場中で正電荷が高電位から低電位へ移動すると電位エネルギーは必ず減少する。"},
+          {"id":6,"text":"ア：下向き（上の極板から下の極板へ）　イ：減少する","explanation_zh":"正确。：电场从正极板（上）→负极板（下），向下，正确。：正电荷从高电位A移到低电位B，电位能W=qV减少，正确。","explanation_ja":"正解。ア：電場は正極板（上）から負極板（下）に向かうため下向き（正しい）。イ：正電荷はA（高電位）からB（低電位）へ移動するため、電位エネルギーW=qVは減少する（正しい）。"}
+        ],
+        "answer":6,
+        "tag":{
+          "unit":"IV 電気と磁気",
+          "sub_domain":"電場・電位",
+          "question_form":"組合せ",
+          "required_skill":"条件整理",
+          "requires_image":false,
+          "trap_patterns":["比例関係誤認","符号・向き混同"],
+          "keywords_to_avoid":[],
+          "syllabus_path":{"area":"IV 電気と磁気","field":"物理","item":"1. 電場"}
+        },
+        "prompt":"水平に置かれた平行板コンデンサーにおいて、上側の極板が正、下側の極板が負に帯電している。コンデンサー内の点Aは上側（正極板の近く）に、点Bは下側（負極板の近く）にある。以下のア・イについて、正しい組み合わせを選べ。\nア：コンデンサー内の電場の向き\nイ：正電荷を点Aから点Bへ移動させたときの電位エネルギーの変化"
+      }
+    ],
+    "tag": {
+      "unit":"IV 電気と磁気",
+      "sub_domain":"電場・電位",
+      "question_form":"組合せ",
+      "required_skill":"条件整理",
+      "requires_image":false,
+      "trap_patterns":["比例関係誤認","符号・向き混同"],
+      "keywords_to_avoid":[],
+      "syllabus_path":{"area":"IV 電気と磁気","field":"物理","item":"1. 電場"}
+    },
+    "prompt": "水平に置かれた平行板コンデンサーの上側の極板が正、下側が負に帯電している。コンデンサー内の点A（正極板の近く）と点B（負極板の近く）について考える。"
+  },
+  {
+    "id": 17,
+    "title": "Ⅳ_D",
+    "sub_questions": [
+      {
+        "sub_id":4,
+        "global_id":17,
+        "choices":[
+          {"id":1,"text":"\\(C_{\\text{合}} = 3C\\)","explanation_zh":"陷阱：保存则选择错误。3C是并联（C+2C=3C）时的合成电容，不是串联。","explanation_ja":"誤り。保存則選択ミスの罠。3CはC₁とC₂を並列接続したとき（C+2C=3C）の合成容量であり、直列ではない。"},
+          {"id":2,"text":"\\(C_{\\text{合}} = C\\)","explanation_zh":"陷阱：遗漏条件。串联公式1/C合=1/C+1/(2C)=3/(2C)，C合=2C/3，不是C。","explanation_ja":"誤り。条件見落とし罠。直列の公式より1/C合=1/C+1/(2C)=3/(2C)なのでC合=2C/3であり、Cではない。"},
+          {"id":3,"text":"\\(C_{\\text{合}} = \\dfrac{2C}{3}\\)","explanation_zh":"正确。串联公式：1/C合=1/C₁+1/C₂=1/C+1/(2C)=(2+1)/(2C)=3/(2C)，故C合=2C/3。","explanation_ja":"正解。直列の公式：1/C合=1/C₁+1/C₂=1/C+1/(2C)=(2+1)/(2C)=3/(2C)、よってC合=2C/3となる。"},
+          {"id":4,"text":"\\(C_{\\text{合}} = \\dfrac{C}{2}\\)","explanation_zh":"陷阱：比例关系误认。C/2不满足串联公式，正确为C合=C₁C₂/(C₁+C₂)=2C²/(3C)=2C/3。","explanation_ja":"誤り。比例関係誤認の罠。C/2は直列の公式を満たさない。正しくはC合=C₁C₂/(C₁+C₂)=2C/3である。"},
+          {"id":5,"text":"\\(C_{\\text{合}} = \\dfrac{2C}{2+C}\\)","explanation_zh":"陷阱：遗漏条件。分母混合了无量纲数和电容量，量纲不正确。正确串联公式给出C合=2C/3。","explanation_ja":"誤り。条件見落とし罠。分母に無次元数と電気容量が混在しており次元が正しくない。正しい直列の公式よりC合=2C/3となる。"},
+          {"id":6,"text":"\\(C_{\\text{合}} = \\dfrac{C}{3}\\)","explanation_zh":"陷阱：比例关系误认。误取C₁/（C₂/C₁+1）=C/3，正确公式C合=C₁C₂/(C₁+C₂)=2C/3。","explanation_ja":"誤り。比例関係誤認の罠。C合=C₁C₂/(C₁+C₂)=C·2C/(C+2C)=2C/3であり、C/3は誤りである。"}
+        ],
+        "answer":3,
+        "tag":{
+          "unit":"IV 電気と磁気",
+          "sub_domain":"コンデンサー",
+          "question_form":"計算選択",
+          "required_skill":"概念理解",
+          "requires_image":false,
+          "trap_patterns":["比例関係誤認","条件見落とし"],
+          "keywords_to_avoid":[],
+          "syllabus_path":{"area":"IV 電気と磁気","field":"物理","item":"2. 電流"}
+        },
+        "prompt":"コンデンサーC₁（電気容量C）とコンデンサーC₂（電気容量2C）を直列に接続したときの合成容量C合はいくらか。"
+      }
+    ],
+    "tag": {
+      "unit":"IV 電気と磁気",
+      "sub_domain":"コンデンサー",
+      "question_form":"計算選択",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["比例関係誤認","条件見落とし"],
+      "keywords_to_avoid":[],
+      "syllabus_path":{"area":"IV 電気と磁気","field":"物理","item":"2. 電流"}
+    },
+    "prompt": "コンデンサーC₁（電気容量C）とコンデンサーC₂（電気容量2C）を直列に接続した回路を考える。"
+  },
+  {
+    "id": 18,
+    "title": "Ⅳ_E",
+    "sub_questions": [
+      {
+        "sub_id":5,
+        "global_id":18,
+        "choices":[
+          {"id":1,"text":"\\(V = E\\)","explanation_zh":"陷阱：遗漏条件。内阻r上有电压降Ir，端子电压不等于电动势E，V=E-Ir<E。","explanation_ja":"誤り。条件見落とし罠。内部抵抗rによる電圧降下Irがあるため、端子電圧はEに等しくならない（V=E-Ir<E）。"},
+          {"id":2,"text":"\\(V = E - r\\)","explanation_zh":"陷阱：单位换算错误。E-r中r是电阻(Ω)，不能直接减去，量纲不匹配。应为V=E-Ir=ER/(R+r)。","explanation_ja":"誤り。単位換算ミスの罠。E-rのrは抵抗(Ω)であり、起電力(V)から直接引くことはできない。次元が合わない。"},
+          {"id":3,"text":"\\(V = \\dfrac{E}{R+r}\\)","explanation_zh":"陷阱：比例关系误认。E/(R+r)是电流I的表达式，不是端子电压。V=IR=ER/(R+r)。","explanation_ja":"誤り。比例関係誤認の罠。E/(R+r)は電流Iの式であり端子電圧ではない。V=IR=ER/(R+r)となる。"},
+          {"id":4,"text":"\\(V = \\dfrac{ER}{R+r}\\)","explanation_zh":"正确。电流I=E/(R+r)，端子电压V=IR=E/(R+r)×R=ER/(R+r)。","explanation_ja":"正解。電流I=E/(R+r)、端子電圧V=IR=E/(R+r)×R=ER/(R+r)となる。"},
+          {"id":5,"text":"\\(V = \\dfrac{Er}{R+r}\\)","explanation_zh":"陷阱：遗漏条件。Er/(R+r)=Ir是内阻上的电压降，不是外部电阻R上的端子电压。","explanation_ja":"誤り。条件見落とし罠。Er/(R+r)=Irは内部抵抗rにかかる電圧降下であり、外部抵抗Rにかかる端子電圧ではない。"}
+        ],
+        "answer":4,
+        "tag":{
+          "unit":"IV 電気と磁気",
+          "sub_domain":"直流回路",
+          "question_form":"式変形",
+          "required_skill":"法則・公式適用",
+          "requires_image":false,
+          "trap_patterns":["条件見落とし","比例関係誤認"],
+          "keywords_to_avoid":[],
+          "syllabus_path":{"area":"IV 電気と磁気","field":"物理","item":"2. 電流"}
+        },
+        "prompt":"起電力Eの電池（内部抵抗r）に外部抵抗Rを接続した回路がある。このとき、外部抵抗Rにかかる電圧（端子電圧）Vを求めよ。"
+      }
+    ],
+    "tag": {
+      "unit":"IV 電気と磁気",
+      "sub_domain":"直流回路",
+      "question_form":"式変形",
+      "required_skill":"法則・公式適用",
+      "requires_image":false,
+      "trap_patterns":["条件見落とし","比例関係誤認"],
+      "keywords_to_avoid":[],
+      "syllabus_path":{"area":"IV 電気と磁気","field":"物理","item":"2. 電流"}
+    },
+    "prompt": "起電力Eの電池（内部抵抗r）に外部抵抗Rを接続した回路を考える。"
+  },
+  {
+    "id": 19,
+    "title": "Ⅳ_F",
+    "sub_questions": [
+      {
+        "sub_id":6,
+        "global_id":19,
+        "choices":[
+          {"id":1,"text":"磁場の向き：紙面から出る向き　大きさ：\\(\\dfrac{\\mu_0 I}{2\\pi r}\\)","explanation_zh":"陷阱：符号·方向混同。电流向下，右手定则：大拇指向下，P在右侧，磁场在P点向纸面里（×），不是从纸面出（•）。大小正确，但方向错。","explanation_ja":"誤り。符号・向き混同の罠。電流は下向きなので右手則より大拇指を下に向けると、右側の点Pでは磁場は紙面に入る向き（×）となる。磁場の大きさは正しいが方向が誤り。"},
+          {"id":2,"text":"磁場の向き：紙面から出る向き　大きさ：\\(\\dfrac{\\mu_0 I}{4\\pi r^2}\\)","explanation_zh":"陷阱：符号·方向混同+比例关系误认。方向错（应向纸面里），大小也错（4πr²是点电荷库仑定律的分母，不是直线电流磁场）。","explanation_ja":"誤り。符号・向き混同と比例関係誤認の罠。方向は誤り（紙面に入る向きが正しい）、大きさも誤り（4πr²はクーロン法則の形であり直線電流の磁場ではない）。"},
+          {"id":3,"text":"磁場の向き：紙面から出る向き　大きさ：\\(\\dfrac{\\mu_0 I}{\\pi r}\\)","explanation_zh":"陷阱：符号·方向混同+比例关系误认。方向错，大小分母是πr（漏了因子2），正确为μ₀I/(2πr)。","explanation_ja":"誤り。符号・向き混同と比例関係誤認の罠。方向は誤り、大きさの分母はπrで因子2が抜けている（正しくはμ₀I/(2πr)）。"},
+          {"id":4,"text":"磁場の向き：紙面に入る向き　大きさ：\\(\\dfrac{\\mu_0 I}{4\\pi r^2}\\)","explanation_zh":"陷阱：比例关系误认。方向正确（向纸面里），但大小错误：直线电流磁场B=μ₀I/(2πr)，分母4πr²是点电荷的形式。","explanation_ja":"誤り。比例関係誤認の罠。向きは正しい（紙面に入る向き）が、大きさが誤り。直線電流の磁場はB=μ₀I/(2πr)であり、4πr²は点電荷の形式である。"},
+          {"id":5,"text":"磁場の向き：紙面に入る向き　大きさ：\\(\\dfrac{\\mu_0 I}{2\\pi r}\\)","explanation_zh":"正确。电流向下，P在导线右侧：由右手定则，大拇指指向电流方向（下），四指在P点处弯向纸面里（×方向）。磁场大小B=μ₀I/(2πr)。","explanation_ja":"正解。電流は下向き、PはP導線の右側にある。右手則で親指を電流方向（下）に向けると、P点での磁場は紙面に入る向き（×）となる。磁場の大きさはB=μ₀I/(2πr)。"},
+          {"id":6,"text":"磁場の向き：紙面に入る向き　大きさ：\\(\\dfrac{\\mu_0 I}{\\pi r}\\)","explanation_zh":"陷阱：比例关系误认。方向正确，但大小分母πr漏了因子2，正确为μ₀I/(2πr)。","explanation_ja":"誤り。比例関係誤認の罠。向きは正しいが、大きさの分母πrは因子2が抜けている。正しくはμ₀I/(2πr)である。"}
+        ],
+        "answer":5,
+        "tag":{
+          "unit":"IV 電気と磁気",
+          "sub_domain":"磁場と電流",
+          "question_form":"組合せ",
+          "required_skill":"条件整理",
+          "requires_image":false,
+          "trap_patterns":["符号・向き混同","ベクトル成分混同"],
+          "keywords_to_avoid":[],
+          "syllabus_path":{"area":"IV 電気と磁気","field":"物理","item":"3. 電流と磁場"}
+        },
+        "prompt":"真空中で、紙面上に置かれた長い直線導線に電流Iが下向きに流れている。導線から距離rだけ離れた点P（導線の右側）における磁場の向きと大きさについて、正しい組み合わせはどれか。ただし、真空の透磁率をμ₀とする。"
+      }
+    ],
+    "tag": {
+      "unit":"IV 電気と磁気",
+      "sub_domain":"磁場と電流",
+      "question_form":"組合せ",
+      "required_skill":"条件整理",
+      "requires_image":false,
+      "trap_patterns":["符号・向き混同","ベクトル成分混同"],
+      "keywords_to_avoid":[],
+      "syllabus_path":{"area":"IV 電気と磁気","field":"物理","item":"3. 電流と磁場"}
+    },
+    "prompt": "真空中で、紙面上に置かれた長い直線導線に電流Iが下向きに流れている。真空の透磁率をμ₀とする。"
+  }
+]
+}

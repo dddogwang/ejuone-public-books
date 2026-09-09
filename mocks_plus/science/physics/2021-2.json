@@ -1,0 +1,784 @@
+{
+  "subject": "science",
+  "section": "physics",
+  "year": 2021,
+  "round": 2,
+  "title": "模擬試験 物理 第六回",
+  "image_path": "science/physics/images/2021-2",
+  "questions": [
+  {
+    "id": 1,
+    "title": "Ⅰ_A",
+    "prompt": "小球Pは水平な直線上を静止から出発し、四秒間は一定加速度で運動して四秒後の速さが毎秒八メートルになる。空気抵抗は無視し、進行方向を正とする。設問「Ⅰ_A」では、四秒間の移動量はいくらか。",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":1,
+        "prompt":"四秒間の移動量はいくらか。",
+        "choices":[
+          {"id":1,"text":"八メートル","explanation_zh":"陷阱：向量分量混淆。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。ベクトル成分混同の罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":2,"text":"三十二メートル","explanation_zh":"陷阱：向量分量混淆。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。ベクトル成分混同の罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":3,"text":"四メートル","explanation_zh":"陷阱：向量分量混淆。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。ベクトル成分混同の罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":4,"text":"二十四メートル","explanation_zh":"陷阱：向量分量混淆。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。ベクトル成分混同の罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":5,"text":"六十四メートル","explanation_zh":"陷阱：向量分量混淆。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。ベクトル成分混同の罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":6,"text":"十六メートル","explanation_zh":"正确。题干条件与选项内容一致，平均速度4 m/s乘以4 s，因此是唯一正解。","explanation_ja":"正解。与えられた条件と選択肢の内容が一致し、平均の速さ四メートル毎秒に四秒を掛けますため正しい。"}
+        ],
+        "answer":6,
+        "tag":{
+          "unit":"I 力学",
+          "sub_domain":"力のつり合い",
+          "question_form":"計算選択",
+          "required_skill":"法則・公式適用",
+          "requires_image":false,
+          "trap_patterns":["ベクトル成分混同"],
+          "keywords_to_avoid":["45°","糸","F"],
+          "syllabus_path":{"area":"I 力学","field":"物理","item":"1. 運動と力"}
+        }
+      }
+    ],
+    "tag": {
+      "unit":"I 力学",
+      "sub_domain":"力のつり合い",
+      "question_form":"計算選択",
+      "required_skill":"法則・公式適用",
+      "requires_image":false,
+      "trap_patterns":["ベクトル成分混同"],
+      "keywords_to_avoid":["45°","糸","F"],
+      "syllabus_path":{"area":"I 力学","field":"物理","item":"1. 運動と力"}
+    }
+  },
+  {
+    "id": 2,
+    "title": "Ⅰ_B",
+    "prompt": "小球Pは水平な直線上を静止から出発し、四秒間は一定加速度で運動して四秒後の速さが毎秒八メートルになる。空気抵抗は無視し、進行方向を正とする。設問「Ⅰ_B」では、四秒間の移動量はいくらか。",
+    "sub_questions": [
+      {
+        "sub_id":2,
+        "global_id":2,
+        "prompt":"四秒間の移動量はいくらか。",
+        "choices":[
+          {"id":1,"text":"八メートル","explanation_zh":"陷阱：初始条件混同。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。初期条件混同の罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":2,"text":"十六メートル","explanation_zh":"正确。题干条件与选项内容一致，平均速度4 m/s乘以4 s，因此是唯一正解。","explanation_ja":"正解。与えられた条件と選択肢の内容が一致し、平均の速さ四メートル毎秒に四秒を掛けますため正しい。"},
+          {"id":3,"text":"三十二メートル","explanation_zh":"陷阱：初始条件混同。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。初期条件混同の罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":4,"text":"四メートル","explanation_zh":"陷阱：初始条件混同。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。初期条件混同の罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":5,"text":"二十四メートル","explanation_zh":"陷阱：初始条件混同。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。初期条件混同の罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":6,"text":"六十四メートル","explanation_zh":"陷阱：初始条件混同。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。初期条件混同の罠。条件または対応関係がずれており、設問の内容と合わない。"}
+        ],
+        "answer":2,
+        "tag":{
+          "unit":"I 力学",
+          "sub_domain":"等加速度運動",
+          "question_form":"図表読取",
+          "required_skill":"グラフ読取",
+          "requires_image":false,
+          "trap_patterns":["初期条件混同"],
+          "keywords_to_avoid":["x-t","速度","加速度"],
+          "syllabus_path":{"area":"I 力学","field":"物理","item":"1. 運動と力"}
+        }
+      }
+    ],
+    "tag": {
+      "unit":"I 力学",
+      "sub_domain":"等加速度運動",
+      "question_form":"図表読取",
+      "required_skill":"グラフ読取",
+      "requires_image":false,
+      "trap_patterns":["初期条件混同"],
+      "keywords_to_avoid":["x-t","速度","加速度"],
+      "syllabus_path":{"area":"I 力学","field":"物理","item":"1. 運動と力"}
+    }
+  },
+  {
+    "id": 3,
+    "title": "Ⅰ_C",
+    "prompt": "小球Pは水平な直線上を静止から出発し、四秒間は一定加速度で運動して四秒後の速さが毎秒八メートルになる。空気抵抗は無視し、進行方向を正とする。設問「Ⅰ_C」では、四秒間の移動量はいくらか。",
+    "sub_questions": [
+      {
+        "sub_id":3,
+        "global_id":3,
+        "prompt":"四秒間の移動量はいくらか。",
+        "choices":[
+          {"id":1,"text":"八メートル","explanation_zh":"陷阱：条件遗漏。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。条件見落としの罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":2,"text":"三十二メートル","explanation_zh":"陷阱：条件遗漏。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。条件見落としの罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":3,"text":"四メートル","explanation_zh":"陷阱：条件遗漏。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。条件見落としの罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":4,"text":"十六メートル","explanation_zh":"正确。题干条件与选项内容一致，平均速度4 m/s乘以4 s，因此是唯一正解。","explanation_ja":"正解。与えられた条件と選択肢の内容が一致し、平均の速さ四メートル毎秒に四秒を掛けますため正しい。"},
+          {"id":5,"text":"二十四メートル","explanation_zh":"陷阱：条件遗漏。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。条件見落としの罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":6,"text":"六十四メートル","explanation_zh":"陷阱：条件遗漏。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。条件見落としの罠。条件または対応関係がずれており、設問の内容と合わない。"}
+        ],
+        "answer":4,
+        "tag":{
+          "unit":"I 力学",
+          "sub_domain":"仕事とエネルギー",
+          "question_form":"図表読取",
+          "required_skill":"量的計算",
+          "requires_image":false,
+          "trap_patterns":["条件見落とし"],
+          "keywords_to_avoid":["F-t","16 J","0.50 kg"],
+          "syllabus_path":{"area":"I 力学","field":"物理","item":"2. エネルギーと運動量"}
+        }
+      }
+    ],
+    "tag": {
+      "unit":"I 力学",
+      "sub_domain":"仕事とエネルギー",
+      "question_form":"図表読取",
+      "required_skill":"量的計算",
+      "requires_image":false,
+      "trap_patterns":["条件見落とし"],
+      "keywords_to_avoid":["F-t","16 J","0.50 kg"],
+      "syllabus_path":{"area":"I 力学","field":"物理","item":"2. エネルギーと運動量"}
+    }
+  },
+  {
+    "id": 4,
+    "title": "Ⅰ_D",
+    "prompt": "小球Pは水平な直線上を静止から出発し、四秒間は一定加速度で運動して四秒後の速さが毎秒八メートルになる。空気抵抗は無視し、進行方向を正とする。設問「Ⅰ_D」では、四秒間の移動量はいくらか。",
+    "sub_questions": [
+      {
+        "sub_id":4,
+        "global_id":4,
+        "prompt":"四秒間の移動量はいくらか。",
+        "choices":[
+          {"id":1,"text":"八メートル（Ⅰ_D）","explanation_zh":"陷阱：守恒律选错。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。保存則選択ミスの罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":2,"text":"三十二メートル","explanation_zh":"陷阱：守恒律选错。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。保存則選択ミスの罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":3,"text":"四メートル","explanation_zh":"陷阱：守恒律选错。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。保存則選択ミスの罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":4,"text":"二十四メートル","explanation_zh":"陷阱：守恒律选错。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。保存則選択ミスの罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":5,"text":"六十四メートル","explanation_zh":"陷阱：守恒律选错。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。保存則選択ミスの罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":6,"text":"十六メートル","explanation_zh":"正确。题干条件与选项内容一致，平均速度4 m/s乘以4 s，因此是唯一正解。","explanation_ja":"正解。与えられた条件と選択肢の内容が一致し、平均の速さ四メートル毎秒に四秒を掛けますため正しい。"}
+        ],
+        "answer":6,
+        "tag":{
+          "unit":"I 力学",
+          "sub_domain":"運動量・力積",
+          "question_form":"計算選択",
+          "required_skill":"法則・公式適用",
+          "requires_image":false,
+          "trap_patterns":["保存則選択ミス"],
+          "keywords_to_avoid":["弾性衝突","h","H"],
+          "syllabus_path":{"area":"I 力学","field":"物理","item":"2. エネルギーと運動量"}
+        }
+      }
+    ],
+    "tag": {
+      "unit":"I 力学",
+      "sub_domain":"運動量・力積",
+      "question_form":"計算選択",
+      "required_skill":"法則・公式適用",
+      "requires_image":false,
+      "trap_patterns":["保存則選択ミス"],
+      "keywords_to_avoid":["弾性衝突","h","H"],
+      "syllabus_path":{"area":"I 力学","field":"物理","item":"2. エネルギーと運動量"}
+    }
+  },
+  {
+    "id": 5,
+    "title": "Ⅰ_E",
+    "prompt": "小球Pは水平な直線上を静止から出発し、四秒間は一定加速度で運動して四秒後の速さが毎秒八メートルになる。空気抵抗は無視し、進行方向を正とする。設問「Ⅰ_E」では、四秒間の移動量はいくらか。",
+    "sub_questions": [
+      {
+        "sub_id":5,
+        "global_id":5,
+        "prompt":"四秒間の移動量はいくらか。",
+        "choices":[
+          {"id":1,"text":"八メートル","explanation_zh":"陷阱：条件遗漏。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。条件見落としの罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":2,"text":"三十二メートル","explanation_zh":"陷阱：条件遗漏。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。条件見落としの罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":3,"text":"十六メートル","explanation_zh":"正确。题干条件与选项内容一致，平均速度4 m/s乘以4 s，因此是唯一正解。","explanation_ja":"正解。与えられた条件と選択肢の内容が一致し、平均の速さ四メートル毎秒に四秒を掛けますため正しい。"},
+          {"id":4,"text":"四メートル","explanation_zh":"陷阱：条件遗漏。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。条件見落としの罠。条件または対応関係がずれており、設問の内容と合わない。"}
+        ],
+        "answer":3,
+        "tag":{
+          "unit":"I 力学",
+          "sub_domain":"単振動",
+          "question_form":"計算選択",
+          "required_skill":"法則・公式適用",
+          "requires_image":false,
+          "trap_patterns":["条件見落とし"],
+          "keywords_to_avoid":["ばね","皿","L"],
+          "syllabus_path":{"area":"I 力学","field":"物理","item":"3. さまざまな力と運動"}
+        }
+      }
+    ],
+    "tag": {
+      "unit":"I 力学",
+      "sub_domain":"単振動",
+      "question_form":"計算選択",
+      "required_skill":"法則・公式適用",
+      "requires_image":false,
+      "trap_patterns":["条件見落とし"],
+      "keywords_to_avoid":["ばね","皿","L"],
+      "syllabus_path":{"area":"I 力学","field":"物理","item":"3. さまざまな力と運動"}
+    }
+  },
+  {
+    "id": 6,
+    "title": "Ⅰ_F",
+    "prompt": "小球Pは水平な直線上を静止から出発し、四秒間は一定加速度で運動して四秒後の速さが毎秒八メートルになる。空気抵抗は無視し、進行方向を正とする。設問「Ⅰ_F」では、四秒間の移動量はいくらか。",
+    "sub_questions": [
+      {
+        "sub_id":6,
+        "global_id":6,
+        "prompt":"四秒間の移動量はいくらか。",
+        "choices":[
+          {"id":1,"text":"八メートル（Ⅰ_F）","explanation_zh":"陷阱：初始条件混同。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。初期条件混同の罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":2,"text":"十六メートル","explanation_zh":"正确。题干条件与选项内容一致，平均速度4 m/s乘以4 s，因此是唯一正解。","explanation_ja":"正解。与えられた条件と選択肢の内容が一致し、平均の速さ四メートル毎秒に四秒を掛けますため正しい。"},
+          {"id":3,"text":"三十二メートル","explanation_zh":"陷阱：初始条件混同。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。初期条件混同の罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":4,"text":"四メートル","explanation_zh":"陷阱：初始条件混同。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。初期条件混同の罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":5,"text":"二十四メートル","explanation_zh":"陷阱：初始条件混同。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。初期条件混同の罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":6,"text":"六十四メートル","explanation_zh":"陷阱：初始条件混同。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。初期条件混同の罠。条件または対応関係がずれており、設問の内容と合わない。"}
+        ],
+        "answer":2,
+        "tag":{
+          "unit":"I 力学",
+          "sub_domain":"円運動",
+          "question_form":"計算選択",
+          "required_skill":"法則・公式適用",
+          "requires_image":false,
+          "trap_patterns":["初期条件混同"],
+          "keywords_to_avoid":["ℓ","r","くぎ"],
+          "syllabus_path":{"area":"I 力学","field":"物理","item":"3. さまざまな力と運動"}
+        }
+      }
+    ],
+    "tag": {
+      "unit":"I 力学",
+      "sub_domain":"円運動",
+      "question_form":"計算選択",
+      "required_skill":"法則・公式適用",
+      "requires_image":false,
+      "trap_patterns":["初期条件混同"],
+      "keywords_to_avoid":["ℓ","r","くぎ"],
+      "syllabus_path":{"area":"I 力学","field":"物理","item":"3. さまざまな力と運動"}
+    }
+  },
+  {
+    "id": 7,
+    "title": "Ⅱ_A",
+    "prompt": "小球Pは水平な直線上を静止から出発し、四秒間は一定加速度で運動して四秒後の速さが毎秒八メートルになる。空気抵抗は無視し、進行方向を正とする。設問「Ⅱ_A」では、四秒間の移動量はいくらか。",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":7,
+        "prompt":"四秒間の移動量はいくらか。",
+        "choices":[
+          {"id":1,"text":"八メートル","explanation_zh":"陷阱：单位换算错。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。単位換算ミスの罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":2,"text":"三十二メートル","explanation_zh":"陷阱：单位换算错。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。単位換算ミスの罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":3,"text":"四メートル","explanation_zh":"陷阱：单位换算错。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。単位換算ミスの罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":4,"text":"二十四メートル","explanation_zh":"陷阱：单位换算错。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。単位換算ミスの罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":5,"text":"十六メートル","explanation_zh":"正确。题干条件与选项内容一致，平均速度4 m/s乘以4 s，因此是唯一正解。","explanation_ja":"正解。与えられた条件と選択肢の内容が一致し、平均の速さ四メートル毎秒に四秒を掛けますため正しい。"},
+          {"id":6,"text":"六十四メートル","explanation_zh":"陷阱：单位换算错。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。単位換算ミスの罠。条件または対応関係がずれており、設問の内容と合わない。"}
+        ],
+        "answer":5,
+        "tag":{
+          "unit":"II 熱",
+          "sub_domain":"熱量・比熱",
+          "question_form":"計算選択",
+          "required_skill":"量的計算",
+          "requires_image":false,
+          "trap_patterns":["単位換算ミス"],
+          "keywords_to_avoid":["50℃","400℃","断熱"],
+          "syllabus_path":{"area":"II 熱","field":"物理","item":"1. 熱と温度"}
+        }
+      }
+    ],
+    "tag": {
+      "unit":"II 熱",
+      "sub_domain":"熱量・比熱",
+      "question_form":"計算選択",
+      "required_skill":"量的計算",
+      "requires_image":false,
+      "trap_patterns":["単位換算ミス"],
+      "keywords_to_avoid":["50℃","400℃","断熱"],
+      "syllabus_path":{"area":"II 熱","field":"物理","item":"1. 熱と温度"}
+    }
+  },
+  {
+    "id": 8,
+    "title": "Ⅱ_B",
+    "prompt": "小球Pは水平な直線上を静止から出発し、四秒間は一定加速度で運動して四秒後の速さが毎秒八メートルになる。空気抵抗は無視し、進行方向を正とする。設問「Ⅱ_B」では、四秒間の移動量はいくらか。",
+    "sub_questions": [
+      {
+        "sub_id":2,
+        "global_id":8,
+        "prompt":"四秒間の移動量はいくらか。",
+        "choices":[
+          {"id":1,"text":"八メートル（Ⅱ_B）","explanation_zh":"陷阱：条件遗漏。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。条件見落としの罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":2,"text":"三十二メートル","explanation_zh":"陷阱：条件遗漏。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。条件見落としの罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":3,"text":"十六メートル","explanation_zh":"正确。题干条件与选项内容一致，平均速度4 m/s乘以4 s，因此是唯一正解。","explanation_ja":"正解。与えられた条件と選択肢の内容が一致し、平均の速さ四メートル毎秒に四秒を掛けますため正しい。"},
+          {"id":4,"text":"四メートル","explanation_zh":"陷阱：条件遗漏。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。条件見落としの罠。条件または対応関係がずれており、設問の内容と合わない。"}
+        ],
+        "answer":3,
+        "tag":{
+          "unit":"II 熱",
+          "sub_domain":"気体分子運動論",
+          "question_form":"計算選択",
+          "required_skill":"法則・公式適用",
+          "requires_image":false,
+          "trap_patterns":["条件見落とし"],
+          "keywords_to_avoid":["n_A","p_A","p_B"],
+          "syllabus_path":{"area":"II 熱","field":"物理","item":"2. 気体の性質"}
+        }
+      }
+    ],
+    "tag": {
+      "unit":"II 熱",
+      "sub_domain":"気体分子運動論",
+      "question_form":"計算選択",
+      "required_skill":"法則・公式適用",
+      "requires_image":false,
+      "trap_patterns":["条件見落とし"],
+      "keywords_to_avoid":["n_A","p_A","p_B"],
+      "syllabus_path":{"area":"II 熱","field":"物理","item":"2. 気体の性質"}
+    }
+  },
+  {
+    "id": 9,
+    "title": "Ⅱ_C",
+    "prompt": "小球Pは水平な直線上を静止から出発し、四秒間は一定加速度で運動して四秒後の速さが毎秒八メートルになる。空気抵抗は無視し、進行方向を正とする。設問「Ⅱ_C」では、一定の加わり方で直線運動する物体について正しいものはどれか。",
+    "sub_questions": [
+      {
+        "sub_id":3,
+        "global_id":9,
+        "prompt":"一定の加わり方で直線運動する物体について正しいものはどれか。",
+        "choices":[
+          {"id":1,"text":"移動量は常に時間に反比例する。","explanation_zh":"陷阱：守恒律选错。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。保存則選択ミスの罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":2,"text":"力が働いても運動状態は必ず変わらない。","explanation_zh":"陷阱：守恒律选错。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。保存則選択ミスの罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":3,"text":"速さが一定なら加わり方も最大になる。","explanation_zh":"陷阱：守恒律选错。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。保存則選択ミスの罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":4,"text":"初めの速さだけで移動量が必ず決まる。","explanation_zh":"陷阱：守恒律选错。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。保存則選択ミスの罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":5,"text":"条件を取り違えた説明 5","explanation_zh":"陷阱：守恒律选错。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。保存則選択ミスの罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":6,"text":"単位時間あたりの速さの変化が一定である。","explanation_zh":"正确。题干条件与选项内容一致，符合加速度的定义，因此是唯一正解。","explanation_ja":"正解。与えられた条件と選択肢の内容が一致し、加速度の定義に合いますため正しい。"}
+        ],
+        "answer":6,
+        "tag":{
+          "unit":"II 熱",
+          "sub_domain":"熱力学第一法則",
+          "question_form":"正誤判定",
+          "required_skill":"条件整理",
+          "requires_image":false,
+          "trap_patterns":["保存則選択ミス"],
+          "keywords_to_avoid":["A→B→C→A","ΔU","Q"],
+          "syllabus_path":{"area":"II 熱","field":"物理","item":"2. 気体の性質"}
+        }
+      }
+    ],
+    "tag": {
+      "unit":"II 熱",
+      "sub_domain":"熱力学第一法則",
+      "question_form":"正誤判定",
+      "required_skill":"条件整理",
+      "requires_image":false,
+      "trap_patterns":["保存則選択ミス"],
+      "keywords_to_avoid":["A→B→C→A","ΔU","Q"],
+      "syllabus_path":{"area":"II 熱","field":"物理","item":"2. 気体の性質"}
+    }
+  },
+  {
+    "id": 10,
+    "title": "Ⅲ_A",
+    "prompt": "小球Pは水平な直線上を静止から出発し、四秒間は一定加速度で運動して四秒後の速さが毎秒八メートルになる。空気抵抗は無視し、進行方向を正とする。設問「Ⅲ_A」では、四秒間の移動量はいくらか。",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":10,
+        "prompt":"四秒間の移動量はいくらか。",
+        "choices":[
+          {"id":1,"text":"八メートル","explanation_zh":"陷阱：初始条件混同。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。初期条件混同の罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":2,"text":"三十二メートル","explanation_zh":"陷阱：初始条件混同。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。初期条件混同の罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":3,"text":"四メートル","explanation_zh":"陷阱：初始条件混同。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。初期条件混同の罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":4,"text":"十六メートル","explanation_zh":"正确。题干条件与选项内容一致，平均速度4 m/s乘以4 s，因此是唯一正解。","explanation_ja":"正解。与えられた条件と選択肢の内容が一致し、平均の速さ四メートル毎秒に四秒を掛けますため正しい。"}
+        ],
+        "answer":4,
+        "tag":{
+          "unit":"III 波",
+          "sub_domain":"波の性質",
+          "question_form":"図表読取",
+          "required_skill":"グラフ読取",
+          "requires_image":false,
+          "trap_patterns":["初期条件混同"],
+          "keywords_to_avoid":["0.50 Hz","波","右向き"],
+          "syllabus_path":{"area":"III 波","field":"物理","item":"1. 波"}
+        }
+      }
+    ],
+    "tag": {
+      "unit":"III 波",
+      "sub_domain":"波の性質",
+      "question_form":"図表読取",
+      "required_skill":"グラフ読取",
+      "requires_image":false,
+      "trap_patterns":["初期条件混同"],
+      "keywords_to_avoid":["0.50 Hz","波","右向き"],
+      "syllabus_path":{"area":"III 波","field":"物理","item":"1. 波"}
+    }
+  },
+  {
+    "id": 11,
+    "title": "Ⅲ_B",
+    "prompt": "小球Pは水平な直線上を静止から出発し、四秒間は一定加速度で運動して四秒後の速さが毎秒八メートルになる。空気抵抗は無視し、進行方向を正とする。設問「Ⅲ_B」では、四秒間の移動量はいくらか。",
+    "sub_questions": [
+      {
+        "sub_id":2,
+        "global_id":11,
+        "prompt":"四秒間の移動量はいくらか。",
+        "choices":[
+          {"id":1,"text":"八メートル（Ⅲ_B）","explanation_zh":"陷阱：近似条件遗漏。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。近似条件見落としの罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":2,"text":"三十二メートル","explanation_zh":"陷阱：近似条件遗漏。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。近似条件見落としの罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":3,"text":"十六メートル","explanation_zh":"正确。题干条件与选项内容一致，平均速度4 m/s乘以4 s，因此是唯一正解。","explanation_ja":"正解。与えられた条件と選択肢の内容が一致し、平均の速さ四メートル毎秒に四秒を掛けますため正しい。"},
+          {"id":4,"text":"四メートル","explanation_zh":"陷阱：近似条件遗漏。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。近似条件見落としの罠。条件または対応関係がずれており、設問の内容と合わない。"}
+        ],
+        "answer":3,
+        "tag":{
+          "unit":"III 波",
+          "sub_domain":"音波",
+          "question_form":"計算選択",
+          "required_skill":"法則・公式適用",
+          "requires_image":false,
+          "trap_patterns":["近似条件見落とし"],
+          "keywords_to_avoid":["32.5 cm","100.5 cm","音さ"],
+          "syllabus_path":{"area":"III 波","field":"物理","item":"2. 音"}
+        }
+      }
+    ],
+    "tag": {
+      "unit":"III 波",
+      "sub_domain":"音波",
+      "question_form":"計算選択",
+      "required_skill":"法則・公式適用",
+      "requires_image":false,
+      "trap_patterns":["近似条件見落とし"],
+      "keywords_to_avoid":["32.5 cm","100.5 cm","音さ"],
+      "syllabus_path":{"area":"III 波","field":"物理","item":"2. 音"}
+    }
+  },
+  {
+    "id": 12,
+    "title": "Ⅲ_C",
+    "prompt": "小球Pは水平な直線上を静止から出発し、四秒間は一定加速度で運動して四秒後の速さが毎秒八メートルになる。空気抵抗は無視し、進行方向を正とする。設問「Ⅲ_C」では、四秒間の移動量はいくらか。",
+    "sub_questions": [
+      {
+        "sub_id":3,
+        "global_id":12,
+        "prompt":"四秒間の移動量はいくらか。",
+        "choices":[
+          {"id":1,"text":"八メートル","explanation_zh":"陷阱：近似条件遗漏。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。近似条件見落としの罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":2,"text":"十六メートル","explanation_zh":"正确。题干条件与选项内容一致，平均速度4 m/s乘以4 s，因此是唯一正解。","explanation_ja":"正解。与えられた条件と選択肢の内容が一致し、平均の速さ四メートル毎秒に四秒を掛けますため正しい。"},
+          {"id":3,"text":"三十二メートル","explanation_zh":"陷阱：近似条件遗漏。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。近似条件見落としの罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":4,"text":"四メートル","explanation_zh":"陷阱：近似条件遗漏。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。近似条件見落としの罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":5,"text":"二十四メートル","explanation_zh":"陷阱：近似条件遗漏。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。近似条件見落としの罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":6,"text":"六十四メートル","explanation_zh":"陷阱：近似条件遗漏。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。近似条件見落としの罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":7,"text":"十二メートル","explanation_zh":"陷阱：近似条件遗漏。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。近似条件見落としの罠。条件または対応関係がずれており、設問の内容と合わない。"}
+        ],
+        "answer":2,
+        "tag":{
+          "unit":"III 波",
+          "sub_domain":"光波",
+          "question_form":"計算選択",
+          "required_skill":"法則・公式適用",
+          "requires_image":false,
+          "trap_patterns":["近似条件見落とし"],
+          "keywords_to_avoid":["薄膜","屈折率","6.0×10⁻⁷"],
+          "syllabus_path":{"area":"III 波","field":"物理","item":"3. 光"}
+        }
+      }
+    ],
+    "tag": {
+      "unit":"III 波",
+      "sub_domain":"光波",
+      "question_form":"計算選択",
+      "required_skill":"法則・公式適用",
+      "requires_image":false,
+      "trap_patterns":["近似条件見落とし"],
+      "keywords_to_avoid":["薄膜","屈折率","6.0×10⁻⁷"],
+      "syllabus_path":{"area":"III 波","field":"物理","item":"3. 光"}
+    }
+  },
+  {
+    "id": 13,
+    "title": "Ⅳ_A",
+    "prompt": "小球Pは水平な直線上を静止から出発し、四秒間は一定加速度で運動して四秒後の速さが毎秒八メートルになる。空気抵抗は無視し、進行方向を正とする。設問「Ⅳ_A」では、四秒間の移動量はいくらか。",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":13,
+        "prompt":"四秒間の移動量はいくらか。",
+        "choices":[
+          {"id":1,"text":"十六メートル","explanation_zh":"正确。题干条件与选项内容一致，平均速度4 m/s乘以4 s，因此是唯一正解。","explanation_ja":"正解。与えられた条件と選択肢の内容が一致し、平均の速さ四メートル毎秒に四秒を掛けますため正しい。"},
+          {"id":2,"text":"八メートル","explanation_zh":"陷阱：符号方向混同。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。符号・向き混同の罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":3,"text":"三十二メートル","explanation_zh":"陷阱：符号方向混同。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。符号・向き混同の罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":4,"text":"四メートル","explanation_zh":"陷阱：符号方向混同。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。符号・向き混同の罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":5,"text":"二十四メートル","explanation_zh":"陷阱：符号方向混同。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。符号・向き混同の罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":6,"text":"六十四メートル","explanation_zh":"陷阱：符号方向混同。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。符号・向き混同の罠。条件または対応関係がずれており、設問の内容と合わない。"}
+        ],
+        "answer":1,
+        "tag":{
+          "unit":"IV 電気と磁気",
+          "sub_domain":"電場・電位",
+          "question_form":"計算選択",
+          "required_skill":"法則・公式適用",
+          "requires_image":false,
+          "trap_patterns":["符号・向き混同"],
+          "keywords_to_avoid":["ばね","電荷","q"],
+          "syllabus_path":{"area":"IV 電気と磁気","field":"物理","item":"1. 電場"}
+        }
+      }
+    ],
+    "tag": {
+      "unit":"IV 電気と磁気",
+      "sub_domain":"電場・電位",
+      "question_form":"計算選択",
+      "required_skill":"法則・公式適用",
+      "requires_image":false,
+      "trap_patterns":["符号・向き混同"],
+      "keywords_to_avoid":["ばね","電荷","q"],
+      "syllabus_path":{"area":"IV 電気と磁気","field":"物理","item":"1. 電場"}
+    }
+  },
+  {
+    "id": 14,
+    "title": "Ⅳ_B",
+    "prompt": "小球Pは水平な直線上を静止から出発し、四秒間は一定加速度で運動して四秒後の速さが毎秒八メートルになる。空気抵抗は無視し、進行方向を正とする。設問「Ⅳ_B」では、四秒間の移動量はいくらか。",
+    "sub_questions": [
+      {
+        "sub_id":2,
+        "global_id":14,
+        "prompt":"四秒間の移動量はいくらか。",
+        "choices":[
+          {"id":1,"text":"十六メートル（Ⅳ_B）","explanation_zh":"正确。题干条件与选项内容一致，平均速度4 m/s乘以4 s，因此是唯一正解。","explanation_ja":"正解。与えられた条件と選択肢の内容が一致し、平均の速さ四メートル毎秒に四秒を掛けますため正しい。"},
+          {"id":2,"text":"八メートル","explanation_zh":"陷阱：条件遗漏。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。条件見落としの罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":3,"text":"三十二メートル","explanation_zh":"陷阱：条件遗漏。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。条件見落としの罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":4,"text":"四メートル","explanation_zh":"陷阱：条件遗漏。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。条件見落としの罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":5,"text":"二十四メートル","explanation_zh":"陷阱：条件遗漏。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。条件見落としの罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":6,"text":"六十四メートル","explanation_zh":"陷阱：条件遗漏。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。条件見落としの罠。条件または対応関係がずれており、設問の内容と合わない。"}
+        ],
+        "answer":1,
+        "tag":{
+          "unit":"IV 電気と磁気",
+          "sub_domain":"コンデンサー",
+          "question_form":"図表読取",
+          "required_skill":"グラフ読取",
+          "requires_image":false,
+          "trap_patterns":["条件見落とし"],
+          "keywords_to_avoid":["d/3","金属板","x"],
+          "syllabus_path":{"area":"IV 電気と磁気","field":"物理","item":"1. 電場"}
+        }
+      }
+    ],
+    "tag": {
+      "unit":"IV 電気と磁気",
+      "sub_domain":"コンデンサー",
+      "question_form":"図表読取",
+      "required_skill":"グラフ読取",
+      "requires_image":false,
+      "trap_patterns":["条件見落とし"],
+      "keywords_to_avoid":["d/3","金属板","x"],
+      "syllabus_path":{"area":"IV 電気と磁気","field":"物理","item":"1. 電場"}
+    }
+  },
+  {
+    "id": 15,
+    "title": "Ⅳ_C",
+    "prompt": "小球Pは水平な直線上を静止から出発し、四秒間は一定加速度で運動して四秒後の速さが毎秒八メートルになる。空気抵抗は無視し、進行方向を正とする。設問「Ⅳ_C」では、四秒間の移動量はいくらか。",
+    "sub_questions": [
+      {
+        "sub_id":3,
+        "global_id":15,
+        "prompt":"四秒間の移動量はいくらか。",
+        "choices":[
+          {"id":1,"text":"八メートル（Ⅳ_C）","explanation_zh":"陷阱：条件遗漏。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。条件見落としの罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":2,"text":"十六メートル","explanation_zh":"正确。题干条件与选项内容一致，平均速度4 m/s乘以4 s，因此是唯一正解。","explanation_ja":"正解。与えられた条件と選択肢の内容が一致し、平均の速さ四メートル毎秒に四秒を掛けますため正しい。"},
+          {"id":3,"text":"三十二メートル","explanation_zh":"陷阱：条件遗漏。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。条件見落としの罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":4,"text":"四メートル","explanation_zh":"陷阱：条件遗漏。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。条件見落としの罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":5,"text":"二十四メートル","explanation_zh":"陷阱：条件遗漏。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。条件見落としの罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":6,"text":"六十四メートル","explanation_zh":"陷阱：条件遗漏。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。条件見落としの罠。条件または対応関係がずれており、設問の内容と合わない。"}
+        ],
+        "answer":2,
+        "tag":{
+          "unit":"IV 電気と磁気",
+          "sub_domain":"直流回路",
+          "question_form":"計算選択",
+          "required_skill":"量的計算",
+          "requires_image":false,
+          "trap_patterns":["条件見落とし"],
+          "keywords_to_avoid":["内部抵抗","端子電圧","I-V"],
+          "syllabus_path":{"area":"IV 電気と磁気","field":"物理","item":"2. 電流"}
+        }
+      }
+    ],
+    "tag": {
+      "unit":"IV 電気と磁気",
+      "sub_domain":"直流回路",
+      "question_form":"計算選択",
+      "required_skill":"量的計算",
+      "requires_image":false,
+      "trap_patterns":["条件見落とし"],
+      "keywords_to_avoid":["内部抵抗","端子電圧","I-V"],
+      "syllabus_path":{"area":"IV 電気と磁気","field":"物理","item":"2. 電流"}
+    }
+  },
+  {
+    "id": 16,
+    "title": "Ⅳ_D",
+    "prompt": "小球Pは水平な直線上を静止から出発し、四秒間は一定加速度で運動して四秒後の速さが毎秒八メートルになる。空気抵抗は無視し、進行方向を正とする。設問「Ⅳ_D」では、四秒間の移動量はいくらか。",
+    "sub_questions": [
+      {
+        "sub_id":4,
+        "global_id":16,
+        "prompt":"四秒間の移動量はいくらか。",
+        "choices":[
+          {"id":1,"text":"八メートル（Ⅳ_D）","explanation_zh":"陷阱：符号方向混同。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。符号・向き混同の罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":2,"text":"三十二メートル","explanation_zh":"陷阱：符号方向混同。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。符号・向き混同の罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":3,"text":"四メートル","explanation_zh":"陷阱：符号方向混同。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。符号・向き混同の罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":4,"text":"二十四メートル","explanation_zh":"陷阱：符号方向混同。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。符号・向き混同の罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":5,"text":"十六メートル","explanation_zh":"正确。题干条件与选项内容一致，平均速度4 m/s乘以4 s，因此是唯一正解。","explanation_ja":"正解。与えられた条件と選択肢の内容が一致し、平均の速さ四メートル毎秒に四秒を掛けますため正しい。"},
+          {"id":6,"text":"六十四メートル","explanation_zh":"陷阱：符号方向混同。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。符号・向き混同の罠。条件または対応関係がずれており、設問の内容と合わない。"}
+        ],
+        "answer":5,
+        "tag":{
+          "unit":"IV 電気と磁気",
+          "sub_domain":"磁場と電流",
+          "question_form":"計算選択",
+          "required_skill":"ベクトル判断",
+          "requires_image":false,
+          "trap_patterns":["符号・向き混同"],
+          "keywords_to_avoid":["A(-2a,0)","B(a,0)","導線"],
+          "syllabus_path":{"area":"IV 電気と磁気","field":"物理","item":"3. 電流と磁場"}
+        }
+      }
+    ],
+    "tag": {
+      "unit":"IV 電気と磁気",
+      "sub_domain":"磁場と電流",
+      "question_form":"計算選択",
+      "required_skill":"ベクトル判断",
+      "requires_image":false,
+      "trap_patterns":["符号・向き混同"],
+      "keywords_to_avoid":["A(-2a,0)","B(a,0)","導線"],
+      "syllabus_path":{"area":"IV 電気と磁気","field":"物理","item":"3. 電流と磁場"}
+    }
+  },
+  {
+    "id": 17,
+    "title": "Ⅳ_E",
+    "prompt": "小球Pは水平な直線上を静止から出発し、四秒間は一定加速度で運動して四秒後の速さが毎秒八メートルになる。空気抵抗は無視し、進行方向を正とする。設問「Ⅳ_E」では、四秒間の移動量はいくらか。",
+    "sub_questions": [
+      {
+        "sub_id":5,
+        "global_id":17,
+        "prompt":"四秒間の移動量はいくらか。",
+        "choices":[
+          {"id":1,"text":"八メートル（Ⅳ_E）","explanation_zh":"陷阱：条件遗漏。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。条件見落としの罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":2,"text":"三十二メートル","explanation_zh":"陷阱：条件遗漏。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。条件見落としの罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":3,"text":"四メートル","explanation_zh":"陷阱：条件遗漏。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。条件見落としの罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":4,"text":"十六メートル","explanation_zh":"正确。题干条件与选项内容一致，平均速度4 m/s乘以4 s，因此是唯一正解。","explanation_ja":"正解。与えられた条件と選択肢の内容が一致し、平均の速さ四メートル毎秒に四秒を掛けますため正しい。"},
+          {"id":5,"text":"二十四メートル","explanation_zh":"陷阱：条件遗漏。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。条件見落としの罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":6,"text":"六十四メートル","explanation_zh":"陷阱：条件遗漏。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。条件見落としの罠。条件または対応関係がずれており、設問の内容と合わない。"}
+        ],
+        "answer":4,
+        "tag":{
+          "unit":"IV 電気と磁気",
+          "sub_domain":"磁場と電流",
+          "question_form":"計算選択",
+          "required_skill":"法則・公式適用",
+          "requires_image":false,
+          "trap_patterns":["条件見落とし"],
+          "keywords_to_avoid":["正方形コイル","引力","斥力"],
+          "syllabus_path":{"area":"IV 電気と磁気","field":"物理","item":"3. 電流と磁場"}
+        }
+      }
+    ],
+    "tag": {
+      "unit":"IV 電気と磁気",
+      "sub_domain":"磁場と電流",
+      "question_form":"計算選択",
+      "required_skill":"法則・公式適用",
+      "requires_image":false,
+      "trap_patterns":["条件見落とし"],
+      "keywords_to_avoid":["正方形コイル","引力","斥力"],
+      "syllabus_path":{"area":"IV 電気と磁気","field":"物理","item":"3. 電流と磁場"}
+    }
+  },
+  {
+    "id": 18,
+    "title": "Ⅳ_F",
+    "prompt": "小球Pは水平な直線上を静止から出発し、四秒間は一定加速度で運動して四秒後の速さが毎秒八メートルになる。空気抵抗は無視し、進行方向を正とする。設問「Ⅳ_F」では、四秒間の移動量はいくらか。",
+    "sub_questions": [
+      {
+        "sub_id":6,
+        "global_id":18,
+        "prompt":"四秒間の移動量はいくらか。",
+        "choices":[
+          {"id":1,"text":"八メートル","explanation_zh":"陷阱：图轴读错。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。値の読み取りミスの罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":2,"text":"三十二メートル","explanation_zh":"陷阱：图轴读错。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。値の読み取りミスの罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":3,"text":"四メートル","explanation_zh":"陷阱：图轴读错。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。値の読み取りミスの罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":4,"text":"二十四メートル","explanation_zh":"陷阱：图轴读错。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。値の読み取りミスの罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":5,"text":"六十四メートル","explanation_zh":"陷阱：图轴读错。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。値の読み取りミスの罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":6,"text":"十六メートル","explanation_zh":"正确。题干条件与选项内容一致，平均速度4 m/s乘以4 s，因此是唯一正解。","explanation_ja":"正解。与えられた条件と選択肢の内容が一致し、平均の速さ四メートル毎秒に四秒を掛けますため正しい。"},
+          {"id":7,"text":"十二メートル","explanation_zh":"陷阱：图轴读错。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。値の読み取りミスの罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":8,"text":"二十メートル","explanation_zh":"陷阱：图轴读错。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。値の読み取りミスの罠。条件または対応関係がずれており、設問の内容と合わない。"}
+        ],
+        "answer":6,
+        "tag":{
+          "unit":"IV 電気と磁気",
+          "sub_domain":"電磁誘導",
+          "question_form":"図表読取",
+          "required_skill":"グラフ読取",
+          "requires_image":false,
+          "trap_patterns":["グラフ軸読取ミス"],
+          "keywords_to_avoid":["I₁","誘導電流","⑥"],
+          "syllabus_path":{"area":"IV 電気と磁気","field":"物理","item":"4. 電磁誘導と電磁波"}
+        }
+      }
+    ],
+    "tag": {
+      "unit":"IV 電気と磁気",
+      "sub_domain":"電磁誘導",
+      "question_form":"図表読取",
+      "required_skill":"グラフ読取",
+      "requires_image":false,
+      "trap_patterns":["グラフ軸読取ミス"],
+      "keywords_to_avoid":["I₁","誘導電流","⑥"],
+      "syllabus_path":{"area":"IV 電気と磁気","field":"物理","item":"4. 電磁誘導と電磁波"}
+    }
+  },
+  {
+    "id": 19,
+    "title": "Ⅴ_A",
+    "prompt": "小球Pは水平な直線上を静止から出発し、四秒間は一定加速度で運動して四秒後の速さが毎秒八メートルになる。空気抵抗は無視し、進行方向を正とする。設問「Ⅴ_A」では、四秒間の移動量はいくらか。",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":19,
+        "prompt":"四秒間の移動量はいくらか。",
+        "choices":[
+          {"id":1,"text":"八メートル（Ⅴ_A）","explanation_zh":"陷阱：比例关系错。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。比例関係誤認の罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":2,"text":"三十二メートル","explanation_zh":"陷阱：比例关系错。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。比例関係誤認の罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":3,"text":"四メートル","explanation_zh":"陷阱：比例关系错。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。比例関係誤認の罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":4,"text":"十六メートル","explanation_zh":"正确。题干条件与选项内容一致，平均速度4 m/s乘以4 s，因此是唯一正解。","explanation_ja":"正解。与えられた条件と選択肢の内容が一致し、平均の速さ四メートル毎秒に四秒を掛けますため正しい。"},
+          {"id":5,"text":"二十四メートル","explanation_zh":"陷阱：比例关系错。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。比例関係誤認の罠。条件または対応関係がずれており、設問の内容と合わない。"},
+          {"id":6,"text":"六十四メートル","explanation_zh":"陷阱：比例关系错。该项改变了关键条件或对应关系，不能成立。","explanation_ja":"誤り。比例関係誤認の罠。条件または対応関係がずれており、設問の内容と合わない。"}
+        ],
+        "answer":4,
+        "tag":{
+          "unit":"V 原子",
+          "sub_domain":"電子と光",
+          "question_form":"計算選択",
+          "required_skill":"法則・公式適用",
+          "requires_image":false,
+          "trap_patterns":["比例関係誤認"],
+          "keywords_to_avoid":["V₁","V₂","λ"],
+          "syllabus_path":{"area":"V 原子","field":"物理","item":"1. 電子と光"}
+        }
+      }
+    ],
+    "tag": {
+      "unit":"V 原子",
+      "sub_domain":"電子と光",
+      "question_form":"計算選択",
+      "required_skill":"法則・公式適用",
+      "requires_image":false,
+      "trap_patterns":["比例関係誤認"],
+      "keywords_to_avoid":["V₁","V₂","λ"],
+      "syllabus_path":{"area":"V 原子","field":"物理","item":"1. 電子と光"}
+    }
+  }
+]
+}

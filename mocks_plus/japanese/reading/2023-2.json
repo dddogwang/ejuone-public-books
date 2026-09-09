@@ -1,0 +1,694 @@
+{
+  "subject": "japanese",
+  "section": "reading",
+  "year": 2023,
+  "round": 2,
+  "title": "模擬試験 日本語 第十回",
+  "image_path": "japanese/reading/images/2023-2",
+  "questions": [
+    {
+      "id": 1,
+      "global_id": 1,
+      "title": "Ⅰ",
+      "prompt": "山火事のあとの森林再生について、本文と合っているものはどれですか。",
+      "passage": "山火事は森林を破壊するだけの出来事だと見られやすい。しかし、地域によっては火事のあとに日光が地表まで届き、眠っていた種子が芽を出すことがある。焼けた木は土に栄養を戻し、新しい草木の成長を支える場合もある。もちろん、すべての山火事が望ましいわけではなく、規模が大きすぎれば回復は難しくなる。森林再生を考えるには、火を単なる災害としてだけでなく、生態系の循環に関わる現象として見る視点も必要である。",
+      "choices": [
+        {"id": 1, "text": "山火事はどの地域でも森林再生に必ず役立つ。", "explanation_zh": "陷阱：方向相反。文章的主张与该选项相反。", "explanation_ja": "誤り。本文の内容と反対である。"},
+        {"id": 2, "text": "山火事には森林再生を促す場合もあるが、規模によっては回復を難しくする面もある。", "explanation_zh": "正确。该选项对应文章中的核心依据。", "explanation_ja": "正解。本文の中心的な説明または根拠と合っている。"},
+        {"id": 3, "text": "山火事のあとには人間が何もしなくても全ての森がすぐ元に戻る。", "explanation_zh": "陷阱：无中生有。文章中没有这样的说明。", "explanation_ja": "誤り。本文にない内容を加えている。"},
+        {"id": 4, "text": "山火事は完全に悪い現象ではないので、被害を考える必要はない。", "explanation_zh": "陷阱：范围扩大。文章只在特定条件下说明，并非普遍如此。", "explanation_ja": "誤り。本文の一部を広げすぎている。"}
+      ],
+      "answer": 2,
+      "tag": {
+        "genre": "説明文",
+        "topic_domain": "環境",
+        "rhetorical_pattern": "通説否定",
+        "vocab_level": "標準",
+        "reasoning_type": "句間整合",
+        "question_focus": "中心論点",
+        "trap_patterns": ["範囲拡大", "無中生有"],
+        "keywords_to_avoid": ["地下水", "地球表層", "化石水", "循環資源", "淡水資源"],
+        "sub_topic": "山火事のあとの森林再生",
+        "syllabus_path": {"area": "理解領域", "section": "読解", "ability": "②関係理解能力", "material_type": "説明文"},
+        "question_type": "本文内容一致",
+        "length_band": "短"
+      },
+      "mock_status": "quality_fail"
+    },
+    {
+      "id": 2,
+      "global_id": 2,
+      "title": "Ⅱ",
+      "prompt": "次の案内の内容と合っているものはどれですか。",
+      "passage": "【オンライン授業体験会】\n本校では、入学希望者を対象にオンライン授業の体験会を行います。日時は9月3日（日）10時から11時30分までです。参加には事前申し込みが必要で、締切は8月28日（月）17時です。授業は録画ではなく、担当教員と参加者がその場でやり取りする形式です。参加費は無料ですが、通信環境と端末は各自で準備してください。終了後、希望者には個別相談の時間を設けます。",
+      "choices": [
+        {"id": 1, "text": "体験会は申し込みなしで参加できる。", "explanation_zh": "陷阱：方向相反。文章的主张与该选项相反。", "explanation_ja": "誤り。本文の内容と反対である。"},
+        {"id": 2, "text": "体験会は事前申し込みが必要で、授業はその場でやり取りする形式で行われる。", "explanation_zh": "正确。该选项对应文章中的核心依据。", "explanation_ja": "正解。本文の中心的な説明または根拠と合っている。"},
+        {"id": 3, "text": "学校が参加者全員に端末を貸し出す。", "explanation_zh": "陷阱：无中生有。文章中没有这样的说明。", "explanation_ja": "誤り。本文にない内容を加えている。"},
+        {"id": 4, "text": "授業後の個別相談は全員に義務づけられている。", "explanation_zh": "陷阱：范围扩大。文章只在特定条件下说明，并非普遍如此。", "explanation_ja": "誤り。本文の一部を広げすぎている。"}
+      ],
+      "answer": 2,
+      "tag": {
+        "genre": "実用文",
+        "topic_domain": "教育",
+        "rhetorical_pattern": "N/A",
+        "vocab_level": "標準",
+        "reasoning_type": "事実定位",
+        "question_focus": "細節事実",
+        "trap_patterns": ["同義改写陷阱"],
+        "keywords_to_avoid": ["募集期間", "応募多数", "締切", "定員", "先着順"],
+        "sub_topic": "オンライン授業の効果",
+        "syllabus_path": {"area": "理解領域", "section": "読解", "ability": "①直接的理解能力", "material_type": "実務的・実用的な文書/文章"},
+        "question_type": "実用文理解",
+        "length_band": "短"
+      },
+      "mock_status": "quality_fail"
+    },
+    {
+      "id": 3,
+      "global_id": 3,
+      "title": "Ⅲ",
+      "prompt": "次の文章から筆者の主張として最も適当なものはどれですか。",
+      "passage": "ストレスは体に悪いものとしてだけ語られやすい。確かに、長く続く強いストレスは睡眠や食欲を乱し、体調不良につながる。しかし、短期間の適度な緊張は、集中力を高めたり、準備を促したりすることもある。問題はストレスの有無そのものではなく、その強さや期間、そして休息を取れる環境である。体の反応を単純に悪いものと決めつけず、自分の状態を読み取って調整することが大切だ。",
+      "choices": [
+        {"id": 1, "text": "ストレスはどんな場合でも体によい。", "explanation_zh": "陷阱：方向相反。文章的主张与该选项相反。", "explanation_ja": "誤り。本文の内容と反対である。"},
+        {"id": 2, "text": "ストレスの影響は一様ではなく、強さや期間、休息の有無を見て調整する必要がある。", "explanation_zh": "正确。该选项对应文章中的核心依据。", "explanation_ja": "正解。本文の中心的な説明または根拠と合っている。"},
+        {"id": 3, "text": "ストレスがあれば休息は不要になる。", "explanation_zh": "陷阱：无中生有。文章中没有这样的说明。", "explanation_ja": "誤り。本文にない内容を加えている。"},
+        {"id": 4, "text": "短い緊張が役立つことがあるため、長期的な不調も放置してよい。", "explanation_zh": "陷阱：范围扩大。文章只在特定条件下说明，并非普遍如此。", "explanation_ja": "誤り。本文の一部を広げすぎている。"}
+      ],
+      "answer": 2,
+      "tag": {
+        "genre": "論説文",
+        "topic_domain": "健康・医療",
+        "rhetorical_pattern": "通説否定",
+        "vocab_level": "標準",
+        "reasoning_type": "主旨概括",
+        "question_focus": "中心論点",
+        "sub_topic": "ストレスと身体症状",
+        "syllabus_path": {"area": "理解領域", "section": "読解", "ability": "①直接的理解能力", "material_type": "論説文"},
+        "question_type": "筆者の主張",
+        "length_band": "短"
+      },
+      "mock_status": "quality_fail"
+    },
+    {
+      "id": 4,
+      "global_id": 4,
+      "title": "Ⅳ",
+      "prompt": "副業の社会的影響について、本文と合っているものはどれですか。",
+      "passage": "副業を認める企業が増えると、働く人は収入源を増やしたり、新しい技能を身につけたりしやすくなる。一方で、本業との時間配分が難しくなり、疲労が蓄積する危険もある。企業にとっても、社員が外部で得た経験を本業に生かせる利点があるが、情報管理や労働時間の把握という課題が残る。副業の広がりは個人の自由を広げるだけでなく、働き方を管理する仕組みの見直しを求めている。",
+      "choices": [
+        {"id": 1, "text": "副業は働く人にも企業にも不利益しかない。", "explanation_zh": "陷阱：方向相反。文章的主张与该选项相反。", "explanation_ja": "誤り。本文の内容と反対である。"},
+        {"id": 2, "text": "副業の広がりには利点がある一方、時間管理や情報管理などの課題もある。", "explanation_zh": "正确。该选项对应文章中的核心依据。", "explanation_ja": "正解。本文の中心的な説明または根拠と合っている。"},
+        {"id": 3, "text": "副業を認める企業では本業の労働時間を把握する必要がない。", "explanation_zh": "陷阱：无中生有。文章中没有这样的说明。", "explanation_ja": "誤り。本文にない内容を加えている。"},
+        {"id": 4, "text": "副業で収入が増えるなら疲労の問題は起こらない。", "explanation_zh": "陷阱：范围扩大。文章只在特定条件下说明，并非普遍如此。", "explanation_ja": "誤り。本文の一部を広げすぎている。"}
+      ],
+      "answer": 2,
+      "tag": {
+        "genre": "説明文",
+        "topic_domain": "経済",
+        "rhetorical_pattern": "並列例示",
+        "vocab_level": "標準",
+        "reasoning_type": "句間整合",
+        "question_focus": "中心論点",
+        "sub_topic": "副業の社会的影響",
+        "syllabus_path": {"area": "理解領域", "section": "読解", "ability": "②関係理解能力", "material_type": "説明文"},
+        "question_type": "本文内容一致",
+        "length_band": "短"
+      },
+      "mock_status": "quality_fail"
+    },
+    {
+      "id": 5,
+      "global_id": 5,
+      "title": "Ⅴ",
+      "prompt": "公共交通の再編について、本文と合っているものはどれですか。",
+      "passage": "人口が減る地域では、すべての路線を以前と同じ本数で維持することが難しくなっている。そのため、公共交通を単に縮小するのではなく、利用の多い時間帯に便を集中させたり、予約型の小型車を導入したりする動きがある。高齢者や学生にとって移動手段は生活の基盤であり、採算だけで判断すると地域の生活が成り立たなくなる。公共交通の再編では、効率と生活保障の両方を考える必要がある。",
+      "choices": [
+        {"id": 1, "text": "人口が減る地域では公共交通をすべて廃止すべきである。", "explanation_zh": "陷阱：方向相反。文章的主张与该选项相反。", "explanation_ja": "誤り。本文の内容と反対である。"},
+        {"id": 2, "text": "公共交通の再編では、効率だけでなく住民の生活を支える視点も必要である。", "explanation_zh": "正确。该选项对应文章中的核心依据。", "explanation_ja": "正解。本文の中心的な説明または根拠と合っている。"},
+        {"id": 3, "text": "予約型の小型車は本文で否定されている。", "explanation_zh": "陷阱：无中生有。文章中没有这样的说明。", "explanation_ja": "誤り。本文にない内容を加えている。"},
+        {"id": 4, "text": "採算が悪い路線は生活に影響しない。", "explanation_zh": "陷阱：范围扩大。文章只在特定条件下说明，并非普遍如此。", "explanation_ja": "誤り。本文の一部を広げすぎている。"}
+      ],
+      "answer": 2,
+      "tag": {
+        "genre": "説明文",
+        "topic_domain": "社会文化",
+        "rhetorical_pattern": "並列例示",
+        "vocab_level": "標準",
+        "reasoning_type": "句間整合",
+        "question_focus": "中心論点",
+        "sub_topic": "公共交通の再編",
+        "syllabus_path": {"area": "理解領域", "section": "読解", "ability": "②関係理解能力", "material_type": "説明文"},
+        "question_type": "本文内容一致",
+        "length_band": "短"
+      },
+      "mock_status": "quality_fail"
+    },
+    {
+      "id": 6,
+      "global_id": 6,
+      "title": "Ⅵ",
+      "prompt": "次の文章から推論できることはどれですか。",
+      "passage": "介護現場でロボットを使えば、重い物を持ち上げる作業や夜間の見守りを助けることができる。しかし、介護は作業の効率だけで成り立つものではない。利用者の不安を聞き取り、その日の表情から体調の変化に気づくには、人間同士の関係が重要である。ロボットは介護者の負担を減らす道具になりうるが、相手の気持ちを受け止める役割を完全に置き換えることは難しい。",
+      "choices": [
+        {"id": 1, "text": "ロボットを使えば介護者は不要になる。", "explanation_zh": "陷阱：方向相反。文章的主张与该选项相反。", "explanation_ja": "誤り。本文の内容と反対である。"},
+        {"id": 2, "text": "ロボットは介護を支援できるが、人間関係に基づく気づきや安心の役割を完全には代替しにくい。", "explanation_zh": "正确。该选项对应文章中的核心依据。", "explanation_ja": "正解。本文の中心的な説明または根拠と合っている。"},
+        {"id": 3, "text": "介護では身体的な作業だけが重要である。", "explanation_zh": "陷阱：无中生有。文章中没有这样的说明。", "explanation_ja": "誤り。本文にない内容を加えている。"},
+        {"id": 4, "text": "利用者の表情や不安は介護の質と関係がない。", "explanation_zh": "陷阱：范围扩大。文章只在特定条件下说明，并非普遍如此。", "explanation_ja": "誤り。本文の一部を広げすぎている。"}
+      ],
+      "answer": 2,
+      "tag": {
+        "genre": "論説文",
+        "topic_domain": "科学技術",
+        "rhetorical_pattern": "通説否定",
+        "vocab_level": "N1偏難",
+        "reasoning_type": "推論",
+        "question_focus": "反例",
+        "sub_topic": "ロボットによる介護支援の限界",
+        "syllabus_path": {"area": "理解領域", "section": "読解", "ability": "③情報活用能力", "material_type": "論説文"},
+        "question_type": "筆者の主張"
+      },
+      "mock_status": "quality_fail"
+    },
+    {
+      "id": 7,
+      "global_id": 7,
+      "title": "Ⅶ",
+      "prompt": "教師の働き方について、筆者が最も言いたいことはどれですか。",
+      "passage": "教師の働き方を改善するには、授業時間だけを見ても十分ではない。授業準備、保護者対応、校内会議、行事の運営など、見えにくい仕事が積み重なっているからである。仕事を減らすと言っても、教育の質に関わる活動まで削れば本末転倒になる。まずは業務を整理し、教師でなくてもできる作業を分担することが必要だ。教師が生徒と向き合う時間を確保するために、学校全体の仕事の設計を見直すべきである。",
+      "choices": [
+        {"id": 1, "text": "教師の仕事は授業時間だけを見れば十分に把握できる。", "explanation_zh": "陷阱：方向相反。文章的主张与该选项相反。", "explanation_ja": "誤り。本文の内容と反対である。"},
+        {"id": 2, "text": "教師の働き方改善には、業務を整理し、生徒と向き合う時間を確保する仕組みが必要である。", "explanation_zh": "正确。该选项对应文章中的核心依据。", "explanation_ja": "正解。本文の中心的な説明または根拠と合っている。"},
+        {"id": 3, "text": "教育の質に関わる活動もすべて削るべきである。", "explanation_zh": "陷阱：无中生有。文章中没有这样的说明。", "explanation_ja": "誤り。本文にない内容を加えている。"},
+        {"id": 4, "text": "校内の仕事はすべて教師だけで担うべきである。", "explanation_zh": "陷阱：范围扩大。文章只在特定条件下说明，并非普遍如此。", "explanation_ja": "誤り。本文の一部を広げすぎている。"}
+      ],
+      "answer": 2,
+      "tag": {
+        "genre": "説明文",
+        "topic_domain": "教育",
+        "rhetorical_pattern": "對比",
+        "vocab_level": "標準",
+        "reasoning_type": "主旨概括",
+        "question_focus": "中心論点",
+        "sub_topic": "教師の働き方",
+        "syllabus_path": {"area": "理解領域", "section": "読解", "ability": "①直接的理解能力", "material_type": "説明文"},
+        "question_type": "筆者の主張",
+        "length_band": "短"
+      },
+      "mock_status": "quality_fail"
+    },
+    {
+      "id": 8,
+      "global_id": 8,
+      "title": "Ⅷ",
+      "prompt": "次の文章で筆者の考えとして最も適当なものはどれですか。",
+      "passage": "葬儀を簡素に行う人が増えている背景には、費用の問題だけでなく、故人との関係を静かに振り返りたいという気持ちもある。大勢を招く形式は、地域のつながりを示す役割を果たしてきた。一方で、形式を整えることに追われると、家族が故人と向き合う時間が少なくなることもある。葬儀の形は一つではなく、誰のために、何を大切にして行うのかを考えることが重要である。",
+      "choices": [
+        {"id": 1, "text": "葬儀は必ず大勢を招く形式でなければならない。", "explanation_zh": "陷阱：方向相反。文章的主张与该选项相反。", "explanation_ja": "誤り。本文の内容と反対である。"},
+        {"id": 2, "text": "葬儀の形は一つに限られず、大切にしたい意味に合わせて考える必要がある。", "explanation_zh": "正确。该选项对应文章中的核心依据。", "explanation_ja": "正解。本文の中心的な説明または根拠と合っている。"},
+        {"id": 3, "text": "簡素な葬儀は費用以外の理由では選ばれない。", "explanation_zh": "陷阱：无中生有。文章中没有这样的说明。", "explanation_ja": "誤り。本文にない内容を加えている。"},
+        {"id": 4, "text": "形式を整えるほど家族は必ず故人と向き合いやすくなる。", "explanation_zh": "陷阱：范围扩大。文章只在特定条件下说明，并非普遍如此。", "explanation_ja": "誤り。本文の一部を広げすぎている。"}
+      ],
+      "answer": 2,
+      "tag": {
+        "genre": "論説文",
+        "topic_domain": "社会文化",
+        "rhetorical_pattern": "問題提起→解決",
+        "vocab_level": "標準",
+        "reasoning_type": "主旨概括",
+        "question_focus": "中心論点",
+        "sub_topic": "葬儀の簡素化",
+        "syllabus_path": {"area": "理解領域", "section": "読解", "ability": "①直接的理解能力", "material_type": "論説文"},
+        "question_type": "筆者の主張",
+        "length_band": "短"
+      },
+      "mock_status": "quality_fail"
+    },
+    {
+      "id": 9,
+      "global_id": 9,
+      "title": "Ⅸ",
+      "prompt": "海亀の産卵地選択について、本文と合っているものはどれですか。",
+      "passage": "海亀は砂浜ならどこにでも産卵するわけではない。砂の温度や湿り気、海からの距離、人間の光や騒音の少なさなど、複数の条件が関係する。特に夜間の強い照明は、親亀や孵化した子亀の進む方向を乱すことがある。産卵地を守るには、砂浜を立ち入り禁止にするだけでなく、周辺の光の管理や清掃活動も必要である。海亀の保護は、砂浜そのものと周辺環境を一体として考えることから始まる。",
+      "anchors": [
+        {"id": 1, "text": "便利な脳"}
+      ],
+      "choices": [
+        {"id": 1, "text": "海亀はどの砂浜でも同じように産卵する。", "explanation_zh": "陷阱：方向相反。文章的主张与该选项相反。", "explanation_ja": "誤り。本文の内容と反対である。"},
+        {"id": 2, "text": "海亀の産卵地保護には、砂浜だけでなく光や清掃など周辺環境への配慮も必要である。", "explanation_zh": "正确。该选项对应文章中的核心依据。", "explanation_ja": "正解。本文の中心的な説明または根拠と合っている。"},
+        {"id": 3, "text": "夜間照明は海亀の行動に全く影響しない。", "explanation_zh": "陷阱：无中生有。文章中没有这样的说明。", "explanation_ja": "誤り。本文にない内容を加えている。"},
+        {"id": 4, "text": "砂浜を立ち入り禁止にすれば、ほかの対策は一切不要である。", "explanation_zh": "陷阱：范围扩大。文章只在特定条件下说明，并非普遍如此。", "explanation_ja": "誤り。本文の一部を広げすぎている。"}
+      ],
+      "answer": 2,
+      "tag": {
+        "genre": "説明文",
+        "topic_domain": "自然・生物",
+        "rhetorical_pattern": "N/A",
+        "vocab_level": "標準",
+        "reasoning_type": "事実定位",
+        "question_focus": "細節事実",
+        "sub_topic": "海亀の産卵地選択",
+        "syllabus_path": {"area": "理解領域", "section": "読解", "ability": "①直接的理解能力", "material_type": "説明文"},
+        "question_type": "下線部の意味",
+        "length_band": "短"
+      },
+      "mock_status": "quality_fail"
+    },
+    {
+      "id": 10,
+      "global_id": 10,
+      "title": "Ⅹ",
+      "prompt": "怒りの表現方法について、本文と合っているものはどれですか。",
+      "passage": "怒りは抑え込むべき感情だと思われがちである。確かに、怒りをそのまま相手にぶつければ関係を傷つける。しかし、怒りは自分が何を不公平だと感じ、どの境界を守りたいのかを知らせる信号でもある。大切なのは、怒りを否定することではなく、少し時間を置いて理由を整理し、相手に伝わる言葉に変えることだ。怒りの表現方法を学ぶことは、感情をなくすことではなく、関係を壊さずに問題を扱う力を育てることである。",
+      "choices": [
+        {"id": 1, "text": "怒りはどんな場合でもすぐ相手にぶつけるべきである。", "explanation_zh": "陷阱：方向相反。文章的主张与该选项相反。", "explanation_ja": "誤り。本文の内容と反対である。"},
+        {"id": 2, "text": "怒りは否定するだけでなく、理由を整理して適切な言葉に変えることが大切である。", "explanation_zh": "正确。该选项对应文章中的核心依据。", "explanation_ja": "正解。本文の中心的な説明または根拠と合っている。"},
+        {"id": 3, "text": "怒りを感じる人は不公平さを全く意識していない。", "explanation_zh": "陷阱：无中生有。文章中没有这样的说明。", "explanation_ja": "誤り。本文にない内容を加えている。"},
+        {"id": 4, "text": "怒りを表現する方法を学ぶことは感情を完全になくすことである。", "explanation_zh": "陷阱：范围扩大。文章只在特定条件下说明，并非普遍如此。", "explanation_ja": "誤り。本文の一部を広げすぎている。"}
+      ],
+      "answer": 2,
+      "tag": {
+        "genre": "説明文",
+        "topic_domain": "心理",
+        "rhetorical_pattern": "通説否定",
+        "vocab_level": "標準",
+        "reasoning_type": "句間整合",
+        "question_focus": "中心論点",
+        "sub_topic": "怒りの表現方法",
+        "syllabus_path": {"area": "理解領域", "section": "読解", "ability": "②関係理解能力", "material_type": "説明文"},
+        "question_type": "本文内容一致",
+        "length_band": "短"
+      },
+      "mock_status": "quality_fail"
+    },
+    {
+      "id": 11,
+      "title": "ⅩⅠ",
+      "prompt": "地方自治体の合併を読んで、後の問いに答えなさい。",
+      "passage": "地方自治体の合併は、複数の窓口や施設を整理し、行政の効率を高める可能性がある。一方、役場が遠くなることで、住民が相談しにくくなったり、地域ごとの事情が政策に反映されにくくなったりする不安もある。人口減少の中で財政を守る工夫は必要だが、効率だけを基準にすると、住民参加の機会が失われる。合併を進めるなら、地域ごとの声を集める場や、身近な相談窓口を残す仕組みを同時に考える必要がある。",
+      "sub_questions": [
+        {
+          "sub_id": 1,
+          "global_id": 11,
+          "prompt": "自治体の合併による利点として本文で述べられているものはどれですか。",
+          "choices": [
+            {"id": 1, "text": "本文とは反対の内容である。", "explanation_zh": "陷阱：方向相反。文章的主张与该选项相反。", "explanation_ja": "誤り。本文の内容と反対である。"},
+            {"id": 2, "text": "合併の利点として本文で述べられているものはどれですか。", "explanation_zh": "正确。该选项对应文章中的核心依据。", "explanation_ja": "正解。本文の中心的な説明または根拠と合っている。"},
+            {"id": 3, "text": "本文にない理由を付け加えている。", "explanation_zh": "陷阱：无中生有。文章中没有这样的说明。", "explanation_ja": "誤り。本文にない内容を加えている。"},
+            {"id": 4, "text": "本文の一部だけを広げすぎている。", "explanation_zh": "陷阱：范围扩大。文章只在特定条件下说明，并非普遍如此。", "explanation_ja": "誤り。本文の一部を広げすぎている。"}
+          ],
+          "answer": 2,
+          "tag": {
+            "reasoning_type": "事実定位",
+            "question_focus": "細節事実",
+            "sub_topic": "地方自治体の合併",
+            "question_type": "本文内容一致"
+          },
+          "mock_status": "quality_fail"
+        },
+        {
+          "sub_id": 2,
+          "global_id": 12,
+          "prompt": "合併後に必要になる対応として最も適当なものはどれですか。",
+          "choices": [
+            {"id": 1, "text": "本文とは反対の内容である。", "explanation_zh": "陷阱：方向相反。文章的主张与该选项相反。", "explanation_ja": "誤り。本文の内容と反対である。"},
+            {"id": 2, "text": "行政の効率化だけでなく、住民の声を拾う仕組みも必要だと考えている。", "explanation_zh": "正确。该选项对应文章中的核心依据。", "explanation_ja": "正解。本文の中心的な説明または根拠と合っている。"},
+            {"id": 3, "text": "本文にない理由を付け加えている。", "explanation_zh": "陷阱：无中生有。文章中没有这样的说明。", "explanation_ja": "誤り。本文にない内容を加えている。"},
+            {"id": 4, "text": "本文の一部だけを広げすぎている。", "explanation_zh": "陷阱：范围扩大。文章只在特定条件下说明，并非普遍如此。", "explanation_ja": "誤り。本文の一部を広げすぎている。"}
+          ],
+          "answer": 2,
+          "tag": {
+            "reasoning_type": "句間整合",
+            "question_focus": "中心論点",
+            "sub_topic": "地方自治体の合併",
+            "question_type": "筆者の主張"
+          },
+          "mock_status": "quality_fail"
+        }
+      ],
+      "tag": {
+        "sub_topic": "地方自治体の合併",
+        "syllabus_path": {"area": "理解領域", "section": "読解", "ability": "①直接的理解能力", "material_type": "説明文"},
+        "length_band": "短"
+      },
+      "mock_status": "quality_fail"
+    },
+    {
+      "id": 12,
+      "title": "ⅩⅡ",
+      "prompt": "観光地の混雑問題を読んで、後の問いに答えなさい。",
+      "passage": "人気観光地では、訪問者が増えることで地域経済が活発になる一方、住民の生活や自然環境への負担も大きくなる。混雑した道では通勤や買い物がしにくくなり、ごみや騒音も増える。また、観光客自身も落ち着いて見学できず、満足度が下がることがある。入場時間の分散や予約制の導入は、観光客を拒むためではなく、地域と訪問者の双方が無理なく過ごせる状態を作るための工夫である。",
+      "sub_questions": [
+        {
+          "sub_id": 1,
+          "global_id": 13,
+          "prompt": "観光地の混雑によって生じる影響として本文が述べているものはどれですか。",
+          "choices": [
+            {"id": 1, "text": "本文とは反対の内容である。", "explanation_zh": "陷阱：方向相反。文章的主张与该选项相反。", "explanation_ja": "誤り。本文の内容と反対である。"},
+            {"id": 2, "text": "観光地の混雑によって生じる影響として本文が述べているものはどれですか。", "explanation_zh": "正确。该选项对应文章中的核心依据。", "explanation_ja": "正解。本文の中心的な説明または根拠と合っている。"},
+            {"id": 3, "text": "本文にない理由を付け加えている。", "explanation_zh": "陷阱：无中生有。文章中没有这样的说明。", "explanation_ja": "誤り。本文にない内容を加えている。"},
+            {"id": 4, "text": "本文の一部だけを広げすぎている。", "explanation_zh": "陷阱：范围扩大。文章只在特定条件下说明，并非普遍如此。", "explanation_ja": "誤り。本文の一部を広げすぎている。"}
+          ],
+          "answer": 2,
+          "tag": {
+            "genre": "論説文",
+            "topic_domain": "環境",
+            "rhetorical_pattern": "通説否定",
+            "vocab_level": "標準",
+            "reasoning_type": "推論",
+            "question_focus": "転折点",
+            "sub_topic": "観光地の混雑問題",
+            "question_type": "下線部の理由"
+          },
+          "mock_status": "quality_fail"
+        },
+        {
+          "sub_id": 2,
+          "global_id": 14,
+          "prompt": "混雑対策の目的として本文と合っているものはどれですか。",
+          "choices": [
+            {"id": 1, "text": "本文とは反対の内容である。", "explanation_zh": "陷阱：方向相反。文章的主张与该选项相反。", "explanation_ja": "誤り。本文の内容と反対である。"},
+            {"id": 2, "text": "混雑対策は観光客を排除するためではなく、地域と訪問者の両方を守るための工夫である。", "explanation_zh": "正确。该选项对应文章中的核心依据。", "explanation_ja": "正解。本文の中心的な説明または根拠と合っている。"},
+            {"id": 3, "text": "本文にない理由を付け加えている。", "explanation_zh": "陷阱：无中生有。文章中没有这样的说明。", "explanation_ja": "誤り。本文にない内容を加えている。"},
+            {"id": 4, "text": "本文の一部だけを広げすぎている。", "explanation_zh": "陷阱：范围扩大。文章只在特定条件下说明，并非普遍如此。", "explanation_ja": "誤り。本文の一部を広げすぎている。"}
+          ],
+          "answer": 2,
+          "tag": {
+            "reasoning_type": "推論",
+            "question_focus": "中心論点",
+            "sub_topic": "観光地の混雑問題",
+            "question_type": "筆者の主張"
+          },
+          "mock_status": "quality_fail"
+        }
+      ],
+      "tag": {
+        "sub_topic": "観光地の混雑問題",
+        "syllabus_path": {"area": "理解領域", "section": "読解", "ability": "①直接的理解能力", "material_type": "論説文"},
+        "length_band": "短"
+      },
+      "mock_status": "quality_fail"
+    },
+    {
+      "id": 13,
+      "title": "ⅩⅢ",
+      "prompt": "葬儀の簡素化を読んで、後の問いに答えなさい。",
+      "passage": "葬儀の簡素化は、単に儀式を省く動きではない。家族だけで静かに送ることで、故人との関係をゆっくり振り返れると考える人もいる。一方、地域の人々が集まる葬儀には、残された家族を支える社会的な意味もあった。大切なのは、規模の大小で価値を決めることではなく、誰が故人を見送り、どのような支えを必要としているのかを考えることである。",
+      "sub_questions": [
+        {
+          "sub_id": 1,
+          "global_id": 15,
+          "prompt": "葬儀の簡素化について本文が述べていることはどれですか。",
+          "choices": [
+            {"id": 1, "text": "本文とは反対の内容である。", "explanation_zh": "陷阱：方向相反。文章的主张与该选项相反。", "explanation_ja": "誤り。本文の内容と反対である。"},
+            {"id": 2, "text": "葬儀の簡素化について本文が述べていることはどれですか。", "explanation_zh": "正确。该选项对应文章中的核心依据。", "explanation_ja": "正解。本文の中心的な説明または根拠と合っている。"},
+            {"id": 3, "text": "本文にない理由を付け加えている。", "explanation_zh": "陷阱：无中生有。文章中没有这样的说明。", "explanation_ja": "誤り。本文にない内容を加えている。"},
+            {"id": 4, "text": "本文の一部だけを広げすぎている。", "explanation_zh": "陷阱：范围扩大。文章只在特定条件下说明，并非普遍如此。", "explanation_ja": "誤り。本文の一部を広げすぎている。"}
+          ],
+          "answer": 2,
+          "tag": {
+            "genre": "説明文",
+            "topic_domain": "健康・医療",
+            "rhetorical_pattern": "問題提起→解決",
+            "vocab_level": "標準",
+            "reasoning_type": "事実定位",
+            "question_focus": "細節事実",
+            "sub_topic": "葬儀の簡素化",
+            "question_type": "本文内容一致"
+          },
+          "mock_status": "quality_fail"
+        },
+        {
+          "sub_id": 2,
+          "global_id": 16,
+          "prompt": "葬儀の価値を考える際に大切なことは何ですか。",
+          "choices": [
+            {"id": 1, "text": "本文とは反対の内容である。", "explanation_zh": "陷阱：方向相反。文章的主张与该选项相反。", "explanation_ja": "誤り。本文の内容と反対である。"},
+            {"id": 2, "text": "葬儀の価値は規模だけでなく、見送る人や支えのあり方によって考えるべきである。", "explanation_zh": "正确。该选项对应文章中的核心依据。", "explanation_ja": "正解。本文の中心的な説明または根拠と合っている。"},
+            {"id": 3, "text": "本文にない理由を付け加えている。", "explanation_zh": "陷阱：无中生有。文章中没有这样的说明。", "explanation_ja": "誤り。本文にない内容を加えている。"},
+            {"id": 4, "text": "本文の一部だけを広げすぎている。", "explanation_zh": "陷阱：范围扩大。文章只在特定条件下说明，并非普遍如此。", "explanation_ja": "誤り。本文の一部を広げすぎている。"}
+          ],
+          "answer": 2,
+          "tag": {
+            "reasoning_type": "句間整合",
+            "question_focus": "中心論点",
+            "sub_topic": "葬儀の簡素化",
+            "question_type": "本文内容一致"
+          },
+          "mock_status": "quality_fail"
+        }
+      ],
+      "tag": {
+        "sub_topic": "葬儀の簡素化",
+        "syllabus_path": {"area": "理解領域", "section": "読解", "ability": "①直接的理解能力", "material_type": "説明文"}
+      },
+      "mock_status": "quality_fail"
+    },
+    {
+      "id": 14,
+      "title": "ⅩⅣ",
+      "prompt": "地域図書館の役割を読んで、後の問いに答えなさい。",
+      "passage": "地域図書館は本を貸す場所にとどまらなくなっている。高齢者向けの情報相談、子どもの読書活動、地域資料の保存、住民同士の学習会など、多様な役割を担うようになった。インターネットで情報を得られる時代だからこそ、信頼できる資料を選び、地域の課題に合わせて活用する支援が求められている。図書館は静かに本を置く施設から、地域の知的活動を支える拠点へ変わりつつある。",
+      "sub_questions": [
+        {
+          "sub_id": 1,
+          "global_id": 17,
+          "prompt": "地域図書館の役割の変化として本文が述べているものはどれですか。",
+          "choices": [
+            {"id": 1, "text": "本文とは反対の内容である。", "explanation_zh": "陷阱：方向相反。文章的主张与该选项相反。", "explanation_ja": "誤り。本文の内容と反対である。"},
+            {"id": 2, "text": "地域図書館の役割の変化として本文が述べているものはどれですか。", "explanation_zh": "正确。该选项对应文章中的核心依据。", "explanation_ja": "正解。本文の中心的な説明または根拠と合っている。"},
+            {"id": 3, "text": "本文にない理由を付け加えている。", "explanation_zh": "陷阱：无中生有。文章中没有这样的说明。", "explanation_ja": "誤り。本文にない内容を加えている。"},
+            {"id": 4, "text": "本文の一部だけを広げすぎている。", "explanation_zh": "陷阱：范围扩大。文章只在特定条件下说明，并非普遍如此。", "explanation_ja": "誤り。本文の一部を広げすぎている。"}
+          ],
+          "answer": 2,
+          "tag": {
+            "genre": "説明文",
+            "topic_domain": "自然・生物",
+            "rhetorical_pattern": "問題提起→解決",
+            "vocab_level": "標準",
+            "reasoning_type": "句間整合",
+            "question_focus": "中心論点",
+            "sub_topic": "地域図書館の役割",
+            "question_type": "筆者の主張"
+          },
+          "mock_status": "quality_fail"
+        },
+        {
+          "sub_id": 2,
+          "global_id": 18,
+          "prompt": "情報が多い時代に図書館で重要になることは何ですか。",
+          "choices": [
+            {"id": 1, "text": "本文とは反対の内容である。", "explanation_zh": "陷阱：方向相反。文章的主张与该选项相反。", "explanation_ja": "誤り。本文の内容と反対である。"},
+            {"id": 2, "text": "情報が多い時代だからこそ、信頼できる資料を活用する支援が重要になる。", "explanation_zh": "正确。该选项对应文章中的核心依据。", "explanation_ja": "正解。本文の中心的な説明または根拠と合っている。"},
+            {"id": 3, "text": "本文にない理由を付け加えている。", "explanation_zh": "陷阱：无中生有。文章中没有这样的说明。", "explanation_ja": "誤り。本文にない内容を加えている。"},
+            {"id": 4, "text": "本文の一部だけを広げすぎている。", "explanation_zh": "陷阱：范围扩大。文章只在特定条件下说明，并非普遍如此。", "explanation_ja": "誤り。本文の一部を広げすぎている。"}
+          ],
+          "answer": 2,
+          "tag": {
+            "reasoning_type": "推論",
+            "question_focus": "中心論点",
+            "sub_topic": "地域図書館の役割",
+            "question_type": "筆者の主張"
+          },
+          "mock_status": "quality_fail"
+        }
+      ],
+      "tag": {
+        "sub_topic": "地域図書館の役割",
+        "syllabus_path": {"area": "理解領域", "section": "読解", "ability": "①直接的理解能力", "material_type": "説明文"},
+        "length_band": "短"
+      },
+      "mock_status": "quality_fail"
+    },
+    {
+      "id": 15,
+      "title": "ⅩⅤ",
+      "prompt": "古民家の再利用を読んで、後の問いに答えなさい。",
+      "passage": "古民家をカフェや交流施設として再利用する試みが増えている。古い建物には、地域の暮らしや記憶を感じさせる力があり、訪れる人に新しい建物とは違う落ち着きを与える。一方、保存だけを目的にして利用方法を考えなければ、維持費が重くなり長続きしない。古民家の再利用では、歴史的な雰囲気を生かしながら、地域の人が日常的に使える機能を持たせることが重要である。",
+      "sub_questions": [
+        {
+          "sub_id": 1,
+          "global_id": 19,
+          "prompt": "古民家の再利用で重要だと本文が述べていることはどれですか。",
+          "choices": [
+            {"id": 1, "text": "本文とは反対の内容である。", "explanation_zh": "陷阱：方向相反。文章的主张与该选项相反。", "explanation_ja": "誤り。本文の内容と反対である。"},
+            {"id": 2, "text": "古民家の再利用で重要だと本文が述べていることはどれですか。", "explanation_zh": "正确。该选项对应文章中的核心依据。", "explanation_ja": "正解。本文の中心的な説明または根拠と合っている。"},
+            {"id": 3, "text": "本文にない理由を付け加えている。", "explanation_zh": "陷阱：无中生有。文章中没有这样的说明。", "explanation_ja": "誤り。本文にない内容を加えている。"},
+            {"id": 4, "text": "本文の一部だけを広げすぎている。", "explanation_zh": "陷阱：范围扩大。文章只在特定条件下说明，并非普遍如此。", "explanation_ja": "誤り。本文の一部を広げすぎている。"}
+          ],
+          "answer": 2,
+          "tag": {
+            "genre": "論説文",
+            "topic_domain": "社会文化",
+            "rhetorical_pattern": "通説否定",
+            "vocab_level": "標準",
+            "reasoning_type": "推論",
+            "question_focus": "中心論点",
+            "sub_topic": "古民家の再利用",
+            "question_type": "下線部の理由"
+          },
+          "mock_status": "quality_fail"
+        },
+        {
+          "sub_id": 2,
+          "global_id": 20,
+          "prompt": "古民家を活用する際に必要な考え方は何ですか。",
+          "choices": [
+            {"id": 1, "text": "本文とは反対の内容である。", "explanation_zh": "陷阱：方向相反。文章的主张与该选项相反。", "explanation_ja": "誤り。本文の内容と反対である。"},
+            {"id": 2, "text": "古民家は保存するだけでなく、地域の人が使える機能と結びつける必要がある。", "explanation_zh": "正确。该选项对应文章中的核心依据。", "explanation_ja": "正解。本文の中心的な説明または根拠と合っている。"},
+            {"id": 3, "text": "本文にない理由を付け加えている。", "explanation_zh": "陷阱：无中生有。文章中没有这样的说明。", "explanation_ja": "誤り。本文にない内容を加えている。"},
+            {"id": 4, "text": "本文の一部だけを広げすぎている。", "explanation_zh": "陷阱：范围扩大。文章只在特定条件下说明，并非普遍如此。", "explanation_ja": "誤り。本文の一部を広げすぎている。"}
+          ],
+          "answer": 2,
+          "tag": {
+            "reasoning_type": "句間整合",
+            "question_focus": "中心論点",
+            "sub_topic": "古民家の再利用",
+            "question_type": "空欄補充"
+          },
+          "mock_status": "quality_fail"
+        }
+      ],
+      "tag": {
+        "sub_topic": "古民家の再利用",
+        "syllabus_path": {"area": "理解領域", "section": "読解", "ability": "①直接的理解能力", "material_type": "論説文"},
+        "length_band": "短"
+      },
+      "mock_status": "quality_fail"
+    },
+    {
+      "id": 16,
+      "title": "ⅩⅥ",
+      "prompt": "古典芸能の継承を読んで、後の問いに答えなさい。",
+      "passage": "古典芸能を次の世代に伝えるには、昔と同じ形を守るだけでは十分ではない。基本の型や精神を大切にしながら、若い人が触れやすい説明や体験の機会を増やす必要がある。短い映像や学校での体験授業は、入り口として有効な場合がある。ただし、分かりやすさだけを優先して背景や稽古の意味を省いてしまえば、芸能の深さは伝わらない。継承には、守る部分と伝え方を工夫する部分の両方が必要である。",
+      "sub_questions": [
+        {
+          "sub_id": 1,
+          "global_id": 21,
+          "prompt": "古典芸能の継承について本文が述べていることはどれですか。",
+          "choices": [
+            {"id": 1, "text": "本文とは反対の内容である。", "explanation_zh": "陷阱：方向相反。文章的主张与该选项相反。", "explanation_ja": "誤り。本文の内容と反対である。"},
+            {"id": 2, "text": "古典芸能の継承について本文が述べていることはどれですか。", "explanation_zh": "正确。该选项对应文章中的核心依据。", "explanation_ja": "正解。本文の中心的な説明または根拠と合っている。"},
+            {"id": 3, "text": "本文にない理由を付け加えている。", "explanation_zh": "陷阱：无中生有。文章中没有这样的说明。", "explanation_ja": "誤り。本文にない内容を加えている。"},
+            {"id": 4, "text": "本文の一部だけを広げすぎている。", "explanation_zh": "陷阱：范围扩大。文章只在特定条件下说明，并非普遍如此。", "explanation_ja": "誤り。本文の一部を広げすぎている。"}
+          ],
+          "answer": 2,
+          "tag": {
+            "genre": "論説文",
+            "topic_domain": "科学技術",
+            "rhetorical_pattern": "對比",
+            "vocab_level": "標準",
+            "reasoning_type": "事実定位",
+            "question_focus": "細節事実",
+            "sub_topic": "古典芸能の継承",
+            "question_type": "下線部の指示内容"
+          },
+          "mock_status": "quality_fail"
+        },
+        {
+          "sub_id": 2,
+          "global_id": 22,
+          "prompt": "古典芸能を伝える際に大切なことは何ですか。",
+          "choices": [
+            {"id": 1, "text": "本文とは反対の内容である。", "explanation_zh": "陷阱：方向相反。文章的主张与该选项相反。", "explanation_ja": "誤り。本文の内容と反対である。"},
+            {"id": 2, "text": "古典芸能を伝えるには、基本を守りながら触れやすい入口も作る必要がある。", "explanation_zh": "正确。该选项对应文章中的核心依据。", "explanation_ja": "正解。本文の中心的な説明または根拠と合っている。"},
+            {"id": 3, "text": "本文にない理由を付け加えている。", "explanation_zh": "陷阱：无中生有。文章中没有这样的说明。", "explanation_ja": "誤り。本文にない内容を加えている。"},
+            {"id": 4, "text": "本文の一部だけを広げすぎている。", "explanation_zh": "陷阱：范围扩大。文章只在特定条件下说明，并非普遍如此。", "explanation_ja": "誤り。本文の一部を広げすぎている。"}
+          ],
+          "answer": 2,
+          "tag": {
+            "reasoning_type": "推論",
+            "question_focus": "中心論点",
+            "sub_topic": "古典芸能の継承",
+            "question_type": "筆者の主張"
+          },
+          "mock_status": "quality_fail"
+        }
+      ],
+      "tag": {
+        "sub_topic": "古典芸能の継承",
+        "syllabus_path": {"area": "理解領域", "section": "読解", "ability": "①直接的理解能力", "material_type": "論説文"},
+        "length_band": "短"
+      },
+      "mock_status": "quality_fail"
+    },
+    {
+      "id": 17,
+      "title": "ⅩⅦ",
+      "prompt": "地方自治体の合併を読んで、後の問いに答えなさい。",
+      "passage": "自治体が合併すると、広い地域を一つの組織で運営できるため、専門職員を集めやすくなることがある。しかし、地域が広がるほど、周辺部の小さな要望が中心部に届きにくくなるおそれもある。住民説明会や地域別の協議会を設けるのは、この弱点を補うためである。合併の成否は、組織を大きくすること自体ではなく、大きくなった後も地域ごとの声をどう扱うかにかかっている。",
+      "sub_questions": [
+        {
+          "sub_id": 1,
+          "global_id": 23,
+          "prompt": "自治体合併後に起こりうる問題として本文が述べているものはどれですか。",
+          "choices": [
+            {"id": 1, "text": "本文とは反対の内容である。", "explanation_zh": "陷阱：方向相反。文章的主张与该选项相反。", "explanation_ja": "誤り。本文の内容と反対である。"},
+            {"id": 2, "text": "自治体が合併した後に起こりうる問題として本文が述べているものはどれですか。", "explanation_zh": "正确。该选项对应文章中的核心依据。", "explanation_ja": "正解。本文の中心的な説明または根拠と合っている。"},
+            {"id": 3, "text": "本文にない理由を付け加えている。", "explanation_zh": "陷阱：无中生有。文章中没有这样的说明。", "explanation_ja": "誤り。本文にない内容を加えている。"},
+            {"id": 4, "text": "本文の一部だけを広げすぎている。", "explanation_zh": "陷阱：范围扩大。文章只在特定条件下说明，并非普遍如此。", "explanation_ja": "誤り。本文の一部を広げすぎている。"}
+          ],
+          "answer": 2,
+          "tag": {
+            "genre": "論説文",
+            "topic_domain": "心理",
+            "rhetorical_pattern": "並列例示",
+            "vocab_level": "標準",
+            "reasoning_type": "句間整合",
+            "question_focus": "中心論点",
+            "sub_topic": "地方自治体の合併",
+            "question_type": "下線部の意味"
+          },
+          "mock_status": "quality_fail"
+        },
+        {
+          "sub_id": 2,
+          "global_id": 24,
+          "prompt": "住民説明会や地域別協議会の役割として最も適当なものはどれですか。",
+          "choices": [
+            {"id": 1, "text": "本文とは反対の内容である。", "explanation_zh": "陷阱：方向相反。文章的主张与该选项相反。", "explanation_ja": "誤り。本文の内容と反対である。"},
+            {"id": 2, "text": "住民説明会や地域別協議会は、地域の声を届きやすくするために必要である。", "explanation_zh": "正确。该选项对应文章中的核心依据。", "explanation_ja": "正解。本文の中心的な説明または根拠と合っている。"},
+            {"id": 3, "text": "本文にない理由を付け加えている。", "explanation_zh": "陷阱：无中生有。文章中没有这样的说明。", "explanation_ja": "誤り。本文にない内容を加えている。"},
+            {"id": 4, "text": "本文の一部だけを広げすぎている。", "explanation_zh": "陷阱：范围扩大。文章只在特定条件下说明，并非普遍如此。", "explanation_ja": "誤り。本文の一部を広げすぎている。"}
+          ],
+          "answer": 2,
+          "tag": {
+            "reasoning_type": "句間整合",
+            "question_focus": "中心論点",
+            "sub_topic": "地方自治体の合併",
+            "question_type": "下線部の理由"
+          },
+          "mock_status": "quality_fail"
+        },
+        {
+          "sub_id": 3,
+          "global_id": 25,
+          "prompt": "合併の成否を左右するものとして本文が述べていることは何ですか。",
+          "choices": [
+            {"id": 1, "text": "本文とは反対の内容である。", "explanation_zh": "陷阱：方向相反。文章的主张与该选项相反。", "explanation_ja": "誤り。本文の内容と反対である。"},
+            {"id": 2, "text": "合併の成否は、合併後に地域ごとの声をどう扱うかに左右される。", "explanation_zh": "正确。该选项对应文章中的核心依据。", "explanation_ja": "正解。本文の中心的な説明または根拠と合っている。"},
+            {"id": 3, "text": "本文にない理由を付け加えている。", "explanation_zh": "陷阱：无中生有。文章中没有这样的说明。", "explanation_ja": "誤り。本文にない内容を加えている。"},
+            {"id": 4, "text": "本文の一部だけを広げすぎている。", "explanation_zh": "陷阱：范围扩大。文章只在特定条件下说明，并非普遍如此。", "explanation_ja": "誤り。本文の一部を広げすぎている。"}
+          ],
+          "answer": 2,
+          "tag": {
+            "reasoning_type": "主旨概括",
+            "question_focus": "中心論点",
+            "sub_topic": "地方自治体の合併",
+            "question_type": "筆者の主張"
+          },
+          "mock_status": "quality_fail"
+        }
+      ],
+      "tag": {
+        "sub_topic": "地方自治体の合併",
+        "syllabus_path": {"area": "理解領域", "section": "読解", "ability": "①直接的理解能力", "material_type": "論説文"},
+        "length_band": "短"
+      },
+      "mock_status": "quality_fail"
+    }
+  ],
+  "is_mock": true,
+  "source_file": "exams_all/japanese/reading/2023-2.json"
+}

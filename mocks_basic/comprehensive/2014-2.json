@@ -1,0 +1,1003 @@
+{
+  "subject": "comprehensive",
+  "section": "",
+  "year": 2014,
+  "round": 2,
+  "title": "模擬試験 総合科目 第四回",
+  "image_path": "comprehensive/images/2014-2",
+  "questions": [
+  {
+    "id": 1,
+    "title": "問1",
+    "prompt": "国家制度、20世紀の革命、東西対立の展開について、下の問い（1）〜（4）に答えなさい。",
+    "passage": "20世紀の政治史では、各国の統治制度、革命による体制変化、第二次世界大戦後の東西対立が相互に関係した。大統領制では行政権と議会の関係が議院内閣制と異なり、1917年の政変後のロシアでは社会主義政権が成立した。東西対立の時代にはベルリン、朝鮮半島、キューバ、東欧などで緊張が高まり、1980年代末には対立緩和へ向かう動きが進んだ。",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":1,
+        "prompt":"大統領制に関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"アメリカでは、大統領は行政権を担い、議会で成立した法案に拒否権を行使できる。","explanation_zh":"正确。美国宪法把行政权赋予总统，并规定总统可以对国会通过的法案行使否决权。","explanation_ja":"正解。アメリカ憲法は行政権を大統領に属させ、議会で可決された法案への拒否権も定めている。"},
+          {"id":2,"text":"大統領制では、必ず国王が行政権を独占し、議会は存在しない。","explanation_zh":"陷阱：主体错位。总统制的行政首长是总统，不等于国王独占行政权。","explanation_ja":"誤り。主体取違の罠。大統領制の行政首長は大統領であり、国王が行政権を独占する制度ではない。"},
+          {"id":3,"text":"アメリカの大統領は、日本の内閣総理大臣と同じく国会議員の互選だけで選ばれる。","explanation_zh":"陷阱：地域错位。美国总统不是由日本式国会议员互选产生。","explanation_ja":"誤り。地域取違の罠。アメリカ大統領は日本の内閣総理大臣のような国会議員の互選では選ばれない。"},
+          {"id":4,"text":"大統領制では、立法権・行政権・司法権が常に一つの機関に完全統合される。","explanation_zh":"陷阱：概念混淆。总统制通常强调权力分立，而不是三权完全合一。","explanation_ja":"誤り。概念混同の罠。大統領制では権力分立が重視され、三権が完全に一機関へ統合されるわけではない。"}
+        ],
+        "answer":1,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["主体取違","地域取違","概念混同"],
+          "keywords_to_avoid":["権限のより大きな大統領"],
+          "sub_domain":"政治体制"
+        },
+        "sources":[{"claim":"アメリカ合衆国憲法は行政権を大統領に属させ、大統領の法案拒否権を定める","source":"U.S. Constitution, Article II and Article I Section 7","year":"1789","url":"https://constitution.congress.gov/browse/essay/intro-7-2/ALDE_00000031/"}]
+      },
+      {
+        "sub_id":2,
+        "global_id":2,
+        "prompt":"1917年のロシアの政変とソ連成立に関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"この政変は18世紀の産業革命より前に起こり、蒸気機関の発明を直接の目的とした。","explanation_zh":"陷阱：时态错位。俄国革命发生在 1917 年，不是 18 世纪工业革命以前。","explanation_ja":"誤り。時態錯位の罠。ロシア革命は1917年の出来事であり、18世紀の産業革命以前ではない。"},
+          {"id":2,"text":"後の独裁的指導者が1917年の十月革命を直接指導し、ボリシェビキの中心指導者は存在しなかった。","explanation_zh":"陷阱：主体错位。十月革命的中心人物是列宁，斯大林不是这一表述中的直接领导者。","explanation_ja":"誤り。主体取違の罠。十月革命の中心人物はレーニンであり、スターリンが直接指導したという説明は不適切である。"},
+          {"id":3,"text":"1917年の革命後、ボリシェビキ政権が成立した。","explanation_zh":"正确。1917 年十月革命后，列宁领导的布尔什维克建立政权。","explanation_ja":"正解。1917年の十月革命後、レーニンを中心とするボリシェビキ政権が成立した。"},
+          {"id":4,"text":"この政変は、国際連合の安全保障理事会を創設するためだけに起こった。","explanation_zh":"陷阱：概念混淆。俄国革命是国内政治体制变革，不是创设联合国安理会的事件。","explanation_ja":"誤り。概念混同の罠。ロシア革命は国内体制の変革に関わる出来事であり、国連安保理の創設とは異なる。"}
+        ],
+        "answer":3,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["概念混同","時態錯位","主体取違"],
+          "keywords_to_avoid":["ロシア革命","レーニン","スターリン"],
+          "sub_domain":"政治体制",
+          "syllabus_path":{"area":"III 歴史","field":"歴史","item":"2. 二つの世界大戦とその影響"}
+        },
+        "sources":[{"claim":"1917年のロシア革命後、レーニン率いるボリシェビキが政権を握った","source":"Encyclopaedia Britannica, Russian Revolution","year":"1917","url":"https://www.britannica.com/event/Russian-Revolution"}]
+      },
+      {
+        "sub_id":3,
+        "global_id":3,
+        "prompt":"東西対立期の出来事を古い順に並べたものとして最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"カリブ海危機 → ベルリン危機 → 朝鮮半島での戦争 → チェコスロバキア改革運動","explanation_zh":"陷阱：顺序混同。较早的柏林危机和朝鲜战争被放在了古巴危机之后。","explanation_ja":"誤り。順序混同の罠。ベルリン封鎖と朝鮮戦争はキューバ危機より前である。"},
+          {"id":2,"text":"朝鮮半島での戦争 → チェコスロバキア改革運動 → ベルリン危機 → カリブ海危機","explanation_zh":"陷阱：顺序混同。柏林封锁发生在朝鲜战争和布拉格之春之前。","explanation_ja":"誤り。順序混同の罠。ベルリン封鎖は朝鮮戦争やプラハの春より前に起こった。"},
+          {"id":3,"text":"ベルリン危機 → 朝鮮半島での戦争 → カリブ海危機 → チェコスロバキア改革運動","explanation_zh":"正确。柏林封锁为 1948-49 年，朝鲜战争 1950 年开始，古巴危机 1962 年，布拉格之春 1968 年。","explanation_ja":"正解。ベルリン封鎖は1948〜49年、朝鮮戦争は1950年開始、キューバ危機は1962年、プラハの春は1968年である。"},
+          {"id":4,"text":"チェコスロバキア改革運動 → カリブ海危機 → 朝鮮半島での戦争 → ベルリン危機","explanation_zh":"陷阱：时态错位。1968 年的布拉格之春不可能早于 1948-49 年的柏林封锁。","explanation_ja":"誤り。時態錯位の罠。1968年のプラハの春は、1948〜49年のベルリン封鎖より後である。"}
+        ],
+        "answer":3,
+        "tag":{
+          "question_form":"時系列整序",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["順序混同","時態錯位"],
+          "keywords_to_avoid":["冷戦","朝鮮戦争","ベルリン封鎖","キューバ危機","プラハの春"],
+          "sub_domain":"政治体制",
+          "syllabus_path":{"area":"III 歴史","field":"歴史","item":"2. 二つの世界大戦とその影響"}
+        },
+        "sources":[{"claim":"冷戦期にはベルリン封鎖、朝鮮戦争、キューバ危機、プラハの春がこの順に起こった","source":"Encyclopaedia Britannica, Cold War","year":"1968","url":"https://www.britannica.com/event/Cold-War"}]
+      },
+      {
+        "sub_id":4,
+        "global_id":4,
+        "prompt":"東西対立の終わりに関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"1980年代末の地中海上の米ソ首脳会談は、東西対立の終結へ向かう意思を示した象徴的な出来事である。","explanation_zh":"正确。1989 年马耳他会谈常被视为冷战结束过程中的象征性事件。","explanation_ja":"正解。1989年のマルタ会談は、米ソ首脳が冷戦終結へ向かう意思を示した象徴的な出来事とされる。"},
+          {"id":2,"text":"東西対立の終結は、第一次世界大戦直後の1919年に宣言された。","explanation_zh":"陷阱：时态错位。冷战是二战后形成的对立，不可能在 1919 年结束。","explanation_ja":"誤り。時態錯位の罠。冷戦は第二次世界大戦後の対立であり、1919年に終結したわけではない。"},
+          {"id":3,"text":"この米ソ首脳会談は、アフリカ分割を決めるための19世紀の国際会議であった。","explanation_zh":"陷阱：地域错位。马耳他会谈是美苏首脑会谈，不是 19 世纪非洲分割会议。","explanation_ja":"誤り。地域取違の罠。マルタ会談は米ソ首脳会談であり、19世紀のアフリカ分割会議ではない。"},
+          {"id":4,"text":"1980年代末以後も、米ソ対立は一切変化せず、ソ連は現在まで同じ形で存続している。","explanation_zh":"陷阱：范围扩大。1989 年后东欧和苏联体制发生重大变化，苏联也在 1991 年解体。","explanation_ja":"誤り。範囲拡大の罠。1989年後に東欧・ソ連体制は大きく変化し、ソ連は1991年に解体した。"}
+        ],
+        "answer":1,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["地域取違"],
+          "keywords_to_avoid":["マルタ","冷戦終結","1989年"],
+          "sub_domain":"政治体制"
+        },
+        "sources":[{"claim":"1989年のマルタ会談は冷戦終結を象徴する米ソ首脳会談であった","source":"Encyclopaedia Britannica, Malta Summit","year":"1989","url":"https://www.britannica.com/event/Malta-Summit"}]
+      }
+    ],
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"国家制度・大統領制",
+      "sub_domain":"政治体制",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"1.民主政治"},
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "keywords_to_avoid":["ロシア連邦","大統領","首相","フランス","イギリス","カナダ","オーストラリア"]
+    }
+  },
+  {
+    "id": 2,
+    "title": "問2",
+    "prompt": "フランクフルト、ドイツ、欧州統合について、下の問い（1）〜（4）に答えなさい。",
+    "passage": "ドイツは連邦制をとる欧州の主要国であり、歴史的には神聖ローマ帝国の解体、ウィーン会議後のドイツ連邦、プロイセンの台頭、統一国家形成などを経験した。現在のフランクフルト・アム・マインは交通・金融の拠点として知られ、欧州中央銀行も同市に置かれている。",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":5,
+        "prompt":"次の文章は、ドイツの三都市と関係する河川を示している。資料から読み取れる内容として最も適当なものはどれですか。\nフランクフルト・アム・マイン：マイン河、ハンブルク：エルベ川、ミュンヘン：イーザル川。",
+        "choices":[
+          {"id":1,"text":"フランクフルト・アム・マインはエルベ川沿いの港湾都市である。","explanation_zh":"陷阱：地域错位。资料中法兰克福对应的是美因河，不是易北河。","explanation_ja":"誤り。地域取違の罠。資料ではフランクフルト・アム・マインはマイン川と対応している。"},
+          {"id":2,"text":"フランクフルト・アム・マインは、マイン河と関係する都市である。","explanation_zh":"正确。资料明确列出“法兰克福：美因河”。","explanation_ja":"正解。資料では、フランクフルト・アム・マインはマイン川と対応している。"},
+          {"id":3,"text":"ミュンヘンはマイン河沿いに位置し、フランクフルトとは関係がない。","explanation_zh":"陷阱：地域错位。资料中慕尼黑对应伊萨尔河，美因河对应法兰克福。","explanation_ja":"誤り。地域取違の罠。資料ではミュンヘンはイーザル川、マイン川はフランクフルトと対応する。"},
+          {"id":4,"text":"三都市はすべて同じ河川沿いにある。","explanation_zh":"陷阱：范围扩大。资料列出三条不同河流，并非同一河流。","explanation_ja":"誤り。範囲拡大の罠。資料では三都市に異なる河川が対応している。"}
+        ],
+        "answer":2,
+        "tag":{
+          "question_form":"図表読取",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["地域取違"],
+          "keywords_to_avoid":["マイン川","交通の要衝"],
+          "sub_domain":"欧米地誌",
+          "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"}
+        },
+        "sources":[{"claim":"フランクフルト・アム・マインはマイン川沿いの都市である","source":"Encyclopaedia Britannica, Frankfurt am Main","year":"2024","url":"https://www.britannica.com/place/Frankfurt-am-Main"}]
+      },
+      {
+        "sub_id":2,
+        "global_id":6,
+        "prompt":"現代ドイツの政治制度に関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"この国は言語上の対立だけを理由に、州をすべて廃止した。","explanation_zh":"陷阱：概念混淆。现代德国由多个州构成，并未废除联邦州。","explanation_ja":"誤り。概念混同の罠。現代ドイツは複数の州からなる連邦国家である。"},
+          {"id":2,"text":"この国は複数の州から成る連邦国家であり、中央政府と州が権限を分担する。","explanation_zh":"正确。德国基本法规定德国为民主和社会的联邦国家。","explanation_ja":"正解。ドイツ基本法は、ドイツを民主的・社会的な連邦国家として定めている。"},
+          {"id":3,"text":"この国の州制度は、EU発足と同時に初めて作られた。","explanation_zh":"陷阱：时态错位。德国联邦制并非 1993 年欧盟成立时才出现。","explanation_ja":"誤り。時態錯位の罠。ドイツの連邦制はEU発足と同時に初めて作られたものではない。"},
+          {"id":4,"text":"この国では地方政府が存在せず、すべての行政を欧州連合が直接行う。","explanation_zh":"陷阱：主体错位。德国有联邦和州的国内制度，欧盟不直接承担全部行政。","explanation_ja":"誤り。主体取違の罠。ドイツには連邦と州の国内制度があり、EUがすべての行政を直接行うわけではない。"}
+        ],
+        "answer":2,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["概念混同","地域取違"],
+          "keywords_to_avoid":["ドイツ","連邦制","言語対立","1993年"],
+          "sub_domain":"欧米地誌"
+        },
+        "sources":[{"claim":"ドイツ基本法はドイツを民主的・社会的な連邦国家と定める","source":"Basic Law for the Federal Republic of Germany, Article 20","year":"1949","url":"https://www.gesetze-im-internet.de/englisch_gg/englisch_gg.html"}]
+      },
+      {
+        "sub_id":3,
+        "global_id":7,
+        "prompt":"ドイツ史に関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"中世以来の帝国は第二次世界大戦後に創設され、現在のEUと同じ組織である。","explanation_zh":"陷阱：时态错位。神圣罗马帝国是近代以前的政治体，不是二战后的欧盟。","explanation_ja":"誤り。時態錯位の罠。神聖ローマ帝国は近代以前の政治体であり、第二次世界大戦後のEUではない。"},
+          {"id":2,"text":"北ドイツの王国は南米の植民地独立運動だけを指す言葉で、ドイツ史とは無関係である。","explanation_zh":"陷阱：地域错位。普鲁士是德国史中的重要国家，不是南美独立运动名称。","explanation_ja":"誤り。地域取違の罠。プロイセンはドイツ史に関わる重要な国家であり、南米独立運動ではない。"},
+          {"id":3,"text":"19世紀初めの国際会議では、ドイツ地域の諸邦がすべて完全な一国に統一された。","explanation_zh":"陷阱：概念混淆。维也纳会议后成立的是德意志邦联，不是统一国家。","explanation_ja":"誤り。概念混同の罠。ウィーン会議後に成立したのはドイツ連邦であり、統一国家ではない。"},
+          {"id":4,"text":"19世紀初めの国際会議後、ドイツ地域には諸邦の連合体が成立し、のちに北ドイツの王国主導の統一へ向かった。","explanation_zh":"正确。维也纳会议后形成德意志邦联，19 世纪后半普鲁士主导统一。","explanation_ja":"正解。ウィーン会議後にドイツ連邦が成立し、19世紀後半にはプロイセン主導の統一へ進んだ。"}
+        ],
+        "answer":4,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["概念混同","主体取違","時態錯位"],
+          "keywords_to_avoid":["ドイツ連邦","神聖ローマ帝国","プロイセン","ウィーン会議"],
+          "sub_domain":"欧米地誌"
+        },
+        "sources":[{"claim":"ウィーン会議後にドイツ連邦が成立し、19世紀後半にプロイセン主導でドイツ統一が進んだ","source":"Encyclopaedia Britannica, German Confederation","year":"1871","url":"https://www.britannica.com/place/German-Confederation"}]
+      },
+      {
+        "sub_id":4,
+        "global_id":8,
+        "prompt":"ECBに関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"ECBは農産物の収穫量だけを調査する気象機関である。","explanation_zh":"陷阱：概念混淆。欧洲中央银行是负责货币政策的金融机构，不是气象机构。","explanation_ja":"誤り。概念混同の罠。欧州中央銀行は金融政策を担う機関であり、気象機関ではない。"},
+          {"id":2,"text":"ECBはEU域内のすべての税率を単独で決定し、各国議会を廃止する。","explanation_zh":"陷阱：范围扩大。欧洲中央银行不单独决定所有税率，也不废除各国议会。","explanation_ja":"誤り。範囲拡大の罠。欧州中央銀行がすべての税率を単独で決めたり各国議会を廃止したりするわけではない。"},
+          {"id":3,"text":"ECBは単一通貨圏の物価安定を主要目的として、通貨政策を担う。","explanation_zh":"正确。欧洲中央银行负责欧元区货币政策，主要目标是价格稳定。","explanation_ja":"正解。欧州中央銀行はユーロ圏の金融政策を担い、物価安定を主要目的としている。"},
+          {"id":4,"text":"ECBは19世紀の国際会議で設立され、現在は存在しない。","explanation_zh":"陷阱：时态错位。欧洲中央银行是现代欧元制度的机构，不是 19 世纪会议产物。","explanation_ja":"誤り。時態錯位の罠。欧州中央銀行は現代のユーロ制度に関わる機関であり、ウィーン会議で設立されたものではない。"}
+        ],
+        "answer":3,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["概念混同","範囲拡大"],
+          "keywords_to_avoid":["欧州中央銀行","金融政策","ユーロ圏"],
+          "sub_domain":"欧米地誌",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"4.国民経済"}
+        },
+        "sources":[{"claim":"欧州中央銀行はユーロ圏の金融政策を担い、物価安定を主要目的とする","source":"European Central Bank, Monetary policy","year":"2024","url":"https://www.ecb.europa.eu/mopo/html/index.en.html"}]
+      }
+    ],
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"フランクフルト・ドイツ・欧州",
+      "sub_domain":"欧米地誌",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"2. 現代世界の諸地域"},
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "keywords_to_avoid":["フランクフルト","ドイツ","ドイツ連邦","欧州中央銀行"]
+    }
+  },
+  {
+    "id": 3,
+    "global_id": 9,
+    "title": "問3",
+    "prompt": "市場が自動的には効率的な結果をもたらさない場合に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"大気汚染のような外部費用があっても、市場価格には常に完全に反映される。","explanation_zh":"陷阱：范围扩大。外部费用并不总是完全反映在市场价格中。","explanation_ja":"誤り。範囲拡大の罠。外部費用は市場価格に十分反映されないことがある。"},
+      {"id":2,"text":"第三者への影響や非排除的な財の存在により、市場だけでは望ましい配分にならないことがある。","explanation_zh":"正确。外部性和公共财是市场无法自动实现有效配置的典型原因。","explanation_ja":"正解。外部性や公共財は、市場だけでは望ましい資源配分にならない典型例である。"},
+      {"id":3,"text":"非排除的な財は利用者を完全に排除できるため、必ず過剰供給される。","explanation_zh":"陷阱：概念混淆。公共财通常具有非排除性、非竞争性，容易供给不足。","explanation_ja":"誤り。概念混同の罠。公共財は非排除性・非競合性をもち、過少供給になりやすい。"},
+      {"id":4,"text":"第三者への影響は政府や制度と無関係で、地形図の同じ高さの線だけを指す。","explanation_zh":"陷阱：概念混淆。外部性是经济活动对第三者产生的影响，不是地形图概念。","explanation_ja":"誤り。概念混同の罠。外部性は経済活動が第三者へ与える影響であり、等高線のことではない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"市場の失敗",
+      "sub_domain":"経済原理・市場",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"3.経済主体"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","範囲拡大"],
+      "keywords_to_avoid":["市場の失敗","外部性","公共財"]
+    },
+    "sources": [{"claim":"外部性や公共財は市場の失敗の代表例である","source":"OpenStax, Principles of Economics 3e, Market Failure","year":"2022","url":"https://openstax.org/books/principles-economics-3e/pages/12-introduction-to-positive-externalities-and-public-goods"}]
+  },
+  {
+    "id": 4,
+    "global_id": 10,
+    "title": "問4",
+    "prompt": "国内総生産と国民総生産に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"国内総生産は国内で生産された付加価値ではなく、人口の総数だけを表す。","explanation_zh":"陷阱：概念混淆。GDP 是一定时期内国内生产的最终财和服务价值，不是人口数。","explanation_ja":"誤り。概念混同の罠。GDPは国内で生産された財・サービスの価値を示す指標であり、人口総数ではない。"},
+      {"id":2,"text":"国民総生産は常に国内総生産と完全に同じで、国外からの純収益は一切関係しない。","explanation_zh":"陷阱：范围扩大。GNP 会考虑本国居民从海外获得的净要素所得。","explanation_ja":"誤り。範囲拡大の罠。GNPは海外からの純所得を考慮するため、GDPと常に同じとは限らない。"},
+      {"id":3,"text":"資本の減耗分を足すと人口密度になり、国民所得とは無関係になる。","explanation_zh":"陷阱：概念混淆。固定资本折旧是国民经济核算中的资本耗减，不会变成人口密度。","explanation_ja":"誤り。概念混同の罠。固定資本減耗は資本の減耗であり、人口密度ではない。"},
+      {"id":4,"text":"国内総生産は国内で生産された付加価値を表し、国民総生産は国外からの純収益を含めて考える。","explanation_zh":"正确。GDP 以国内生产为基准，GNP 则在此基础上按国民概念调整海外净所得。","explanation_ja":"正解。GDPは国内生産を基準とし、GNPは海外からの純所得を含めた国民概念で捉える。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"GNP・GDP",
+      "sub_domain":"国民経済・成長",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"4.国民経済"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","数値混同"],
+      "keywords_to_avoid":["GDP","GNP","固定資本減耗","海外からの純所得"]
+    },
+    "sources": [{"claim":"GDPは国内生産、GNPは海外からの純所得を含む国民概念である","source":"OpenStax, Principles of Economics 3e, GDP and GNP","year":"2022","url":"https://openstax.org/books/principles-economics-3e/pages/6-1-measuring-the-size-of-the-economy-gross-domestic-product"}]
+  },
+  {
+    "id": 5,
+    "global_id": 11,
+    "title": "問5",
+    "prompt": "次の文章を読み、内容に合うものとして最も適当なものはどれですか。",
+    "passage": "景気が拡大して企業の採用意欲が強まると、働き手を確保するために給与を引き上げる動きが出やすい。給与上昇は家計の購買力を高める一方、企業にとっては費用の増加にもなる。そのため、仕事を探す人の割合が低い局面では、需要の強さや費用増加を通じて価格上昇の圧力が高まりやすい。ただし、輸入価格や生産性、金融政策など他の要因も物価に影響するため、この関係は常に機械的に成り立つわけではない。",
+    "choices": [
+      {"id":1,"text":"文章は、仕事を探す人の割合が低くなると必ず価格上昇の圧力もゼロになると述べている。","explanation_zh":"陷阱：概念混淆。文章说劳动需求增强时，工资和价格容易出现上升压力。","explanation_ja":"誤り。概念混同の罠。本文は労働需要が強まると賃金や価格に上昇圧力が生じやすいと述べている。"},
+      {"id":2,"text":"文章は、物価の変化は仕事を探す人の割合や給与とまったく関係しないと述べている。","explanation_zh":"陷阱：范围扩大。文章说明的是就业、工资和价格之间的关系。","explanation_ja":"誤り。範囲拡大の罠。本文は雇用、賃金、価格の関係を説明している。"},
+      {"id":3,"text":"文章は、仕事を探す人の割合が高いほど企業の採用競争が必ず強まり、給与が急上昇すると述べている。","explanation_zh":"陷阱：因果倒置。文章说劳动力市场趋紧时，工资上升压力更容易出现。","explanation_ja":"誤り。因果倒置の罠。本文は労働市場が引き締まる局面で賃金上昇圧力が出やすいとしている。"},
+      {"id":4,"text":"文章は、仕事を探す人の割合が低く労働市場が引き締まると、給与や物価に上昇圧力がかかりやすいと述べている。","explanation_zh":"正确。文章说明低失业、劳动力市场紧张与工资和物价上涨压力之间的关系。","explanation_ja":"正解。本文は、低失業で労働市場が引き締まると賃金や物価に上昇圧力がかかりやすいと説明している。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"失業率・物価上昇・フィリップス曲線",
+      "sub_domain":"金融・通貨",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"2.市場経済"},
+      "question_form":"文章読解",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","範囲拡大"],
+      "keywords_to_avoid":["失業率","労働力不足","賃金","物価上昇圧力"]
+    }
+  },
+  {
+    "id": 6,
+    "global_id": 12,
+    "title": "問6",
+    "prompt": "平成26年度の日本の一般会計支出に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"社会保障関係費は 3 兆円未満で、防衛関係費より大幅に小さかった。","explanation_zh":"陷阱：数值混同。2014 年度社会保障关系费约 30.5 兆日元，不是 3 兆日元未满。","explanation_ja":"誤り。数値混同の罠。2014年度の社会保障関係費は約30.5兆円であり、3兆円未満ではない。"},
+      {"id":2,"text":"一般会計支出は、江戸時代の年貢だけで構成されていた。","explanation_zh":"陷阱：时态错位。2014 年度一般会计是现代财政，不是江户时代年贡。","explanation_ja":"誤り。時態錯位の罠。2014年度の一般会計は現代の財政であり、江戸時代の年貢ではない。"},
+      {"id":3,"text":"社会保障関係費は約30.5兆円で、主要経費の中でも大きな割合を占めた。","explanation_zh":"正确。2014 年度一般会计中，社会保障关系费约 30.5 兆日元，是主要经费中的大项目。","explanation_ja":"正解。2014年度一般会計では、社会保障関係費が約30.5兆円と主要経費の中で大きな割合を占めた。"},
+      {"id":4,"text":"国債費は支出に含まれず、利払いも償還も予算と無関係であった。","explanation_zh":"陷阱：概念混淆。国债费是一般会计的重要经费，涉及利息和偿还。","explanation_ja":"誤り。概念混同の罠。国債費は一般会計歳出に含まれる重要な経費であり、利払い・償還に関わる。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"日本の一般会計予算・財政支出",
+      "sub_domain":"財政・租税",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"6. 財政"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["数値混同","時態錯位"],
+      "keywords_to_avoid":["2014年度","一般会計予算","歳出"]
+    },
+    "sources": [{"claim":"2014年度一般会計予算の社会保障関係費は約30.5兆円であった","source":"財務省, 平成26年度予算のポイント","year":"2014","url":"https://www.mof.go.jp/policy/budget/budger_workflow/budget/fy2014/seifuan26/01.pdf"}]
+  },
+  {
+    "id": 7,
+    "global_id": 13,
+    "title": "問7",
+    "prompt": "為替相場に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"円高とは、円の価値が外国通貨に対して上がることで、1ドルを買うのに必要な円が少なくなる状態である。","explanation_zh":"正确。日元升值意味着日元对外价值上升，以日元折算美元价格时所需日元减少。","explanation_ja":"正解。円高とは円の対外価値が上がることであり、1ドルを買うのに必要な円が少なくなる状態である。"},
+      {"id":2,"text":"円高になると、必ず1ドルを買うのに必要な円が増える。","explanation_zh":"陷阱：因果倒置。1 美元所需日元增加是日元贬值方向。","explanation_ja":"誤り。因果倒置の罠。1ドルを買うのに必要な円が増えるのは円安方向である。"},
+      {"id":3,"text":"外国為替相場は、外国の気温だけで決まり、金利や貿易とは無関係である。","explanation_zh":"陷阱：概念混淆。汇率会受利率、贸易、资本流动等多种因素影响。","explanation_ja":"誤り。概念混同の罠。為替相場は金利、貿易、資本移動など多くの要因に影響される。"},
+      {"id":4,"text":"為替市場では、異なるお金を交換する取引は一切行われない。","explanation_zh":"陷阱：范围扩大。外汇市场正是进行不同货币交换的市场。","explanation_ja":"誤り。範囲拡大の罠。外国為替市場は異なる通貨を交換する取引の場である。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"外国為替市場・為替相場",
+      "sub_domain":"経済原理・市場",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"4.国民経済"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","因果倒置"],
+      "keywords_to_avoid":["外国為替市場","上昇","通貨"]
+    },
+    "sources": [{"claim":"円高は外国通貨に対する円の価値が上がる状態である","source":"日本銀行, 外国為替相場とは何ですか","year":"2024","url":"https://www.boj.or.jp/about/education/oshiete/intl/g01.htm"}]
+  },
+  {
+    "id": 8,
+    "global_id": 14,
+    "title": "問8",
+    "prompt": "プラザ合意に関する記述として最も適当でないものはどれですか。",
+    "choices": [
+      {"id":1,"text":"1980年代半ば、主要5か国の蔵相・中央銀行総裁はニューヨークで為替調整に合意した。","explanation_zh":"陷阱：设问反转。这是广场协议的正确信息，因此不是“最不恰当”的选项。","explanation_ja":"誤り。設問反転の罠。これはプラザ合意についての正しい説明であり、「最も適当でないもの」ではない。"},
+      {"id":2,"text":"合意の目的には、過度なドル高を是正することが含まれていた。","explanation_zh":"陷阱：设问反转。这是正确说明，不是错误选项。","explanation_ja":"誤り。設問反転の罠。これは合意内容の正しい説明であり、誤りの選択肢ではない。"},
+      {"id":3,"text":"参加国にはアメリカ、日本、西ドイツ、フランス、イギリスが含まれた。","explanation_zh":"陷阱：设问反转。参加国的说明是正确的。","explanation_ja":"誤り。設問反転の罠。参加国の説明として正しいため、「最も適当でないもの」ではない。"},
+      {"id":4,"text":"プラザ合意は、原油価格を引き上げるためにOPEC加盟国だけで結ばれた協定である。","explanation_zh":"正确。广场协议是 G5 的汇率协调，不是 OPEC 为提高原油价格而缔结的协议。","explanation_ja":"正解。プラザ合意はG5による為替調整の合意であり、OPEC加盟国だけの原油価格協定ではない。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"先進国5か国財務相会議（G5）・プラザ合意",
+      "sub_domain":"金融・通貨",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"5. 金融"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答誤記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違"],
+      "keywords_to_avoid":["1985年","G5","プラザ合意"]
+    },
+    "sources": [{"claim":"1985年のプラザ合意はG5がドル高是正のため協調介入を合意したものである","source":"Federal Reserve History, Plaza Accord","year":"1985","url":"https://www.federalreservehistory.org/essays/plaza-accord"}]
+  },
+  {
+    "id": 9,
+    "global_id": 15,
+    "title": "問9",
+    "prompt": "日米貿易摩擦に関する出来事を古い順に並べたものとして最も適当なものはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"半導体協定 → 繊維輸出自主規制 → 乗用車輸出自主規制","explanation_zh":"陷阱：顺序混同。半导体协议是 1980 年代后半，不能放在 1970 年代纺织品摩擦之前。","explanation_ja":"誤り。順序混同の罠。半導体協定は1980年代後半であり、繊維問題より後である。"},
+      {"id":2,"text":"乗用車輸出自主規制 → 半導体協定 → 繊維輸出自主規制","explanation_zh":"陷阱：顺序混同。纺织品摩擦早于汽车和半导体摩擦。","explanation_ja":"誤り。順序混同の罠。繊維問題は自動車や半導体の摩擦より前である。"},
+      {"id":3,"text":"繊維輸出自主規制 → 乗用車輸出自主規制 → 半導体協定","explanation_zh":"正确。纺织品出口限制在 1970 年代，汽车出口自主限制在 1980 年代前半，半导体协议在 1986 年。","explanation_ja":"正解。繊維輸出自主規制は1970年代、自動車輸出自主規制は1980年代前半、半導体協定は1986年である。"},
+      {"id":4,"text":"半導体協定 → 乗用車輸出自主規制 → 繊維輸出自主規制","explanation_zh":"陷阱：顺序混同。三个事件的顺序被倒置。","explanation_ja":"誤り。順序混同の罠。三つの出来事の順序が逆になっている。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"日米貿易紛争",
+      "sub_domain":"国際経済・貿易",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"10. 国際経済"},
+      "question_form":"時系列整序",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["順序混同"],
+      "keywords_to_avoid":["繊維輸出規制","自動車","半導体"]
+    },
+    "sources": [{"claim":"日米貿易摩擦では繊維、自動車、半導体をめぐる摩擦が順に重要問題となった","source":"経済産業省 通商白書, 日米経済関係の変遷","year":"1986","url":"https://www.meti.go.jp/report/tsuhaku/"}]
+  },
+  {
+    "id": 10,
+    "global_id": 16,
+    "title": "問10",
+    "prompt": "戦後日本の高成長期に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"戦後の高成長は1930年代の世界恐慌直後だけに起こり、戦後日本とは無関係である。","explanation_zh":"陷阱：时态错位。日本的高速增长是战后 1950 年代后半到 1970 年代初的现象。","explanation_ja":"誤り。時態錯位の罠。日本の高度経済成長は戦後の1950年代後半から1970年代初めにかけての現象である。"},
+      {"id":2,"text":"50年代後半から70年代初めにかけて、日本では高い実質成長が続き、1964年には東京オリンピックも開かれた。","explanation_zh":"正确。日本 1960 年代平均实际增长率约 10%，1964 年举办东京奥运。","explanation_ja":"正解。日本では1950年代後半から1970年代初めに高成長が続き、1964年には東京オリンピックも開かれた。"},
+      {"id":3,"text":"70年代の石油危機の後に、毎年10％前後の成長が初めて始まった。","explanation_zh":"陷阱：因果倒置。石油危机反而成为高速增长结束的重要转折。","explanation_ja":"誤り。因果倒置の罠。石油危機は高度成長の終わりを示す重要な転機であった。"},
+      {"id":4,"text":"戦後の高成長期には、工業化も都市化もまったく進まず、農村人口だけが急増した。","explanation_zh":"陷阱：范围扩大。高速增长期伴随工业化、都市化和生活水平变化。","explanation_ja":"誤り。範囲拡大の罠。高度成長期には工業化、都市化、生活水準の変化が進んだ。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"日本の高度経済成長期",
+      "sub_domain":"現代日本",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"2.市場経済"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位","因果倒置"],
+      "keywords_to_avoid":["高度経済成長","1950年代","1970年代","東京オリンピック"]
+    },
+    "sources": [{"claim":"日本の実質経済成長率は1960年代に平均10.0％であった","source":"内閣府, 平成15年度年次経済財政報告","year":"2003","url":"https://www5.cao.go.jp/zenbun/wp-e/wp-je03/03-00302.html"}]
+  },
+  {
+    "id": 11,
+    "global_id": 17,
+    "title": "問11",
+    "prompt": "次の文章を読み、欧州の福祉国家に関する説明として最も適当なものはどれですか。",
+    "passage": "欧州の福祉国家は一つの型に統一されているわけではない。たとえば、税を財源として広い範囲の住民にサービスを提供する考え方、雇用と結びついた社会保険を重視する考え方、家族政策や教育・医療を普遍的に整える考え方などがある。各国は歴史、政党政治、労働組合、人口構成の違いに応じて制度を発展させてきたため、同じ欧州でも負担方法や給付範囲には差がある。",
+    "choices": [
+      {"id":1,"text":"欧州には、税方式を重視する国、社会保険方式を重視する国、普遍的給付を重視する国など、複数の制度類型がある。","explanation_zh":"正确。文章说明欧洲福利国家并非单一模式，而有税方式、社会保险方式、普遍给付等多种类型。","explanation_ja":"正解。本文は、欧州の福祉国家には税方式、社会保険方式、普遍的給付など複数の類型があると述べている。"},
+      {"id":2,"text":"欧州の国々はすべて同じ制度を採用し、負担方法も給付範囲も完全に一致している。","explanation_zh":"陷阱：范围扩大。文章强调各国制度不同，并非完全一致。","explanation_ja":"誤り。範囲拡大の罠。本文は各国の制度に違いがあると述べており、完全に一致するとはしていない。"},
+      {"id":3,"text":"スカンディナビア型の制度は地中海性気候の農業だけを指し、福祉とは無関係である。","explanation_zh":"陷阱：地域错位。文章中的北欧型是福利制度类型，不是农业气候分类。","explanation_ja":"誤り。地域取違の罠。本文の北欧型は福祉制度の類型であり、農業気候区分ではない。"},
+      {"id":4,"text":"社会保険方式では、保険料を用いる仕組みは存在せず、すべて寄付だけで運営される。","explanation_zh":"陷阱：概念混淆。社会保险方式会使用保险费，并非只靠捐款。","explanation_ja":"誤り。概念混同の罠。社会保険方式では保険料が重要であり、寄付だけで運営されるわけではない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"社会",
+      "topic":"ヨーロッパの社会保障制度",
+      "sub_domain":"社会保障・労働",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"6. 財政"},
+      "question_form":"文章読解",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","地域取違"],
+      "keywords_to_avoid":["社会保障","イギリス","北欧","ドイツ","フランス"]
+    }
+  },
+  {
+    "id": 12,
+    "global_id": 18,
+    "title": "問12",
+    "prompt": "次の文章は、食料を国内でまかなう割合の国別比較（カロリーベースの目安）を示している。資料から読み取れる内容として最も適当なものはどれですか。\nA国：約120％、B国：約90％、C国：約45％、D国：約38％（A=フランス、B=中国、C=ノルウェー、D=日本）。",
+    "choices": [
+      {"id":1,"text":"D国は四か国の中で最も高い。","explanation_zh":"陷阱：数值混同。日本约 38%，低于其他列出国家。","explanation_ja":"誤り。数値混同の罠。日本は約38％で、示された国の中では高い方ではない。"},
+      {"id":2,"text":"C国はA国より高い。","explanation_zh":"陷阱：数值混同。挪威约 45%，法国约 120%，法国更高。","explanation_ja":"誤り。数値混同の罠。ノルウェー約45％はフランス約120％を下回る。"},
+      {"id":3,"text":"B国とD国はどちらも 100％を大きく上回る。","explanation_zh":"陷阱：范围扩大。资料中中国约 90%、日本约 38%，都没有大幅超过 100%。","explanation_ja":"誤り。範囲拡大の罠。中国約90％、日本約38％であり、どちらも100％を大きく上回らない。"},
+      {"id":4,"text":"A国はD国より高く、四か国の中でも高い水準である。","explanation_zh":"正确。法国约 120%，日本约 38%，法国明显更高。","explanation_ja":"正解。フランス約120％は日本約38％を大きく上回り、示された国の中でも高い。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"食料自給率・国別比較",
+      "sub_domain":"産業・資源",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["数値混同"],
+      "keywords_to_avoid":["食料自給率","フランス","ノルウェー","中国","日本"]
+    },
+    "sources": [{"claim":"カロリーベース食料自給率は国によって大きく異なり、日本は主要国より低い水準である","source":"農林水産省, 食料自給率の国際比較","year":"2022","url":"https://www.maff.go.jp/j/zyukyu/zikyu_ritu/013.html"}]
+  },
+  {
+    "id": 13,
+    "global_id": 19,
+    "title": "問13",
+    "prompt": "次の文章は、個人のインターネット利用率の目安を示している。資料から読み取れる内容として最も適当なものはどれですか。\nA国：91.5％（2024年）、B国：83.9％（2024年）、C国：66.5％（2023年）、D国：64.9％（2025年）（A=ロシア、B=日本、C=中国、D=インド）。",
+    "choices": [
+      {"id":1,"text":"D国が四か国の中で最も高い。","explanation_zh":"陷阱：数值混同。印度约 64.9%，低于俄罗斯和日本。","explanation_ja":"誤り。数値混同の罠。インド約64.9％はロシアや日本を下回る。"},
+      {"id":2,"text":"A国は示された四か国の中で最も高い。","explanation_zh":"正确。俄罗斯 91.5% 高于日本 83.9%、中国 66.5%、印度 64.9%。","explanation_ja":"正解。ロシア91.5％は、日本83.9％、中国66.5％、インド64.9％を上回る。"},
+      {"id":3,"text":"C国とD国はどちらも 100％を超える。","explanation_zh":"陷阱：范围扩大。资料中 C国和 D国都低于 100%。","explanation_ja":"誤り。範囲拡大の罠。中国もインドも100％未満である。"},
+      {"id":4,"text":"B国とA国の値は完全に同じである。","explanation_zh":"陷阱：数值混同。B国 83.9%、A国 91.5%，二者不同。","explanation_ja":"誤り。数値混同の罠。日本83.9％とロシア91.5％は同じではない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"情報通信手段の国別普及状況",
+      "sub_domain":"産業・資源",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["数値混同"],
+      "keywords_to_avoid":["日本","中国","インド","ロシア","アメリカ"]
+    },
+    "sources": [{"claim":"ITU DataHubは各国の個人インターネット利用率を公表している","source":"International Telecommunication Union, Individuals using the Internet","year":"2025","url":"https://datahub.itu.int/data/?i=11624"}]
+  },
+  {
+    "id": 14,
+    "global_id": 20,
+    "title": "問14",
+    "prompt": "次の文章は、地形図上の地点と高さを示している。資料から読み取れる内容として最も適当なものはどれですか。\n展望台：300mの線上、学校：100mの線上、峠：200mの線上、谷底：50m地点。",
+    "choices": [
+      {"id":1,"text":"展望台は学校より海抜が高い。","explanation_zh":"正确。地点 C 为 300m，地点 A 为 100m，因此 C 更高。","explanation_ja":"正解。地点Cは300m、地点Aは100mなので、地点Cの方が高い。"},
+      {"id":2,"text":"谷底は四地点の中で最も高い。","explanation_zh":"陷阱：数值混同。地点 D 为 50m，是最低。","explanation_ja":"誤り。数値混同の罠。地点Dは50mで、四地点の中では最も低い。"},
+      {"id":3,"text":"学校と展望台は同じ高さである。","explanation_zh":"陷阱：数值混同。地点 A 为 100m，地点 C 为 300m。","explanation_ja":"誤り。数値混同の罠。地点Aは100m、地点Cは300mであり、同じ高さではない。"},
+      {"id":4,"text":"同じ高さを結ぶ線は気温の高さを示し、標高とは無関係である。","explanation_zh":"陷阱：概念混淆。等高线连接的是同一高度的地点，不是气温线。","explanation_ja":"誤り。概念混同の罠。等高線は同じ高さの地点を結ぶ線であり、気温を示すものではない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"等高線地図・海抜高度",
+      "sub_domain":"自然地理",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["数値混同"],
+      "keywords_to_avoid":["等高線","海抜高度","山地"]
+    },
+    "sources": [{"claim":"等高線は同じ高さの地点を結んだ線である","source":"国土地理院, 地形図の読み方","year":"2024","url":"https://www.gsi.go.jp/KIDS/map-sign-tizukigou-h14-01-01.html"}]
+  },
+  {
+    "id": 15,
+    "title": "問15",
+    "prompt": "ケッペンの気候区分と植生について、下の問いに答えなさい。",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":21,
+        "prompt":"次の文章は、二都市の年降水量の季節傾向を示している。資料から読み取れる内容として最も適当なものはどれですか。\n東京：年降水量約1600mm、夏から秋に雨が多い。ローマ：年降水量約800mm、夏は乾燥し冬に雨が多い。",
+        "choices":[
+          {"id":1,"text":"東京は夏にほとんど雨が降らず、砂漠気候に分類される。","explanation_zh":"陷阱：地域错位。东京资料显示夏到秋雨较多，不是沙漠气候。","explanation_ja":"誤り。地域取違の罠。東京は夏から秋に雨が多く、砂漠気候ではない。"},
+          {"id":2,"text":"ローマは年中多雨で、熱帯雨林気候の典型である。","explanation_zh":"陷阱：地域错位。罗马资料显示夏季干燥，不能说全年多雨。","explanation_ja":"誤り。地域取違の罠。ローマは夏に乾燥する傾向があり、年中多雨ではない。"},
+          {"id":3,"text":"東京とローマは、降水の季節分布が完全に同じである。","explanation_zh":"陷阱：范围扩大。资料显示东京夏秋多雨，罗马夏干冬雨，分布不同。","explanation_ja":"誤り。範囲拡大の罠。東京とローマでは降水の季節分布が異なる。"},
+          {"id":4,"text":"東京はCfa型の特色に近く、ローマは夏乾燥のCs型に近い。","explanation_zh":"正确。东京夏秋多雨，罗马夏季干燥冬季多雨，分别符合相关气候特色。","explanation_ja":"正解。東京は温暖湿潤気候の特色に近く、ローマは夏乾燥の地中海性気候に近い。"}
+        ],
+        "answer":4,
+        "tag":{
+          "question_form":"図表読取",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["地域取違"],
+          "keywords_to_avoid":["温暖湿潤気候","日本"],
+          "sub_domain":"自然地理"
+        },
+        "sources":[{"claim":"東京の平年降水量と季節分布は気象庁の平年値で確認できる","source":"気象庁, 過去の気象データ検索","year":"2020","url":"https://www.data.jma.go.jp/obd/stats/etrn/index.php"},{"claim":"ローマは夏乾燥・冬雨の地中海性気候に属する","source":"Encyclopaedia Britannica, Mediterranean climate","year":"2024","url":"https://www.britannica.com/science/Mediterranean-climate"}]
+      },
+      {
+        "sub_id":2,
+        "global_id":22,
+        "prompt":"Cs型気候に関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"Cs型気候では、夏に必ず永久凍土が広がり、樹木は一切育たない。","explanation_zh":"陷阱：地域错位。地中海性气候以夏季干燥为特色，不是永久冻土气候。","explanation_ja":"誤り。地域取違の罠。地中海性気候は夏の乾燥を特色とし、永久凍土の気候ではない。"},
+          {"id":2,"text":"夏に乾燥し冬に雨が多い地域では、オリーブなど乾燥に強い樹木が見られる。","explanation_zh":"正确。地中海性气候夏季干燥，常见橄榄等耐干燥树木。","explanation_ja":"正解。地中海性気候では夏に乾燥し、オリーブなど乾燥に強い樹木が見られる。"},
+          {"id":3,"text":"Cs型気候は赤道直下だけに分布し、ヨーロッパ南部には存在しない。","explanation_zh":"陷阱：地域错位。地中海性气候分布于地中海沿岸等中纬度西岸地区。","explanation_ja":"誤り。地域取違の罠。地中海性気候は地中海沿岸など中緯度地域に分布する。"},
+          {"id":4,"text":"Cs型気候では、年中湿潤で雨季と乾季の差がまったくない。","explanation_zh":"陷阱：概念混淆。地中海性气候的重要特征是夏季干燥、冬季多雨。","explanation_ja":"誤り。概念混同の罠。地中海性気候は夏の乾燥と冬の降雨が重要な特色である。"}
+        ],
+        "answer":2,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["地域取違"],
+          "keywords_to_avoid":["地中海性気候","硬葉樹","オリーブ"],
+          "sub_domain":"自然地理"
+        },
+        "sources":[{"claim":"地中海性気候は夏に乾燥し冬に雨が多い気候である","source":"Encyclopaedia Britannica, Mediterranean climate","year":"2024","url":"https://www.britannica.com/science/Mediterranean-climate"}]
+      }
+    ],
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"ケッペンの気候区分",
+      "sub_domain":"自然地理",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "keywords_to_avoid":["気候区分","日本","温暖湿潤気候","西岸海洋性気候"]
+    },
+    "passage": "気候区分を判断するときは、気温だけでなく降水の季節分布を見る必要がある。日本の多くの地域では夏に降水が多く、冬も極端な乾季にはなりにくい。一方、地中海沿岸では夏に乾燥し、冬に比較的雨が多い地域がある。こうした気候差は、自然植生や農業の特色にも影響する。"
+  },
+  {
+    "id": 16,
+    "global_id": 23,
+    "title": "問16",
+    "prompt": "世界最長級の河川が流れるアフリカ北東部に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"この川は南アメリカを流れ、太平洋へ注ぐ。","explanation_zh":"陷阱：地域错位。尼罗河位于非洲，不是南美洲河流。","explanation_ja":"誤り。地域取違の罠。ナイル川はアフリカを流れる河川であり、南アメリカの河川ではない。"},
+      {"id":2,"text":"エジプトは北極圏にあり、この川とは無関係である。","explanation_zh":"陷阱：地域错位。埃及位于非洲东北部，与尼罗河关系密切。","explanation_ja":"誤り。地域取違の罠。エジプトはアフリカ北東部にあり、ナイル川と深く関係する。"},
+      {"id":3,"text":"この川はアフリカ北東部を流れ、エジプトを通って地中海へ注ぐ。","explanation_zh":"正确。尼罗河流经非洲东北部，穿过埃及并注入地中海。","explanation_ja":"正解。ナイル川はアフリカ北東部を流れ、エジプトを通って地中海へ注ぐ。"},
+      {"id":4,"text":"この川流域では、河川の水利用や農業は歴史的に重要でなかった。","explanation_zh":"陷阱：范围扩大。尼罗河水利用和农业在埃及等地区历史上非常重要。","explanation_ja":"誤り。範囲拡大の罠。ナイル川の水利用や農業は、エジプトなどで歴史的に重要であった。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"ナイル川流域・アフリカ地誌",
+      "sub_domain":"アフリカ・オセアニア",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"2. 現代世界の諸地域"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["地域取違"],
+      "keywords_to_avoid":["ナイル川","エジプト"]
+    },
+    "sources": [{"claim":"ナイル川はアフリカ北東部を流れ、エジプトを経て地中海に注ぐ","source":"Encyclopaedia Britannica, Nile River","year":"2024","url":"https://www.britannica.com/place/Nile-River"}]
+  },
+  {
+    "id": 17,
+    "global_id": 24,
+    "title": "問17",
+    "prompt": "次の文章は、海外在留邦人数の国別分布の目安を示している。資料から読み取れる内容として最も適当なものはどれですか。\n米国：約39.7万人、中国：約14.0万人、オーストラリア：約7.4万人、英国：約6.3万人（2010年代初め）。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"英国が四か国の中で最も多い。","explanation_zh":"陷阱：数值混同。英国约 6.3 万人，低于美国和中国等。","explanation_ja":"誤り。数値混同の罠。英国約6.3万人は、米国や中国を下回る。"},
+      {"id":2,"text":"オーストラリアは米国より多い。","explanation_zh":"陷阱：数值混同。澳大利亚约 7.4 万人，低于美国约 39.7 万人。","explanation_ja":"誤り。数値混同の罠。オーストラリア約7.4万人は、米国約39.7万人を下回る。"},
+      {"id":3,"text":"米国が示された国の中で最も多い。","explanation_zh":"正确。美国约 39.7 万人，高于中国、澳大利亚和英国。","explanation_ja":"正解。米国約39.7万人は、中国、オーストラリア、英国を上回る。"},
+      {"id":4,"text":"四か国の人数はすべて同じである。","explanation_zh":"陷阱：范围扩大。资料中各国数值明显不同。","explanation_ja":"誤り。範囲拡大の罠。資料では各国の人数が大きく異なる。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"海外在留日本人数・国別分布",
+      "sub_domain":"人口・都市",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["数値混同"],
+      "keywords_to_avoid":["海外在留日本人","2011年"]
+    },
+    "sources": [{"claim":"2011年前後の海外在留邦人数は米国が最大規模であった","source":"外務省, 海外在留邦人数調査統計","year":"2011","url":"https://www.mofa.go.jp/mofaj/toko/tokei/hojin/"}]
+  },
+  {
+    "id": 18,
+    "global_id": 25,
+    "title": "問18",
+    "prompt": "ロックの政治思想と1688年のイギリスの政変に関する記述として最も適当なものはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"ロックは絶対王政を無条件に支持し、抵抗権を全面的に否定した。","explanation_zh":"陷阱：概念混淆。洛克强调自然权利、同意和对不当统治的抵抗。","explanation_ja":"誤り。概念混同の罠。ロックは自然権や同意、不当な統治への抵抗を重視した。"},
+      {"id":2,"text":"1688年の政変は20世紀の冷戦終結後に起こった。","explanation_zh":"陷阱：时态错位。名誉革命发生在 1688 年，不是 20 世纪冷战后。","explanation_ja":"誤り。時態錯位の罠。名誉革命は1688年の出来事であり、20世紀の冷戦終結後ではない。"},
+      {"id":3,"text":"ロックは生まれながらの権利と統治への同意を重視し、その思想は1688年の政変後の立憲政治とも関係する。","explanation_zh":"正确。洛克的政治思想重视自然权利和同意，与英国立宪政治的发展相关。","explanation_ja":"正解。ロックは自然権と統治への同意を重視し、その思想は名誉革命後の立憲政治とも関係する。"},
+      {"id":4,"text":"統治契約の考えは、河川の流量だけを測る地理学の用語である。","explanation_zh":"陷阱：概念混淆。社会契约说是政治思想，不是河流测量术语。","explanation_ja":"誤り。概念混同の罠。社会契約説は政治思想であり、河川流量の測定用語ではない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"社会契約説・名誉革命",
+      "sub_domain":"近代世界",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の社会","item":"2. 私法と契約"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","時態錯位"],
+      "keywords_to_avoid":["自然権","社会契約","ジョン・ロック","名誉革命"]
+    },
+    "sources": [{"claim":"ジョン・ロックは自然権と政府への同意を重視した政治思想家である","source":"Encyclopaedia Britannica, John Locke","year":"1689","url":"https://www.britannica.com/biography/John-Locke"}]
+  },
+  {
+    "id": 19,
+    "global_id": 26,
+    "title": "問19",
+    "prompt": "アメリカの行政首長制に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"行政首長は連邦最高裁判所の裁判官だけが毎年くじ引きで選ぶ。","explanation_zh":"陷阱：概念混淆。美国总统通过选举人制度产生。","explanation_ja":"誤り。概念混同の罠。アメリカ大統領は選挙人制度を通じて選ばれる。"},
+      {"id":2,"text":"行政首長は議会の法案に対して法案を差し戻す権限を持たず、行政権も持たない。","explanation_zh":"陷阱：概念混淆。美国总统拥有行政权，并有法案否决权。","explanation_ja":"誤り。概念混同の罠。アメリカ大統領は行政権を担い、法案拒否権を持つ。"},
+      {"id":3,"text":"行政首長は日本の天皇と同じく、内閣の助言と承認だけで国政の権能を行う。","explanation_zh":"陷阱：地域错位。美国总统制与日本国宪法下天皇的地位不同。","explanation_ja":"誤り。地域取違の罠。アメリカ大統領制と日本国憲法下の天皇の地位は異なる。"},
+      {"id":4,"text":"行政首長は選挙人制度を通じて選ばれ、行政権を担い、議会の法案に対する拒否権も持つ。","explanation_zh":"正确。美国总统制中，总统通过选举人制度产生，承担行政权，并可否决法案。","explanation_ja":"正解。アメリカ大統領は選挙人制度を通じて選ばれ、行政権を担い、議会に対する拒否権も持つ。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"アメリカ大統領制",
+      "sub_domain":"政治体制",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"1.民主政治"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["大統領","直接選挙","拒否権"]
+    },
+    "sources": [{"claim":"アメリカ大統領は選挙人制度で選ばれ、行政権と拒否権を持つ","source":"National Archives, Electoral College and Presidential Veto","year":"2024","url":"https://www.archives.gov/electoral-college"}]
+  },
+  {
+    "id": 20,
+    "global_id": 27,
+    "title": "問20",
+    "prompt": "日本の投票制度に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"1925年の普通選挙法は、女性を含む満18歳以上すべてに直ちに国政投票権を認めた。","explanation_zh":"陷阱：时态错位。1925 年普通选举法只承认成年男子选举权，女性参政权是二战后实现。","explanation_ja":"誤り。時態錯位の罠。1925年の普通選挙法は成年男子を対象とし、女性参政権は第二次世界大戦後に実現した。"},
+      {"id":2,"text":"第二次世界大戦後に女性参政権が認められ、近年は国政選挙の投票権年齢が満18歳以上へ引き下げられた。","explanation_zh":"正确。日本战后承认女性参政权，2015 年法改正后国政选举权年龄降至 18 岁以上。","explanation_ja":"正解。戦後に女性参政権が認められ、2015年の法改正により国政選挙の選挙権年齢は18歳以上へ引き下げられた。"},
+      {"id":3,"text":"日本では現在も、国政投票権は25歳以上の男性だけに限られている。","explanation_zh":"陷阱：时态错位。现在国政选举权不是只限 25 岁以上男性。","explanation_ja":"誤り。時態錯位の罠。現在の国政選挙権は25歳以上の男性だけに限られていない。"},
+      {"id":4,"text":"投票制度は、投票ではなく米の収穫量を競う制度である。","explanation_zh":"陷阱：概念混淆。普通选举制度是关于政治投票权的制度。","explanation_ja":"誤り。概念混同の罠。普通選挙制度は政治参加・投票権に関わる制度である。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"日本の選挙権・普通選挙制度",
+      "sub_domain":"選挙・政党",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"4.政治参加"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["時態錯位"],
+      "keywords_to_avoid":["普通選挙制度","選挙権","18歳以上"]
+    },
+    "sources": [{"claim":"日本では戦後女性参政権が認められ、2015年に選挙権年齢が18歳以上へ引き下げられた","source":"総務省, 選挙権年齢の18歳以上への引下げ","year":"2015","url":"https://www.soumu.go.jp/18senkyo/"}]
+  },
+  {
+    "id": 21,
+    "global_id": 28,
+    "title": "問21",
+    "prompt": "日本の生活保障制度に関する記述として最も適当でないものはどれですか。",
+    "choices": [
+      {"id":1,"text":"生活保障制度は、医療や年金などの制度とは無関係で、個人の私的貯金だけを指す。","explanation_zh":"正确。这是错误表述。生活保障制度包括保険型制度、生活扶助、社会福利、公共卫生等。","explanation_ja":"正解。これは誤った記述である。社会保障には社会保険、公的扶助、社会福祉、公衆衛生などが含まれる。"},
+      {"id":2,"text":"保険型制度には、医療保険や年金保険など、保険の仕組みを用いる制度が含まれる。","explanation_zh":"陷阱：设问反转。这是正确说明，因此不是“最不恰当”的选项。","explanation_ja":"誤り。設問反転の罠。これは正しい説明であり、「最も適当でないもの」ではない。"},
+      {"id":3,"text":"生活扶助は、生活に困窮する人に最低限度の生活を保障する仕組みと関係する。","explanation_zh":"陷阱：设问反转。这是生活扶助的正确说明。","explanation_ja":"誤り。設問反転の罠。公的扶助の説明として正しい。"},
+      {"id":4,"text":"社会福祉には、高齢者、障害者、児童などへの福祉サービスが含まれる。","explanation_zh":"陷阱：设问反转。这是社会福利的正确说明。","explanation_ja":"誤り。設問反転の罠。社会福祉の説明として正しい。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"社会",
+      "topic":"日本の社会保障制度・四つの柱",
+      "sub_domain":"社会保障・労働",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"7.社会保障"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答誤記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["社会保障","社会保険","公的扶助"]
+    },
+    "sources": [{"claim":"日本の社会保障は社会保険、公的扶助、社会福祉、公衆衛生などからなる","source":"厚生労働省, 社会保障とは","year":"2024","url":"https://www.mhlw.go.jp/stf/newpage_21479.html"}]
+  },
+  {
+    "id": 22,
+    "global_id": 29,
+    "title": "問22",
+    "prompt": "日本と国際組織の関係に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"日本は1956年に国際連合へ加盟した。","explanation_zh":"正确。日本于 1956 年加入联合国。","explanation_ja":"正解。日本は1956年に国際連合へ加盟した。"},
+      {"id":2,"text":"日本は北米自由貿易協定の創設加盟国である。","explanation_zh":"陷阱：概念混淆。NAFTA 是北美区域贸易协定，日本不是创设加盟国。","explanation_ja":"誤り。概念混同の罠。NAFTAは北米の地域貿易協定であり、日本は創設加盟国ではない。"},
+      {"id":3,"text":"東南アジア諸国連合は日本国内の地方自治体だけで構成される組織である。","explanation_zh":"陷阱：主体错位。ASEAN 是东南亚国家联盟，不是日本地方自治体组织。","explanation_ja":"誤り。主体取違の罠。ASEANは東南アジア諸国連合であり、日本の地方自治体だけの組織ではない。"},
+      {"id":4,"text":"日本は国連安全保障理事会の常任理事国として拒否権を持つ。","explanation_zh":"陷阱：范围扩大。日本不是安理会常任理事国，也没有常任理事国的否决权。","explanation_ja":"誤り。範囲拡大の罠。日本は国連安保理の常任理事国ではなく、常任理事国の拒否権を持たない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"日本と国際組織の関係",
+      "sub_domain":"国際政治・外交",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"5. 国際政治"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["概念混同"],
+      "keywords_to_avoid":["国際捕鯨委員会","国連安保理","NAFTA","ASEAN"]
+    },
+    "sources": [{"claim":"日本は1956年に国際連合へ加盟した","source":"United Nations, Member States","year":"1956","url":"https://www.un.org/en/about-us/member-states"}]
+  },
+  {
+    "id": 23,
+    "global_id": 30,
+    "title": "問23",
+    "prompt": "1990年代初めの中東の戦争に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"この戦争は、別の中東国家がクウェートへ侵攻したことだけを原因として始まった。","explanation_zh":"陷阱：主体错位。海湾危机的直接契机是伊拉克入侵科威特。","explanation_ja":"誤り。主体取違の罠。湾岸危機の直接の契機はイラクによるクウェート侵攻である。"},
+      {"id":2,"text":"この戦争後、イラクはクウェートを完全に併合し、国際社会は何も対応しなかった。","explanation_zh":"陷阱：因果倒置。多国部队行动后，科威特获得解放。","explanation_ja":"誤り。因果倒置の罠。多国籍軍の行動によりクウェートは解放された。"},
+      {"id":3,"text":"1990年のイラクによるクウェート侵攻を契機に、国連決議を背景として多国籍軍が行動した。","explanation_zh":"正确。1990 年伊拉克入侵科威特后，以联合国决议为背景，多国籍军展开行动。","explanation_ja":"正解。1990年のイラクによるクウェート侵攻を契機に、国連決議を背景として多国籍軍が行動した。"},
+      {"id":4,"text":"この戦争は、古代ローマの内乱であり、20世紀の中東とは無関係である。","explanation_zh":"陷阱：时态错位。湾岸战争是 20 世纪末的中东国际冲突。","explanation_ja":"誤り。時態錯位の罠。湾岸戦争は20世紀末の中東をめぐる国際紛争である。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"湾岸戦争",
+      "sub_domain":"現代世界",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"5. 国際政治"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["因果倒置","主体取違"],
+      "keywords_to_avoid":["湾岸戦争","イラク","イスラエル"]
+    },
+    "sources": [{"claim":"1990年のイラクによるクウェート侵攻が湾岸戦争の契機となった","source":"Encyclopaedia Britannica, Persian Gulf War","year":"1991","url":"https://www.britannica.com/event/Persian-Gulf-War"}]
+  },
+  {
+    "id": 24,
+    "global_id": 31,
+    "title": "問24",
+    "prompt": "次の文章は、日本の電力生産量に占める電源別割合の目安を示している。資料から読み取れる内容として最も適当なものはどれですか。\n化石燃料：約72％、再生可能エネルギー：約24％、原子力：約5％（2022年度の概数）。",
+    "choices": [
+      {"id":1,"text":"原子力が約72％で最も大きい。","explanation_zh":"陷阱：数值混同。约 72% 对应化石燃料，不是核能。","explanation_ja":"誤り。数値混同の罠。約72％は火力であり、原子力ではない。"},
+      {"id":2,"text":"化石燃料が最も大きく、再生可能エネルギーと原子力を上回っている。","explanation_zh":"正确。资料中火力约 72%，高于再生可能能源约 24% 和核能约 5%。","explanation_ja":"正解。火力約72％は、再生可能エネルギー約24％や原子力約5％を上回る。"},
+      {"id":3,"text":"三つの電源はすべて同じ割合である。","explanation_zh":"陷阱：范围扩大。三个比例明显不同。","explanation_ja":"誤り。範囲拡大の罠。三つの割合は大きく異なる。"},
+      {"id":4,"text":"再生可能エネルギーは0％で、電力生産にまったく使われていない。","explanation_zh":"陷阱：数值混同。资料中再生可能能源约 24%，不是 0%。","explanation_ja":"誤り。数値混同の罠。再生可能エネルギーは約24％であり、0％ではない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"発電エネルギー源別割合",
+      "sub_domain":"産業・資源",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["数値混同"],
+      "keywords_to_avoid":["発電","エネルギー源","火力"]
+    },
+    "sources": [{"claim":"2022年度の日本の発電電力量では化石燃料による火力が約72％を占めた","source":"Institute for Sustainable Energy Policies, 2022 Share of Electricity from Renewable Energy Sources in Japan","year":"2022","url":"https://www.isep.or.jp/en/1436/"}]
+  },
+  {
+    "id": 25,
+    "title": "問25",
+    "prompt": "京都議定書と地球環境問題について、下の問いに答えなさい。",
+    "passage": "地球温暖化への国際的対応では、各国が共通の課題を認識しながらも、発展段階や産業構造の違いを踏まえて責任分担を考える必要がある。1997年に採択された京都議定書は、先進国などに温室効果ガス削減目標を課した点で重要であった。その後も、温暖化だけでなく、生物多様性、湿地保全、有害廃棄物、オゾン層保護など、環境問題ごとに異なる国際枠組みが整えられてきた。",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":32,
+        "prompt":"本文の内容に合うものとして最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"京都議定書は、すべての国に同一の削減義務を課し、発展段階の違いを一切考慮しなかった。","explanation_zh":"陷阱：范围扩大。文章说明需要考虑发展阶段和产业结构差异。","explanation_ja":"誤り。範囲拡大の罠。本文は発展段階や産業構造の違いを踏まえる必要を述べている。"},
+          {"id":2,"text":"京都議定書は19世紀に採択され、蒸気機関の発明を禁止するだけの条約であった。","explanation_zh":"陷阱：时态错位。文章明确说京都议定书于 1997 年通过。","explanation_ja":"誤り。時態錯位の罠。本文では京都議定書は1997年に採択されたと説明している。"},
+          {"id":3,"text":"環境問題には温暖化だけがあり、湿地や有害廃棄物の国際枠組みは存在しない。","explanation_zh":"陷阱：概念混淆。文章列举了湿地保护、有害废弃物等不同框架。","explanation_ja":"誤り。概念混同の罠。本文は湿地保全や有害廃棄物などの国際枠組みも挙げている。"},
+          {"id":4,"text":"京都議定書は、先進国などに温室効果ガス削減目標を課した国際的枠組みとして重要であった。","explanation_zh":"正确。文章明确说明京都议定书对先进国等设定温室气体削减目标。","explanation_ja":"正解。本文は、京都議定書が先進国などに温室効果ガス削減目標を課した点で重要だと述べている。"}
+        ],
+        "answer":4,
+        "tag":{
+          "question_form":"文章読解",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["概念混同","時態錯位"],
+          "keywords_to_avoid":["1997年","気候変動枠組条約","温室効果ガス"],
+          "sub_domain":"現代世界",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の社会","item":"1. 環境と資源"}
+        }
+      },
+      {
+        "sub_id":2,
+        "global_id":33,
+        "prompt":"環境に関する国際的な取り決めとして最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"有害廃棄物の越境移動に関する条約は、世界の標準時を決めるためだけの天文条約である。","explanation_zh":"陷阱：概念混淆。巴塞尔公约处理有害废弃物越境移动等问题。","explanation_ja":"誤り。概念混同の罠。バーゼル条約は有害廃棄物の越境移動などに関わる条約である。"},
+          {"id":2,"text":"湿地保全条約は、国際的に重要な湿地の保全と賢明な利用に関する条約である。","explanation_zh":"正确。拉姆萨尔公约是关于国际重要湿地保护和合理利用的条约。","explanation_ja":"正解。ラムサール条約は、国際的に重要な湿地の保全と賢明な利用に関する条約である。"},
+          {"id":3,"text":"絶滅危惧種取引規制条約は、国内の予算編成手続だけを定める日本の法律である。","explanation_zh":"陷阱：主体错位。华盛顿公约是濒危野生动植物国际贸易相关条约，不是日本预算法。","explanation_ja":"誤り。主体取違の罠。ワシントン条約は絶滅のおそれのある野生動植物の国際取引に関する条約である。"},
+          {"id":4,"text":"オゾン層保護条約は、地中海性気候のオリーブ栽培だけを定める農業協定である。","explanation_zh":"陷阱：概念混淆。维也纳公约可指臭氧层保护相关框架，不是橄榄栽培协定。","explanation_ja":"誤り。概念混同の罠。ウィーン条約はオゾン層保護に関する枠組みとして知られ、オリーブ栽培協定ではない。"}
+        ],
+        "answer":2,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["概念混同"],
+          "keywords_to_avoid":["国際条約","バーゼル","ラムサール","ワシントン","ウィーン"],
+          "sub_domain":"現代世界",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"5. 金融"}
+        },
+        "sources":[{"claim":"ラムサール条約は国際的に重要な湿地の保全と賢明な利用に関する条約である","source":"Ramsar Convention Secretariat, The Convention on Wetlands","year":"1971","url":"https://www.ramsar.org/about/the-convention-on-wetlands"}]
+      }
+    ],
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"京都議定書・地球環境問題",
+      "sub_domain":"現代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"2. 二つの世界大戦とその影響"},
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "keywords_to_avoid":["京都議定書","温室効果ガス","削減目標"]
+    }
+  },
+  {
+    "id": 26,
+    "global_id": 34,
+    "title": "問26",
+    "prompt": "1789年政変直前のフランス社会に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"旧制度下のフランス社会では、聖職者・貴族・第三身分という身分区分があり、身分的優遇への不満が革命の背景となった。","explanation_zh":"正确。法国革命前存在三个等级，第三等级等对特权和负担不满是革命背景之一。","explanation_ja":"正解。旧制度下のフランス社会には聖職者・貴族・第三身分の区分があり、特権への不満が革命の背景となった。"},
+      {"id":2,"text":"革命直前のフランスでは、すでにすべての身分差が完全に廃止され、税負担も同一であった。","explanation_zh":"陷阱：时态错位。身份特权和负担不平等正是革命前的重要背景。","explanation_ja":"誤り。時態錯位の罠。身分的特権や負担の不均衡は革命前の重要な背景であった。"},
+      {"id":3,"text":"第三身分は国王と貴族だけを指し、農民や市民は含まれなかった。","explanation_zh":"陷阱：概念混淆。第三等级代表多数平民，包括市民和农民等。","explanation_ja":"誤り。概念混同の罠。第三身分は多数の平民を代表し、市民や農民を含む。"},
+      {"id":4,"text":"1789年政変は第二次世界大戦後に始まった冷戦の一部である。","explanation_zh":"陷阱：时态错位。法国革命始于 18 世纪末，不是二战后冷战。","explanation_ja":"誤り。時態錯位の罠。フランス革命は18世紀末の出来事であり、第二次世界大戦後の冷戦ではない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"フランス革命直前の社会",
+      "sub_domain":"近代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"1. 近代化の進展とその影響"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位"],
+      "keywords_to_avoid":["フランス革命","身分制","特権"]
+    },
+    "sources": [{"claim":"フランス革命前の三部会は聖職者・貴族・第三身分から成っていた","source":"Encyclopaedia Britannica, Third Estate","year":"1789","url":"https://www.britannica.com/topic/Third-Estate"}]
+  },
+  {
+    "id": 27,
+    "global_id": 35,
+    "title": "問27",
+    "prompt": "香港とイギリス統治、アヘン戦争に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"香港島はアヘン戦争後の南京条約でイギリスへ割譲され、香港は1997年に中国へ返還された。","explanation_zh":"正确。香港岛在第一次鸦片战争后的南京条约中割让给英国，香港于 1997 年回归中国。","explanation_ja":"正解。香港島は第一次アヘン戦争後の南京条約でイギリスへ割譲され、香港は1997年に中国へ返還された。"},
+      {"id":2,"text":"香港は古代ローマ帝国からイギリスへ返還され、その後アヘン戦争が起こった。","explanation_zh":"陷阱：时态错位。鸦片战争发生在 19 世纪，香港回归中国是在 1997 年。","explanation_ja":"誤り。時態錯位の罠。アヘン戦争は19世紀、香港返還は1997年であり、順序も主体も異なる。"},
+      {"id":3,"text":"南京条約では香港の割譲は行われず、イギリスは東アジアに関与しなかった。","explanation_zh":"陷阱：范围扩大。南京条约的重要内容之一是香港岛割让给英国。","explanation_ja":"誤り。範囲拡大の罠。南京条約では香港島がイギリスへ割譲された。"},
+      {"id":4,"text":"アヘン戦争は20世紀末に日本とアメリカの間で起こった戦争である。","explanation_zh":"陷阱：地域错位。鸦片战争是清朝中国和英国之间的 19 世纪战争。","explanation_ja":"誤り。地域取違の罠。アヘン戦争は19世紀に清とイギリスの間で起こった戦争である。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"香港・イギリス統治・アヘン戦争",
+      "sub_domain":"近代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"2. 二つの世界大戦とその影響"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位"],
+      "keywords_to_avoid":["香港","イギリス","返還","アヘン戦争"]
+    },
+    "sources": [{"claim":"第一次アヘン戦争後の南京条約で香港島がイギリスへ割譲され、香港は1997年に中国へ返還された","source":"Encyclopaedia Britannica, Handover of Hong Kong","year":"1997","url":"https://www.britannica.com/event/handover-of-Hong-Kong"}]
+  },
+  {
+    "id": 28,
+    "global_id": 36,
+    "title": "問28",
+    "prompt": "1904〜05年の戦争と米国との関係に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"1904〜05年の戦争は第二次世界大戦後に、国際連合軍とOPECの間で起こった。","explanation_zh":"陷阱：时态错位。日俄战争发生在 1904-1905 年，不是二战后。","explanation_ja":"誤り。時態錯位の罠。日露戦争は1904〜05年の戦争であり、第二次世界大戦後ではない。"},
+      {"id":2,"text":"1904〜05年の戦争の講和は、京都議定書によって温室効果ガス削減だけを定めた。","explanation_zh":"陷阱：概念混淆。日俄战争媾和是朴茨茅斯条约，不是京都议定书。","explanation_ja":"誤り。概念混同の罠。日露戦争の講和はポーツマス条約であり、京都議定書ではない。"},
+      {"id":3,"text":"米国は1904〜05年の戦争の講和に一切関与せず、ポーツマス条約は存在しなかった。","explanation_zh":"陷阱：范围扩大。美国总统罗斯福斡旋，朴茨茅斯条约结束了战争。","explanation_ja":"誤り。範囲拡大の罠。アメリカ大統領ローズベルトが講和を仲介し、ポーツマス条約が結ばれた。"},
+      {"id":4,"text":"米国大統領セオドア・ローズベルトの仲介により、1905年にポーツマス条約が結ばれた。","explanation_zh":"正确。1905 年，在美国总统西奥多罗斯福斡旋下签订朴茨茅斯条约。","explanation_ja":"正解。アメリカ大統領セオドア・ローズベルトの仲介により、1905年にポーツマス条約が結ばれた。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"日露戦争・日米関係",
+      "sub_domain":"近代日本",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"5. 国際政治"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","時態錯位"],
+      "keywords_to_avoid":["日露戦争","日本","アメリカ"]
+    },
+    "sources": [{"claim":"日露戦争は1905年のポーツマス条約で終結し、アメリカ大統領セオドア・ローズベルトが仲介した","source":"Encyclopaedia Britannica, Treaty of Portsmouth","year":"1905","url":"https://www.britannica.com/event/Treaty-of-Portsmouth"}]
+  },
+  {
+    "id": 29,
+    "global_id": 37,
+    "title": "問29",
+    "prompt": "戦後アフリカの独立運動に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"アフリカ諸国の独立は19世紀前半にすべて完了し、第二次世界大戦後には新たな独立はなかった。","explanation_zh":"陷阱：时态错位。二战后非洲去殖民化快速推进，1960 年尤其重要。","explanation_ja":"誤り。時態錯位の罠。第二次世界大戦後にアフリカの脱植民地化は大きく進んだ。"},
+      {"id":2,"text":"1960年には多くのアフリカ諸国が独立し、「アフリカの年」と呼ばれる。","explanation_zh":"正确。1960 年多个非洲国家独立，被称为“非洲年”。","explanation_ja":"正解。1960年には多くのアフリカ諸国が独立し、「アフリカの年」と呼ばれる。"},
+      {"id":3,"text":"戦後アフリカの独立運動は、南極大陸の氷河観測だけを目的とした。","explanation_zh":"陷阱：地域错位。非洲独立运动是殖民地摆脱统治的政治运动，不是南极观测。","explanation_ja":"誤り。地域取違の罠。アフリカの独立運動は植民地支配からの独立をめざす政治運動である。"},
+      {"id":4,"text":"国際連合は植民地独立に関する宣言を採択せず、民族自決を一切認めなかった。","explanation_zh":"陷阱：范围扩大。联合国大会 1960 年通过殖民地独立宣言。","explanation_ja":"誤り。範囲拡大の罠。国連総会は1960年に植民地独立付与宣言を採択した。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"戦後アフリカ・独立運動",
+      "sub_domain":"現代日本",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"4.国民経済"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位"],
+      "keywords_to_avoid":["アフリカ","独立","1960年"]
+    },
+    "sources": [{"claim":"1960年には多数のアフリカ諸国が独立し、国連総会は植民地独立付与宣言を採択した","source":"United Nations, The United Nations and Decolonization","year":"1960","url":"https://www.un.org/dppa/decolonization/about"}]
+  },
+  {
+    "id": 30,
+    "global_id": 38,
+    "title": "問30",
+    "prompt": "戦後日本の主要出来事を古い順に並べたものとして最も適当なものはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"沖縄返還 → OECD加盟 → サンフランシスコ平和条約 → 日本国憲法施行","explanation_zh":"陷阱：顺序混同。冲绳返还是 1972 年，不能排在最前。","explanation_ja":"誤り。順序混同の罠。沖縄返還は1972年であり、最初ではない。"},
+      {"id":2,"text":"OECD加盟 → 日本国憲法施行 → 沖縄返還 → サンフランシスコ平和条約","explanation_zh":"陷阱：顺序混同。日本国宪法施行和旧金山和平条约早于 OECD 加盟。","explanation_ja":"誤り。順序混同の罠。日本国憲法施行とサンフランシスコ平和条約はOECD加盟より前である。"},
+      {"id":3,"text":"日本国憲法施行 → サンフランシスコ平和条約発効 → OECD加盟 → 沖縄返還","explanation_zh":"正确。日本国宪法 1947 年施行，旧金山和平条约 1952 年生效，OECD 加盟 1964 年，冲绳返还 1972 年。","explanation_ja":"正解。日本国憲法施行は1947年、サンフランシスコ平和条約発効は1952年、OECD加盟は1964年、沖縄返還は1972年である。"},
+      {"id":4,"text":"サンフランシスコ平和条約発効 → 沖縄返還 → 日本国憲法施行 → OECD加盟","explanation_zh":"陷阱：顺序混同。日本国宪法施行早于和平条约生效和冲绳返还。","explanation_ja":"誤り。順序混同の罠。日本国憲法施行はサンフランシスコ平和条約発効や沖縄返還より前である。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"戦後日本の主要出来事",
+      "sub_domain":"現代日本",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"3. 日本国憲法"},
+      "question_form":"時系列整序",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["順序混同"],
+      "keywords_to_avoid":["沖縄返還","OECD","憲法","サンフランシスコ平和条約"]
+    },
+    "sources": [{"claim":"戦後日本では日本国憲法施行、サンフランシスコ平和条約発効、OECD加盟、沖縄返還がこの順に起こった","source":"外務省, 日本外交史関連資料","year":"1972","url":"https://www.mofa.go.jp/mofaj/annai/honsho/shiryo/"}]
+  }
+]
+}

@@ -1,0 +1,993 @@
+{
+  "subject": "comprehensive",
+  "section": "",
+  "year": 2015,
+  "round": 1,
+  "title": "模擬試験 総合科目 第五回",
+  "image_path": "comprehensive/images/2015-1",
+  "questions": [
+  {
+    "id": 1,
+    "title": "問1",
+    "prompt": "イギリスの成立と北部地域の独立運動について、下の問いに答えなさい。",
+    "passage": "イギリスは複数の地域から成る国家であり、歴史的には1700年代初めの合同法によって南部王国と北部王国が一つの王国を形成した。近年は地方分権の進展とともに、連合王国北部地域の独立をめぐる政治運動も注目された。2014年には独立の是非を問う住民投票が行われたが、反対票が賛成票を上回った。",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":1,
+        "prompt":"1700年代初めの合同法に関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"南部王国と北部王国は合同法により、グレートブリテン王国を形成した。","explanation_zh":"正确。1707 年联合法使英格兰和苏格兰联合形成大不列颠王国。","explanation_ja":"正解。1707年の合同法により、イングランドとスコットランドはグレートブリテン王国を形成した。"},
+          {"id":2,"text":"この合同法は、アメリカ13植民地をイギリスから独立させた宣言である。","explanation_zh":"陷阱：地域错位。美国独立宣言是 1776 年北美殖民地事件，不是 1707 年英格兰和苏格兰联合法。","explanation_ja":"誤り。地域取違の罠。アメリカ独立宣言は1776年の北米植民地に関する出来事であり、1707年の合同法ではない。"},
+          {"id":3,"text":"この合同法で、北部地域はフランスの海外県となった。","explanation_zh":"陷阱：主体错位。1707 年联合法涉及英格兰和苏格兰，不是法国海外领地化。","explanation_ja":"誤り。主体取違の罠。1707年の合同法はイングランドとスコットランドに関わるもので、フランス海外県化ではない。"},
+          {"id":4,"text":"合同法は気候区分の名称で、国家の形成とは関係しない。","explanation_zh":"陷阱：概念混淆。联合法是政治史事件，不是气候区分。","explanation_ja":"誤り。概念混同の罠。合同法は政治史上の法であり、気候区分ではない。"}
+        ],
+        "answer":1,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["地域取違","主体取違","概念混同"],
+          "keywords_to_avoid":["スコットランド","イングランド","1707年"],
+          "sub_domain":"欧米地誌",
+          "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"}
+        },
+        "sources":[{"claim":"1707年の合同法によりイングランドとスコットランドはグレートブリテン王国を形成した","source":"Encyclopaedia Britannica, Act of Union","year":"1707","url":"https://www.britannica.com/event/Act-of-Union-Great-Britain-1707"}]
+      },
+      {
+        "sub_id":2,
+        "global_id":2,
+        "prompt":"連合王国北部地域の政治的位置に関する記述として最も適当なものはどれですか。",
+        "passage":"",
+        "choices":[
+          {"id":1,"text":"この地域は連合王国を構成する地域の一つで、独自の議会と自治政府をもつ。","explanation_zh":"正确。苏格兰是英国构成地区之一，并有自己的议会和自治政府。","explanation_ja":"正解。スコットランドは連合王国を構成する地域の一つで、独自の議会と自治政府をもつ。"},
+          {"id":2,"text":"この地域はオーストラリア大陸の内陸国で、イギリスとは無関係である。","explanation_zh":"陷阱：地域错位。苏格兰位于不列颠岛北部，是英国构成地区之一。","explanation_ja":"誤り。地域取違の罠。スコットランドはブリテン島北部に位置し、イギリスを構成する地域である。"},
+          {"id":3,"text":"この地域の議会は国際連合の安全保障理事会の別名である。","explanation_zh":"陷阱：主体错位。苏格兰议会是地方议会，不是联合国安理会。","explanation_ja":"誤り。主体取違の罠。スコットランド議会は地方議会であり、国連安保理ではない。"},
+          {"id":4,"text":"自治政府とは、等高線を描くための測量器具だけを指す。","explanation_zh":"陷阱：概念混淆。自治政府是政治制度概念，不是测量器具。","explanation_ja":"誤り。概念混同の罠。自治政府は政治制度に関わる概念であり、測量器具ではない。"}
+        ],
+        "answer":1,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["地域取違","主体取違","概念混同"],
+          "keywords_to_avoid":["スコットランド","イングランド","1707年"],
+          "sub_domain":"欧米地誌",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"4.政治参加"}
+        },
+        "sources":[{"claim":"スコットランドにはスコットランド議会とスコットランド政府がある","source":"Scottish Parliament, About the Parliament","year":"2024","url":"https://www.parliament.scot/about"}]
+      },
+      {
+        "sub_id":3,
+        "global_id":3,
+        "prompt":"2014年の連合王国北部地域の独立住民投票に関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"投票では独立賛成が90％を超え、翌日に独立国家が成立した。","explanation_zh":"陷阱：范围扩大。2014 年投票中反对独立为 55.3%，赞成为 44.7%，没有翌日独立。","explanation_ja":"誤り。範囲拡大の罠。2014年投票では独立反対が55.3％、賛成が44.7％で、翌日に独立国家が成立したわけではない。"},
+          {"id":2,"text":"2014年の住民投票では、独立反対票が賛成票を上回った。","explanation_zh":"正确。官方结果为反对 55.3%、赞成 44.7%。","explanation_ja":"正解。2014年の住民投票では、独立反対55.3％、賛成44.7％で反対票が上回った。"},
+          {"id":3,"text":"この投票はカナダのケベック州だけで行われ、連合王国北部地域では実施されなかった。","explanation_zh":"陷阱：地域错位。投票地点是苏格兰，不是加拿大魁北克。","explanation_ja":"誤り。地域取違の罠。この住民投票はスコットランドで実施された。"},
+          {"id":4,"text":"住民投票は株主総会の別名で、政治的意思表示とは関係しない。","explanation_zh":"陷阱：概念混淆。住民投票是政治意思表达方式，不是公司股东会。","explanation_ja":"誤り。概念混同の罠。住民投票は政治的意思表示の制度であり、株主総会ではない。"}
+        ],
+        "answer":2,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["地域取違","主体取違","概念混同"],
+          "keywords_to_avoid":["スコットランド","イングランド","1707年"],
+          "sub_domain":"欧米地誌"
+        },
+        "sources":[{"claim":"2014年スコットランド独立住民投票は反対55.3％、賛成44.7％であった","source":"GOV.UK, Scottish independence referendum: what happens next","year":"2014","url":"https://www.gov.uk/government/news/scottish-independence-referendum-whats-next/"}]
+      },
+      {
+        "sub_id":4,
+        "global_id":4,
+        "prompt":"次の文章は、2014年の独立住民投票の結果を示している。資料から読み取れる内容として最も適当なものはどれですか。\n独立反対：55.3％、独立賛成：44.7％、投票率：84.6％。",
+        "choices":[
+          {"id":1,"text":"独立賛成は独立反対を上回った。","explanation_zh":"陷阱：数值混同。44.7% 低于 55.3%。","explanation_ja":"誤り。数値混同の罠。独立賛成44.7％は独立反対55.3％を下回る。"},
+          {"id":2,"text":"独立反対は独立賛成を上回った。","explanation_zh":"正确。反对 55.3% 高于赞成 44.7%。","explanation_ja":"正解。独立反対55.3％は独立賛成44.7％を上回っている。"},
+          {"id":3,"text":"投票率は10％未満であった。","explanation_zh":"陷阱：数值混同。投票率为 84.6%，不是 10% 未满。","explanation_ja":"誤り。数値混同の罠。投票率は84.6％で、10％未満ではない。"},
+          {"id":4,"text":"二つの選択肢の得票率は完全に同じであった。","explanation_zh":"陷阱：范围扩大。55.3% 和 44.7% 并不相同。","explanation_ja":"誤り。範囲拡大の罠。55.3％と44.7％は同じではない。"}
+        ],
+        "answer":2,
+        "tag":{
+          "question_form":"図表読取",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["地域取違","主体取違","概念混同"],
+          "keywords_to_avoid":["スコットランド","イングランド","1707年"],
+          "sub_domain":"欧米地誌",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"10. 国際経済"}
+        },
+        "sources":[{"claim":"2014年スコットランド独立住民投票は反対55.3％、賛成44.7％、投票率84.6％であった","source":"House of Commons Library, Scottish Independence Referendum 2014","year":"2014","url":"https://commonslibrary.parliament.uk/research-briefings/rp14-50/"}]
+      }
+    ],
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"イギリスの地政学とスコットランド独立運動",
+      "sub_domain":"欧米地誌",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"2. 現代世界の諸地域"},
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "keywords_to_avoid":["スコットランド","イングランド","1707年","住民投票","2014年"]
+    }
+  },
+  {
+    "id": 2,
+    "title": "問2",
+    "prompt": "国境を越える経済的結びつきと市場重視の政策について、下の問いに答えなさい。",
+    "passage": "交通・通信技術の発達や貿易自由化により、財・サービス・人・資金が国境を越えて動きやすくなった。一方、市場競争、規制緩和、民営化を重視する政策は、経済効率を高めるとされる反面、所得格差や公共サービスのあり方をめぐる議論も生んだ。",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":5,
+        "prompt":"国境を越える経済的結びつきに関する記述として最も適当なものはどれですか。",
+        "passage":"",
+        "choices":[
+          {"id":1,"text":"国境を越える経済的結びつきとは、国内の村落だけで物々交換を行い、国境を越える取引をすべて禁止することである。","explanation_zh":"陷阱：概念混淆。全球化指跨境联系扩大，不是禁止跨境交易。","explanation_ja":"誤り。概念混同の罠。グローバル化は国境を越える結びつきの拡大であり、越境取引の全面禁止ではない。"},
+          {"id":2,"text":"国境を越える経済的結びつきは気温分布の分類だけを意味し、経済活動とは無関係である。","explanation_zh":"陷阱：概念混淆。全球化涉及贸易、投资、信息和人员流动等经济社会联系。","explanation_ja":"誤り。概念混同の罠。グローバル化は貿易、投資、情報、人の移動などに関わる。"},
+          {"id":3,"text":"国境を越えた貿易・投資・情報の流れが拡大し、各国経済の相互依存が強まることをいう。","explanation_zh":"正确。全球化的核心是跨境贸易、投资、信息等流动扩大和相互依存加深。","explanation_ja":"正解。国境を越える貿易・投資・情報の流れが拡大し、各国経済の相互依存が強まることをいう。"},
+          {"id":4,"text":"国境を越える経済的結びつきが進むと、すべての国の所得格差は必ず完全に消滅する。","explanation_zh":"陷阱：范围扩大。全球化可能带来增长，也可能伴随分配和格差问题，不能说必然完全消灭。","explanation_ja":"誤り。範囲拡大の罠。グローバル化は成長機会をもたらす一方、格差問題を伴うこともあり、必ず格差が消滅するわけではない。"}
+        ],
+        "answer":3,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["地域取違","主体取違","概念混同"],
+          "keywords_to_avoid":["グローバル化","新自由主義","資本移動"],
+          "sub_domain":"経済思想・経済史"
+        },
+        "sources":[{"claim":"グローバル化は貿易・投資・情報など国境を越える経済的結びつきの拡大である","source":"OECD, Economic globalisation indicators","year":"2024","url":"https://www.oecd.org/en/topics/economic-globalisation.html"}]
+      },
+      {
+        "sub_id":2,
+        "global_id":6,
+        "prompt":"市場重視の政策に関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"市場重視の政策では、民営化や規制緩和は常に禁止される。","explanation_zh":"陷阱：概念混淆。市场重视政策通常强调民营化、规制缓和和竞争。","explanation_ja":"誤り。概念混同の罠。市場重視の政策は民営化、規制緩和、競争を重視することが多い。"},
+          {"id":2,"text":"規制緩和や民営化を通じて競争を促し、政府の役割を限定しようとする考え方が含まれる。","explanation_zh":"正确。市场重视政策常包括规制缓和、民营化、竞争促进和限制政府干预。","explanation_ja":"正解。規制緩和や民営化で競争を促し、政府の役割を限定しようとする考え方を含む。"},
+          {"id":3,"text":"市場重視の政策は、すべての価格を国王が手書きで毎日決める制度である。","explanation_zh":"陷阱：主体错位。价格机制的强调与国王每日指定所有价格不同。","explanation_ja":"誤り。主体取違の罠。市場重視は価格メカニズムや競争を重視する考えであり、国王が全価格を決める制度ではない。"},
+          {"id":4,"text":"この政策では、企業の活動や国際取引は必ずすべて停止される。","explanation_zh":"陷阱：范围扩大。市场重视政策多被认为会促进企业活动和交易。","explanation_ja":"誤り。範囲拡大の罠。市場重視の政策は企業活動や取引を促す方向で語られることが多い。"}
+        ],
+        "answer":2,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["地域取違","主体取違","概念混同"],
+          "keywords_to_avoid":["グローバル化","新自由主義","資本移動"],
+          "sub_domain":"経済思想・経済史"
+        },
+        "sources":[{"claim":"新自由主義的政策は市場競争、規制緩和、民営化を重視する考え方として説明される","source":"Encyclopaedia Britannica, Neoliberalism","year":"2024","url":"https://www.britannica.com/money/neoliberalism"}]
+      },
+      {
+        "sub_id":3,
+        "global_id":7,
+        "prompt":"国際的な資金移動に関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"資金移動とは、標高の高い山から低い谷へ土砂が流れる自然現象だけを指す。","explanation_zh":"陷阱：概念混淆。资本移动是资金跨境流动，不是地形变化。","explanation_ja":"誤り。概念混同の罠。資本移動は資金が国境を越えて動くことであり、地形変化ではない。"},
+          {"id":2,"text":"企業の直接投資や証券投資など、資金が国境を越えて移動することがある。","explanation_zh":"正确。直接投资和证券投资都是国际资本流动的重要形式。","explanation_ja":"正解。直接投資や証券投資など、資金が国境を越えて移動することがある。"},
+          {"id":3,"text":"国際的な資金移動は、通信技術や金融市場とは一切関係がない。","explanation_zh":"陷阱：范围扩大。通信和金融市场的发展会影响跨境资金流动。","explanation_ja":"誤り。範囲拡大の罠。通信技術や金融市場の発達は国際的な資本移動に影響する。"},
+          {"id":4,"text":"資金移動があると、為替や金融危機のリスクは必ずゼロになる。","explanation_zh":"陷阱：因果倒置。资本流动可能带来融资机会，也可能伴随金融不稳定风险。","explanation_ja":"誤り。因果倒置の罠。資本移動は資金調達機会を広げる一方、金融不安定のリスクも伴うことがある。"}
+        ],
+        "answer":2,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["地域取違","主体取違","概念混同"],
+          "keywords_to_avoid":["グローバル化","新自由主義","資本移動"],
+          "sub_domain":"経済思想・経済史",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"6. 財政"}
+        },
+        "sources":[{"claim":"国際資本移動には直接投資や証券投資などが含まれる","source":"IMF, Balance of Payments and International Investment Position Manual","year":"2009","url":"https://www.imf.org/external/pubs/ft/bop/2007/bopman6.htm"}]
+      },
+      {
+        "sub_id":4,
+        "global_id":8,
+        "prompt":"次の文章は、世界の商品輸出額の対GDP比の推移を示している。資料から読み取れる内容として最も適当なものはどれですか。\n1990年：約15％、2000年：約19％、2008年：約25％、2020年：約22％。",
+        "choices":[
+          {"id":1,"text":"1990年から2008年にかけて、比率は一貫して低下した。","explanation_zh":"陷阱：数值混同。1990 年为 15%，2008 年为 25%，实际上上升了。","explanation_ja":"誤り。数値混同の罠。1990年約15％から2008年約25％へ上昇している。"},
+          {"id":2,"text":"2020年の比率は1990年より低い。","explanation_zh":"陷阱：数值混同。2020 年约 22%，高于 1990 年约 15%。","explanation_ja":"誤り。数値混同の罠。2020年約22％は1990年約15％より高い。"},
+          {"id":3,"text":"2000年と2008年の比率は完全に同じである。","explanation_zh":"陷阱：数值混同。2000 年约 19%，2008 年约 25%，二者不同。","explanation_ja":"誤り。数値混同の罠。2000年約19％と2008年約25％は同じではない。"},
+          {"id":4,"text":"1990年から2008年にかけて比率は上昇し、世界経済で貿易の比重が高まったことが読み取れる。","explanation_zh":"正确。15% 到 25% 的上升说明商品贸易相对于 GDP 的比重提高。","explanation_ja":"正解。1990年約15％から2008年約25％へ上昇し、貿易の比重が高まったことが読み取れる。"}
+        ],
+        "answer":4,
+        "tag":{
+          "question_form":"図表読取",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["地域取違","主体取違","概念混同"],
+          "keywords_to_avoid":["グローバル化","新自由主義","資本移動"],
+          "sub_domain":"経済思想・経済史",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"3. 日本国憲法"}
+        },
+        "sources":[{"claim":"世界の商品輸出額対GDP比は1990年代から2008年にかけて上昇した","source":"World Bank, Merchandise exports (% of GDP)","year":"2020","url":"https://data.worldbank.org/indicator/TX.VAL.MRCH.ZS.UN"}]
+      }
+    ],
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"グローバル化と新自由主義",
+      "sub_domain":"経済思想・経済史",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"1. 経済のしくみと資本主義の発展"},
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "keywords_to_avoid":["グローバル化","新自由主義","資本移動","労働者","社会権的基本権"]
+    }
+  },
+  {
+    "id": 3,
+    "global_id": 9,
+    "title": "問3",
+    "prompt": "経済思想と学者に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"人口論で知られる学者は、企業家の革新による創造的破壊を中心概念として論じた。","explanation_zh":"陷阱：主体错位。创造性破坏和企业家创新以熊彼特的议论著名，不是马尔萨斯。","explanation_ja":"誤り。主体取違の罠。創造的破壊や企業家のイノベーションはシュンペーターの議論として知られる。"},
+      {"id":2,"text":"20世紀のマネタリストは古典派の分業論を唱え、『国富論』を1776年に著した。","explanation_zh":"陷阱：主体错位。《国富论》和分工论是亚当斯密，不是弗里德曼。","explanation_ja":"誤り。主体取違の罠。『国富論』と分業論はアダム・スミスに関わる。"},
+      {"id":3,"text":"オーストリア出身の経済学者は、企業家による革新と創造的破壊を重視した。","explanation_zh":"正确。熊彼特以企业家创新和创造性破坏理论著名。","explanation_ja":"正解。シュンペーターは企業家によるイノベーションと創造的破壊を重視した。"},
+      {"id":4,"text":"『国富論』の著者は20世紀のマネタリズムだけを提唱し、古典派経済学とは無関係である。","explanation_zh":"陷阱：时态错位。亚当斯密是 18 世纪古典派经济学的重要人物。","explanation_ja":"誤り。時態錯位の罠。アダム・スミスは18世紀の古典派経済学の重要人物である。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"経済思想と学者",
+      "sub_domain":"経済思想・経済史",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"2.市場経済"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違","概念混同","数値混同"],
+      "keywords_to_avoid":["アダム・スミス","フリードマン","シュンペーター","マルサス","イノベーション"]
+    },
+    "sources": [{"claim":"シュンペーターは企業家のイノベーションと創造的破壊の概念で知られる","source":"Encyclopaedia Britannica, Joseph Schumpeter","year":"1942","url":"https://www.britannica.com/biography/Joseph-Schumpeter"}]
+  },
+  {
+    "id": 4,
+    "global_id": 10,
+    "title": "問4",
+    "prompt": "市場機構と需給に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"価格が釣り合う水準より高いと、買い手の数量より売り手の数量が多くなり、売れ残りが生じやすい。","explanation_zh":"正确。价格高于均衡水平时，卖方供给较多、买方需求较少，容易出现剩余。","explanation_ja":"正解。価格が均衡水準より高いと、需要量より供給量が多くなり、超過供給が生じやすい。"},
+      {"id":2,"text":"価格が釣り合う水準より高いと、必ず買い手の数量が売り手の数量を上回り、品不足になる。","explanation_zh":"陷阱：因果倒置。价格高于均衡水平时，一般会趋向供给过剩。","explanation_ja":"誤り。因果倒置の罠。均衡より高い価格では一般に需要量が減り、供給過剰方向になる。"},
+      {"id":3,"text":"買い手側の関係線は、買い手ではなく国会議員の人数だけを示す線である。","explanation_zh":"陷阱：概念混淆。需求曲线表示价格与需求量关系，不是议员人数线。","explanation_ja":"誤り。概念混同の罠。需要曲線は価格と需要量の関係を示す。"},
+      {"id":4,"text":"売り手側の関係線は山の高さを結ぶ線であり、商品の数量とは無関係である。","explanation_zh":"陷阱：概念混淆。供给曲线表示价格与供给量关系，不是地形线。","explanation_ja":"誤り。概念混同の罠。供給曲線は価格と供給量の関係を示す。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"市場機構と需給",
+      "sub_domain":"経済原理・市場",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"3.経済主体"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違","概念混同","数値混同"],
+      "keywords_to_avoid":["超過供給","均衡価格","価格規制","需要曲線","供給曲線"]
+    },
+    "sources": [{"claim":"均衡価格を上回る価格では供給量が需要量を上回り余剰が生じる","source":"OpenStax, Principles of Economics 3e, Demand and Supply","year":"2022","url":"https://openstax.org/books/principles-economics-3e/pages/3-2-demand-supply-and-equilibrium-in-markets-for-goods-and-services"}]
+  },
+  {
+    "id": 5,
+    "global_id": 11,
+    "title": "問5",
+    "prompt": "1980年代の日本経済とプラザ合意に関する記述として最も適当なものはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"この為替調整は1973年にOPECだけで結ばれ、円安と原油価格下落を目的とした。","explanation_zh":"陷阱：主体错位。广场协议是 1985 年 G5 的汇率协调，不是 OPEC 协议。","explanation_ja":"誤り。主体取違の罠。プラザ合意は1985年のG5による為替調整であり、OPECの協定ではない。"},
+      {"id":2,"text":"この為替調整後、円は急速に下落し、輸入品価格は必ず上昇した。","explanation_zh":"陷阱：因果倒置。广场协议后日元升值，不是急速贬值。","explanation_ja":"誤り。因果倒置の罠。プラザ合意後、円は急速に上昇した。"},
+      {"id":3,"text":"1980年代後半の資産価格上昇は、江戸時代の米価だけで説明できる。","explanation_zh":"陷阱：概念混淆。泡沫景气与金融缓和、资产市场和预期等相关，不是江户米价。","explanation_ja":"誤り。概念混同の罠。1980年代後半の資産価格上昇は金融緩和や資産市場などと関係する。"},
+      {"id":4,"text":"1985年のプラザ合意後に円高が進み、日本では金融緩和などを背景にバブル景気が形成された。","explanation_zh":"正确。广场协议后日元升值，日本为应对景气影响采取金融缓和，资产价格上升形成泡沫。","explanation_ja":"正解。1985年のプラザ合意後に円高が進み、日本では金融緩和などを背景にバブル景気が形成された。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"1980年代日本経済とプラザ合意",
+      "sub_domain":"金融・通貨",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"5. 金融"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違","概念混同","数値混同"],
+      "keywords_to_avoid":["プラザ合意","円高","輸出","公定歩合","バブル景気"]
+    },
+    "sources": [{"claim":"1985年のプラザ合意後に円高が進み、日本では金融緩和などを背景にバブルが形成された","source":"日本銀行, 金融政策とバブルの経験","year":"1985","url":"https://www.boj.or.jp/about/education/oshiete/history/j12.htm"}]
+  },
+  {
+    "id": 6,
+    "global_id": 12,
+    "title": "問6",
+    "prompt": "日本の銀行制度に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"発券銀行は民間企業の一つであり、銀行券発行や金融政策とは無関係である。","explanation_zh":"陷阱：主体错位。日本银行是中央银行，负责发行银行券和金融政策。","explanation_ja":"誤り。主体取違の罠。日本銀行は中央銀行であり、銀行券発行や金融政策を担う。"},
+      {"id":2,"text":"日本銀行は日本の中央銀行であり、銀行券の発行や金融政策を担う。","explanation_zh":"正确。日本银行是日本中央银行，负责发行银行券和实施金融政策。","explanation_ja":"正解。日本銀行は日本の中央銀行であり、銀行券の発行や金融政策を担う。"},
+      {"id":3,"text":"民間銀行は預金を受け入れず、貸出も一切行わない。","explanation_zh":"陷阱：范围扩大。商业银行会接受存款并进行贷款等业务。","explanation_ja":"誤り。範囲拡大の罠。市中銀行は預金の受入れや貸出などを行う。"},
+      {"id":4,"text":"財政赤字補填の国債は地方自治体だけが発行し、国の財政とは関係しない。","explanation_zh":"陷阱：概念混淆。赤字国债是国家财政赤字融资相关债券。","explanation_ja":"誤り。概念混同の罠。赤字国債は国の財政赤字の補てんと関係する。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"日本の銀行制度",
+      "sub_domain":"金融・通貨",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"3.経済主体"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違","概念混同","数値混同"],
+      "keywords_to_avoid":["日本銀行","市中銀行","中央銀行","紙幣発行","赤字国債"]
+    },
+    "sources": [{"claim":"日本銀行は日本の中央銀行であり、銀行券発行と金融政策を担う","source":"日本銀行, 日本銀行の役割","year":"2024","url":"https://www.boj.or.jp/about/outline/index.htm"}]
+  },
+  {
+    "id": 7,
+    "global_id": 13,
+    "title": "問7",
+    "prompt": "次の文章は、政府投資支出の国内総生産比の目安を示している。資料から読み取れる内容として最も適当なものはどれですか。\nA国：4.4％、B国：3.8％、C国：3.4％、D国：2.6％（OECD、2021年頃。A=韓国、B=日本、C=フランス、D=ドイツ）。",
+    "choices": [
+      {"id":1,"text":"D国が四か国の中で最も高い。","explanation_zh":"陷阱：数值混同。德国 2.6% 是四国中最低。","explanation_ja":"誤り。数値混同の罠。ドイツ2.6％は四か国の中で最も低い。"},
+      {"id":2,"text":"A国が最も高く、D国が最も低い。","explanation_zh":"正确。韩国 4.4% 高于日本、法国、德国；德国 2.6% 最低。","explanation_ja":"正解。韓国4.4％が最も高く、ドイツ2.6％が最も低い。"},
+      {"id":3,"text":"B国とC国はどちらも0％である。","explanation_zh":"陷阱：数值混同。日本 3.8%、法国 3.4%，不是 0%。","explanation_ja":"誤り。数値混同の罠。日本3.8％、フランス3.4％であり、0％ではない。"},
+      {"id":4,"text":"四か国の値はすべて完全に同じである。","explanation_zh":"陷阱：范围扩大。资料中四国数值不同。","explanation_ja":"誤り。範囲拡大の罠。資料では四か国の値が異なる。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"GDP構成と公共投資",
+      "sub_domain":"国民経済・成長",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"4.国民経済"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["数値混同","主体取違"],
+      "keywords_to_avoid":["GDP","公共投資比率","日本","フランス","ドイツ","韓国"]
+    },
+    "sources": [{"claim":"政府投資支出の対GDP比は国により差がある","source":"OECD, Government investment spending, Government at a Glance 2023","year":"2021","url":"https://www.oecd.org/en/publications/government-at-a-glance-2023_3d5c5d31-en/full-report/component-61.html"}]
+  },
+  {
+    "id": 8,
+    "global_id": 14,
+    "title": "問8",
+    "prompt": "会社と出資者に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"出資者は会社の債務について、原則として出資額を超えて無限に責任を負う。","explanation_zh":"陷阱：概念混淆。股份公司股东原则上承担有限责任。","explanation_ja":"誤り。概念混同の罠。株式会社の株主は原則として有限責任である。"},
+      {"id":2,"text":"経営を監督する機関は出資者総会の別名であり、経営に関する意思決定とは無関係である。","explanation_zh":"陷阱：主体错位。董事会和股东大会不是同一机构。","explanation_ja":"誤り。主体取違の罠。取締役会と株主総会は同じものではない。"},
+      {"id":3,"text":"この会社形態では、株式の発行は常に禁止され、資金調達はできない。","explanation_zh":"陷阱：范围扩大。股份公司可以通过发行股票等方式筹资。","explanation_ja":"誤り。範囲拡大の罠。株式会社は株式発行などを通じて資金調達できる。"},
+      {"id":4,"text":"この会社形態では、出資者は原則として出資額を限度に責任を負う。","explanation_zh":"正确。股份公司股东是出资者，原则上承担以出资额为限的有限责任。","explanation_ja":"正解。株式会社では、株主は出資者であり、原則として出資額を限度に責任を負う。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"株式会社と株主",
+      "sub_domain":"金融・通貨",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"3.経済主体"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","主体取違","範囲拡大"],
+      "keywords_to_avoid":["株式会社","株主","取締役会","債務責任"]
+    },
+    "sources": [{"claim":"会社法上、株式会社の株主の責任はその有する株式の引受価額を限度とする","source":"e-Gov法令検索, 会社法 第104条","year":"2005","url":"https://elaws.e-gov.go.jp/document?lawid=417AC0000000086"}]
+  },
+  {
+    "id": 9,
+    "global_id": 15,
+    "title": "問9",
+    "prompt": "次の文章は、対外支払に備える公的準備資産の目安を示している。資料から読み取れる内容として最も適当なものはどれですか。\n中国：2000年 約1700億ドル、2010年 約2.85兆ドル、2013年 約3.88兆ドル。日本：2013年 約1.27兆ドル。",
+    "choices": [
+      {"id":1,"text":"中国の公的準備資産は2000年から2013年にかけて減少し続けた。","explanation_zh":"陷阱：数值混同。中国从约 1700 亿美元增加到约 3.88 兆美元。","explanation_ja":"誤り。数値混同の罠。中国は2000年約1700億ドルから2013年約3.88兆ドルへ大きく増加している。"},
+      {"id":2,"text":"中国の2013年の公的準備資産は、2000年より大きく、同年の日本を上回っていた。","explanation_zh":"正确。中国 2013 年约 3.88 兆美元，高于 2000 年和日本 2013 年约 1.27 兆美元。","explanation_ja":"正解。中国の2013年約3.88兆ドルは2000年より大きく、同年の日本約1.27兆ドルを上回る。"},
+      {"id":3,"text":"日本の2013年の公的準備資産は、中国の2013年の3倍を超えた。","explanation_zh":"陷阱：数值混同。日本约 1.27 兆美元，低于中国约 3.88 兆美元。","explanation_ja":"誤り。数値混同の罠。日本約1.27兆ドルは中国約3.88兆ドルを下回る。"},
+      {"id":4,"text":"2010年と2013年の中国の公的準備資産は完全に同じである。","explanation_zh":"陷阱：数值混同。2010 年约 2.85 兆美元，2013 年约 3.88 兆美元，二者不同。","explanation_ja":"誤り。数値混同の罠。2010年約2.85兆ドルと2013年約3.88兆ドルは同じではない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"外貨準備高の推移",
+      "sub_domain":"金融・通貨",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"5. 金融"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["数値混同","時態錯位"],
+      "keywords_to_avoid":["外貨準備高","1990年","2000年","2010年","2013年","日本","アメリカ","中国","韓国"]
+    },
+    "sources": [{"claim":"中国の外貨準備高は2000年代に大きく増加し、2013年には約3.9兆ドルであった","source":"World Bank, Total reserves including gold","year":"2013","url":"https://data.worldbank.org/indicator/FI.RES.TOTL.CD"}]
+  },
+  {
+    "id": 10,
+    "global_id": 16,
+    "title": "問10",
+    "prompt": "次の文章は、主な地域経済統合の加盟国数（国）を示している。資料から読み取れる内容として最も適当なものはどれですか。\n欧州連合：27、東南アジア諸国連合：10、米国・メキシコ・カナダ協定：3、南米南部共同市場：4（2024年頃）。",
+    "choices": [
+      {"id":1,"text":"米国・メキシコ・カナダ協定は27か国から成り、欧州連合より加盟国数が多い。","explanation_zh":"陷阱：数值混同。USMCA 是 3 国，少于 EU 27 国。","explanation_ja":"誤り。数値混同の罠。USMCAは3か国で、EU27か国より少ない。"},
+      {"id":2,"text":"東南アジア諸国連合は南米諸国だけで構成される統合体である。","explanation_zh":"陷阱：地域错位。ASEAN 是东南亚国家联盟，不是南美区域组织。","explanation_ja":"誤り。地域取違の罠。ASEANは東南アジア諸国連合であり、南米だけの統合体ではない。"},
+      {"id":3,"text":"南米南部共同市場は東南アジアの10か国から成る。","explanation_zh":"陷阱：主体错位。MERCOSUR 是南美区域统合，东南亚 10 国是 ASEAN。","explanation_ja":"誤り。主体取違の罠。MERCOSURは南米の地域統合であり、東南アジア10か国はASEANである。"},
+      {"id":4,"text":"欧州連合は示された四つの中で加盟国数が最も多い。","explanation_zh":"正确。EU 27 国，高于 ASEAN 10、USMCA 3、MERCOSUR 4。","explanation_ja":"正解。EUは27か国で、ASEAN10か国、USMCA3か国、MERCOSUR4か国を上回る。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"国際経済地域統合",
+      "sub_domain":"経済発展・産業",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"4.国民経済"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["数値混同","主体取違"],
+      "keywords_to_avoid":["ASEAN","EU","NAFTA","MERCOSUR","面積","人口","GDP","貿易"]
+    },
+    "sources": [{"claim":"EUは27加盟国、ASEANは10加盟国で構成される","source":"European Union, Countries; ASEAN, Member States","year":"2024","url":"https://european-union.europa.eu/principles-countries-history/eu-countries_en"}]
+  },
+  {
+    "id": 11,
+    "global_id": 17,
+    "title": "問11",
+    "prompt": "国際決済体制に関する記述として最も適当なものはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"国際通貨基金は国際通貨協力と為替の安定を目的として設立され、国際収支危機への支援も行う。","explanation_zh":"正确。IMF 的目标包括国际货币合作、汇率稳定和对国际收支困难国家提供支援。","explanation_ja":"正解。IMFは国際通貨協力や為替安定を目的とし、国際収支危機への支援も行う。"},
+      {"id":2,"text":"関税と貿易に関する一般協定は国際通貨基金の別名で、為替相場だけを管理する機関である。","explanation_zh":"陷阱：概念混淆。GATT 是关税与贸易总协定，不是 IMF 别名。","explanation_ja":"誤り。概念混同の罠。GATTは関税と貿易に関する協定であり、IMFの別名ではない。"},
+      {"id":3,"text":"経済協力開発機構は1960年代前半に解散し、現在は存在しない。","explanation_zh":"陷阱：时态错位。OECD 仍然存在，日本于 1964 年加入。","explanation_ja":"誤り。時態錯位の罠。OECDは現在も存在し、日本は1964年に加盟した。"},
+      {"id":4,"text":"国際通貨基金は輸入数量制限と為替取引制限をすべて恒久的に義務づけるために作られた。","explanation_zh":"陷阱：因果倒置。国际货币基金组织旨在稳定国际结算并缓和限制。","explanation_ja":"誤り。因果倒置の罠。IMFは国際決済の安定と制限緩和をめざす枠組みである。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"国際決済体制",
+      "sub_domain":"国際経済・貿易",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"5. 国際政治"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","主体取違"],
+      "keywords_to_avoid":["GATT","IMF","輸入制限","為替制限","OECD","1963年"]
+    },
+    "sources": [{"claim":"IMFは国際通貨協力、為替安定、国際収支支援を目的とする","source":"IMF, Articles of Agreement and About the IMF","year":"1944","url":"https://www.imf.org/en/About"}]
+  },
+  {
+    "id": 12,
+    "global_id": 18,
+    "title": "問12",
+    "prompt": "主要20か国・地域の国際協調体制に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"主要20か国・地域の枠組みは70年代末の原油危機だけをきっかけに作られた8か国の会議である。","explanation_zh":"陷阱：时态错位。G20 财长会议始于 1999 年，不是 1970 年代末的 G8。","explanation_ja":"誤り。時態錯位の罠。G20財務大臣・中央銀行総裁会議は1999年に始まり、G8そのものではない。"},
+      {"id":2,"text":"主要20か国・地域の枠組みの参加者は常に20の国だけで、EUなど地域機関は一切参加しない。","explanation_zh":"陷阱：范围扩大。G20 includes EU and AU in addition to countries。","explanation_ja":"誤り。範囲拡大の罠。G20には国だけでなくEUなども参加する。"},
+      {"id":3,"text":"主要20か国・地域の枠組みは主要国と地域機関が参加し、金融危機後には首脳会合として国際経済協調の場となった。","explanation_zh":"正确。G20 包含主要国家和区域机构，2008 年金融危机后首脑会议成为国际经济协调重要平台。","explanation_ja":"正解。G20は主要国と地域機関が参加し、金融危機後には首脳会合として国際経済協調の場となった。"},
+      {"id":4,"text":"主要20か国・地域の枠組みは南極条約の別名で、経済政策とは無関係である。","explanation_zh":"陷阱：概念混淆。G20 是国际经济协调论坛，不是南极条约。","explanation_ja":"誤り。概念混同の罠。G20は国際経済協調の枠組みであり、南極条約ではない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"G20国際協調体制",
+      "sub_domain":"国際政治・外交",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の社会","item":"1. 環境と資源"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["時態錯位","数値混同","範囲拡大"],
+      "keywords_to_avoid":["G20","1970年代末","G8","参加国","石油危機"]
+    },
+    "sources": [{"claim":"G20は1999年に財務大臣・中央銀行総裁会議として始まり、2008年以降首脳会合として重要になった","source":"G20, About the G20","year":"2008","url":"https://www.g20.org/en/about-g20/"}]
+  },
+  {
+    "id": 13,
+    "global_id": 19,
+    "title": "問13",
+    "prompt": "次の文章は、高齢人口割合の目安を示している。資料から読み取れる内容として最も適当なものはどれですか。\nA国：26.0％、B国：18.4％、C国：14.6％、D国：13.0％、E国：10.1％（2014〜2015年頃。A=日本、B=フランス、C=アメリカ、D=韓国、E=中国）。",
+    "choices": [
+      {"id":1,"text":"A国は示された五か国の中で高齢人口割合が最も高い。","explanation_zh":"正确。日本 26.0% 高于法国、美国、韩国、中国。","explanation_ja":"正解。日本26.0％は、フランス、アメリカ、韓国、中国を上回る。"},
+      {"id":2,"text":"E国はA国より高齢人口割合が高い。","explanation_zh":"陷阱：数值混同。中国 10.1% 低于日本 26.0%。","explanation_ja":"誤り。数値混同の罠。中国10.1％は日本26.0％を下回る。"},
+      {"id":3,"text":"五か国の割合はすべて完全に同じである。","explanation_zh":"陷阱：范围扩大。资料中的数值不同。","explanation_ja":"誤り。範囲拡大の罠。資料では五か国の割合が異なる。"},
+      {"id":4,"text":"C国は0％で、高齢者が一人もいない。","explanation_zh":"陷阱：数值混同。美国为 14.6%，不是 0%。","explanation_ja":"誤り。数値混同の罠。アメリカは14.6％であり、0％ではない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"社会",
+      "topic":"高齢化社会と人口構成",
+      "sub_domain":"人口・家族",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"7.社会保障"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違","数値混同"],
+      "keywords_to_avoid":["65歳以上","日本","韓国","アメリカ","フランス","中国"]
+    },
+    "sources": [{"claim":"65歳以上人口割合は国により異なり、日本は2015年前後に主要国より高い水準であった","source":"World Bank, Population ages 65 and above (% of total population)","year":"2015","url":"https://data.worldbank.org/indicator/SP.POP.65UP.TO.ZS"}]
+  },
+  {
+    "id": 14,
+    "global_id": 20,
+    "title": "問14",
+    "prompt": "時間帯と地球座標に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"日本の基準時は西経135度を基準にしており、協定世界時より十二時間遅い。","explanation_zh":"陷阱：数值混同。日本的基准时以东经一三五度为基准，是 UTC+9。","explanation_ja":"誤り。数値混同の罠。日本標準時は東経135度を基準とし、協定世界時より9時間進んでいる。"},
+      {"id":2,"text":"経度が違っても太陽の見かけの位置による時刻差はまったく生じない。","explanation_zh":"陷阱：因果倒置。经度差与地方时差有关。","explanation_ja":"誤り。因果倒置の罠。経度差は地方時の差と関係する。"},
+      {"id":3,"text":"時刻差は気温差だけで決まり、地球の自転とは無関係である。","explanation_zh":"陷阱：概念混淆。时差与地球自转和经度有关，不是由气温决定。","explanation_ja":"誤り。概念混同の罠。時差は地球の自転や経度と関係し、気温差だけで決まらない。"},
+      {"id":4,"text":"日本の基準時は東経一三五度の子午線を基準とし、協定世界時より九時間進んでいる。","explanation_zh":"正确。日本标准时以东经 135 度为基准，是 UTC+9。","explanation_ja":"正解。日本標準時は東経135度の子午線を基準とし、協定世界時より9時間進んでいる。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"時間帯と地球座標",
+      "sub_domain":"自然地理",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位","因果倒置"],
+      "keywords_to_avoid":["日本標準時","東経135度","時差","12時間","9時間"]
+    },
+    "sources": [{"claim":"日本標準時は東経135度を基準とし、UTCより9時間進んでいる","source":"国立天文台, 暦Wiki 標準時","year":"2024","url":"https://eco.mtk.nao.ac.jp/koyomi/wiki/C6FCCBDCB8F8BDB8.html"}]
+  },
+  {
+    "id": 15,
+    "global_id": 21,
+    "title": "問15",
+    "prompt": "次の文章は、コーヒー豆の主な生産・貿易国の目安を示している。資料から読み取れる内容として最も適当なものはどれですか。\nブラジル：世界最大級の生産・輸出国、ベトナム：主要輸出国、ドイツ：生豆の主要輸入国、日本：生豆を輸入して消費する国。",
+    "choices": [
+      {"id":1,"text":"日本は世界最大のコーヒー豆生産国で、輸入はほとんど行わない。","explanation_zh":"陷阱：主体错位。日本主要是购买生豆并消费的国家。","explanation_ja":"誤り。主体取違の罠。日本はコーヒー生豆を輸入して消費する国であり、世界最大の生産国ではない。"},
+      {"id":2,"text":"ブラジルやベトナムは主要な輸出国で、日本やドイツは輸入国として重要である。","explanation_zh":"正确。资料中巴西和越南是主要输出国，德国和日本是进口国。","explanation_ja":"正解。資料ではブラジルやベトナムが主要輸出国、日本やドイツが輸入国として示されている。"},
+      {"id":3,"text":"ドイツは赤道直下の熱帯農業国で、生豆を輸出するだけで輸入しない。","explanation_zh":"陷阱：地域错位。德国不是赤道直下国家，资料中为主要进口国。","explanation_ja":"誤り。地域取違の罠。ドイツは赤道直下の国ではなく、資料では主要輸入国として示される。"},
+      {"id":4,"text":"コーヒー豆は鉱産物であり、農産品貿易とは関係しない。","explanation_zh":"陷阱：概念混淆。咖啡豆是农产品，不是矿产品。","explanation_ja":"誤り。概念混同の罠。コーヒー豆は農産品であり、鉱産物ではない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"商品輸出入と地域",
+      "sub_domain":"産業・資源",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"10. 国際経済"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違","概念混同"],
+      "keywords_to_avoid":["コーヒー豆","輸出","輸入","2011年","上位国"]
+    },
+    "sources": [{"claim":"ブラジルとベトナムはコーヒーの主要輸出国で、日本やドイツは生豆輸入国である","source":"International Coffee Organization, Trade Statistics","year":"2011","url":"https://www.ico.org/trade_statistics.asp"}]
+  },
+  {
+    "id": 16,
+    "global_id": 22,
+    "title": "問16",
+    "prompt": "次の文章は、欧州沿岸の特徴的な海岸の例を示している。資料から読み取れる内容として最も適当なものはどれですか。\nノルウェー西岸：氷河谷に海水が入り込んだ湾、ロンドン付近のテムズ川河口：河口湾、スペイン北西部：沈水谷の入り組んだ海岸。",
+    "choices": [
+      {"id":1,"text":"ノルウェー西岸の湾は砂丘だけでできた砂漠形状で、海岸とは無関係である。","explanation_zh":"陷阱：概念混淆。峡湾是冰河侵蚀形成的深谷被海水淹没的海岸地形。","explanation_ja":"誤り。概念混同の罠。フィヨルドは氷河侵食を受けた谷に海水が入り込んだ海岸地形である。"},
+      {"id":2,"text":"河口湾は火山の火口湖だけを意味し、河口には見られない。","explanation_zh":"陷阱：概念混淆。河口湾与河口和潮汐作用有关。","explanation_ja":"誤り。概念混同の罠。エスチュアリーは河口部に見られる地形である。"},
+      {"id":3,"text":"ノルウェー西岸には氷河谷に海水が入り込んだ湾、テムズ川河口付近には河口湾の例が見られる。","explanation_zh":"正确。资料中的对应关系显示挪威西岸为峡湾，泰晤士河口附近为河口湾。","explanation_ja":"正解。資料ではノルウェー西岸がフィヨルド、テムズ川河口付近がエスチュアリーの例として示されている。"},
+      {"id":4,"text":"沈水谷の入り組んだ海岸は内陸砂漠だけにでき、スペイン北西部とは関係しない。","explanation_zh":"陷阱：地域错位。里亚斯海岸是海岸地形，西班牙北西部有其例。","explanation_ja":"誤り。地域取違の罠。リアス海岸は海岸地形であり、スペイン北西部にも例がある。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"ヨーロッパ海岸地形",
+      "sub_domain":"自然地理",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"2. 現代世界の諸地域"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["地域取違","概念混同"],
+      "keywords_to_avoid":["エスチュアリー","フィヨルド","リアス海岸","ヨーロッパ","地形"]
+    },
+    "sources": [{"claim":"フィヨルドは氷河谷に海水が入り込んだ海岸地形である","source":"Encyclopaedia Britannica, Fjord","year":"2024","url":"https://www.britannica.com/science/fjord"}]
+  },
+  {
+    "id": 17,
+    "global_id": 23,
+    "title": "問17",
+    "prompt": "アメリカ合衆国の州の位置に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"テキサス州はアメリカ北東部の大西洋岸にあり、ニューイングランドに含まれる。","explanation_zh":"陷阱：地域错位。得克萨斯位于美国南部，不是东北部新英格兰。","explanation_ja":"誤り。地域取違の罠。テキサス州はアメリカ南部にあり、ニューイングランドではない。"},
+      {"id":2,"text":"マサチューセッツ州は太平洋岸にあり、カリフォルニアの南に位置する。","explanation_zh":"陷阱：地域错位。马萨诸塞州位于美国东北部大西洋沿岸。","explanation_ja":"誤り。地域取違の罠。マサチューセッツ州はアメリカ北東部の大西洋側に位置する。"},
+      {"id":3,"text":"ミシガン州はメキシコ湾岸だけに位置し、五大湖とは無関係である。","explanation_zh":"陷阱：地域错位。密歇根州与五大湖关系密切，不在墨西哥湾岸。","explanation_ja":"誤り。地域取違の罠。ミシガン州は五大湖地域にあり、メキシコ湾岸の州ではない。"},
+      {"id":4,"text":"テキサス州はアメリカ南部、マサチューセッツ州は北東部の大西洋側に位置する。","explanation_zh":"正确。得克萨斯州位于美国南部，马萨诸塞州位于东北部大西洋侧。","explanation_ja":"正解。テキサス州はアメリカ南部、マサチューセッツ州は北東部の大西洋側に位置する。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"アメリカ州の地理位置",
+      "sub_domain":"自然地理",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["地域取違","主体取違"],
+      "keywords_to_avoid":["テキサス","太平洋側","大西洋側","ミシガン","マサチューセッツ"]
+    },
+    "sources": [{"claim":"テキサス州は米国南部、マサチューセッツ州は米国北東部に位置する","source":"U.S. Census Bureau, Census Regions and Divisions of the United States","year":"2024","url":"https://www2.census.gov/geo/pdfs/maps-data/maps/reference/us_regdiv.pdf"}]
+  },
+  {
+    "id": 18,
+    "global_id": 24,
+    "title": "問18",
+    "prompt": "次の文章は、就業者の部門別割合の目安を示している。資料から読み取れる内容として最も適当なものはどれですか。\nA国：第1次 3％、第2次 24％、第3次 73％。B国：第1次 31％、第2次 23％、第3次 46％。C国：第1次 18％、第2次 27％、第3次 55％（A=日本、B=タイ、C=トルコ）。",
+    "choices": [
+      {"id":1,"text":"A国では第3次部門の割合が最も高く、B国はA国より第1次部門の割合が高い。","explanation_zh":"正确。日本第 3 次 73% 为最高，泰国第 1 次 31% 高于日本 3%。","explanation_ja":"正解。日本では第3次産業73％が最も高く、タイの第1次産業31％は日本3％を上回る。"},
+      {"id":2,"text":"A国では第1次部門が73％で最も高い。","explanation_zh":"陷阱：数值混同。日本 73% 对应第 3 次产业，不是第 1 次产业。","explanation_ja":"誤り。数値混同の罠。日本の73％は第3次産業であり、第1次産業ではない。"},
+      {"id":3,"text":"B国の第1次部門割合はA国より低い。","explanation_zh":"陷阱：数值混同。泰国 31% 高于日本 3%。","explanation_ja":"誤り。数値混同の罠。タイ31％は日本3％を上回る。"},
+      {"id":4,"text":"三か国の部門構成は完全に同じである。","explanation_zh":"陷阱：范围扩大。资料中三国的构成不同。","explanation_ja":"誤り。範囲拡大の罠。資料では三か国の産業構成は異なる。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"産業別就業人口構成",
+      "sub_domain":"産業・資源",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["数値混同","主体取違"],
+      "keywords_to_avoid":["産業別","就業人口構成比","日本","イギリス","タイ","トルコ"]
+    },
+    "sources": [{"claim":"産業別就業者割合は国により異なり、日本はサービス部門比率が高い","source":"World Bank, Employment by sector","year":"2015","url":"https://wdi.worldbank.org/table/2.3"}]
+  },
+  {
+    "id": 19,
+    "global_id": 25,
+    "title": "問19",
+    "prompt": "1789年の権利宣言に関する記述として最も適当でないものはどれですか。",
+    "choices": [
+      {"id":1,"text":"宣言は自由権や権利の保障を掲げた。","explanation_zh":"陷阱：设问反转。这是法国人权宣言的正确内容，不是最不恰当项。","explanation_ja":"誤り。設問反転の罠。これはフランス人権宣言の内容として正しい。"},
+      {"id":2,"text":"宣言は財産権を権利の一つとして重視した。","explanation_zh":"陷阱：设问反转。这是宣言内容之一，表述正确。","explanation_ja":"誤り。設問反転の罠。所有権は宣言で重視された権利の一つである。"},
+      {"id":3,"text":"宣言は身分特権を無条件に永続させ、すべての人の自由権と権利上の対等性を否定した。","explanation_zh":"正确。这是错误表述。1789 年宣言主张人生而自由并在权利上平等，不是维护身分特权。","explanation_ja":"正解。これは誤った記述である。1789年宣言は人は自由かつ権利において平等に生まれると述べ、身分特権の永続を掲げていない。"},
+      {"id":4,"text":"宣言は憲法に基づく政治や近代的人権思想に大きな影響を与えた。","explanation_zh":"陷阱：设问反转。这是正确评价，不是错误项。","explanation_ja":"誤り。設問反転の罠。これは近代的人権思想に関する正しい説明である。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"フランス人権宣言",
+      "sub_domain":"近代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"1. 近代化の進展とその影響"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答誤記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["範囲拡大","時態錯位"],
+      "keywords_to_avoid":["フランス人権宣言","1789年","所有権","立憲主義","自由","平等"]
+    },
+    "sources": [{"claim":"1789年フランス人権宣言は自由・平等・所有権などを掲げた","source":"Conseil constitutionnel, Declaration of Human and Civic Rights of 26 August 1789","year":"1789","url":"https://www.conseil-constitutionnel.fr/en/declaration-of-human-and-civic-rights-of-26-august-1789"}]
+  },
+  {
+    "id": 20,
+    "global_id": 26,
+    "title": "問20",
+    "prompt": "国際連合の機関と表決制度に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"平和維持を担う理事会の常任理事国は、全加盟国が参加する会議のすべての議題について単独で拒む権限を使える。","explanation_zh":"陷阱：主体错位。否决权与安全理事会的实质事项表决有关，不是总会所有议题。","explanation_ja":"誤り。主体取違の罠。拒否権は安全保障理事会の実質事項の表決に関わる。"},
+      {"id":2,"text":"全加盟国が参加する会議の通常決議は、常任理事国すべての構成員の一致がなければ一切成立しない。","explanation_zh":"陷阱：概念混淆。总会不是安理会常任理事国一致规则。","explanation_ja":"誤り。概念混同の罠。総会は安全保障理事会の常任理事国一致ルールで運営されるわけではない。"},
+      {"id":3,"text":"平和維持を担う理事会では、非常任理事国だけが拒む権限を持つ。","explanation_zh":"陷阱：主体错位。拒否权由常任理事国持有，不是非常任理事国。","explanation_ja":"誤り。主体取違の罠。拒否権を持つのは常任理事国であり、非常任理事国ではない。"},
+      {"id":4,"text":"平和維持を担う理事会の実質事項では、常任理事国の反対票が決議採択を妨げることがある。","explanation_zh":"正确。安理会实质事项中，常任理事国反对可阻止决议通过。","explanation_ja":"正解。安全保障理事会の実質事項では、常任理事国の反対票が決議採択を妨げることがある。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"国際機関と拒否権",
+      "sub_domain":"国際政治・外交",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"5. 国際政治"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["主体取違","概念混同"],
+      "keywords_to_avoid":["拒否権","全員","過半数","3分の2","安全保障理事会","総会"]
+    },
+    "sources": [{"claim":"国連安全保障理事会の実質事項では常任理事国の反対票が拒否権として働く","source":"United Nations, Security Council Voting System","year":"1945","url":"https://www.un.org/securitycouncil/content/voting-system"}]
+  },
+  {
+    "id": 21,
+    "global_id": 27,
+    "title": "問21",
+    "prompt": "議院内閣制に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"議院内閣制では、内閣は議会の信任に基づいて成立し、行政を担う。","explanation_zh":"正确。议院内阁制中内阁依赖议会信任并负责行政。","explanation_ja":"正解。議院内閣制では、内閣は議会の信任に基づいて成立し、行政を担う。"},
+      {"id":2,"text":"この制度では、議会と行政権の行使部門の関係は完全に切断され、政府は議会に責任を負わない。","explanation_zh":"陷阱：概念混淆。议院内阁制强调内阁对议会负责。","explanation_ja":"誤り。概念混同の罠。議院内閣制では内閣が議会に責任を負う。"},
+      {"id":3,"text":"この制度では、裁判所が首相を選び、国会は存在しない。","explanation_zh":"陷阱：主体错位。首相产生与议会多数派和内阁形成有关，不由法院选择。","explanation_ja":"誤り。主体取違の罠。首相は議会多数派と内閣形成に関わり、裁判所が選ぶわけではない。"},
+      {"id":4,"text":"この制度は、企業の株主総会だけを指す経済用語である。","explanation_zh":"陷阱：概念混淆。议院内阁制是政治制度，不是股东大会。","explanation_ja":"誤り。概念混同の罠。議院内閣制は政治制度であり、株主総会ではない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"議院內閣制",
+      "sub_domain":"政治体制",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"1.民主政治"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","主体取違"],
+      "keywords_to_avoid":["議院內閣制","立法府","多数派","内閣","行政"]
+    },
+    "sources": [{"claim":"議院内閣制では政府が議会の信任に依存する","source":"UK Parliament, How government works","year":"2024","url":"https://www.parliament.uk/about/how/role/system/"}]
+  },
+  {
+    "id": 22,
+    "global_id": 28,
+    "title": "問22",
+    "prompt": "人身の自由と人権に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"人身の自由とは、投票用紙の色を自由に選ぶ権利だけを指す。","explanation_zh":"陷阱：概念混淆。身体自由涉及逮捕、拘禁等对人身的限制，不是投票纸颜色。","explanation_ja":"誤り。概念混同の罠。身体の自由は逮捕・拘禁など身体への制約に関わる。"},
+      {"id":2,"text":"人身の自由は、国家権力による逮捕や拘禁と無関係である。","explanation_zh":"陷阱：范围扩大。身体自由正是防止恣意逮捕拘禁的重要权利。","explanation_ja":"誤り。範囲拡大の罠。身体の自由は恣意的な逮捕・拘禁の防止と関係する。"},
+      {"id":3,"text":"人身の自由は、正当な手続なしに逮捕・拘禁されないことなどを含む基本的人権である。","explanation_zh":"正确。身体自由包括防止无正当程序的逮捕和拘禁。","explanation_ja":"正解。身体の自由は、正当な手続なしに逮捕・拘禁されないことなどを含む基本的人権である。"},
+      {"id":4,"text":"人身の自由は働く権利や政治参加の権利と同じ意味で、内容の違いはない。","explanation_zh":"陷阱：概念混淆。身体自由、劳动权和参政权属于不同内容的权利。","explanation_ja":"誤り。概念混同の罠。身体の自由、勤労権、参政権は内容の異なる権利である。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"身体の自由と人権",
+      "sub_domain":"憲法・人権",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"3. 日本国憲法"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","範囲拡大"],
+      "keywords_to_avoid":["身体の自由","勤労権","参政権","生命","自由"]
+    },
+    "sources": [{"claim":"日本国憲法は逮捕・拘禁等について身体の自由を保障する","source":"日本国憲法 第31条〜第34条","year":"1947","url":"https://japan.kantei.go.jp/constitution_and_government_of_japan/constitution_e.html"}]
+  },
+  {
+    "id": 23,
+    "global_id": 29,
+    "title": "問23",
+    "prompt": "現代社会で重視される人権に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"情報を受け取る権利は、政府や社会の情報に接する利益と関係せず、天気予報だけを指す。","explanation_zh":"陷阱：概念混淆。知情权与信息获取和民主政治有关，不是天气预报专用语。","explanation_ja":"誤り。概念混同の罠。知る権利は情報へのアクセスや民主政治と関係する。"},
+      {"id":2,"text":"良好な環境を求める権利は、企業の商標権だけを意味し、居住環境とは無関係である。","explanation_zh":"陷阱：主体错位。环境权涉及良好环境，不是商标权。","explanation_ja":"誤り。主体取違の罠。環境権は良好な環境に関わる考え方であり、商標権ではない。"},
+      {"id":3,"text":"プライバシーの権利、情報を受け取る権利、良好な環境を求める権利などは、社会変化に応じて重視されてきた新しい人権である。","explanation_zh":"正确。隐私权、知情权和环境权常作为新兴人权讨论。","explanation_ja":"正解。プライバシーの権利、知る権利、環境権などは、社会変化に応じて重視されてきた新しい人権である。"},
+      {"id":4,"text":"新しい人権はすべて古代ローマの身分制度だけを復活させる権利である。","explanation_zh":"陷阱：概念混淆。新的人权是现代社会变化下被重视的权利，不是古代身份制度。","explanation_ja":"誤り。概念混同の罠。新しい人権は現代社会の変化の中で重視されてきた権利である。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"新しい人権",
+      "sub_domain":"憲法・人権",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"3. 日本国憲法"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["概念混同","主体取違"],
+      "keywords_to_avoid":["知る権利","環境権","私生活","秘密","名誉","住む環境"]
+    },
+    "sources": [{"claim":"プライバシー権や知る権利などは現代社会で重視される新しい人権として扱われる","source":"国立国会図書館, 日本国憲法の誕生・基本的人権","year":"2024","url":"https://www.ndl.go.jp/constitution/"}]
+  },
+  {
+    "id": 24,
+    "global_id": 30,
+    "title": "問24",
+    "prompt": "アメリカ合衆国の統治制度に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"中央政府と州の分権制度では州が完全に独立国家となり、連邦政府は一切存在しない。","explanation_zh":"陷阱：范围扩大。美国有联邦政府和州政府，州并非完全独立国家。","explanation_ja":"誤り。範囲拡大の罠。アメリカには連邦政府と州政府があり、各州が完全な独立国家になるわけではない。"},
+      {"id":2,"text":"アメリカでは州がそれぞれの貨幣を発行し、連邦貨幣は存在しない。","explanation_zh":"陷阱：概念混淆。美国使用联邦通货，各州不发行各自独立货币。","explanation_ja":"誤り。概念混同の罠。アメリカでは連邦通貨が用いられ、各州が独自通貨を発行するわけではない。"},
+      {"id":3,"text":"中央政府と州の分権制度は1980年代に初めて作られ、それ以前の合衆国基本法には存在しなかった。","explanation_zh":"陷阱：时态错位。美国联邦制源于 1787 年宪法框架，不是 1980 年代。","explanation_ja":"誤り。時態錯位の罠。アメリカの連邦制は合衆国憲法の枠組みに基づく。"},
+      {"id":4,"text":"アメリカでは、連邦政府と州政府が権限を分担し、州にはそれぞれの法律や制度がある。","explanation_zh":"正确。美国联邦制下联邦政府和州政府分担权力，各州有自己的法律制度。","explanation_ja":"正解。アメリカでは、連邦政府と各州政府が権限を分担し、州には独自の法律や制度がある。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"アメリカの連邦制",
+      "sub_domain":"政治体制",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"2. 日本の統治機構"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["範囲拡大","時態錯位"],
+      "keywords_to_avoid":["連邦制","各州","独自の","憲法","議会","軍隊","通貨"]
+    },
+    "sources": [{"claim":"アメリカ合衆国憲法は連邦政府と州政府の権限分担を基礎とする連邦制を採る","source":"National Archives, Constitution of the United States","year":"1787","url":"https://www.archives.gov/founding-docs/constitution"}]
+  },
+  {
+    "id": 25,
+    "global_id": 31,
+    "title": "問25",
+    "prompt": "日本の移植医療に関する法改正について、最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"2009年改正により、本人の拒否がない場合、家族の承諾で脳死下の臓器提供が可能となり、15歳未満からの提供制限も見直された。","explanation_zh":"正确。2009 年修法放宽了脑死下器官提供条件，也修正了 15 岁未满相关限制。","explanation_ja":"正解。2009年改正により、本人の拒否がない場合に家族の承諾で脳死下の臓器提供が可能となり、15歳未満からの提供制限も見直された。"},
+      {"id":2,"text":"1990年代後半の法律は農地改革法であり、臓器移植とは無関係であった。","explanation_zh":"陷阱：主体错位。1997 年施行的是器官移植法，不是农地改革法。","explanation_ja":"誤り。主体取違の罠。1997年に施行されたのは臓器移植法であり、農地改革法ではない。"},
+      {"id":3,"text":"2000年代末改正では、すべての臓器提供が全面的に禁止された。","explanation_zh":"陷阱：因果倒置。2009 年修法是放宽和调整提供条件，不是全面禁止。","explanation_ja":"誤り。因果倒置の罠。2009年改正は提供条件を見直すもので、全面禁止ではない。"},
+      {"id":4,"text":"移植医療に関する法律は、国際河川の水量を測るためだけの条約である。","explanation_zh":"陷阱：概念混淆。器官移植法是医疗和生命伦理相关法律，不是河流水量条约。","explanation_ja":"誤り。概念混同の罠。臓器移植法は医療・生命倫理に関わる法律であり、河川水量の条約ではない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"社会",
+      "topic":"臓器移植法の改正",
+      "sub_domain":"社会保障・労働",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"7.社会保障"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["時態錯位","主体取違"],
+      "keywords_to_avoid":["臓器移植法","1997年","2009年","脳死","15歳未満","親族"]
+    },
+    "sources": [{"claim":"2009年の臓器移植法改正により家族承諾による脳死下臓器提供などが可能となった","source":"厚生労働省, 臓器移植法の改正について","year":"2009","url":"https://www.mhlw.go.jp/seisaku/2010/01/03.html"}]
+  },
+  {
+    "id": 26,
+    "global_id": 32,
+    "title": "問26",
+    "prompt": "国際連合設立文書の目的に関する記述として最も適当でないものはどれですか。",
+    "choices": [
+      {"id":1,"text":"国際の平穏と安全保障を維持することは、この文書の目的に含まれる。","explanation_zh":"陷阱：设问反转。这是宪章目的之一，表述正确。","explanation_ja":"誤り。設問反転の罠。国際の平和と安全の維持は国連憲章の目的である。"},
+      {"id":2,"text":"国際連合設立文書は、すべての国家境界をただちに廃止し、国家の存在を禁止することだけを目的とする。","explanation_zh":"正确。这是错误表述。联合国宪章的目的包括和平、安全、友好关系和国际合作，不是废除所有国家。","explanation_ja":"正解。これは誤った記述である。国連憲章の目的は平和、安全、友好関係、国際協力などであり、すべての国家の廃止ではない。"},
+      {"id":3,"text":"人民の同権と自決の原則に基づく友好関係の発展も、憲章の目的に含まれる。","explanation_zh":"陷阱：设问反转。这是宪章第 1 条的正确内容。","explanation_ja":"誤り。設問反転の罠。これは国連憲章第1条に含まれる正しい内容である。"},
+      {"id":4,"text":"経済的・社会的・文化的・人道的問題について国際協力を達成することも目的に含まれる。","explanation_zh":"陷阱：设问反转。这是联合国宪章目的的正确说明。","explanation_ja":"誤り。設問反転の罠。これは国連憲章の目的として正しい。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"国連憲章の目的",
+      "sub_domain":"国際政治・外交",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"5. 国際政治"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答誤記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["範囲拡大","概念混同"],
+      "keywords_to_avoid":["国連憲章","平和","安全","自由","正義","国境"]
+    },
+    "sources": [{"claim":"国連憲章第1条は平和と安全、友好関係、国際協力などを目的とする","source":"United Nations Charter, Chapter I Article 1","year":"1945","url":"https://www.un.org/en/about-us/un-charter/chapter-1"}]
+  },
+  {
+    "id": 27,
+    "global_id": 33,
+    "title": "問27",
+    "prompt": "成層圏の保護層破壊と関連する国際的取り決めに関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"この国際取り決めは1997年に採択され、二酸化炭素だけを削減対象にした。","explanation_zh":"陷阱：时态错位。蒙特利尔议定书是 1987 年通过的，目标是消耗臭氧层物质。","explanation_ja":"誤り。時態錯位の罠。モントリオール議定書は1987年採択で、オゾン層破壊物質を対象とする。"},
+      {"id":2,"text":"1987年のモントリオール議定書は、フロン類などオゾン層を破壊する物質の規制を目的とした。","explanation_zh":"正确。1987 年蒙特利尔议定书针对氟利昂等消耗臭氧层物质。","explanation_ja":"正解。1987年のモントリオール議定書は、フロン類などオゾン層破壊物質の規制を目的とした。"},
+      {"id":3,"text":"京都で採択された気候変動の取り決めは成層圏の保護層破壊物質だけを扱い、温室効果ガスとは無関係である。","explanation_zh":"陷阱：主体错位。京都议定书处理温室气体削减，蒙特利尔议定书处理臭氧层破坏物质。","explanation_ja":"誤り。主体取違の罠。京都議定書は温室効果ガス削減に関わり、オゾン層破壊物質はモントリオール議定書の対象である。"},
+      {"id":4,"text":"成層圏の保護層破壊は地球規模の環境問題ではなく、株主配当だけの問題である。","explanation_zh":"陷阱：概念混淆。臭氧层破坏是全球环境问题，不是股东分红问题。","explanation_ja":"誤り。概念混同の罠。オゾン層破壊は地球環境問題であり、株主配当ではない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"社会",
+      "topic":"オゾン層破壊とモントリオール議定書",
+      "sub_domain":"現代社会問題",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の社会","item":"1. 環境と資源"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位","主体取違"],
+      "keywords_to_avoid":["モントリオール議定書","1987年","オゾン層","地球環境","京都議定書"]
+    },
+    "sources": [{"claim":"1987年のモントリオール議定書はオゾン層破壊物質の生産・消費を規制する","source":"UNEP, The Montreal Protocol","year":"1987","url":"https://www.unep.org/ozonaction/who-we-are/about-montreal-protocol"}]
+  },
+  {
+    "id": 28,
+    "global_id": 34,
+    "title": "問28",
+    "prompt": "革命前のフランス社会に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"平民身分は人口の1割未満で、租税負担から完全に免除されていた。","explanation_zh":"陷阱：数值混同。第三等级占人口大多数，并承担较重负担。","explanation_ja":"誤り。数値混同の罠。第三身分は人口の大多数を占め、負担への不満を抱えていた。"},
+      {"id":2,"text":"聖職者・貴族などの特権身分と、人口の大多数を占める平民身分の間に不平等があった。","explanation_zh":"正确。法国革命前存在特权身分和第三等级之间的不平等。","explanation_ja":"正解。聖職者・貴族などの特権身分と、人口の大多数を占める第三身分の間に不平等があった。"},
+      {"id":3,"text":"この国では1700年代末までに身分制が完全に消滅し、革命の原因は一切なくなっていた。","explanation_zh":"陷阱：范围扩大。身分制和财政问题等正是革命前背景。","explanation_ja":"誤り。範囲拡大の罠。身分制や財政問題などは革命前の重要な背景であった。"},
+      {"id":4,"text":"平民身分とは王と貴族だけを指し、市民や農民は含まれなかった。","explanation_zh":"陷阱：概念混淆。第三等级包括广大平民，如市民和农民。","explanation_ja":"誤り。概念混同の罠。第三身分は市民や農民など広い平民層を含む。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"18世紀フランス社会",
+      "sub_domain":"近代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"1. 近代化の進展とその影響"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["数値混同","範囲拡大"],
+      "keywords_to_avoid":["第三身分","18世紀末","フランス","納税義務","9割"]
+    },
+    "sources": [{"claim":"フランス革命前の第三身分は人口の大多数を占め、聖職者・貴族と区別された","source":"Encyclopaedia Britannica, Third Estate","year":"1789","url":"https://www.britannica.com/topic/Third-Estate"}]
+  },
+  {
+    "id": 29,
+    "global_id": 35,
+    "title": "問29",
+    "prompt": "一八四八年の欧州各地の動きに関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"この一連の動きは第一次世界大戦後の1919年にだけ起こった。","explanation_zh":"陷阱：时态错位。诸国民之春指 1848 年欧洲革命，不是 1919 年。","explanation_ja":"誤り。時態錯位の罠。諸国民の春は1848年のヨーロッパ革命を指す。"},
+      {"id":2,"text":"一八四八年には英国だけで政治変動が起こり、仏国や独地域地域には影響しなかった。","explanation_zh":"陷阱：地域错位。1848 年革命波及法国、德意志地区、奥地利帝国等。","explanation_ja":"誤り。地域取違の罠。1848年の革命はフランス、ドイツ地域、オーストリア帝国など広い地域に波及した。"},
+      {"id":3,"text":"一八四八年には仏国二月政治変動をはじめ、ヨーロッパ各地で自由主義・民族運動が広がった。","explanation_zh":"正确。1848 年欧洲多地出现自由主义和民族运动，被称为诸国民之春。","explanation_ja":"正解。1848年にはフランス二月革命をはじめ、ヨーロッパ各地で自由主義・民族運動が広がった。"},
+      {"id":4,"text":"この一連の動きは、北米の13植民地が英国から独立した1776年の出来事である。","explanation_zh":"陷阱：主体错位。1776 年是美国独立宣言相关，诸国民之春是 1848 年欧洲革命。","explanation_ja":"誤り。主体取違の罠。1776年はアメリカ独立宣言に関わり、諸国民の春は1848年のヨーロッパ革命である。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"1848年「諸国民の春」",
+      "sub_domain":"近代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"1. 近代化の進展とその影響"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位","主体取違"],
+      "keywords_to_avoid":["諸国民の春","1848年","イギリス","フランス","ドイツ","革命"]
+    },
+    "sources": [{"claim":"1848年革命はフランスからヨーロッパ各地へ広がった自由主義・民族運動であった","source":"Encyclopaedia Britannica, Revolutions of 1848","year":"1848","url":"https://www.britannica.com/event/Revolutions-of-1848"}]
+  },
+  {
+    "id": 30,
+    "global_id": 36,
+    "title": "問30",
+    "prompt": "大戦後の国際協調に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"1921〜22年の会議は第二次世界大戦後の戦後の日米安全保障条約条約を結ぶためだけに開かれた。","explanation_zh":"陷阱：时态错位。华盛顿会议是第一次世界大战后的 1921-22 年会议，不是二战后日美安保。","explanation_ja":"誤り。時態錯位の罠。ワシントン会議は第一次世界大戦後の1921〜22年に開かれた会議であり、戦後の日米安保条約ではない。"},
+      {"id":2,"text":"1930年の海軍軍縮会議では、軍艦制限ではなく農産物価格だけが議題であった。","explanation_zh":"陷阱：概念混淆。伦敦海军裁军会议处理海军军备限制，不是农产品价格会议。","explanation_ja":"誤り。概念混同の罠。ロンドン海軍軍縮会議は海軍軍備制限に関わる会議である。"},
+      {"id":3,"text":"1921〜22年の会議後、海軍軍縮の動きは完全に消滅し、ロンドン会議は開かれなかった。","explanation_zh":"陷阱：因果倒置。华盛顿体系之后仍有伦敦海军裁军会议。","explanation_ja":"誤り。因果倒置の罠。ワシントン会議後もロンドン海軍軍縮会議など軍縮の試みが続いた。"},
+      {"id":4,"text":"1921〜22年の会議や1930年の海軍軍縮会議は、大戦後の軍縮・国際協調の試みであった。","explanation_zh":"正确。华盛顿会议和伦敦海军裁军会议都是一战后裁军和国际协调的尝试。","explanation_ja":"正解。ワシントン会議やロンドン海軍軍縮会議は、第一次世界大戦後の軍縮・国際協調の試みであった。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"第一次世界大戦後の国際協調",
+      "sub_domain":"現代日本",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"2. 二つの世界大戦とその影響"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位","因果倒置"],
+      "keywords_to_avoid":["ワシントン会議","日米安保","ロンドン海軍軍縮会議","潜水艦","第一次世界大戦後"]
+    },
+    "sources": [{"claim":"ワシントン会議とロンドン海軍軍縮会議は第一次世界大戦後の海軍軍縮の試みであった","source":"Encyclopaedia Britannica, Washington Conference; London Naval Conference","year":"1930","url":"https://www.britannica.com/event/Washington-Conference"}]
+  },
+  {
+    "id": 31,
+    "global_id": 37,
+    "title": "問31",
+    "prompt": "20世紀後半のアフリカ諸国の独立に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"1960年にはアフリカで新たな独立国は一つも生まれなかった。","explanation_zh":"陷阱：时态错位。1960 年多个非洲国家独立，被称为非洲年。","explanation_ja":"誤り。時態錯位の罠。1960年には多くのアフリカ諸国が独立した。"},
+      {"id":2,"text":"1960年にはナイジェリアなど多くのアフリカ諸国が独立し、「アフリカの年」と呼ばれる。","explanation_zh":"正确。1960 年尼日利亚等多个非洲国家独立，被称为非洲年。","explanation_ja":"正解。1960年にはナイジェリアなど多くのアフリカ諸国が独立し、「アフリカの年」と呼ばれる。"},
+      {"id":3,"text":"エジプトは南極大陸の国であり、アフリカの独立運動とは地理的に無関係である。","explanation_zh":"陷阱：地域错位。埃及位于非洲东北部，不是南极国家。","explanation_ja":"誤り。地域取違の罠。エジプトはアフリカ北東部の国であり、南極大陸の国ではない。"},
+      {"id":4,"text":"アフリカの独立はすべて18世紀末に完了し、第二次世界大戦後には植民地支配が拡大しただけである。","explanation_zh":"陷阱：时态错位。二战后非洲去殖民化加速，而不是殖民支配单纯扩大。","explanation_ja":"誤り。時態錯位の罠。第二次世界大戦後、アフリカの脱植民地化は加速した。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"アフリカの独立",
+      "sub_domain":"現代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"2. 二つの世界大戦とその影響"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位","主体取違"],
+      "keywords_to_avoid":["1960年","アフリカ","独立","エジプト","ナイジェリア"]
+    },
+    "sources": [{"claim":"1960年には多数のアフリカ諸国が独立し「アフリカの年」と呼ばれる","source":"United Nations, The United Nations and Decolonization","year":"1960","url":"https://www.un.org/dppa/decolonization/about"}]
+  },
+  {
+    "id": 32,
+    "global_id": 38,
+    "title": "問32",
+    "prompt": "80年代末の東欧社会主義体制の変化に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"80年代末の東欧では、多党制への移行や一党支配の崩壊は一切起こらなかった。","explanation_zh":"陷阱：时态错位。1989 年前后东欧多国发生体制转变。","explanation_ja":"誤り。時態錯位の罠。1989年前後の東欧では複数政党制への移行や一党支配の崩壊が進んだ。"},
+      {"id":2,"text":"中東欧の一国は南米の島国であり、東欧の政治変動とは関係しない。","explanation_zh":"陷阱：地域错位。匈牙利是中东欧国家，与 1989 年体制变化相关。","explanation_ja":"誤り。地域取違の罠。ハンガリーは中東欧の国であり、1989年の体制変化と関係する。"},
+      {"id":3,"text":"1989年前後、中東欧の一国など東欧諸国では一党支配が揺らぎ、多党制への移行が進んだ。","explanation_zh":"正确。1989 年前后，匈牙利等东欧国家一党支配动摇，多党制转型推进。","explanation_ja":"正解。1989年前後、ハンガリーなど東欧諸国では一党支配が揺らぎ、複数政党制への移行が進んだ。"},
+      {"id":4,"text":"南スラブの連邦国家の同国の指導者は1989年に初めて建国し、同年に東欧全体を完全統一した。","explanation_zh":"陷阱：时态错位。铁托于 1980 年去世，南斯拉夫也没有在 1989 年统一东欧。","explanation_ja":"誤り。時態錯位の罠。ティトーは1980年に死去しており、1989年に東欧全体を統一したわけではない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"1980年代社会主義体制の崩壊",
+      "sub_domain":"現代世界",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"4.政治参加"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["時態錯位","主体取違"],
+      "keywords_to_avoid":["1980年代","ハンガリー","ユーゴスラビア","ティトー","複数政党制","独裁者"]
+    },
+    "sources": [{"claim":"1989年前後に東欧諸国で社会主義一党支配が崩れ、ハンガリーなどで複数政党制への移行が進んだ","source":"Encyclopaedia Britannica, Revolutions of 1989","year":"1989","url":"https://www.britannica.com/event/Revolutions-of-1989"}]
+  }
+]
+}

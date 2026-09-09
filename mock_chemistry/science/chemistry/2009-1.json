@@ -1,0 +1,503 @@
+{
+  "subject": "science",
+  "section": "chemistry",
+  "year": 2009,
+  "round": 1,
+  "title": "化学問題集 第三回",
+  "image_path": "science/chemistry/images/2009-1",
+  "questions": [
+  {
+    "id": 1,
+    "global_id": 1,
+    "title": "問1",
+    "prompt": "次の記述 a〜e のうち，正しいものはいくつあるか。最も適当なものを，下の①〜⑥のうちから一つ選べ。",
+    "passage": ["a：イオン結合は，陽イオンと陰イオンの静電引力（クーロン引力）によって形成される。","b：金属結合では，自由電子が金属陽イオンの間を動き回り，全体を結びつけている。","c：共有結合では，原子同士が電子対を共有して形成される。","d：水素結合は，電気陰性度の小さい原子に結合した H と，電気陰性度の大きい原子の間にはたらく弱い引力である。","e：分子結晶は，融点が高く電気をよく伝える。"],
+    "choices": [
+      {"id":1,"text":"0 個","explanation_zh":"陷阱：价数电荷错。a, b, c 都是正确陈述。","explanation_ja":"誤り。価数・電荷混同の罠。a，b，c は基本的な化学結合の説明として正しい。"},
+      {"id":2,"text":"1 個","explanation_zh":"陷阱：价数电荷错。正确陈述至少 3 个。","explanation_ja":"誤り。価数・電荷混同の罠。a〜c の三つはいずれも正しい。"},
+      {"id":3,"text":"2 個","explanation_zh":"陷阱：价数电荷错。a, b, c 都正確。","explanation_ja":"誤り。価数・電荷混同の罠。a，b，c が正しいので 2 個では不足。"},
+      {"id":4,"text":"3 個","explanation_zh":"正确。a, b, c 正确；d 描述反了（H 应连接电气阴性度大原子）；e 分子晶体熔点低、不导电。","explanation_ja":"正解。a：イオン結合の説明として正しい。b：金属結合の自由電子モデルとして正しい。c：共有結合の説明として正しい。d：水素結合は電気陰性度の大きい原子に結合した H と他の電気陰性度の大きい原子間の引力なので記述が逆で誤り。e：分子結晶は融点が低く電気を伝えないので誤り。よって正しいのは 3 個。"},
+      {"id":5,"text":"4 個","explanation_zh":"陷阱：价数电荷错。d 描述错；e 错。","explanation_ja":"誤り。価数・電荷混同の罠。d，e はいずれも誤った記述なので 4 個には達しない。"},
+      {"id":6,"text":"5 個","explanation_zh":"陷阱：价数电荷错。d, e 均错。","explanation_ja":"誤り。価数・電荷混同の罠。d も e も誤りであり全部が正しいとは言えない。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "unit":"I 物質の構成",
+      "sub_domain":"イオン・化学結合",
+      "question_form":"組合せ",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["価数・電荷混同"],
+      "keywords_to_avoid":["K(2)","L(6)","Na","Cl"],
+      "syllabus_path":{"area":"I 物質の構成","field":"化学","item":"3. 物質と化学結合"}
+    }
+  },
+  {
+    "id": 2,
+    "global_id": 2,
+    "title": "問2",
+    "prompt": "原子番号 8 の酸素の同位体には ¹⁶O，¹⁷O，¹⁸O が存在する。¹⁸O 原子（原子番号 8，質量数 18）の陽子数，中性子数，電子数の組合せとして最も適当なものを，下の①〜⑥のうちから一つ選べ。",
+    "choices": [
+      {"id":1,"text":"陽子 8，中性子 8，電子 8","explanation_zh":"陷阱：价数电荷错。¹⁸O 中子数应为 18−8=10 个。","explanation_ja":"誤り。価数・電荷混同の罠。¹⁸O の中性子数は質量数 18 − 陽子数 8 = 10 で，8 ではない。"},
+      {"id":2,"text":"陽子 18，中性子 8，電子 18","explanation_zh":"陷阱：价数电荷错。把质量数当质子数。","explanation_ja":"誤り。価数・電荷混同の罠。質量数を陽子数と取り違えた結果。"},
+      {"id":3,"text":"陽子 8，中性子 18，電子 8","explanation_zh":"陷阱：价数电荷错。把质量数当中子数。","explanation_ja":"誤り。価数・電荷混同の罠。中性子数を質量数と取り違えた結果。"},
+      {"id":4,"text":"陽子 8，中性子 10，電子 8","explanation_zh":"正确。原子序数 8 → 质子 8 个、电子 8 个；质量数 18 → 中子 18−8=10 个。","explanation_ja":"正解。原子番号 8 より陽子数 8，中性原子なので電子数も 8。中性子数 = 質量数 − 陽子数 = 18 − 8 = 10 となる。"},
+      {"id":5,"text":"陽子 10，中性子 8，電子 10","explanation_zh":"陷阱：价数电荷错。质子和中子混淆。","explanation_ja":"誤り。価数・電荷混同の罠。陽子数と中性子数を逆に取った結果。"},
+      {"id":6,"text":"陽子 8，中性子 9，電子 8","explanation_zh":"陷阱：价数电荷错。误把质量 17 当 18。","explanation_ja":"誤り。価数・電荷混同の罠。質量数 17 として計算した場合の値。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "unit":"I 物質の構成",
+      "sub_domain":"原子構造",
+      "question_form":"知識選択",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["価数・電荷混同"],
+      "keywords_to_avoid":["17O2-","中性子","電子"],
+      "syllabus_path":{"area":"I 物質の構成","field":"化学","item":"2. 物質の構成粒子"}
+    }
+  },
+  {
+    "id": 3,
+    "global_id": 3,
+    "title": "問3",
+    "prompt": "次の分子のうち，分子全体として極性をもたないもの（無極性分子）として最も適当なものを，下の①〜⑤のうちから一つ選べ。",
+    "choices": [
+      {"id":1,"text":"水","explanation_zh":"陷阱：性质例外遗漏。水分子折弯，O 高电气阴性，整体有极性。","explanation_ja":"誤り。性質の例外見落としの罠。水は折れ線形で O の電気陰性度が大きく，極性分子である。"},
+      {"id":2,"text":"アンモニア","explanation_zh":"陷阱：性质例外遗漏。NH₃ 三角锥形，N 上孤对电子使其极性。","explanation_ja":"誤り。性質の例外見落としの罠。アンモニアは三角錐形で孤立電子対をもち極性分子となる。"},
+      {"id":3,"text":"四塩化炭素 CCl₄","explanation_zh":"正确。CCl₄ 正四面体对称，4 个 C−Cl 极性键互相抵消，整体无极性。","explanation_ja":"正解。CCl₄ は正四面体構造で，4 つの C−Cl 結合の極性ベクトルが互いに打ち消し合うため，分子全体としては無極性となる。"},
+      {"id":4,"text":"塩化水素","explanation_zh":"陷阱：性质例外遗漏。HCl 直线，Cl 电气阴性高，整体有极性。","explanation_ja":"誤り。性質の例外見落としの罠。塩化水素は二原子分子で H と Cl の電気陰性度差により極性分子となる。"},
+      {"id":5,"text":"硫化水素","explanation_zh":"陷阱：性质例外遗漏。H₂S 折弯极性分子。","explanation_ja":"誤り。性質の例外見落としの罠。硫化水素は折れ線形で極性分子である。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "unit":"I 物質の構成",
+      "sub_domain":"分子構造・結晶",
+      "question_form":"知識選択",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["性質の例外見落とし"],
+      "keywords_to_avoid":["CH₄","C₂H₂","CO₂","HCl","H₂S"],
+      "syllabus_path":{"area":"I 物質の構成","field":"化学","item":"3. 物質と化学結合"}
+    }
+  },
+  {
+    "id": 4,
+    "global_id": 4,
+    "title": "問4",
+    "prompt": "次の分子の形について述べた文を読み，下の①〜⑥のうちから最も適当なものを一つ選べ。",
+    "passage": ["極性をもつ結合をもつにもかかわらず，分子全体としては無極性となる分子は，分子内の極性ベクトルが対称的に打ち消し合う構造をしているからである。"],
+    "choices": [
+      {"id":1,"text":"直線形のフッ化水素","explanation_zh":"陷阱：性质例外遗漏。HF 是极性分子（二原子异原子）。","explanation_ja":"誤り。性質の例外見落としの罠。HF は二原子分子で電気陰性度差が大きく極性分子。"},
+      {"id":2,"text":"折れ線形の二硫化炭素","explanation_zh":"陷阱：性质例外遗漏。CS₂ 实际是直线形且无极性。","explanation_ja":"誤り。性質の例外見落としの罠。二硫化炭素は直線形（S=C=S）で，折れ線形という記述が誤り。"},
+      {"id":3,"text":"直線形の二酸化炭素のように，対称的な構造で極性が打ち消されるもの","explanation_zh":"正确。CO₂ 直线形 O=C=O 对称，两侧 C=O 极性互相抵消。","explanation_ja":"正解。二酸化炭素 O=C=O は直線形の対称構造で，2 つの C=O 結合の極性が互いに打ち消し合い，分子全体としては無極性となる。これが「対称な構造で極性が打ち消される」典型例である。"},
+      {"id":4,"text":"三角錐形の水","explanation_zh":"陷阱：性质例外遗漏。水折弯非锥形且为极性。","explanation_ja":"誤り。性質の例外見落としの罠。水は折れ線形（V 字形）であり，三角錐ではなく，かつ極性をもつ。"},
+      {"id":5,"text":"直線形のアセチレン分子のすべての結合","explanation_zh":"陷阱：性质例外遗漏。乙炔整体无极性但本题问对称结构。","explanation_ja":"誤り。性質の例外見落としの罠。アセチレンも対称な直線形分子だが，本問では CO₂ がより代表的な例である。"},
+      {"id":6,"text":"折れ線形のメタン","explanation_zh":"陷阱：性质例外遗漏。甲烷是正四面体非折弯。","explanation_ja":"誤り。性質の例外見落としの罠。メタンは正四面体構造であり，折れ線形ではない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "unit":"I 物質の構成",
+      "sub_domain":"分子構造・結晶",
+      "question_form":"知識選択",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["性質の例外見落とし"],
+      "keywords_to_avoid":["CH₄","CCl₄","CO","CO₂","H₂O","NH₃"],
+      "syllabus_path":{"area":"I 物質の構成","field":"化学","item":"3. 物質と化学結合"}
+    }
+  },
+  {
+    "id": 5,
+    "global_id": 5,
+    "title": "問5",
+    "prompt": "炭酸水素ナトリウムと希塩酸を反応させると二酸化炭素が発生する。炭酸水素ナトリウム 8.4 g を十分量の希塩酸と反応させたとき，標準状態（モル体積 22.4 L/mol）で発生する二酸化炭素の体積は何 L か。NaHCO₃ のモル質量を 84 g/mol とする。最も適当なものを，下の①〜⑥のうちから一つ選べ。",
+    "choices": [
+      {"id":1,"text":"1.12 L","explanation_zh":"陷阱：计量比错。把 8.4 g 当 0.05 mol 误算。","explanation_ja":"誤り。係数比誤認の罠。物質量を 0.05 mol と誤った結果。"},
+      {"id":2,"text":"2.24 L","explanation_zh":"正确。NaHCO₃ 0.10 mol → CO₂ 0.10 mol；体积=0.10×22.4=2.24 L。","explanation_ja":"正解。NaHCO₃ + HCl → NaCl + H₂O + CO₂ の係数比 1:1 より，NaHCO₃ 8.4/84 = 0.10 mol からは CO₂ 0.10 mol が発生。体積 = 0.10 × 22.4 = 2.24 L。"},
+      {"id":3,"text":"4.48 L","explanation_zh":"陷阱：计量比错。乘 2 倍误算。","explanation_ja":"誤り。係数比誤認の罠。係数比を 1:2 として算出した結果。"},
+      {"id":4,"text":"11.2 L","explanation_zh":"陷阱：计量比错。把 mol 数误算 0.50。","explanation_ja":"誤り。係数比誤認の罠。物質量を 0.50 mol と誤算した結果。"},
+      {"id":5,"text":"22.4 L","explanation_zh":"陷阱：计量比错。把全部反应物量定为 1 mol。","explanation_ja":"誤り。係数比誤認の罠。物質量を 1 mol として計算した結果。"},
+      {"id":6,"text":"0.56 L","explanation_zh":"陷阱：计量比错。把 mol 数误算 0.025。","explanation_ja":"誤り。係数比誤認の罠。物質量を 0.025 mol と誤算した。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "unit":"I 物質の構成",
+      "sub_domain":"化学反応式と量的関係",
+      "question_form":"計算選択",
+      "required_skill":"量的計算",
+      "requires_image":false,
+      "trap_patterns":["係数比誤認"],
+      "keywords_to_avoid":["NaHCO₃","HCl","CO₂"],
+      "syllabus_path":{"area":"I 物質の構成","field":"化学","item":"4. 物質の量的取扱いと化学式"}
+    }
+  },
+  {
+    "id": 6,
+    "global_id": 6,
+    "title": "問6",
+    "prompt": "次の金属の塩水溶液 a〜d に対して，鉄板を入れる実験を行ったところ，鉄板表面に金属が析出した組合せはどれか。最も適当なものを，下の①〜④のうちから一つ選べ。\na：銀(I) イオンの硝酸塩水溶液\nb：マグネシウム(II) イオンの塩化物水溶液\nc：銅(II) イオンの硫酸塩水溶液\nd：カリウム(I) イオンの塩化物水溶液",
+    "choices": [
+      {"id":1,"text":"a と b","explanation_zh":"陷阱：性质例外遗漏。Mg 比 Fe 更易电离，不会析出。","explanation_ja":"誤り。性質の例外見落としの罠。Mg は Fe よりイオン化傾向が大きく，Fe からは析出しない。"},
+      {"id":2,"text":"b と d","explanation_zh":"陷阱：性质例外遗漏。Mg、K 都比 Fe 易电离。","explanation_ja":"誤り。性質の例外見落としの罠。Mg・K はいずれも Fe より反応性が高い金属で析出しない。"},
+      {"id":3,"text":"c と d","explanation_zh":"陷阱：性质例外遗漏。K 不会析出。","explanation_ja":"誤り。性質の例外見落としの罠。K は Fe より反応性が高く析出しない。"},
+      {"id":4,"text":"a と c","explanation_zh":"正确。Fe 比 Ag、Cu 易电离，可置换 Ag⁺ → Ag，Cu²⁺ → Cu。","explanation_ja":"正解。鉄はイオン化傾向で Ag・Cu よりも大きいので，Ag⁺ 水溶液（a）や Cu²⁺ 水溶液（c）に入れると Fe が溶けて Ag・Cu が金属として析出する。Mg・K は鉄より反応性が高く析出しない。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "unit":"III 無機化学",
+      "sub_domain":"金属元素",
+      "question_form":"知識選択",
+      "required_skill":"性質比較",
+      "requires_image":false,
+      "trap_patterns":["性質の例外見落とし"],
+      "keywords_to_avoid":["HNO₃","CuSO₄","HCl","ZnSO₄"],
+      "syllabus_path":{"area":"III 無機化学","field":"化学","item":"1. 無機物質"}
+    }
+  },
+  {
+    "id": 7,
+    "global_id": 7,
+    "title": "問7",
+    "prompt": "ある電解質水溶液を白金電極で電気分解した。陰極で水素が発生し，陽極で酸素が発生した。流れた電子の物質量が 0.40 mol のとき，陰極で発生する水素の物質量と陽極で発生する酸素の物質量はそれぞれ何 mol か。最も適当な組合せを，下の①〜④のうちから一つ選べ。なお，陰極での反応は 2H⁺ + 2e⁻ → H₂，陽極での反応は 2H₂O → O₂ + 4H⁺ + 4e⁻ である。",
+    "choices": [
+      {"id":1,"text":"H₂：0.40 mol，O₂：0.40 mol","explanation_zh":"陷阱：物质量与质量混淆。把电子 mol 直接当产物 mol。","explanation_ja":"誤り。物質量と質量混同の罠。電子の物質量と気体の物質量を取り違えた結果。"},
+      {"id":2,"text":"H₂：0.20 mol，O₂：0.10 mol","explanation_zh":"正确。0.40 mol e⁻ → H₂：0.40/2=0.20 mol；O₂：0.40/4=0.10 mol。","explanation_ja":"正解。陰極では 2 mol の e⁻ から 1 mol の H₂ が生じるので H₂ = 0.40/2 = 0.20 mol。陽極では 4 mol の e⁻ から 1 mol の O₂ が生じるので O₂ = 0.40/4 = 0.10 mol。"},
+      {"id":3,"text":"H₂：0.10 mol，O₂：0.20 mol","explanation_zh":"陷阱：物质量与质量混淆。H₂ 与 O₂ 颠倒。","explanation_ja":"誤り。物質量と質量混同の罠。H₂ と O₂ の係数を逆に取った結果。"},
+      {"id":4,"text":"H₂：0.80 mol，O₂：0.20 mol","explanation_zh":"陷阱：物质量与质量混淆。算 e⁻ 倍数。","explanation_ja":"誤り。物質量と質量混同の罠。電子の係数を 0.5 と取り違えた結果。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "unit":"II 物質の状態と変化",
+      "sub_domain":"電池・電気分解",
+      "question_form":"図表読取",
+      "required_skill":"量的計算",
+      "requires_image":false,
+      "trap_patterns":["物質量と質量混同"],
+      "keywords_to_avoid":["水電解","H₂","O₂","NaOH"],
+      "syllabus_path":{"area":"II 物質の状態と変化","field":"化学","item":"1. 物質の変化"}
+    }
+  },
+  {
+    "id": 8,
+    "global_id": 8,
+    "title": "問8",
+    "prompt": "次の文を読み，正しい記述の組合せとして最も適当なものを，下の①〜⑥のうちから一つ選べ。",
+    "passage": ["a：化学平衡の状態では，正反応と逆反応の速度が等しく，反応はマクロには停止しているように見える。","b：化学平衡の状態に達した系では，反応物と生成物の濃度がそれぞれ一定値を保つ。","c：温度を変えずに反応容器の体積を半分にすると，気体反応の平衡定数は常に変化する。","d：純液体や純固体の活量は 1 とみなされ，平衡定数の式には現れない。"],
+    "choices": [
+      {"id":1,"text":"a と c","explanation_zh":"陷阱：平衡移动方向错。c 错——温度不变平衡常数不变。","explanation_ja":"誤り。平衡移動方向混同の罠。平衡定数 K は温度のみに依存し，圧力や体積を変えても変化しない。"},
+      {"id":2,"text":"b と c","explanation_zh":"陷阱：平衡移动方向错。c 错。","explanation_ja":"誤り。平衡移動方向混同の罠。c の「体積変化で K が変わる」は誤り。"},
+      {"id":3,"text":"a と b と d","explanation_zh":"正确。a 正向逆向速度相等；b 浓度恒定；d 純固/液体活量=1；c 平衡常数仅温度变才变。","explanation_ja":"正解。a：正反応と逆反応の速度が等しい状態（動的平衡）の説明として正しい。b：マクロには濃度が一定値を保つ。d：純固体・純液体の活量は 1 で平衡定数の式に現れない。c は温度が一定なら K は変わらないので誤り。"},
+      {"id":4,"text":"a のみ","explanation_zh":"陷阱：平衡移动方向错。b、d 也正确。","explanation_ja":"誤り。平衡移動方向混同の罠。b と d も正しい記述。"},
+      {"id":5,"text":"b のみ","explanation_zh":"陷阱：平衡移动方向错。a d 也正确。","explanation_ja":"誤り。平衡移動方向混同の罠。a・d も正しい。"},
+      {"id":6,"text":"a と b のみ","explanation_zh":"陷阱：平衡移动方向错。d 也正确。","explanation_ja":"誤り。平衡移動方向混同の罠。d も正しい記述である。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "unit":"II 物質の状態と変化",
+      "sub_domain":"化学平衡",
+      "question_form":"知識選択",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["平衡移動方向混同"],
+      "keywords_to_avoid":["触媒","平衡定数","反応経路","活性化エネルギー"],
+      "syllabus_path":{"area":"II 物質の状態と変化","field":"化学","item":"3. 物質の変化と平衡"}
+    }
+  },
+  {
+    "id": 9,
+    "global_id": 9,
+    "title": "問9",
+    "prompt": "次の熱化学方程式を用いて，1 mol のブタン C₄H₁₀ を完全燃焼させたときに発生する熱量を求めよ。\nC₄H₁₀(g) + 13/2 O₂(g) → 4 CO₂(g) + 5 H₂O(l)；ΔH = −2880 kJ。\nブタン 5.8 g（モル質量 58 g/mol）を完全に燃焼させたとき発生する熱量は何 kJ か。最も適当なものを，下の①〜⑥のうちから一つ選べ。",
+    "choices": [
+      {"id":1,"text":"144 kJ","explanation_zh":"陷阱：计量比错。把 0.10 mol 当 0.05 mol。","explanation_ja":"誤り。係数比誤認の罠。物質量を 0.05 mol と誤った場合の値。"},
+      {"id":2,"text":"576 kJ","explanation_zh":"陷阱：计量比错。把 0.20 mol 误算。","explanation_ja":"誤り。係数比誤認の罠。物質量を 0.20 mol とした場合の値。"},
+      {"id":3,"text":"720 kJ","explanation_zh":"陷阱：计量比错。0.25 mol 误算。","explanation_ja":"誤り。係数比誤認の罠。物質量を 0.25 mol と誤算した結果。"},
+      {"id":4,"text":"1440 kJ","explanation_zh":"陷阱：计量比错。把 0.50 mol 误算。","explanation_ja":"誤り。係数比誤認の罠。物質量を 0.50 mol と誤算した結果。"},
+      {"id":5,"text":"2880 kJ","explanation_zh":"陷阱：计量比错。把全量当 1 mol。","explanation_ja":"誤り。係数比誤認の罠。物質量を 1 mol と誤った結果。"},
+      {"id":6,"text":"288 kJ","explanation_zh":"正确。n(C₄H₁₀)=5.8/58=0.10 mol；発熱=0.10×2880=288 kJ。","explanation_ja":"正解。ブタンの物質量 = 5.8/58 = 0.10 mol。熱化学方程式より 1 mol あたり 2880 kJ の熱が発生するので，0.10 × 2880 = 288 kJ。"}
+    ],
+    "answer": 6,
+    "tag": {
+      "unit":"II 物質の状態と変化",
+      "sub_domain":"熱化学",
+      "question_form":"計算選択",
+      "required_skill":"量的計算",
+      "requires_image":false,
+      "trap_patterns":["係数比誤認"],
+      "keywords_to_avoid":["燃焼熱","プロパン","メタノール","エタノール"],
+      "syllabus_path":{"area":"II 物質の状態と変化","field":"化学","item":"1. 物質の変化"}
+    }
+  },
+  {
+    "id": 10,
+    "global_id": 10,
+    "title": "問10",
+    "prompt": "希薄溶液の凝固点降下に関する次の文 a，b，c を読み，正しい組合せとして最も適当なものを，下の①〜⑥のうちから一つ選べ。",
+    "passage": ["a：凝固点降下度は，溶液に溶けた粒子の質量モル濃度に比例する（電解質では完全電離した全粒子のモル数で計算する）。","b：同じ質量モル濃度の砂糖水（非電解質）と食塩水（1:1 電解質）を比較すると，凝固点降下度は食塩水のほうが約 2 倍大きい。","c：希薄溶液の沸点上昇度も同様に，溶質粒子の質量モル濃度に比例する。"],
+    "choices": [
+      {"id":1,"text":"a，b，c すべて正しい","explanation_zh":"正确。拉乌尔定律的稀薄溶液一般规则全部正确。","explanation_ja":"正解。a：凝固点降下度は電解質の場合は電離後の粒子の質量モル濃度に比例する。b：1:1 の強電解質は完全電離で粒子数が 2 倍となるため凝固点降下度も約 2 倍。c：沸点上昇も同じく粒子の質量モル濃度に比例する。すべて正しい。"},
+      {"id":2,"text":"a のみ","explanation_zh":"陷阱：浓度条件漏。b、c 也正确。","explanation_ja":"誤り。濃度条件見落としの罠。b と c も正しい記述である。"},
+      {"id":3,"text":"b のみ","explanation_zh":"陷阱：浓度条件漏。a c 正确。","explanation_ja":"誤り。濃度条件見落としの罠。a と c も正しい。"},
+      {"id":4,"text":"c のみ","explanation_zh":"陷阱：浓度条件漏。a b 准确。","explanation_ja":"誤り。濃度条件見落としの罠。a と b も正しい。"},
+      {"id":5,"text":"a と b のみ","explanation_zh":"陷阱：浓度条件漏。c 也正确。","explanation_ja":"誤り。濃度条件見落としの罠。c も正しい記述である。"},
+      {"id":6,"text":"b と c のみ","explanation_zh":"陷阱：浓度条件漏。a 也正确。","explanation_ja":"誤り。濃度条件見落としの罠。a も正しい記述である。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "unit":"II 物質の状態と変化",
+      "sub_domain":"溶液・濃度",
+      "question_form":"知識選択",
+      "required_skill":"法則・公式適用",
+      "requires_image":false,
+      "trap_patterns":["濃度条件見落とし"],
+      "keywords_to_avoid":["CaCl₂","NaCl","グルコース","凝固点"],
+      "syllabus_path":{"area":"II 物質の状態と変化","field":"化学","item":"2. 物質の状態と平衡"}
+    }
+  },
+  {
+    "id": 11,
+    "global_id": 11,
+    "title": "問11",
+    "prompt": "次の 3 種類の無色の水溶液 X，Y，Z があり，それぞれ酢酸ナトリウム水溶液，炭酸水素ナトリウム水溶液，希塩酸のいずれかである。3 つを区別するための実験操作として最も適当なものを，下の①〜⑤のうちから一つ選べ。",
+    "choices": [
+      {"id":1,"text":"それぞれにアンモニア水を加え，色変化を観察する。","explanation_zh":"陷阱：反应条件漏。三者均无显著色变。","explanation_ja":"誤り。反応条件見落としの罠。三者ともアンモニア水で顕著な色変化を示さず区別不能。"},
+      {"id":2,"text":"それぞれにフェノールフタレインを加え，色変化を観察する。","explanation_zh":"陷阱：反应条件漏。酸碱性差异虽可见，但酢酸钠和碳酸氢钠都呈碱性，难以区分二者。","explanation_ja":"誤り。反応条件見落としの罠。希塩酸は無色，酢酸ナトリウム水溶液・炭酸水素ナトリウム水溶液はいずれも弱塩基性のため，二者の区別ができない。"},
+      {"id":3,"text":"それぞれを蒸発乾固して残渣を観察する。","explanation_zh":"陷阱：反应条件漏。残渣均可呈白色，区分困难。","explanation_ja":"誤り。反応条件見落としの罠。蒸発残渣だけでは塩種の判定が困難。"},
+      {"id":4,"text":"それぞれに希塩酸を加えて，気体（CO₂）が発生するかを観察し，加熱せずに pH も測定する。","explanation_zh":"正确。HCl 自身不反应；NaHCO₃ + HCl 产 CO₂；CH₃COONa + HCl 無 CO₂；同时碱性强弱区分酢酸钠和炭酸氢钠（CO₃²⁻ 系更碱）。","explanation_ja":"正解。希塩酸を加えると，希塩酸自身は反応せず，炭酸水素ナトリウム水溶液は CO₂ が発生し，酢酸ナトリウム水溶液はガス発生がない。また pH 測定により希塩酸（酸性），酢酸ナトリウム（弱塩基性），炭酸水素ナトリウム（より強い弱塩基性）を区別できる。"},
+      {"id":5,"text":"それぞれを冷却して凝固点を比較する。","explanation_zh":"陷阱：反应条件漏。三者凝固点差异微，无法区分。","explanation_ja":"誤り。反応条件見落としの罠。希薄溶液の凝固点差では実用的に区別不能。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "unit":"II 物質の状態と変化",
+      "sub_domain":"酸・塩基",
+      "question_form":"実験考察",
+      "required_skill":"実験条件判断",
+      "requires_image":false,
+      "trap_patterns":["反応条件見落とし"],
+      "keywords_to_avoid":["CH₃COONa","NaHCO₃","HCl","区別"],
+      "syllabus_path":{"area":"II 物質の状態と変化","field":"化学","item":"1. 物質の変化"}
+    }
+  },
+  {
+    "id": 12,
+    "global_id": 12,
+    "title": "問12",
+    "prompt": "次のハロゲン化水素 a〜d の沸点と酸の強さに関する記述として正しい組合せを，下の①〜⑥のうちから一つ選べ。",
+    "passage": ["a：HCl の沸点は約 −85 °C である。","b：HBr の沸点は HCl より高く HI より低い。","c：水溶液中での酸の強さは，HCl，HBr，HI の順で大きくなる（HI が最も強い）。","d：水溶液中での酸の強さは，分子量の小さい HCl が最も強い。"],
+    "choices": [
+      {"id":1,"text":"a，b，d","explanation_zh":"陷阱：性质例外遗漏。d 错；正确顺序是 HCl < HBr < HI（HI 最强）。","explanation_ja":"誤り。性質の例外見落としの罠。d は誤り。酸の強さは HCl < HBr < HI で HI が最強。"},
+      {"id":2,"text":"a，b，c","explanation_zh":"正确。a、b 沸点正确（隨原子半径增大沸点上升）；c 酸的强度 HCl < HBr < HI 正确。","explanation_ja":"正解。a：HCl の沸点は約 −85 °C で正しい。b：分子量が大きくなるとファンデルワールス力により沸点が上昇するため HCl < HBr < HI（HF を除く）。c：水中での酸の強さは H−X 結合エネルギーが小さいほど強く，HCl < HBr < HI となる。d は誤り。"},
+      {"id":3,"text":"b，c，d","explanation_zh":"陷阱：性质例外遗漏。c d 相互矛盾，d 错。","explanation_ja":"誤り。性質の例外見落としの罠。c と d は逆の内容であり同時に正しくはない。"},
+      {"id":4,"text":"a，c のみ","explanation_zh":"陷阱：性质例外遗漏。b 正确。","explanation_ja":"誤り。性質の例外見落としの罠。b も正しい記述である。"},
+      {"id":5,"text":"c，d のみ","explanation_zh":"陷阱：性质例外遗漏。d 错。","explanation_ja":"誤り。性質の例外見落としの罠。d は誤り。"},
+      {"id":6,"text":"a，d のみ","explanation_zh":"陷阱：性质例外遗漏。d 错。","explanation_ja":"誤り。性質の例外見落としの罠。d は誤り。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "unit":"III 無機化学",
+      "sub_domain":"非金属元素",
+      "question_form":"組合せ",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["性質の例外見落とし"],
+      "keywords_to_avoid":["HF","沸点","強酸","ガラス"],
+      "syllabus_path":{"area":"III 無機化学","field":"化学","item":"1. 無機物質"}
+    }
+  },
+  {
+    "id": 13,
+    "global_id": 13,
+    "title": "問13",
+    "prompt": "次の気体 a，b，c の性質の組合せとして最も適当なものを，下の①〜⑥のうちから一つ選べ。",
+    "passage": ["a：刺激臭をもち，水によく溶け，水溶液はアルカリ性を示す塩基性気体。","b：黄緑色で刺激臭の有色気体，強い酸化作用をもつ。","c：無色，無臭，水に難溶で空気中で燃焼すると青い炎を生じる可燃性気体。"],
+    "choices": [
+      {"id":1,"text":"a：水素，b：酸素，c：アンモニア","explanation_zh":"陷阱：气体性质混淆。H₂ 不是塩基气体。","explanation_ja":"誤り。気体性質混同の罠。水素は塩基性気体ではなく無臭の可燃性気体である。"},
+      {"id":2,"text":"a：アンモニア，b：酸素，c：水素","explanation_zh":"陷阱：气体性质混淆。酸素无色。","explanation_ja":"誤り。気体性質混同の罠。酸素は無色無臭であり黄緑色の有色気体ではない。"},
+      {"id":3,"text":"a：塩素，b：アンモニア，c：水素","explanation_zh":"陷阱：气体性质混淆。塩素是有色气体非塩基性气体。","explanation_ja":"誤り。気体性質混同の罠。塩素は有色の酸化性気体で塩基性ではない。"},
+      {"id":4,"text":"a：アンモニア，b：塩素，c：水素","explanation_zh":"正确。NH₃ 刺激臭碱性；Cl₂ 黄绿色刺激臭氧化性；H₂ 无色无臭可燃。","explanation_ja":"正解。a：アンモニアは刺激臭の塩基性気体で水によく溶ける。b：塩素は黄緑色の刺激臭の気体で強い酸化作用をもつ。c：水素は無色無臭の可燃性気体で空気中で青い炎を上げて燃える。"},
+      {"id":5,"text":"a：塩素，b：水素，c：アンモニア","explanation_zh":"陷阱：气体性质混淆。完全错对。","explanation_ja":"誤り。気体性質混同の罠。各気体の性質と組合せがすべて一致しない。"},
+      {"id":6,"text":"a：水素，b：塩素，c：アンモニア","explanation_zh":"陷阱：气体性质混淆。水素无臭。","explanation_ja":"誤り。気体性質混同の罠。水素は刺激臭ではないし塩基性でもない。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "unit":"III 無機化学",
+      "sub_domain":"非金属元素",
+      "question_form":"組合せ",
+      "required_skill":"性質比較",
+      "requires_image":false,
+      "trap_patterns":["気体性質混同"],
+      "keywords_to_avoid":["Cl₂","N₂","CO₂","SO₂"],
+      "syllabus_path":{"area":"III 無機化学","field":"化学","item":"1. 無機物質"}
+    }
+  },
+  {
+    "id": 14,
+    "global_id": 14,
+    "title": "問14",
+    "prompt": "遷移元素（遷移金属）の一般的な性質に関する次の記述のうち，最も適当なものを，下の①〜④のうちから一つ選べ。",
+    "choices": [
+      {"id":1,"text":"遷移元素はすべて典型元素より密度が小さく，融点も低い。","explanation_zh":"陷阱：性质例外遗漏。多数遷移金属密度大、熔点高。","explanation_ja":"誤り。性質の例外見落としの罠。多くの遷移金属は密度が大きく，融点も典型金属より高い傾向にある。"},
+      {"id":2,"text":"遷移元素は複数の酸化数をとることが多く，多くのイオン・化合物が有色である。","explanation_zh":"正确。遷移金属常有多种氧化数（如 Fe²⁺/Fe³⁺）；d 轨道电子跃迁产色。","explanation_ja":"正解。遷移元素は d 軌道に空きや電子配置の柔軟性があるため複数の酸化数を取りやすく，d-d 遷移により多くの錯イオン・化合物が有色である。"},
+      {"id":3,"text":"遷移元素はすべて典型的な常磁性をもち，例外なく強磁性体となる。","explanation_zh":"陷阱：性质例外遗漏。强磁性是少数（Fe、Co、Ni）特例。","explanation_ja":"誤り。性質の例外見落としの罠。強磁性を示すのは Fe，Co，Ni 等の限られた金属に過ぎず，すべての遷移元素ではない。"},
+      {"id":4,"text":"遷移元素は典型元素と異なり，化学反応性に方向性をもたない。","explanation_zh":"陷阱：性质例外遗漏。意义不明，错。","explanation_ja":"誤り。性質の例外見落としの罠。意味のある区別を示しておらず誤り。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "unit":"III 無機化学",
+      "sub_domain":"金属元素",
+      "question_form":"知識選択",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["性質の例外見落とし"],
+      "keywords_to_avoid":["遷移元素","同周期","有色","密度"],
+      "syllabus_path":{"area":"III 無機化学","field":"化学","item":"1. 無機物質"}
+    }
+  },
+  {
+    "id": 15,
+    "global_id": 15,
+    "title": "問15",
+    "prompt": "ある混合水溶液には，鉛(II) イオン，バリウムイオン，アンモニウムイオン，鉄(III) イオンの 4 つのイオンが含まれている。これらのうち，水酸化ナトリウム水溶液を過剰に加えたときに沈殿として残らないイオンの組合せとして最も適当なものを，下の①〜⑤のうちから一つ選べ。",
+    "choices": [
+      {"id":1,"text":"鉛イオンのみ","explanation_zh":"陷阱：性质例外遗漏。Pb²⁺ 是两性，过量碱中溶。","explanation_ja":"誤り。性質の例外見落としの罠。Pb²⁺ は両性で過剰塩基に溶ける一方，NH₄⁺ も沈殿しない。"},
+      {"id":2,"text":"鉄(III) イオンのみ","explanation_zh":"陷阱：性质例外遗漏。Fe(OH)₃ 在过量碱中不溶（赤褐沉淀）。","explanation_ja":"誤り。性質の例外見落としの罠。Fe³⁺ は Fe(OH)₃ の赤褐色沈殿を生じ過剰塩基にも溶けない。"},
+      {"id":3,"text":"バリウムイオンとアンモニウムイオン","explanation_zh":"陷阱：性质例外遗漏。Ba²⁺ 与 OH⁻ 可生成弱溶 Ba(OH)₂，但 Ba(OH)₂ 在水中溶解度较大不形成沉淀。但 Pb²⁺ 也属于本题考虑。","explanation_ja":"誤り。性質の例外見落としの罠。Ba(OH)₂ は溶解度が比較的大きく沈殿しないが，Pb²⁺ も両性で過剰塩基に溶けるため，これらに加えるべきイオンがある。"},
+      {"id":4,"text":"鉛イオン，バリウムイオン，アンモニウムイオン","explanation_zh":"正确。Pb²⁺ 两性（过量碱中生成 [Pb(OH)₄]²⁻ 溶解）；Ba(OH)₂ 溶解度较大不沉；NH₄⁺ 不沉淀；Fe³⁺ 在 Fe(OH)₃ 红褐沉淀。","explanation_ja":"正解。Pb²⁺ は両性で過剰の NaOH に [Pb(OH)₄]²⁻ として溶ける。Ba(OH)₂ は溶解度が比較的大きく沈殿しない。NH₄⁺ は塩基性下で NH₃ になり水溶液中に残り沈殿しない。一方 Fe³⁺ は Fe(OH)₃ の赤褐色沈殿を生じ，過剰塩基にも溶けない。沈殿しないのはこの 3 種。"},
+      {"id":5,"text":"アンモニウムイオンのみ","explanation_zh":"陷阱：性质例外遗漏。Pb²⁺、Ba²⁺ 也不沉。","explanation_ja":"誤り。性質の例外見落としの罠。Pb²⁺（両性溶解）と Ba²⁺（Ba(OH)₂ 高溶解度）も沈殿しない。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "unit":"III 無機化学",
+      "sub_domain":"金属元素",
+      "question_form":"知識選択",
+      "required_skill":"実験条件判断",
+      "requires_image":false,
+      "trap_patterns":["性質の例外見落とし"],
+      "keywords_to_avoid":["Ag⁺","Cu²⁺","Al³⁺","H₂S"],
+      "syllabus_path":{"area":"III 無機化学","field":"化学","item":"1. 無機物質"}
+    }
+  },
+  {
+    "id": 16,
+    "global_id": 16,
+    "title": "問16",
+    "prompt": "分子式 C₅H₁₀ で表される炭化水素のうち，直鎖の構造をもつ異性体（環状ではないアルケン）の数として最も適当なものを，下の①〜⑤のうちから一つ選べ。シス・トランス異性体も別物と数えるが，直鎖（メチル分岐をもたない）のものに限定する。",
+    "choices": [
+      {"id":1,"text":"1","explanation_zh":"陷阱：异构体混淆。1-戊烯、cis-2-戊烯、trans-2-戊烯共 3 个直链异构体。","explanation_ja":"誤り。構造異性体混同の罠。直鎖 C₅H₁₀ のアルケンには 1-ペンテン，cis-2-ペンテン，trans-2-ペンテンの 3 種類が存在する。"},
+      {"id":2,"text":"2","explanation_zh":"陷阱：异构体混淆。反式/顺式片方数。","explanation_ja":"誤り。構造異性体混同の罠。2-ペンテンの cis と trans を 1 つしか数えていない。"},
+      {"id":3,"text":"4","explanation_zh":"陷阱：异构体混淆。把分支异构体（甲基丁烯）误算。","explanation_ja":"誤り。構造異性体混同の罠。メチル分岐をもつ異性体（メチルブテン）を含めると 4 以上だが，本問は直鎖限定。"},
+      {"id":4,"text":"3","explanation_zh":"正确。直链 C₅H₁₀ 烯烃：1-戊烯、cis-2-戊烯、trans-2-戊烯 共 3 种。","explanation_ja":"正解。直鎖アルケン C₅H₁₀ には，二重結合の位置が 1−2 位の 1-ペンテン，2−3 位の 2-ペンテン（シス・トランスの幾何異性体あり）の合計 3 種類が存在する。"},
+      {"id":5,"text":"5","explanation_zh":"陷阱：异构体混淆。把环戊烷等环状物计入。","explanation_ja":"誤り。構造異性体混同の罠。シクロアルカン（環状）を含めれば数は増えるが，本問は鎖状（直鎖）アルケン限定なので除外。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "unit":"IV 有機化学",
+      "sub_domain":"炭化水素",
+      "question_form":"知識選択",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["構造異性体混同"],
+      "keywords_to_avoid":["C₆H₁₂","アルカン","シクロアルカン","二重結合"],
+      "syllabus_path":{"area":"IV 有機化学","field":"化学","item":"1. 有機化合物の性質と反応"}
+    }
+  },
+  {
+    "id": 17,
+    "global_id": 17,
+    "title": "問17",
+    "prompt": "アルケン CH₃-CH=CH-CH₃（2-ブテン）に臭素を付加させたところ，得られた生成物の構造はどれか。最も適当なものを，下の①〜④のうちから一つ選べ。",
+    "choices": [
+      {"id":1,"text":"CH₂Br-CH=CH-CH₃（モノ付加で二重結合残る）","explanation_zh":"陷阱：异构体混淆。烯烃完全付加，二重结合消失。","explanation_ja":"誤り。構造異性体混同の罠。アルケンへの臭素の付加では二重結合が完全になくなり，C−C 単結合となる。"},
+      {"id":2,"text":"CH₃-CHBr-CH=CH₂","explanation_zh":"陷阱：异构体混淆。位置错。","explanation_ja":"誤り。構造異性体混同の罠。原料の二重結合は 2-3 位にあり，付加は 2-3 位両炭素間に起こる。"},
+      {"id":3,"text":"CH₃-CHBr-CHBr-CH₃（2,3-ジブロモブタン）","explanation_zh":"正确。烯烃二重结合 C2-C3 处发生 Br₂ 加成，每个 sp² 炭加 1 个 Br，得 2,3-二溴丁烷。","explanation_ja":"正解。2-ブテンの二重結合（C2-C3）に Br₂ が付加し，各炭素に 1 つずつ Br が付加して 2,3-ジブロモブタン CH₃-CHBr-CHBr-CH₃ が得られる。"},
+      {"id":4,"text":"CH₂Br-CH₂-CHBr-CH₃（1,3-ジブロモブタン）","explanation_zh":"陷阱：异构体混淆。位置错。","explanation_ja":"誤り。構造異性体混同の罠。Br は二重結合炭素にのみ付加するので 1,3-ジブロモ体は生じない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "unit":"IV 有機化学",
+      "sub_domain":"有機化合物の構造決定",
+      "question_form":"構造判別",
+      "required_skill":"構造推定",
+      "requires_image":false,
+      "trap_patterns":["構造異性体混同"],
+      "keywords_to_avoid":["Cl₂付加","不斉炭素","アルケン","生成物"],
+      "syllabus_path":{"area":"IV 有機化学","field":"化学","item":"1. 有機化合物の性質と反応"}
+    }
+  },
+  {
+    "id": 18,
+    "global_id": 18,
+    "title": "問18",
+    "prompt": "ある鎖式炭化水素 X（モル質量 56 g/mol）2.8 g に十分量の臭素を完全に付加させたところ，臭化物（モル質量 216 g/mol）が 10.8 g 得られた。X 1 分子に付加した Br₂ の数として最も適当なものを，下の①〜⑥のうちから一つ選べ。なお，X の分子式は C₄H₈ と確定している。",
+    "choices": [
+      {"id":1,"text":"0 個","explanation_zh":"陷阱：计量比错。如不付加，质量不变。","explanation_ja":"誤り。係数比誤認の罠。付加していなければモル質量は 56 のままで臭化物にならない。"},
+      {"id":2,"text":"2 個","explanation_zh":"陷阱：计量比错。56+2·160=376，过大。","explanation_ja":"誤り。係数比誤認の罠。Br₂ 2 個付加なら臭化物のモル質量は 56+2×160=376 で，計算値 216 と合わない。"},
+      {"id":3,"text":"3 個","explanation_zh":"陷阱：计量比错。3 个 Br₂ 加得分子量过大。","explanation_ja":"誤り。係数比誤認の罠。3 個付加なら 56+3×160=536 で合わない。"},
+      {"id":4,"text":"4 個","explanation_zh":"陷阱：计量比错。4 个 Br₂ 错。","explanation_ja":"誤り。係数比誤認の罠。4 個付加では 56+4×160=696 となり合わない。"},
+      {"id":5,"text":"0.5 個","explanation_zh":"陷阱：计量比错。1 分子加 Br₂ 不能取半数。","explanation_ja":"誤り。係数比誤認の罠。1 分子あたりの Br₂ 付加数は整数値しか取り得ない。"},
+      {"id":6,"text":"1 個","explanation_zh":"正确。X 0.050 mol → 臭化物 10.8/216=0.050 mol；摩尔质量 216=56+160；即每分子加 1 个 Br₂（C=C 1 个）。","explanation_ja":"正解。X の物質量 = 2.8/56 = 0.050 mol。臭化物の物質量 = 10.8/216 = 0.050 mol（1:1 対応）。臭化物のモル質量増加 = 216 − 56 = 160 = Br₂ 1 分子分。よって X 1 分子あたり Br₂ 1 個が付加。X は C=C を 1 つもつアルケン（C₄H₈）。"}
+    ],
+    "answer": 6,
+    "tag": {
+      "unit":"IV 有機化学",
+      "sub_domain":"炭化水素",
+      "question_form":"計算選択",
+      "required_skill":"化学式・反応式処理",
+      "requires_image":false,
+      "trap_patterns":["係数比誤認"],
+      "keywords_to_avoid":["CO₂","H₂O","Br₂","分子式"],
+      "syllabus_path":{"area":"IV 有機化学","field":"化学","item":"1. 有機化合物の性質と反応"}
+    }
+  },
+  {
+    "id": 19,
+    "global_id": 19,
+    "title": "問19",
+    "prompt": "次の有機化合物のうち，金属カリウムと反応して気体（水素）を発生するものとして最も適当なものを，下の①〜⑤のうちから一つ選べ。",
+    "choices": [
+      {"id":1,"text":"ジメチルエーテル","explanation_zh":"陷阱：反应条件漏。醚不含活性 H，不与 K 反応。","explanation_ja":"誤り。反応条件見落としの罠。エーテルは O 上に活性水素をもたないため，金属カリウムと反応しない。"},
+      {"id":2,"text":"エタノール","explanation_zh":"正确。乙醇 R-OH 与 K 反应：2 C₂H₅OH + 2 K → 2 C₂H₅OK + H₂↑。","explanation_ja":"正解。エタノールはヒドロキシ基 −OH をもち，金属カリウムと反応して 2 C₂H₅OH + 2 K → 2 C₂H₅OK + H₂↑ のように水素を発生する。"},
+      {"id":3,"text":"アセトン","explanation_zh":"陷阱：反应条件漏。酮无 −OH 反應 K 不发气体。","explanation_ja":"誤り。反応条件見落としの罠。アセトン（プロパノン）はカルボニル基だけで活性水素をもたず，K と反応しない。"},
+      {"id":4,"text":"アセトアルデヒド","explanation_zh":"陷阱：反应条件漏。醛无 −OH 反 K 无气体。","explanation_ja":"誤り。反応条件見落としの罠。アルデヒドの C-H や C=O は K による水素発生反応を起こさない。"},
+      {"id":5,"text":"ベンゼン","explanation_zh":"陷阱：反应条件漏。苯无 −OH，不反应。","explanation_ja":"誤り。反応条件見落としの罠。ベンゼンは芳香環の C-H のみで，金属カリウムとは反応しない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "unit":"IV 有機化学",
+      "sub_domain":"酸素を含む有機化合物",
+      "question_form":"知識選択",
+      "required_skill":"構造推定",
+      "requires_image":false,
+      "trap_patterns":["反応条件見落とし"],
+      "keywords_to_avoid":["Na","ケトン","2-propanol","構造式"],
+      "syllabus_path":{"area":"IV 有機化学","field":"化学","item":"1. 有機化合物の性質と反応"}
+    }
+  },
+  {
+    "id": 20,
+    "global_id": 20,
+    "title": "問20",
+    "prompt": "次の有機化合物 a〜d のうち，いわゆる「特定の酸化試薬とアルカリ条件下で反応して，特徴的な黄色沈殿（黄色のハロゲン化メチル化合物）を与える反応」を起こすものはどれか。最も適当なものを，下の①〜⑥のうちから一つ選べ。\na：アセトアルデヒド  b：プロパノン（アセトン）  c：エタノール  d：n-プロパノール",
+    "choices": [
+      {"id":1,"text":"a のみ","explanation_zh":"陷阱：反应条件漏。c 乙醇 也阳性，b 丙酮 也阳性。","explanation_ja":"誤り。反応条件見落としの罠。CH₃−CO−R または CH₃−CH(OH)−R 構造をもつ b・c も陽性反応を示す。"},
+      {"id":2,"text":"b のみ","explanation_zh":"陷阱：反应条件漏。a, c 也阳性。","explanation_ja":"誤り。反応条件見落としの罠。a，c も該当反応を起こす。"},
+      {"id":3,"text":"a と b のみ","explanation_zh":"陷阱：反应条件漏。c 乙醇 也阳性。","explanation_ja":"誤り。反応条件見落としの罠。エタノールは CH₃−CH(OH)− 構造をもち本反応で陽性となる。"},
+      {"id":4,"text":"a，b，c","explanation_zh":"正确。CH₃−CO−R（a：乙醛，b：丙酮）和 CH₃−CH(OH)−R（c：乙醇）显阳性；d n-丙醇 CH₃CH₂CH₂OH 无 CH₃−CH(OH)− 结构故阴性。","explanation_ja":"正解。ハロホルム反応（黄色のハロゲン化メチル沈殿を与える反応）は CH₃−CO− 基または CH₃−CH(OH)− 基をもつ化合物で陽性。a（CH₃CHO），b（CH₃COCH₃），c（CH₃CH₂OH）は構造を満たし陽性。d（CH₃CH₂CH₂OH）は CH₃−CH(OH)− 構造ではないため陰性。"},
+      {"id":5,"text":"a，b，d","explanation_zh":"陷阱：反应条件漏。d 不阳性，c 阳性。","explanation_ja":"誤り。反応条件見落としの罠。d は CH₃−CH(OH)− 構造をもたず陰性，c が陽性。"},
+      {"id":6,"text":"a〜d すべて","explanation_zh":"陷阱：反应条件漏。d 不阳性。","explanation_ja":"誤り。反応条件見落としの罠。d は陰性。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "unit":"IV 有機化学",
+      "sub_domain":"酸素を含む有機化合物",
+      "question_form":"知識選択",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["反応条件見落とし"],
+      "keywords_to_avoid":["ヨードホルム反応","沸点","アルコール","エーテル"],
+      "syllabus_path":{"area":"IV 有機化学","field":"化学","item":"1. 有機化合物の性質と反応"}
+    }
+  }
+]
+}

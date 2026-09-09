@@ -1,0 +1,764 @@
+{
+  "subject": "science",
+  "section": "physics",
+  "year": 2009,
+  "round": 1,
+  "title": "物理問題集 第三回",
+  "image_path": "science/physics/images/2009-1",
+  "questions": [
+  {
+    "id": 1,
+    "title": "Ⅰ_A",
+    "prompt": "真空中で，正に帯電した小物体 P が点 A に固定されている。P の帯電量を q とし，A から距離 d のところに正の試験帯電体 (帯電量 q_t) が静止している。",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":1,
+        "prompt":"試験体に作用するクーロン的引き合い／反発の力の大きさを，q, q_t, d を用いた式で正しく表しているのはどれか。クーロン定数を k とする。",
+        "choices":[
+          {"id":1,"text":"F = k q q_t d²","explanation_zh":"陷阱：单位换算错。d 应在分母。","explanation_ja":"誤り。単位換算ミスの罠。d は分母 2 乗。"},
+          {"id":2,"text":"F = k q q_t / d","explanation_zh":"陷阱：单位换算错。d 应平方。","explanation_ja":"誤り。単位換算ミスの罠。d は 2 乗。"},
+          {"id":3,"text":"F = q q_t / (k d²)","explanation_zh":"陷阱：单位换算错。k 应在分子。","explanation_ja":"誤り。単位換算ミスの罠。k は分子。"},
+          {"id":4,"text":"F = k q q_t / d²","explanation_zh":"正确。库仑形式 F=k q q_t/d² 与 SI 单位匹配。","explanation_ja":"正解。クーロンの式 F=k q q_t/d² が SI 系で次元的に正しい。"},
+          {"id":5,"text":"F = k q² q_t / d²","explanation_zh":"陷阱：单位换算错。q 不平方。","explanation_ja":"誤り。単位換算ミスの罠。q は 1 乗。"},
+          {"id":6,"text":"F = k q q_t² / d²","explanation_zh":"陷阱：单位换算错。q_t 不平方。","explanation_ja":"誤り。単位換算ミスの罠。q_t は 1 乗。"}
+        ],
+        "answer":4,
+        "tag":{
+          "unit":"IV 電気と磁気",
+          "sub_domain":"電場・電位",
+          "question_form":"計算選択",
+          "required_skill":"法則・公式適用",
+          "requires_image":false,
+          "trap_patterns":["単位換算ミス"],
+          "keywords_to_avoid":["電気量","電圧","単位"],
+          "syllabus_path":{"area":"IV 電気と磁気","field":"物理","item":"1. 電場"}
+        }
+      }
+    ],
+    "tag": {
+      "unit":"IV 電気と磁気",
+      "sub_domain":"電場・電位",
+      "question_form":"計算選択",
+      "required_skill":"法則・公式適用",
+      "requires_image":false,
+      "trap_patterns":["単位換算ミス"],
+      "keywords_to_avoid":["電気量","電圧","単位"],
+      "syllabus_path":{"area":"IV 電気と磁気","field":"物理","item":"1. 電場"}
+    }
+  },
+  {
+    "id": 2,
+    "title": "Ⅰ_B",
+    "prompt": "なめらかで水平な床上を一様な加速度で運動する小物体 A の位置 x が，原点を 0 とする座標で，0 秒から 4 秒にかけて 0.5 秒ごとに測定された。実験結果として，0 s で x=0 m，0.5 s で x=0.25 m，1 s で x=1.0 m，1.5 s で x=2.25 m，2 s で x=4.0 m，… のように，時刻 t [s] と位置 x [m] が x=t² の関係で表されることが分かった。",
+    "sub_questions": [
+      {
+        "sub_id":2,
+        "global_id":2,
+        "prompt":"この A の加速度の大きさはいくらか。",
+        "choices":[
+          {"id":1,"text":"0.5 m/s²","explanation_zh":"陷阱：图轴读错。x=½at² 比 x=t²，得 a=2，不是 0.5。","explanation_ja":"誤り。値の読み取りミスの罠。x=½at² と比較。"},
+          {"id":2,"text":"1.0 m/s²","explanation_zh":"陷阱：图轴读错。a≠1。","explanation_ja":"誤り。値の読み取りミスの罠。"},
+          {"id":3,"text":"4.0 m/s²","explanation_zh":"陷阱：图轴读错。系数误算。","explanation_ja":"誤り。値の読み取りミスの罠。係数を取り違え。"},
+          {"id":4,"text":"2.0 m/s²","explanation_zh":"正确。x=½at² 与 x=t² 比，得 ½a=1，a=2 m/s²。","explanation_ja":"正解。x=½at² と x=t² より a=2 m/s²。"}
+        ],
+        "answer":4,
+        "tag":{
+          "unit":"I 力学",
+          "sub_domain":"等加速度運動",
+          "question_form":"図表読取",
+          "required_skill":"法則・公式適用",
+          "requires_image":false,
+          "trap_patterns":["グラフ軸読取ミス"],
+          "keywords_to_avoid":["滑り台","時間","距離"],
+          "syllabus_path":{"area":"I 力学","field":"物理","item":"1. 運動と力"}
+        }
+      }
+    ],
+    "tag": {
+      "unit":"I 力学",
+      "sub_domain":"等加速度運動",
+      "question_form":"図表読取",
+      "required_skill":"法則・公式適用",
+      "requires_image":false,
+      "trap_patterns":["グラフ軸読取ミス"],
+      "keywords_to_avoid":["滑り台","時間","距離"],
+      "syllabus_path":{"area":"I 力学","field":"物理","item":"1. 運動と力"}
+    }
+  },
+  {
+    "id": 3,
+    "title": "Ⅰ_C",
+    "prompt": "なめらかな水平面で静止していた質量 m の小物体 A に，水平方向に大きさ F の一定の外力を 距離 L にわたり加え続けた。摩擦は無視できる。",
+    "sub_questions": [
+      {
+        "sub_id":3,
+        "global_id":3,
+        "prompt":"区間 L を通過した直後の A の運動エネルギー K はいくらか。",
+        "choices":[
+          {"id":1,"text":"FL/2","explanation_zh":"陷阱：条件遗漏。功定义 W=FL，没有 1/2。","explanation_ja":"誤り。条件見落としの罠。仕事は FL。"},
+          {"id":2,"text":"F²L²/(2m)","explanation_zh":"陷阱：条件遗漏。这是从冲量推动能的混合误算。","explanation_ja":"誤り。条件見落としの罠。式が混在。"},
+          {"id":3,"text":"FL","explanation_zh":"正确。外力做的功 W=FL 转化为动能，K=FL。","explanation_ja":"正解。外力の仕事 W=FL が運動エネルギーに変換 K=FL。"},
+          {"id":4,"text":"FL²","explanation_zh":"陷阱：条件遗漏。L 不平方。","explanation_ja":"誤り。条件見落としの罠。L は 1 乗。"},
+          {"id":5,"text":"F²L/m","explanation_zh":"陷阱：条件遗漏。式形误。","explanation_ja":"誤り。条件見落としの罠。式形誤り。"},
+          {"id":6,"text":"mFL","explanation_zh":"陷阱：条件遗漏。m 不应再乘。","explanation_ja":"誤り。条件見落としの罠。m は不要。"}
+        ],
+        "answer":3,
+        "tag":{
+          "unit":"I 力学",
+          "sub_domain":"仕事とエネルギー",
+          "question_form":"計算選択",
+          "required_skill":"法則・公式適用",
+          "requires_image":false,
+          "trap_patterns":["条件見落とし"],
+          "keywords_to_avoid":["高さ","速さ","投射台"],
+          "syllabus_path":{"area":"I 力学","field":"物理","item":"2. エネルギーと運動量"}
+        }
+      }
+    ],
+    "tag": {
+      "unit":"I 力学",
+      "sub_domain":"仕事とエネルギー",
+      "question_form":"計算選択",
+      "required_skill":"法則・公式適用",
+      "requires_image":false,
+      "trap_patterns":["条件見落とし"],
+      "keywords_to_avoid":["高さ","速さ","投射台"],
+      "syllabus_path":{"area":"I 力学","field":"物理","item":"2. エネルギーと運動量"}
+    }
+  },
+  {
+    "id": 4,
+    "title": "Ⅰ_D",
+    "prompt": "なめらかな水平面で，質量 m の物体 A が正方向に速度 v で運動し，静止している同質量 m の物体 B に衝突した。衝突後 A と B が一体となって運動した。",
+    "sub_questions": [
+      {
+        "sub_id":4,
+        "global_id":4,
+        "prompt":"衝突直前と直後の運動エネルギーの差 ΔK（散逸量）はいくらか。",
+        "choices":[
+          {"id":1,"text":"0","explanation_zh":"陷阱：条件遗漏。完全非弹性碰撞动能不守恒。","explanation_ja":"誤り。条件見落としの罠。完全非弾性で運動エネルギーは保存されない。"},
+          {"id":2,"text":"mv²/3","explanation_zh":"陷阱：条件遗漏。系数误算。","explanation_ja":"誤り。条件見落としの罠。係数を取り違え。"},
+          {"id":3,"text":"mv²/2","explanation_zh":"陷阱：条件遗漏。这是 A 的初动能本身，差不全等于此。","explanation_ja":"誤り。条件見落としの罠。これは A の初運動エネルギー。"},
+          {"id":4,"text":"mv²","explanation_zh":"陷阱：条件遗漏。差比初动能大。","explanation_ja":"誤り。条件見落としの罠。差は初運動エネルギーより大きくない。"},
+          {"id":5,"text":"mv²/8","explanation_zh":"陷阱：条件遗漏。系数误算。","explanation_ja":"誤り。条件見落としの罠。係数誤り。"},
+          {"id":6,"text":"mv²/4","explanation_zh":"正确。衝突前 K_i=mv²/2，衝突後 V=v/2，K_f=½(2m)(v/2)²=mv²/4，故 ΔK=mv²/2-mv²/4=mv²/4。","explanation_ja":"正解。衝突前 K_i=mv²/2，衝突後 V=v/2 で K_f=mv²/4。ΔK=mv²/2-mv²/4=mv²/4。"}
+        ],
+        "answer":6,
+        "tag":{
+          "unit":"I 力学",
+          "sub_domain":"運動量・力積",
+          "question_form":"計算選択",
+          "required_skill":"法則・公式適用",
+          "requires_image":false,
+          "trap_patterns":["条件見落とし"],
+          "keywords_to_avoid":["振り子","角度","台"],
+          "syllabus_path":{"area":"I 力学","field":"物理","item":"2. エネルギーと運動量"}
+        }
+      }
+    ],
+    "tag": {
+      "unit":"I 力学",
+      "sub_domain":"運動量・力積",
+      "question_form":"計算選択",
+      "required_skill":"法則・公式適用",
+      "requires_image":false,
+      "trap_patterns":["条件見落とし"],
+      "keywords_to_avoid":["振り子","角度","台"],
+      "syllabus_path":{"area":"I 力学","field":"物理","item":"2. エネルギーと運動量"}
+    }
+  },
+  {
+    "id": 5,
+    "title": "Ⅰ_E",
+    "prompt": "なめらかで水平な床の上で，物体 P と物体 Q は完全弾性的な接触の後に互いに分離した。接触前は P が速度 v_P で右向きに，Q は静止。摩擦は無く，1 次元の運動を考える。",
+    "sub_questions": [
+      {
+        "sub_id":5,
+        "global_id":5,
+        "prompt":"接触前後で，全体の運動量と全体の運動エネルギーについて正しい組合せはどれか。",
+        "choices":[
+          {"id":1,"text":"運動量保存しない，運動エネルギー保存","explanation_zh":"陷阱：守恒律选错。外力为 0 时动量必守恒。","explanation_ja":"誤り。保存則選択ミスの罠。外力なしで運動量保存。"},
+          {"id":2,"text":"運動量保存，運動エネルギー保存","explanation_zh":"正确。完全弹性接触：水平外力为 0 故动量守恒；完全弹性因此运动能量守恒。","explanation_ja":"正解。完全弾性の接触：運動量保存かつ運動エネルギー保存。"},
+          {"id":3,"text":"運動量保存，運動エネルギー減少","explanation_zh":"陷阱：守恒律选错。完全弹性碰撞动能不减。","explanation_ja":"誤り。保存則選択ミスの罠。完全弾性は減らない。"},
+          {"id":4,"text":"運動量保存しない，運動エネルギー減少","explanation_zh":"陷阱：守恒律选错。两条都错。","explanation_ja":"誤り。保存則選択ミスの罠。両方誤り。"},
+          {"id":5,"text":"運動量増加，運動エネルギー保存","explanation_zh":"陷阱：守恒律选错。外力为 0 时动量不增。","explanation_ja":"誤り。保存則選択ミスの罠。外力 0 で増加しない。"}
+        ],
+        "answer":2,
+        "tag":{
+          "unit":"I 力学",
+          "sub_domain":"運動量・力積",
+          "question_form":"計算選択",
+          "required_skill":"法則・公式適用",
+          "requires_image":false,
+          "trap_patterns":["保存則選択ミス"],
+          "keywords_to_avoid":["ばね","弾性衝突","質量"],
+          "syllabus_path":{"area":"I 力学","field":"物理","item":"2. エネルギーと運動量"}
+        }
+      }
+    ],
+    "tag": {
+      "unit":"I 力学",
+      "sub_domain":"運動量・力積",
+      "question_form":"計算選択",
+      "required_skill":"法則・公式適用",
+      "requires_image":false,
+      "trap_patterns":["保存則選択ミス"],
+      "keywords_to_avoid":["ばね","弾性衝突","質量"],
+      "syllabus_path":{"area":"I 力学","field":"物理","item":"2. エネルギーと運動量"}
+    }
+  },
+  {
+    "id": 6,
+    "title": "Ⅰ_F",
+    "prompt": "質量 m の小物体 P が，水平な床から鉛直に立つ堅い固定面に対して，水平方向に速度 v で 1 回だけ垂直に接触し，反発係数 e (0<e<1) で跳ね返って同じ経路で戻る。",
+    "sub_questions": [
+      {
+        "sub_id":6,
+        "global_id":6,
+        "prompt":"P が固定面から受けた力積の大きさはいくらか。",
+        "choices":[
+          {"id":1,"text":"mv(1-e)","explanation_zh":"陷阱：条件遗漏。漏掉反向项中应取加号。","explanation_ja":"誤り。条件見落としの罠。衝突後の向き反転で符号を取り違え。"},
+          {"id":2,"text":"mv(1+e)","explanation_zh":"正确。力积 = m(v_after - v_before) = m(ev-(-v)) = mv(1+e)。","explanation_ja":"正解。力積=Δp=m(ev-(-v))=mv(1+e)。"},
+          {"id":3,"text":"mve","explanation_zh":"陷阱：条件遗漏。漏掉入射动量项。","explanation_ja":"誤り。条件見落としの罠。入射動量を考慮していない。"},
+          {"id":4,"text":"2mv","explanation_zh":"陷阱：条件遗漏。这是完全弹性 e=1 时的值。","explanation_ja":"誤り。条件見落としの罠。e=1 の完全弾性のとき。"}
+        ],
+        "answer":2,
+        "tag":{
+          "unit":"I 力学",
+          "sub_domain":"運動量・力積",
+          "question_form":"計算選択",
+          "required_skill":"法則・公式適用",
+          "requires_image":false,
+          "trap_patterns":["条件見落とし"],
+          "keywords_to_avoid":["壁","衝突","回数"],
+          "syllabus_path":{"area":"I 力学","field":"物理","item":"1. 運動と力"}
+        }
+      }
+    ],
+    "tag": {
+      "unit":"I 力学",
+      "sub_domain":"運動量・力積",
+      "question_form":"計算選択",
+      "required_skill":"法則・公式適用",
+      "requires_image":false,
+      "trap_patterns":["条件見落とし"],
+      "keywords_to_avoid":["壁","衝突","回数"],
+      "syllabus_path":{"area":"I 力学","field":"物理","item":"1. 運動と力"}
+    }
+  },
+  {
+    "id": 7,
+    "title": "Ⅰ_G",
+    "prompt": "なめらかで水平な床に固定された点 O を中心とする半径 r の円周上を，質量 m の小球が一定の角周速度 ω で運動している。重力加速度を g とし，円周の運動は水平面内にあるとする。",
+    "sub_questions": [
+      {
+        "sub_id":7,
+        "global_id":7,
+        "prompt":"小球を引いている向心の引きの大きさ T はいくらか。",
+        "choices":[
+          {"id":1,"text":"mr ω","explanation_zh":"陷阱：条件遗漏。这是 mv 形式但缺一次幂。","explanation_ja":"誤り。条件見落としの罠。向心力は ω の 2 乗。"},
+          {"id":2,"text":"mr ω²","explanation_zh":"正确。向心加速度 a=rω²，T=mrω²。","explanation_ja":"正解。向心加速度 a=rω² より T=mrω²。"},
+          {"id":3,"text":"mr²ω","explanation_zh":"陷阱：条件遗漏。r 不平方。","explanation_ja":"誤り。条件見落としの罠。r は 1 乗。"},
+          {"id":4,"text":"m ω²/r","explanation_zh":"陷阱：条件遗漏。r 应在分子。","explanation_ja":"誤り。条件見落としの罠。r は分子。"},
+          {"id":5,"text":"mr ω²/2","explanation_zh":"陷阱：条件遗漏。系数 1/2 是动能式而非向心。","explanation_ja":"誤り。条件見落としの罠。1/2 は運動エネルギー式の係数。"},
+          {"id":6,"text":"mg","explanation_zh":"陷阱：条件遗漏。这是重力，不是向心。","explanation_ja":"誤り。条件見落としの罠。これは重力。"}
+        ],
+        "answer":2,
+        "tag":{
+          "unit":"I 力学",
+          "sub_domain":"円運動",
+          "question_form":"計算選択",
+          "required_skill":"法則・公式適用",
+          "requires_image":false,
+          "trap_patterns":["条件見落とし"],
+          "keywords_to_avoid":["半球","接触","速さ"],
+          "syllabus_path":{"area":"I 力学","field":"物理","item":"3. さまざまな力と運動"}
+        }
+      }
+    ],
+    "tag": {
+      "unit":"I 力学",
+      "sub_domain":"円運動",
+      "question_form":"計算選択",
+      "required_skill":"法則・公式適用",
+      "requires_image":false,
+      "trap_patterns":["条件見落とし"],
+      "keywords_to_avoid":["半球","接触","速さ"],
+      "syllabus_path":{"area":"I 力学","field":"物理","item":"3. さまざまな力と運動"}
+    }
+  },
+  {
+    "id": 8,
+    "title": "Ⅱ_A",
+    "prompt": "断熱容器の中に，比熱 c [J/(kg·K)]，質量 4m [kg] の物質 P を初期 T₀ [K] で入れる。これに，同じ比熱 c で質量 m，初期 5T₀ の物質 P を加え十分に時間が経った。容器および外部との熱のやりとりはない。",
+    "sub_questions": [
+      {
+        "sub_id":2,
+        "global_id":8,
+        "prompt":"両者が熱平衡に達したときの平衡値はいくらか。",
+        "choices":[
+          {"id":1,"text":"T₀","explanation_zh":"陷阱：条件遗漏。加热部分必使平衡值高于 T₀。","explanation_ja":"誤り。条件見落としの罠。加熱体があるので平衡値は T₀ より高い。"},
+          {"id":2,"text":"9T₀/5","explanation_zh":"正确。能量守恒：4mc(T-T₀)=mc(5T₀-T)，得 T=9T₀/5。","explanation_ja":"正解。熱量保存 4mc(T-T₀)=mc(5T₀-T) より T=9T₀/5。"},
+          {"id":3,"text":"3T₀","explanation_zh":"陷阱：条件遗漏。算法误。","explanation_ja":"誤り。条件見落としの罠。重み付けを誤った。"},
+          {"id":4,"text":"5T₀/4","explanation_zh":"陷阱：条件遗漏。系数误算。","explanation_ja":"誤り。条件見落としの罠。係数誤り。"}
+        ],
+        "answer":2,
+        "tag":{
+          "unit":"II 熱",
+          "sub_domain":"熱量・比熱",
+          "question_form":"計算選択",
+          "required_skill":"法則・公式適用",
+          "requires_image":false,
+          "trap_patterns":["条件見落とし"],
+          "keywords_to_avoid":["水","氷","温度"],
+          "syllabus_path":{"area":"II 熱","field":"物理","item":"1. 熱と温度"}
+        }
+      }
+    ],
+    "tag": {
+      "unit":"II 熱",
+      "sub_domain":"熱量・比熱",
+      "question_form":"計算選択",
+      "required_skill":"法則・公式適用",
+      "requires_image":false,
+      "trap_patterns":["条件見落とし"],
+      "keywords_to_avoid":["水","氷","温度"],
+      "syllabus_path":{"area":"II 熱","field":"物理","item":"1. 熱と温度"}
+    }
+  },
+  {
+    "id": 9,
+    "title": "Ⅱ_B",
+    "prompt": "断面積 S の断熱性シリンダーに，なめらかに摺動する軽い仕切りが閉じ込めた単原子分子理想ガス n モルがある。仕切りの位置は底から L で，状態は (p₀, V₀=SL, T₀)。次に，仕切りを準静的にゆっくり押し下げて高さを L/2 にする等温過程を行う。",
+    "sub_questions": [
+      {
+        "sub_id":2,
+        "global_id":9,
+        "prompt":"等温過程でガスに加えた仕事 W の値はいくらか。",
+        "choices":[
+          {"id":1,"text":"nRT₀ ln 2","explanation_zh":"陷阱：条件遗漏。系数错位（符号或形式）。","explanation_ja":"誤り。条件見落としの罠。係数を取り違え。"},
+          {"id":2,"text":"p₀V₀","explanation_zh":"陷阱：条件遗漏。等温过程不是 pV。","explanation_ja":"誤り。条件見落としの罠。等温過程の仕事は対数形。"},
+          {"id":3,"text":"p₀V₀/2","explanation_zh":"陷阱：条件遗漏。粗估而已。","explanation_ja":"誤り。条件見落としの罠。粗い見積もり。"},
+          {"id":4,"text":"p₀V₀ ln 2","explanation_zh":"正确。W=nRT₀ ln(V₁/V₂)=p₀V₀ ln 2（注意外力压缩，W 是对气体所做的正功）。","explanation_ja":"正解。等温で W=nRT₀ ln(V₁/V₂)=p₀V₀ ln 2 が外力からガスへの仕事。"},
+          {"id":5,"text":"2p₀V₀","explanation_zh":"陷阱：条件遗漏。系数错。","explanation_ja":"誤り。条件見落としの罠。係数誤り。"}
+        ],
+        "answer":4,
+        "tag":{
+          "unit":"II 熱",
+          "sub_domain":"気体分子運動論",
+          "question_form":"計算選択",
+          "required_skill":"法則・公式適用",
+          "requires_image":false,
+          "trap_patterns":["条件見落とし"],
+          "keywords_to_avoid":["気体","断熱壁","圧力"],
+          "syllabus_path":{"area":"II 熱","field":"物理","item":"2. 気体の性質"}
+        }
+      },
+      {
+        "sub_id":3,
+        "global_id":10,
+        "prompt":"上記の等温過程でガスが外界から受け取った熱量 Q はいくらか。",
+        "choices":[
+          {"id":1,"text":"0","explanation_zh":"陷阱：条件遗漏。等温过程不绝热。","explanation_ja":"誤り。条件見落としの罠。等温は断熱ではない。"},
+          {"id":2,"text":"+p₀V₀ ln 2","explanation_zh":"陷阱：条件遗漏。等温过程压缩时气体放热。","explanation_ja":"誤り。条件見落としの罠。等温圧縮ではガスが熱を放出。"},
+          {"id":3,"text":"+nRT₀ ln 2","explanation_zh":"陷阱：条件遗漏。符号取错。","explanation_ja":"誤り。条件見落としの罠。符号誤り。"},
+          {"id":4,"text":"-p₀V₀","explanation_zh":"陷阱：条件遗漏。式形不对。","explanation_ja":"誤り。条件見落としの罠。式形誤り。"},
+          {"id":5,"text":"-p₀V₀ ln 2","explanation_zh":"正确。等温过程内能不变 ΔU=0，Q=ΔU-W_on=−W_on=−p₀V₀ ln 2，气体放出热量。","explanation_ja":"正解。等温で ΔU=0，外力からの仕事 W=p₀V₀ ln 2 がそのまま熱として放出され Q=-p₀V₀ ln 2。"},
+          {"id":6,"text":"-nRT₀/2","explanation_zh":"陷阱：条件遗漏。式形不对。","explanation_ja":"誤り。条件見落としの罠。式形誤り。"}
+        ],
+        "answer":5,
+        "tag":{
+          "unit":"II 熱",
+          "sub_domain":"気体分子運動論",
+          "question_form":"計算選択",
+          "required_skill":"法則・公式適用",
+          "requires_image":false,
+          "trap_patterns":["条件見落とし"],
+          "keywords_to_avoid":["気体","断熱壁","圧力"],
+          "syllabus_path":{"area":"II 熱","field":"物理","item":"2. 気体の性質"}
+        }
+      }
+    ],
+    "tag": {
+      "unit":"II 熱",
+      "sub_domain":"気体分子運動論",
+      "question_form":"計算選択",
+      "required_skill":"法則・公式適用",
+      "requires_image":false,
+      "trap_patterns":["条件見落とし"],
+      "keywords_to_avoid":["気体","断熱壁","圧力"],
+      "syllabus_path":{"area":"II 熱","field":"物理","item":"2. 気体の性質"}
+    }
+  },
+  {
+    "id": 10,
+    "title": "Ⅲ_A",
+    "prompt": "単原子分子理想ガスの状態が次の閉じた経路で動く：A→B→C→A。A→B は等積で押し量が p₀ から 3p₀ へ。B→C は等圧で体積が V₀ から 2V₀ へ。C→A は折れ線（直線）で元に戻る。",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":11,
+        "prompt":"1 周回でガスがした正味の仕事 W_net について正しい組合せはどれか。(a) 値，(b) 符号。",
+        "choices":[
+          {"id":1,"text":"(a) 0 (b) 0","explanation_zh":"陷阱：条件遗漏。p-V 三角面积应较大。","explanation_ja":"誤り。条件見落としの罠。p-V 三角の面積を取り違え。"},
+          {"id":2,"text":"(a) p₀V₀ (b) 負","explanation_zh":"陷阱：条件遗漏。顺时针周回功为正。","explanation_ja":"誤り。条件見落としの罠。時計回り周回は正の仕事。"},
+          {"id":3,"text":"(a) 2p₀V₀ (b) 負","explanation_zh":"陷阱：条件遗漏。符号反。","explanation_ja":"誤り。条件見落としの罠。符号誤り。"},
+          {"id":4,"text":"(a) p₀V₀ (b) 正","explanation_zh":"正确。p-V 图中循环面积 = (1/2)(3p₀-p₀)·(2V₀-V₀) = p₀V₀，顺时针表示气体做正功。","explanation_ja":"正解。p-V 図の循環面積 (1/2)(3p₀-p₀)(2V₀-V₀)=p₀V₀，時計回りで正の仕事。"}
+        ],
+        "answer":4,
+        "tag":{
+          "unit":"II 熱",
+          "sub_domain":"熱力学第一法則",
+          "question_form":"組合せ",
+          "required_skill":"法則・公式適用",
+          "requires_image":false,
+          "trap_patterns":["条件見落とし"],
+          "keywords_to_avoid":["サイクル","熱機関","U"],
+          "syllabus_path":{"area":"II 熱","field":"物理","item":"3. 気体の状態変化"}
+        }
+      }
+    ],
+    "tag": {
+      "unit":"II 熱",
+      "sub_domain":"熱力学第一法則",
+      "question_form":"組合せ",
+      "required_skill":"法則・公式適用",
+      "requires_image":false,
+      "trap_patterns":["条件見落とし"],
+      "keywords_to_avoid":["サイクル","熱機関","U"],
+      "syllabus_path":{"area":"II 熱","field":"物理","item":"3. 気体の状態変化"}
+    }
+  },
+  {
+    "id": 11,
+    "title": "Ⅲ_B",
+    "prompt": "x 軸上を正方向に進む正弦的な振動の伝搬がある。速度 v，振幅 A。時刻 t=0 における y(x) は次の通り：x=0 で y=0，x=λ/4 で y=+A，x=λ/2 で y=0，x=3λ/4 で y=-A，x=λ で y=0。",
+    "sub_questions": [
+      {
+        "sub_id":2,
+        "global_id":12,
+        "prompt":"時刻 t=0 における位置 x=λ/4 にある媒質点の，その後の運動として正しいものはどれか。",
+        "choices":[
+          {"id":1,"text":"正方向にさらに増加して +A を超える","explanation_zh":"陷阱：初始条件混同。该处已在最大变位。","explanation_ja":"誤り。初期条件混同の罠。最大変位を超えない。"},
+          {"id":2,"text":"そのまま +A で静止し続ける","explanation_zh":"陷阱：初始条件混同。最大変位処媒质点是瞬时静止，但仍在振动周期中。","explanation_ja":"誤り。初期条件混同の罠。最大変位は瞬間静止だが振動継続。"},
+          {"id":3,"text":"負方向（y 軸下向き）に向かう","explanation_zh":"正确。x=λ/4 处此刻 y=+A 是最大变位，下一瞬间向 y=0 方向（即 y 减少）移动。","explanation_ja":"正解。x=λ/4 で y=+A は最大変位。直後は y 方向減少（負方向）に動く。"},
+          {"id":4,"text":"x 方向に進む","explanation_zh":"陷阱：初始条件混同。媒質点不平动。","explanation_ja":"誤り。初期条件混同の罠。媒質点は伝播しない。"},
+          {"id":5,"text":"振幅が変化して 2A になる","explanation_zh":"陷阱：初始条件混同。振幅恒定。","explanation_ja":"誤り。初期条件混同の罠。振幅は一定。"},
+          {"id":6,"text":"周期が変化する","explanation_zh":"陷阱：初始条件混同。周期不变。","explanation_ja":"誤り。初期条件混同の罠。周期は一定。"}
+        ],
+        "answer":3,
+        "tag":{
+          "unit":"III 波",
+          "sub_domain":"波の性質",
+          "question_form":"計算選択",
+          "required_skill":"概念理解",
+          "requires_image":false,
+          "trap_patterns":["初期条件混同"],
+          "keywords_to_avoid":["波","固定端","反射"],
+          "syllabus_path":{"area":"III 波","field":"物理","item":"1. 波"}
+        }
+      }
+    ],
+    "tag": {
+      "unit":"III 波",
+      "sub_domain":"波の性質",
+      "question_form":"計算選択",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["初期条件混同"],
+      "keywords_to_avoid":["波","固定端","反射"],
+      "syllabus_path":{"area":"III 波","field":"物理","item":"1. 波"}
+    }
+  },
+  {
+    "id": 12,
+    "title": "Ⅲ_C",
+    "prompt": "音源 S が毎秒振動回数 f₀ の音を出して静止している。観測者 O が音源に向かって速度 u で近づいている。空気中の音の伝わる速度を V とし，u<V とする。次の (a) O が観測する毎秒振動回数 f' の式，(b) 音源と観測者の相対速度の符号，について組合せを答える。",
+    "sub_questions": [
+      {
+        "sub_id":3,
+        "global_id":13,
+        "prompt":"(a) f' の式 と (b) 観測者から見たときの音源との相対進近の符号，について組合せはどれか。",
+        "choices":[
+          {"id":1,"text":"(a) f'=f₀ (V-u)/V  (b) 負（遠ざかる）","explanation_zh":"陷阱：符号方向混同。这个 f' 公式正确，但还需选其他选项一致。","explanation_ja":"誤り。組合せが (2) と異なるので注意。"},
+          {"id":2,"text":"(a) f'=f₀ (V+u)/V  (b) 正（近づく）","explanation_zh":"正确。观测者向源运动 f'=f₀(V+u)/V，近因此相対符号正。","explanation_ja":"正解。観測者が音源に向かう場合 f'=f₀(V+u)/V，相対進近は正。"},
+          {"id":3,"text":"(a) f'=f₀ (V-u)/V  (b) 正","explanation_zh":"陷阱：符号方向混同。被近時 f' 增大，分子应加。","explanation_ja":"誤り。符号・向き混同の罠。近づくと f' は増大。"},
+          {"id":4,"text":"(a) f'=f₀ V/(V-u)  (b) 正","explanation_zh":"陷阱：符号方向混同。这是源运动观测者静止情形。","explanation_ja":"誤り。符号・向き混同の罠。これは音源が動く場合。"},
+          {"id":5,"text":"(a) f'=f₀ V/(V+u)  (b) 負","explanation_zh":"陷阱：符号方向混同。式与符号皆错。","explanation_ja":"誤り。符号・向き混同の罠。両方誤り。"},
+          {"id":6,"text":"(a) f'=f₀ (V+u)/V  (b) 負","explanation_zh":"陷阱：符号方向混同。符号方向错。","explanation_ja":"誤り。符号・向き混同の罠。符号誤り。"},
+          {"id":7,"text":"(a) f'=f₀  (b) 正","explanation_zh":"陷阱：符号方向混同。相对运动 f 必变。","explanation_ja":"誤り。符号・向き混同の罠。相対運動で f は変化する。"},
+          {"id":8,"text":"(a) f'=f₀ (V-u)/V  (b) 負","explanation_zh":"陷阱：符号方向混同。两个均错。","explanation_ja":"誤り。符号・向き混同の罠。両方誤り。"}
+        ],
+        "answer":2,
+        "tag":{
+          "unit":"III 波",
+          "sub_domain":"音波",
+          "question_form":"組合せ",
+          "required_skill":"法則・公式適用",
+          "requires_image":false,
+          "trap_patterns":["符号・向き混同"],
+          "keywords_to_avoid":["救急車","電車","振動数"],
+          "syllabus_path":{"area":"III 波","field":"物理","item":"2. 音"}
+        }
+      }
+    ],
+    "tag": {
+      "unit":"III 波",
+      "sub_domain":"音波",
+      "question_form":"組合せ",
+      "required_skill":"法則・公式適用",
+      "requires_image":false,
+      "trap_patterns":["符号・向き混同"],
+      "keywords_to_avoid":["救急車","電車","振動数"],
+      "syllabus_path":{"area":"III 波","field":"物理","item":"2. 音"}
+    }
+  },
+  {
+    "id": 13,
+    "title": "Ⅳ_A",
+    "prompt": "厚さ d の透明な平板（光速比は問題で問わない）の片面に，単色光が真空から入射角 θ で当たり，平板の上面と下面それぞれで戻ってきた 2 つの光が干渉して観測される。",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":14,
+        "prompt":"次の記述のうち正しいものはどれか。",
+        "choices":[
+          {"id":1,"text":"干渉条件は入射角 θ に依存しない","explanation_zh":"陷阱：条件遗漏。光程差与入射角有关。","explanation_ja":"誤り。条件見落としの罠。光路差は入射角に依存する。"},
+          {"id":2,"text":"干渉条件は厚さ d に依存しない","explanation_zh":"陷阱：条件遗漏。光程差直接依赖 d。","explanation_ja":"誤り。条件見落としの罠。光路差は d に依存。"},
+          {"id":3,"text":"明るい干渉条件は光の波長 λ に依存しない","explanation_zh":"陷阱：条件遗漏。干涉直接依赖于波长。","explanation_ja":"誤り。条件見落としの罠。干渉は λ に強く依存。"},
+          {"id":4,"text":"上下面の境界条件で位相シフトを考慮しないと干渉条件を間違える","explanation_zh":"陷阱：条件遗漏。这是描述性的，确实重要但不是主要错误。","explanation_ja":"誤り。条件見落としの罠。記述としては正しいが「最も適切」ではない。"},
+          {"id":5,"text":"観測される干渉は単色光では起こらない","explanation_zh":"陷阱：条件遗漏。单色光也产生干涉。","explanation_ja":"誤り。条件見落としの罠。単色光でも干渉する。"},
+          {"id":6,"text":"干渉条件は d,θ,λ のすべてに依存する","explanation_zh":"正确。光程差=2d cosθ'，并与 λ 比较，因此 d,θ,λ 都影响。","explanation_ja":"正解。光路差 2d cosθ' を λ と比較し干渉条件を決定。"}
+        ],
+        "answer":6,
+        "tag":{
+          "unit":"III 波",
+          "sub_domain":"光波",
+          "question_form":"知識選択",
+          "required_skill":"概念理解",
+          "requires_image":false,
+          "trap_patterns":["条件見落とし"],
+          "keywords_to_avoid":["薄膜","屈折率","反射"],
+          "syllabus_path":{"area":"III 波","field":"物理","item":"3. 光"}
+        }
+      }
+    ],
+    "tag": {
+      "unit":"III 波",
+      "sub_domain":"光波",
+      "question_form":"知識選択",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["条件見落とし"],
+      "keywords_to_avoid":["薄膜","屈折率","反射"],
+      "syllabus_path":{"area":"III 波","field":"物理","item":"3. 光"}
+    }
+  },
+  {
+    "id": 14,
+    "title": "Ⅳ_B",
+    "prompt": "起電力 E（内部の損失 0）の直流源に，値 R の素子 2 個が並列接続されて回路を構成している。閉路に切り替え用の開閉器 S が直列に入っているが，問題では S を閉じた定常状態を考える。",
+    "sub_questions": [
+      {
+        "sub_id":2,
+        "global_id":15,
+        "prompt":"S を閉じた定常状態で，源を流れる電気量の単位時間量と回路全体の消費単位時間エネルギーの組合せはどれか。",
+        "choices":[
+          {"id":1,"text":"(a) E/(2R)  (b) E²/(2R)","explanation_zh":"陷阱：条件遗漏。并联合成是 R/2 故源电流 2E/R。","explanation_ja":"誤り。条件見落としの罠。並列合成は R/2。"},
+          {"id":2,"text":"(a) E/R   (b) E²/R","explanation_zh":"陷阱：条件遗漏。这是单个 R 时的值。","explanation_ja":"誤り。条件見落としの罠。R 1 個のとき。"},
+          {"id":3,"text":"(a) 2E/R  (b) E²/R","explanation_zh":"陷阱：条件遗漏。功率应也加倍。","explanation_ja":"誤り。条件見落としの罠。電力も整合させる必要。"},
+          {"id":4,"text":"(a) 2E/R  (b) 2E²/R","explanation_zh":"正确。并联合成 R/2，源电流 I=E/(R/2)=2E/R，总消费 P=EI=2E²/R。","explanation_ja":"正解。並列合成 R/2，源電流 I=2E/R，総消費 P=EI=2E²/R。"},
+          {"id":5,"text":"(a) E/(R/2)  (b) E²/(R/2)","explanation_zh":"陷阱：条件遗漏。E²/(R/2)=2E²/R 正确，但 (4) 已经包含。","explanation_ja":"誤り。条件見落としの罠。形式は (4) と同等だが (4) が選ばれる。"},
+          {"id":6,"text":"(a) E/(2R)  (b) E²/R","explanation_zh":"陷阱：条件遗漏。两个值不匹配。","explanation_ja":"誤り。条件見落としの罠。整合しない。"}
+        ],
+        "answer":4,
+        "tag":{
+          "unit":"IV 電気と磁気",
+          "sub_domain":"直流回路",
+          "question_form":"組合せ",
+          "required_skill":"法則・公式適用",
+          "requires_image":false,
+          "trap_patterns":["条件見落とし"],
+          "keywords_to_avoid":["コンデンサー","電流","スイッチ"],
+          "syllabus_path":{"area":"IV 電気と磁気","field":"物理","item":"2. 電流"}
+        }
+      }
+    ],
+    "tag": {
+      "unit":"IV 電気と磁気",
+      "sub_domain":"直流回路",
+      "question_form":"組合せ",
+      "required_skill":"法則・公式適用",
+      "requires_image":false,
+      "trap_patterns":["条件見落とし"],
+      "keywords_to_avoid":["コンデンサー","電流","スイッチ"],
+      "syllabus_path":{"area":"IV 電気と磁気","field":"物理","item":"2. 電流"}
+    }
+  },
+  {
+    "id": 15,
+    "title": "Ⅳ_C",
+    "prompt": "実際の直流源は，理想的な起電源（起電作用 ε）と内部の損失 r が直列に組み合わさったものとモデル化される。外部の値 R の素子を端子に接続して定常な単位時間あたり電気量の流れ I が生じる。",
+    "sub_questions": [
+      {
+        "sub_id":3,
+        "global_id":16,
+        "prompt":"外部素子両端に観測される端子値 V_T と外部素子の値 R との関係について，正しいものはどれか。",
+        "choices":[
+          {"id":1,"text":"V_T は R が大きいほど ε に近づく","explanation_zh":"正确。V_T=εR/(R+r)，R→∞ V_T→ε。","explanation_ja":"正解。V_T=εR/(R+r) で R→∞ なら V_T→ε。"},
+          {"id":2,"text":"V_T は R が大きいほど 0 に近づく","explanation_zh":"陷阱：比例关系错。趋势相反。","explanation_ja":"誤り。比例関係誤認の罠。傾向が逆。"},
+          {"id":3,"text":"V_T は R に依存しない","explanation_zh":"陷阱：比例关系错。内部 r 引起依赖。","explanation_ja":"誤り。比例関係誤認の罠。r により依存する。"},
+          {"id":4,"text":"V_T は R に正比例する","explanation_zh":"陷阱：比例关系错。关系是非线性饱和的。","explanation_ja":"誤り。比例関係誤認の罠。線形ではなく飽和的。"}
+        ],
+        "answer":1,
+        "tag":{
+          "unit":"IV 電気と磁気",
+          "sub_domain":"直流回路",
+          "question_form":"知識選択",
+          "required_skill":"概念理解",
+          "requires_image":false,
+          "trap_patterns":["比例関係誤認"],
+          "keywords_to_avoid":["起電力","内部抵抗","電圧"],
+          "syllabus_path":{"area":"IV 電気と磁気","field":"物理","item":"2. 電流"}
+        }
+      }
+    ],
+    "tag": {
+      "unit":"IV 電気と磁気",
+      "sub_domain":"直流回路",
+      "question_form":"知識選択",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["比例関係誤認"],
+      "keywords_to_avoid":["起電力","内部抵抗","電圧"],
+      "syllabus_path":{"area":"IV 電気と磁気","field":"物理","item":"2. 電流"}
+    }
+  },
+  {
+    "id": 16,
+    "title": "Ⅳ_D",
+    "prompt": "起電源 E（内部 0）に，値 R の素子 X と Y が並列接続され，さらに二つの組合せに，蓄電素子 C₁ が並列に接続されている。十分に時間が経って定常状態（電気量の単位時間量が定常）になった。",
+    "sub_questions": [
+      {
+        "sub_id":4,
+        "global_id":17,
+        "prompt":"定常状態で，(a) 素子 X を流れる電気量の単位時間量 I_X，(b) 蓄電素子 C₁ の貯まる量 Q₁，について組合せはどれか。",
+        "choices":[
+          {"id":1,"text":"(a) E/R   (b) 0","explanation_zh":"陷阱：条件遗漏。蓄电源充电完成后是 C₁E 不为 0。","explanation_ja":"誤り。条件見落としの罠。定常では C₁E に充電。"},
+          {"id":2,"text":"(a) E/R   (b) C₁E/2","explanation_zh":"陷阱：条件遗漏。系数错。","explanation_ja":"誤り。条件見落としの罠。係数誤り。"},
+          {"id":3,"text":"(a) E/R   (b) C₁E","explanation_zh":"正确。定常蓄电完毕，C₁ 两端电压=E，Q₁=C₁E。X 仅承担 E/R。","explanation_ja":"正解。定常で C₁ の端子に E がかかり Q₁=C₁E。X の電流 I_X=E/R。"},
+          {"id":4,"text":"(a) E/(2R) (b) C₁E","explanation_zh":"陷阱：条件遗漏。两 R 并联但每个流过 E/R。","explanation_ja":"誤り。条件見落としの罠。並列でも個々の素子には E/R が流れる。"},
+          {"id":5,"text":"(a) 2E/R  (b) C₁E","explanation_zh":"陷阱：条件遗漏。2E/R 是合成。","explanation_ja":"誤り。条件見落としの罠。2E/R は源全体の電流。"},
+          {"id":6,"text":"(a) 0     (b) C₁E","explanation_zh":"陷阱：条件遗漏。素子 X 仍有电流。","explanation_ja":"誤り。条件見落としの罠。X には電流がある。"},
+          {"id":7,"text":"(a) E/R   (b) -C₁E","explanation_zh":"陷阱：条件遗漏。Q 取正绝对值。","explanation_ja":"誤り。条件見落としの罠。蓄電は正値。"},
+          {"id":8,"text":"(a) E/(2R) (b) C₁E/2","explanation_zh":"陷阱：条件遗漏。系数双错。","explanation_ja":"誤り。条件見落としの罠。両方とも係数誤り。"}
+        ],
+        "answer":3,
+        "tag":{
+          "unit":"IV 電気と磁気",
+          "sub_domain":"直流回路",
+          "question_form":"組合せ",
+          "required_skill":"法則・公式適用",
+          "requires_image":false,
+          "trap_patterns":["条件見落とし"],
+          "keywords_to_avoid":["電球","コンデンサー","明るさ"],
+          "syllabus_path":{"area":"IV 電気と磁気","field":"物理","item":"2. 電流"}
+        }
+      }
+    ],
+    "tag": {
+      "unit":"IV 電気と磁気",
+      "sub_domain":"直流回路",
+      "question_form":"組合せ",
+      "required_skill":"法則・公式適用",
+      "requires_image":false,
+      "trap_patterns":["条件見落とし"],
+      "keywords_to_avoid":["電球","コンデンサー","明るさ"],
+      "syllabus_path":{"area":"IV 電気と磁気","field":"物理","item":"2. 電流"}
+    }
+  },
+  {
+    "id": 17,
+    "title": "Ⅳ_E",
+    "prompt": "起電源 ε（内部 0）に，2 個の素子（値 R と 2R）が直列接続され，閉回路を作っている。",
+    "sub_questions": [
+      {
+        "sub_id":5,
+        "global_id":18,
+        "prompt":"値 R の素子と値 2R の素子それぞれの単位時間消費エネルギー P_R, P_{2R} の比 P_R : P_{2R} はいくらか。",
+        "choices":[
+          {"id":1,"text":"1 : 1","explanation_zh":"陷阱：条件遗漏。串联中 I 相同，P=I²R 比与 R 比同。","explanation_ja":"誤り。条件見落としの罠。直列で I 同で P 比は R 比。"},
+          {"id":2,"text":"2 : 1","explanation_zh":"陷阱：条件遗漏。方向反。","explanation_ja":"誤り。条件見落としの罠。値が逆。"},
+          {"id":3,"text":"1 : 4","explanation_zh":"陷阱：条件遗漏。系数误算。","explanation_ja":"誤り。条件見落としの罠。係数誤り。"},
+          {"id":4,"text":"4 : 1","explanation_zh":"陷阱：条件遗漏。系数误算。","explanation_ja":"誤り。条件見落としの罠。係数誤り。"},
+          {"id":5,"text":"1 : 2","explanation_zh":"正确。串联 I 同，P=I²R，P_R/P_{2R}=R/(2R)=1/2。","explanation_ja":"正解。直列で I 同。P_R/P_{2R}=R/(2R)=1/2，比 1:2。"},
+          {"id":6,"text":"2 : 3","explanation_zh":"陷阱：条件遗漏。式形误。","explanation_ja":"誤り。条件見落としの罠。式形誤り。"},
+          {"id":7,"text":"1 : 3","explanation_zh":"陷阱：条件遗漏。错估。","explanation_ja":"誤り。条件見落としの罠。"},
+          {"id":8,"text":"3 : 1","explanation_zh":"陷阱：条件遗漏。错估。","explanation_ja":"誤り。条件見落としの罠。"}
+        ],
+        "answer":5,
+        "tag":{
+          "unit":"IV 電気と磁気",
+          "sub_domain":"直流回路",
+          "question_form":"計算選択",
+          "required_skill":"法則・公式適用",
+          "requires_image":false,
+          "trap_patterns":["条件見落とし"],
+          "keywords_to_avoid":["ダイオード","抵抗","電流"],
+          "syllabus_path":{"area":"IV 電気と磁気","field":"物理","item":"2. 電流"}
+        }
+      }
+    ],
+    "tag": {
+      "unit":"IV 電気と磁気",
+      "sub_domain":"直流回路",
+      "question_form":"計算選択",
+      "required_skill":"法則・公式適用",
+      "requires_image":false,
+      "trap_patterns":["条件見落とし"],
+      "keywords_to_avoid":["ダイオード","抵抗","電流"],
+      "syllabus_path":{"area":"IV 電気と磁気","field":"物理","item":"2. 電流"}
+    }
+  },
+  {
+    "id": 18,
+    "title": "Ⅳ_F",
+    "prompt": "一様な磁束密度 B が紙面に垂直に裏から表へ向かう領域に，水平な 2 本の平行な軌条（間隔 d）が置かれており，長さ d の金属片が軌条に直交して摺動する。軌条の左端どうしを値 R の素子で結ぶ。金属片を一定の速度 v で右向きに引く。摺動の妨げは無視できる。",
+    "sub_questions": [
+      {
+        "sub_id":6,
+        "global_id":19,
+        "prompt":"金属片を一定速度で引くために外力が単位時間にする量 P_ext はいくらか。",
+        "choices":[
+          {"id":1,"text":"Bvd/R","explanation_zh":"陷阱：条件遗漏。这是诱起电流，不是功率。","explanation_ja":"誤り。条件見落としの罠。これは誘導電流。"},
+          {"id":2,"text":"(Bvd)²/(R)","explanation_zh":"陷阱：条件遗漏。形式正确但缺少。再看 (3)。","explanation_ja":"誤り。条件見落としの罠。形式は正確。"},
+          {"id":3,"text":"B²v²d²/R","explanation_zh":"正确。诱起电流 I=Bvd/R，外力恰等于诱起力 F=BId=B²vd²/R，功率 P=Fv=B²v²d²/R。","explanation_ja":"正解。誘導電流 I=Bvd/R，誘導力 F=BId=B²vd²/R，外力の仕事率 P=Fv=B²v²d²/R。"},
+          {"id":4,"text":"Bvd²","explanation_zh":"陷阱：条件遗漏。漏掉除以 R。","explanation_ja":"誤り。条件見落としの罠。R で割っていない。"}
+        ],
+        "answer":3,
+        "tag":{
+          "unit":"IV 電気と磁気",
+          "sub_domain":"電磁誘導",
+          "question_form":"計算選択",
+          "required_skill":"法則・公式適用",
+          "requires_image":false,
+          "trap_patterns":["条件見落とし"],
+          "keywords_to_avoid":["導体棒","磁場","仕事率"],
+          "syllabus_path":{"area":"IV 電気と磁気","field":"物理","item":"3. 電流と磁場"}
+        }
+      }
+    ],
+    "tag": {
+      "unit":"IV 電気と磁気",
+      "sub_domain":"電磁誘導",
+      "question_form":"計算選択",
+      "required_skill":"法則・公式適用",
+      "requires_image":false,
+      "trap_patterns":["条件見落とし"],
+      "keywords_to_avoid":["導体棒","磁場","仕事率"],
+      "syllabus_path":{"area":"IV 電気と磁気","field":"物理","item":"3. 電流と磁場"}
+    }
+  }
+]
+}

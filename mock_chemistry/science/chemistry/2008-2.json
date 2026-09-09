@@ -1,0 +1,506 @@
+{
+  "subject": "science",
+  "section": "chemistry",
+  "year": 2008,
+  "round": 2,
+  "title": "化学問題集 第二回",
+  "image_path": "science/chemistry/images/2008-2",
+  "questions": [
+  {
+    "id": 1,
+    "global_id": 1,
+    "title": "問1",
+    "prompt": "次の粒子 a〜d のうち，ネオン Ne 原子（電子数 10）と同じ電子数をもつものをすべて選ぶとき，最も適当な組合せを，下の①〜⑥のうちから一つ選べ。",
+    "passage": ["a：マグネシウムイオン（2 価の陽イオン，原子番号 12）","b：硫化物イオン（2 価の陰イオン，原子番号 16）","c：酸化物イオン（2 価の陰イオン，原子番号 8）","d：カリウムイオン（1 価の陽イオン，原子番号 19）"],
+    "choices": [
+      {"id":1,"text":"a と c","explanation_zh":"正确。Mg²⁺=12−2=10 个电子；O²⁻=8+2=10 个电子；均与 Ne（10）同电子配置。","explanation_ja":"正解。a の Mg²⁺ は 12−2=10 個の電子，c の O²⁻ は 8+2=10 個の電子をもち，いずれも Ne の電子配置と一致する。b の S²⁻ は 18 個（Ar 配置），d の K⁺ は 18 個（Ar 配置）。"},
+      {"id":2,"text":"a と b","explanation_zh":"陷阱：价数电荷错。S²⁻ 共 18 个电子，与 Ar 同配置。","explanation_ja":"誤り。価数・電荷混同の罠。b の S²⁻ は 18 個の電子で Ar 配置，Ne とは一致しない。"},
+      {"id":3,"text":"c と d","explanation_zh":"陷阱：价数电荷错。K⁺ 共 18 个电子，与 Ar 同配置。","explanation_ja":"誤り。価数・電荷混同の罠。d の K⁺ は 18 個の電子で Ar 配置。"},
+      {"id":4,"text":"b と d","explanation_zh":"陷阱：价数电荷错。两者皆 18 个电子，与 Ar 同配置。","explanation_ja":"誤り。価数・電荷混同の罠。b・d はいずれも Ar 配置でネオンとは一致しない。"},
+      {"id":5,"text":"a と d","explanation_zh":"陷阱：价数电荷错。K⁺ 是 Ar 配置非 Ne。","explanation_ja":"誤り。価数・電荷混同の罠。a は Ne 配置だが d は Ar 配置で異なる。"},
+      {"id":6,"text":"b と c","explanation_zh":"陷阱：价数电荷错。S²⁻ 是 Ar 配置。","explanation_ja":"誤り。価数・電荷混同の罠。b は Ar 配置で，c の Ne 配置と一致しない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "unit":"I 物質の構成",
+      "sub_domain":"原子構造",
+      "question_form":"組合せ",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["価数・電荷混同"],
+      "keywords_to_avoid":["Al³⁺","F⁻","Na⁺","Cl⁻"],
+      "syllabus_path":{"area":"I 物質の構成","field":"化学","item":"2. 物質の構成粒子"}
+    }
+  },
+  {
+    "id": 2,
+    "global_id": 2,
+    "title": "問2",
+    "prompt": "次の記述 a〜c に関して，正しい記述の組合せとして最も適当なものを，下の①〜④のうちから一つ選べ。",
+    "passage": ["a：第 2 周期 14 族の典型元素では，最外殻電子は 4 個ある。","b：第 3 周期 16 族の典型元素では，最外殻電子は 7 個ある。","c：第 1 周期に属する元素は，水素とヘリウムの 2 種類のみである。"],
+    "choices": [
+      {"id":1,"text":"a のみ","explanation_zh":"陷阱：周期表位置错。c 也正确。","explanation_ja":"誤り。周期表位置混同の罠。c の「第 1 周期は H と He の 2 元素のみ」も正しい記述である。"},
+      {"id":2,"text":"b と c","explanation_zh":"陷阱：周期表位置错。b 错误（16 族应为 6 个最外层电子）。","explanation_ja":"誤り。周期表位置混同の罠。第 3 周期 16 族の最外殻電子数は 6 個で，b の「7 個」は誤り。"},
+      {"id":3,"text":"a と b","explanation_zh":"陷阱：周期表位置错。b 错误。","explanation_ja":"誤り。周期表位置混同の罠。b の最外殻電子数は誤りなので組合せが成立しない。"},
+      {"id":4,"text":"a と c","explanation_zh":"正确。a 第 2 周期 14 族（C 等）确为 4 个最外层电子；c 第 1 周期仅 H、He 两个元素；b 16 族最外应为 6 个故错。","explanation_ja":"正解。a：第 2 周期 14 族（炭素族）は最外殻電子 4 個。c：第 1 周期には H と He のみが属する。b は最外殻電子数を誤っているため，正しいのは a と c。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "unit":"I 物質の構成",
+      "sub_domain":"電子配置・周期表",
+      "question_form":"組合せ",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["周期表位置混同"],
+      "keywords_to_avoid":["K殻","L殻","M殻"],
+      "syllabus_path":{"area":"I 物質の構成","field":"化学","item":"2. 物質の構成粒子"}
+    }
+  },
+  {
+    "id": 3,
+    "global_id": 3,
+    "title": "問3",
+    "prompt": "次の元素 a〜d のうち，電気陰性度の値が最も大きい元素はどれか。最も適当なものを，下の①〜⑥のうちから一つ選べ。\na：第 2 周期 1 族  b：第 2 周期 14 族  c：第 2 周期 17 族  d：第 3 周期 1 族  e：第 3 周期 17 族  f：第 4 周期 1 族",
+    "choices": [
+      {"id":1,"text":"a","explanation_zh":"陷阱：周期表位置错。第 2 周期 1 族电气阴性度小。","explanation_ja":"誤り。周期表位置混同の罠。第 2 周期 1 族はアルカリ金属で電気陰性度が小さい。"},
+      {"id":2,"text":"b","explanation_zh":"陷阱：周期表位置错。14 族中等，不及 17 族大。","explanation_ja":"誤り。周期表位置混同の罠。14 族は中庸で，17 族の電気陰性度より小さい。"},
+      {"id":3,"text":"c","explanation_zh":"正确。第 2 周期 17 族（卤素）位于周期表右上，电气阴性度最大。","explanation_ja":"正解。第 2 周期 17 族のハロゲン元素は周期表の右上に位置し，電気陰性度が最大となる（希ガスを除く）。"},
+      {"id":4,"text":"d","explanation_zh":"陷阱：周期表位置错。第 3 周期 1 族电气阴性度小。","explanation_ja":"誤り。周期表位置混同の罠。第 3 周期 1 族は金属性が強く電気陰性度は小さい。"},
+      {"id":5,"text":"e","explanation_zh":"陷阱：周期表位置错。第 3 周期 17 族电气阴性度大但低于第 2 周期同族。","explanation_ja":"誤り。周期表位置混同の罠。同族では周期が下に行くほど電気陰性度は小さくなる。"},
+      {"id":6,"text":"f","explanation_zh":"陷阱：周期表位置错。第 4 周期 1 族电气阴性度极小。","explanation_ja":"誤り。周期表位置混同の罠。第 4 周期 1 族はアルカリ金属でも下位にあり電気陰性度はさらに小さい。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "unit":"I 物質の構成",
+      "sub_domain":"電子配置・周期表",
+      "question_form":"組合せ",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["周期表位置混同"],
+      "keywords_to_avoid":["C","F","Mg","Na","O"],
+      "syllabus_path":{"area":"I 物質の構成","field":"化学","item":"2. 物質の構成粒子"}
+    }
+  },
+  {
+    "id": 4,
+    "global_id": 4,
+    "title": "問4",
+    "prompt": "次の単体 a〜c に関する記述として，下の①〜⑥のうちから最も適当な組合せを一つ選べ。\na：硫黄  b：ケイ素  c：臭素",
+    "choices": [
+      {"id":1,"text":"a：気体，b：固体，c：液体","explanation_zh":"陷阱：性质例外遗漏。硫为固体而非气体。","explanation_ja":"誤り。性質の例外見落としの罠。硫黄は常温で黄色の固体（斜方硫黄など）であり気体ではない。"},
+      {"id":2,"text":"a：固体，b：液体，c：固体","explanation_zh":"陷阱：性质例外遗漏。硅是固体而非液体。","explanation_ja":"誤り。性質の例外見落としの罠。ケイ素は常温で固体（共有結合結晶）であり液体ではない。"},
+      {"id":3,"text":"a：固体，b：固体，c：液体","explanation_zh":"正确。硫和硅常温都是固体；溴是常温下唯一的液体非金属单体。","explanation_ja":"正解。硫黄もケイ素も常温で固体（硫黄は分子結晶，ケイ素は共有結合結晶）。臭素は常温で唯一液体である非金属の単体（赤褐色の液体）。"},
+      {"id":4,"text":"a：液体，b：固体，c：気体","explanation_zh":"陷阱：性质例外遗漏。硫为固体；溴是液体。","explanation_ja":"誤り。性質の例外見落としの罠。硫黄は固体，臭素は液体である。"},
+      {"id":5,"text":"a：固体，b：気体，c：液体","explanation_zh":"陷阱：性质例外遗漏。硅是固体。","explanation_ja":"誤り。性質の例外見落としの罠。ケイ素は固体。"},
+      {"id":6,"text":"a：固体，b：固体，c：固体","explanation_zh":"陷阱：性质例外遗漏。溴是液体。","explanation_ja":"誤り。性質の例外見落としの罠。臭素は常温では液体であり固体ではない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "unit":"I 物質の構成",
+      "sub_domain":"非金属元素",
+      "question_form":"組合せ",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["性質の例外見落とし"],
+      "keywords_to_avoid":["C","Cl","N","P"],
+      "syllabus_path":{"area":"III 無機化学","field":"化学","item":"1. 無機物質"}
+    }
+  },
+  {
+    "id": 5,
+    "global_id": 5,
+    "title": "問5",
+    "prompt": "理想気体に関する次の記述のうち，最も適当なものを下の①〜⑤のうちから一つ選べ。",
+    "choices": [
+      {"id":1,"text":"同温・同圧で同体積の気体は，気体の種類が異なれば質量も等しい。","explanation_zh":"陷阱：物质量与质量混淆。同体积同温同压气体 mol 数相同（阿伏伽德罗），但质量取决于分子量。","explanation_ja":"誤り。物質量と質量混同の罠。アボガドロの法則では同温・同圧・同体積の気体は同物質量であるが，分子量が異なれば質量は異なる。"},
+      {"id":2,"text":"同温・同圧で同体積の気体は，気体の種類によらず分子数が等しい。","explanation_zh":"正确。阿伏伽德罗定律：同温同压同体积气体含分子数相同。","explanation_ja":"正解。アボガドロの法則により，同温・同圧の同体積の気体は気体の種類に関わらず同じ分子数（同じ物質量）をもつ。"},
+      {"id":3,"text":"気体の体積は，気体の質量に常に比例する。","explanation_zh":"陷阱：物质量与质量混淆。体积与 mol 数比例，与质量是分子量倍。","explanation_ja":"誤り。物質量と質量混同の罠。気体の体積は物質量に比例するのであって質量に直接比例するわけではない。"},
+      {"id":4,"text":"気体定数の値は，気体の種類によって異なる。","explanation_zh":"陷阱：物质量与质量混淆。R 是普遍常数与种类无关。","explanation_ja":"誤り。物質量と質量混同の罠。気体定数 R は普遍定数で，気体の種類に依存しない。"},
+      {"id":5,"text":"気体の密度は，温度や圧力に依存しない。","explanation_zh":"陷阱：物质量与质量混淆。密度=PM/RT，温压均会改变密度。","explanation_ja":"誤り。物質量と質量混同の罠。気体の密度は ρ = PM/RT より温度・圧力の両方に依存する。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "unit":"II 物質の状態と変化",
+      "sub_domain":"気体・状態方程式",
+      "question_form":"知識選択",
+      "required_skill":"法則・公式適用",
+      "requires_image":false,
+      "trap_patterns":["物質量と質量混同"],
+      "keywords_to_avoid":["Ar","Cl₂","H₂","N₂","O₂"],
+      "syllabus_path":{"area":"II 物質の状態と変化","field":"化学","item":"2. 物質の状態と平衡"}
+    }
+  },
+  {
+    "id": 6,
+    "global_id": 6,
+    "title": "問6",
+    "prompt": "0.20 mol/L のある強酸水溶液 25 mL を中和するのに必要な，0.10 mol/L の強塩基水溶液の体積は何 mL か。ただし，強酸は 1 価，強塩基は 1 価とし，温度は一定とする。最も適当なものを，下の①〜⑦のうちから一つ選べ。",
+    "choices": [
+      {"id":1,"text":"12.5","explanation_zh":"陷阱：单位换算错。把强碱当 0.20 mol/L 计算。","explanation_ja":"誤り。単位換算ミスの罠。塩基濃度を 0.20 mol/L と取り違えた結果。"},
+      {"id":2,"text":"25","explanation_zh":"陷阱：单位换算错。误用与酸相同体积。","explanation_ja":"誤り。単位換算ミスの罠。酸と塩基の体積を同じと早合点した結果。"},
+      {"id":3,"text":"37.5","explanation_zh":"陷阱：单位换算错。把 1.5 倍误用。","explanation_ja":"誤り。単位換算ミスの罠。係数比を 3:2 とした結果の誤算。"},
+      {"id":4,"text":"40","explanation_zh":"陷阱：单位换算错。把酸的 mol 数稍大计算。","explanation_ja":"誤り。単位換算ミスの罠。中間段階のモル数の単位ミス。"},
+      {"id":5,"text":"50","explanation_zh":"正确。酸 mol=0.20×0.025=0.0050；中和需碱 0.0050 mol；体积=0.0050/0.10=0.050 L=50 mL。","explanation_ja":"正解。酸の物質量 = 0.20 × 0.025 = 5.0×10⁻³ mol。1 価同士の中和なので必要な塩基も 5.0×10⁻³ mol。塩基の体積 = 5.0×10⁻³ ÷ 0.10 = 0.050 L = 50 mL。"},
+      {"id":6,"text":"75","explanation_zh":"陷阱：单位换算错。乘 1.5 倍。","explanation_ja":"誤り。単位換算ミスの罠。係数を 1.5 倍誤算した結果。"},
+      {"id":7,"text":"100","explanation_zh":"陷阱：单位换算错。酸 mol 误算 2 倍。","explanation_ja":"誤り。単位換算ミスの罠。酸の物質量を 2 倍誤算した結果。"}
+    ],
+    "answer": 5,
+    "tag": {
+      "unit":"II 物質の状態と変化",
+      "sub_domain":"酸・塩基",
+      "question_form":"計算選択",
+      "required_skill":"量的計算",
+      "requires_image":false,
+      "trap_patterns":["単位換算ミス"],
+      "keywords_to_avoid":["H₂SO₄","NaOH","pH","50 mL","150 mL"],
+      "syllabus_path":{"area":"II 物質の状態と変化","field":"化学","item":"1. 物質の変化"}
+    }
+  },
+  {
+    "id": 7,
+    "global_id": 7,
+    "title": "問7",
+    "prompt": "次の物質 a，b に含まれる下線部の元素の酸化数の組合せとして最も適当なものを，下の①〜⑤のうちから一つ選べ。",
+    "passage": ["a：過マンガン酸イオン中のマンガン Mn。","b：硫酸イオン SO₄²⁻ 中の硫黄 S。"],
+    "choices": [
+      {"id":1,"text":"a：+4，b：+4","explanation_zh":"陷阱：氧化数错。Mn 应为 +7、S 应为 +6。","explanation_ja":"誤り。酸化数誤判定の罠。Mn の +4 と S の +4 はいずれも誤り。"},
+      {"id":2,"text":"a：+7，b：+4","explanation_zh":"陷阱：氧化数错。S 应为 +6。","explanation_ja":"誤り。酸化数誤判定の罠。SO₄²⁻ では x+4(−2)=−2 より x=+6。+4 は誤り。"},
+      {"id":3,"text":"a：+7，b：+6","explanation_zh":"正确。MnO₄⁻：x+4(−2)=−1，x=+7；SO₄²⁻：x+4(−2)=−2，x=+6。","explanation_ja":"正解。MnO₄⁻ では x+4(−2)=−1 より Mn の酸化数 x=+7。SO₄²⁻ では x+4(−2)=−2 より S の酸化数 x=+6。"},
+      {"id":4,"text":"a：+5，b：+6","explanation_zh":"陷阱：氧化数错。Mn 应为 +7。","explanation_ja":"誤り。酸化数誤判定の罠。Mn の酸化数を +5 と取った誤算。"},
+      {"id":5,"text":"a：+7，b：+2","explanation_zh":"陷阱：氧化数错。S +2 错。","explanation_ja":"誤り。酸化数誤判定の罠。S の酸化数 +2 は SO₄²⁻ に該当しない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "unit":"II 物質の状態と変化",
+      "sub_domain":"酸化還元",
+      "question_form":"組合せ",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["酸化数誤判定"],
+      "keywords_to_avoid":["Fe³⁺","H₂O₂","Sn⁴⁺"],
+      "syllabus_path":{"area":"II 物質の状態と変化","field":"化学","item":"1. 物質の変化"}
+    }
+  },
+  {
+    "id": 8,
+    "global_id": 8,
+    "title": "問8",
+    "prompt": "塩化銅(II) CuCl₂ 水溶液を白金電極を用いて電気分解した。陰極で析出する銅と陽極で発生する塩素について，1 mol の電子が流れたときに各極で得られる物質の量比（陰極の銅 mol：陽極の塩素 mol）として最も適当なものを，下の①〜⑥のうちから一つ選べ。",
+    "choices": [
+      {"id":1,"text":"1 : 1","explanation_zh":"陷阱：计量比错。陰极 Cu²⁺+2e⁻→Cu 即 1 mol e⁻ 析 0.5 mol Cu；陽极 2Cl⁻→Cl₂+2e⁻ 即 1 mol e⁻ 生 0.5 mol Cl₂；比 1:1 但题问 Cu:Cl₂ 误识。","explanation_ja":"誤り。係数比誤認の罠。Cu と Cl₂ の mol 数は同じ 0.5 mol 同士になり比 1:1 ではあるが，下記の正解選択肢は同じ表現を 1:1 と書いた選択肢 3 となるよう設定されている（紛らわしい表現の誤り）。"},
+      {"id":2,"text":"2 : 1","explanation_zh":"陷阱：计量比错。把 Cu 误为 1 mol、Cl₂ 0.5 mol。","explanation_ja":"誤り。係数比誤認の罠。Cu の係数 2 を直接使った誤算で，1 mol e⁻ で Cu は 0.5 mol である。"},
+      {"id":3,"text":"1 : 1（mol 比 0.5 : 0.5）","explanation_zh":"正确。1 mol e⁻ 在陰极析 0.5 mol Cu；在陽极生 0.5 mol Cl₂；比为 1:1。","explanation_ja":"正解。Cu²⁺+2e⁻→Cu より 1 mol の電子で 0.5 mol の Cu が析出。2Cl⁻→Cl₂+2e⁻ より 1 mol の電子で 0.5 mol の Cl₂ が発生。物質量比は Cu:Cl₂=0.5:0.5=1:1。"},
+      {"id":4,"text":"1 : 2","explanation_zh":"陷阱：计量比错。Cu mol 半量未正确算。","explanation_ja":"誤り。係数比誤認の罠。Cl₂ を 1 mol，Cu を 0.5 mol と誤った結果。"},
+      {"id":5,"text":"2 : 2","explanation_zh":"陷阱：计量比错。0.5 mol 计为 2 mol 错。","explanation_ja":"誤り。係数比誤認の罠。物質量を 2 倍した誤りで簡約後の比 1:1 と差はない表記混乱。"},
+      {"id":6,"text":"1 : 0.5","explanation_zh":"陷阱：计量比错。Cu mol 误算 1 倍。","explanation_ja":"誤り。係数比誤認の罠。Cu の係数 2 を分母に使い忘れた誤算。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "unit":"II 物質の状態と変化",
+      "sub_domain":"電池・電気分解",
+      "question_form":"知識選択",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["係数比誤認"],
+      "keywords_to_avoid":["電気分解","H₂","O₂","水"],
+      "syllabus_path":{"area":"II 物質の状態と変化","field":"化学","item":"1. 物質の変化"}
+    }
+  },
+  {
+    "id": 9,
+    "global_id": 9,
+    "title": "問9",
+    "prompt": "次の熱化学方程式を参考にして，メタンの燃焼熱を求めよ。CH₄(g) + 2 O₂(g) → CO₂(g) + 2 H₂O(l)；ΔH = −Q kJ。Q = 891 とする。メタン 16 g を完全に燃焼させたとき発生する熱量は何 kJ か。最も適当なものを，下の①〜⑥のうちから一つ選べ。",
+    "choices": [
+      {"id":1,"text":"445","explanation_zh":"陷阱：计量比错。把 16 g 当 0.5 mol。","explanation_ja":"誤り。係数比誤認の罠。メタンのモル質量を 32 と誤った場合に得られる値。"},
+      {"id":2,"text":"891","explanation_zh":"正确。CH₄ 16 g = 16/16 = 1 mol；1 mol 完全燃烧释 891 kJ。","explanation_ja":"正解。CH₄ のモル質量は 16 g/mol。16 g は 1 mol なので燃焼熱は 1 × 891 = 891 kJ。"},
+      {"id":3,"text":"1782","explanation_zh":"陷阱：计量比错。把 16 g 误算 2 mol。","explanation_ja":"誤り。係数比誤認の罠。物質量を 2 mol と誤った結果。"},
+      {"id":4,"text":"445.5","explanation_zh":"陷阱：计量比错。半数误算。","explanation_ja":"誤り。係数比誤認の罠。1/2 mol と誤った。"},
+      {"id":5,"text":"2673","explanation_zh":"陷阱：计量比错。乘 3 倍误算。","explanation_ja":"誤り。係数比誤認の罠。係数 3 を不適切に乗じた結果。"},
+      {"id":6,"text":"178.2","explanation_zh":"陷阱：计量比错。把 1 mol 误为 0.2 mol。","explanation_ja":"誤り。係数比誤認の罠。0.2 mol と誤算した結果。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "unit":"II 物質の状態と変化",
+      "sub_domain":"熱化学",
+      "question_form":"計算選択",
+      "required_skill":"量的計算",
+      "requires_image":false,
+      "trap_patterns":["係数比誤認"],
+      "keywords_to_avoid":["graphite","CO","CO₂","燃焼熱"],
+      "syllabus_path":{"area":"II 物質の状態と変化","field":"化学","item":"1. 物質の変化"}
+    }
+  },
+  {
+    "id": 10,
+    "global_id": 10,
+    "title": "問10",
+    "prompt": "緩衝液（バッファー）に関する次の記述のうち，最も適当なものを下の①〜④のうちから一つ選べ。",
+    "choices": [
+      {"id":1,"text":"強酸とその塩の混合溶液は，典型的な緩衝液となる。","explanation_zh":"陷阱：反应条件漏。强酸完全电离不可形成缓冲对。","explanation_ja":"誤り。反応条件見落としの罠。強酸はほぼ完全電離するので共役塩基と組み合わせても緩衝作用を示さない。"},
+      {"id":2,"text":"緩衝液は，少量の酸や塩基を加えても pH がほとんど変わらない。","explanation_zh":"陷阱：反应条件漏。这是缓冲液的特性，但本身仅描述结果未提机制；最佳选项需含弱酸+共轭碱条件。","explanation_ja":"誤り。反応条件見落としの罠。確かに緩衝液の効果ではあるが，本問では「弱酸とその塩」の組合せ条件まで明示した選択肢 4 が最も適当。"},
+      {"id":3,"text":"強塩基とその塩の混合溶液は，典型的な緩衝液となる。","explanation_zh":"陷阱：反应条件漏。强碱完全电离不能成缓冲液。","explanation_ja":"誤り。反応条件見落としの罠。強塩基も完全電離するため緩衝作用は弱い。"},
+      {"id":4,"text":"弱酸とその塩，または弱塩基とその塩の混合溶液は，少量の酸・塩基の添加に対して pH をほぼ一定に保つ緩衝液となる。","explanation_zh":"正确。弱酸/弱碱及其共轭对，是缓冲液最典型描述。","explanation_ja":"正解。弱酸とその塩（または弱塩基とその塩）からなる溶液は，少量の酸・塩基の添加に対して共役対の比率変化を介して pH をほぼ一定に保つ緩衝液となる。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "unit":"II 物質の状態と変化",
+      "sub_domain":"酸・塩基",
+      "question_form":"知識選択",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["反応条件見落とし"],
+      "keywords_to_avoid":["buffer","CH₃COOH","CH₃COONa","HCl"],
+      "syllabus_path":{"area":"II 物質の状態と変化","field":"化学","item":"1. 物質の変化"}
+    }
+  },
+  {
+    "id": 11,
+    "global_id": 11,
+    "title": "問11",
+    "prompt": "0.050 mol/L の 1 価強塩基水溶液 200 mL を 0.10 mol/L の 1 価強酸水溶液で完全に中和するには，酸水溶液は何 mL 必要か。最も適当なものを，下の①〜⑥のうちから一つ選べ。",
+    "choices": [
+      {"id":1,"text":"50","explanation_zh":"陷阱：单位换算错。酸碱浓度互换。","explanation_ja":"誤り。単位換算ミスの罠。濃度を取り違えた結果。"},
+      {"id":2,"text":"100","explanation_zh":"正确。碱 mol=0.050×0.200=0.010 mol；酸需 0.010 mol；体积=0.010/0.10=0.10 L=100 mL。","explanation_ja":"正解。塩基の物質量 = 0.050 × 0.200 = 0.010 mol。1 価同士の中和なので酸も 0.010 mol 必要。酸の体積 = 0.010 ÷ 0.10 = 0.10 L = 100 mL。"},
+      {"id":3,"text":"200","explanation_zh":"陷阱：单位换算错。直接等体积错。","explanation_ja":"誤り。単位換算ミスの罠。塩基と酸が同体積と早合点した結果。"},
+      {"id":4,"text":"300","explanation_zh":"陷阱：单位换算错。乘 1.5 倍。","explanation_ja":"誤り。単位換算ミスの罠。係数を 1.5 倍した。"},
+      {"id":5,"text":"400","explanation_zh":"陷阱：单位换算错。把碱 mol 误为 0.040。","explanation_ja":"誤り。単位換算ミスの罠。塩基の物質量を 4 倍誤算した結果。"},
+      {"id":6,"text":"150","explanation_zh":"陷阱：单位换算错。计算中乘 1.5 倍。","explanation_ja":"誤り。単位換算ミスの罠。係数を 1.5 倍にした誤算。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "unit":"II 物質の状態と変化",
+      "sub_domain":"酸・塩基",
+      "question_form":"計算選択",
+      "required_skill":"量的計算",
+      "requires_image":false,
+      "trap_patterns":["単位換算ミス"],
+      "keywords_to_avoid":["NaOH","HCl","mL","mol/L"],
+      "syllabus_path":{"area":"II 物質の状態と変化","field":"化学","item":"1. 物質の変化"}
+    }
+  },
+  {
+    "id": 12,
+    "global_id": 12,
+    "title": "問12",
+    "prompt": "次のハロゲン単体およびその水溶液に関する記述のうち，最も適当なものを，下の①〜④のうちから一つ選べ。",
+    "choices": [
+      {"id":1,"text":"ハロゲンの単体の酸化力は，原子番号が小さいものほど強い。","explanation_zh":"正确。氟>氯>溴>碘，原子号小者氧化力强。","explanation_ja":"正解。ハロゲンの単体の酸化力は周期表で上に行くほど強く，原子番号の小さいものほど強い。フッ素 > 塩素 > 臭素 > ヨウ素。"},
+      {"id":2,"text":"ハロゲン化水素の酸の強さは，分子量が小さいものほど強い。","explanation_zh":"陷阱：性质例外遗漏。HF 弱酸是例外，HCl < HBr < HI 是强酸。","explanation_ja":"誤り。性質の例外見落としの罠。HF は分子量最小でも弱酸であり，HCl 以降は分子量大ほど強い酸性（H−X 結合エネルギー減少のため）。"},
+      {"id":3,"text":"ハロゲンの単体はすべて常温で気体である。","explanation_zh":"陷阱：性质例外遗漏。F₂、Cl₂ 气体；Br₂ 液体；I₂ 固体。","explanation_ja":"誤り。性質の例外見落としの罠。フッ素・塩素は気体，臭素は液体，ヨウ素は固体と状態が異なる。"},
+      {"id":4,"text":"ハロゲン化合物は単体と比べて全て不安定である。","explanation_zh":"陷阱：性质例外遗漏。多数卤化物比单体稳定。","explanation_ja":"誤り。性質の例外見落としの罠。多くのハロゲン化合物（塩など）は単体より安定である。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "unit":"III 無機化学",
+      "sub_domain":"非金属元素",
+      "question_form":"知識選択",
+      "required_skill":"性質比較",
+      "requires_image":false,
+      "trap_patterns":["性質の例外見落とし"],
+      "keywords_to_avoid":["K","Na","Cl","Br","HF"],
+      "syllabus_path":{"area":"III 無機化学","field":"化学","item":"1. 無機物質"}
+    }
+  },
+  {
+    "id": 13,
+    "global_id": 13,
+    "title": "問13",
+    "prompt": "ある金属イオン M²⁺ を含む水溶液に，アンモニア水を少量加えると青白色の沈殿が生じ，さらに過剰のアンモニア水を加えると沈殿は溶けて深青色の溶液となった。M として最も適当なものを，下の①〜⑥のうちから一つ選べ。",
+    "choices": [
+      {"id":1,"text":"鉄(II)","explanation_zh":"陷阱：性质例外遗漏。Fe²⁺ 与碱沉淀绿白，过量氨水不溶。","explanation_ja":"誤り。性質の例外見落としの罠。Fe²⁺ は緑白色の Fe(OH)₂ を生じるが，過剰アンモニア水で深青色溶液にはならない。"},
+      {"id":2,"text":"マンガン(II)","explanation_zh":"陷阱：性质例外遗漏。Mn(OH)₂ 白色沉淀，过量氨水不溶。","explanation_ja":"誤り。性質の例外見落としの罠。Mn²⁺ は淡桃色，水酸化物は白色沈殿で過剰アンモニア水に溶けない。"},
+      {"id":3,"text":"銅(II)","explanation_zh":"正确。Cu²⁺ + 2OH⁻→Cu(OH)₂（青白沉淀）；过量氨水中形成 [Cu(NH₃)₄]²⁺（深青色配合物）。","explanation_ja":"正解。Cu²⁺ は少量のアンモニア水で Cu(OH)₂ の青白色沈殿を生じ，過剰のアンモニア水でテトラアンミン銅(II) 錯イオン [Cu(NH₃)₄]²⁺ の深青色溶液となる。"},
+      {"id":4,"text":"亜鉛(II)","explanation_zh":"陷阱：性质例外遗漏。Zn(OH)₂ 白色沉淀，过量氨水形成无色 [Zn(NH₃)₄]²⁺。","explanation_ja":"誤り。性質の例外見落としの罠。Zn²⁺ も過剰アンモニアで錯イオンを形成するが，色は無色であり「深青色」ではない。"},
+      {"id":5,"text":"カルシウム(II)","explanation_zh":"陷阱：性质例外遗漏。Ca²⁺ 与碱不形成稳定沉淀。","explanation_ja":"誤り。性質の例外見落としの罠。Ca²⁺ は通常アンモニアでは沈殿しない。"},
+      {"id":6,"text":"マグネシウム(II)","explanation_zh":"陷阱：性质例外遗漏。Mg(OH)₂ 白色沉淀，过量氨水不溶。","explanation_ja":"誤り。性質の例外見落としの罠。Mg²⁺ は白色沈殿を生じ過剰アンモニアでは溶けない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "unit":"III 無機化学",
+      "sub_domain":"金属元素",
+      "question_form":"知識選択",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["性質の例外見落とし"],
+      "keywords_to_avoid":["Cu²⁺","NH₃","deep blue","precipitate"],
+      "syllabus_path":{"area":"III 無機化学","field":"化学","item":"1. 無機物質"}
+    }
+  },
+  {
+    "id": 14,
+    "global_id": 14,
+    "title": "問14",
+    "prompt": "次の金属酸化物 a，b について，工業的に炭素を還元剤として用いる方法で単体金属を得ることができる組合せとして最も適当なものを，下の①〜⑥のうちから一つ選べ。",
+    "passage": ["a：銅(II) の酸化物および鉛(II) の酸化物。","b：アルカリ金属の酸化物および両性元素の酸化物（例：アルミニウムの酸化物）。"],
+    "choices": [
+      {"id":1,"text":"a のみ","explanation_zh":"陷阱：性质例外遗漏。a 正确，但答案需要更具体说明。","explanation_ja":"誤り。性質の例外見落としの罠。a は妥当だが選択肢 6 がより包括的に正しい。"},
+      {"id":2,"text":"b のみ","explanation_zh":"陷阱：性质例外遗漏。碱金属和铝氧化物不能用 C 还原（需电解）。","explanation_ja":"誤り。性質の例外見落としの罠。アルカリ金属やアルミニウムの酸化物は炭素では還元できず，融解塩電解が必要。"},
+      {"id":3,"text":"a と b の両方","explanation_zh":"陷阱：性质例外遗漏。b 不能用 C 还原。","explanation_ja":"誤り。性質の例外見落としの罠。b の酸化物は炭素還元では金属化できない。"},
+      {"id":4,"text":"どちらでも可能","explanation_zh":"陷阱：性质例外遗漏。","explanation_ja":"誤り。性質の例外見落としの罠。"},
+      {"id":5,"text":"どちらも不可能","explanation_zh":"陷阱：性质例外遗漏。a 可以。","explanation_ja":"誤り。性質の例外見落としの罠。a の銅・鉛の酸化物は炭素還元で金属が得られる。"},
+      {"id":6,"text":"a の銅・鉛酸化物は炭素還元で可，b は不可（電解で得る）","explanation_zh":"正确。Cu·Pb 等较弱阳性金属可炭还原；碱金属/铝等强阳性金属必须电解。","explanation_ja":"正解。a：銅・鉛など比較的酸化物の安定性が低い金属はコークス（炭素）による還元で単体が得られる。b：アルカリ金属やアルミニウムは酸化物の安定性が大きく，炭素では還元できないため融解塩電解で得る。"}
+    ],
+    "answer": 6,
+    "tag": {
+      "unit":"III 無機化学",
+      "sub_domain":"金属元素",
+      "question_form":"組合せ",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["性質の例外見落とし"],
+      "keywords_to_avoid":["Al₂O₃","Fe₂O₃","MgO","CO"],
+      "syllabus_path":{"area":"III 無機化学","field":"化学","item":"1. 無機物質"}
+    }
+  },
+  {
+    "id": 15,
+    "global_id": 15,
+    "title": "問15",
+    "prompt": "次の操作 a，b の組合せとして正しいものを，下の①〜⑥のうちから一つ選べ。",
+    "passage": ["a：ある重金属の塩水溶液に酸性条件で硫化水素を通じると黒色の沈殿を生じる。沈殿は希塩酸には不溶であった。この金属イオンは何か。","b：別の重金属の塩水溶液に塩基性条件で硫化水素を通じると，白色の沈殿が生じる。この金属イオンは何か。"],
+    "choices": [
+      {"id":1,"text":"a：銀イオン，b：亜鉛イオン","explanation_zh":"正确。Ag⁺ + H₂S → Ag₂S（黑色，酸性沉淀）；Zn²⁺ + H₂S → ZnS（白色，碱性沉淀）。","explanation_ja":"正解。a の銀イオン Ag⁺ は酸性条件でも H₂S と反応して Ag₂S（黒色）を沈殿。b の亜鉛イオン Zn²⁺ は酸性では沈まないが塩基性条件で ZnS（白色）の沈殿を生じる。"},
+      {"id":2,"text":"a：銅イオン，b：鉛イオン","explanation_zh":"陷阱：性质例外遗漏。Cu²⁺ 沉淀 CuS 黑色酸性可，但 Pb²⁺ 也成黑色沉淀（PbS），与白色描述不符。","explanation_ja":"誤り。性質の例外見落としの罠。Pb²⁺ は H₂S で PbS（黒色）の沈殿を生じ，白色ではない。"},
+      {"id":3,"text":"a：マンガンイオン，b：鉄(II) イオン","explanation_zh":"陷阱：性质例外遗漏。Mn²⁺ 在酸性下不沉淀。","explanation_ja":"誤り。性質の例外見落としの罠。Mn²⁺ は酸性下では H₂S で沈殿しない。"},
+      {"id":4,"text":"a：カルシウムイオン，b：マグネシウムイオン","explanation_zh":"陷阱：性质例外遗漏。Ca²⁺·Mg²⁺ 在 H₂S 中均不沉淀。","explanation_ja":"誤り。性質の例外見落としの罠。Ca²⁺・Mg²⁺ は H₂S とは沈殿を形成しない。"},
+      {"id":5,"text":"a：亜鉛イオン，b：銀イオン","explanation_zh":"陷阱：性质例外遗漏。Zn²⁺ 在酸性下不沉淀，描述反了。","explanation_ja":"誤り。性質の例外見落としの罠。a と b の組合せが逆である。"},
+      {"id":6,"text":"a：銀イオン，b：マグネシウムイオン","explanation_zh":"陷阱：性质例外遗漏。Mg²⁺ 不与 H₂S 沉淀。","explanation_ja":"誤り。性質の例外見落としの罠。Mg²⁺ は H₂S で沈殿を生じない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "unit":"III 無機化学",
+      "sub_domain":"金属元素",
+      "question_form":"組合せ",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["性質の例外見落とし"],
+      "keywords_to_avoid":["Ag","Cu","Fe","Zn","H₂S"],
+      "syllabus_path":{"area":"III 無機化学","field":"化学","item":"1. 無機物質"}
+    }
+  },
+  {
+    "id": 16,
+    "global_id": 16,
+    "title": "問16",
+    "prompt": "次の文を読み，下線部に関する記述として最も適当なものを，下の①〜④のうちから一つ選べ。",
+    "passage": ["エチレン（エテン）C₂H₄ は，二重結合をもつ最も簡単なアルケンであり，様々な付加反応を示す代表的な化合物である。"],
+    "choices": [
+      {"id":1,"text":"エチレンは触媒なしで常温でも水素を付加してエタンとなる。","explanation_zh":"陷阱：反应条件漏。乙烯加氢需要催化剂等反应条件，不能说在无催化剂、常温下也容易加成。","explanation_ja":"誤り。反応条件見落としの罠。エチレンの水素付加には触媒などの反応条件が必要であり，「触媒なしで常温でも」とする点が誤り。"},
+      {"id":2,"text":"エチレンは赤褐色の臭素水と反応してこれを脱色する（付加反応）。","explanation_zh":"正确。烯烃与溴水加成生成无色二溴化物，是检验 C=C 的常用反应。","explanation_ja":"正解。エチレンの C=C 結合は臭素水と付加反応を起こし，赤褐色の臭素を消費して無色の二臭化エタンを生成する。これがアルケンを検出する典型的な反応として知られる。"},
+      {"id":3,"text":"エチレンは塩酸とは反応しない。","explanation_zh":"陷阱：反应条件漏。烯烃可与 HCl 付加成氯乙烷。","explanation_ja":"誤り。反応条件見落としの罠。エチレンは塩化水素 HCl と付加して塩化エチル C₂H₅Cl を生成する。"},
+      {"id":4,"text":"エチレンは水とは触媒なしで容易に反応してエタノールとなる。","explanation_zh":"陷阱：反应条件漏。需要酸催化下高温高压才能水合。","explanation_ja":"誤り。反応条件見落としの罠。エチレンの水和には酸触媒（例：H₃PO₄）と高温高圧条件が必要であり「触媒なしで容易に」反応するわけではない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "unit":"IV 有機化学",
+      "sub_domain":"炭化水素",
+      "question_form":"知識選択",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["反応条件見落とし"],
+      "keywords_to_avoid":["Br₂","1,2-ジブロモエタン","付加反応"],
+      "syllabus_path":{"area":"IV 有機化学","field":"化学","item":"1. 有機化合物の性質と反応"}
+    }
+  },
+  {
+    "id": 17,
+    "global_id": 17,
+    "title": "問17",
+    "prompt": "分子式 C₄H₁₀O のヒドロキシ基をもつ化合物のうち，第二級アルコールはいくつあるか。最も適当なものを，下の①〜⑥のうちから一つ選べ。",
+    "choices": [
+      {"id":1,"text":"0","explanation_zh":"陷阱：异构体混淆。第二级醇至少存在 2-丁醇一种。","explanation_ja":"誤り。構造異性体混同の罠。C₄H₁₀O には少なくとも 2-ブタノールという第二級アルコールが存在する。"},
+      {"id":2,"text":"2","explanation_zh":"陷阱：异构体混淆。C₄H₁₀O 第二级醇仅有 2-丁醇 1 个。","explanation_ja":"誤り。構造異性体混同の罠。C₄H₁₀O では第二級アルコールは 2-ブタノールの 1 つだけ。"},
+      {"id":3,"text":"1","explanation_zh":"正确。C₄H₁₀O 中第二级醇仅 2-丁醇 CH₃CH(OH)CH₂CH₃ 一种。","explanation_ja":"正解。C₄H₁₀O のアルコール異性体は 1-ブタノール（第一級），2-メチル-1-プロパノール（第一級），2-ブタノール（第二級），2-メチル-2-プロパノール（第三級）の 4 種類であり，第二級は 2-ブタノール 1 つのみ。"},
+      {"id":4,"text":"3","explanation_zh":"陷阱：异构体混淆。把全部 OH 异构体当第二级。","explanation_ja":"誤り。構造異性体混同の罠。第一級・第三級も第二級に分類した結果。"},
+      {"id":5,"text":"4","explanation_zh":"陷阱：异构体混淆。把全部 4 个含 OH 异构体当第二级。","explanation_ja":"誤り。構造異性体混同の罠。アルコール異性体は 4 種類だが，第二級はそのうちの 1 つだけ。"},
+      {"id":6,"text":"5","explanation_zh":"陷阱：异构体混淆。含醚类也计入误算。","explanation_ja":"誤り。構造異性体混同の罠。エーテル異性体まで含めても，第二級アルコールの数は 1 つ。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "unit":"IV 有機化学",
+      "sub_domain":"有機化合物の構造決定",
+      "question_form":"構造判別",
+      "required_skill":"構造推定",
+      "requires_image":false,
+      "trap_patterns":["構造異性体混同"],
+      "keywords_to_avoid":["C₅H₁₂O","不斉炭素原子","アルコール"],
+      "syllabus_path":{"area":"IV 有機化学","field":"化学","item":"1. 有機化合物の性質と反応"}
+    }
+  },
+  {
+    "id": 18,
+    "global_id": 18,
+    "title": "問18",
+    "prompt": "ある 1 価カルボン酸 6.0 g を炭酸水素ナトリウム水溶液に加えると，標準状態で 2.24 L の気体（二酸化炭素）が発生した。標準状態のモル体積を 22.4 L/mol とすると，このカルボン酸のモル質量として最も適当なものを，下の①〜⑥のうちから一つ選べ。",
+    "choices": [
+      {"id":1,"text":"30 g/mol","explanation_zh":"陷阱：计量比错。质量未除得正确摩尔数。","explanation_ja":"誤り。係数比誤認の罠。物質量を 0.20 mol とした誤算。"},
+      {"id":2,"text":"60 g/mol","explanation_zh":"正确。气体 mol=2.24/22.4=0.10 mol；1 价羧酸+NaHCO₃→CO₂，1:1 比，故酸 0.10 mol；M=6.0/0.10=60 g/mol。","explanation_ja":"正解。発生気体（CO₂）の物質量 = 2.24/22.4 = 0.10 mol。1 価カルボン酸 RCOOH と炭酸水素ナトリウム NaHCO₃ は 1:1 で反応し CO₂ を 1 mol 発生するので，カルボン酸は 0.10 mol。モル質量 = 6.0/0.10 = 60 g/mol（酢酸 CH₃COOH に相当）。"},
+      {"id":3,"text":"46 g/mol","explanation_zh":"陷阱：计量比错。气体 mol 误算 1.5 倍。","explanation_ja":"誤り。係数比誤認の罠。気体物質量を 0.13 mol と誤算した結果。"},
+      {"id":4,"text":"74 g/mol","explanation_zh":"陷阱：计量比错。气体物质量误算 0.08 mol。","explanation_ja":"誤り。係数比誤認の罠。物質量の取り違えによる誤算。"},
+      {"id":5,"text":"90 g/mol","explanation_zh":"陷阱：计量比错。物质量误算半分。","explanation_ja":"誤り。係数比誤認の罠。物質量を 0.067 mol と誤った場合。"},
+      {"id":6,"text":"120 g/mol","explanation_zh":"陷阱：计量比错。物质量计为 0.05 mol。","explanation_ja":"誤り。係数比誤認の罠。物質量を 0.05 mol と誤算した結果。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "unit":"IV 有機化学",
+      "sub_domain":"酸素を含む有機化合物",
+      "question_form":"計算選択",
+      "required_skill":"量的計算",
+      "requires_image":false,
+      "trap_patterns":["係数比誤認"],
+      "keywords_to_avoid":["Na","H₂","ベンゼン溶液","1価のアルコール"],
+      "syllabus_path":{"area":"IV 有機化学","field":"化学","item":"1. 有機化合物の性質と反応"}
+    }
+  },
+  {
+    "id": 19,
+    "global_id": 19,
+    "title": "問19",
+    "prompt": "次の文を読み，正しい組合せを下の①〜⑤のうちから一つ選べ。",
+    "passage": ["ある第二級アルコールを温和な酸化剤で穏やかに酸化し，さらに長時間強い酸化剤と反応させても，最終的に酸化生成物 P で止まり，P からはこれ以上酸化が進まない。"],
+    "choices": [
+      {"id":1,"text":"P は第一級アルコールから得られるカルボン酸である。","explanation_zh":"陷阱：反应条件漏。第二级醇生成酮非羧酸。","explanation_ja":"誤り。反応条件見落としの罠。第二級アルコールの酸化生成物はケトンであり，カルボン酸ではない。"},
+      {"id":2,"text":"P は対応する第二級アルコールから生成するケトンであり，さらに通常の酸化条件では酸化されない。","explanation_zh":"正确。第二级醇 → 酮（−H₂）；酮在通常条件下不被进一步氧化（无 α-H 易脱）。","explanation_ja":"正解。第二級アルコール R₂CH−OH は穏やかな酸化で R₂C=O（ケトン）を生成し，ケトンはカルボニル炭素に H をもたないため通常の酸化条件ではそれ以上酸化されない。"},
+      {"id":3,"text":"P はアルデヒドであり，さらに酸化するとカルボン酸になる。","explanation_zh":"陷阱：反应条件漏。第二级醇不生成醛。","explanation_ja":"誤り。反応条件見落としの罠。アルデヒドは第一級アルコールから生成し，第二級アルコールからは生じない。"},
+      {"id":4,"text":"P はエステルであり，酸化反応では生成しない。","explanation_zh":"陷阱：反应条件漏。酯氧化反应直接生成。","explanation_ja":"誤り。反応条件見落としの罠。エステルは酸化ではなく，カルボン酸とアルコールの縮合（脱水縮合）で生成する。"},
+      {"id":5,"text":"P はアルコールのままで，反応は起こらない。","explanation_zh":"陷阱：反应条件漏。第二级醇可被氧化为酮。","explanation_ja":"誤り。反応条件見落としの罠。第二級アルコールは穏やかな酸化剤でケトンに変換される。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "unit":"IV 有機化学",
+      "sub_domain":"酸素を含む有機化合物",
+      "question_form":"組合せ",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["反応条件見落とし"],
+      "keywords_to_avoid":["アルデヒド","ケトン","カルボン酸","酸化"],
+      "syllabus_path":{"area":"IV 有機化学","field":"化学","item":"1. 有機化合物の性質と反応"}
+    }
+  },
+  {
+    "id": 20,
+    "global_id": 20,
+    "title": "問20",
+    "prompt": "ベンゼン環に直結したメチル基をもつ芳香族炭化水素（メチルベンゼン）を硫酸酸性過マンガン酸カリウム水溶液で加熱しながら酸化すると，どのような芳香族化合物が主に得られるか。最も適当なものを，下の①〜⑤のうちから一つ選べ。",
+    "choices": [
+      {"id":1,"text":"ベンズアルデヒド（環に直結した CHO 基をもつ化合物）","explanation_zh":"陷阱：反应条件漏。强氧化条件下侧链 −CH₃ 不停留在醛阶段，进一步氧化为 −COOH。","explanation_ja":"誤り。反応条件見落としの罠。穏やかな酸化条件下ならアルデヒドで止まることもあるが，激しい酸化条件では COOH まで進行する。"},
+      {"id":2,"text":"フェノール（環に直結した OH 基をもつ化合物）","explanation_zh":"陷阱：反应条件漏。环 H 的羟基化不在此机理。","explanation_ja":"誤り。反応条件見落としの罠。酸化剤による側鎖酸化では，環の水素を OH に置換することはできない。"},
+      {"id":3,"text":"メチルシクロヘキサン（環が水素化された化合物）","explanation_zh":"陷阱：反应条件漏。氧化不会水素化。","explanation_ja":"誤り。反応条件見落としの罠。酸化反応では芳香環の水素化は起こらない。"},
+      {"id":4,"text":"ベンゼン環に直結した COOH 基をもつ芳香族カルボン酸","explanation_zh":"正确。激烈氧化下侧链 −CH₃ 切断氧化为 −COOH，得环直结羧酸。","explanation_ja":"正解。メチル基をもつアルキルベンゼンを硫酸酸性 KMnO₄ で激しく酸化すると，メチル基は切断・酸化されて環に直結する COOH 基（−COOH）となり，芳香族カルボン酸（環直結カルボキシ基化合物）が生じる。"},
+      {"id":5,"text":"ベンゼン（側鎖が完全に脱離する）","explanation_zh":"陷阱：反应条件漏。环直结碳作 COOH 残留，并不脱完全。","explanation_ja":"誤り。反応条件見落としの罠。側鎖は完全に外れるのではなく，環に最も近い炭素は COOH として残る。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "unit":"IV 有機化学",
+      "sub_domain":"有機化合物の構造決定",
+      "question_form":"知識選択",
+      "required_skill":"概念理解",
+      "requires_image":false,
+      "trap_patterns":["反応条件見落とし"],
+      "keywords_to_avoid":["トルエン","KMnO₄","ベンゼン環","安息香酸"],
+      "syllabus_path":{"area":"IV 有機化学","field":"化学","item":"1. 有機化合物の性質と反応"}
+    }
+  }
+]
+}

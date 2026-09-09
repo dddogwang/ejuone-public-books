@@ -1,0 +1,1011 @@
+{
+  "subject": "comprehensive",
+  "section": "",
+  "year": 2023,
+  "round": 2,
+  "title": "模擬試験 総合科目 第十回",
+  "image_path": "comprehensive/images/2023-2",
+  "questions": [
+  {
+    "id": 1,
+    "title": "問1",
+    "prompt": "近代化と工業化に伴う環境問題と国際的な対応について、下の問いに答えなさい。",
+    "passage": "18世紀後半に英国で始まった産業革命以降，石炭・石油などの化石燃料の大規模利用は経済成長を支える一方で，大気汚染・水質汚濁などの環境問題を世界的に拡大させた。1960〜70年代の日本では，四大公害病に象徴される深刻な公害が社会問題となり，1967年には公害対策基本法が制定された。国際社会では1972年にスウェーデンのストックホルムで国連人間環境会議が開かれ，環境問題への国際的取り組みの出発点となった。",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":1,
+        "prompt":"産業革命に関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"産業革命は18世紀後半にフランスで始まり，主に水力のみが動力源として用いられた。","explanation_zh":"陷阱：主体错位。产业革命首发于英国，且蒸汽机为关键动力。","explanation_ja":"誤り。主体取違の罠。産業革命は18世紀後半に英国で始まり，蒸気機関が主要な動力であった。"},
+          {"id":2,"text":"産業革命は18世紀後半に英国で始まり，蒸気機関や石炭の利用を通じて工場制機械工業が広まった。","explanation_zh":"正确。产业革命起源于英国并以蒸汽机和煤为基础。","explanation_ja":"正解。英国を起点に蒸気機関と石炭利用が広がった点が史実と一致する。"},
+          {"id":3,"text":"産業革命によって化石燃料の使用は減少し，環境負荷も大幅に低下した。","explanation_zh":"陷阱：因果倒置。产业革命扩大了化石燃料使用，环境负荷上升而非下降。","explanation_ja":"誤り。因果倒置の罠。産業革命は化石燃料の使用を拡大し，環境負荷を増加させた。"},
+          {"id":4,"text":"産業革命は20世紀後半に始まり，主に情報通信技術の発達を指す。","explanation_zh":"陷阱：时态错位。产业革命发生于18世纪后期，并非20世纪信息技术革命。","explanation_ja":"誤り。時態錯位の罠。産業革命は18世紀後半の出来事で，20世紀のIT発展ではない。"}
+        ],
+        "answer":2,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["主体取違","時態錯位"],
+          "keywords_to_avoid":[],
+          "sub_domain":"近代世界",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"2.市場経済"}
+        },
+        "sources":[{"claim":"The Industrial Revolution began in Britain in the late 18th century, powered by coal and steam.","source":"Encyclopaedia Britannica, Industrial Revolution","year":2024,"url":"https://www.britannica.com/event/Industrial-Revolution"}]
+      },
+      {
+        "sub_id":2,
+        "global_id":2,
+        "prompt":"戦後日本の公害問題と法整備に関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"四大公害病は江戸時代に発生し，明治政府が直ちに公害対策基本法を制定した。","explanation_zh":"陷阱：时态错位。四大公害病是战后高度经济增长期出现的，公害对策基本法制定于 1967 年。","explanation_ja":"誤り。時態錯位の罠。四大公害病は戦後の高度成長期に表面化し，1967年に公害対策基本法が制定された。"},
+          {"id":2,"text":"水俣病は大気汚染による疾患で，工場の煙突から排出される硫黄酸化物が原因物質である。","explanation_zh":"陷阱：概念混淆。水俣病是有机汞引起的甲基汞中毒，并非大气污染。","explanation_ja":"誤り。概念混同の罠。水俣病は工場排水中の有機水銀（メチル水銀）によるもので，大気汚染ではない。"},
+          {"id":3,"text":"1960年代に水俣病やイタイイタイ病などの公害が深刻化し，1967年に公害対策基本法が制定された。","explanation_zh":"正确。1960 年代公害深刻化，1967 年制定公害对策基本法。","explanation_ja":"正解。1960年代の公害激化を受けて1967年に公害対策基本法が制定された経緯と一致する。"},
+          {"id":4,"text":"公害対策基本法はすべての公害を完全に消滅させ，現在では環境法体系も廃止されている。","explanation_zh":"陷阱：范围扩大。公害对策基本法并未消灭一切公害，环境法体系也仍在运行。","explanation_ja":"誤り。範囲拡大の罠。同法は公害の完全消滅をもたらしておらず，現在も環境基本法など環境法体系は維持されている。"}
+        ],
+        "answer":3,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["時態錯位","因果倒置"],
+          "keywords_to_avoid":[],
+          "sub_domain":"近代世界",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"5. 国際政治"}
+        },
+        "sources":[{"claim":"日本では1967年に公害対策基本法が制定された。","source":"環境省, 公害対策基本法","year":1967,"url":"https://www.env.go.jp/council/former/toshin/h111228-04/houritu.html"}]
+      },
+      {
+        "sub_id":3,
+        "global_id":3,
+        "prompt":"次の文章は，日本のエネルギー起源CO₂排出量（百万トン-CO₂）の推移である。読み取れる内容として最も適当なものはどれですか。\n1990年度：約1,068，2013年度：約1,235，2020年度：約967。",
+        "choices":[
+          {"id":1,"text":"日本のCO₂排出量は1990年度から2020年度まで一貫して増加し続けた。","explanation_zh":"陷阱：范围扩大。资料中 2020 年度约 967 比 2013 年度约 1,235 减少。","explanation_ja":"誤り。範囲拡大の罠。2020年度の約967は2013年度の約1,235を下回り，一貫増加ではない。"},
+          {"id":2,"text":"2013年度の排出量は1990年度の3倍を超えている。","explanation_zh":"陷阱：数值混同。约 1,235 不足 1,068 的 3 倍（应超 3,200）。","explanation_ja":"誤り。数値混同の罠。約1,235は約1,068の3倍（約3,204）を大きく下回る。"},
+          {"id":3,"text":"1990年度の約1,068百万トンに対し，2013年度は約1,235百万トンに増加した一方，2020年度は約967百万トンへ減少した。","explanation_zh":"正确。资料中 1990 年度约 1,068，2013 年度约 1,235，2020 年度约 967，先升后降。","explanation_ja":"正解。数値は1990年度1,068，2013年度1,235，2020年度967と先増後減で資料と一致する。"},
+          {"id":4,"text":"2020年度の排出量は0百万トンであった。","explanation_zh":"陷阱：数值混同。资料中 2020 年度约 967 百万吨，并非 0。","explanation_ja":"誤り。数値混同の罠。資料では2020年度は約967百万トンで0ではない。"}
+        ],
+        "answer":3,
+        "tag":{
+          "question_form":"図表読取",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["地域取違","主体取違"],
+          "keywords_to_avoid":[],
+          "sub_domain":"近代世界",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"4.国民経済"}
+        },
+        "sources":[{"claim":"日本のエネルギー起源CO₂排出量は1990年度約10.68億t-CO₂，2013年度約12.35億t-CO₂，2020年度約9.67億t-CO₂。","source":"環境省 温室効果ガスインベントリ","year":2022,"url":"https://www.env.go.jp/earth/ondanka/ghg/index.html"}]
+      },
+      {
+        "sub_id":4,
+        "global_id":4,
+        "prompt":"国際的な環境問題への取り組みに関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"国連人間環境会議は1950年代に東京で開かれ，フロンガスの全面禁止を決定した。","explanation_zh":"陷阱：时态错位。该会议为 1972 年在斯德哥尔摩举行，并非 1950 年代东京。","explanation_ja":"誤り。時態錯位の罠。国連人間環境会議は1972年ストックホルム開催で，1950年代東京ではない。"},
+          {"id":2,"text":"1992年の地球サミットはアフリカで開かれ，気候変動枠組条約は採択されなかった。","explanation_zh":"陷阱：地域错位。地球高峰会议在巴西里约热内卢举行，并通过了气候变化框架公约。","explanation_ja":"誤り。地域取違の罠。地球サミットはブラジルのリオデジャネイロで開催され，気候変動枠組条約が採択された。"},
+          {"id":3,"text":"京都議定書はすべての国に同じ削減義務を課し，先進国と発展途上国を区別しなかった。","explanation_zh":"陷阱：范围扩大。京都议定书采取“共同但有区别的责任”，发达国家承担数值义务，发展中国家不承担。","explanation_ja":"誤り。範囲拡大の罠。京都議定書は先進国に数値目標を課し，途上国には課さない区別を設けた。"},
+          {"id":4,"text":"1972年にストックホルムで開催された国連人間環境会議は，環境問題に関する国際協力の出発点となった。","explanation_zh":"正确。1972 年斯德哥尔摩国连人间环境会议是国际环境合作起点。","explanation_ja":"正解。1972年ストックホルムの国連人間環境会議が国際的環境協力の出発点とされる事実と一致する。"}
+        ],
+        "answer":4,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["数値混同","主体取違"],
+          "keywords_to_avoid":[],
+          "sub_domain":"近代世界",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"4.国民経済"}
+        },
+        "sources":[{"claim":"The 1972 UN Conference on the Human Environment in Stockholm was a landmark of international environmental cooperation.","source":"UNEP, Stockholm Conference","year":1972,"url":"https://www.unep.org/environmentassembly/un-environment-50"}]
+      }
+    ],
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"工業化と環境問題",
+      "sub_domain":"近代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"1. 近代化の進展とその影響"},
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "keywords_to_avoid":["産業革命","化石燃料","1972年","ストックホルム"]
+    }
+  },
+  {
+    "id": 2,
+    "title": "問2",
+    "prompt": "国際移動と旅券制度，及び戦間期から戦後の国際秩序について，下の問いに答えなさい。",
+    "passage": "近代国家は出入国管理のために旅券（パスポート）を発行し，国際移動を制度化してきた。第一次世界大戦中の1914〜1918年には安全保障上の必要から各国で旅券制度が再強化され，戦後の1920年には国際連盟の下で旅券様式の国際的統一が試みられた。第二次世界大戦後はICAO（国際民間航空機関）が旅券・査証制度の標準化に関与し，現在では電子旅券が世界的に普及している。",
+    "sub_questions": [
+      {
+        "sub_id":1,
+        "global_id":5,
+        "prompt":"次の文章は，日本に入国した外国人数（千人）の推移である。読み取れる内容として最も適当なものはどれですか。\n2015年：約19,737，2019年：約31,882，2020年：約4,308。",
+        "choices":[
+          {"id":1,"text":"2019年から2020年にかけて入国外国人数は増加した。","explanation_zh":"陷阱：数值混同。资料中 2020 年约 4,308 千人远低于 2019 年约 31,882 千人。","explanation_ja":"誤り。数値混同の罠。2020年約4,308千人は2019年約31,882千人を大幅に下回る。"},
+          {"id":2,"text":"2015年の入国数は2019年を上回っていた。","explanation_zh":"陷阱：数值混同。资料中 2015 年约 19,737 低于 2019 年约 31,882。","explanation_ja":"誤り。数値混同の罠。2015年約19,737千人は2019年約31,882千人を下回る。"},
+          {"id":3,"text":"2019年の入国外国人数は2015年や2020年と比べて最も多く，2020年には大幅に減少した。","explanation_zh":"正确。资料中 2019 年约 31,882 千人为最大，2020 年降至约 4,308 千人。","explanation_ja":"正解。2019年約31,882千人が最大で，2020年は約4,308千人へ急減している。"},
+          {"id":4,"text":"2015年・2019年・2020年の入国外国人数はすべて完全に同じ値であった。","explanation_zh":"陷阱：范围扩大。资料中三个年份的数值差异显著，并不相同。","explanation_ja":"誤り。範囲拡大の罠。三年の数値は大きく異なり，同一ではない。"}
+        ],
+        "answer":3,
+        "tag":{
+          "question_form":"図表読取",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["数値混同","主体取違"],
+          "keywords_to_avoid":[],
+          "sub_domain":"国際政治・外交"
+        },
+        "sources":[{"claim":"日本入国外国人数は2015年約1,974万人，2019年約3,188万人，2020年約431万人。","source":"出入国在留管理庁 出入国管理統計","year":2021,"url":"https://www.moj.go.jp/isa/policies/statistics/index.html"}]
+      },
+      {
+        "sub_id":2,
+        "global_id":6,
+        "prompt":"旅券（パスポート）制度に関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"旅券は私人が自由に発行できる証明書であり，国家による発給を必要としない。","explanation_zh":"陷阱：主体错位。护照由国家或被授权机构发行，并非个人可任意签发。","explanation_ja":"誤り。主体取違の罠。旅券は国家が発給する公文書であり，私人発行ではない。"},
+          {"id":2,"text":"旅券は所持人の国籍と身分を証明し，外国で旅行や滞在を行う際の基本的な渡航文書である。","explanation_zh":"正确。护照证明国籍和身份，是出国旅行和居留的基础证件。","explanation_ja":"正解。旅券は国籍・身分を証明し，渡航や滞在の基本文書となる。"},
+          {"id":3,"text":"現在の日本旅券はすべて紙のみであり，ICチップを搭載した電子旅券は存在しない。","explanation_zh":"陷阱：时态错位。日本自 2006 年起发行电子护照，已普遍使用 IC 芯片。","explanation_ja":"誤り。時態錯位の罠。日本は2006年からICチップ搭載の電子旅券を発行している。"},
+          {"id":4,"text":"旅券があれば査証（ビザ）の要否に関わらず，すべての国に無条件で入国できる。","explanation_zh":"陷阱：范围扩大。入境是否需要签证由目的地国家决定，并非有护照即可。","explanation_ja":"誤り。範囲拡大の罠。入国には目的国の査証要件があり，旅券だけで無条件入国はできない。"}
+        ],
+        "answer":2,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["時態錯位","概念混同"],
+          "keywords_to_avoid":[],
+          "sub_domain":"国際政治・外交",
+          "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"4.政治参加"}
+        },
+        "sources":[{"claim":"A passport certifies the holder’s nationality and identity for international travel.","source":"ICAO, Machine Readable Travel Documents","year":2021,"url":"https://www.icao.int/Security/FAL/PublishingImages/Pages/Forms/AllItems.aspx"}]
+      },
+      {
+        "sub_id":3,
+        "global_id":7,
+        "prompt":"第一次世界大戦後の国際秩序に関する記述として最も適当なものはどれですか。",
+        "choices":[
+          {"id":1,"text":"国際連盟は1945年にニューヨークで発足し，アメリカ合衆国が中心的役割を果たした。","explanation_zh":"陷阱：时态错位。国际联盟成立于 1920 年日内瓦，且美国未加入。","explanation_ja":"誤り。時態錯位の罠。国際連盟は1920年ジュネーブ発足で，米国は不参加であった。"},
+          {"id":2,"text":"1920年に発足した国際連盟は，集団安全保障による国際平和の維持を目的とし，日本も常任理事国となった。","explanation_zh":"正确。国际联盟于 1920 年成立，目的为集体安全保障，日本曾任常任理事国。","explanation_ja":"正解。1920年発足の国際連盟は集団安全保障を目的とし，日本は常任理事国であった。"},
+          {"id":3,"text":"ヴェルサイユ条約はドイツに対して領土の拡大と賠償金の免除を認めた。","explanation_zh":"陷阱：因果倒置。凡尔赛条约削减德国领土，并要求其支付巨额赔款。","explanation_ja":"誤り。因果倒置の罠。ヴェルサイユ条約はドイツ領土削減と巨額賠償を求めるもので，拡大・免除ではない。"},
+          {"id":4,"text":"ワシントン会議は1930年代に開かれ，海軍軍縮と関係なく経済援助だけを協議した。","explanation_zh":"陷阱：主体错位。华盛顿会议于 1921-22 年举行，主要协议海军军备限制。","explanation_ja":"誤り。主体取違の罠。ワシントン会議は1921-22年開催で，海軍軍縮を主要議題とした。"}
+        ],
+        "answer":2,
+        "tag":{
+          "question_form":"事実選択",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["時態錯位","概念混同"],
+          "keywords_to_avoid":[],
+          "sub_domain":"国際政治・外交",
+          "syllabus_path":{"area":"III 歴史","field":"歴史","item":"2. 二つの世界大戦とその影響"}
+        },
+        "sources":[{"claim":"The League of Nations was established in 1920; Japan was an original permanent council member.","source":"Encyclopaedia Britannica, League of Nations","year":2024,"url":"https://www.britannica.com/topic/League-of-Nations"}]
+      },
+      {
+        "sub_id":4,
+        "global_id":8,
+        "prompt":"次の文章は，日本人出国者数（千人）の推移である。読み取れる内容として最も適当なものはどれですか。\n2000年：約17,819，2019年：約20,081，2020年：約3,174。",
+        "choices":[
+          {"id":1,"text":"2020年の出国者数は2019年を上回った。","explanation_zh":"陷阱：数值混同。资料中 2020 年约 3,174 远低于 2019 年约 20,081。","explanation_ja":"誤り。数値混同の罠。2020年約3,174千人は2019年約20,081千人を大きく下回る。"},
+          {"id":2,"text":"2000年の出国者数は2019年の半分未満であった。","explanation_zh":"陷阱：数值混同。约 1,782 万人接近 2019 年约 2,008 万人，并非不到一半。","explanation_ja":"誤り。数値混同の罠。2000年約17,819千人は2019年約20,081千人の半分未満ではない。"},
+          {"id":3,"text":"三年とも出国者数は0千人であった。","explanation_zh":"陷阱：范围扩大。资料各年份数值均明确大于 0。","explanation_ja":"誤り。範囲拡大の罠。資料の各年は0千人ではなく，明確な値を持つ。"},
+          {"id":4,"text":"2000年と2019年の出国者数はいずれも約2,000万人前後だが，2020年には約317万人へ急減した。","explanation_zh":"正确。资料中 2000、2019 年同为约 1,800-2,000 万人，2020 年降至约 317 万人。","explanation_ja":"正解。2000年と2019年は約1,800〜2,000万人台で，2020年は約317万人へ急減している。"}
+        ],
+        "answer":4,
+        "tag":{
+          "question_form":"図表読取",
+          "statement_polarity":"正答正記述",
+          "trap_patterns":["数値混同","主体取違"],
+          "keywords_to_avoid":[],
+          "sub_domain":"国際政治・外交"
+        },
+        "sources":[{"claim":"日本人出国者数の推移。","source":"日本政府観光局(JNTO) 出国日本人統計","year":2021,"url":"https://www.jnto.go.jp/statistics/data/visitors-statistics/"}]
+      }
+    ],
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"国際移動と旅券制度",
+      "sub_domain":"国際政治・外交",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"5. 国際政治"},
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "keywords_to_avoid":["旅券","パスポート","1914年","1917年"]
+    }
+  },
+  {
+    "id": 3,
+    "global_id": 9,
+    "title": "問3",
+    "prompt": "国際貿易理論に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"絶対優位の理論は20世紀後半にケインズが提唱し，貿易は国家の介入を絶対視する。","explanation_zh":"陷阱：主体错位。绝对优势论由亚当·斯密提出，主张通过自由贸易获益。","explanation_ja":"誤り。主体取違の罠。絶対優位は18世紀のアダム・スミスが示し，自由貿易の利益を説いた。"},
+      {"id":2,"text":"比較優位の理論によれば，すべての財で他国より生産効率が低い国は貿易から利益を得られない。","explanation_zh":"陷阱：因果倒置。比较优势论恰恰说明所有商品都不占绝对优势的国家也能从贸易中获益。","explanation_ja":"誤り。因果倒置の罠。比較優位は全財で劣る国でも貿易利益が得られると説く理論である。"},
+      {"id":3,"text":"保護貿易は関税や輸入数量制限を一切伴わず，関税撤廃のみを意味する。","explanation_zh":"陷阱：概念混淆。保护贸易通常采用关税、配额等手段限制进口，关税撤销是自由贸易特征。","explanation_ja":"誤り。概念混同の罠。保護貿易は関税や数量制限などで輸入を制限する政策で，関税撤廃は自由貿易の特徴。"},
+      {"id":4,"text":"リカードが示した比較優位の理論によれば，各国が相対的に得意な財に特化し貿易を行うことで互いに利益を得られる。","explanation_zh":"正确。李嘉图比较优势论说明各国按相对优势分工贸易可获共同利益。","explanation_ja":"正解。リカードの比較優位論は，各国が相対的に得意な財に特化することで貿易利益が生じると説明する。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"国際貿易理論",
+      "sub_domain":"国際経済・貿易",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"4.国民経済"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["数値混同","主体取違"],
+      "keywords_to_avoid":[]
+    },
+    "passage": "",
+    "sources": [{"claim":"Ricardo formulated the law of comparative advantage in 1817.","source":"Encyclopaedia Britannica, Comparative advantage","year":2024,"url":"https://www.britannica.com/topic/comparative-advantage"}]
+  },
+  {
+    "id": 4,
+    "global_id": 10,
+    "title": "問4",
+    "prompt": "次の文章は，日本の実質GDP成長率（前年比，％）の推移である。読み取れる内容として最も適当なものはどれですか。\n2019年：-0.4，2020年：-4.1，2021年：+2.6，2022年：+1.0。",
+    "choices": [
+      {"id":1,"text":"2020年は-4.1％とマイナス成長となり，翌2021年には+2.6％とプラス成長に転じた。","explanation_zh":"正确。资料中 2020 年为 -4.1%（负增长），2021 年回升至 +2.6%。","explanation_ja":"正解。2020年-4.1％の縮小から2021年+2.6％の拡大へ転換しており資料と一致する。"},
+      {"id":2,"text":"2020年の実質GDP成長率はプラスであり，経済は拡大した。","explanation_zh":"陷阱：数值混同。资料中 2020 年为 -4.1%，并非正增长。","explanation_ja":"誤り。数値混同の罠。2020年は-4.1％のマイナス成長で，拡大ではない。"},
+      {"id":3,"text":"2022年の成長率は2021年を大きく上回り，10％を超えた。","explanation_zh":"陷阱：数值混同。资料中 2022 年仅 +1.0%，未达 10% 以上。","explanation_ja":"誤り。数値混同の罠。2022年は+1.0％で，10％超ではない。"},
+      {"id":4,"text":"4年とも成長率は完全に同じ値であった。","explanation_zh":"陷阱：范围扩大。资料中四年的成长率明显不同。","explanation_ja":"誤り。範囲拡大の罠。4年の値は明確に異なり同一ではない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"マクロ経済・総需要総供給",
+      "sub_domain":"経済原理・市場",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"2.市場経済"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["数値混同","主体取違"],
+      "keywords_to_avoid":[]
+    },
+    "sources": [{"claim":"日本の実質GDP成長率（2019〜2022年）。","source":"内閣府 国民経済計算","year":2023,"url":"https://www.esri.cao.go.jp/jp/sna/menu.html"}]
+  },
+  {
+    "id": 5,
+    "global_id": 11,
+    "title": "問5",
+    "prompt": "公共財の性質とただ乗り問題について、次の文章の内容と合っているものはどれですか。",
+    "choices": [
+      {"id":1,"text":"公共財は非競合性と非排除性をあわせもつため，市場に任せると過少供給が生じやすく，政府による供給が必要とされる。","explanation_zh":"正确。文章指出公共财因免费搭乘问题难以由市场充足提供，需要政府供给。","explanation_ja":"正解。本文は公共財がただ乗り問題により市場では過少供給となり政府供給が必要と述べる。"},
+      {"id":2,"text":"公共財は競合性と排除性をあわせもち，市場で効率的に供給される。","explanation_zh":"陷阱：概念混淆。文章定义公共财为非竞合且非排他，并非有竞合与排他性。","explanation_ja":"誤り。概念混同の罠。本文は公共財を非競合・非排除と定義しており，逆である。"},
+      {"id":3,"text":"国防や灯台は私的財の代表例であり，市場で個別に取引される。","explanation_zh":"陷阱：主体错位。文章把国防、灯台列为公共财例子，不属于私人物品。","explanation_ja":"誤り。主体取違の罠。本文は国防や灯台を公共財の例として挙げており，私的財ではない。"},
+      {"id":4,"text":"ただ乗りとは，料金を支払った人だけが財を利用できる仕組みを指す。","explanation_zh":"陷阱：概念混淆。免费搭乘是指未支付者也使用，并非反义。","explanation_ja":"誤り。概念混同の罠。ただ乗りは対価を支払わない者の利用を指し，逆の意味ではない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"公共財の定義・性質",
+      "sub_domain":"経済原理・市場",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"3.経済主体"},
+      "question_form":"文章読解",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["数値混同","主体取違"],
+      "keywords_to_avoid":[]
+    },
+    "passage": "経済学では，財・サービスのうち「非競合性」と「非排除性」をあわせもつものを公共財と呼ぶ。非競合性とは，ある人が消費しても他者の消費可能量が減らない性質を指し，非排除性とは，対価を支払わない者の利用を妨げにくい性質をいう。代表例として国防や一般道路，灯台などが挙げられる。こうした財は市場に任せると，対価を払わずに利用する「ただ乗り」が生じやすく，採算を確保することが難しいため，政府が税収を用いて供給する必要があると考えられる。"
+  },
+  {
+    "id": 6,
+    "global_id": 12,
+    "title": "問6",
+    "prompt": "好況期と不況期の景気局面の違いとして最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"好況期には失業率が上昇し，企業の生産は縮小する。","explanation_zh":"陷阱：概念混淆。景气好转期生产扩大，失业率通常下降。","explanation_ja":"誤り。概念混同の罠。好況期は生産拡大・失業率低下が一般的で，逆である。"},
+      {"id":2,"text":"好況期には需要や生産が拡大し失業率は低下しやすく，不況期には需要が縮小し失業率が上昇しやすい。","explanation_zh":"正确。好景气期需求生产扩张、失业下降，不景气期相反。","explanation_ja":"正解。好況期は需要・生産拡大と失業低下，不況期は需要縮小と失業増加が典型である。"},
+      {"id":3,"text":"景気循環は需要と全く関係なく，地震など自然現象のみで決まる。","explanation_zh":"陷阱：因果倒置。景气循环主要由需求/投资等经济要素决定，并非仅自然现象。","explanation_ja":"誤り。因果倒置の罠。景気循環は需要・投資など経済要因が中心で，自然現象のみではない。"},
+      {"id":4,"text":"不況期には政府支出を減らせば必ず即時に好況へ転換する。","explanation_zh":"陷阱：范围扩大。紧缩支出未必能立即转入好景气，反而可能加剧不景气。","explanation_ja":"誤り。範囲拡大の罠。不況期の歳出削減は景気を必ずしも即時転換させず，悪化させる場合もある。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"景気循環理論",
+      "sub_domain":"国民経済・成長",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"4.国民経済"},
+      "question_form":"比較分析",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["数値混同","主体取違"],
+      "keywords_to_avoid":[]
+    },
+    "passage": "",
+    "sources": [{"claim":"Business cycles alternate between expansions and contractions with corresponding shifts in output and unemployment.","source":"IMF, Back to Basics: What are Business Cycles?","year":2018,"url":"https://www.imf.org/en/Publications/fandd/issues/2018/06/back-to-basics-what-are-business-cycles"}]
+  },
+  {
+    "id": 7,
+    "global_id": 13,
+    "title": "問7",
+    "prompt": "中央銀行による公開市場操作のうち，国債の売りオペ（資金吸収オペ）に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"売りオペは中央銀行が市中銀行から国債を買い取り，市中の資金量を増やす操作である。","explanation_zh":"陷阱：概念混淆。题述为买入操作（买入操作），并非卖出操作。","explanation_ja":"誤り。概念混同の罠。記述は買いオペの内容であり，売りオペとは逆である。"},
+      {"id":2,"text":"売りオペは財政赤字を補うため，中央銀行が政府に直接資金を貸し付ける制度を指す。","explanation_zh":"陷阱：主体错位。卖出操作是公开市场上对市中机构进行，并非直接给政府贷款。","explanation_ja":"誤り。主体取違の罠。売りオペは市中金融機関を相手とする公開市場操作であり，政府への直接融資ではない。"},
+      {"id":3,"text":"売りオペは中央銀行が保有する国債などを市中に売却して資金を吸収し，市中金利を上昇させる方向に作用する。","explanation_zh":"正确。卖出操作通过出售国债吸收资金，市中利率有上升压力。","explanation_ja":"正解。売りオペは国債等の売却で資金を吸収し，市中金利を引き上げる方向に作用する。"},
+      {"id":4,"text":"売りオペには市中金利を全く動かさないという性質があり，景気調整手段としては機能しない。","explanation_zh":"陷阱：范围扩大。卖出操作影响货币基数和市中利率，是金融政策的主要手段之一。","explanation_ja":"誤り。範囲拡大の罠。売りオペはマネタリーベースと市中金利に影響を与える金融政策手段である。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"中央銀行の金融政策・売り操作",
+      "sub_domain":"金融・通貨",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"5. 金融"},
+      "question_form":"正誤判定",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["数値混同","主体取違"],
+      "keywords_to_avoid":[]
+    },
+    "passage": "",
+    "sources": [{"claim":"Open market sales by the central bank withdraw reserves and tend to raise short-term rates.","source":"日本銀行 金融政策の基本","year":2024,"url":"https://www.boj.or.jp/mopo/outline/index.htm"}]
+  },
+  {
+    "id": 8,
+    "global_id": 14,
+    "title": "問8",
+    "prompt": "日本の税制度に関する次の出来事 ア〜エ を，年代の古い順に並べたものとして正しいものはどれですか。\nア：地租改正の実施，イ：所得税の創設，ウ：シャウプ勧告に基づく税制改革，エ：消費税の導入。",
+    "choices": [
+      {"id":1,"text":"イ → ア → ウ → エ","explanation_zh":"陷阱：顺序混乱。地租改正(1873)早于所得税创设(1887)，应在前。","explanation_ja":"誤り。順序混同の罠。地租改正(1873年)は所得税創設(1887年)より早く先行する。"},
+      {"id":2,"text":"ア → イ → ウ → エ","explanation_zh":"正确。地租改正 1873 年→所得税创设 1887 年→税制改革 1949 年→消费税导入 1989 年，顺序正确。","explanation_ja":"正解。ア1873→イ1887→ウ1949→エ1989の順序で資料と一致する。"},
+      {"id":3,"text":"ア → ウ → イ → エ","explanation_zh":"陷阱：时态错位。所得税创设(1887)早于战后税制改革(1949)，应在前。","explanation_ja":"誤り。時態錯位の罠。所得税創設(1887年)はシャウプ勧告(1949年)より早い。"},
+      {"id":4,"text":"エ → ア → イ → ウ","explanation_zh":"陷阱：范围扩大。消费税导入(1989)是四件中最晚的事件，不应排第一。","explanation_ja":"誤り。範囲拡大の罠。消費税導入(1989年)は4件中で最も新しい出来事で，先頭ではない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"日本の税制度",
+      "sub_domain":"政治思想・政治史",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"6. 財政"},
+      "question_form":"時系列整序",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["数値混同","主体取違"],
+      "keywords_to_avoid":[]
+    },
+    "passage": "",
+    "sources": [{"claim":"日本の主要税制度の年表（地租改正1873・所得税1887・シャウプ勧告1949・消費税1989）。","source":"財務省 税制の歩み","year":2024,"url":"https://www.mof.go.jp/tax_policy/summary/"}]
+  },
+  {
+    "id": 9,
+    "global_id": 15,
+    "title": "問9",
+    "prompt": "戦後日本の農業政策に関する次の語句 ア〜ウ と説明 X〜Z の組合せとして最も適当なものはどれですか。\nア：農地改革，イ：食糧管理制度，ウ：減反政策。\nX：戦後改革の一環として地主の土地を小作人に分配し，自作農を創出した。\nY：政府が米を買い入れ売り渡しを管理し，価格と需給を安定させた。\nZ：米の過剰生産を背景に，水田の作付面積を制限することで生産量を調整した。",
+    "choices": [
+      {"id":1,"text":"ア-X，イ-Y，ウ-Z","explanation_zh":"正确。农地改革对应小农创出，食粮管理对应米价管理，减反对应限种水田，组合正确。","explanation_ja":"正解。農地改革＝自作農創出X，食糧管理＝米価管理Y，減反＝作付制限Zで対応が一致する。"},
+      {"id":2,"text":"ア-Y，イ-X，ウ-Z","explanation_zh":"陷阱：主体错位。农地改革并非米价管理(Y)，应对应自作农创出(X)。","explanation_ja":"誤り。主体取違の罠。農地改革は自作農創出(X)であり，米価管理(Y)ではない。"},
+      {"id":3,"text":"ア-Z，イ-Y，ウ-X","explanation_zh":"陷阱：范围扩大。减反政策对应限种水田(Z)，不对应农地改革(X)。","explanation_ja":"誤り。範囲拡大の罠。減反政策は作付制限(Z)であり，農地改革(X)は別の政策である。"},
+      {"id":4,"text":"ア-X，イ-Z，ウ-Y","explanation_zh":"陷阱：概念混淆。食粮管理对应米价管理(Y)，并非减反(Z)。","explanation_ja":"誤り。概念混同の罠。食糧管理制度は米価管理(Y)であり，減反(Z)ではない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"戦後日本の農業政策",
+      "sub_domain":"経済発展・産業",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"3.経済主体"},
+      "question_form":"組合せ",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["数値混同","主体取違"],
+      "keywords_to_avoid":[]
+    },
+    "passage": "",
+    "sources": [{"claim":"戦後農業政策：農地改革(1946-)・食糧管理制度・減反政策(1971-)。","source":"農林水産省 戦後農政の歩み","year":2023,"url":"https://www.maff.go.jp/j/wpaper/"}]
+  },
+  {
+    "id": 10,
+    "global_id": 16,
+    "title": "問10",
+    "prompt": "所得分布を表す指標であるジニ係数に関する記述として最も適当なものはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"ジニ係数は0から100までの値をとり，値が大きいほど所得分布が完全に平等であることを意味する。","explanation_zh":"陷阱：数值混同。基尼系数取值 0 到 1，且数值越大代表越不平等。","explanation_ja":"誤り。数値混同の罠。ジニ係数は0〜1の値をとり，大きいほど不平等度が高い。"},
+      {"id":2,"text":"ジニ係数は所得分布の指標ではなく，気温の年較差を測る気象指標である。","explanation_zh":"陷阱：概念混淆。基尼系数是所得分配指标，与气温无关。","explanation_ja":"誤り。概念混同の罠。ジニ係数は所得分配の指標で，気温指標ではない。"},
+      {"id":3,"text":"ジニ係数を用いれば，国内のいかなる地域における将来の所得不平等を100％予測できる。","explanation_zh":"陷阱：范围扩大。基尼系数仅描述当前分配状况，并非未来预测工具。","explanation_ja":"誤り。範囲拡大の罠。ジニ係数は現状の分配を示すもので，将来予測を保証する指標ではない。"},
+      {"id":4,"text":"ジニ係数は0から1の値をとり，0に近いほど所得分布が平等，1に近いほど不平等が大きいことを示す。","explanation_zh":"正确。基尼系数 0 接近平等，1 接近不平等。","explanation_ja":"正解。ジニ係数は0で完全平等，1で完全不平等に近づく指標である。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"社会",
+      "topic":"所得分布・ジニ係数",
+      "sub_domain":"人口・家族",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"7.社会保障"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["数値混同","主体取違"],
+      "keywords_to_avoid":[]
+    },
+    "sources": [{"claim":"The Gini coefficient ranges from 0 (perfect equality) to 1 (maximal inequality).","source":"OECD, Income inequality (indicator)","year":2023,"url":"https://data.oecd.org/inequality/income-inequality.htm"}]
+  },
+  {
+    "id": 11,
+    "global_id": 17,
+    "title": "問11",
+    "prompt": "次の文章は，1980年代の英国の年平均失業率（％，OECD調べ）である。読み取れる内容として最も適当なものはどれですか。\n1979年：約5.0，1984年：約11.7，1989年：約7.2。",
+    "choices": [
+      {"id":1,"text":"1979年に約5.0％であった失業率は1984年に約11.7％まで上昇し，1989年には約7.2％へ低下した。","explanation_zh":"正确。资料中失业率从 1979 年 5.0% 升至 1984 年 11.7%，1989 年降至 7.2%。","explanation_ja":"正解。1979年5.0％から1984年11.7％へ上昇し，1989年7.2％へ低下した資料と一致する。"},
+      {"id":2,"text":"1980年代を通じて英国の失業率は一貫して下降し続けた。","explanation_zh":"陷阱：范围扩大。资料中 1984 年 11.7% 高于 1979 年 5.0%，并非持续下降。","explanation_ja":"誤り。範囲拡大の罠。1984年11.7％は1979年5.0％より高く，一貫下降ではない。"},
+      {"id":3,"text":"1984年の失業率は1989年の半分未満であった。","explanation_zh":"陷阱：数值混同。资料中 1984 年 11.7% 高于 1989 年 7.2%。","explanation_ja":"誤り。数値混同の罠。1984年11.7％は1989年7.2％を上回る。"},
+      {"id":4,"text":"資料の3年とも失業率は0％であった。","explanation_zh":"陷阱：范围扩大。资料中各年均明显大于 0。","explanation_ja":"誤り。範囲拡大の罠。資料の各年は明確に0％ではない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"サッチャリズム・レーガノミクス",
+      "sub_domain":"経済思想・経済史",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"3.経済主体"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["数値混同","主体取違"],
+      "keywords_to_avoid":[]
+    },
+    "sources": [{"claim":"UK harmonised unemployment rate 1979/1984/1989.","source":"OECD, Unemployment rate (indicator)","year":2024,"url":"https://data.oecd.org/unemp/unemployment-rate.htm"}]
+  },
+  {
+    "id": 12,
+    "global_id": 18,
+    "title": "問12",
+    "prompt": "円安が輸出企業と輸入価格に与える影響について、次の文章の内容と合っているものはどれですか。",
+    "choices": [
+      {"id":1,"text":"円安は輸出企業の収益を押し上げやすい一方で，輸入価格を上昇させ国内物価に押し上げ圧力を与える。","explanation_zh":"正确。文章指出日元贬值有利于出口企业，但抬高进口价格并增加国内物价压力。","explanation_ja":"正解。本文は円安が輸出収益を増やす一方で輸入価格上昇と国内物価押し上げ圧力をもたらすと述べる。"},
+      {"id":2,"text":"円安は輸入品の円建て価格を低下させ，原材料の調達コストを必ず引き下げる。","explanation_zh":"陷阱：因果倒置。文章指出日元贬值会抬高进口价格，并非降低。","explanation_ja":"誤り。因果倒置の罠。本文では円安が輸入価格を上昇させると説明しており，逆である。"},
+      {"id":3,"text":"円安はすべての業種にとって同じ効果をもち，経済全体で利害は一致する。","explanation_zh":"陷阱：范围扩大。文章指出出口与进口依赖业种受影响不同，利害不一致。","explanation_ja":"誤り。範囲拡大の罠。本文は業種により影響が異なり利害が混在すると述べている。"},
+      {"id":4,"text":"円安とは円の対外価値が上昇する現象を指し，円高と同義である。","explanation_zh":"陷阱：概念混淆。日元贬值是日元价值下降，与日元升值含义相反。","explanation_ja":"誤り。概念混同の罠。円安は円の対外価値の低下で，円高とは反対の概念。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"円安の経済的影響",
+      "sub_domain":"金融・通貨",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"3.経済主体"},
+      "question_form":"文章読解",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["数値混同","主体取違"],
+      "keywords_to_avoid":[]
+    },
+    "passage": "外国為替市場で円の価値が下がる現象を「円安」という。円安が進むと，日本の輸出企業は，外貨建ての売上を円に換算する際に得られる円が増えるため，収益が押し上げられやすい。一方で，原油や食料品など輸入品の円建て価格は上昇するため，企業の調達コストや家計の消費財価格が上がり，国内物価には押し上げ圧力が働く。同じ円安でも，輸出に強みをもつ製造業と，原材料を輸入に頼る業種では受ける影響が異なり，経済全体としては利害が混在する。"
+  },
+  {
+    "id": 13,
+    "global_id": 19,
+    "title": "問13",
+    "prompt": "国際収支のうち経常収支と金融収支の違いとして最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"経常収支とは国内の財政赤字を直接示す指標で，金融収支とは関係がない。","explanation_zh":"陷阱：概念混淆。经常收支不是财政赤字指标，是对外贸易和投资收益等的合计。","explanation_ja":"誤り。概念混同の罠。経常収支は対外取引の収支であり，国内財政赤字を直接示すものではない。"},
+      {"id":2,"text":"金融収支は，財・サービスの輸出入のみを記録する項目で，対外資産・負債とは無関係である。","explanation_zh":"陷阱：主体错位。金融账户记录对外资产负债的变动，并非货物服务。","explanation_ja":"誤り。主体取違の罠。金融収支は対外資産・負債の変動を記録するもので，財・サービスは経常収支に含まれる。"},
+      {"id":3,"text":"経常収支は財・サービスの輸出入や所得収支などの取引を記録するのに対し，金融収支は対外資産・負債の取得や処分を記録する。","explanation_zh":"正确。经常收支记录贸易和所得等流量，金融账户记录对外资产负债的存量变动，分工不同。","explanation_ja":"正解。経常収支は財・サービス・所得などの取引，金融収支は対外資産・負債の変動を記録する。"},
+      {"id":4,"text":"経常収支と金融収支はいずれも実物指標で，金融市場の取引とは一切関わらない。","explanation_zh":"陷阱：范围扩大。金融账户专门记录金融交易，并非完全无关。","explanation_ja":"誤り。範囲拡大の罠。金融収支は金融取引を記録する項目であり，金融市場と直接関係する。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"国際収支・経常収支",
+      "sub_domain":"国際経済・貿易",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"10. 国際経済"},
+      "question_form":"比較分析",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["数値混同","主体取違"],
+      "keywords_to_avoid":[]
+    },
+    "passage": "",
+    "sources": [{"claim":"Balance of payments comprises current account and financial account components.","source":"IMF, Balance of Payments Manual (BPM6)","year":2009,"url":"https://www.imf.org/external/pubs/ft/bop/2007/bopman6.htm"}]
+  },
+  {
+    "id": 14,
+    "global_id": 20,
+    "title": "問14",
+    "prompt": "プレート境界と地震・火山活動に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"プレート境界は地殻にまったく存在せず，地震や火山活動とは関係がない。","explanation_zh":"陷阱：范围扩大。板块边界确实存在，是地震和火山活动的主要发生区域。","explanation_ja":"誤り。範囲拡大の罠。プレート境界は実在し，地震や火山活動の主要発生域である。"},
+      {"id":2,"text":"日本列島は単一の安定プレートの上にあり，太平洋プレートやフィリピン海プレートとは接していない。","explanation_zh":"陷阱：主体错位。日本列岛位于多板块汇聚带，与太平洋板块及菲律宾海板块等接触。","explanation_ja":"誤り。主体取違の罠。日本列島は太平洋プレート・フィリピン海プレートなど複数のプレートが接する境界帯にある。"},
+      {"id":3,"text":"発散境界では二つのプレートが互いに衝突し，海溝が形成される。","explanation_zh":"陷阱：概念混淆。海沟形成于汇聚（消亡）边界，发散边界形成洋中脊或裂谷。","explanation_ja":"誤り。概念混同の罠。海溝は収束境界で形成され，発散境界では海嶺などが形成される。"},
+      {"id":4,"text":"地震や火山活動はプレートの境界付近で集中して発生しやすく，日本列島はそうした境界帯に位置するため地震・火山活動が活発である。","explanation_zh":"正确。地震和火山活动集中于板块边界附近，日本列岛位于此带因此活动活跃。","explanation_ja":"正解。地震・火山活動はプレート境界付近に集中し，日本列島はその帯に位置するため活発である。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"プレート境界・地質学",
+      "sub_domain":"自然地理",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"正誤判定",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["数値混同","主体取違"],
+      "keywords_to_avoid":[]
+    },
+    "passage": "",
+    "sources": [{"claim":"Japan lies at a convergent boundary of multiple tectonic plates with high seismic and volcanic activity.","source":"USGS, Tectonic plates and Japan","year":2023,"url":"https://www.usgs.gov/programs/earthquake-hazards"}]
+  },
+  {
+    "id": 15,
+    "global_id": 21,
+    "title": "問15",
+    "prompt": "日本の近現代に関する次の出来事 ア〜エ を，年代の古い順に並べたものとして正しいものはどれですか。\nア：明治維新の開始，イ：大日本帝国憲法の発布，ウ：満州事変の勃発，エ：戦後の高度経済成長期。",
+    "choices": [
+      {"id":1,"text":"イ → ア → ウ → エ","explanation_zh":"陷阱：顺序混乱。明治维新(1868)早于大日本帝国宪法发布(1889)，应在前。","explanation_ja":"誤り。順序混同の罠。明治維新(1868年)は大日本帝国憲法発布(1889年)より早い。"},
+      {"id":2,"text":"ア → イ → ウ → エ","explanation_zh":"正确。明治维新 1868 → 帝国宪法 1889 → 满洲事变 1931 → 高度增长期 1950 年代中期-，顺序正确。","explanation_ja":"正解。ア1868→イ1889→ウ1931→エ高度成長期の順で日本近現代の年代順と一致する。"},
+      {"id":3,"text":"ア → ウ → イ → エ","explanation_zh":"陷阱：时态错位。大日本帝国宪法(1889)早于满洲事变(1931)，应在前。","explanation_ja":"誤り。時態錯位の罠。大日本帝国憲法(1889年)は満州事変(1931年)より早い。"},
+      {"id":4,"text":"エ → ア → イ → ウ","explanation_zh":"陷阱：范围扩大。高度增长期是战后最晚的事件，不应排第一。","explanation_ja":"誤り。範囲拡大の罠。高度経済成長は戦後で4件中最も新しく，先頭ではない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"気候・気象グラフ（ハイサーグラフ）",
+      "sub_domain":"自然地理",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"時系列整序",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["数値混同","主体取違"],
+      "keywords_to_avoid":[]
+    },
+    "passage": "",
+    "sources": [{"claim":"Modern Japan chronology: Meiji Restoration 1868, Constitution of the Empire 1889, Manchurian Incident 1931, Post-war high growth.","source":"NDL, Modern Japan in archives","year":2024,"url":"https://www.ndl.go.jp/modern/e/"}]
+  },
+  {
+    "id": 16,
+    "global_id": 22,
+    "title": "問16",
+    "prompt": "アメリカ合衆国の農業地帯と主要産物に関する次の組合せのうち，最も適当なものはどれですか。\nア：中西部のコーンベルト，イ：南部諸州，ウ：グレートプレーンズ。\nX：とうもろこしと大豆の大規模生産が中心。\nY：歴史的に綿花栽培で知られ，現在は多角化が進む。\nZ：広大な平原で小麦の大規模栽培や肉牛肥育が行われる。",
+    "choices": [
+      {"id":1,"text":"ア-Y，イ-X，ウ-Z","explanation_zh":"陷阱：概念混淆。玉米带对应玉米和大豆(X)，南方诸州对应棉花(Y)。","explanation_ja":"誤り。概念混同の罠。コーンベルトはとうもろこし・大豆(X)，南部諸州は綿花(Y)で対応が異なる。"},
+      {"id":2,"text":"ア-Z，イ-Y，ウ-X","explanation_zh":"陷阱：地域错位。大平原对应小麦和肉牛(Z)，玉米带不对应小麦。","explanation_ja":"誤り。地域取違の罠。グレートプレーンズが小麦・肉牛(Z)で，コーンベルトはとうもろこし(X)が正しい。"},
+      {"id":3,"text":"ア-X，イ-Y，ウ-Z","explanation_zh":"正确。玉米带=玉米和大豆，南方诸州=棉花，大平原=小麦和肉牛，三组对应一致。","explanation_ja":"正解。コーンベルト＝X，南部＝Y，グレートプレーンズ＝Zの対応が農業地理と一致する。"},
+      {"id":4,"text":"ア-X，イ-Z，ウ-Y","explanation_zh":"陷阱：概念混淆。南方诸州对应棉花(Y)，并非小麦和肉牛(Z)。","explanation_ja":"誤り。概念混同の罠。南部諸州は綿花(Y)で，小麦・肉牛(Z)は大平原の特徴である。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"北米農業・作物分布",
+      "sub_domain":"産業・資源",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"組合せ",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["数値混同","主体取違"],
+      "keywords_to_avoid":[]
+    },
+    "passage": "",
+    "sources": [{"claim":"US agricultural regions: Corn Belt (corn/soybean), Southern states (cotton historically), Great Plains (wheat/cattle).","source":"USDA Economic Research Service, Farm Resource Regions","year":2023,"url":"https://www.ers.usda.gov/topics/farm-economy/"}]
+  },
+  {
+    "id": 17,
+    "global_id": 23,
+    "title": "問17",
+    "prompt": "日本の食料供給と食生活に関する記述として最も適当なものはどれですか。",
+    "passage": "",
+    "choices": [
+      {"id":1,"text":"日本の食料自給率（カロリーベース）は近年100％を超えており，輸入に依存していない。","explanation_zh":"陷阱：数值混同。日本食物自给率长期约 38% 左右，进口依赖度高。","explanation_ja":"誤り。数値混同の罠。日本のカロリーベース食料自給率は近年約38％前後で，輸入依存度が高い。"},
+      {"id":2,"text":"日本のカロリーベース食料自給率は近年30〜40％台で推移しており，多くの食料を輸入に依存している。","explanation_zh":"正确。日本卡路里基础食物自给率近年保持 30-40% 区间，进口依赖较大。","explanation_ja":"正解。日本のカロリーベース食料自給率は30〜40％台で推移し，輸入依存が大きい。"},
+      {"id":3,"text":"米はすべて海外からの輸入に依存しており，国内ではほとんど生産されていない。","explanation_zh":"陷阱：主体错位。日本米基本国产自给，国产仍占主导。","explanation_ja":"誤り。主体取違の罠。米はほぼ国内生産で自給され，輸入依存ではない。"},
+      {"id":4,"text":"戦後日本の食生活は変化せず，現在も米以外の食品は一切普及していない。","explanation_zh":"陷阱：范围扩大。战后日本食生活显著多样化，面包、肉类、乳制品消费扩大。","explanation_ja":"誤り。範囲拡大の罠。戦後の食生活はパン・肉類・乳製品が普及し多様化した。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"食生活と食料供給",
+      "sub_domain":"産業・資源",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"2.市場経済"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["数値混同","主体取違"],
+      "keywords_to_avoid":[]
+    },
+    "sources": [{"claim":"日本のカロリーベース食料自給率は近年約38％。","source":"農林水産省 食料自給率","year":2023,"url":"https://www.maff.go.jp/j/zyukyu/zikyu_ritu/"}]
+  },
+  {
+    "id": 18,
+    "global_id": 24,
+    "title": "問18",
+    "prompt": "次の文章は，日本の就業者の産業別構成比（％，総務省 労働力調査）の推移である。読み取れる内容として最も適当なものはどれですか。\n1970年：第一次約19.3，第二次約34.0，第三次約46.6。\n2020年：第一次約3.2，第二次約23.4，第三次約73.4。",
+    "choices": [
+      {"id":1,"text":"1970年から2020年にかけて，第一次産業の就業者比率は上昇している。","explanation_zh":"陷阱：数值混同。资料中第一产业从约 19.3% 降至约 3.2%，是下降。","explanation_ja":"誤り。数値混同の罠。第一次産業は約19.3％から約3.2％へ低下している。"},
+      {"id":2,"text":"2020年の第二次産業比率は1970年を上回っている。","explanation_zh":"陷阱：数值混同。资料中第二产业从约 34.0% 降至约 23.4%。","explanation_ja":"誤り。数値混同の罠。第二次産業は約34.0％から約23.4％へ低下している。"},
+      {"id":3,"text":"第三次産業の比率は1970年から2020年にかけて0％へ低下した。","explanation_zh":"陷阱：范围扩大。资料中第三产业从约 46.6% 升至约 73.4%，并非降为 0。","explanation_ja":"誤り。範囲拡大の罠。第三次産業は約46.6％から約73.4％へ上昇しており，0％ではない。"},
+      {"id":4,"text":"第一次産業の比率は約19.3％から約3.2％へ大きく低下し，第三次産業の比率は約46.6％から約73.4％へ上昇した。","explanation_zh":"正确。资料中第一产业明显下降，第三产业显著上升。","explanation_ja":"正解。第一次産業の急減と第三次産業の拡大という資料の傾向と一致する。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"経済",
+      "topic":"産業別人口構成",
+      "sub_domain":"国民経済・成長",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の経済","item":"9. 日本の産業"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["数値混同","主体取違"],
+      "keywords_to_avoid":[]
+    },
+    "sources": [{"claim":"日本の産業別就業者構成比の推移（1970年と2020年）。","source":"総務省統計局 労働力調査","year":2021,"url":"https://www.stat.go.jp/data/roudou/"}]
+  },
+  {
+    "id": 19,
+    "global_id": 25,
+    "title": "問19",
+    "prompt": "マックス・ウェーバーの支配の正統性の三類型について、次の文章の内容と合っているものはどれですか。",
+    "choices": [
+      {"id":1,"text":"ウェーバーは支配の正統性を二つに分類し，伝統的支配のみが近代社会に該当するとした。","explanation_zh":"陷阱：范围扩大。文章指出韦伯把正当性分为三类，并以合法支配为近代典型，并非两类与传统支配。","explanation_ja":"誤り。範囲拡大の罠。本文では支配の正統性を三類型に分類し，合法的支配を近代の典型としている。"},
+      {"id":2,"text":"ウェーバーは支配の正統性を伝統的・カリスマ的・合法的の三類型に整理し，近代官僚制を合法的支配の典型と位置づけた。","explanation_zh":"正确。文章把支配的正统性分为传统、克里斯玛、合法三类，并以现代官僚制为合法支配的典型。","explanation_ja":"正解。本文は伝統的・カリスマ的・合法的の三類型を提示し，近代官僚制を合法的支配の典型例とする。"},
+      {"id":3,"text":"合法的支配はカリスマ性のある個人の意思に基づく支配で，規則や手続きとは無関係である。","explanation_zh":"陷阱：概念混淆。合法支配按规则与程序运作，与卡里斯玛支配（个人魅力）不同。","explanation_ja":"誤り。概念混同の罠。合法的支配は規則・手続きに基づく支配で，カリスマ的支配とは異なる。"},
+      {"id":4,"text":"近代官僚制は伝統的支配の典型例であり，規則よりも世襲的な慣習を重視する。","explanation_zh":"陷阱：主体错位。文章把近代官僚制定位为合法支配的典型，并非传统支配。","explanation_ja":"誤り。主体取違の罠。本文は近代官僚制を合法的支配の典型と位置づけ，伝統的支配ではない。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"社会",
+      "topic":"マックス・ウェーバーの社会学理論",
+      "sub_domain":"教育・文化",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"3. 日本国憲法"},
+      "question_form":"文章読解",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["数値混同","主体取違"],
+      "keywords_to_avoid":[]
+    },
+    "passage": "社会学者マックス・ウェーバーは，近代社会の支配のあり方を分析するうえで「支配の正統性」という概念を提示し，その典型を三つに整理した。第一は，古くからの慣習や伝統に基づいて支配が正当化される「伝統的支配」，第二は，個人の卓越したカリスマ性によって支持を得る「カリスマ的支配」，第三は，制定された規則や手続きによって運営される「合法的支配」である。ウェーバーは，近代官僚制を合法的支配の典型例と位置づけ，規則・専門性・階層性に基づく組織原理が近代国家や大企業の運営を支えていると論じた。"
+  },
+  {
+    "id": 20,
+    "global_id": 26,
+    "title": "問20",
+    "prompt": "日本国会における衆議院と参議院の制度上の違いとして最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"衆議院と参議院の議員任期は等しく，どちらも任期途中の解散制度がある。","explanation_zh":"陷阱：概念混淆。众议院任期 4 年并有解散制度，参议院任期 6 年没有解散制度。","explanation_ja":"誤り。概念混同の罠。衆議院は任期4年で解散があり，参議院は任期6年で解散はない。"},
+      {"id":2,"text":"衆議院は任期4年で解散があるのに対し，参議院は任期6年で解散がなく，3年ごとに半数を改選する。","explanation_zh":"正确。众议院 4 年任期且可解散，参议院 6 年任期不可解散并 3 年改选半数。","explanation_ja":"正解。衆議院は任期4年・解散あり，参議院は任期6年・解散なし・3年ごと半数改選という制度差がある。"},
+      {"id":3,"text":"予算先議権は参議院にのみ与えられており，衆議院は予算審議に関与しない。","explanation_zh":"陷阱：主体错位。宪法规定预算先议权属于众议院，并非参议院。","explanation_ja":"誤り。主体取違の罠。予算先議権は憲法上衆議院に認められており，参議院ではない。"},
+      {"id":4,"text":"内閣不信任決議権は両議院ともに与えられている。","explanation_zh":"陷阱：范围扩大。不信任决议权仅众议院拥有，参议院的问责决议无法律拘束力。","explanation_ja":"誤り。範囲拡大の罠。内閣不信任決議権は衆議院にのみ与えられている。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"日本国会の構成と権限",
+      "sub_domain":"三権分立・統治機構",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"2. 日本の統治機構"},
+      "question_form":"比較分析",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["数値混同","主体取違"],
+      "keywords_to_avoid":[]
+    },
+    "passage": "",
+    "sources": [{"claim":"日本国憲法上の衆議院・参議院の任期と権限。","source":"衆議院 / 参議院 公式（国会制度）","year":2024,"url":"https://www.shugiin.go.jp/internet/itdb_annai.nsf/html/statics/shiryo/index.htm"}]
+  },
+  {
+    "id": 21,
+    "global_id": 27,
+    "title": "問21",
+    "prompt": "日本の国務大臣の任命に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"国務大臣はすべて天皇が独自の判断で直接任命する。","explanation_zh":"陷阱：主体错位。宪法规定国务大臣由首相任命，天皇仅认证。","explanation_ja":"誤り。主体取違の罠。国務大臣は内閣総理大臣が任命し，天皇は認証するのみである。"},
+      {"id":2,"text":"内閣総理大臣は国務大臣を任命する権限をもたず，国会が選出する。","explanation_zh":"陷阱：主体错位。宪法第 68 条规定国务大臣由首相任命和罢免。","explanation_ja":"誤り。主体取違の罠。憲法第68条により国務大臣の任命・罷免権は内閣総理大臣にある。"},
+      {"id":3,"text":"日本国憲法第68条により，国務大臣は内閣総理大臣が任命し，その過半数は国会議員の中から選ばれなければならない。","explanation_zh":"正确。宪法第 68 条规定国务大臣由首相任命，过半数须为国会议员。","explanation_ja":"正解。憲法68条に基づき国務大臣は総理大臣が任命し，過半数は国会議員から選ばれる。"},
+      {"id":4,"text":"国務大臣はすべて文民でなくてもよく，現役の自衛官をそのまま任命することが認められている。","explanation_zh":"陷阱：范围扩大。宪法第 66 条规定首相和国务大臣需为文官。","explanation_ja":"誤り。範囲拡大の罠。憲法第66条により国務大臣は文民でなければならない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"日本の国務大臣",
+      "sub_domain":"三権分立・統治機構",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"2. 日本の統治機構"},
+      "question_form":"正誤判定",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["数値混同","主体取違"],
+      "keywords_to_avoid":[]
+    },
+    "passage": "",
+    "sources": [{"claim":"Article 68 of the Constitution of Japan: the Prime Minister appoints the Ministers of State; a majority must be members of the Diet.","source":"日本国憲法 第68条・第66条","year":1947,"url":"https://elaws.e-gov.go.jp/document?lawid=321CONSTITUTION"}]
+  },
+  {
+    "id": 22,
+    "global_id": 28,
+    "title": "問22",
+    "prompt": "日本近現代史に関する次の出来事 ア〜エ を，年代の古い順に並べたものとして正しいものはどれですか。\nア：日清戦争，イ：日露戦争，ウ：満州事変，エ：日本国憲法の施行。",
+    "choices": [
+      {"id":1,"text":"ア → イ → ウ → エ","explanation_zh":"正确。日清战争 1894 → 日俄战争 1904 → 满洲事变 1931 → 日本国宪法 1947，顺序正确。","explanation_ja":"正解。ア1894→イ1904→ウ1931→エ1947の順序で年代と一致する。"},
+      {"id":2,"text":"イ → ア → ウ → エ","explanation_zh":"陷阱：顺序混乱。日清战争(1894)早于日俄战争(1904)，应在前。","explanation_ja":"誤り。順序混同の罠。日清戦争(1894年)は日露戦争(1904年)より早い。"},
+      {"id":3,"text":"ア → ウ → イ → エ","explanation_zh":"陷阱：时态错位。日俄战争(1904)早于满洲事变(1931)，应在前。","explanation_ja":"誤り。時態錯位の罠。日露戦争(1904年)は満州事変(1931年)より早い。"},
+      {"id":4,"text":"エ → ア → イ → ウ","explanation_zh":"陷阱：范围扩大。日本国宪法施行(1947)是四件中最晚的事件，不应排第一。","explanation_ja":"誤り。範囲拡大の罠。日本国憲法施行(1947年)は4件中最も新しく，先頭ではない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"日本の検察制度",
+      "sub_domain":"三権分立・統治機構",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"2. 日本の統治機構"},
+      "question_form":"時系列整序",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["数値混同","主体取違"],
+      "keywords_to_avoid":[]
+    },
+    "passage": "",
+    "sources": [{"claim":"日本近現代史：日清戦争1894，日露戦争1904，満州事変1931，日本国憲法施行1947。","source":"NDL, Modern Japan chronology","year":2024,"url":"https://www.ndl.go.jp/modern/e/"}]
+  },
+  {
+    "id": 23,
+    "global_id": 29,
+    "title": "問23",
+    "prompt": "日本国憲法に規定された国民の三大義務に関する次の語句 ア〜ウ と説明 X〜Z の組合せとして最も適当でないものはどれですか。\nア：勤労の義務，イ：納税の義務，ウ：教育を受けさせる義務。\nX：すべて国民は，働く能力を活かして社会経済の発展に貢献することが期待される。\nY：法律の定めるところにより，国民は税を納める義務を負う。\nZ：保護する子女に普通教育を受けさせる義務を，国民は負う。",
+    "choices": [
+      {"id":1,"text":"ア-X，イ-Y，ウ-Z","explanation_zh":"陷阱：设问反转。这是完全正确组合，题目要求选不适当项，故此项不应被选。","explanation_ja":"誤り。設問反転の罠。完全に正しい組合せで，設問は最も適当でないものを求めている。"},
+      {"id":2,"text":"ア-Y，イ-X，ウ-Z","explanation_zh":"陷阱：错配（前两项互换）。勤劳义务应对应 X，纳税义务应对应 Y，本项把前两项互换，部分错配但教育义务仍正确。","explanation_ja":"誤り。アとイが入れ替わっているが，ウ-Zは正しいため部分的な誤りにとどまる。"},
+      {"id":3,"text":"ア-Z，イ-Y，ウ-X","explanation_zh":"正确。勤劳义务应对应 X，教育义务应对应 Z，本项把首项与末项的对应完全互换，是最不适当组合。","explanation_ja":"正解。勤労の義務はX，教育を受けさせる義務はZが正しく，ア-Zとウ-Xは完全に入れ替わっており最も適当でない。"},
+      {"id":4,"text":"ア-X，イ-Z，ウ-Y","explanation_zh":"陷阱：错配（后两项互换）。本项把纳税义务与受教育义务的对应互换，含部分错配但勤劳义务仍正确。","explanation_ja":"誤り。イとウが入れ替わっているが，ア-Xは正しいため部分的な誤りにとどまる。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"日本国憲法に規定された国民の義務",
+      "sub_domain":"憲法・人権",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"3. 日本国憲法"},
+      "question_form":"組合せ",
+      "statement_polarity":"正答誤記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["数値混同","主体取違"],
+      "keywords_to_avoid":[]
+    },
+    "passage": "",
+    "sources": [{"claim":"日本国憲法の国民の三大義務：勤労（27条），納税（30条），教育を受けさせる義務（26条）。","source":"日本国憲法 第26〜30条","year":1947,"url":"https://elaws.e-gov.go.jp/document?lawid=321CONSTITUTION"}]
+  },
+  {
+    "id": 24,
+    "global_id": 30,
+    "title": "問24",
+    "prompt": "日本の地方自治制度に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"地方公共団体の首長と議会の議員は，いずれも住民の直接選挙ではなく国会の指名で選ばれる。","explanation_zh":"陷阱：主体错位。地方首长和议员都由居民直接选举产生。","explanation_ja":"誤り。主体取違の罠。首長と議会議員はいずれも住民の直接選挙によって選ばれる。"},
+      {"id":2,"text":"日本の地方自治制度では，住民投票や直接請求などの直接民主主義的な仕組みは一切認められていない。","explanation_zh":"陷阱：范围扩大。地方自治法规定可对条例制定、议员罢免等进行直接请求。","explanation_ja":"誤り。範囲拡大の罠。地方自治法は条例制定請求や議員リコールなど直接請求の制度を定めている。"},
+      {"id":3,"text":"地方自治法に基づき，住民は条例の制定・改廃や議員・首長の解職などについて直接請求を行うことができる。","explanation_zh":"正确。居民可依地方自治法对条例和议员首长进行直接请求。","explanation_ja":"正解。住民は地方自治法に基づき条例制定・改廃やリコールの直接請求を行うことができる。"},
+      {"id":4,"text":"地方公共団体は国の機関であり，独自の条例を制定する権限を一切もたない。","explanation_zh":"陷阱：概念混淆。地方公共团体可在法律范围内制定条例。","explanation_ja":"誤り。概念混同の罠。地方公共団体は法律の範囲内で条例を制定する権限をもつ。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"日本の地方自治制度",
+      "sub_domain":"地方自治",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"4.政治参加"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["数値混同","主体取違"],
+      "keywords_to_avoid":[]
+    },
+    "passage": "",
+    "sources": [{"claim":"Japan’s Local Autonomy Act recognizes direct demands such as enactment of by-laws and recall.","source":"総務省 地方自治制度","year":2024,"url":"https://www.soumu.go.jp/main_sosiki/jichi_gyousei/bunken/"}]
+  },
+  {
+    "id": 25,
+    "global_id": 31,
+    "title": "問25",
+    "prompt": "次の文章は，米国とソ連（後継のロシア）の戦略核弾頭推定保有数（SIPRI推計）の推移である。読み取れる内容として最も適当なものはどれですか。\n米国：1965年 約32,000，1986年 約23,300，2015年 約7,000。\nソ連／ロシア：1965年 約6,000，1986年 約40,000，2015年 約7,500。",
+    "choices": [
+      {"id":1,"text":"米国の核弾頭数は1965年から2015年まで一貫して増加した。","explanation_zh":"陷阱：数值混同。资料中美方从约 32,000 减至约 7,000，是减少。","explanation_ja":"誤り。数値混同の罠。米国は約32,000から約7,000へ減少しており，一貫増加ではない。"},
+      {"id":2,"text":"米国の核弾頭数は1965年の約32,000から2015年の約7,000へ大幅に減少し，ソ連／ロシアは1986年の約40,000から2015年の約7,500へ減少した。","explanation_zh":"正确。美苏在 1965-2015 间均显著减少核弹头。","explanation_ja":"正解。米露ともに1986年頃のピークから2015年にかけて核弾頭数が大幅に減少している。"},
+      {"id":3,"text":"2015年時点で米露の核弾頭数はいずれも0であった。","explanation_zh":"陷阱：范围扩大。资料中 2015 年仍各为约 7,000-7,500。","explanation_ja":"誤り。範囲拡大の罠。2015年も米国約7,000，ロシア約7,500で0ではない。"},
+      {"id":4,"text":"ソ連／ロシアの核弾頭数は1986年に米国の半分以下であった。","explanation_zh":"陷阱：数值混同。资料中 1986 年苏方约 40,000 大于美方约 23,300。","explanation_ja":"誤り。数値混同の罠。1986年のソ連約40,000は米国約23,300を上回る。"}
+    ],
+    "answer": 2,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"冷戦期の国際事件",
+      "sub_domain":"現代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"2. 二つの世界大戦とその影響"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["数値混同","主体取違"],
+      "keywords_to_avoid":[]
+    },
+    "sources": [{"claim":"US and Soviet/Russian strategic nuclear warhead estimates 1965–2015.","source":"SIPRI, World Nuclear Forces","year":2016,"url":"https://www.sipri.org/yearbook/2016/11"}]
+  },
+  {
+    "id": 26,
+    "global_id": 32,
+    "title": "問26",
+    "prompt": "条約と国際慣習法を主要な法源とする国際法の特徴について、次の文章の内容と合っているものはどれですか。",
+    "choices": [
+      {"id":1,"text":"国際法の主要な法源は条約と国際慣習法であり，主権国家の合意を基礎として規範が形成される。","explanation_zh":"正确。文章指出条约和国际惯例法是国际法主要法源，以主权国家合意为基础。","explanation_ja":"正解。本文は条約と国際慣習法が主要な法源であり，主権国家の合意に基づいて規範が形成されると述べる。"},
+      {"id":2,"text":"国際社会には国内法の立法府にあたる中央立法機関があり，国家の合意なしに法を制定できる。","explanation_zh":"陷阱：概念混淆。文章指出国际社会缺乏中央立法机关，依据国家合意形成规范。","explanation_ja":"誤り。概念混同の罠。本文は国際社会に中央立法機関はなく，国家の合意に基づくと述べている。"},
+      {"id":3,"text":"国際司法裁判所はすべての国家紛争について自動的に強制管轄をもつ。","explanation_zh":"陷阱：范围扩大。文章说明 ICJ 强制管辖以当事国同意为基础，并非自动适用。","explanation_ja":"誤り。範囲拡大の罠。本文ではICJの管轄は当事国の同意を基本とし，自動的な強制管轄ではない。"},
+      {"id":4,"text":"国際法の法源は条約のみで，国際慣習法は法源として認められていない。","explanation_zh":"陷阱：范围扩大。文章指出国际惯例法是国际法主要法源之一。","explanation_ja":"誤り。範囲拡大の罠。本文は国際慣習法を国際法の主要な法源と位置づけている。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"政治",
+      "topic":"国際法の構成要素と機構",
+      "sub_domain":"国際政治・外交",
+      "syllabus_path":{"area":"I 政治・経済・社会","field":"現代の政治","item":"5. 国際政治"},
+      "question_form":"文章読解",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["数値混同","主体取違"],
+      "keywords_to_avoid":[]
+    },
+    "passage": "国際法は，国家間の関係や国際機構の活動を規律する法体系である。その主要な法源は，国家間で締結される「条約」と，諸国の慣行が法的確信を伴って積み重ねられた「国際慣習法」の二つに大別される。国際社会には国内法の立法府にあたる中央立法機関がなく，主権国家の合意に基づいて規範が形成される点に特徴がある。紛争解決の場としては国際司法裁判所（ICJ）などが置かれるが，国家には強制管轄を一律に受け入れる義務はなく，当事国の同意を基本とする制度になっている。"
+  },
+  {
+    "id": 27,
+    "global_id": 33,
+    "title": "問27",
+    "prompt": "ヨーロッパ統合の枠組みであるEC（欧州共同体）とEU（欧州連合）の違いとして最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"ECは主に経済統合を目的としていたのに対し，1993年のマーストリヒト条約に基づき発足したEUは，経済に加えて外交・安全保障や司法・内務協力も対象とする枠組みである。","explanation_zh":"正确。EC 主要为经济一体化，1993 年生效的马斯特里赫特条约后 EU 增加外交安全和司法等领域。","explanation_ja":"正解。ECは経済統合中心で，1993年マーストリヒト条約発効後のEUは外交・安全保障や司法協力も含む統合体である。"},
+      {"id":2,"text":"ECは1993年のマーストリヒト条約に基づき発足し，EUはその前身である。","explanation_zh":"陷阱：时态错位。马斯特里赫特条约 1993 年生效后由 EC 转为 EU，前后关系相反。","explanation_ja":"誤り。時態錯位の罠。マーストリヒト条約発効後にECからEUへ移行しており，前後関係が逆である。"},
+      {"id":3,"text":"EUに加盟するすべての国はユーロを共通通貨として導入する義務を負っている。","explanation_zh":"陷阱：范围扩大。EU 成员国未必都加入欧元区，部分国家保留本国货币。","explanation_ja":"誤り。範囲拡大の罠。EU加盟国がすべてユーロを導入しているわけではない。"},
+      {"id":4,"text":"ECは関税同盟を含まず，自由貿易は対象としていなかった。","explanation_zh":"陷阱：概念混淆。EC 包括关税同盟和共同市场，是经济一体化主要内容。","explanation_ja":"誤り。概念混同の罠。ECは関税同盟と共同市場を含み，自由貿易を主要対象としていた。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"EU加盟国・ヨーロッパ統合",
+      "sub_domain":"現代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"2. 二つの世界大戦とその影響"},
+      "question_form":"比較分析",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["数値混同","主体取違"],
+      "keywords_to_avoid":[]
+    },
+    "passage": "",
+    "sources": [{"claim":"The Maastricht Treaty (1993) transformed the EC into the EU, adding common foreign and security policy and JHA cooperation.","source":"European Union, History of the EU","year":1993,"url":"https://european-union.europa.eu/principles-countries-history/history-eu_en"}]
+  },
+  {
+    "id": 28,
+    "global_id": 34,
+    "title": "問28",
+    "prompt": "1814〜15年のウィーン会議とその後のヨーロッパ秩序に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"ウィーン会議はナポレオン戦争後の1914年に開催され，第一次世界大戦の戦後処理を行った。","explanation_zh":"陷阱：时态错位。维也纳会议为 1814-15 年，与一战无关。","explanation_ja":"誤り。時態錯位の罠。ウィーン会議は1814-15年で，第一次世界大戦の戦後処理ではない。"},
+      {"id":2,"text":"ウィーン会議の中心人物はビスマルクであり，ドイツ統一を直接決定した。","explanation_zh":"陷阱：主体错位。会议核心人物为奥地利的梅特涅，俾斯麦活动于半世纪后。","explanation_ja":"誤り。主体取違の罠。ウィーン会議の中心人物はオーストリアのメッテルニヒで，ビスマルクは半世紀後の人物。"},
+      {"id":3,"text":"ウィーン体制は自由主義・国民主義の運動を全面的に支持し，欧州各地の独立運動を奨励した。","explanation_zh":"陷阱：概念混淆。维也纳体系压制自由主义和民族主义运动，是保守主义体系。","explanation_ja":"誤り。概念混同の罠。ウィーン体制は保守主義に基づき自由主義・国民主義運動を抑圧した。"},
+      {"id":4,"text":"ウィーン会議は，正統主義と勢力均衡の原則に基づいてフランス革命前の旧秩序の復活と欧州諸国間の均衡を図った。","explanation_zh":"正确。维也纳会议依正统主义和势力均衡原则恢复旧秩序并维持欧洲均势。","explanation_ja":"正解。ウィーン会議は正統主義と勢力均衡を原則に旧体制の復活と欧州諸国の均衡を目指した。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"ウィーン会議とヨーロッパ秩序",
+      "sub_domain":"近代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"1. 近代化の進展とその影響"},
+      "question_form":"正誤判定",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["数値混同","主体取違"],
+      "keywords_to_avoid":[]
+    },
+    "passage": "",
+    "sources": [{"claim":"The Congress of Vienna (1814–15) used legitimacy and balance of power to reshape Europe.","source":"Encyclopaedia Britannica, Congress of Vienna","year":2024,"url":"https://www.britannica.com/event/Congress-of-Vienna"}]
+  },
+  {
+    "id": 29,
+    "global_id": 35,
+    "title": "問29",
+    "prompt": "日本近現代史に関する次の出来事 ア〜エ を，年代の古い順に並べたものとして正しいものはどれですか。\nア：明治維新の開始，イ：日清戦争の勃発，ウ：日露戦争の勃発，エ：戦後改革（戦後民主化）の開始。",
+    "choices": [
+      {"id":1,"text":"ア → イ → ウ → エ","explanation_zh":"正确。明治维新 1868 → 日清战争 1894 → 日俄战争 1904 → 战后改革 1945-，顺序正确。","explanation_ja":"正解。ア1868→イ1894→ウ1904→エ1945-の順序で年代順と一致する。"},
+      {"id":2,"text":"イ → ア → ウ → エ","explanation_zh":"陷阱：顺序混乱。明治维新(1868)早于日清战争(1894)，应在前。","explanation_ja":"誤り。順序混同の罠。明治維新(1868年)は日清戦争(1894年)より早い。"},
+      {"id":3,"text":"ア → ウ → イ → エ","explanation_zh":"陷阱：时态错位。日清战争(1894)早于日俄战争(1904)，应在前。","explanation_ja":"誤り。時態錯位の罠。日清戦争(1894年)は日露戦争(1904年)より早い。"},
+      {"id":4,"text":"エ → ア → イ → ウ","explanation_zh":"陷阱：范围扩大。战后改革(1945-)是四件中最晚的事件，不应排第一。","explanation_ja":"誤り。範囲拡大の罠。戦後改革(1945年以降)は4件中最も新しく，先頭ではない。"}
+    ],
+    "answer": 1,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"クリミア戦争の影響",
+      "sub_domain":"近代世界",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"1. 近代化の進展とその影響"},
+      "question_form":"時系列整序",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["数値混同","主体取違"],
+      "keywords_to_avoid":[]
+    },
+    "passage": "",
+    "sources": [{"claim":"日本近現代年表：明治維新1868，日清戦争1894，日露戦争1904，戦後改革1945-。","source":"NDL, Modern Japan chronology","year":2024,"url":"https://www.ndl.go.jp/modern/e/"}]
+  },
+  {
+    "id": 30,
+    "global_id": 36,
+    "title": "問30",
+    "prompt": "19世紀末から20世紀初頭のアメリカ合衆国の対外膨張に関する次の出来事 ア〜ウ と説明 X〜Z の組合せとして最も適当なものはどれですか。\nア：米西戦争，イ：ハワイ併合，ウ：パナマ運河の建設開始。\nX：1898年の戦争でスペインに勝利し，フィリピンやプエルトリコなどを獲得した。\nY：1898年に合衆国は太平洋上のこの王国を併合し，太平洋進出の足場とした。\nZ：20世紀初頭から大西洋と太平洋を結ぶ運河の建設に着手し，1914年に開通させた。",
+    "choices": [
+      {"id":1,"text":"ア-Y，イ-X，ウ-Z","explanation_zh":"陷阱：主体错位。美西战争对应取得菲律宾等(X)，夏威夷并入对应(Y)，本项把首项与第二项错配。","explanation_ja":"誤り。主体取違の罠。米西戦争はX，ハワイ併合はYで，アとイの対応が逆になっている。"},
+      {"id":2,"text":"ア-Z，イ-Y，ウ-X","explanation_zh":"陷阱：时态错位。巴拿马运河建设(20世纪初)与美西战争(1898)时代不同，本项把首项与末项错配。","explanation_ja":"誤り。時態錯位の罠。米西戦争(1898年)とパナマ運河建設(20世紀初頭)は時期が異なり，アとウが入れ替わっている。"},
+      {"id":3,"text":"ア-X，イ-Z，ウ-Y","explanation_zh":"陷阱：概念混淆。夏威夷并入对应(Y)，并非巴拿马运河(Z)。","explanation_ja":"誤り。概念混同の罠。ハワイ併合はYであり，パナマ運河(Z)ではない。"},
+      {"id":4,"text":"ア-X，イ-Y，ウ-Z","explanation_zh":"正确。美西战争=X，夏威夷并入=Y，巴拿马运河=Z，组合一致。","explanation_ja":"正解。米西戦争＝X，ハワイ併合＝Y，パナマ運河建設＝Zで歴史事実と一致する。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"米西戦争とアメリカ帝国主義",
+      "sub_domain":"近代日本",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"1. 近代化の進展とその影響"},
+      "question_form":"組合せ",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["数値混同","主体取違"],
+      "keywords_to_avoid":[]
+    },
+    "passage": "",
+    "sources": [{"claim":"Spanish-American War 1898, Hawaii annexation 1898, Panama Canal opened 1914.","source":"US Office of the Historian, US Imperialism","year":2024,"url":"https://history.state.gov/milestones/1866-1898"}]
+  },
+  {
+    "id": 31,
+    "global_id": 37,
+    "title": "問31",
+    "prompt": "日本の産業施設である八幡製鐵所に関する記述として最も適当なものはどれですか。",
+    "choices": [
+      {"id":1,"text":"八幡製鐵所は江戸時代初期に北海道で設立され，主に銀の精錬を行った。","explanation_zh":"陷阱：时态错位。八幡制铁所于 1901 年在福冈县八幡村开业，是钢铁厂，并非江户初期北海道银。","explanation_ja":"誤り。時態錯位の罠。八幡製鐵所は1901年に福岡県八幡村で操業を開始した製鉄所で，時期も場所も異なる。"},
+      {"id":2,"text":"八幡製鐵所は明治政府による民間の繊維工場であり，鉄鋼業とは無関係であった。","explanation_zh":"陷阱：概念混淆。八幡制铁所是国营官办钢铁厂，并非纺织工厂。","explanation_ja":"誤り。概念混同の罠。八幡製鐵所は官営の製鉄所であり，繊維工業ではない。"},
+      {"id":3,"text":"八幡製鐵所は第二次世界大戦後に解体され，現在の工場跡地はすべて消滅し，世界遺産にも登録されていない。","explanation_zh":"陷阱：范围扩大。八幡制铁所部分设施作为「明治日本产业革命遗产」于 2015 年登录世界遗产。","explanation_ja":"誤り。範囲拡大の罠。八幡製鐵所関連施設は2015年に「明治日本の産業革命遺産」として世界遺産に登録されている。"},
+      {"id":4,"text":"八幡製鐵所は1901年に福岡県八幡村で操業を開始した官営製鉄所で，日本の重工業発展を支え，関連施設は2015年に世界遺産に登録された。","explanation_zh":"正确。八幡制铁所 1901 年开业的官营钢铁厂，2015 年部分设施被登录世界遗产。","explanation_ja":"正解。八幡製鐵所は1901年操業開始の官営製鉄所で，日本の重工業を支え，2015年に世界遺産登録された。"}
+    ],
+    "answer": 4,
+    "tag": {
+      "subject_domain":"地理",
+      "topic":"日本の産業施設・八幡製鐵所",
+      "sub_domain":"日本地誌",
+      "syllabus_path":{"area":"II 地理","field":"地理","item":"1. 現代世界の特色と諸課題の地理的考察"},
+      "question_form":"事実選択",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"不変知識",
+      "requires_image":false,
+      "trap_patterns":["数値混同","主体取違"],
+      "keywords_to_avoid":[]
+    },
+    "passage": "",
+    "sources": [{"claim":"Yawata Iron and Steel Works began operations in 1901; related sites are part of the 2015 UNESCO World Heritage list.","source":"UNESCO World Heritage, Sites of Japan’s Meiji Industrial Revolution","year":2015,"url":"https://whc.unesco.org/en/list/1484/"}]
+  },
+  {
+    "id": 32,
+    "global_id": 38,
+    "title": "問32",
+    "prompt": "次の文章は，2022年の中東主要産油国の原油生産量（日量百万バレル，OPEC統計）である。読み取れる内容として最も適当なものはどれですか。\nサウジアラビア：約10.6，イラク：約4.4，イラン：約2.5。",
+    "choices": [
+      {"id":1,"text":"資料中ではイランの原油生産量がサウジアラビアを上回る。","explanation_zh":"陷阱：数值混同。资料中沙特约 10.6 远超伊朗约 2.5。","explanation_ja":"誤り。数値混同の罠。サウジアラビア約10.6はイラン約2.5を上回る。"},
+      {"id":2,"text":"資料中ではイラクの原油生産量がサウジアラビアの3倍を超える。","explanation_zh":"陷阱：数值混同。资料中伊拉克约 4.4 不足沙特约 10.6 的 3 倍。","explanation_ja":"誤り。数値混同の罠。イラク約4.4はサウジアラビア約10.6の3倍を超えていない。"},
+      {"id":3,"text":"サウジアラビアの原油生産量は約10.6百万バレル／日で，イラクの約4.4，イランの約2.5を大きく上回る。","explanation_zh":"正确。资料中沙特生产量为最大，伊拉克其次，伊朗最少。","explanation_ja":"正解。サウジアラビア約10.6が最大で，イラク約4.4，イラン約2.5の順となる資料と一致する。"},
+      {"id":4,"text":"三国の原油生産量はすべて完全に同じ値であった。","explanation_zh":"陷阱：范围扩大。资料中三国数值明显不同。","explanation_ja":"誤り。範囲拡大の罠。3国の値は明確に異なり同一ではない。"}
+    ],
+    "answer": 3,
+    "tag": {
+      "subject_domain":"歴史",
+      "topic":"第一次世界大戦後の中東分割",
+      "sub_domain":"現代日本",
+      "syllabus_path":{"area":"III 歴史","field":"歴史","item":"2. 二つの世界大戦とその影響"},
+      "question_form":"図表読取",
+      "statement_polarity":"正答正記述",
+      "time_sensitivity":"時事連動",
+      "requires_image":false,
+      "trap_patterns":["数値混同","主体取違"],
+      "keywords_to_avoid":[]
+    },
+    "sources": [{"claim":"OPEC member crude oil production 2022 (Saudi Arabia, Iraq, Iran).","source":"OPEC Annual Statistical Bulletin 2023","year":2023,"url":"https://www.opec.org/opec_web/en/publications/202.htm"}]
+  }
+]
+}
